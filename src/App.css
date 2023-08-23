@@ -1,0 +1,224 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  color: #f7f7f7;
+  background-color: #001c2e;
+  font-family: var(--font-family);
+}
+
+.manta {
+  width: 40px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.skylogo {
+  width: 200px;
+}
+
+footer {
+  font-size: 12px;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #f7f7f7;
+  text-align: center;
+}
+
+.map-1 {
+  background: rgb(255, 205, 178);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 205, 178, 1) 0%,
+    rgba(255, 180, 162, 1) 25%,
+    rgba(229, 152, 155, 1) 50%,
+    rgba(181, 131, 141, 1) 75%,
+    rgba(109, 104, 117, 1) 100%
+  );
+  height: auto;
+  width: 20rem;
+  color: #f7f7f7;
+}
+
+.map-2 {
+  background: rgb(34, 87, 122);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 87, 122, 1) 0%,
+    rgba(56, 163, 165, 1) 25%,
+    rgba(87, 204, 153, 1) 50%,
+    rgba(128, 237, 153, 1) 75%,
+    rgba(199, 249, 204, 1) 100%
+  );
+  height: auto;
+  width: 20rem;
+
+  color: #f7f7f7;
+}
+
+.map-3 {
+  background: rgb(219, 227, 229);
+  background: linear-gradient(
+    180deg,
+    rgba(219, 227, 229, 1) 0%,
+    rgba(101, 160, 178, 1) 25%,
+    rgba(46, 100, 128, 1) 50%,
+    rgba(24, 55, 73, 1) 75%,
+    rgba(14, 25, 31, 1) 100%
+  );
+  height: auto;
+  width: 20rem;
+  color: #f7f7f7;
+}
+
+.map-4 {
+  background: rgb(67, 35, 113);
+  background: linear-gradient(
+    0deg,
+    rgba(67, 35, 113, 1) 0%,
+    rgba(113, 70, 116, 1) 23%,
+    rgba(159, 105, 118, 1) 50%,
+    rgba(204, 139, 121, 1) 75%,
+    rgba(250, 174, 123, 1) 100%
+  );
+  height: auto;
+  width: 20rem;
+
+  color: #f7f7f7;
+}
+
+.map-5 {
+  background: rgb(19, 42, 19);
+  background: linear-gradient(
+    0deg,
+    rgba(19, 42, 19, 1) 0%,
+    rgba(49, 87, 44, 1) 25%,
+    rgba(79, 119, 45, 1) 50%,
+    rgba(144, 169, 85, 1) 75%,
+    rgba(236, 243, 158, 1) 100%
+  );
+  height: auto;
+  width: 20rem;
+
+  color: #f7f7f7;
+}
+
+.map-6 {
+  background: rgb(120, 192, 224);
+  background: linear-gradient(
+    180deg,
+    rgba(120, 192, 224, 1) 0%,
+    rgba(68, 157, 209, 1) 25%,
+    rgba(25, 43, 194, 1) 50%,
+    rgba(21, 5, 120, 1) 75%,
+    rgba(14, 14, 82, 1) 100%
+  );
+  height: auto;
+  width: 20rem;
+
+  color: #f7f7f7;
+}
+
+.map-7 {
+  background: rgb(183, 9, 76);
+  background: linear-gradient(
+    180deg,
+    rgba(183, 9, 76, 1) 0%,
+    rgba(160, 26, 88, 1) 12%,
+    rgba(137, 43, 100, 1) 25%,
+    rgba(114, 60, 112, 1) 38%,
+    rgba(92, 77, 125, 1) 52%,
+    rgba(69, 94, 137, 1) 63%,
+    rgba(46, 111, 149, 1) 74%,
+    rgba(23, 128, 161, 1) 87%,
+    rgba(0, 145, 173, 1) 100%
+  );
+  height: auto;
+  width: 20rem;
+
+  color: #f7f7f7;
+}
+.map-8 {
+  background: rgb(7, 190, 184);
+  background: linear-gradient(
+    0deg,
+    rgba(7, 190, 184, 1) 0%,
+    rgba(61, 204, 199, 1) 25%,
+    rgba(104, 216, 214, 1) 50%,
+    rgba(156, 234, 239, 1) 75%,
+    rgba(196, 255, 249, 1) 100%
+  );
+  height: auto;
+  width: 20rem;
+
+  color: #f7f7f7;
+}
+.map-9 {
+  background: rgb(255, 229, 236);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 229, 236, 1) 0%,
+    rgba(255, 194, 209, 1) 25%,
+    rgba(255, 179, 198, 1) 50%,
+    rgba(255, 143, 171, 1) 75%,
+    rgba(251, 111, 146, 1) 100%
+  );
+  height: auto;
+  width: 20rem;
+
+  color: #f7f7f7;
+}
+
+.icon-hover:hover {
+  filter: drop-shadow(0 0 8mm #ff0000aa);
+}
+
+.icon-hover {
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(19, 144, 175);
+}
+
+.p-button:hover {
+  filter: drop-shadow(0 0 2mm #ff6600);
+}
+
+section {
+  width: 80%;
+  line-height: 1.5pc;
+  margin: auto;
+  text-align: center; /*This line STARTS here is aligning contents in div to center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column; /*This line ENDS here is aligning contents in div to center */
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 90%;
+}
+
+.p-card .p-card-subtitle {
+  color: #f7f7f7 !important;
+}
+
+.p-chip {
+  font-size: 10px;
+}
+
+.p-badge {
+  font-size: 10px;
+}
