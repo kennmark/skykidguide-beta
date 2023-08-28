@@ -1,94 +1,130 @@
-import { MegaMenu } from 'primereact/megamenu'
-import { InputText } from 'primereact/inputtext'
+import { Link } from 'react-router-dom'
+import {
+  Navbar,
+  Collapse,
+  Typography,
+  IconButton,
+} from '@material-tailwind/react'
 import skykidhelpguidelogo from './../../assets/images/favicon/android-chrome-192x192.png'
+import { useState, useEffect } from 'react'
 
 const Header = () => {
-  const items = [
-    {
-      label: 'News',
-    },
-    {
-      label: 'Message',
-    },
-    {
-      label: 'Developer',
-    },
-    {
-      label: 'Events',
-    },
-    {
-      label: 'Seasons',
-      items: [
-        [
-          {
-            label: 'Seasons Noong 2019',
-            items: [
-              { label: 'Season Of Gratitude' },
-              { label: 'Season Of Lightseekers' },
-              { label: 'Season Of Belonging' },
-            ],
-          },
-          {
-            label: 'Seasons Noong 2020',
-            items: [
-              { label: 'Season Of Rythm' },
-              { label: 'Season Of Enchantment' },
-              { label: 'Season Of Sanctuary' },
-              { label: 'Season Of Prophecy' },
-            ],
-          },
-        ],
-        [
-          {
-            label: 'Seasons Noong 2021',
-            items: [
-              { label: 'Season Of Dreams' },
-              { label: 'Season Of Assembly' },
-              { label: 'Season Of The Little Prince' },
-              { label: 'Season Of The Little Flight' },
-            ],
-          },
-          {
-            label: 'Seasons Noong 2022',
-            items: [
-              { label: 'Season Of Abyss' },
-              { label: 'Season Of Performance' },
-              { label: 'Season Of Shattering' },
-              { label: 'Season Of Aurora' },
-            ],
-          },
-        ],
-        [
-          {
-            label: 'Seasons Ngayong 2023',
-            items: [
-              { label: 'Season Of Remembrance' },
-              { label: 'Season Of Passage' },
-              { label: 'Season Of Moments' },
-            ],
-          },
-        ],
-      ],
-    },
-  ]
-  const start = (
-    <a href="#home">
-      <img alt="logo" src={skykidhelpguidelogo} height="40" className="mr-2" />
-    </a>
-  )
-  const end = (
-    <InputText placeholder="Saliksik..." type="text" className="w-full" />
+  const [openNav, setOpenNav] = useState(false)
+
+  useEffect(() => {
+    window.addEventListener(
+      'resize',
+      () => window.innerWidth >= 960 && setOpenNav(false)
+    )
+  }, [])
+
+  const navList = (
+    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+      <Link to="/balita" className="flex items-center">
+        <Typography
+          as="li"
+          variant="small"
+          color="white"
+          className="p-1 font-normal uppercase hover:bg-red-500/10 focus:bg-red-500/10 py-4 px-4 rounded-lg"
+        >
+          Balita
+        </Typography>
+      </Link>
+      <Link to="/team" className="flex items-center">
+        <Typography
+          as="li"
+          variant="small"
+          color="white"
+          className="p-1 font-normal uppercase hover:bg-red-500/10 focus:bg-red-500/10 py-4 px-4 rounded-lg"
+        >
+          Team
+        </Typography>
+      </Link>
+      <Link to="/events" className="flex items-center">
+        <Typography
+          as="li"
+          variant="small"
+          color="white"
+          className="p-1 font-normal uppercase hover:bg-red-500/10 focus:bg-red-500/10 py-4 px-4 rounded-lg"
+        >
+          Events
+        </Typography>
+      </Link>
+      <Link to="/seasons" className="flex items-center">
+        <Typography
+          as="li"
+          variant="small"
+          color="white"
+          className="p-1 font-normal uppercase hover:bg-red-500/10 focus:bg-red-500/10 py-4 px-4 rounded-lg"
+        >
+          Seasons
+        </Typography>
+      </Link>
+    </ul>
   )
   return (
-    <div className="card">
-      <MegaMenu
-        model={items}
-        orientation="horizontal"
-        start={start}
-        end={end}
-        breakpoint="960px"
-      />
-    </div>
+    <Navbar
+      variant="gradient"
+      color="blue-gray"
+      className="sticky top-0 z-10 h-max mx-auto w-full bg-gradient-to-r from-blue-900 to-purple-900 rounded-lg py-2 px-4 lg:px-8 lg:py-4"
+      fullWidth={true}
+    >
+      <div className="flex items-center justify-between text-blue-gray-900 uppercase ">
+        <Link
+          to="/"
+          className="flex items-center hover:bg-red-500/10 focus:bg-red-500/10 py-1 px-1 rounded-lg"
+        >
+          <img src={skykidhelpguidelogo} style={{ width: 50 }} />
+          <Typography color="white" className="p-1 font-normal">
+            Skykid:Tulong & Gabay
+          </Typography>
+        </Link>
+
+        <div className="flex items-center  gap-4">
+          <div className="mr-4 hidden lg:block">{navList}</div>
+
+          <IconButton
+            variant="text"
+            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+            ripple={false}
+            onClick={() => setOpenNav(!openNav)}
+          >
+            {openNav ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="white"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            ) : (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="white"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+                />
+              </svg>
+            )}
+          </IconButton>
+        </div>
+      </div>
+      <Collapse open={openNav}>{navList}</Collapse>
+    </Navbar>
   )
 }
 

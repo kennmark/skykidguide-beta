@@ -1,47 +1,62 @@
-import React from 'react'
-import 'primeflex/primeflex.css'
+import React, { useEffect } from 'react'
 import { maps } from '../data/maps'
+import { useState } from 'react'
+import { Typography } from '@material-tailwind/react'
 import MapCardContainer from './components/MapCardContainer'
-import Faq from './components/Faq'
-import Header from './components/Header'
-import Footer from './components/Footer'
+// import ErrorBoundary from './components/ErrorBoundary'
+import AnnouncementModal from './AnnouncementModal'
+import FaQ from './FaQ'
+import homescreen from '../assets/images/home.jpg'
 
 const HomeSpace = () => {
+  const monthName = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ]
+
+  const today = new Date()
+  const year = today.getFullYear()
+  let mm = monthName[today.getMonth()]
+  let dd = today.getDate()
+  if (dd < 10) dd = '0' + dd
+  const formattedToday = mm + ' ' + dd + ', ' + year
+
   return (
     <div>
-      <div>
-        <Header />
-      </div>
-      <h1>Maligayang Paglipad Skykid!</h1>
-      <section>
-        <p>
-          Ang website na ito ay ginawa para sa mga manlalaro ng
-          <a href="https://www.thatskygame.com/">
-            {' '}
-            Sky: Children of the Light
-          </a>{' '}
-          app. Ito ay upang makatulong sa mga baguhang "moth" na nakagiliwang
-          maglaro ng app na ito. Ito din ay magsisilbing gabay sa mga bagong
-          pangyayayri sa loob ng laro.
-        </p>
-        <p>
-          Ang website na ito ay ginawa na "user-friendly" upang di mahirapan
-          hanapin at gamitin at nasa wikang Filipino na ginawa talaga para sa
-          mga Pinoy. Ang website ay magbibigay ng gabay sa mga lokasyon at
-          impormasyon ng mga "spirits" (regular spirits at seasonal spirits),
-          "winged lights (children of the light)"; talakdaan ng oras ng
-          "geyser", ng "grandma", at ng "turtle".
-        </p>
-      </section>
-      <div className="grid justify-content-center">
-        {maps.map((map, index) => {
-          return <MapCardContainer {...map} key={map.id} number={index} />
+      <AnnouncementModal />
+      <figure className="relative h-96 w-full my-6 px-6 ">
+        <img
+          className="h-full w-full rounded-xl object-cover object-center "
+          src={homescreen}
+          alt="Sky home screen"
+        />
+        <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border-none bg-gradient-to-br py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
+          <div>
+            <Typography variant="h5" color="white">
+              Maligayang Paglipad Skykid!
+            </Typography>
+            <Typography color="white" className="mt-2 font-normal">
+              {formattedToday}
+            </Typography>
+          </div>
+        </figcaption>
+      </figure>
+      <div className="flex flex-wrap justify-center">
+        {maps.map((map) => {
+          return <MapCardContainer {...map} key={map.id} />
         })}
       </div>
-
-      <Faq />
-
-      <Footer />
+      <FaQ />
     </div>
   )
 }

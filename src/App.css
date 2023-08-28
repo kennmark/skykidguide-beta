@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,9 +8,8 @@
   text-align: center;
 }
 body {
-  color: #f7f7f7;
-  background-color: #001c2e;
-  font-family: var(--font-family);
+  color: rgb(229 231 235);
+  background-color: #000c18;
 }
 
 .manta {
@@ -20,16 +22,6 @@ body {
   width: 200px;
 }
 
-footer {
-  font-size: 12px;
-  /* position: fixed; */
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: #f7f7f7;
-  text-align: center;
-}
-
 .map-1 {
   background: rgb(255, 205, 178);
   background: linear-gradient(
@@ -40,9 +32,8 @@ footer {
     rgba(181, 131, 141, 1) 75%,
     rgba(109, 104, 117, 1) 100%
   );
-  height: auto;
-  width: 20rem;
-  color: #f7f7f7;
+  height: 514px;
+  color: rgb(8 47 73);
 }
 
 .map-2 {
@@ -55,10 +46,8 @@ footer {
     rgba(128, 237, 153, 1) 75%,
     rgba(199, 249, 204, 1) 100%
   );
-  height: auto;
-  width: 20rem;
-
-  color: #f7f7f7;
+  height: 514px;
+  color: rgb(8 47 73);
 }
 
 .map-3 {
@@ -71,9 +60,8 @@ footer {
     rgba(24, 55, 73, 1) 75%,
     rgba(14, 25, 31, 1) 100%
   );
-  height: auto;
-  width: 20rem;
-  color: #f7f7f7;
+  color: rgb(8 47 73);
+  height: 514px;
 }
 
 .map-4 {
@@ -86,10 +74,8 @@ footer {
     rgba(204, 139, 121, 1) 75%,
     rgba(250, 174, 123, 1) 100%
   );
-  height: auto;
-  width: 20rem;
-
-  color: #f7f7f7;
+  color: rgb(8 47 73);
+  height: 514px;
 }
 
 .map-5 {
@@ -102,10 +88,8 @@ footer {
     rgba(144, 169, 85, 1) 75%,
     rgba(236, 243, 158, 1) 100%
   );
-  height: auto;
-  width: 20rem;
-
-  color: #f7f7f7;
+  color: rgb(8 47 73);
+  height: 514px;
 }
 
 .map-6 {
@@ -118,16 +102,14 @@ footer {
     rgba(21, 5, 120, 1) 75%,
     rgba(14, 14, 82, 1) 100%
   );
-  height: auto;
-  width: 20rem;
-
-  color: #f7f7f7;
+  color: rgb(8 47 73);
+  height: 514px;
 }
 
 .map-7 {
   background: rgb(183, 9, 76);
   background: linear-gradient(
-    180deg,
+    0deg,
     rgba(183, 9, 76, 1) 0%,
     rgba(160, 26, 88, 1) 12%,
     rgba(137, 43, 100, 1) 25%,
@@ -138,40 +120,34 @@ footer {
     rgba(23, 128, 161, 1) 87%,
     rgba(0, 145, 173, 1) 100%
   );
-  height: auto;
-  width: 20rem;
-
-  color: #f7f7f7;
+  color: rgb(8 47 73);
+  height: 514px;
 }
 .map-8 {
-  background: rgb(7, 190, 184);
+  background: rgb(34, 87, 122);
   background: linear-gradient(
     0deg,
-    rgba(7, 190, 184, 1) 0%,
-    rgba(61, 204, 199, 1) 25%,
-    rgba(104, 216, 214, 1) 50%,
-    rgba(156, 234, 239, 1) 75%,
-    rgba(196, 255, 249, 1) 100%
+    rgba(34, 87, 122, 1) 0%,
+    rgba(56, 163, 165, 1) 25%,
+    rgba(87, 204, 153, 1) 50%,
+    rgba(128, 237, 153, 1) 75%,
+    rgba(199, 249, 204, 1) 100%
   );
-  height: auto;
-  width: 20rem;
-
-  color: #f7f7f7;
+  color: rgb(8 47 73);
+  height: 514px;
 }
 .map-9 {
-  background: rgb(255, 229, 236);
+  background: rgb(34, 87, 122);
   background: linear-gradient(
-    180deg,
-    rgba(255, 229, 236, 1) 0%,
-    rgba(255, 194, 209, 1) 25%,
-    rgba(255, 179, 198, 1) 50%,
-    rgba(255, 143, 171, 1) 75%,
-    rgba(251, 111, 146, 1) 100%
+    0deg,
+    rgba(34, 87, 122, 1) 0%,
+    rgba(56, 163, 165, 1) 25%,
+    rgba(87, 204, 153, 1) 50%,
+    rgba(128, 237, 153, 1) 75%,
+    rgba(199, 249, 204, 1) 100%
   );
-  height: auto;
-  width: 20rem;
-
-  color: #f7f7f7;
+  color: rgb(8 47 73);
+  height: 514px;
 }
 
 .icon-hover:hover {
@@ -217,8 +193,53 @@ section {
 
 .p-chip {
   font-size: 10px;
+  background-color: #ff099a36;
+  color: #fff;
 }
 
 .p-badge {
   font-size: 10px;
+}
+
+#content {
+  flex: 1;
+  padding: 2rem 4rem;
+  width: 100%;
+}
+
+#content.loading {
+  opacity: 0.25;
+  transition: opacity 200ms;
+  transition-delay: 200ms;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .map-1,
+  .map-2,
+  .map-3,
+  .map-4,
+  .map-5,
+  .map-6,
+  .map-7,
+  .map-8,
+  .map-9 {
+    height: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
