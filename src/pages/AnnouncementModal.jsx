@@ -41,13 +41,17 @@ const AnnouncementModal = () => {
 
   return (
     <>
-      <Dialog open={open} handler={handleOpen}>
+      <Dialog
+        open={open}
+        handler={handleOpen}
+        className="bg-transparent/80 h-auto"
+      >
         <DialogHeader className="flex justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="h-10 w-10 text-red-500"
+            className="h-10 w-10 text-orange-400"
           >
             <path
               fillRule="evenodd"
@@ -55,15 +59,15 @@ const AnnouncementModal = () => {
               clipRule="evenodd"
             />
           </svg>
-          <Typography variant="h6" color="blue-gray">
+          <Typography variant="h6" color="white">
             Welcome Skykid! <br /> {formattedToday}
           </Typography>
         </DialogHeader>
         <DialogBody divider className="grid place-items-center gap-4">
-          <Typography color="red" variant="h6">
+          <Typography variant="h6" className="text-orange-400">
             Saglit na Pagbasa
           </Typography>
-          <Typography className="text-center font-normal">
+          <Typography className="text-center text-white text-sm lg:text-lg ">
             Ang website na ito ay ginawa para sa mga manlalaro ng
             <a href="https://www.thatskygame.com/">
               {' '}
@@ -79,12 +83,16 @@ const AnnouncementModal = () => {
             the light)"; talakdaan ng oras ng "geyser", ng "grandma", at ng
             "turtle".
           </Typography>
-          <Typography variant="small" color="red">
+          <Typography variant="small" color="amber">
             - Developer | <i>C1pher</i>
           </Typography>
         </DialogBody>
         <DialogFooter className="space-x-2">
-          <Button variant="gradient" onClick={handleOpen}>
+          <Button
+            variant="gradient"
+            onClick={handleOpen}
+            className="bg-gradient-to-r from-blue-900 to-purple-900"
+          >
             Ok, Salamat po
           </Button>
         </DialogFooter>

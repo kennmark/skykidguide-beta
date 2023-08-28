@@ -14,15 +14,18 @@ const Team = () => {
   return (
     <div>
       <div className="flex justify-center py-5">
-        <Card className="w-80">
+        <Card
+          variant="gradient"
+          className="w-80 bg-gradient-to-t from-blue-900 to-purple-900"
+        >
           <CardHeader floated={false} className="h-80">
             <img src={kenndev} alt="profile-picture" />
           </CardHeader>
           <CardBody className="text-center">
-            <Typography variant="h4" color="blue-gray" className="mb-2">
+            <Typography variant="h4" color="white" className="mb-2">
               Kenn Mark Sabalberino
             </Typography>
-            <Typography color="blue-gray" className="font-medium" textGradient>
+            <Typography color="white" className="font-medium">
               Developer/ Freelancer
             </Typography>
           </CardBody>

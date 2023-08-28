@@ -25,15 +25,8 @@ const MapCardContainer = ({
   num_of_map_shrines,
 }) => {
   return (
-    <div className="px-0 sm:px-4 my-3 justify-center">
-      <Card
-        className={`${group} max-w-[20rem] p-8 w-96`}
-        // style={{
-        //   backgroundImage: `url(${bg})`,
-        //   backgroundBlendMode: 'multiply',
-        //   mixBlendMode: 'overlay',
-        // }}
-      >
+    <div className="sm:px-4 my-3">
+      <Card className={`${group} max-w-[20rem] p-8 w-96 justify-end`}>
         <CardHeader
           floated={false}
           shadow={false}
@@ -54,7 +47,7 @@ const MapCardContainer = ({
           </Typography>
           <Typography
             color="white"
-            className="bg-gradient-to-r from-purple-500/0 via-blue-900 to-purple-500/0 py-1"
+            className="bg-gradient-to-r from-purple-500/0 via-blue-900 to-purple-500/0 py-1 shadow-lg"
           >
             {subtitle}
           </Typography>
@@ -64,6 +57,7 @@ const MapCardContainer = ({
             <li className="flex items-center gap-4">
               <span className="rounded-full bg-white/20 p-1">
                 <Badge
+                  color="amber"
                   content={num_of_wls}
                   className="shadow-lg shadow-black/20"
                 >
@@ -77,6 +71,7 @@ const MapCardContainer = ({
               </span>
               <span className="rounded-full bg-white/20 p-1">
                 <Badge
+                  color="amber"
                   content={num_of_reg_spirits}
                   className="shadow-lg shadow-black/20"
                 >
@@ -92,6 +87,7 @@ const MapCardContainer = ({
             <li className="flex items-center gap-4">
               <span className="rounded-full bg-white/20 p-1">
                 <Badge
+                  color="amber"
                   content={num_of_season_spirits}
                   className="shadow-lg shadow-black/20"
                 >
@@ -105,6 +101,7 @@ const MapCardContainer = ({
               </span>
               <span className="rounded-full bg-white/20 p-1">
                 <Badge
+                  color="amber"
                   content={num_of_map_shrines}
                   className="shadow-lg shadow-black/20"
                 >
@@ -126,7 +123,7 @@ const MapCardContainer = ({
           <Button
             size="lg"
             color="gray"
-            className="hover:scale-[1.02] active:scale-100 bg-gradient-to-r from-blue-900 to-purple-900"
+            className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:scale-[1.02] hover:shadow-indigo-500 hover:shadow-xl"
             ripple={true}
             fullWidth={true}
           >
