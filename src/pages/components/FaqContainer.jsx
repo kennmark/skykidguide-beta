@@ -36,13 +36,13 @@ const FaqContainer = ({ id, headerTitle, body }) => {
     <Accordion open={open === id} icon={<Icon id={id} open={open} />}>
       <AccordionHeader
         onClick={() => handleOpen(id)}
-        className={`border-b-0 text-white/90 hover:text-pink-400 transition-colors ${
-          open === id ? 'text-blue-500 hover:!text-pink-400' : ''
+        className={`border-b-0 text-white/90 text-lg hover:text-pink-400 transition-colors ${
+          open === id ? 'text-amber-600 hover:!text-pink-400' : ''
         }`}
       >
         {headerTitle}
       </AccordionHeader>
-      <AccordionBody className="text-white/90 text0s">{body}</AccordionBody>
+      <AccordionBody className="text-white/90 text-md">{body}</AccordionBody>
     </Accordion>
   )
 }

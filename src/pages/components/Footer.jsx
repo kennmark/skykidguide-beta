@@ -44,7 +44,7 @@ const Footer = () => {
       ],
     },
     {
-      title: 'Links',
+      title: 'Menu',
       items: [
         {
           id: 4,

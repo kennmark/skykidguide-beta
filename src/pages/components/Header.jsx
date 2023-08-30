@@ -5,6 +5,7 @@ import {
   Typography,
   IconButton,
 } from '@material-tailwind/react'
+import { Bars3Icon, ChevronDoubleUpIcon } from '@heroicons/react/24/solid'
 import skykidhelpguidelogo from './../../assets/images/favicon/android-chrome-192x192.png'
 import { useState, useEffect } from 'react'
 
@@ -24,8 +25,7 @@ const Header = () => {
         <Typography
           as="li"
           variant="small"
-          color="white"
-          className="p-1 font-normal uppercase hover:bg-red-500/10 focus:bg-red-500/10 py-4 px-4 rounded-lg"
+          className="p-1 font-normal uppercase text-white hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg"
         >
           Balita
         </Typography>
@@ -34,8 +34,7 @@ const Header = () => {
         <Typography
           as="li"
           variant="small"
-          color="white"
-          className="p-1 font-normal uppercase hover:bg-red-500/10 focus:bg-red-500/10 py-4 px-4 rounded-lg"
+          className="p-1 font-normal uppercase text-white hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg"
         >
           Team
         </Typography>
@@ -44,8 +43,7 @@ const Header = () => {
         <Typography
           as="li"
           variant="small"
-          color="white"
-          className="p-1 font-normal uppercase hover:bg-red-500/10 focus:bg-red-500/10 py-4 px-4 rounded-lg"
+          className="p-1 font-normal uppercase text-white hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg"
         >
           Events
         </Typography>
@@ -54,8 +52,7 @@ const Header = () => {
         <Typography
           as="li"
           variant="small"
-          color="white"
-          className="p-1 font-normal uppercase hover:bg-red-500/10 focus:bg-red-500/10 py-4 px-4 rounded-lg"
+          className="p-1 font-normal uppercase text-white hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg"
         >
           Seasons
         </Typography>
@@ -69,16 +66,18 @@ const Header = () => {
       className="sticky top-0 z-50 h-max mx-auto w-full bg-gradient-to-r from-blue-900 to-purple-900 rounded-lg py-2 px-4 lg:px-8 lg:py-4"
       fullWidth={true}
     >
-      <div className="flex items-center justify-between text-blue-gray-900 uppercase ">
-        <Link
-          to="/"
-          className="flex items-center hover:bg-red-500/10 focus:bg-red-500/10 py-1 px-1 rounded-lg"
-        >
-          <img src={skykidhelpguidelogo} style={{ width: 50 }} />
-          <Typography color="white" className="p-1 font-normal">
-            Skykid:Tulong & Gabay
-          </Typography>
-        </Link>
+      <div className="flex items-center justify-between uppercase">
+        <div className="hover:bg-gradient-to-tl hover:from-blue-900 to-purple-900  py-1 px-3 rounded-3xl">
+          <Link
+            to="/"
+            className="flex items-center text-white hover:text-amber-600"
+          >
+            <img src={skykidhelpguidelogo} style={{ width: 50 }} />
+            <Typography className="p-1 text-md font-bold hidden lg:flex">
+              Skykid:Tulong & Gabay
+            </Typography>
+          </Link>
+        </div>
 
         <div className="flex items-center  gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>
@@ -90,35 +89,9 @@ const Header = () => {
             onClick={() => setOpenNav(!openNav)}
           >
             {openNav ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="white"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
+              <ChevronDoubleUpIcon className="h-6 w-6 text-gray-50" />
             ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="white"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
-                />
-              </svg>
+              <Bars3Icon className="h-6 w-6 text-gray-50" />
             )}
           </IconButton>
         </div>

@@ -59,7 +59,7 @@ const MapCardContainer = ({
                 <Badge
                   color="amber"
                   content={num_of_wls}
-                  className="shadow-lg shadow-black/20"
+                  className="shadow-lg shadow-black/20 text-indigo-900 font-extrabold"
                 >
                   <Chip
                     color="gray"
@@ -73,7 +73,7 @@ const MapCardContainer = ({
                 <Badge
                   color="amber"
                   content={num_of_reg_spirits}
-                  className="shadow-lg shadow-black/20"
+                  className="shadow-lg shadow-black/20 text-indigo-900 font-extrabold"
                 >
                   <Chip
                     color="gray"
@@ -89,7 +89,7 @@ const MapCardContainer = ({
                 <Badge
                   color="amber"
                   content={num_of_season_spirits}
-                  className="shadow-lg shadow-black/20"
+                  className="shadow-lg shadow-black/20 text-indigo-900 font-extrabold"
                 >
                   <Chip
                     color="gray"
@@ -103,7 +103,7 @@ const MapCardContainer = ({
                 <Badge
                   color="amber"
                   content={num_of_map_shrines}
-                  className="shadow-lg shadow-black/20"
+                  className="shadow-lg shadow-black/20 text-indigo-900 font-extrabold"
                 >
                   <Chip
                     color="gray"

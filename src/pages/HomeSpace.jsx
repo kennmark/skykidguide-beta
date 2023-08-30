@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { maps } from '../data/maps'
-import { useState } from 'react'
 import { Typography, Carousel, Chip, Tooltip } from '@material-tailwind/react'
 import MapCardContainer from './components/MapCardContainer'
 // import ErrorBoundary from './components/ErrorBoundary'
 import AnnouncementModal from './AnnouncementModal'
 import FaQ from './FaQ'
 import SkyClock from './SkyClock'
+import { Clock } from '../pages/components/Clock'
 import homescreen from '../assets/images/home.jpg'
 import homescreen2 from '../assets/images/home2.jpg'
 import homescreen4 from '../assets/images/home4.jpg'
@@ -44,8 +44,8 @@ const HomeSpace = () => {
   if (dd < 10) dd = '0' + dd
   const formattedToday = day + ' | ' + mm + ' ' + dd + ', ' + year
 
-  const winged_lights = 221
-  const latest_date_update = 'August 17, 2023'
+  const winged_lights = 222
+  const latest_date_update = 'August 31, 2023'
 
   const starIcon = () => {
     return (
@@ -188,6 +188,7 @@ const HomeSpace = () => {
           </div>
         </figcaption>
       </figure>
+      <Clock />
       <div className="flex flex-wrap justify-center">
         <SkyClock />
       </div>

@@ -18,7 +18,7 @@ const Team = () => {
           variant="gradient"
           className="w-80 bg-gradient-to-t from-blue-900 to-purple-900"
         >
-          <CardHeader floated={false} className="h-80">
+          <CardHeader floated={false} className="h-72">
             <img src={kenndev} alt="profile-picture" />
           </CardHeader>
           <CardBody className="text-center">
@@ -37,8 +37,7 @@ const Team = () => {
                 className="opacity-80 transition-opacity hover:opacity-100"
               >
                 <svg
-                  className="h-10 w-10"
-                  fill="currentColor"
+                  className="h-10 w-10 fill-blue-700 hover:fill-pink-800"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
@@ -57,8 +56,7 @@ const Team = () => {
                 className="opacity-80 transition-opacity hover:opacity-100 text-sm"
               >
                 <svg
-                  className="h-10 w-10"
-                  fill="currentColor"
+                  className="h-10 w-10 fill-pink-400  hover:fill-pink-800"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
@@ -77,8 +75,7 @@ const Team = () => {
                 className="opacity-80 transition-opacity hover:opacity-100 text-sm"
               >
                 <svg
-                  className="h-10 w-10"
-                  fill="currentColor"
+                  className="h-10 w-10 fill-black hover:fill-pink-800"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >

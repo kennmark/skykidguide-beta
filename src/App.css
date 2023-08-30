@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'Digital-7';
+  src: url(./fonts/digital-7.ttf) format('truetype');
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -194,6 +199,70 @@ a {
   }
 }
 
+/* Here lies design for countdown timer */
+/* Here lies design for countdown timer */
+
+.expired-notice {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+}
+
+.expired-notice > span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.expired-notice > p {
+  font-size: 1.5rem;
+}
+
+.show-counter {
+  padding: 0.5rem;
+}
+
+.show-counter .countdown-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 0.5rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+
+.show-counter .countdown {
+  line-height: 1.25rem;
+  padding: 0 0.75rem 0 0.75rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-counter .countdown.danger {
+  color: #ff0000;
+}
+
+.show-counter .countdown > p {
+  margin: 0;
+}
+
+.show-counter .countdown > span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+/* Here lies design for countdown timer */
+/* Here lies design for countdown timer */
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 }
@@ -208,4 +277,121 @@ a {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+}
+
+.clock {
+  margin: 10px;
+  border-radius: 10px;
+  background: #000c18;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding: 20px 20px 5px 20px;
+}
+
+.calendar {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+  padding: 0 10px;
+  padding-top: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.countdown {
+  font-size: 7rem;
+}
+
+.hour {
+  flex: 1;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+.ampm {
+  align-self: flex-end;
+  font-size: 2rem;
+  display: flex;
+  gap: 10px;
+  /* margin-bottom: 12rem; */
+}
+
+.digital {
+  display: inline-block;
+  position: relative;
+  font-family: 'Digital-7';
+}
+
+.digital :first-child {
+  width: 100%;
+  position: absolute;
+  color: #242a32;
+}
+
+.digital :last-child {
+  position: relative;
+  color: rgb(255, 193, 7);
+}
+
+.digital p {
+  margin: 0;
+}
+
+button {
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.fa {
+  margin-left: 15px;
+  font-size: 1.1rem;
+}
+
+a {
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.message {
+  background: #da9090;
+  border: 2px solid rgb(255, 115, 0);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.5rem;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 770px) {
+  .calendar,
+  .ampm {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .hour {
+    font-size: 2rem;
+  }
+
+  .clock {
+    padding: 1px;
+  }
+
+  .countdown {
+    font-size: 4rem;
+  }
 }
