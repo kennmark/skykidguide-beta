@@ -37,7 +37,8 @@ body {
       rgba(181, 131, 141, 0.75) 75%,
       rgba(109, 104, 117, 1) 100%
     ),
-    url(./assets/images/bg/Map1-Isle.jpg);
+    url(https://drive.google.com/uc?export=view&id=1Sgw84ImMs0hL-RWlyt-2yk_Jpiw0j4lx);
+  /* url(./assets/images/bg/Map1-Isle.jpg); */
   height: 514px;
   background-size: cover;
   color: rgb(8 47 73);
@@ -53,7 +54,8 @@ body {
       rgba(128, 237, 153, 0.25) 75%,
       rgba(199, 249, 204, 0.1) 100%
     ),
-    url(./assets/images/bg/Map2-Prairie.jpg);
+    url(https://drive.google.com/uc?export=view&id=1RAs63wzt1vRTOIli9mPzUSOStAHYDcQp);
+  /* url(./assets/images/bg/Map2-Prairie.jpg); */
   height: 514px;
   background-size: cover;
   color: rgb(8 47 73);
@@ -69,7 +71,8 @@ body {
       rgba(24, 55, 73, 0.75) 75%,
       rgba(14, 25, 31, 1) 100%
     ),
-    url(./assets/images/bg/Map3-Forest.jpg);
+    url(https://drive.google.com/uc?export=view&id=1J8sMYON_FkEt-3S1QhHz-58zbeW-qFd9);
+  /* url(./assets/images/bg/Map3-Forest.jpg); */
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
@@ -85,7 +88,8 @@ body {
       rgba(204, 139, 121, 0.25) 75%,
       rgba(250, 174, 123, 0.1) 100%
     ),
-    url(./assets/images/bg/Map4-Valley.jpg);
+    url(https://drive.google.com/uc?export=view&id=1AKAr6dxDpnMmhU_u2K7jRbr_tO9vHsBR);
+  /* url(./assets/images/bg/Map4-Valley.jpg); */
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
@@ -101,7 +105,8 @@ body {
       rgba(144, 169, 85, 0.25) 75%,
       rgba(236, 243, 158, 0.1) 100%
     ),
-    url(./assets/images/bg/Map5-Wasteland.jpg);
+    url(https://drive.google.com/uc?export=view&id=1EQ9rhImorJPSXkLfr_EWIytL2SYg9DPI);
+  /* url(./assets/images/bg/Map5-Wasteland.jpg); */
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
@@ -117,7 +122,8 @@ body {
       rgba(21, 5, 120, 0.75) 75%,
       rgba(14, 14, 82, 1) 100%
     ),
-    url(./assets/images/bg/Map6-Vault.jpg);
+    url(https://drive.google.com/uc?export=view&id=1nlChwJQKl-2_wwZhZWJEdCD4UghDjQ3C);
+  /* url(./assets/images/bg/Map6-Vault.jpg); */
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
@@ -137,7 +143,8 @@ body {
       rgba(23, 128, 161, 0.37) 87%,
       rgba(0, 145, 173, 0.3) 100%
     ),
-    url(./assets/images/bg/Map7-Eden.jpg);
+    url(https://drive.google.com/uc?export=view&id=1TLDvIW-oAVSeCC5R-GEJ9QPYG3Hl0r8x);
+  /* url(./assets/images/bg/Map7-Eden.jpg); */
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
@@ -152,7 +159,8 @@ body {
       rgba(128, 237, 153, 0.25) 75%,
       rgba(199, 249, 204, 0.1) 100%
     ),
-    url(./assets/images/bg/Map8-Peaks.jpg);
+    url(https://drive.google.com/uc?export=view&id=1bJLNsDOseJg0zj7txC032-AxbcgsF0M3);
+  /* url(./assets/images/bg/Map8-Peaks.jpg); */
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
@@ -359,11 +367,11 @@ button {
   margin-left: 15px;
   font-size: 1.1rem;
 }
-
+/* 
 a {
   font-size: 1.1rem;
   text-decoration: none;
-}
+} */
 
 .message {
   background: #da9090;

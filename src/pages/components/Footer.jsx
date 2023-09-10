@@ -1,12 +1,7 @@
-import reactlogo from './../../assets/images/react-logo.png'
-import netlifylogo from './../../assets/images/netlify-logo.png'
-import vitelogo from './../../assets/images/vitejs-logo.png'
-import tailwindlogo from './../../assets/images/tailwindcss.png'
 import { Typography } from '@material-tailwind/react'
-import { Link } from 'react-router-dom'
-import skykidhelpguidelogo from './../../assets/images/favicon/android-chrome-192x192.png'
 
 const Footer = () => {
+  const google_pretext = 'https://drive.google.com/uc?export=view&id='
   const LINKS = [
     {
       title: 'Powered',
@@ -14,31 +9,31 @@ const Footer = () => {
         {
           id: 1,
           name: 'ReactJS',
-          img: reactlogo,
+          img: google_pretext + '19QG8uDMDxyHJWmFMWJMMUid0tHx__M6c',
           link: 'https://react.dev/',
         },
         {
           id: 2,
           name: 'ViteJS',
-          img: vitelogo,
+          img: google_pretext + '1acYRBhBLvxdzLC-uTpUY3q7v-kn3rVvo',
           link: 'https://vitejs.dev/',
         },
         {
           id: 3,
           name: 'Netlify',
-          img: netlifylogo,
+          img: google_pretext + '1k1SB6AXemPnTsX4KEDORkSgM6AhrdWAq',
           link: 'https://www.netlify.com/',
         },
         {
           id: 4,
           name: 'TailwindCSS',
-          img: tailwindlogo,
+          img: google_pretext + '1skqwmpxSCSzQsxHi6VMA_Unlva6V5NRR',
           link: 'https://tailwindcss.com/',
         },
         {
           id: 5,
           name: 'Material-Tailwind',
-          img: '',
+          img: google_pretext + '1Z1_4yKZHseVHzEO92S-vaXHCxssHIGQi',
           link: 'https://www.material-tailwind.com/',
         },
       ],
@@ -76,7 +71,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <span className="grid justify-items-center gap-4">
             <a href="/">
-              <img src={skykidhelpguidelogo} alt="Skykid:T&G logo" width={75} />
+              <img
+                src={google_pretext + '1sncuqgUa06vjJok4GNnNPLGqTJlRnvXr'}
+                alt="Skykid:T&G logo"
+                width={75}
+              />
               <Typography color="white">Sykid:T&G</Typography>
             </a>
 
@@ -99,13 +98,13 @@ const Footer = () => {
                 </Typography>
                 {items.map(({ name, img, link }) => (
                   <li key={name} className="flex items-center">
-                    <img src={img} width={15} /> &nbsp;
                     <Typography
                       as="a"
                       href={link}
                       color="white"
-                      className="py-1.5 font-normal transition-colors hover:text-white-900 text-xs"
+                      className="flex items-center py-1.5 font-normal transition-colors hover:text-white-900 text-xs"
                     >
+                      <img src={img} width={15} /> &nbsp;<span></span>
                       {name}
                     </Typography>
                   </li>

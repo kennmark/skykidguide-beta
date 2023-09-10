@@ -6,10 +6,10 @@ import {
   IconButton,
 } from '@material-tailwind/react'
 import { Bars3Icon, ChevronDoubleUpIcon } from '@heroicons/react/24/solid'
-import skykidhelpguidelogo from './../../assets/images/favicon/android-chrome-192x192.png'
 import { useState, useEffect } from 'react'
 
 const Header = () => {
+  const google_pretext = 'https://drive.google.com/uc?export=view&id='
   const [openNav, setOpenNav] = useState(false)
 
   useEffect(() => {
@@ -72,7 +72,10 @@ const Header = () => {
             to="/"
             className="flex items-center text-white hover:text-amber-600"
           >
-            <img src={skykidhelpguidelogo} style={{ width: 50 }} />
+            <img
+              src={google_pretext + '1sncuqgUa06vjJok4GNnNPLGqTJlRnvXr'}
+              style={{ width: 50 }}
+            />
             <Typography className="p-1 text-md font-bold hidden lg:flex">
               Skykid:Tulong & Gabay
             </Typography>

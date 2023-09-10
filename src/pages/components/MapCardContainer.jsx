@@ -14,7 +14,6 @@ const MapCardContainer = ({
   title,
   subtitle,
   img,
-  bg,
   alt,
   group,
   caption,

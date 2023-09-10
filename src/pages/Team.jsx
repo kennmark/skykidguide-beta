@@ -8,9 +8,10 @@ import {
   IconButton,
 } from '@material-tailwind/react'
 import FaQ from './FaQ'
-import kenndev from '../assets/images/kenndev.jpg'
 
 const Team = () => {
+  const google_pretext = 'https://drive.google.com/uc?export=view&id='
+
   return (
     <div>
       <div className="flex justify-center py-5">
@@ -19,7 +20,10 @@ const Team = () => {
           className="w-80 bg-gradient-to-t from-blue-900 to-purple-900"
         >
           <CardHeader floated={false} className="h-72">
-            <img src={kenndev} alt="profile-picture" />
+            <img
+              src={google_pretext + '1GmbDX557dDf-oeWO9demoBG8kpBpbRhj'}
+              alt="profile-picture"
+            />
           </CardHeader>
           <CardBody className="text-center">
             <Typography variant="h4" color="white" className="mb-2">

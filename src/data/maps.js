@@ -1,11 +1,4 @@
-import anuby from './../assets/images/animated/animated-3.gif'
-import manty from './../assets/images/animated/animated-9.gif'
-import umbry from './../assets/images/animated/animated-4.gif'
-import jelly from './../assets/images/animated/animated-10.gif'
-import crabby from './../assets/images/animated/animated-5.gif'
-import lanty from './../assets/images/animated/animated-7.gif'
-import mothy from './../assets/images/animated/animated-1.gif'
-import candly from './../assets/images/animated/animated-8.gif'
+const google_pretext = 'https://drive.google.com/uc?export=view&id='
 
 export const maps = [
   {
@@ -13,7 +6,7 @@ export const maps = [
     title: 'Isle Of Dawn',
     subtitle: 'Unang Mapa',
     alt: 'Annubis Mask',
-    img: anuby,
+    img: google_pretext + '1vxoGGoF3TKShIDj5poI8NVcC8M6qwZIf',
     group: 'map-1 shadow-8',
     pageRoute: '#',
     caption: 'Dito nagsisimula ang iyong paglalakbay Skykid!',
@@ -25,9 +18,9 @@ export const maps = [
   {
     id: 2,
     title: 'Daylight Prairie',
-    subtitle: 'Pangalawang Mapa',
+    subtitle: 'Ikalawang Mapa',
     alt: 'Jelly Fish',
-    img: jelly,
+    img: google_pretext + '1No6HPaKCiJhfS060-v8yglLuLdkYrVXN',
     group: 'map-2 shadow-8',
     pageRoute: '#',
     caption: 'Malaya kang makakalipad at mag-ikot-ikot sa Prairie',
@@ -39,9 +32,9 @@ export const maps = [
   {
     id: 3,
     title: 'Hidden Forest',
-    subtitle: 'Pangatlong Mapa',
+    subtitle: 'Ikatlong Mapa',
     alt: 'Umbrella',
-    img: umbry,
+    img: google_pretext + '1NjcPZ8wo2vDkGJ9v_ljIAZUKfTKUF3_3',
     group: 'map-3 shadow-8',
     pageRoute: '#',
     caption: 'Huwag kang magbabad sa ulan at sa ilog',
@@ -53,9 +46,9 @@ export const maps = [
   {
     id: 4,
     title: 'Valley Of Triumph',
-    subtitle: 'Pang-Apat na Mapa',
+    subtitle: 'Ika-Apat na Mapa',
     alt: 'Manta',
-    img: manty,
+    img: google_pretext + '1pPu8lBc1YhpqLLtB2SpJ87rK_VpETMzs',
     group: 'map-4 shadow-8',
     pageRoute: '#',
     caption: 'Magsanay sa 2 karera at bisitahin ang silid-musika',
@@ -67,9 +60,9 @@ export const maps = [
   {
     id: 5,
     title: 'Golden Wasteland',
-    subtitle: 'Panglimang Mapa',
+    subtitle: 'Ika-Limang Mapa',
     alt: 'Crab',
-    img: crabby,
+    img: google_pretext + '1pmJwl1mYqjEFE3bNlFqVrXxIXf08TiqG',
     group: 'map-5 shadow-8',
     caption: 'Mag-ingat sa hipon na malaki, ikakapahamak ng Skykid mo!!!',
     num_of_wls: 18,
@@ -82,9 +75,9 @@ export const maps = [
   {
     id: 6,
     title: 'Vault Of Knowledge',
-    subtitle: 'Pang-Anim na Mapa',
+    subtitle: 'Ika-Anim na Mapa',
     alt: 'Lantern',
-    img: lanty,
+    img: google_pretext + '1UIru3Z5x_lHH7_7MKVVRYPYuNJaL6_Nl',
     group: 'map-6 shadow-8',
     pageRoute: '#',
     caption: 'Tandaan, laging tumulong sa 4-player door',
@@ -96,9 +89,9 @@ export const maps = [
   {
     id: 7,
     title: 'Eye of Eden',
-    subtitle: 'Pangpitong Mapa',
+    subtitle: 'Ika-Pitong Mapa',
     alt: 'Mothy',
-    img: mothy,
+    img: google_pretext + '171bfUOHs689uslSI28ZPSm2Xv5QYgYnN',
     group: 'map-7 shadow-8',
     pageRoute: '#',
     caption: 'Ihanda ang sarili, huwag matakot. Malalagpasan mo din ito',
@@ -113,8 +106,8 @@ export const maps = [
     id: 8,
     title: 'Season of Moments',
     subtitle: 'Season Map',
-    alt: 'Monthy',
-    img: candly,
+    alt: 'Candly',
+    img: google_pretext + '1UzUdOysVCss4VJ-6K896WkwqYCYaxJnD',
     group: 'map-8 shadow-8',
     pageRoute: '#',
     caption:
@@ -123,37 +116,5 @@ export const maps = [
     num_of_reg_spirits: 0,
     num_of_season_spirits: 4,
     num_of_map_shrines: 1,
-  },
-]
-
-export const collectibles = [
-  {
-    id: 1,
-    map: 'Isle Of Dawn',
-  },
-  {
-    id: 2,
-    map: 'Daylight Prairie',
-  },
-  {
-    id: 3,
-    map: 'Hidden Forest',
-  },
-  {
-    id: 4,
-    map: 'Valley Of Triumph',
-  },
-  {
-    id: 5,
-    map: 'Golden Wasteland',
-  },
-  {
-    id: 6,
-    map: 'Vault Of Knowledge',
-  },
-  {},
-  {
-    id: 8,
-    map: 'Season Map',
   },
 ]

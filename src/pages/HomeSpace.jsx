@@ -7,11 +7,10 @@ import AnnouncementModal from './AnnouncementModal'
 import FaQ from './FaQ'
 import SkyClock from './SkyClock'
 import { Clock } from '../pages/components/Clock'
-import homescreen from '../assets/images/home.jpg'
-import homescreen2 from '../assets/images/home2.jpg'
-import homescreen4 from '../assets/images/home4.jpg'
 
 const HomeSpace = () => {
+  const google_pretext = 'https://drive.google.com/uc?export=view&id='
+
   const monthName = [
     'January',
     'February',
@@ -44,7 +43,7 @@ const HomeSpace = () => {
   if (dd < 10) dd = '0' + dd
   const formattedToday = day + ' | ' + mm + ' ' + dd + ', ' + year
 
-  const winged_lights = 222
+  const winged_lights = 221
   const latest_date_update = 'August 31, 2023'
 
   const starIcon = () => {
@@ -142,17 +141,17 @@ const HomeSpace = () => {
           )}
         >
           <img
-            src={homescreen}
-            alt="image 1"
+            src={google_pretext + '175NvIM38W1AhacP7pZjjw8liqSPlUmE3'}
+            https:alt="image 1"
             className="h-full w-full object-cover"
           />
           <img
-            src={homescreen2}
-            alt="image 2"
+            src={google_pretext + '1mbOuTQtRneXc94qkuHQHeN7EI_lRcRNv'}
+            https:alt="image 2"
             className="h-full w-full object-cover"
           />
           <img
-            src={homescreen4}
+            src={google_pretext + '17zW2FlDuLlQq11J45Om3xwnduUbRjxUJ'}
             alt="image 4"
             className="h-full w-full object-cover"
           />

@@ -20,7 +20,7 @@ const Turtle = () => {
         <span className="text-amber-700 font-extrabold">:55</span>, &nbsp;
         <span className="text-red-400">11</span>
         <span className="text-amber-700 font-extrabold">:55</span>. At tumatakbo
-        lng ito ng{' '}
+        lamang ito ng{' '}
         <span className="text-amber-700 font-extrabold">
           sampung (10) minuto
         </span>
