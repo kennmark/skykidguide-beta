@@ -8,6 +8,8 @@ import {
   Chip,
   Badge,
 } from '@material-tailwind/react'
+import { ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline'
+import { Link } from 'react-router-dom'
 
 const MapCardContainer = ({
   id,
@@ -119,31 +121,20 @@ const MapCardContainer = ({
           </Typography>
         </CardBody>
         <CardFooter className="p-0">
-          <Button
-            size="lg"
-            color="gray"
-            className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:scale-[1.02] hover:shadow-indigo-500 hover:shadow-xl"
-            ripple={true}
-            fullWidth={true}
-          >
-            <div className="flex justify-center items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9"
-                />
-              </svg>
-              Pasok
-            </div>
-          </Button>
+          <Link to={`/${pageRoute}`}>
+            <Button
+              size="lg"
+              color="gray"
+              className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:scale-[1.02] hover:shadow-indigo-500 hover:shadow-xl"
+              ripple={true}
+              fullWidth={true}
+            >
+              <div className="flex justify-center items-center">
+                <ArrowRightOnRectangleIcon className="h-6 w-6" />
+                &nbsp;Pasok
+              </div>
+            </Button>
+          </Link>
         </CardFooter>
       </Card>
     </div>

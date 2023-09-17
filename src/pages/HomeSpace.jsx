@@ -43,8 +43,8 @@ const HomeSpace = () => {
   if (dd < 10) dd = '0' + dd
   const formattedToday = day + ' | ' + mm + ' ' + dd + ', ' + year
 
-  const winged_lights = 221
-  const latest_date_update = 'August 31, 2023'
+  const winged_lights = 222
+  const latest_date_update = 'September 14, 2023'
 
   const starIcon = () => {
     return (

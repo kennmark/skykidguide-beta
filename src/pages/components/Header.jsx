@@ -48,13 +48,13 @@ const Header = () => {
           Events
         </Typography>
       </Link>
-      <Link to="/seasons" className="flex items-center">
+      <Link to="/support" className="flex items-center">
         <Typography
           as="li"
           variant="small"
           className="p-1 font-normal uppercase text-white hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg"
         >
-          Seasons
+          Support
         </Typography>
       </Link>
     </ul>
@@ -63,7 +63,7 @@ const Header = () => {
     <Navbar
       variant="gradient"
       color="blue-gray"
-      className="sticky top-0 z-50 h-max mx-auto w-full bg-gradient-to-r from-blue-900 to-purple-900 rounded-lg py-2 px-4 lg:px-8 lg:py-4"
+      className="sticky top-0 z-50 h-max mx-auto w-full bg-gradient-to-r from-blue-900 to-purple-900 rounded-br-lg rounded-bl-lg py-2 px-4 lg:px-8 lg:py-4"
       fullWidth={true}
     >
       <div className="flex items-center justify-between uppercase">
@@ -73,7 +73,7 @@ const Header = () => {
             className="flex items-center text-white hover:text-amber-600"
           >
             <img
-              src={google_pretext + '1sncuqgUa06vjJok4GNnNPLGqTJlRnvXr'}
+              src={google_pretext + '1XLSRc3r-VqAV4fcn2cg9m1eON6-u2VSN'}
               style={{ width: 50 }}
             />
             <Typography className="p-1 text-md font-bold hidden lg:flex">

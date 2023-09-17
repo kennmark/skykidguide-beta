@@ -1,4 +1,5 @@
 import { Typography } from '@material-tailwind/react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   const google_pretext = 'https://drive.google.com/uc?export=view&id='
@@ -44,7 +45,7 @@ const Footer = () => {
         {
           id: 4,
           name: 'Balita',
-          link: '/news',
+          link: '/balita',
         },
         {
           id: 5,
@@ -57,22 +58,22 @@ const Footer = () => {
           link: '/events',
         },
         {
-          id: 6,
-          name: 'Seasons',
-          link: '/seasons',
+          id: 7,
+          name: 'Support',
+          link: '/support',
         },
       ],
     },
   ]
   const currentYear = new Date().getFullYear()
   return (
-    <footer className="relative w-full">
+    <footer className="w-full">
       <div className="mx-auto w-full max-w-7xl px-8 border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <span className="grid justify-items-center gap-4">
             <a href="/">
               <img
-                src={google_pretext + '1sncuqgUa06vjJok4GNnNPLGqTJlRnvXr'}
+                src={google_pretext + '1XLSRc3r-VqAV4fcn2cg9m1eON6-u2VSN'}
                 alt="Skykid:T&G logo"
                 width={75}
               />

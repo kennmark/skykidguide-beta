@@ -5,35 +5,21 @@ import {
   Typography,
 } from '@material-tailwind/react'
 import { useState } from 'react'
+import { ChevronDownIcon } from '@heroicons/react/24/outline'
 
-function Icon({ id, open }) {
+const FaqContainer = ({ id, headerTitle, body, open, handleOpen }) => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth={2}
-      stroke="currentColor"
-      className={`${
-        id === open ? 'rotate-180' : ''
-      } h-5 w-5 transition-transform`}
+    <Accordion
+      open={open === id}
+      icon={
+        <ChevronDownIcon
+          strokeWidth={2.5}
+          className={`mx-auto h-4 w-4 transition-transform ${
+            open === id ? 'rotate-180' : ''
+          }`}
+        />
+      }
     >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-      />
-    </svg>
-  )
-}
-
-const FaqContainer = ({ id, headerTitle, body }) => {
-  const [open, setOpen] = useState(0)
-
-  const handleOpen = (value) => setOpen(open === value ? 0 : value)
-
-  return (
-    <Accordion open={open === id} icon={<Icon id={id} open={open} />}>
       <AccordionHeader
         onClick={() => handleOpen(id)}
         className={`border-b-0 text-white/90 text-lg hover:text-pink-400 transition-colors ${
