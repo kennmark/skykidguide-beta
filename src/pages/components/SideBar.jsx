@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import {
-  Card,
   Typography,
   List,
   ListItem,
@@ -27,7 +26,7 @@ import AccordionSeason2022 from './AccordionSeason2022'
 import AccordionSeason2023 from './AccordionSeason2023'
 import { BuyMeACoffee } from './BuyMeACoffee'
 
-const Sidebar = () => {
+const SideBar = () => {
   const [open, setOpen] = useState(0)
   const handleOpen = (value) => {
     setOpen(open === value ? 0 : value)
@@ -112,4 +111,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default SideBar

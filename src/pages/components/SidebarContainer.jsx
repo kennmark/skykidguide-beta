@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { IconButton, Drawer, Collapse } from '@material-tailwind/react'
+import { IconButton, Drawer } from '@material-tailwind/react'
 import { ChevronDoubleRightIcon } from '@heroicons/react/24/solid'
-import Sidebar from './Sidebar'
+import SideBar from './SideBar'
 
 export function SideBarContainer() {
   const [draw, setDraw] = useState(false)
@@ -12,7 +12,7 @@ export function SideBarContainer() {
   return (
     <>
       {screenSize <= window.innerWidth ? (
-        <Sidebar />
+        <SideBar />
       ) : (
         <>
           <div className="absolute bottom-20 left-20 z-10" onClick={openDrawer}>
@@ -21,7 +21,7 @@ export function SideBarContainer() {
             </IconButton>
           </div>
           <Drawer open={draw} onClose={closeDrawer}>
-            <Sidebar />
+            <SideBar />
           </Drawer>
         </>
       )}
