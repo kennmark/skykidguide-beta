@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { IconButton, Drawer } from '@material-tailwind/react'
 import { ChevronDoubleRightIcon } from '@heroicons/react/24/solid'
-import SideBar from './Sidebar'
+import SideBar from './SideBar'
 
 export function SideBarContainer() {
   const [draw, setDraw] = useState(false)
