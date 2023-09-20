@@ -68,7 +68,7 @@ const AnnouncementModal = () => {
         </Typography>
         <Typography className="text-center text-white text-sm lg:text-lg ">
           Ang website na ito ay ginawa para sa mga manlalaro ng
-          <a href="https://www.thatskygame.com/" autoFocus="false">
+          <a href="https://www.thatskygame.com/">
             {' '}
             Sky: Children of the Light
           </a>{' '}

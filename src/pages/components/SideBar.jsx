@@ -25,6 +25,7 @@ import AccordionSeason2021 from './AccordionSeason2021'
 import AccordionSeason2022 from './AccordionSeason2022'
 import AccordionSeason2023 from './AccordionSeason2023'
 import { BuyMeACoffee } from './BuyMeACoffee'
+import { Link } from 'react-router-dom'
 
 const SideBar = () => {
   const [open, setOpen] = useState(0)
@@ -59,8 +60,13 @@ const SideBar = () => {
               <ListItemPrefix>
                 <GlobeAsiaAustraliaIcon className="h-5 w-5" />
               </ListItemPrefix>
-              <Typography color="blue-gray" className="mr-auto font-normal">
-                Mapa 1-6
+              <Typography
+                color="blue-gray"
+                className={`mr-auto font-normal transition-colors ${
+                  open === 1 ? 'text-blue-500 hover:!text-blue-700' : ''
+                }`}
+              >
+                Mapa 1-7
               </Typography>
             </AccordionHeader>
           </ListItem>
@@ -68,12 +74,21 @@ const SideBar = () => {
             <List className="p-0">
               {maps.map((map) => {
                 return (
-                  <ListItem key={map.id}>
-                    Mapa {map.id} - {map.title}
-                    <ListItemSuffix>
-                      <ArrowRightOnRectangleIcon className="h-5 w-5" />
-                    </ListItemSuffix>
-                  </ListItem>
+                  <Link
+                    to={`/${map.pageRoute}`}
+                    className=" flex justify-center text-blue-gray-900"
+                    key={map.id}
+                  >
+                    <ListItem className="hover:text-pink-500">
+                      <Typography>
+                        {map.id} - {map.title}&nbsp;
+                      </Typography>
+
+                      <ListItemSuffix>
+                        <ArrowRightOnRectangleIcon className="h-5 w-5" />
+                      </ListItemSuffix>
+                    </ListItem>
+                  </Link>
                 )
               })}
             </List>

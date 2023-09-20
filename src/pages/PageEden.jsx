@@ -11,10 +11,10 @@ import MapTabHeaderContainer from './components/MapTabHeaderContainer'
 import { isleOfDawn } from '../data/isleOfDawnData'
 import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
-import { GIF_ISLE, ISLE_ALT } from '../exports/mapGIFs'
 import PageHeaderContainer from './components/PageHeaderContainer'
+import { GIF_EDEN, EDEN_ALT } from '../exports/mapGIFs'
 
-const PageIsle = () => {
+const PageEden = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
 
   return (
@@ -24,13 +24,13 @@ const PageIsle = () => {
       </div>
       <div className="justify-start w-full">
         <PageHeaderContainer
-          imgUrl={GIF_ISLE}
-          alt={ISLE_ALT}
+          imgUrl={GIF_EDEN}
+          alt={EDEN_ALT}
           height={25}
           width={75}
-          title={'Isle of Dawn'}
+          title={'Eye of Eden'}
         />
-        <Tabs id="custom-animation" value={activeTab}>
+        {/* <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
             variant="gradient"
             className="bg-gradient-to-r from-blue-900 to-purple-900"
@@ -59,21 +59,16 @@ const PageIsle = () => {
                 <TabPanel key={index} value={body.value}>
                   <div className="text-gray-100 pb-5">{body.desc}</div>
                   <div className="flex flex-wrap justify-center gap-3">
-                    {body.spirits?.map((spirit) => {
-                      return (
-                        <SpiritCardContainer
-                          {...spirit}
-                          key={spirit.spirit_id}
-                        />
-                      )
+                    {body.spirits?.map((spirit, index) => {
+                      return <SpiritCardContainer {...spirit} key={index} />
                     })}
-                    {body.winged_lights?.map((wingedLight) => {
+                    {body.winged_lights?.map((wingedLight, index) => {
                       return (
                         <CardContainer
                           label={wingedLight.wl_label}
                           location={wingedLight.wl_location}
                           url={wingedLight.wl_url}
-                          key={wingedLight.wl_label}
+                          key={index}
                         />
                       )
                     })}
@@ -83,7 +78,7 @@ const PageIsle = () => {
                           label={mapShrine.shrine_label}
                           location={mapShrine.shrine_location}
                           url={mapShrine.shrine_url}
-                          key={mapShrine.shrine_label}
+                          key={index}
                         />
                       )
                     })}
@@ -92,10 +87,10 @@ const PageIsle = () => {
               </TabsBody>
             )
           })}
-        </Tabs>
+        </Tabs> */}
       </div>
     </div>
   )
 }
 
-export default PageIsle
+export default PageEden

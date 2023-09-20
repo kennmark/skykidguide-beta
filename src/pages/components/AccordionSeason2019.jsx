@@ -11,6 +11,7 @@ import {
 import { SparklesIcon } from '@heroicons/react/24/solid'
 import { ChevronDownIcon } from '@heroicons/react/24/outline'
 import { seasons2019 } from '../../data/seasons'
+import { Link } from 'react-router-dom'
 
 const AccordionSeason2019 = ({ open, handleOpen }) => {
   return (
@@ -33,7 +34,12 @@ const AccordionSeason2019 = ({ open, handleOpen }) => {
           <ListItemPrefix>
             <SparklesIcon className="h-5 w-5" />
           </ListItemPrefix>
-          <Typography color="blue-gray" className="mr-auto font-normal">
+          <Typography
+            color="blue-gray"
+            className={`mr-auto font-normal transition-colors ${
+              open === 2 ? 'text-blue-500 hover:!text-blue-700' : ''
+            }`}
+          >
             Seasons in 2019
           </Typography>
         </AccordionHeader>
@@ -42,12 +48,18 @@ const AccordionSeason2019 = ({ open, handleOpen }) => {
         <List className="p-0">
           {seasons2019.map((season) => {
             return (
-              <ListItem key={season.id}>
-                <ListItemPrefix>
-                  <img src={season.icon_route} alt={season.name} width={35} />
-                </ListItemPrefix>
-                {season.name}
-              </ListItem>
+              <Link
+                to={`/${season.page_route}`}
+                className=" text-blue-gray-900"
+                key={season.id}
+              >
+                <ListItem className="hover:text-pink-500">
+                  <ListItemPrefix>
+                    <img src={season.icon_route} alt={season.name} width={35} />
+                  </ListItemPrefix>
+                  {season.name}
+                </ListItem>
+              </Link>
             )
           })}
         </List>

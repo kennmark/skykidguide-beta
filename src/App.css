@@ -9,7 +9,7 @@ html {
   color: rgb(229 231 235);
   background-color: #000c18;
   height: 100%;
-  padding: 0 15px;
+  padding: 0 5px;
 }
 #root {
   max-width: 1280px;
