@@ -326,7 +326,7 @@ export const prairie = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 90,
         spirit_name: 'Hiking Grouch',
-        spirit_img_url: google_pretext + '16pQe6LsXGAhnLT2Wdo8bgTbPX6qwoEtO',
+        spirit_img_url: google_pretext + '1JEowG4SEE7K8EdAQBuQ25N6tmQ2ykKkX',
         icon_route: google_pretext + '17R_GJM63yAo8c8wRybA6Pk3a4Yx3kqTL',
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
