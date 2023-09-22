@@ -40,7 +40,7 @@ const VideoModalContainer = ({
         <DialogFooter>
           <Button
             variant="gradient"
-            className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:scale-[1.02] hover:shadow-indigo-500 hover:shadow-lg"
+            className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
             onClick={handleOpen}
           >
             <span>Close</span>

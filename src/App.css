@@ -206,7 +206,14 @@ a {
     width: 100%;
   }
 }
-
+/* .pageIsle {
+  background-image: url(https://drive.google.com/uc?export=view&id=1y3HqjBpHhOnuosoGM0umnDqm1pJp4FDC);
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: contain;
+  background-color: #242a32;
+  background-blend-mode: overlay;
+} */
 /* Here lies design for countdown timer */
 /* Here lies design for countdown timer */
 
@@ -402,4 +409,22 @@ a {
   .countdown {
     font-size: 4rem;
   }
+}
+
+.card-header {
+  padding-top: 40px;
+}
+
+.card-header.mx-4 {
+  margin-left: 0 !important;
+}
+
+.icon-badge {
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  padding: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #0d47a1;
 }

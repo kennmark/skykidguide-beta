@@ -17,9 +17,9 @@ const Team = () => {
       <div className="flex justify-center py-5">
         <Card
           variant="gradient"
-          className="w-80 bg-gradient-to-t from-blue-900 to-purple-900"
+          className="w-80 bg-gradient-to-t from-blue-900 to-purple-900 "
         >
-          <CardHeader floated={false} className="h-72">
+          <CardHeader floated={false} className="w-auto">
             <img
               src={google_pretext + '1GmbDX557dDf-oeWO9demoBG8kpBpbRhj'}
               alt="profile-picture"

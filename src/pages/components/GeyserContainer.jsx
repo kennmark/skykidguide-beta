@@ -26,9 +26,6 @@ const GeyserContainer = () => {
         . Mahahanap mo ito sa Sanctuary Islands ng Daylight Prairie | Ikalawang
         Mapa.
       </Typography>
-      <Button className="bg-gradient-to-r from-blue-900 to-purple-900 mt-4">
-        Read More
-      </Button>
     </>
   )
 }

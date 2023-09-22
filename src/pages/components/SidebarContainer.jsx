@@ -14,20 +14,22 @@ export function SideBarContainer() {
       {screenSize <= window.innerWidth ? (
         <SideBar />
       ) : (
-        <div className="relative h-full">
+        <>
+          <div className="relative h-full">
+            <span onClick={openDrawer} className="absolute bottom-0 z-50">
+              <IconButton
+                size="lg"
+                className="rounded-tr-full rounded-br-full -left-3"
+                color="amber"
+              >
+                <ChevronDoubleRightIcon className="h-5 w-5" />
+              </IconButton>
+            </span>
+          </div>
           <Drawer open={draw} onClose={closeDrawer}>
             <SideBar />
           </Drawer>
-          <span onClick={openDrawer} className="absolute bottom-0 z-50">
-            <IconButton
-              size="lg"
-              className="rounded-tr-full rounded-br-full -left-3"
-              color="amber"
-            >
-              <ChevronDoubleRightIcon className="h-5 w-5" />
-            </IconButton>
-          </span>
-        </div>
+        </>
       )}
     </>
   )

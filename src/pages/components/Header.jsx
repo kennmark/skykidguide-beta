@@ -63,7 +63,7 @@ const Header = () => {
     <Navbar
       variant="gradient"
       color="blue-gray"
-      className="sticky top-0 z-50 h-max mx-auto w-full bg-gradient-to-r from-blue-900 to-purple-900 rounded-br-lg rounded-bl-lg py-2 px-4 lg:px-8 lg:py-4"
+      className="sticky top-0 z-50 h-max mx-auto w-full bg-gradient-to-r from-blue-900/70 to-purple-900 rounded-br-lg rounded-bl-lg py-2 px-4 lg:px-8 lg:py-4"
       fullWidth={true}
     >
       <div className="flex items-center justify-between uppercase">

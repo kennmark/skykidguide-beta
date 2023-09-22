@@ -4,7 +4,6 @@ import {
   TabsBody,
   Tab,
   TabPanel,
-  Typography,
 } from '@material-tailwind/react'
 import { skyclock } from '../../data/skyclock'
 import { createElement, useState } from 'react'

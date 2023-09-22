@@ -20,7 +20,7 @@ const TextPopOver = ({
           size="md"
           ripple={true}
           fullWidth={true}
-          className="bg-gradient-to-r rounded-tl-none rounded-bl-none from-purple-900 to-blue-900 shadow-lg shadow-indigo-500/50 hover:scale-[1.02] hover:shadow-indigo-500 hover:shadow-lg"
+          className="bg-gradient-to-r rounded-tl-none rounded-bl-none from-purple-900 to-blue-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
         >
           Text Direction
         </Button>

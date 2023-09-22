@@ -63,7 +63,7 @@ const HomeSpace = () => {
               className="flex text-center font-normal opacity-80"
             >
               sa pinakahuling tala noong {latest_date_update} may &nbsp;
-              {winged_lights} WL na.
+              {winged_lights} WL na sa iOS at Android.
             </Typography>
           </div>
         }

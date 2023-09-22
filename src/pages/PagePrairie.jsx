@@ -8,7 +8,7 @@ import {
 import { SideBarContainer } from './components/SidebarContainer'
 import { useState } from 'react'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
-import { isleOfDawn } from '../data/isleOfDawnData'
+import { prairie } from '../data/prairieData'
 import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import { GIF_PRAIRIE, PRAIRIE_ALT } from '../exports/mapGIFs'
@@ -31,12 +31,12 @@ const PagePrairie = () => {
           title={'Daylight Prairie'}
         />
 
-        {/* <Tabs id="custom-animation" value={activeTab}>
+        <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
             variant="gradient"
-            className="bg-gradient-to-r from-blue-900 to-purple-900"
+            className="bg-gradient-to-r from-blue-900 to-purple-900 flex items-center"
           >
-            {isleOfDawn.map((headerTab, index) => {
+            {prairie.map((headerTab, index) => {
               return (
                 <MapTabHeaderContainer
                   {...headerTab}
@@ -47,7 +47,7 @@ const PagePrairie = () => {
               )
             })}
           </TabsHeader>
-          {isleOfDawn.map((body, index) => {
+          {prairie.map((body, index) => {
             return (
               <TabsBody
                 animate={{
@@ -60,16 +60,21 @@ const PagePrairie = () => {
                 <TabPanel key={index} value={body.value}>
                   <div className="text-gray-100 pb-5">{body.desc}</div>
                   <div className="flex flex-wrap justify-center gap-3">
-                    {body.spirits?.map((spirit, index) => {
-                      return <SpiritCardContainer {...spirit} key={index} />
+                    {body.spirits?.map((spirit) => {
+                      return (
+                        <SpiritCardContainer
+                          {...spirit}
+                          key={spirit.spirit_id}
+                        />
+                      )
                     })}
-                    {body.winged_lights?.map((wingedLight, index) => {
+                    {body.winged_lights?.map((wingedLight) => {
                       return (
                         <CardContainer
                           label={wingedLight.wl_label}
                           location={wingedLight.wl_location}
                           url={wingedLight.wl_url}
-                          key={index}
+                          key={wingedLight.wl_label}
                         />
                       )
                     })}
@@ -79,7 +84,7 @@ const PagePrairie = () => {
                           label={mapShrine.shrine_label}
                           location={mapShrine.shrine_location}
                           url={mapShrine.shrine_url}
-                          key={index}
+                          key={mapShrine.shrine_label}
                         />
                       )
                     })}
@@ -88,7 +93,7 @@ const PagePrairie = () => {
               </TabsBody>
             )
           })}
-        </Tabs> */}
+        </Tabs>
       </div>
     </div>
   )

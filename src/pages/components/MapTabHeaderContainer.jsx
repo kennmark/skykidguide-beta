@@ -8,7 +8,7 @@ const MapTabHeaderContainer = ({ label, value, activeTab, setActiveTab }) => {
       value={value}
       onClick={() => setActiveTab(value)}
       className={
-        activeTab === value ? 'text-indigo-900 font-bold' : 'text-white'
+        activeTab === value ? 'text-indigo-900 font-bold p-3' : 'text-white'
       }
     >
       {label}

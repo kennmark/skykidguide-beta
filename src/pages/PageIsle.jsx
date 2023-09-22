@@ -18,7 +18,7 @@ const PageIsle = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
 
   return (
-    <div className="flex justify-start">
+    <div className="flex justify-center">
       <div>
         <SideBarContainer />
       </div>
@@ -33,7 +33,7 @@ const PageIsle = () => {
         <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
             variant="gradient"
-            className="bg-gradient-to-r from-blue-900 to-purple-900"
+            className="bg-gradient-to-r from-blue-900 to-purple-900 flex items-center"
           >
             {isleOfDawn.map((headerTab, index) => {
               return (

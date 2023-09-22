@@ -34,7 +34,7 @@ const SideBar = () => {
   }
 
   return (
-    <div className="h-100vh  w-72 max-w-[20rem] pr-1 pl-5 pb-5 shadow-xl shadow-blue-gray-900/5 mb-7 bg-white">
+    <div className="h-100vh w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5 bg-blue-gray-50">
       <div className="mb-2 flex items-center gap-4 p-4">
         <Typography variant="h5" color="blue-gray">
           Dashboard
@@ -63,7 +63,9 @@ const SideBar = () => {
               <Typography
                 color="blue-gray"
                 className={`mr-auto font-normal transition-colors ${
-                  open === 1 ? 'text-blue-500 hover:!text-blue-700' : ''
+                  open === 1
+                    ? 'text-blue-500 hover:!text-blue-700 font-semibold'
+                    : ''
                 }`}
               >
                 Mapa 1-7
@@ -94,14 +96,14 @@ const SideBar = () => {
             </List>
           </AccordionBody>
         </Accordion>
-        <hr className="my-2 border-blue-gray-50" />
+        <hr className="my-2 border-blue-gray-900" />
 
         <AccordionSeason2019 open={open} handleOpen={handleOpen} />
         <AccordionSeason2020 open={open} handleOpen={handleOpen} />
         <AccordionSeason2021 open={open} handleOpen={handleOpen} />
         <AccordionSeason2022 open={open} handleOpen={handleOpen} />
         <AccordionSeason2023 open={open} handleOpen={handleOpen} />
-        <hr className="my-2 border-blue-gray-50" />
+        <hr className="my-2 border-blue-gray-900" />
         <ListItem>
           <ListItemPrefix>
             <InboxIcon className="h-5 w-5" />

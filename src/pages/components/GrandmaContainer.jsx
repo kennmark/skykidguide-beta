@@ -27,9 +27,6 @@ const Grandma = () => {
         . Mahahanap mo ito sa Sunny Forest - Loob ng malaking puno ng Hidden
         Forest | Ikatlong Mapa.
       </Typography>
-      <Button className="bg-gradient-to-r from-blue-900 to-purple-900 mt-4">
-        Read More
-      </Button>
     </>
   )
 }
