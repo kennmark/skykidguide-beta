@@ -1,6 +1,12 @@
 import React from 'react'
 import { maps } from '../data/maps'
-import { Typography, Carousel, Chip, Tooltip } from '@material-tailwind/react'
+import {
+  Typography,
+  Carousel,
+  Chip,
+  Tooltip,
+  Spinner,
+} from '@material-tailwind/react'
 import MapCardContainer from './components/MapCardContainer'
 // import ErrorBoundary from './components/ErrorBoundary'
 import AnnouncementModal from './AnnouncementModal'
@@ -10,6 +16,7 @@ import { Clock } from '../pages/components/Clock'
 import carousel1 from '../assets/images/home-carousel/home.jpg'
 import carousel2 from '../assets/images/home-carousel/home2.jpg'
 import carousel3 from '../assets/images/home-carousel/home4.jpg'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const HomeSpace = () => {
   const monthName = [
@@ -141,20 +148,23 @@ const HomeSpace = () => {
             </div>
           )}
         >
-          <img
+          <LazyLoadImage
             src={carousel1}
             https:alt="image 1"
             className="h-full w-full object-cover"
+            placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
           />
-          <img
+          <LazyLoadImage
             src={carousel2}
             https:alt="image 2"
             className="h-full w-full object-cover"
+            placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
           />
-          <img
+          <LazyLoadImage
             src={carousel3}
             alt="image 4"
             className="h-full w-full object-cover"
+            placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
           />
         </Carousel>
         <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border-none bg-gradient-to-br py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">

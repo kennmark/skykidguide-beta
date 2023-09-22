@@ -8,11 +8,12 @@ import {
   ButtonGroup,
   Chip,
   Tooltip,
-  Progress,
+  Spinner,
 } from '@material-tailwind/react'
 import VideoModalContainer from './VideoModalContainer'
 import TextPopOver from './TextPopOver'
 import SpiritDifficultyLevelProgressBar from './SpiritDifficultyLevelProgressBar'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const SpiritCardContainer = ({
   spirit_img_url,
@@ -47,17 +48,21 @@ const SpiritCardContainer = ({
     >
       <CardHeader shadow={false} color="transparent" className="card-header">
         <span className="icon-badge">
-          <img
+          <LazyLoadImage
             src={iconUrl || constellationIconUrl}
             alt={seasonLabel}
             title={seasonLabel}
             width={35}
+            placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
+            effect="blur"
           />
         </span>
-        <img
+        <LazyLoadImage
           src={spirit_img_url}
           alt={spirit_name}
           title={spirit_name}
+          placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
+          effect="blur"
           className="w-auto h-14 m-auto"
         />
       </CardHeader>

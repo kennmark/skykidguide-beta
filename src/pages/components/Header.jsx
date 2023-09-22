@@ -8,6 +8,7 @@ import {
 } from '@material-tailwind/react'
 import { Bars3Icon, ChevronDoubleUpIcon } from '@heroicons/react/24/solid'
 import skykidlogo from '../../assets/images/logo/T_G Logo white.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const Header = () => {
   const [openNav, setOpenNav] = useState(false)
@@ -72,7 +73,7 @@ const Header = () => {
             to="/"
             className="flex items-center text-white hover:text-amber-600"
           >
-            <img src={skykidlogo} style={{ width: 50 }} />
+            <LazyLoadImage src={skykidlogo} style={{ width: 50 }} />
             <Typography className="p-1 text-md font-bold hidden lg:flex">
               Skykid:Tulong & Gabay
             </Typography>

@@ -56,7 +56,7 @@ export const isleOfDawn = [
         spirit_type: 'regular',
         spirit_category: 'emote',
         spirit_relive_type: 'follow-memory',
-        difficulty_level: 9,
+        difficulty_level: 15,
         spirit_name: 'Pointing Candlemaker',
         spirit_img_url: CANDLEMAKER,
         constellation_icon_route: MAP1,

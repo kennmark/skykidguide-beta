@@ -2,7 +2,8 @@ import { Suspense, lazy } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import ScrollToTop from './pages/components/ScrollToTop '
 import './App.css'
-import { Spinner, Typography } from '@material-tailwind/react'
+import { Spinner } from '@material-tailwind/react'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 
 const Header = lazy(() => import('./pages/components/Header'))
 const Footer = lazy(() => import('./pages/components/Footer'))

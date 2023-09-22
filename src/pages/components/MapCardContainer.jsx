@@ -7,9 +7,11 @@ import {
   Button,
   Chip,
   Badge,
+  Spinner,
 } from '@material-tailwind/react'
 import { ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const MapCardContainer = ({
   id,
@@ -36,7 +38,15 @@ const MapCardContainer = ({
         >
           <Typography className="mt-1 flex justify-center gap-1 text-7xl font-normal">
             <span>
-              <img src={img} alt={alt} width={75} />
+              <LazyLoadImage
+                src={img}
+                alt={alt}
+                width={75}
+                placeholderSrc={
+                  <Spinner className="h-10 w-10 text-gray-900/50" />
+                }
+                effect="blur"
+              />
             </span>
           </Typography>
           <Typography

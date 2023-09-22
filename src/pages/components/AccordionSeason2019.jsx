@@ -7,11 +7,13 @@ import {
   Accordion,
   AccordionHeader,
   AccordionBody,
+  Spinner,
 } from '@material-tailwind/react'
 import { SparklesIcon } from '@heroicons/react/24/solid'
 import { ChevronDownIcon } from '@heroicons/react/24/outline'
 import { seasons2019 } from '../../data/seasons'
 import { Link } from 'react-router-dom'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const AccordionSeason2019 = ({ open, handleOpen }) => {
   return (
@@ -55,7 +57,15 @@ const AccordionSeason2019 = ({ open, handleOpen }) => {
               >
                 <ListItem className="hover:text-pink-500">
                   <ListItemPrefix>
-                    <img src={season.icon_route} alt={season.name} width={35} />
+                    <LazyLoadImage
+                      src={season.icon_route}
+                      alt={season.name}
+                      width={35}
+                      placeholderSrc={
+                        <Spinner className="h-10 w-10 text-gray-900/50" />
+                      }
+                      effect="blur"
+                    />
                   </ListItemPrefix>
                   {season.name}
                 </ListItem>

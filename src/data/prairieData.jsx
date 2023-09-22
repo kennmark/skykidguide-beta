@@ -5,8 +5,41 @@ import {
   PRAIRIE_NUM_WL,
   PRAIRIE_NUM_MAP_SHRINES,
 } from '../exports/constants'
+import {
+  APPLAUDING_BELLMAKER,
+  BIRD_WHISPERER,
+  BUTTERFLY_CHARMER,
+  CEREMONIAL_WORSHIPPER,
+  EXHAUSTED_DOCK_WORKER,
+  LAUGHING_LIGHT_CATCHER,
+  SLUMBERING_SHIPWRIGHT,
+  WAVING_BELLMAKER,
+  STRETCHING_GURU,
+  DOUBLE_FIVE_LIGHT_CATCHER,
+  CONFETTI_COUSIN,
+  FESTIVAL_SPIN_DANCER,
+  CHILL_SUNBATHER,
+  GRATEFUL_SHELL_COLLECTOR,
+  HIKING_GROUCH,
+  JELLY_WHISPERER,
+  RALLYING_THRILLSEEKER,
+  TIMID_BOOKWORM,
+  ASCETIC_MONK,
+  JOLLY_GEOLOGIST,
+  NIGHTBIRD_WHISPERER,
+  REASSURING_RANGER,
+} from '../exports/spiritIcons'
+import { MAP_SHRINE, WINGED_LIGHT } from '../exports/defaultImages'
+import {
+  MAP2,
+  SEASON1,
+  SEASON2,
+  SEASON3,
+  SEASON4,
+  SEASON6,
+  SEASON18,
+} from '../exports/seasonIcons'
 
-const google_pretext = 'https://drive.google.com/uc?export=view&id='
 const youtube_embed = 'https://www.youtube.com/embed/'
 
 export const prairie = [
@@ -35,9 +68,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 30,
         spirit_name: 'Applauding Bellmaker',
-        spirit_img_url: google_pretext + '1KJW-yKKXdEWDBNr5FeSyfehw4okSwNh3',
-        constellation_icon_route:
-          google_pretext + '1NsShzjH9XVL2GFDYrUZCm9SZ8h_IVTwO',
+        spirit_img_url: APPLAUDING_BELLMAKER,
+        constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'ODMA1Q9155o',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita. At kapag ikaw ay
@@ -54,9 +86,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 20,
         spirit_name: 'Bird Whisperer',
-        constellation_icon_route:
-          google_pretext + '1NsShzjH9XVL2GFDYrUZCm9SZ8h_IVTwO',
-        spirit_img_url: google_pretext + '1UzrkGLqITVotxVQvYXIZVSurlgs9eyRH',
+        spirit_img_url: BIRD_WHISPERER,
+        constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'dMDOQfWCFEg',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka. Pagdating mo
@@ -70,11 +101,10 @@ export const prairie = [
         spirit_type: 'regular',
         spirit_category: 'emote',
         spirit_relive_type: 'follow-memory',
-        difficulty_level: 9,
+        difficulty_level: 15,
         spirit_name: 'Butterfly Charmer',
-        spirit_img_url: google_pretext + '1A0N3y15kY0hpCzZniR41OQje2F3gF8H8',
-        constellation_icon_route:
-          google_pretext + '1NsShzjH9XVL2GFDYrUZCm9SZ8h_IVTwO',
+        spirit_img_url: BUTTERFLY_CHARMER,
+        constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'ZvplZUDwr9U',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, may makikita kang parang hugis globe na bukid at sa lagusan nito ay makikita mo
@@ -89,9 +119,8 @@ export const prairie = [
         spirit_relive_type: 'task',
         difficulty_level: 40,
         spirit_name: 'Ceremonial Worshiper',
-        spirit_img_url: google_pretext + '150a0Z7ydhU0fQZXOsetayDMrH8OX2Nio',
-        constellation_icon_route:
-          google_pretext + '1NsShzjH9XVL2GFDYrUZCm9SZ8h_IVTwO',
+        spirit_img_url: CEREMONIAL_WORSHIPPER,
+        constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita. At kapag ikaw ay
@@ -110,9 +139,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         spirit_name: 'Exhausted Dock Worker',
-        spirit_img_url: google_pretext + '1rJickmKOTAgrpsCr7Gtf7LbmYJn9x8H9',
-        constellation_icon_route:
-          google_pretext + '1NsShzjH9XVL2GFDYrUZCm9SZ8h_IVTwO',
+        spirit_img_url: EXHAUSTED_DOCK_WORKER,
+        constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kaliwa mo ay may lagusan papasok. Pagkapasok mo ay makikita mo ang
@@ -128,9 +156,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         spirit_name: 'Laughing Light Catcher',
-        spirit_img_url: google_pretext + '1IN4DRfmh5kf2_LHxrLjNkpWsKT-0ACHT',
-        constellation_icon_route:
-          google_pretext + '1NsShzjH9XVL2GFDYrUZCm9SZ8h_IVTwO',
+        spirit_img_url: LAUGHING_LIGHT_CATCHER,
+        constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'bxbQ0E0-6P0',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita. At kapag ikaw ay
@@ -146,9 +173,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 30,
         spirit_name: 'Slumbering Shipwright',
-        spirit_img_url: google_pretext + '1EO2_wkc2eOg7oeE4GpSOZ_JEe73zO0qo',
-        constellation_icon_route:
-          google_pretext + '1NsShzjH9XVL2GFDYrUZCm9SZ8h_IVTwO',
+        spirit_img_url: SLUMBERING_SHIPWRIGHT,
+        constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'TndluWxF7tw',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita. At kapag ikaw ay
@@ -164,9 +190,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         spirit_name: 'Waving Bellmaker',
-        spirit_img_url: google_pretext + '16301iKbqPd6yI-VpWjf8_unnBg04incq',
-        constellation_icon_route:
-          google_pretext + '1NsShzjH9XVL2GFDYrUZCm9SZ8h_IVTwO',
+        spirit_img_url: WAVING_BELLMAKER,
+        constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'f4PG-FV55jM',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita. At kapag ikaw ay
@@ -198,8 +223,8 @@ export const prairie = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 40,
         spirit_name: 'Stretching Guru',
-        spirit_img_url: google_pretext + '1sOWqM0SIp216GkAUjZKqeaq05nYhzOkD',
-        icon_route: google_pretext + '1paP_D4-Ge3vladyFaKcSX_aF_K9SLETY',
+        spirit_img_url: STRETCHING_GURU,
+        icon_route: SEASON1,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kaliwa mo ay may lagusan papasok. Pagkapasok mo ay makikita mo ang
@@ -216,8 +241,8 @@ export const prairie = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 40,
         spirit_name: 'Doublefive Light Catcher',
-        spirit_img_url: google_pretext + '1G5-FfXPmMDjsrqnZ3mcen3XXx4y5ijqb',
-        icon_route: google_pretext + '1QqqKCiHT0oY4Nt6cW-D7zeKDUtiudF5s',
+        spirit_img_url: DOUBLE_FIVE_LIGHT_CATCHER,
+        icon_route: SEASON2,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka. Pagdating mo
@@ -234,8 +259,8 @@ export const prairie = [
         spirit_relive_type: 'collect-memory',
         difficulty_level: 30,
         spirit_name: 'Confetti Cousin',
-        spirit_img_url: google_pretext + '1HEF1G5ZgXJbHuoykMm_uTpMwhM66pZS-',
-        icon_route: google_pretext + '15ybDFL8gGtAZYV5GRt_U2kgGX1h02A5S',
+        spirit_img_url: CONFETTI_COUSIN,
+        icon_route: SEASON3,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, may makikita kang parang hugis globe na bukid at sa tuktok nito ay makikita mo
@@ -251,8 +276,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 25,
         spirit_name: 'Festival Spin Dancer',
-        spirit_img_url: google_pretext + '1G48CzF0ylGxMzzRjcDibsetU37IB1Rwd',
-        icon_route: google_pretext + '1c8aeYQfvIkd9vsyFZa7gtJCwz6cAJfNq',
+        spirit_img_url: FESTIVAL_SPIN_DANCER,
+        icon_route: SEASON4,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka. Pagdating mo
@@ -269,8 +294,8 @@ export const prairie = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 50,
         spirit_name: 'Chill Sunbather',
-        spirit_img_url: google_pretext + '1-u9JLAHAXbQBRRCaHAmuipf4nlweAowz',
-        icon_route: google_pretext + '17R_GJM63yAo8c8wRybA6Pk3a4Yx3kqTL',
+        spirit_img_url: CHILL_SUNBATHER,
+        icon_route: SEASON6,
         spirit_guide_video_url: youtube_embed + '197tor-WWVo',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka. Pagdating mo
@@ -288,8 +313,8 @@ export const prairie = [
         spirit_relive_type: 'collect-memory',
         difficulty_level: 60,
         spirit_name: 'Rallying Thrillseeker',
-        spirit_img_url: google_pretext + '1g3adJoSyBURtmdmgz-f0-09ccCrixbOg',
-        icon_route: google_pretext + '17R_GJM63yAo8c8wRybA6Pk3a4Yx3kqTL',
+        spirit_img_url: RALLYING_THRILLSEEKER,
+        icon_route: SEASON6,
         spirit_guide_video_url: youtube_embed + 'vqDrzq5MZ9k',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka. Pagdating mo
@@ -307,8 +332,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 25,
         spirit_name: 'Grateful Shell Collector',
-        spirit_img_url: google_pretext + '16pQe6LsXGAhnLT2Wdo8bgTbPX6qwoEtO',
-        icon_route: google_pretext + '17R_GJM63yAo8c8wRybA6Pk3a4Yx3kqTL',
+        spirit_img_url: GRATEFUL_SHELL_COLLECTOR,
+        icon_route: SEASON6,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka. Pagdating mo
@@ -326,8 +351,8 @@ export const prairie = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 90,
         spirit_name: 'Hiking Grouch',
-        spirit_img_url: google_pretext + '1JEowG4SEE7K8EdAQBuQ25N6tmQ2ykKkX',
-        icon_route: google_pretext + '17R_GJM63yAo8c8wRybA6Pk3a4Yx3kqTL',
+        spirit_img_url: HIKING_GROUCH,
+        icon_route: SEASON6,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka. Pagdating mo
@@ -345,8 +370,8 @@ export const prairie = [
         spirit_relive_type: 'collect-memory',
         difficulty_level: 15,
         spirit_name: 'Jelly Whisperer',
-        spirit_img_url: google_pretext + '1dLuDl4wAgCyvERu9wUmWMYgMGWJ_UNMA',
-        icon_route: google_pretext + '17R_GJM63yAo8c8wRybA6Pk3a4Yx3kqTL',
+        spirit_img_url: JELLY_WHISPERER,
+        icon_route: SEASON6,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka. Pagdating mo
@@ -364,8 +389,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 30,
         spirit_name: 'Timid Bookworm',
-        spirit_img_url: google_pretext + '1jagnbmO4TgdVb3tAdxbDOZGOPKQLP9e_',
-        icon_route: google_pretext + '17R_GJM63yAo8c8wRybA6Pk3a4Yx3kqTL',
+        spirit_img_url: TIMID_BOOKWORM,
+        icon_route: SEASON6,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka. Pagdating mo
@@ -383,8 +408,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         spirit_name: 'Reassuring Ranger',
-        spirit_img_url: google_pretext + '1Lu6NGmSHBQUhYyp3Kk-Cp13isVLE-et6',
-        icon_route: google_pretext + '1ibcM29RVVhuOTsYaBA_lfwm3M0sacXEm',
+        spirit_img_url: REASSURING_RANGER,
+        icon_route: SEASON18,
         spirit_guide_video_url: youtube_embed + 'MN1DV_iu7EQ',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kaliwa ay may makikita kang lagusan. Pagkapasok mo lumipad ka gawing
@@ -402,8 +427,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 35,
         spirit_name: 'Jolly Geologist',
-        spirit_img_url: google_pretext + '1TmZSP-n_KiKGSI0lDu-D27WLyKQrG0oZ',
-        icon_route: google_pretext + '1ibcM29RVVhuOTsYaBA_lfwm3M0sacXEm',
+        spirit_img_url: JOLLY_GEOLOGIST,
+        icon_route: SEASON18,
         spirit_guide_video_url: youtube_embed + 'PSttOiSBiys',
         spirit_direction: `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kaliwa ay may makikita kang lagusan. Pagkapasok mo lumipad ka gawing
@@ -421,8 +446,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         spirit_name: 'Ascetic Monk',
-        spirit_img_url: google_pretext + '11iBUfXoHuxT371XUqbvwkIg9MX4kC7b0',
-        icon_route: google_pretext + '1ibcM29RVVhuOTsYaBA_lfwm3M0sacXEm',
+        spirit_img_url: ASCETIC_MONK,
+        icon_route: SEASON18,
         spirit_guide_video_url: youtube_embed + 'v8ecSqd3NOA',
         spirit_direction: `Lumipad ka patungo sa kaulapan
         at sa iyong pagkalapag, sa gawing kaliwa ay may makikita kang lagusan. Pagkapasok mo lumipad ka gawing
@@ -440,8 +465,8 @@ export const prairie = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         spirit_name: 'Nightbird Whisperer',
-        spirit_img_url: google_pretext + '1cRd7HjSRFbfLmtAmOn8GnoSUsxBg2oX1',
-        icon_route: google_pretext + '1ibcM29RVVhuOTsYaBA_lfwm3M0sacXEm',
+        spirit_img_url: NIGHTBIRD_WHISPERER,
+        icon_route: SEASON18,
         spirit_guide_video_url: youtube_embed + 'C8otHgCYJ7U',
         spirit_direction: `Lumipad ka patungo sa kaulapan at sa iyong pagkalapag, sa gawing kaliwa ay may makikita 
         kang lagusan. Pagkapasok mo lumipad ka gawing kaliwa at may makikita kang maliit na butas. Pumasok ka at
@@ -471,14 +496,14 @@ export const prairie = [
         id: 1,
         wl_label: 'prairie-WL1',
         wl_group: 'wl-prairie',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Nasa tuktok ng unang kweba na makikita mo pagkapasok mo ng Pangalawang Mapa - Daylight Prairie`,
       },
       {
         id: 2,
         wl_label: 'prairie-WL2',
         wl_group: 'wl-prairie',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pagkalabas mo ng unang kweba, makikita mo agad sa gawing kanan, ang sirang bangka namy
         winged light sa ibabaw nito.`,
       },
@@ -486,7 +511,7 @@ export const prairie = [
         id: 3,
         wl_label: 'prairie-WL3',
         wl_group: 'wl-prairie',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pagkalabas mo ng unang kweba,lumipad ka gawing kanan, hanggang sa makita mo ang maliit
         na kweba, at sa loob nito ay may isang winged light.`,
       },
@@ -494,7 +519,7 @@ export const prairie = [
         id: 4,
         wl_label: 'prairie-WL4',
         wl_group: 'wl-prairie',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pagkalabas mo ng unang kweba, lumipad ka lang ng diretso at makikita mo ang batong
         hagdanan, sa dulo nito ay may makikita ka agad na winged light.`,
       },
@@ -502,7 +527,7 @@ export const prairie = [
         id: 5,
         wl_label: 'prairie-WL5',
         wl_group: 'wl-prairie',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pagkalabas mo ng unang kweba, lumipad ka patungong templo, at sa gawing kanan patungo sa
         butterfly cave, kinakailangan mong makaakyat pataas. Pag nakaakyat ka na, may makikita kang lagusan
         sa gawing kanan. Pagkapasok mo, sa bandang kanan mo naman ulit may butas kung saan naroron ang isang
@@ -512,7 +537,7 @@ export const prairie = [
         id: 6,
         wl_label: 'prairie-WL6',
         wl_group: 'wl-prairie',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pumasok ka sa Water Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
         makukuha.`,
       },
@@ -520,7 +545,7 @@ export const prairie = [
         id: 7,
         wl_label: 'prairie-WL7',
         wl_group: 'wl-prairie',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pumasok ka sa Earth Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
         makukuha.`,
       },
@@ -528,7 +553,7 @@ export const prairie = [
         id: 8,
         wl_label: 'prairie-WL8',
         wl_group: 'wl-prairie',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
         makukuha.`,
       },
@@ -536,7 +561,7 @@ export const prairie = [
         id: 9,
         wl_label: 'prairie-WL9',
         wl_group: 'wl-prairie',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pumasok ka sa Fire Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
         makukuha.`,
       },
@@ -560,57 +585,57 @@ export const prairie = [
       {
         id: 1,
         shrine_label: 'Map Shrine 1',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location:
           'Makikita mo ito pagkatapos sa pangalawang winged light. Nasa itaas lamang ng bangka.',
       },
       {
         id: 2,
         shrine_label: 'Map Shrine 2',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location: 'Nasa tuktok ito ng Passage Stone.',
       },
       {
         id: 3,
         shrine_label: 'Map Shrine 3',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location: 'Nasa mga labas ng templo.',
       },
       {
         id: 4,
         shrine_label: 'Map Shrine 4',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location: 'Nasa tuktok ng butterfly cave',
       },
       {
         id: 5,
         shrine_label: 'Map Shrine 5',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location: 'Sa loob ng Cave of Prophecy',
       },
       {
         id: 6,
         shrine_label: 'Map Shrine 6',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location: 'Sa water trial',
       },
       {
         id: 7,
         shrine_label: 'Map Shrine 7',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location:
           'Sa earth trial, bago ka pumasok sa huling pagsubok, nasa bandang kanan pagkaakyat mo sa labas.',
       },
       {
         id: 8,
         shrine_label: 'Map Shrine 8',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location: 'Sa earth trial.',
       },
       {
         id: 9,
         shrine_label: 'Map Shrine 9',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location:
           'sa fire trial, bago mag exit sa 3rd floor, nasa gilid ng lagusan.',
       },

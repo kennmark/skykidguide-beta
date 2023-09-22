@@ -5,9 +5,11 @@ import {
   CardFooter,
   Typography,
   Tooltip,
+  Spinner,
 } from '@material-tailwind/react'
 import FaQ from './FaQ'
 import kennAvatar from '../assets/images/team/kenndev.jpg'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const Team = () => {
   return (
@@ -18,7 +20,14 @@ const Team = () => {
           className="w-80 bg-gradient-to-t from-blue-900 to-purple-900 "
         >
           <CardHeader floated={false} className="w-auto">
-            <img src={kennAvatar} alt="profile-picture" />
+            <LazyLoadImage
+              src={kennAvatar}
+              alt="profile-picture"
+              placeholderSrc={
+                <Spinner className="h-10 w-10 text-gray-900/50" />
+              }
+              effect="blur"
+            />
           </CardHeader>
           <CardBody className="text-center">
             <Typography variant="h4" color="white" className="mb-2">
@@ -29,7 +38,13 @@ const Team = () => {
             </Typography>
             <Typography className="flex justify-center">
               <a href="https://www.buymeacoffee.com/KennDev" target="_blank">
-                <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=KennDev&button_colour=068dd0&font_colour=ffffff&font_family=Comic&outline_colour=ffffff&coffee_colour=FFDD00" />
+                <LazyLoadImage
+                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=KennDev&button_colour=068dd0&font_colour=ffffff&font_family=Comic&outline_colour=ffffff&coffee_colour=FFDD00"
+                  placeholderSrc={
+                    <Spinner className="h-10 w-10 text-gray-900/50" />
+                  }
+                  effect="blur"
+                />
               </a>
             </Typography>
           </CardBody>

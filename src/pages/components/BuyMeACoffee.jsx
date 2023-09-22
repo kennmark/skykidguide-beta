@@ -3,8 +3,10 @@ import {
   CardHeader,
   CardBody,
   Typography,
+  Spinner,
 } from '@material-tailwind/react'
-import { useState } from 'react'
+import kennAvatar from '../../assets/images/team/kenndev.jpg'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export function BuyMeACoffee() {
   return (
@@ -18,8 +20,8 @@ export function BuyMeACoffee() {
         floated={false}
         className="m-0 w-2/5 shrink-0 rounded-r-none"
       >
-        <img
-          src="https://drive.google.com/uc?export=view&id=1GmbDX557dDf-oeWO9demoBG8kpBpbRhj"
+        <LazyLoadImage
+          src={kennAvatar}
           alt="card-image"
           className="h-full w-full object-cover grayscale opacity-80"
         />
@@ -33,7 +35,13 @@ export function BuyMeACoffee() {
         </Typography>
         <div className="flex justify-center">
           <a href="https://www.buymeacoffee.com/KennDev" target="_blank">
-            <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=KennDev&button_colour=068dd0&font_colour=ffffff&font_family=Comic&outline_colour=ffffff&coffee_colour=FFDD00" />
+            <LazyLoadImage
+              src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=KennDev&button_colour=068dd0&font_colour=ffffff&font_family=Comic&outline_colour=ffffff&coffee_colour=FFDD00"
+              placeholderSrc={
+                <Spinner className="h-10 w-10 text-gray-900/50" />
+              }
+              effect="blur"
+            />
           </a>
         </div>
       </CardBody>
