@@ -7,10 +7,11 @@ import AnnouncementModal from './AnnouncementModal'
 import FaQ from './FaQ'
 import SkyClock from './SkyClock'
 import { Clock } from '../pages/components/Clock'
+import carousel1 from '../assets/images/home-carousel/home.jpg'
+import carousel2 from '../assets/images/home-carousel/home2.jpg'
+import carousel3 from '../assets/images/home-carousel/home4.jpg'
 
 const HomeSpace = () => {
-  const google_pretext = 'https://drive.google.com/uc?export=view&id='
-
   const monthName = [
     'January',
     'February',
@@ -141,17 +142,17 @@ const HomeSpace = () => {
           )}
         >
           <img
-            src={google_pretext + '175NvIM38W1AhacP7pZjjw8liqSPlUmE3'}
+            src={carousel1}
             https:alt="image 1"
             className="h-full w-full object-cover"
           />
           <img
-            src={google_pretext + '1mbOuTQtRneXc94qkuHQHeN7EI_lRcRNv'}
+            src={carousel2}
             https:alt="image 2"
             className="h-full w-full object-cover"
           />
           <img
-            src={google_pretext + '17zW2FlDuLlQq11J45Om3xwnduUbRjxUJ'}
+            src={carousel3}
             alt="image 4"
             className="h-full w-full object-cover"
           />

@@ -22,7 +22,7 @@ const TextPopOver = ({
           fullWidth={true}
           className="bg-gradient-to-r rounded-tl-none rounded-bl-none from-purple-900 to-blue-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
         >
-          Text Direction
+          Text Guide
         </Button>
       </PopoverHandler>
       <PopoverContent {...triggers} className="z-50 max-w-[26rem]">

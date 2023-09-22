@@ -58,7 +58,7 @@ const SpiritCardContainer = ({
           src={spirit_img_url}
           alt={spirit_name}
           title={spirit_name}
-          className="w-auto h-14 m-auto shadow-filter"
+          className="w-auto h-14 m-auto"
         />
       </CardHeader>
       <CardBody>
@@ -69,9 +69,7 @@ const SpiritCardContainer = ({
         >
           <span>{spirit_name}</span>
         </Typography>
-        <Typography variant="h6" color="white" className="mb-2">
-          {seasonLabel}
-        </Typography>
+        <Typography className="mb-2 italic text-sm">{seasonLabel}</Typography>
         <span className="flex justify-center gap-2 pb-4 px-2">
           <Tooltip
             content="Type of Expression"
@@ -82,9 +80,7 @@ const SpiritCardContainer = ({
           >
             <Chip
               value={spirit_category}
-              color="indigo"
-              className="rounded-full text-gray-200"
-              variant="gradient"
+              className="rounded-full text-gray-200 bg-blue-900/80"
             />
           </Tooltip>
           <Tooltip
@@ -97,8 +93,7 @@ const SpiritCardContainer = ({
             <Chip
               color="indigo"
               value={spirit_relive_type}
-              className="rounded-full text-gray-200"
-              variant="gradient"
+              className="rounded-full text-gray-200  bg-blue-900/80"
             />
           </Tooltip>
         </span>
@@ -121,7 +116,7 @@ const SpiritCardContainer = ({
             className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
             onClick={handleOpen}
           >
-            Video Direction
+            Video Guide
           </Button>
           <TextPopOver
             openPopover={openPopover}

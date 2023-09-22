@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import {
   Navbar,
@@ -6,10 +7,9 @@ import {
   IconButton,
 } from '@material-tailwind/react'
 import { Bars3Icon, ChevronDoubleUpIcon } from '@heroicons/react/24/solid'
-import { useState, useEffect } from 'react'
+import skykidlogo from '../../assets/images/logo/T_G Logo white.png'
 
 const Header = () => {
-  const google_pretext = 'https://drive.google.com/uc?export=view&id='
   const [openNav, setOpenNav] = useState(false)
 
   useEffect(() => {
@@ -72,10 +72,7 @@ const Header = () => {
             to="/"
             className="flex items-center text-white hover:text-amber-600"
           >
-            <img
-              src={google_pretext + '1XLSRc3r-VqAV4fcn2cg9m1eON6-u2VSN'}
-              style={{ width: 50 }}
-            />
+            <img src={skykidlogo} style={{ width: 50 }} />
             <Typography className="p-1 text-md font-bold hidden lg:flex">
               Skykid:Tulong & Gabay
             </Typography>

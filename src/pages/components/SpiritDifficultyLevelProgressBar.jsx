@@ -8,7 +8,7 @@ const SpiritDifficultyLevelProgressBar = ({
   return (
     <div className="w-full">
       <div className="mb-2 flex items-center justify-between gap-4">
-        <Typography color="white" variant="h6">
+        <Typography color="white" className="text-md">
           Difficulty:
         </Typography>
         <Typography

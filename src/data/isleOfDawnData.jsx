@@ -5,8 +5,33 @@ import {
   ISLE_NUM_WL,
   ISLE_NUM_MAP_SHRINES,
 } from '../exports/constants'
-
-const google_pretext = 'https://drive.google.com/uc?export=view&id='
+import {
+  CANDLEMAKER,
+  REJECTING_VOYAGER,
+  USHERING_STARGAZER,
+  SASSY_DRIFTER,
+  PIGGYBACK_LIGHTSEEKER,
+  BOOGIE_KID,
+  TROUPE_GREETER,
+  PROPHET_OF_AIR,
+  PROPHET_OF_EARTH,
+  PROPHET_OF_FIRE,
+  PROPHET_OF_WATER,
+  MELANCHOLY_MOPE,
+  ODDBALL_OUTCAST,
+  OVERACTIVE_OVERACHIEVER,
+  TUMBLING_TROUBLEMAKER,
+} from '../exports/spiritIcons'
+import { MAP_SHRINE, WINGED_LIGHT } from '../exports/defaultImages'
+import {
+  MAP1,
+  SEASON1,
+  SEASON2,
+  SEASON3,
+  SEASON4,
+  SEASON7,
+  SEASON17,
+} from '../exports/seasonIcons'
 const youtube_embed = 'https://www.youtube.com/embed/'
 
 export const isleOfDawn = [
@@ -33,9 +58,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 9,
         spirit_name: 'Pointing Candlemaker',
-        spirit_img_url: google_pretext + '1jQxsQVTrnYnEqrdismWOBs-c48o8qS5f',
-        constellation_icon_route:
-          google_pretext + '1ACbz2wgsvH5Lstu9rCIcFj9YWDDaCMSR',
+        spirit_img_url: CANDLEMAKER,
+        constellation_icon_route: MAP1,
         spirit_guide_video_url: youtube_embed + 'ZSUPxHA9hD0',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Tumalon ka
@@ -51,9 +75,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         spirit_name: 'Ushering Stargazer',
-        constellation_icon_route:
-          google_pretext + '1ACbz2wgsvH5Lstu9rCIcFj9YWDDaCMSR',
-        spirit_img_url: google_pretext + '1mYPhNt7A7gceYsWDykxjcea3gthqg9cv',
+        spirit_img_url: REJECTING_VOYAGER,
+        constellation_icon_route: MAP1,
         spirit_guide_video_url: youtube_embed + '23ViQEAhj4U',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad ka patungo
@@ -68,9 +91,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 20,
         spirit_name: 'Rejecting Voyager',
-        spirit_img_url: google_pretext + '1q_CFoMfvzTcX15dcXHKe6OmLsJnu_TAK',
-        constellation_icon_route:
-          google_pretext + '1ACbz2wgsvH5Lstu9rCIcFj9YWDDaCMSR',
+        spirit_img_url: USHERING_STARGAZER,
+        constellation_icon_route: MAP1,
         spirit_guide_video_url: youtube_embed + 'FW3r7r_JaDM',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad ka
@@ -103,8 +125,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 25,
         spirit_name: 'Sassy Drifter',
-        spirit_img_url: google_pretext + '1iy55xFBEVpar8vxuVSNoGa8CrCiGSqiH',
-        icon_route: google_pretext + '1paP_D4-Ge3vladyFaKcSX_aF_K9SLETY',
+        spirit_img_url: SASSY_DRIFTER,
+        icon_route: SEASON1,
         spirit_guide_video_url: youtube_embed + 'ZX1k1hbb_sw',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
@@ -120,8 +142,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 25,
         spirit_name: 'Piggyback Lightseeker',
-        spirit_img_url: google_pretext + '1W3dQaEcCTRuAHQowLK1Ilhs7NRWgr6l1',
-        icon_route: google_pretext + '1QqqKCiHT0oY4Nt6cW-D7zeKDUtiudF5s',
+        spirit_img_url: PIGGYBACK_LIGHTSEEKER,
+        icon_route: SEASON2,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
@@ -137,8 +159,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 30,
         spirit_name: 'Boogie Kid',
-        spirit_img_url: google_pretext + '1nxyOuDF_ErhkJljfM-7-tmUDVDanqR0d',
-        icon_route: google_pretext + '15ybDFL8gGtAZYV5GRt_U2kgGX1h02A5S',
+        spirit_img_url: BOOGIE_KID,
+        icon_route: SEASON3,
         spirit_guide_video_url: youtube_embed + 'X2FUMSK0ZLs',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
@@ -154,8 +176,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 25,
         spirit_name: 'Troupe Greeter',
-        spirit_img_url: google_pretext + '1M0tAim29KpLRVLri--1LhbtFfWfXENYq',
-        icon_route: google_pretext + '1c8aeYQfvIkd9vsyFZa7gtJCwz6cAJfNq',
+        spirit_img_url: TROUPE_GREETER,
+        icon_route: SEASON4,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
@@ -171,8 +193,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         spirit_name: 'Prophet of Water',
-        spirit_img_url: google_pretext + '13bKgsOjeqr52ETfmPrkyIQFHvHZ2uPr2',
-        icon_route: google_pretext + '1WXXarUpyqt8qkfsmy2x7bXHbBPbG21WT',
+        spirit_img_url: PROPHET_OF_WATER,
+        icon_route: SEASON7,
         spirit_guide_video_url: youtube_embed + '6t-gksA_AjE',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
@@ -189,8 +211,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         spirit_name: 'Prophet of Earth',
-        spirit_img_url: google_pretext + '1MfZ3IJo9xyxYQ0n-f5MGprj1ZAttYiaI',
-        icon_route: google_pretext + '1WXXarUpyqt8qkfsmy2x7bXHbBPbG21WT',
+        spirit_img_url: PROPHET_OF_EARTH,
+        icon_route: SEASON7,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
@@ -207,8 +229,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         spirit_name: 'Prophet of Air',
-        spirit_img_url: google_pretext + '1t0ajxRTnhUlXkgQ2J0WEojT2gYA2GPg_',
-        icon_route: google_pretext + '1WXXarUpyqt8qkfsmy2x7bXHbBPbG21WT',
+        spirit_img_url: PROPHET_OF_AIR,
+        icon_route: SEASON7,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
@@ -225,8 +247,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         spirit_name: 'Prophet of Fire',
-        spirit_img_url: google_pretext + '1XQQ_1QUOWQuHeStoWgSPj8BdCyzNW9eq',
-        icon_route: google_pretext + '1WXXarUpyqt8qkfsmy2x7bXHbBPbG21WT',
+        spirit_img_url: PROPHET_OF_FIRE,
+        icon_route: SEASON7,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
@@ -243,8 +265,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         spirit_name: 'Oddball Outcast',
-        spirit_img_url: google_pretext + '1f6b6vjsy8R0bzIyqdAbEquwbJmMhlUS3',
-        icon_route: google_pretext + '1cRE6UsjcmcYloOgJl6DRYgcAalRuhS2B',
+        spirit_img_url: ODDBALL_OUTCAST,
+        icon_route: SEASON17,
         spirit_guide_video_url: youtube_embed + 'Ev1SkZRrwV0',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
@@ -261,8 +283,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         spirit_name: 'Tumbling Troublemaker',
-        spirit_img_url: google_pretext + '1Wx4ittdMp01-ivHcdo39WoxVL6gqujuX',
-        icon_route: google_pretext + '1cRE6UsjcmcYloOgJl6DRYgcAalRuhS2B',
+        spirit_img_url: TUMBLING_TROUBLEMAKER,
+        icon_route: SEASON17,
         spirit_guide_video_url: youtube_embed + 'LQAdsM3l6vg',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
@@ -279,8 +301,8 @@ export const isleOfDawn = [
         difficulty_level: 15,
         spirit_relive_type: 'follow-memory',
         spirit_name: 'Melancholy Mope',
-        spirit_img_url: google_pretext + '19-oeg5KKRABFV1uLy7rHwKvzdo9w5Jp_',
-        icon_route: google_pretext + '1cRE6UsjcmcYloOgJl6DRYgcAalRuhS2B',
+        spirit_img_url: MELANCHOLY_MOPE,
+        icon_route: SEASON17,
         spirit_guide_video_url: youtube_embed + 'dj5NMRkGBoo',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
@@ -297,8 +319,8 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         spirit_name: 'Overactive Overachiever',
-        spirit_img_url: google_pretext + '1GJCbDzVxlMgkzjWRB7Xa02GDmsKgdLj8',
-        icon_route: google_pretext + '1cRE6UsjcmcYloOgJl6DRYgcAalRuhS2B',
+        spirit_img_url: OVERACTIVE_OVERACHIEVER,
+        icon_route: SEASON17,
         spirit_guide_video_url: youtube_embed + 'JJGW3koPH3Y',
         spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, Lumakad ka o Lumipad papasok sa unang kweba na makita mo.
         Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
@@ -328,7 +350,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL1',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Nasa tuktok ng unang kweba na makikita mo pagkapasok mo ng Unang Mapa - Isle of Dawn`,
       },
       {
@@ -336,7 +358,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL2',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pagkalabas mo ng unang kweba, makikita mo agad sa gawing kanan, ang sirang bangka namy
         winged light sa ibabaw nito.`,
       },
@@ -345,7 +367,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL3',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pagkalabas mo ng unang kweba,lumipad ka gawing kanan, hanggang sa makita mo ang maliit
         na kweba, at sa loob nito ay may isang winged light.`,
       },
@@ -354,7 +376,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL4',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pagkalabas mo ng unang kweba, lumipad ka lang ng diretso at makikita mo ang batong
         hagdanan, sa dulo nito ay may makikita ka agad na winged light.`,
       },
@@ -363,7 +385,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL5',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pagkalabas mo ng unang kweba, lumipad ka patungong templo, at sa gawing kanan patungo sa
         butterfly cave, kinakailangan mong makaakyat pataas. Pag nakaakyat ka na, may makikita kang lagusan
         sa gawing kanan. Pagkapasok mo, sa bandang kanan mo naman ulit may butas kung saan naroron ang isang
@@ -374,7 +396,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL6',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pumasok ka sa Water Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
         makukuha.`,
       },
@@ -383,7 +405,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL7',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pumasok ka sa Earth Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
         makukuha.`,
       },
@@ -392,7 +414,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL8',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
         makukuha.`,
       },
@@ -401,7 +423,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL9',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
-        wl_url: google_pretext + '1-rEWdJc8DkHwYJUIMR3vPsUKQQflTqK-',
+        wl_url: WINGED_LIGHT,
         wl_location: `Pumasok ka sa Fire Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
         makukuha.`,
       },
@@ -426,7 +448,7 @@ export const isleOfDawn = [
         id: 1,
         shrine_group: 'shrine-season-0',
         shrine_label: 'Map Shrine 1',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location:
           'Makikita mo ito pagkatapos sa pangalawang winged light. Nasa itaas lamang ng bangka.',
       },
@@ -434,42 +456,42 @@ export const isleOfDawn = [
         id: 2,
         shrine_group: 'shrine-season-17',
         shrine_label: 'Map Shrine 2',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location: 'Nasa tuktok ito ng Passage Stone.',
       },
       {
         id: 3,
         shrine_group: 'shrine-season-0',
         shrine_label: 'Map Shrine 3',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location: 'Nasa mga labas ng templo.',
       },
       {
         id: 4,
         shrine_group: 'shrine-season-0',
         shrine_label: 'Map Shrine 4',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location: 'Nasa tuktok ng butterfly cave',
       },
       {
         id: 5,
         shrine_group: 'shrine-season-7',
         shrine_label: 'Map Shrine 5',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location: 'Sa loob ng Cave of Prophecy',
       },
       {
         id: 6,
         shrine_group: 'shrine-season-7',
         shrine_label: 'Map Shrine 6',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location: 'Sa water trial',
       },
       {
         id: 7,
         shrine_group: 'shrine-season-7',
         shrine_label: 'Map Shrine 7',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location:
           'Sa earth trial, bago ka pumasok sa huling pagsubok, nasa bandang kanan pagkaakyat mo sa labas.',
       },
@@ -477,14 +499,14 @@ export const isleOfDawn = [
         id: 8,
         shrine_group: 'shrine-season-7',
         shrine_label: 'Map Shrine 8',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location: 'Sa earth trial.',
       },
       {
         id: 9,
         shrine_group: 'shrine-season-7',
         shrine_label: 'Map Shrine 9',
-        shrine_url: google_pretext + '1nxe2KSd5UqzUsTUNBe5NtgAS4goQhiUB',
+        shrine_url: MAP_SHRINE,
         shrine_location:
           'sa fire trial, bago mag exit sa 3rd floor, nasa gilid ng lagusan.',
       },

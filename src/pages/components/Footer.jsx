@@ -1,8 +1,14 @@
 import { Typography } from '@material-tailwind/react'
-import { Link } from 'react-router-dom'
+import {
+  MATERIAL_TAILWIND,
+  VITE_lOGO,
+  TAILWINDCSS,
+  REACT_LOGO,
+  NETLIFY_LOGO,
+} from '../../exports/techIcons'
+import skykidlogo from '../../assets/images/logo/T_G Logo white.png'
 
 const Footer = () => {
-  const google_pretext = 'https://drive.google.com/uc?export=view&id='
   const LINKS = [
     {
       title: 'Powered',
@@ -10,31 +16,31 @@ const Footer = () => {
         {
           id: 1,
           name: 'ReactJS',
-          img: google_pretext + '19QG8uDMDxyHJWmFMWJMMUid0tHx__M6c',
+          img: REACT_LOGO,
           link: 'https://react.dev/',
         },
         {
           id: 2,
           name: 'ViteJS',
-          img: google_pretext + '1acYRBhBLvxdzLC-uTpUY3q7v-kn3rVvo',
+          img: VITE_lOGO,
           link: 'https://vitejs.dev/',
         },
         {
           id: 3,
           name: 'Netlify',
-          img: google_pretext + '1k1SB6AXemPnTsX4KEDORkSgM6AhrdWAq',
+          img: NETLIFY_LOGO,
           link: 'https://www.netlify.com/',
         },
         {
           id: 4,
           name: 'TailwindCSS',
-          img: google_pretext + '1skqwmpxSCSzQsxHi6VMA_Unlva6V5NRR',
+          img: TAILWINDCSS,
           link: 'https://tailwindcss.com/',
         },
         {
           id: 5,
           name: 'Material-Tailwind',
-          img: google_pretext + '1Z1_4yKZHseVHzEO92S-vaXHCxssHIGQi',
+          img: MATERIAL_TAILWIND,
           link: 'https://www.material-tailwind.com/',
         },
       ],
@@ -72,11 +78,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <span className="grid justify-items-center gap-4">
             <a href="/">
-              <img
-                src={google_pretext + '1XLSRc3r-VqAV4fcn2cg9m1eON6-u2VSN'}
-                alt="Skykid:T&G logo"
-                width={75}
-              />
+              <img src={skykidlogo} alt="Skykid:T&G logo" width={75} />
               <Typography color="white">Sykid:T&G</Typography>
             </a>
 
