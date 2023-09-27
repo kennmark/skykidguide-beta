@@ -16,7 +16,7 @@ import { Clock } from '../pages/components/Clock'
 import carousel1 from '../assets/images/home-carousel/home.jpg'
 import carousel2 from '../assets/images/home-carousel/home2.jpg'
 import carousel3 from '../assets/images/home-carousel/home4.jpg'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
+// import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const HomeSpace = () => {
   const monthName = [
@@ -148,23 +148,20 @@ const HomeSpace = () => {
             </div>
           )}
         >
-          <LazyLoadImage
+          <img
             src={carousel1}
             https:alt="image 1"
             className="h-full w-full object-cover"
-            placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
           />
-          <LazyLoadImage
+          <img
             src={carousel2}
             https:alt="image 2"
             className="h-full w-full object-cover"
-            placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
           />
-          <LazyLoadImage
+          <img
             src={carousel3}
             alt="image 4"
             className="h-full w-full object-cover"
-            placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
           />
         </Carousel>
         <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border-none bg-gradient-to-br py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">

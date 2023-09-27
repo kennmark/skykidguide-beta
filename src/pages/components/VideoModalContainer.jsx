@@ -4,9 +4,9 @@ import {
   Dialog,
   DialogHeader,
   DialogBody,
-  DialogFooter,
-  Typography,
+  IconButton,
 } from '@material-tailwind/react'
+import { XMarkIcon } from '@heroicons/react/24/outline'
 
 const VideoModalContainer = ({
   handleOpen,
@@ -25,8 +25,11 @@ const VideoModalContainer = ({
           unmount: { scale: 0.9, y: -100 },
         }}
       >
-        <DialogHeader className="text-gray-200">
+        <DialogHeader className="text-gray-200 justify-between">
           Spirit Guide Video - {spirit_name}
+          <IconButton color="white" variant="text" onClick={handleOpen}>
+            <XMarkIcon className="h-6 w-6" />
+          </IconButton>
         </DialogHeader>
         <DialogBody className="h-80 drop-shadow-2xl">
           <iframe
@@ -37,15 +40,6 @@ const VideoModalContainer = ({
             allowFullScreen
           ></iframe>
         </DialogBody>
-        <DialogFooter>
-          <Button
-            variant="gradient"
-            className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
-            onClick={handleOpen}
-          >
-            <span>Close</span>
-          </Button>
-        </DialogFooter>
       </Dialog>
     </>
   )

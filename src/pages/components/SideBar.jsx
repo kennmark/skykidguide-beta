@@ -27,14 +27,14 @@ import AccordionSeason2023 from './AccordionSeason2023'
 import { BuyMeACoffee } from './BuyMeACoffee'
 import { Link } from 'react-router-dom'
 
-const SideBar = () => {
+const SideBar = ({ screenSize }) => {
   const [open, setOpen] = useState(0)
   const handleOpen = (value) => {
     setOpen(open === value ? 0 : value)
   }
 
   return (
-    <div className="h-100vh w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5 bg-blue-gray-50">
+    <div className="h-full w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5 bg-blue-gray-50">
       <div className="mb-2 flex items-center gap-4 p-4">
         <Typography variant="h5" color="blue-gray">
           Dashboard
@@ -123,7 +123,7 @@ const SideBar = () => {
           </ListItemSuffix>
         </ListItem>
       </List>
-      <BuyMeACoffee />
+      {!screenSize <= window.innerWidth && <BuyMeACoffee />}
     </div>
   )
 }

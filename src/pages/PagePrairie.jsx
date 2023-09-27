@@ -13,6 +13,7 @@ import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import { GIF_PRAIRIE, PRAIRIE_ALT } from '../exports/mapGIFs'
 import PageHeaderContainer from './components/PageHeaderContainer'
+import DifficultyCriteria from './components/DifficultyCriteria'
 
 const PagePrairie = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
@@ -94,6 +95,8 @@ const PagePrairie = () => {
             )
           })}
         </Tabs>
+
+        <DifficultyCriteria />
       </div>
     </div>
   )

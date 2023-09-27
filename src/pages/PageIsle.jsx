@@ -1,18 +1,13 @@
-import {
-  Typography,
-  Tabs,
-  TabsHeader,
-  TabsBody,
-  TabPanel,
-} from '@material-tailwind/react'
-import { SideBarContainer } from './components/SidebarContainer'
 import { useState } from 'react'
+import { Tabs, TabsHeader, TabsBody, TabPanel } from '@material-tailwind/react'
+import { SideBarContainer } from './components/SidebarContainer'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
 import { isleOfDawn } from '../data/isleOfDawnData'
 import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import { GIF_ISLE, ISLE_ALT } from '../exports/mapGIFs'
 import PageHeaderContainer from './components/PageHeaderContainer'
+import DifficultyCriteria from './components/DifficultyCriteria'
 
 const PageIsle = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
@@ -57,7 +52,7 @@ const PageIsle = () => {
                 key={index}
               >
                 <TabPanel key={index} value={body.value}>
-                  <div className="text-gray-100 pb-5">{body.desc}</div>
+                  <div className="text-gray-100">{body.desc}</div>
                   <div className="flex flex-wrap justify-center gap-3">
                     {body.spirits?.map((spirit) => {
                       return (
@@ -93,6 +88,9 @@ const PageIsle = () => {
             )
           })}
         </Tabs>
+        <div className="w-full">
+          <DifficultyCriteria />
+        </div>
       </div>
     </div>
   )

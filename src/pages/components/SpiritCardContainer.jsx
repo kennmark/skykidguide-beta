@@ -14,6 +14,7 @@ import VideoModalContainer from './VideoModalContainer'
 import TextPopOver from './TextPopOver'
 import SpiritDifficultyLevelProgressBar from './SpiritDifficultyLevelProgressBar'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
+import { TextGuideModal } from './TextGuideModal'
 
 const SpiritCardContainer = ({
   spirit_img_url,
@@ -26,25 +27,24 @@ const SpiritCardContainer = ({
   icon_route,
   constellation_icon_route,
   difficulty_level,
+  difficulty_types,
 }) => {
-  const [open, setOpen] = useState(false)
-  const [openPopover, setOpenPopover] = useState(false)
-  const handleOpen = () => setOpen(!open)
-  const triggers = {
-    onMouseEnter: () => setOpenPopover(true),
-    onMouseLeave: () => setOpenPopover(false),
-  }
+  const [openVideoModal, setOpenVideoModal] = useState(false)
+  const [openTextModal, setOpenTextModal] = useState(false)
+  const handleVideoGuideOpen = () => setOpenVideoModal(!openVideoModal)
+  const handleTextGuideOpen = () => setOpenTextModal(!openTextModal)
 
   const iconUrl = icon_route ?? ''
   const seasonLabel = season ?? ''
   const videoUrl = spirit_guide_video_url ?? ''
   const constellationIconUrl = constellation_icon_route ?? ''
+  const spiritDirection = spirit_direction ?? ''
 
   return (
     <Card
       color="gray"
       variant="gradient"
-      className="lg:w-72 w-80 rounded-3xl justify-between"
+      className="lg:w-72 w-80 rounded-3xl justify-between mb-5"
     >
       <CardHeader shadow={false} color="transparent" className="card-header">
         <span className="icon-badge">
@@ -104,6 +104,7 @@ const SpiritCardContainer = ({
         </span>
         <span className="flex justify-center gap-2 pb-4 px-2">
           <SpiritDifficultyLevelProgressBar
+            difficultyTypes={difficulty_types}
             difficulty_level={difficulty_level}
             difficulty_label={
               difficulty_level <= 25
@@ -119,22 +120,28 @@ const SpiritCardContainer = ({
         <ButtonGroup size="md" ripple={true} fullWidth={true}>
           <Button
             className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
-            onClick={handleOpen}
+            onClick={handleVideoGuideOpen}
           >
             Video Guide
           </Button>
-          <TextPopOver
-            openPopover={openPopover}
-            setOpenPopover={setOpenPopover}
-            triggers={triggers}
-            spirit_direction={spirit_direction}
-          />
+          <Button
+            onClick={handleTextGuideOpen}
+            className="bg-gradient-to-r rounded-tl-none rounded-bl-none from-purple-900 to-blue-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
+          >
+            Text Guide
+          </Button>
         </ButtonGroup>
 
         <VideoModalContainer
-          handleOpen={handleOpen}
-          open={open}
+          handleOpen={handleVideoGuideOpen}
+          open={openVideoModal}
           spirit_guide_video_url={videoUrl}
+          spirit_name={spirit_name}
+        />
+        <TextGuideModal
+          spiritDirection={spiritDirection}
+          handleOpen={handleTextGuideOpen}
+          open={openTextModal}
           spirit_name={spirit_name}
         />
       </CardBody>
