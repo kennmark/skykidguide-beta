@@ -8,7 +8,7 @@ import {
 import { SideBarContainer } from './components/SidebarContainer'
 import { useState } from 'react'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
-import { isleOfDawn } from '../data/isleOfDawnData'
+import { valley } from '../data/valleyData'
 import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import PageHeaderContainer from './components/PageHeaderContainer'
@@ -18,7 +18,7 @@ const PageValley = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
 
   return (
-    <div className="flex justify-start">
+    <div className="flex justify-center">
       <div>
         <SideBarContainer />
       </div>
@@ -30,12 +30,12 @@ const PageValley = () => {
           width={75}
           title={'Valley of Triumph'}
         />
-        {/* <Tabs id="custom-animation" value={activeTab}>
+        <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
             variant="gradient"
-            className="bg-gradient-to-r from-blue-900 to-purple-900"
+            className="bg-gradient-to-r from-blue-900 to-purple-900 flex items-center"
           >
-            {isleOfDawn.map((headerTab, index) => {
+            {valley.map((headerTab, index) => {
               return (
                 <MapTabHeaderContainer
                   {...headerTab}
@@ -46,7 +46,7 @@ const PageValley = () => {
               )
             })}
           </TabsHeader>
-          {isleOfDawn.map((body, index) => {
+          {valley.map((body, index) => {
             return (
               <TabsBody
                 animate={{
@@ -87,7 +87,7 @@ const PageValley = () => {
               </TabsBody>
             )
           })}
-        </Tabs> */}
+        </Tabs>
       </div>
     </div>
   )

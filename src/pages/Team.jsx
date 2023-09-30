@@ -36,7 +36,7 @@ const Team = () => {
             <Typography color="white" className="font-medium">
               Developer/ Freelancer
             </Typography>
-            <Typography className="flex justify-center">
+            {/* <Typography className="flex justify-center">
               <a href="https://www.buymeacoffee.com/KennDev" target="_blank">
                 <LazyLoadImage
                   src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=KennDev&button_colour=068dd0&font_colour=ffffff&font_family=Comic&outline_colour=ffffff&coffee_colour=FFDD00"
@@ -46,7 +46,7 @@ const Team = () => {
                   effect="blur"
                 />
               </a>
-            </Typography>
+            </Typography> */}
           </CardBody>
           <CardFooter className="flex justify-center gap-7 pt-2">
             <Tooltip content="Like">

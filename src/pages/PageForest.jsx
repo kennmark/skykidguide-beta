@@ -1,24 +1,19 @@
-import {
-  Typography,
-  Tabs,
-  TabsHeader,
-  TabsBody,
-  TabPanel,
-} from '@material-tailwind/react'
+import { Tabs, TabsHeader, TabsBody, TabPanel } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import { useState } from 'react'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
-import { isleOfDawn } from '../data/isleOfDawnData'
+import { hiddenForest } from '../data/forestData'
 import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import PageHeaderContainer from './components/PageHeaderContainer'
 import { GIF_FOREST, FOREST_ALT } from '../exports/mapGIFs'
+import DifficultyCriteria from './components/DifficultyCriteria'
 
 const PageForest = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
 
   return (
-    <div className="flex justify-start">
+    <div className="flex justify-center">
       <div>
         <SideBarContainer />
       </div>
@@ -30,12 +25,12 @@ const PageForest = () => {
           width={75}
           title={'Hidden Forest'}
         />
-        {/* <Tabs id="custom-animation" value={activeTab}>
+        <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
             variant="gradient"
-            className="bg-gradient-to-r from-blue-900 to-purple-900"
+            className="bg-gradient-to-r from-blue-900 to-purple-900 flex items-center"
           >
-            {isleOfDawn.map((headerTab, index) => {
+            {hiddenForest.map((headerTab, index) => {
               return (
                 <MapTabHeaderContainer
                   {...headerTab}
@@ -46,7 +41,7 @@ const PageForest = () => {
               )
             })}
           </TabsHeader>
-          {isleOfDawn.map((body, index) => {
+          {hiddenForest.map((body, index) => {
             return (
               <TabsBody
                 animate={{
@@ -87,7 +82,10 @@ const PageForest = () => {
               </TabsBody>
             )
           })}
-        </Tabs> */}
+        </Tabs>
+        <div className="w-full">
+          <DifficultyCriteria />
+        </div>
       </div>
     </div>
   )

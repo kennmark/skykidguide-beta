@@ -10,7 +10,7 @@ const SpiritDifficultyLevelProgressBar = ({
     <Chip color="green" value="Follow +5" key={1} />, // 0
     <Chip color="teal" value="Walk +10" key={2} />, // 1
     <Chip color="cyan" value="Fly +10" key={3} />, // 2
-    <Chip color="amber" value="Need Other Player +10" key={4} />, // 3
+    <Chip color="amber" value="2 or 4 Player Door +10" key={4} />, // 3
     <Chip color="green" value="Carry +10" key={5} />, // 4
     <Chip color="indigo" value="Distanced +15" key={6} />, // 5
     <Chip color="purple" value="Elevated +20" key={7} />, // 6

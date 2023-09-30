@@ -32,6 +32,17 @@ import {
   SEASON7,
   SEASON17,
 } from '../exports/seasonIcons'
+import {
+  ID_WL1,
+  ID_WL2,
+  ID_WL3,
+  ID_WL4,
+  ID_WL5,
+  ID_WL6,
+  ID_WL7,
+  ID_WL8,
+  ID_WL9,
+} from '../exports/isleWLImgUrl'
 const youtube_embed = 'https://www.youtube.com/embed/'
 
 export const isleOfDawn = [
@@ -158,14 +169,14 @@ export const isleOfDawn = [
         season_id: 'season-2',
         spirit_type: 'seasonal',
         season: 'Season 2 - Season of Lightseekers',
-        spirit_category: 'friendship action',
+        spirit_category: 'friendship-action',
         spirit_relive_type: 'carry-memory',
         difficulty_level: 20,
         difficulty_types: [1, 4],
         spirit_name: 'Piggyback Lightseeker',
         spirit_img_url: PIGGYBACK_LIGHTSEEKER,
         icon_route: SEASON2,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'tY2JmP_skv0',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -207,7 +218,7 @@ export const isleOfDawn = [
         spirit_name: 'Troupe Greeter',
         spirit_img_url: TROUPE_GREETER,
         icon_route: SEASON4,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'J35XuoEkp5w',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -249,7 +260,7 @@ export const isleOfDawn = [
         difficulty_types: [0, 1, 6],
         spirit_img_url: PROPHET_OF_EARTH,
         icon_route: SEASON7,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'F9MHavec2FE',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -270,7 +281,7 @@ export const isleOfDawn = [
         spirit_name: 'Prophet of Air',
         spirit_img_url: PROPHET_OF_AIR,
         icon_route: SEASON7,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'eJ1XmXur2E4',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -291,7 +302,7 @@ export const isleOfDawn = [
         spirit_name: 'Prophet of Fire',
         spirit_img_url: PROPHET_OF_FIRE,
         icon_route: SEASON7,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'wup0dXxlEn4',
         spirit_direction: [
           'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
           'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -404,7 +415,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL1',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
-        wl_url: WINGED_LIGHT,
+        wl_url: ID_WL1 ?? WINGED_LIGHT,
         wl_location: `Nasa tuktok ng unang kweba na makikita mo pagkapasok mo ng Unang Mapa - Isle of Dawn`,
       },
       {
@@ -412,7 +423,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL2',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
-        wl_url: WINGED_LIGHT,
+        wl_url: ID_WL2 ?? WINGED_LIGHT,
         wl_location: `Pagkalabas mo ng unang kweba, makikita mo agad sa gawing kanan, ang sirang bangka namy
         winged light sa ibabaw nito.`,
       },
@@ -421,7 +432,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL3',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
-        wl_url: WINGED_LIGHT,
+        wl_url: ID_WL3 ?? WINGED_LIGHT,
         wl_location: `Pagkalabas mo ng unang kweba,lumipad ka gawing kanan, hanggang sa makita mo ang maliit
         na kweba, at sa loob nito ay may isang winged light.`,
       },
@@ -430,7 +441,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL4',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
-        wl_url: WINGED_LIGHT,
+        wl_url: ID_WL4 ?? WINGED_LIGHT,
         wl_location: `Pagkalabas mo ng unang kweba, lumipad ka ng diretso at makikita mo ang batong
         hagdanan, sa dulo nito ay may makikita ka agad na winged light.`,
       },
@@ -439,7 +450,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL5',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
-        wl_url: WINGED_LIGHT,
+        wl_url: ID_WL5 ?? WINGED_LIGHT,
         wl_location: `Pagkalabas mo ng unang kweba, lumipad ka patungong templo, at sa gawing kanan patungo sa
         butterfly cave, kinakailangan mong makaakyat pataas. Pag nakaakyat ka na, may makikita kang lagusan
         sa gawing kanan. Pagkapasok mo, sa bandang kanan mo naman ulit may butas kung saan naroron ang isang
@@ -450,7 +461,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL6',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
-        wl_url: WINGED_LIGHT,
+        wl_url: ID_WL6 ?? WINGED_LIGHT,
         wl_location: `Pumasok ka sa Water Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
         makukuha.`,
       },
@@ -459,7 +470,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL7',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
-        wl_url: WINGED_LIGHT,
+        wl_url: ID_WL7 ?? WINGED_LIGHT,
         wl_location: `Pumasok ka sa Earth Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
         makukuha.`,
       },
@@ -468,7 +479,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL8',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
-        wl_url: WINGED_LIGHT,
+        wl_url: ID_WL8 ?? WINGED_LIGHT,
         wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
         makukuha.`,
       },
@@ -477,7 +488,7 @@ export const isleOfDawn = [
         wl_label: 'Isle-WL9',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
-        wl_url: WINGED_LIGHT,
+        wl_url: ID_WL9 ?? WINGED_LIGHT,
         wl_location: `Pumasok ka sa Fire Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
         makukuha.`,
       },

@@ -156,7 +156,7 @@ export const prairie = [
         spirit_name: 'Ceremonial Worshiper',
         spirit_img_url: CEREMONIAL_WORSHIPPER,
         constellation_icon_route: MAP2,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'QyxnF3E58Xg?start=1070',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita at lumusot sa batong pintuan at lumipad.`,
@@ -177,7 +177,7 @@ export const prairie = [
         spirit_name: 'Exhausted Dock Worker',
         spirit_img_url: EXHAUSTED_DOCK_WORKER,
         constellation_icon_route: MAP2,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'QyxnF3E58Xg?start=1706',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, sa gawing kaliwa mo ay may lagusan papasok.`,
@@ -274,7 +274,7 @@ export const prairie = [
         spirit_name: 'Stretching Guru',
         spirit_img_url: STRETCHING_GURU,
         icon_route: SEASON1,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '_Atgn5k2kBY',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
@@ -295,7 +295,7 @@ export const prairie = [
         spirit_name: 'Doublefive Light Catcher',
         spirit_img_url: DOUBLE_FIVE_LIGHT_CATCHER,
         icon_route: SEASON2,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'nQUnUlwujMc',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka.`,
@@ -315,7 +315,7 @@ export const prairie = [
         spirit_name: 'Confetti Cousin',
         spirit_img_url: CONFETTI_COUSIN,
         icon_route: SEASON3,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'bBjri4XwR2c',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  may makikita kang parang hugis globe na bukid at sa tuktok nito ay makikita mo
@@ -335,7 +335,7 @@ export const prairie = [
         spirit_name: 'Festival Spin Dancer',
         spirit_img_url: FESTIVAL_SPIN_DANCER,
         icon_route: SEASON4,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'eTI_5rJNQqg',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -400,7 +400,7 @@ export const prairie = [
         spirit_name: 'Grateful Shell Collector',
         spirit_img_url: GRATEFUL_SHELL_COLLECTOR,
         icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'fMZdaF0WRC8',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -421,7 +421,7 @@ export const prairie = [
         spirit_name: 'Hiking Grouch',
         spirit_img_url: HIKING_GROUCH,
         icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'fILkeV1zji4',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -442,7 +442,7 @@ export const prairie = [
         spirit_name: 'Jelly Whisperer',
         spirit_img_url: JELLY_WHISPERER,
         icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'svKLM5uXQpg',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -464,7 +464,7 @@ export const prairie = [
         spirit_name: 'Timid Bookworm',
         spirit_img_url: TIMID_BOOKWORM,
         icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'GTnvyuwFNE0',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -683,104 +683,131 @@ export const prairie = [
         wl_group: 'wl-prairie',
         wl_url: PR_WL12 ?? WINGED_LIGHT,
         wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad patungong templo >> Paglabas sa Village Islands,
-        sa itaas ng templo makikita mo ito.`,
+        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
+        sa kaliwang isla ang winged light.`,
       },
       {
         id: 13,
         wl_label: 'Prairie-WL13',
         wl_group: 'wl-prairie',
         wl_url: PR_WL13 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
+        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
+        nasa likod na isla, ng nasa gitnang islang may sirang tore.`,
       },
       {
         id: 14,
         wl_label: 'Prairie-WL14',
         wl_group: 'wl-prairie',
         wl_url: PR_WL14 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
+        Pagkalapag sa Butterfly Field, lumipad pakaliwa at pumasok sa lagusan >> Paglabas lumipad,
+        patungong kanan, sa maliit na butas, pumasok at umupo sa bangka >> Pagdating dumako papasok at
+        lumipad pakaliwa at pasok sa lagusan nito. >> May maliit na lagusan sa ibaba, pasok ka. >> lumipad 
+        pataas at hanapin ang sa gitnang pader.`,
       },
       {
         id: 15,
         wl_label: 'Prairie-WL15',
         wl_group: 'wl-prairie',
         wl_url: PR_WL15 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
+        Pagkalapag sa Butterfly Field, lumipad pakaliwa at pumasok sa lagusan >> Paglabas lumipad,
+        patungong kanan, sa maliit na butas, pumasok at umupo sa bangka >> Pagdating dumako papasok at
+        lumipad patungo sa malaking fal. Sa falls, ay lumangoy pailalim >> pumasok sa butas at lumangoy at umahon
+        at lumipad papasok sa tabi ng orb makikita ang winged light.`,
       },
       {
         id: 16,
         wl_label: 'Prairie-WL16',
         wl_group: 'wl-prairie',
         wl_url: PR_WL16 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
+        Pagkalapag sa Butterfly Field, lumipad pakaliwa at pumasok sa lagusan >> Paglabas lumipad,
+        patungong kanan, sa maliit na butas, pumasok at umupo sa bangka >> Pagdating dumako papasok at
+        lumipad patungo sa pinakamataas na bundok at sa tuktok nito ang winged light.`,
       },
       {
         id: 17,
         wl_label: 'Prairie-WL17',
         wl_group: 'wl-prairie',
         wl_url: PR_WL17 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
+        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
+        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, makita mo ito agad sa
+        malaking islang nakalutang.`,
       },
       {
         id: 18,
         wl_label: 'Prairie-WL18',
         wl_group: 'wl-prairie',
         wl_url: PR_WL18 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
+        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
+        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, sa tuktok ng 
+        malaking isla ay may maliit na lagusan.`,
       },
       {
         id: 19,
         wl_label: 'Prairie-WL19',
         wl_group: 'wl-prairie',
         wl_url: PR_WL19 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
+        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
+        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, sa kaliwang dako,
+        makita ang tatlong maliliit na nakalutang na isla. Nasa kanan na isla.`,
       },
       {
         id: 20,
         wl_label: 'Prairie-WL20',
         wl_group: 'wl-prairie',
         wl_url: PR_WL20 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
+        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
+        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, sa bandang likuran
+        ay may mga kampana at sa bandang ibaba ay nakapwesto ang winged light na ito.`,
       },
       {
         id: 21,
         wl_label: 'Prairie-WL21',
         wl_group: 'wl-prairie',
         wl_url: PR_WL21 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
+        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
+        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, sa likod ng malaking isla
+        makikita ang jellyfish cave.`,
       },
       {
         id: 22,
         wl_label: 'Prairie-WL22',
         wl_group: 'wl-prairie',
         wl_url: PR_WL22 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
+        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
+        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, lumipad pababa
+        at makita ang malaking bungaga ng kweba nasa likod ng waterfall ito.`,
       },
       {
         id: 23,
         wl_label: 'Prairie-WL23',
         wl_group: 'wl-prairie',
         wl_url: PR_WL23 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
+        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
+        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, lumipad pababa
+        at makita ang malaking bungaga ng kweba pumasok at sa kaliwa ay may lagusan >> Lumipad pataas
+        at ito ay iyong makikita.`,
       },
       {
         id: 24,
         wl_label: 'Prairie-WL24',
         wl_group: 'wl-prairie',
         wl_url: PR_WL24 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
+        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
+        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, lumipad pababa
+        at makita ang malaking bungaga ng kweba pumasok at sa kanan ay may lagusan >> Pumasok ka sa 
+        Crabs Area, lumipad pataas at may lagusan papasok, dito ang winged light.`,
       },
     ],
   },
@@ -803,14 +830,14 @@ export const prairie = [
         id: 1,
         shrine_label: 'Map Shrine 1',
         shrine_url: MAP_SHRINE,
-        shrine_location:
-          'Makikita mo ito pagkatapos sa pangalawang winged light. Nasa itaas lamang ng bangka.',
+        shrine_location: `Pasok sa Map 2 | Daylight Prairie >> Sa Social Space, lumipad sa kaliwang bahagi at makita mo itong
+          Map Shrine.`,
       },
       {
         id: 2,
         shrine_label: 'Map Shrine 2',
         shrine_url: MAP_SHRINE,
-        shrine_location: 'Nasa tuktok ito ng Passage Stone.',
+        shrine_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad `,
       },
       {
         id: 3,

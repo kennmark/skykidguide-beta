@@ -43,6 +43,60 @@ import nightbirdWhisperer from '../assets/images/emotes/map2/seasons/S18-nightbi
 import reassuringRanger from '../assets/images/emotes/map2/seasons/S18-reassuring-ranger.png'
 // MAP 2
 
+// MAP 3
+import apologeticLumberjack from '../assets/images/emotes/map3/Map3-apologetic-lumberjack.png'
+import blushingProspector from '../assets/images/emotes/map3/Map3-blushing-prospector.png'
+import dismayedHunter from '../assets/images/emotes/map3/Map3-dismayed-hunter.png'
+import hideNSeekPioneer from '../assets/images/emotes/map3/Map3-hide-n-seek-pioneer.png'
+import poutyPorter from '../assets/images/emotes/map3/Map3-pouty-porter.png'
+import shiveringTrailblazer from '../assets/images/emotes/map3/Map3-shivering-trailblazer.png'
+import tearfulLightMiner from '../assets/images/emotes/map3/Map3-tearful-light-miner.png'
+import whaleWhisperer from '../assets/images/emotes/map3/Map3-whale-whisperer.png'
+
+import provokingPerformer from '../assets/images/emotes/map3/seasons/S1-provoking-performer.png'
+import laidbackPioneer from '../assets/images/emotes/map3/seasons/S2-laidback-pioneer.png'
+import hairtousleTeen from '../assets/images/emotes/map3/seasons/S3-hairtousle-teen.png'
+import admiringActor from '../assets/images/emotes/map3/seasons/S4-admiring-actor.png'
+import baffledBotanist from '../assets/images/emotes/map3/seasons/S9-baffled-botanist.png'
+import chucklingScout from '../assets/images/emotes/map3/seasons/S9-chuckling-scout.png'
+import daydreamForester from '../assets/images/emotes/map3/seasons/S9-daydream-forester.png'
+import marchingAdventurer from '../assets/images/emotes/map3/seasons/S9-marching-adventurer.png'
+import scaredyCadet from '../assets/images/emotes/map3/seasons/S9-scaredy-cadet.png'
+import scoldingSpirit from '../assets/images/emotes/map3/seasons/S9-scolding-spirit.png'
+import lightWhisperer from '../assets/images/emotes/map3/seasons/S11-light-whisperer.png'
+import livelyNavigator from '../assets/images/emotes/map3/seasons/S11-lively-navigator.png'
+import talentedBuilder from '../assets/images/emotes/map3/seasons/S11-talented-builder.png'
+import tinkeringChimesmith from '../assets/images/emotes/map3/seasons/S11-tinkering-chimesmith.png'
+
+// MAP 3
+
+// MAP 4
+import backFlippingChampion from '../assets/images/emotes/map4/Map4-backfliping-champion.png'
+import bowingMedalist from '../assets/images/emotes/map4/Map4-bowing-medalist.png'
+import cheerfulSpectator from '../assets/images/emotes/map4/Map4-cheerful-spectator.png'
+import confidentSightseer from '../assets/images/emotes/map4/Map4-confident-sightseer.png'
+import handstandingThrillseeker from '../assets/images/emotes/map4/Map4-handstanding-thrillseeker.png'
+import mantaWhisperer from '../assets/images/emotes/map4/Map4-manta-whisperer.png'
+import proudVictor from '../assets/images/emotes/map4/Map4-proud-victor.png'
+
+import leapingDancer from '../assets/images/emotes/map4/seasons/S1-leaping-dancer.png'
+import twirlingChampion from '../assets/images/emotes/map4/seasons/S2-twirling-champion.png'
+import sparklerParent from '../assets/images/emotes/map4/seasons/S3-sparkler-parent.png'
+import troupeJuggler from '../assets/images/emotes/map4/seasons/S4-troupe-juggler.png'
+import bearhugHermit from '../assets/images/emotes/map4/seasons/S8-bearhug-hermit.png'
+import dancingPerformer from '../assets/images/emotes/map4/seasons/S8-dancing-performer.png'
+import peekingPostman from '../assets/images/emotes/map4/seasons/S8-peeking-postman.png'
+import spinningMentor from '../assets/images/emotes/map4/seasons/S8-spinning-mentor.png'
+import forgetfulStoryteller from '../assets/images/emotes/map4/seasons/S13-forgetful-storyteller.png'
+import franticStagehead from '../assets/images/emotes/map4/seasons/S13-frantic-stagehead.png'
+import mellowMusician from '../assets/images/emotes/map4/seasons/S13-mellow-musician.png'
+import modestDancer from '../assets/images/emotes/map4/seasons/S13-modest-dancer.png'
+import mindfulMiner from '../assets/images/emotes/map4/seasons/S15-mindful-miner.png'
+import runningWayfarer from '../assets/images/emotes/map4/seasons/S15-running-wayfarer.png'
+import seedOfHope from '../assets/images/emotes/map4/seasons/S15-seed-of-hope.png'
+import warriorOfLove from '../assets/images/emotes/map4/seasons/S15-warrior-of-love.png'
+// MAP 4
+
 // MAP 1
 export const CANDLEMAKER = candleMaker
 export const REJECTING_VOYAGER = rejectingVoyager
@@ -86,5 +140,57 @@ export const ASCETIC_MONK = asceticMonk
 export const JOLLY_GEOLOGIST = jollyGeologist
 export const NIGHTBIRD_WHISPERER = nightbirdWhisperer
 export const REASSURING_RANGER = reassuringRanger
-
 // MAP 2
+
+// MAP 3
+export const APOLOGETIC_LUMBERJACK = apologeticLumberjack
+export const BLUSHING_PROSPECTOR = blushingProspector
+export const DISMAYED_HUNTER = dismayedHunter
+export const HIDENSEEK_PIONEER = hideNSeekPioneer
+export const POUTY_PORTER = poutyPorter
+export const SHIVERING_TRAILBLAZER = shiveringTrailblazer
+export const TEARFUL_MINER = tearfulLightMiner
+export const WHALE_WHISPERER = whaleWhisperer
+
+export const PROVOKING_PERFORMER = provokingPerformer
+export const LAIDBACK_PIONEER = laidbackPioneer
+export const HAIRTOUSLE_TEEN = hairtousleTeen
+export const ADMIRING_ACTOR = admiringActor
+export const BAFFLED_BOTANIST = baffledBotanist
+export const CHUCKLING_SCOUT = chucklingScout
+export const DAYDREAM_FORESTER = daydreamForester
+export const MARCHING_ADVENTURER = marchingAdventurer
+export const SCAREDY_CADET = scaredyCadet
+export const SCOLDING_SPIRIT = scoldingSpirit
+export const LIGHT_WHISPERER = lightWhisperer
+export const LIVELY_NAVIGATOR = livelyNavigator
+export const TALENTED_BUILDER = talentedBuilder
+export const TINKERING_CHIMESMITH = tinkeringChimesmith
+// MAP 3
+
+// MAP 4
+export const BACKFLIPPING_CHAMPION = backFlippingChampion
+export const BOWING_MEDALIST = bowingMedalist
+export const CHEERFUL_SPECTATOR = cheerfulSpectator
+export const CONFIDENT_SIGHTSEER = confidentSightseer
+export const HANDSTANDING_THRILLSEEKER = handstandingThrillseeker
+export const MANTA_WHISPERER = mantaWhisperer
+export const PROUD_VICTOR = proudVictor
+
+export const LEAPING_DANCER = leapingDancer
+export const TWIRLING_CHAMPION = twirlingChampion
+export const SPARKLE_PARENT = sparklerParent
+export const TROUPE_JUGGLER = troupeJuggler
+export const BEARHUG_HERMIT = bearhugHermit
+export const DANCING_PERFORMER = dancingPerformer
+export const PEEKING_POSTMAN = peekingPostman
+export const SPINNING_MENTOR = spinningMentor
+export const FORGETFUL_STORYTELLER = forgetfulStoryteller
+export const FRANTIC_STAGEHEAD = franticStagehead
+export const MELLOW_MUSICIAN = mellowMusician
+export const MODEST_DANCER = modestDancer
+export const MINDFUL_MINER = mindfulMiner
+export const RUNNING_WAYFARER = runningWayfarer
+export const SEED_OF_HOPE = seedOfHope
+export const WARRIOR_OF_LOVE = warriorOfLove
+// MAP 4

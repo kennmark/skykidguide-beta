@@ -52,7 +52,7 @@ const PageIsle = () => {
                 key={index}
               >
                 <TabPanel key={index} value={body.value}>
-                  <div className="text-gray-100">{body.desc}</div>
+                  <div className="text-gray-100 pb-5">{body.desc}</div>
                   <div className="flex flex-wrap justify-center gap-3">
                     {body.spirits?.map((spirit) => {
                       return (
