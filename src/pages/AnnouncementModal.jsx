@@ -59,27 +59,33 @@ const AnnouncementModal = () => {
           />
         </svg>
         <Typography variant="h6" color="white">
-          Welcome Skykid! <br /> {formattedToday}
+          Pagbati SkyKid!
+          <br /> {formattedToday}
         </Typography>
       </DialogHeader>
       <DialogBody divider className="grid place-items-center gap-4">
         <Typography variant="h6" className="text-orange-400">
-          Saglit na Pagbasa
+          PAUNANG MGA SALITA
         </Typography>
+
         <Typography className="text-center text-white text-sm lg:text-lg ">
-          Ang website na ito ay ginawa para sa mga manlalaro ng
+          Ang website na ito ay binuo upang magamit bilang gabay sa paglalaro ng
           <a href="https://www.thatskygame.com/">
             {' '}
             Sky: Children of the Light
           </a>{' '}
-          app. Ito ay upang makatulong sa mga baguhang "moth" na nakagiliwang
-          maglaro ng app na ito. Ito din ay magsisilbing gabay sa mga bagong
-          pangyayayri sa loob ng laro. Ang website na ito ay ginawa na
-          "user-friendly" upang di mahirapan hanapin at gamitin at nasa wikang
-          Filipino na ginawa talaga para sa mga Pinoy. Ang website ay magbibigay
-          ng gabay sa mga lokasyon at impormasyon ng mga "spirits" (regular
-          spirits at seasonal spirits), "winged lights (children of the light)";
-          talakdaan ng oras ng "geyser", ng "grandma", at ng "turtle".
+          . Layunin nito na matulungan ang mga baguhan o "moth" na nakagiliwang
+          laruin ang nasabing laro pagdating sa mga aspektong tulad ng mga
+          lokasyon kung saan makikita at kung paano makukuha ang bawat isang
+          "spirit" (regular spirit at seasonal spirit), mga "winged light"
+          (Children of the Light), mga takdang oras at lokasyon ng "geyser",
+          "Grandma", at ng "turtle" at Kabilang din ang mga gabay para sa mga
+          bagong event na kasalukuyang isinagawa sa loob ng laro.
+        </Typography>
+        <Typography className="text-center text-white text-sm lg:text-lg ">
+          Upang mas maging user-friendly at interaktibo ang paggamit, ang mga
+          bahagi ng website na ito ay nakasulat sa wikang Filipino upang mas
+          madaling maunawaan ng mga Pilipinong gagamit nito.
         </Typography>
         <Typography variant="small" color="amber">
           - Developer | <i>C1pher</i>
@@ -91,7 +97,7 @@ const AnnouncementModal = () => {
           onClick={handleOpen}
           className="bg-gradient-to-r from-blue-900 to-purple-900"
         >
-          Ok, Salamat po
+          Magpatuloy
         </Button>
       </DialogFooter>
     </Dialog>
