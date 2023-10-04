@@ -19,6 +19,8 @@ const SpiritDifficultyLevelProgressBar = ({
     <Chip color="red" value="Krills +50" key={10} />, // 9
     <Chip color="amber" value="Need A Veteran +30" key={11} />, // 10
     <Chip color="cyan" value="Swim +10" key={12} />, // 11
+    <Chip color="pink" value="Chase +15" key={13} />, // 12
+    <Chip color="red" value="Crabs +15" key={14} />, // 13
   ]
 
   const difficultyType = difficultyTypes?.map((type) => typeValue[type])

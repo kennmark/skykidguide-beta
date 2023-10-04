@@ -1,22 +1,21 @@
-import {
-  Typography,
-  Tabs,
-  TabsHeader,
-  TabsBody,
-  TabPanel,
-} from '@material-tailwind/react'
+import { Tabs, TabsHeader, TabsBody, TabPanel } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import { useState } from 'react'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
 import { valley } from '../data/valleyData'
+import { maps } from '../data/maps'
 import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import PageHeaderContainer from './components/PageHeaderContainer'
 import { GIF_VALLEY, VALLEY_ALT } from '../exports/mapGIFs'
+import DifficultyCriteria from './components/DifficultyCriteria'
 
 const PageValley = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
-
+  const mapTitle = maps.map((mapName) =>
+    mapName.id === 4 ? mapName.title : ''
+  )
+  const mapIntro = maps.map((intro) => (intro.id === 4 ? intro.map_intro : ''))
   return (
     <div className="flex justify-center">
       <div>
@@ -28,7 +27,8 @@ const PageValley = () => {
           alt={VALLEY_ALT}
           height={25}
           width={75}
-          title={'Valley of Triumph'}
+          title={mapTitle}
+          mapIntro={mapIntro}
         />
         <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
@@ -88,6 +88,9 @@ const PageValley = () => {
             )
           })}
         </Tabs>
+        <div className="w-full">
+          <DifficultyCriteria />
+        </div>
       </div>
     </div>
   )

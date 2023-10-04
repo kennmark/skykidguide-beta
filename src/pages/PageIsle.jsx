@@ -3,6 +3,7 @@ import { Tabs, TabsHeader, TabsBody, TabPanel } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
 import { isleOfDawn } from '../data/isleOfDawnData'
+import { maps } from '../data/maps'
 import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import { GIF_ISLE, ISLE_ALT } from '../exports/mapGIFs'
@@ -11,6 +12,10 @@ import DifficultyCriteria from './components/DifficultyCriteria'
 
 const PageIsle = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
+  const mapTitle = maps.map((mapName) =>
+    mapName.id === 1 ? mapName.title : ''
+  )
+  const mapIntro = maps.map((intro) => (intro.id === 1 ? intro.map_intro : ''))
 
   return (
     <div className="flex justify-center">
@@ -23,7 +28,8 @@ const PageIsle = () => {
           alt={ISLE_ALT}
           height={25}
           width={75}
-          title={'Isle of Dawn'}
+          title={mapTitle}
+          mapIntro={mapIntro}
         />
         <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader

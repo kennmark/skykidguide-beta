@@ -1,24 +1,23 @@
-import {
-  Typography,
-  Tabs,
-  TabsHeader,
-  TabsBody,
-  TabPanel,
-} from '@material-tailwind/react'
+import { Tabs, TabsHeader, TabsBody, TabPanel } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import { useState } from 'react'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
-import { isleOfDawn } from '../data/isleOfDawnData'
+import { wasteland } from '../data/wastelandData'
+import { maps } from '../data/maps'
 import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import PageHeaderContainer from './components/PageHeaderContainer'
 import { GIF_WASTELAND, WASTELAND_ALT } from '../exports/mapGIFs'
+import DifficultyCriteria from './components/DifficultyCriteria'
 
 const PageWasteland = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
-
+  const mapTitle = maps.map((mapName) =>
+    mapName.id === 5 ? mapName.title : ''
+  )
+  const mapIntro = maps.map((intro) => (intro.id === 5 ? intro.map_intro : ''))
   return (
-    <div className="flex justify-start">
+    <div className="flex justify-center">
       <div>
         <SideBarContainer />
       </div>
@@ -28,14 +27,15 @@ const PageWasteland = () => {
           alt={WASTELAND_ALT}
           height={25}
           width={75}
-          title={'Golden Wasteland'}
+          title={mapTitle}
+          mapIntro={mapIntro}
         />
-        {/* <Tabs id="custom-animation" value={activeTab}>
+        <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
             variant="gradient"
-            className="bg-gradient-to-r from-blue-900 to-purple-900"
+            className="bg-gradient-to-r from-blue-900 to-purple-900 flex items-center"
           >
-            {isleOfDawn.map((headerTab, index) => {
+            {wasteland.map((headerTab, index) => {
               return (
                 <MapTabHeaderContainer
                   {...headerTab}
@@ -46,7 +46,7 @@ const PageWasteland = () => {
               )
             })}
           </TabsHeader>
-          {isleOfDawn.map((body, index) => {
+          {wasteland.map((body, index) => {
             return (
               <TabsBody
                 animate={{
@@ -87,7 +87,10 @@ const PageWasteland = () => {
               </TabsBody>
             )
           })}
-        </Tabs> */}
+        </Tabs>
+        <div className="w-full">
+          <DifficultyCriteria />
+        </div>
       </div>
     </div>
   )

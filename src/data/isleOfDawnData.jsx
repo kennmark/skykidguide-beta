@@ -51,7 +51,7 @@ export const isleOfDawn = [
     value: 'regular_spirits',
     desc: (
       <Typography className="antialiased font-sans">
-        Ito ang pinaka-unang constellation - Isle of Dawn. May{' '}
+        May{' '}
         <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
           {ISLE_NUM_REG_SPIRIT}
         </span>{' '}
@@ -72,7 +72,7 @@ export const isleOfDawn = [
         spirit_name: 'Pointing Candlemaker',
         spirit_img_url: CANDLEMAKER,
         constellation_icon_route: MAP1,
-        spirit_guide_video_url: youtube_embed + 'ZSUPxHA9hD0',
+        spirit_guide_video_url: youtube_embed + 'eNHRHE2OLZc',
         spirit_direction: [
           'Pasok ka Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
 
@@ -93,9 +93,9 @@ export const isleOfDawn = [
         difficulty_level: 15,
         difficulty_types: [0, 1],
         spirit_name: 'Ushering Stargazer',
-        spirit_img_url: REJECTING_VOYAGER,
+        spirit_img_url: USHERING_STARGAZER,
         constellation_icon_route: MAP1,
-        spirit_guide_video_url: youtube_embed + '23ViQEAhj4U',
+        spirit_guide_video_url: youtube_embed + 'EDV18vy6YRE',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
 
@@ -114,9 +114,9 @@ export const isleOfDawn = [
         difficulty_level: 15,
         difficulty_types: [0, 1],
         spirit_name: 'Rejecting Voyager',
-        spirit_img_url: USHERING_STARGAZER,
+        spirit_img_url: REJECTING_VOYAGER,
         constellation_icon_route: MAP1,
-        spirit_guide_video_url: youtube_embed + 'FW3r7r_JaDM',
+        spirit_guide_video_url: youtube_embed + 'snvZf2bOqlc',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
 

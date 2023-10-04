@@ -137,7 +137,7 @@ export const prairie = [
         spirit_name: 'Butterfly Charmer',
         spirit_img_url: BUTTERFLY_CHARMER,
         constellation_icon_route: MAP2,
-        spirit_guide_video_url: youtube_embed + 'ZvplZUDwr9U',
+        spirit_guide_video_url: youtube_embed + 'FL9QRbJfmgw',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, may makikita kang parang hugis globe na bukid at sa lagusan nito ay makikita mo

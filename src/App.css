@@ -221,3 +221,11 @@ html {
   border-bottom-right-radius: 1rem;
   background-color: #0d47a1;
 }
+
+.wl-ms-imgs {
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+.wl-ms-imgs:hover {
+  transform: scale(1.5);
+}

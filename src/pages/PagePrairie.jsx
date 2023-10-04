@@ -9,6 +9,7 @@ import { SideBarContainer } from './components/SidebarContainer'
 import { useState } from 'react'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
 import { prairie } from '../data/prairieData'
+import { maps } from '../data/maps'
 import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import { GIF_PRAIRIE, PRAIRIE_ALT } from '../exports/mapGIFs'
@@ -17,7 +18,10 @@ import DifficultyCriteria from './components/DifficultyCriteria'
 
 const PagePrairie = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
-
+  const mapTitle = maps.map((mapName) =>
+    mapName.id === 2 ? mapName.title : ''
+  )
+  const mapIntro = maps.map((intro) => (intro.id === 2 ? intro.map_intro : ''))
   return (
     <div className="flex justify-start">
       <div>
@@ -29,7 +33,8 @@ const PagePrairie = () => {
           alt={PRAIRIE_ALT}
           height={25}
           width={75}
-          title={'Daylight Prairie'}
+          title={mapTitle}
+          mapIntro={mapIntro}
         />
 
         <Tabs id="custom-animation" value={activeTab}>

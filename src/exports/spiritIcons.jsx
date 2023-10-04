@@ -97,6 +97,30 @@ import seedOfHope from '../assets/images/emotes/map4/seasons/S15-seed-of-hope.pn
 import warriorOfLove from '../assets/images/emotes/map4/seasons/S15-warrior-of-love.png'
 // MAP 4
 
+// MAP 5
+import faintingWarrior from '../assets/images/emotes/map5/Map5-fainting-warrior.png'
+import frightenedRefugee from '../assets/images/emotes/map5/Map5-frightened-refugee.png'
+import courageousSoldier from '../assets/images/emotes/map5/Map5-courageous-soldier.png'
+import stealthySurvivor from '../assets/images/emotes/map5/Map5-stealthy-survivor.png'
+import salutingCaptain from '../assets/images/emotes/map5/Map5-saluting-captain.png'
+import lookoutScout from '../assets/images/emotes/map5/Map5-lookout-scout.png'
+
+import salutingProtector from '../assets/images/emotes/map5/seasons/S1-saluting-protector.png'
+import pleafulParent from '../assets/images/emotes/map5/seasons/S3-pleaful-parent.png'
+import respectfulPianist from '../assets/images/emotes/map5/seasons/S4-respectful-pianist.png'
+import crabWhisperer from '../assets/images/emotes/map5/seasons/S2-crab-whisperer.png'
+import snoozingCarpenter from '../assets/images/emotes/map5/seasons/S5-snoozing-carpenter.png'
+import noddingMuralist from '../assets/images/emotes/map5/seasons/S5-noding-muralist.png'
+import crabWalker from '../assets/images/emotes/map5/seasons/S5-crab-walker.png'
+import playfightingHerbalist from '../assets/images/emotes/map5/seasons/S5-playful-herbalist.png'
+import scarecrowFarmer from '../assets/images/emotes/map5/seasons/S5-scarecrow-farmer.png'
+import indifferentAlchemist from '../assets/images/emotes/map5/seasons/S5-indifferent-alchemist.png'
+import ceasingCommodore from '../assets/images/emotes/map5/seasons/S12-cesing-commodore.png'
+import anxiousAngler from '../assets/images/emotes/map5/seasons/S12-anxious-angler.png'
+import bumblingBoatswain from '../assets/images/emotes/map5/seasons/S12-bumbling-boatswain.png'
+import cacklingCannoneer from '../assets/images/emotes/map5/seasons/S12-cackling-cannoneer.png'
+// MAP 5
+
 // MAP 1
 export const CANDLEMAKER = candleMaker
 export const REJECTING_VOYAGER = rejectingVoyager
@@ -194,3 +218,27 @@ export const RUNNING_WAYFARER = runningWayfarer
 export const SEED_OF_HOPE = seedOfHope
 export const WARRIOR_OF_LOVE = warriorOfLove
 // MAP 4
+
+// MAP 5
+export const FAINTING_WARRIOR = faintingWarrior
+export const FRIGHTENED_REFUGEE = frightenedRefugee
+export const COURAGEOUS_SOLDIER = courageousSoldier
+export const SALUTING_CAPTAIN = salutingCaptain
+export const STEALTHY_SURVIVOR = stealthySurvivor
+export const LOOKOUT_SCOUT = lookoutScout
+
+export const SALUTING_PROTECTOR = salutingProtector
+export const PLEAFUL_PARENT = pleafulParent
+export const RESPECTFUL_PIANIST = respectfulPianist
+export const CRAB_WHISPERER = crabWhisperer
+export const SNOOZING_CARPENTER = snoozingCarpenter
+export const NODDING_MURALIST = noddingMuralist
+export const CRAB_WALKER = crabWalker
+export const PLAYFIGHTING_HERBALIST = playfightingHerbalist
+export const SCARECROW_FARMER = scarecrowFarmer
+export const INDIFFERENT_ALCHEMIST = indifferentAlchemist
+export const CEASING_COMMODORE = ceasingCommodore
+export const ANXIOUS_ANGLER = anxiousAngler
+export const BUMBLING_BOATSWAIN = bumblingBoatswain
+export const CACKLING_CANNONEER = cacklingCannoneer
+// MAP 5

@@ -26,7 +26,7 @@ export const WASTELAND_NUM_MAP_SHRINES = 8
 export const VAULT_NUM_REG_SPIRIT = 5
 export const VAULT_NUM_SEASON_SPIRIT = 14
 export const VAULT_NUM_WL = 12
-export const VAULT_NUM_MAP_SHRINES = 7
+export const VAULT_NUM_MAP_SHRINES = 8
 
 export const EDEN_NUM_REG_SPIRIT = 0
 export const EDEN_NUM_SEASON_SPIRIT = 0

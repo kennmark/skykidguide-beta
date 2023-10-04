@@ -3,6 +3,7 @@ import { SideBarContainer } from './components/SidebarContainer'
 import { useState } from 'react'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
 import { hiddenForest } from '../data/forestData'
+import { maps } from '../data/maps'
 import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import PageHeaderContainer from './components/PageHeaderContainer'
@@ -11,7 +12,10 @@ import DifficultyCriteria from './components/DifficultyCriteria'
 
 const PageForest = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
-
+  const mapTitle = maps.map((mapName) =>
+    mapName.id === 3 ? mapName.title : ''
+  )
+  const mapIntro = maps.map((intro) => (intro.id === 3 ? intro.map_intro : ''))
   return (
     <div className="flex justify-center">
       <div>
@@ -23,7 +27,8 @@ const PageForest = () => {
           alt={FOREST_ALT}
           height={25}
           width={75}
-          title={'Hidden Forest'}
+          title={mapTitle}
+          mapIntro={mapIntro}
         />
         <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
