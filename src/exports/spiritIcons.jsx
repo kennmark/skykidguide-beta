@@ -121,6 +121,30 @@ import bumblingBoatswain from '../assets/images/emotes/map5/seasons/S12-bumbling
 import cacklingCannoneer from '../assets/images/emotes/map5/seasons/S12-cackling-cannoneer.png'
 // MAP 5
 
+// MAP 6
+import prayingAcolyte from '../assets/images/emotes/map6/Map6-praying-acolyte.png'
+import levitatingAdept from '../assets/images/emotes/map6/Map6-levitating-adept.png'
+import politeScholar from '../assets/images/emotes/map6/Map6-polite-scholar.png'
+import memoryWhisperer from '../assets/images/emotes/map6/Map6-memory-whisperer.png'
+import meditatingMonastic from '../assets/images/emotes/map6/Map6-meditating-monastic.png'
+
+import greetingShaman from '../assets/images/emotes/map6/seasons/S1-greeting-shaman.png'
+import shushingLightScholar from '../assets/images/emotes/map6/seasons/S2-shushing-light-scholar.png'
+import wiseGrandparent from '../assets/images/emotes/map6/seasons/S3-wise-grandparent.png'
+import thoughtfulDirector from '../assets/images/emotes/map6/seasons/S4-thoughtful-director.png'
+import beckoningRuler from '../assets/images/emotes/map6/seasons/S10-beckoning-ruler.png'
+import gloatingNarcissist from '../assets/images/emotes/map6/seasons/S10-gloating-narcissist.png'
+import slouchingSoldier from '../assets/images/emotes/map6/seasons/S10-slouching-soldier.png'
+import sneezingGeographer from '../assets/images/emotes/map6/seasons/S10-sneezing-geographer.png'
+import starCollector from '../assets/images/emotes/map6/seasons/S10-star-collector.png'
+import stretchingLamplighter from '../assets/images/emotes/map6/seasons/S10-stretching-lamplighter.png'
+import bereftVeteran from '../assets/images/emotes/map6/seasons/S16-bereft-veteran.png'
+import pleadingChild from '../assets/images/emotes/map6/seasons/S16-pleading-child.png'
+import tiptoeingTeaBrewer from '../assets/images/emotes/map6/seasons/S16-tiptoeing-tea-brewer.png'
+import WoundedSoldIer from '../assets/images/emotes/map6/seasons/S16-wonded-soldier.png'
+
+// MAP 6
+
 // MAP 1
 export const CANDLEMAKER = candleMaker
 export const REJECTING_VOYAGER = rejectingVoyager
@@ -242,3 +266,27 @@ export const ANXIOUS_ANGLER = anxiousAngler
 export const BUMBLING_BOATSWAIN = bumblingBoatswain
 export const CACKLING_CANNONEER = cacklingCannoneer
 // MAP 5
+
+// MAP 6
+export const PRAYING_ACOLYTE = prayingAcolyte
+export const LEVITATING_ADEPT = levitatingAdept
+export const POLITE_SCHOLAR = politeScholar
+export const MEMORY_WHISPERER = memoryWhisperer
+export const MEDITATING_MONASTIC = meditatingMonastic
+
+export const SHUSHING_LIGHTSCHOLAR = shushingLightScholar
+export const GREETING_SHAMAN = greetingShaman
+export const WISE_GRANDPARENT = wiseGrandparent
+export const THOUGHTFUL_DIRECTOR = thoughtfulDirector
+export const BECKONING_RULER = beckoningRuler
+export const GLOATING_NARCISSIST = gloatingNarcissist
+export const SLOUCHING_SOLDIER = slouchingSoldier
+export const SNEEZING_GEOGRAPHER = sneezingGeographer
+export const STAR_COLLECTOR = starCollector
+export const STRETCHING_LAMPLIGHTER = stretchingLamplighter
+export const BEREFT_VETERAN = bereftVeteran
+export const PLEADING_CHILD = pleadingChild
+export const TIPTOEING_TEABREWER = tiptoeingTeaBrewer
+export const WOUNDED_SOLDIER = WoundedSoldIer
+
+// MAP 6

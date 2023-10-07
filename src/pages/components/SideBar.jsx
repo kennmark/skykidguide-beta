@@ -106,18 +106,18 @@ const SideBar = ({ screenSize }) => {
         <hr className="my-2 border-blue-gray-900" />
         <ListItem>
           <ListItemPrefix>
-            <InboxIcon className="h-5 w-5" />
+            <UserGroupIcon className="h-5 w-5" />
           </ListItemPrefix>
-          Map Shrines
+          Winged Lights
           <ListItemSuffix>
             <ArrowRightOnRectangleIcon className="h-5 w-5" />
           </ListItemSuffix>
         </ListItem>
         <ListItem>
           <ListItemPrefix>
-            <UserGroupIcon className="h-5 w-5" />
+            <InboxIcon className="h-5 w-5" />
           </ListItemPrefix>
-          Winged Lights
+          Map Shrines
           <ListItemSuffix>
             <ArrowRightOnRectangleIcon className="h-5 w-5" />
           </ListItemSuffix>

@@ -31,7 +31,7 @@ export const VAULT_NUM_MAP_SHRINES = 8
 export const EDEN_NUM_REG_SPIRIT = 0
 export const EDEN_NUM_SEASON_SPIRIT = 0
 export const EDEN_NUM_WL = 10
-export const EDEN_NUM_MAP_SHRINES = 2
+export const EDEN_NUM_MAP_SHRINES = 3
 
 export const S18_NUM_REG_SPIRIT = 0
 export const S18_NUM_SEASON_SPIRIT = 4

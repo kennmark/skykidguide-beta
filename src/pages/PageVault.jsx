@@ -8,14 +8,20 @@ import {
 import { SideBarContainer } from './components/SidebarContainer'
 import { useState } from 'react'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
-import { isleOfDawn } from '../data/isleOfDawnData'
+import { vault } from '../data/vaultData'
+import { maps } from '../data/maps'
 import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import PageHeaderContainer from './components/PageHeaderContainer'
-import { GIF_VALLEY, VALLEY_ALT } from '../exports/mapGIFs'
+import { GIF_VAULT, VAULT_ALT } from '../exports/mapGIFs'
+import DifficultyCriteria from './components/DifficultyCriteria'
 
 const PageVault = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
+  const mapTitle = maps.map((mapName) =>
+    mapName.id === 6 ? mapName.title : ''
+  )
+  const mapIntro = maps.map((intro) => (intro.id === 6 ? intro.map_intro : ''))
 
   return (
     <div className="flex justify-start">
@@ -24,18 +30,19 @@ const PageVault = () => {
       </div>
       <div className="justify-start w-full">
         <PageHeaderContainer
-          imgUrl={GIF_VALLEY}
-          alt={VALLEY_ALT}
+          imgUrl={GIF_VAULT}
+          alt={VAULT_ALT}
           height={25}
           width={75}
-          title={'Vault of Knowledge'}
+          title={mapTitle}
+          mapIntro={mapIntro}
         />
-        {/* <Tabs id="custom-animation" value={activeTab}>
+        <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
             variant="gradient"
-            className="bg-gradient-to-r from-blue-900 to-purple-900"
+            className="bg-gradient-to-r from-blue-900 to-purple-900 flex items-center"
           >
-            {isleOfDawn.map((headerTab, index) => {
+            {vault.map((headerTab, index) => {
               return (
                 <MapTabHeaderContainer
                   {...headerTab}
@@ -46,7 +53,7 @@ const PageVault = () => {
               )
             })}
           </TabsHeader>
-          {isleOfDawn.map((body, index) => {
+          {vault.map((body, index) => {
             return (
               <TabsBody
                 animate={{
@@ -87,7 +94,10 @@ const PageVault = () => {
               </TabsBody>
             )
           })}
-        </Tabs> */}
+        </Tabs>
+        <div className="w-full">
+          <DifficultyCriteria />
+        </div>
       </div>
     </div>
   )

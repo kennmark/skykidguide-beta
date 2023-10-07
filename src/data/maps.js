@@ -161,7 +161,7 @@ export const maps = [
   {
     id: 8,
     title: 'Season of Moments',
-    subtitle: 'Season Map',
+    subtitle: 'Featured Season',
     alt: SEASON_ALT,
     img: GIF_SEASON,
     group: 'map-8 shadow-8',

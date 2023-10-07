@@ -79,7 +79,7 @@ const Footer = () => {
           <span className="grid justify-items-center gap-4">
             <a href="/">
               <img src={skykidlogo} alt="Skykid:T&G logo" width={75} />
-              <Typography color="white">Sykid:T&G</Typography>
+              {/* <Typography color="white">Sykid:T&G</Typography> */}
             </a>
 
             <Typography color="white" className="p-1 font-thin text-xs">
