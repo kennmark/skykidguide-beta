@@ -88,7 +88,7 @@ const AnnouncementModal = () => {
           madaling maunawaan ng mga Pilipinong gagamit nito.
         </Typography>
         <Typography variant="small" color="amber">
-          - Developer | <i>C1pher</i>
+          - Developer
         </Typography>
       </DialogBody>
       <DialogFooter className="space-x-2">

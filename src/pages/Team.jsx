@@ -14,6 +14,9 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 const Team = () => {
   return (
     <div>
+      <div className="pt-5">
+        <Typography variant="h2">The Team</Typography>
+      </div>
       <div className="flex justify-center py-5">
         <Card
           variant="gradient"

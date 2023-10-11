@@ -1,4 +1,5 @@
 import { Typography } from '@material-tailwind/react'
+import { ArrowRightCircleIcon } from '@heroicons/react/24/solid'
 import {
   ISLE_NUM_REG_SPIRIT,
   ISLE_NUM_SEASON_SPIRIT,
@@ -43,6 +44,17 @@ import {
   ID_WL8,
   ID_WL9,
 } from '../exports/isleWLImgUrl'
+import {
+  ID_MS1,
+  ID_MS2,
+  ID_MS3,
+  ID_MS4,
+  ID_MS5,
+  ID_MS6,
+  ID_MS7,
+  ID_MS8,
+  ID_MS9,
+} from '../exports/isleMSImgUrl'
 const youtube_embed = 'https://www.youtube.com/embed/'
 
 export const isleOfDawn = [
@@ -416,7 +428,10 @@ export const isleOfDawn = [
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
         wl_url: ID_WL1 ?? WINGED_LIGHT,
-        wl_location: `Nasa tuktok ng unang kweba na makikita mo pagkapasok mo ng Unang Mapa - Isle of Dawn`,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn,`,
+          `Nasa tuktok ng unang kweba sa bandang kaliwa ang winged light.`,
+        ],
       },
       {
         id: 2,
@@ -424,8 +439,11 @@ export const isleOfDawn = [
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
         wl_url: ID_WL2 ?? WINGED_LIGHT,
-        wl_location: `Pagkalabas mo ng unang kweba, makikita mo agad sa gawing kanan, ang sirang bangka namy
-        winged light sa ibabaw nito.`,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `Pagkalabas mo ng unang kweba, makikita mo agad sa gawing kanan, ang
+          sirang bangka na may winged light sa ibabaw nito.`,
+        ],
       },
       {
         id: 3,
@@ -433,8 +451,11 @@ export const isleOfDawn = [
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
         wl_url: ID_WL3 ?? WINGED_LIGHT,
-        wl_location: `Pagkalabas mo ng unang kweba,lumipad ka gawing kanan, hanggang sa makita mo ang maliit
-        na kweba, at sa loob nito ay may isang winged light.`,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `lumipad ka gawing kanan, hanggang sa makita mo ang maliit na kweba `,
+          `Sa loob nito ay may isang winged light.`,
+        ],
       },
       {
         id: 4,
@@ -442,8 +463,10 @@ export const isleOfDawn = [
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
         wl_url: ID_WL4 ?? WINGED_LIGHT,
-        wl_location: `Pagkalabas mo ng unang kweba, lumipad ka ng diretso at makikita mo ang batong
-        hagdanan, sa dulo nito ay may makikita ka agad na winged light.`,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `lumipad ka patungong templo, sa dulo ng hagdanan na bato ay makita mo ang winged light`,
+        ],
       },
       {
         id: 5,
@@ -451,10 +474,13 @@ export const isleOfDawn = [
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
         wl_url: ID_WL5 ?? WINGED_LIGHT,
-        wl_location: `Pagkalabas mo ng unang kweba, lumipad ka patungong templo, at sa gawing kanan patungo sa
-        butterfly cave, kinakailangan mong makaakyat pataas. Pag nakaakyat ka na, may makikita kang lagusan
-        sa gawing kanan. Pagkapasok mo, sa bandang kanan mo naman ulit may butas kung saan naroron ang isang
-        winged light.`,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `lumipad ka patungong templo, may lagusan na ulap sa gawing kanan pumasok ka`,
+          `Pagdating sa butterfly cave, kinakailangan mong makaakyat pataas. Pag nakaakyat ka na, may makikita kang lagusan
+        sa gawing kanan.`,
+          `Pagkapasok mo, sa bandang kanan mo naman ulit may butas kung saan naroron ang isang winged light.`,
+        ],
       },
       {
         id: 6,
@@ -462,8 +488,11 @@ export const isleOfDawn = [
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
         wl_url: ID_WL6 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Water Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `lumipad ka gawing kanan at may lagusan papasok sa Cave of Prophecy pumasok ka,`,
+          `Pumasok ka sa Water Trial ng Cave of Prophecy nasa dulo ng trial ang winged light.`,
+        ],
       },
       {
         id: 7,
@@ -471,8 +500,11 @@ export const isleOfDawn = [
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
         wl_url: ID_WL7 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Earth Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `lumipad ka gawing kanan at may lagusan papasok sa Cave of Prophecy pumasok ka,`,
+          `Pumasok ka sa Earth Trial ng Cave of Prophecy nasa dulo ng trial ang winged light.`,
+        ],
       },
       {
         id: 8,
@@ -480,8 +512,11 @@ export const isleOfDawn = [
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
         wl_url: ID_WL8 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Air Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `lumipad ka gawing kanan at may lagusan papasok sa Cave of Prophecy pumasok ka,`,
+          `Pumasok ka sa Air Trial ng Cave of Prophecy nasa dulo ng trial ang winged light.`,
+        ],
       },
       {
         id: 9,
@@ -489,8 +524,11 @@ export const isleOfDawn = [
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
         wl_url: ID_WL9 ?? WINGED_LIGHT,
-        wl_location: `Pumasok ka sa Fire Trial ng Cave of Prophecy. Tapusin mo ang trial at sa dulo nito ay may winged light kang
-        makukuha.`,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `lumipad ka gawing kanan at may lagusan papasok sa Cave of Prophecy pumasok ka,`,
+          `Pumasok ka sa Fire Trial ng Cave of Prophecy nasa dulo ng trial ang winged light.`,
+        ],
       },
     ],
   },
@@ -513,67 +551,101 @@ export const isleOfDawn = [
         id: 1,
         shrine_group: 'shrine-season-0',
         shrine_label: 'Map Shrine 1',
-        shrine_url: MAP_SHRINE,
-        shrine_location:
-          'Makikita mo ito pagkatapos sa pangalawang winged light. Nasa itaas lamang ng bangka.',
+        shrine_url: ID_MS1 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `Pagkalabas mo ay lumipad patungo sa sirang bangka sa baba.At sa itaas lamang
+          nito ay ang map shrine.`,
+        ],
       },
       {
         id: 2,
         shrine_group: 'shrine-season-17',
         shrine_label: 'Map Shrine 2',
-        shrine_url: MAP_SHRINE,
-        shrine_location: 'Nasa tuktok ito ng Passage Stone.',
+        shrine_url: ID_MS2 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad gawing kanan nasa tuktok ito ng
+          Passage Stone.`,
+        ],
       },
       {
         id: 3,
         shrine_group: 'shrine-season-0',
         shrine_label: 'Map Shrine 3',
-        shrine_url: MAP_SHRINE,
-        shrine_location: 'Nasa mga labas ng templo.',
+        shrine_url: ID_MS3 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad patungong templo.`,
+          `Pumasok ka sa lagusan sa gawing kanan at may 2-player door, umakyat ka pataas at pumasok ka sa gawing kanan na lagusan.`,
+          `At sa dulo ng tunnel ay sa tuktok ng Butterfly Cave makita ang map shrine.`,
+        ],
       },
       {
         id: 4,
         shrine_group: 'shrine-season-0',
         shrine_label: 'Map Shrine 4',
-        shrine_url: MAP_SHRINE,
-        shrine_location: 'Nasa tuktok ng butterfly cave',
+        shrine_url: ID_MS4 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad patungong templo.`,
+          `Pagkalapag ay nasa daanan lang ang map shrine.`,
+        ],
       },
       {
         id: 5,
         shrine_group: 'shrine-season-7',
         shrine_label: 'Map Shrine 5',
-        shrine_url: MAP_SHRINE,
-        shrine_location: 'Sa loob ng Cave of Prophecy',
+        shrine_url: ID_MS5 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad gawing kanan, may lagusan papasok Cave of Prophecy.`,
+          `Pagdating sa Cave of Prophecy, tumalon ka pakaliwa sa ibaba lang mismo makikita ang map shrine.`,
+        ],
       },
       {
         id: 6,
         shrine_group: 'shrine-season-7',
         shrine_label: 'Map Shrine 6',
-        shrine_url: MAP_SHRINE,
-        shrine_location: 'Sa water trial',
+        shrine_url: ID_MS6 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad gawing kanan, may lagusan papasok Cave of Prophecy.`,
+          `Pagdating sa Cave of Prophecy, Gawin ang Water Trial nasa gawing kanan ang map shrine.`,
+        ],
       },
       {
         id: 7,
         shrine_group: 'shrine-season-7',
         shrine_label: 'Map Shrine 7',
-        shrine_url: MAP_SHRINE,
-        shrine_location:
-          'Sa earth trial, bago ka pumasok sa huling pagsubok, nasa bandang kanan pagkaakyat mo sa labas.',
+        shrine_url: ID_MS7 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad gawing kanan, may lagusan papasok Cave of Prophecy.`,
+          `Pagdating sa Cave of Prophecy, Gawin ang Earth Trial, Pagdumating ka sa aakyat ng hagdaan, sa kanan nito ang map shrine.`,
+        ],
       },
       {
         id: 8,
         shrine_group: 'shrine-season-7',
         shrine_label: 'Map Shrine 8',
-        shrine_url: MAP_SHRINE,
-        shrine_location: 'Sa earth trial.',
+        shrine_url: ID_MS8 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad gawing kanan, may lagusan papasok Cave of Prophecy.`,
+          `Pagdating sa Cave of Prophecy, Gawin ang Air Trial`,
+        ],
       },
       {
         id: 9,
         shrine_group: 'shrine-season-7',
         shrine_label: 'Map Shrine 9',
-        shrine_url: MAP_SHRINE,
-        shrine_location:
-          'sa fire trial, bago mag exit sa 3rd floor, nasa gilid ng lagusan.',
+        shrine_url: ID_MS9 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad gawing kanan, may lagusan papasok Cave of Prophecy.`,
+          `Pagdating sa Cave of Prophecy, Gawin ang Fire Trial, at bago pumasok sa 3rd floor nasa gawing kanan ng pintuan ang map shrine.`,
+        ],
       },
     ],
   },

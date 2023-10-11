@@ -11,7 +11,6 @@ import {
   Spinner,
 } from '@material-tailwind/react'
 import VideoModalContainer from './VideoModalContainer'
-import TextPopOver from './TextPopOver'
 import SpiritDifficultyLevelProgressBar from './SpiritDifficultyLevelProgressBar'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { TextGuideModal } from './TextGuideModal'
@@ -139,10 +138,10 @@ const SpiritCardContainer = ({
           spirit_name={spirit_name}
         />
         <TextGuideModal
-          spiritDirection={spiritDirection}
+          direction={spiritDirection}
           handleOpen={handleTextGuideOpen}
           open={openTextModal}
-          spirit_name={spirit_name}
+          label={spirit_name}
         />
       </CardBody>
     </Card>

@@ -9,10 +9,14 @@ import {
   Dialog,
   DialogBody,
 } from '@material-tailwind/react'
+import { TextGuideModal } from './TextGuideModal'
 
 const CardContainer = ({ label, location, url }) => {
   const [open, setOpen] = useState(false)
+  const [openTextModal, setOpenTextModal] = useState(false)
+
   const handleOpen = () => setOpen((cur) => !cur)
+  const handleTextGuideOpen = () => setOpenTextModal(!openTextModal)
 
   return (
     <>
@@ -27,13 +31,17 @@ const CardContainer = ({ label, location, url }) => {
           <Typography variant="h5" color="white" className="mb-2">
             {label}
           </Typography>
-          <Typography>{location}</Typography>
         </CardBody>
-        {/* <CardFooter className="pt-0">
-        <Typography variant="h6" className="">
-          Lipad at Hanapin!
-        </Typography>
-      </CardFooter> */}
+        <CardFooter className="pt-0">
+          <Button
+            onClick={handleTextGuideOpen}
+            ripple={true}
+            fullWidth={true}
+            className="bg-gradient-to-r rounded-tl-none rounded-bl-none from-purple-900 to-blue-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
+          >
+            Text Guide
+          </Button>
+        </CardFooter>
       </Card>
 
       <Dialog
@@ -50,6 +58,12 @@ const CardContainer = ({ label, location, url }) => {
           />
         </DialogBody>
       </Dialog>
+      <TextGuideModal
+        direction={location}
+        handleOpen={handleTextGuideOpen}
+        open={openTextModal}
+        label={label}
+      />
     </>
   )
 }

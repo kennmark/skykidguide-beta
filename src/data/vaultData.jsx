@@ -447,8 +447,8 @@ export const vault = [
         ],
       },
       {
-        id: 19,
-        spirit_id: 'vault19',
+        id: 20,
+        spirit_id: 'vault20',
         season_id: 'season-16',
         spirit_type: 'seasonal',
         season: 'Season 16 - Season of Remembrance',

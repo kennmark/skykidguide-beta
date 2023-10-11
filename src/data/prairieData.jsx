@@ -57,6 +57,17 @@ import {
   PR_WL24,
 } from '../exports/prairieWLImgUrl'
 import {
+  DP_MS1,
+  DP_MS2,
+  DP_MS3,
+  DP_MS4,
+  DP_MS5,
+  DP_MS6,
+  DP_MS7,
+  DP_MS8,
+  DP_MS9,
+} from '../exports/prairieMSImgUrl'
+import {
   MAP2,
   SEASON1,
   SEASON2,
@@ -583,231 +594,305 @@ export const prairie = [
         id: 1,
         wl_label: 'Prairie-WL1',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL1 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, nasa kaliwang kweba na maliit.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, nasa kaliwang kweba na maliit.`,
+        ],
       },
       {
         id: 2,
         wl_label: 'Prairie-WL2',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL2 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, nasa tuktok ng maliit na bukid.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, nasa tuktok ng maliit na bundok.`,
+        ],
       },
       {
         id: 3,
         wl_label: 'Prairie-WL3',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL3 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lagpas ng maliit na bukid malapit sa batong portal.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lagpas ng maliit na bukid malapit sa batong portal.`,
+        ],
       },
       {
         id: 4,
         wl_label: 'Prairie-WL4',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL4 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, punta sa kaliwang dako at pumasok sa lagusan>>
-        Lipad patungong Prairie Caves >> sa dakong itaas, gawing kaliwa makita mo ang butas.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field,  punta sa kaliwang dako at pumasok sa lagusan`,
+          `Lipad patungong Prairie Caves at dakong itaas, gawing kaliwa makita mo ang butas.`,
+        ],
       },
       {
         id: 5,
         wl_label: 'Prairie-WL5',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL5 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, punta sa kaliwang dako at pumasok sa lagusan>>
-        Lipad patungong Prairie Caves >> lipad hanggang gitna, at gawing kanan na pader
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field,  punta sa kaliwang dako at pumasok sa lagusan`,
+          `Lipad patungong Prairie Caves at lipad hanggang gitna, at gawing kanan na pader
         sa itaas, may lagusan ito.`,
+        ],
       },
       {
         id: 6,
         wl_label: 'Prairie-WL6',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL6 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad patungong templo >> Paglabas sa Village Islands,
-        sa unang isla sa harap mo makita agad ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad patungong templo`,
+          `Paglabas sa Village Islands, sa unang isla sa harap mo makita agad ang winged light.`,
+        ],
       },
       {
         id: 7,
         wl_label: 'Prairie-WL7',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL7 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad patungong templo >> Paglabas sa Village Islands,
-        sa unang isla sa kaliwa mo ay may pintuan na malaki sa loob nito ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad patungong templo`,
+          `Paglabas sa Village Islands,sa isla sa kaliwa mo ay may pintuan na malaki sa loob nito ang winged light.`,
+        ],
       },
       {
         id: 8,
         wl_label: 'Prairie-WL8',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL8 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad patungong templo >> Paglabas sa Village Islands,
-        sa gitnang Village Island, ay nasa likod nito ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad patungong templo`,
+          `Paglabas sa Village Islands, sa gitnang Village Temple, ay nasa likod nito ang winged light.`,
+        ],
       },
       {
         id: 9,
         wl_label: 'Prairie-WL9',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL9 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad patungong templo >> Paglabas sa Village Islands,
-        sa itaas ng templo makikita mo ito.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad patungong templo`,
+          `Paglabas sa Village Islands, lumipad patungong templo, sa kaliwang bahaging itaas ng templo makita mo ang winged light.`,
+        ],
       },
       {
         id: 10,
         wl_label: 'Prairie-WL10',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL10 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad patungong templo >> Paglabas sa Village Islands,
-        sa pinakataas naman na parte ng templo ang pangalawang winged light dito.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad patungong templo`,
+          `Paglabas sa Village Islands, lumipad patungong templo, sa pinakataas naman na parte ng templo ang pangalawang winged light dito.`,
+        ],
       },
       {
         id: 11,
         wl_label: 'Prairie-WL11',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL11 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad patungong templo >> Paglabas sa Village Islands,
-        sa kaliwang Village Island, kailangan mong makapasok sa pintuan at makaakyat pataas >>
-        Sa bundok na makita mo ay may butas sa itaas pumasok ka at makita mo ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad patungong templo`,
+          `Paglabas sa Village Islands, sa kanan na Village Island, kailangan mong makapasok sa pintuan at makaakyat pataas,`,
+          `Sa bundok na makita mo ay may butas sa itaas pumasok ka at makita mo ang winged light.`,
+        ],
       },
       {
         id: 12,
         wl_label: 'Prairie-WL12',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL12 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
-        sa kaliwang isla ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, sa kaliwang isla ang winged light.`,
+        ],
       },
       {
         id: 13,
         wl_label: 'Prairie-WL13',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL13 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
-        nasa likod na isla, ng nasa gitnang islang may sirang tore.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, nasa likod na isla, ng nasa gitnang islang may sirang tore.`,
+        ],
       },
       {
         id: 14,
         wl_label: 'Prairie-WL14',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-18',
         wl_url: PR_WL14 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakaliwa at pumasok sa lagusan >> Paglabas lumipad,
-        patungong kanan, sa maliit na butas, pumasok at umupo sa bangka >> Pagdating dumako papasok at
-        lumipad pakaliwa at pasok sa lagusan nito. >> May maliit na lagusan sa ibaba, pasok ka. >> lumipad 
-        pataas at hanapin ang sa gitnang pader.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakaliwa at pumasok sa lagusan`,
+          `Paglabas lumipad, patungong kanan, sa maliit na butas, pumasok at umupo sa bangka`,
+          `Lumipad pakaliwa at may maliit na lagusan sa ibaba, pasok ka at sentro ng kweba, lipad  pataas at hanapin ang sa gitnang pader.`,
+        ],
       },
       {
         id: 15,
         wl_label: 'Prairie-WL15',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-18',
         wl_url: PR_WL15 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakaliwa at pumasok sa lagusan >> Paglabas lumipad,
-        patungong kanan, sa maliit na butas, pumasok at umupo sa bangka >> Pagdating dumako papasok at
-        lumipad patungo sa malaking fal. Sa falls, ay lumangoy pailalim >> pumasok sa butas at lumangoy at umahon
-        at lumipad papasok sa tabi ng orb makikita ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakaliwa at pumasok sa lagusan`,
+          `Paglabas lumipad, patungong kanan, sa maliit na butas, pumasok at umupo sa bangka`,
+          `Pagdating dumako papasok at lumipad patungo sa malaking sa falls, ay lumangoy pailalim`,
+          `pumasok sa butas at lumangoy at umahon at lumipad papasok sa tabi ng orb makikita ang winged light.`,
+        ],
       },
       {
         id: 16,
         wl_label: 'Prairie-WL16',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-18',
         wl_url: PR_WL16 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakaliwa at pumasok sa lagusan >> Paglabas lumipad,
-        patungong kanan, sa maliit na butas, pumasok at umupo sa bangka >> Pagdating dumako papasok at
-        lumipad patungo sa pinakamataas na bundok at sa tuktok nito ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakaliwa at pumasok sa lagusan`,
+          `Paglabas lumipad, patungong kanan, sa maliit na butas, pumasok at umupo sa bangka`,
+          `Pagdating dumako papasok at lumipad patungo sa pinakamataas na bundok at sa tuktok nito ang winged light.`,
+          `pumasok sa butas at lumangoy at umahon at lumipad papasok sa tabi ng orb makikita ang winged light.`,
+        ],
       },
       {
         id: 17,
         wl_label: 'Prairie-WL17',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL17 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
-        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, makita mo ito agad sa
-        malaking islang nakalutang.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, makita mo ito agad sa malaking islang nakalutang.`,
+        ],
       },
       {
         id: 18,
         wl_label: 'Prairie-WL18',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL18 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
-        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, sa tuktok ng 
-        malaking isla ay may maliit na lagusan.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, sa tuktok ng malaking isla ay may maliit na lagusan.`,
+        ],
       },
       {
         id: 19,
         wl_label: 'Prairie-WL19',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL19 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
-        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, sa kaliwang dako,
-        makita ang tatlong maliliit na nakalutang na isla. Nasa kanan na isla.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, sa dakong kanan, makita ang tatlong maliliit na nakalutang na isla. Nasa kanan na isla.`,
+        ],
       },
       {
         id: 20,
         wl_label: 'Prairie-WL20',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL20 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
-        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, sa bandang likuran
-        ay may mga kampana at sa bandang ibaba ay nakapwesto ang winged light na ito.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, sa bandang likuran ay may mga kampana at sa bandang ibaba ay nakapwesto ang winged light na ito.`,
+        ],
       },
       {
         id: 21,
         wl_label: 'Prairie-WL21',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL21 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
-        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, sa likod ng malaking isla
-        makikita ang jellyfish cave.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, sa likod ng malaking isla makikita ang jellyfish cave.`,
+        ],
       },
       {
         id: 22,
         wl_label: 'Prairie-WL22',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL22 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
-        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, lumipad pababa
-        at makita ang malaking bungaga ng kweba nasa likod ng waterfall ito.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, lumipad pababa at makita ang malaking bunganga ng kweba nasa likod ng waterfall ito.`,
+        ],
       },
       {
         id: 23,
         wl_label: 'Prairie-WL23',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL23 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
-        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, lumipad pababa
-        at makita ang malaking bungaga ng kweba pumasok at sa kaliwa ay may lagusan >> Lumipad pataas
-        at ito ay iyong makikita.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, lumipad pababa
+          at makita ang malaking bunganga ng kweba pumasok at sa kaliwa ay may lagusan`,
+          `Lumipad pataas at ito ay iyong makikita.`,
+        ],
       },
       {
         id: 24,
         wl_label: 'Prairie-WL24',
         wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL24 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad sa mga kaulapan >>
-        Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan >> Paglabas sa Bird's Nest,
-        lumipad pababa hanggang sa lagusan na ulap. >> Paglabas sa Sanctuary Islands, lumipad pababa
-        at makita ang malaking bungaga ng kweba pumasok at sa kanan ay may lagusan >> Pumasok ka sa 
-        Crabs Area, lumipad pataas at may lagusan papasok, dito ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, lumipad pababa
+        at makita ang malaking bunganga ng kweba pumasok at sa kanan ay may lagusan`,
+          `Pumasok ka sa Crabs Area, lumipad pataas at may lagusan papasok, dito ang winged light.`,
+        ],
       },
     ],
   },
@@ -829,59 +914,95 @@ export const prairie = [
       {
         id: 1,
         shrine_label: 'Map Shrine 1',
-        shrine_url: MAP_SHRINE,
-        shrine_location: `Pasok sa Map 2 | Daylight Prairie >> Sa Social Space, lumipad sa kaliwang bahagi at makita mo itong
+        shrine_url: DP_MS1 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 2 | Daylight Prairie.`,
+          `Sa Social Space, lumipad sa kaliwang bahagi at makita mo itong
           Map Shrine.`,
+        ],
       },
       {
         id: 2,
         shrine_label: 'Map Shrine 2',
-        shrine_url: MAP_SHRINE,
-        shrine_location: `Pasok sa Map 2 | Daylight Prairie >> Lumipad `,
+        shrine_url: DP_MS2 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, makita mo agad ang map shrine.`,
+        ],
       },
       {
         id: 3,
         shrine_label: 'Map Shrine 3',
-        shrine_url: MAP_SHRINE,
-        shrine_location: 'Nasa mga labas ng templo.',
+        shrine_url: DP_MS3 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
+          `Makita mo ang Prairie Caves, sa kaliwang banda bago sa entrance ay maktia mo ang map shrine.`,
+        ],
       },
       {
         id: 4,
         shrine_label: 'Map Shrine 4',
-        shrine_url: MAP_SHRINE,
-        shrine_location: 'Nasa tuktok ng butterfly cave',
+        shrine_url: DP_MS4 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita at lumusot sa batong pintuan at lumipad.`,
+          `Pagdating sa Village Islands, lumipad ka gawing kanan na isla at sa elevated na parte ng isla makita ang map shrine.`,
+        ],
       },
       {
         id: 5,
         shrine_label: 'Map Shrine 5',
-        shrine_url: MAP_SHRINE,
-        shrine_location: 'Sa loob ng Cave of Prophecy',
+        shrine_url: DP_MS5 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita at lumusot sa batong pintuan at lumipad.`,
+          `Pagdating sa Village Islands, lumipad patungong templo at sa gawing kanan ng pond makita ang map shrine.`,
+        ],
       },
       {
         id: 6,
         shrine_label: 'Map Shrine 6',
-        shrine_url: MAP_SHRINE,
-        shrine_location: 'Sa water trial',
+        shrine_url: DP_MS6 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita at lumusot sa batong pintuan at lumipad.`,
+          `Pagdating sa Village Islands, lumipad ka gawing kanan na isla at pumasok ka. Gawin ang butterfly charm emote na nasa mga square na bato sa sahig, at bubukas ang pintuan.`,
+          `Magsindi sa 8-player lock at ito ay aakyat, pagdating sa itaas ay sa bandang likuran na bundok makita mo ang map shrine.`,
+        ],
       },
       {
         id: 7,
         shrine_label: 'Map Shrine 7',
-        shrine_url: MAP_SHRINE,
-        shrine_location:
-          'Sa earth trial, bago ka pumasok sa huling pagsubok, nasa bandang kanan pagkaakyat mo sa labas.',
+        shrine_url: DP_MS7 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
+          `Sa gawing kaliwa ng Prairie Caves, ay may butas papasok papuntang Prairie Peaks, pumasok at sumakay sa bangka.`,
+          `Pagdating sa Prairie Peaks, ay pumasok sa looban at pagkalabas ay sa may bato sa bandang kanan, nasa itaas ang map shrine.`,
+        ],
       },
       {
         id: 8,
         shrine_label: 'Map Shrine 8',
-        shrine_url: MAP_SHRINE,
-        shrine_location: 'Sa earth trial.',
+        shrine_url: DP_MS8 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest lumipad sa isla sa harapan mo at nandito ang map shrine.`,
+        ],
       },
       {
         id: 9,
         shrine_label: 'Map Shrine 9',
-        shrine_url: MAP_SHRINE,
-        shrine_location:
-          'sa fire trial, bago mag exit sa 3rd floor, nasa gilid ng lagusan.',
+        shrine_url: DP_MS9 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, lumipad pababa patungo sa mga Bells, at malapit sa Quest Giver ng Sanctuary
+          ay makita mo ang map shrine.`,
+        ],
       },
     ],
   },

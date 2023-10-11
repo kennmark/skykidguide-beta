@@ -17,7 +17,7 @@ const VideoModalContainer = ({
   return (
     <>
       <Dialog
-        className="bg-gray-900"
+        className="bg-gray-900 border-y-2 border-amber-600"
         open={open}
         handler={handleOpen}
         animate={{

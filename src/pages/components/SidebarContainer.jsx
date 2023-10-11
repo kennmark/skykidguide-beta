@@ -15,17 +15,16 @@ export function SideBarContainer() {
         <SideBar />
       ) : (
         <>
-          <div className="relative h-full">
-            <span onClick={openDrawer} className="absolute bottom-0 z-50">
-              <IconButton
-                size="lg"
-                className="rounded-tr-full rounded-br-full -left-3"
-                color="amber"
-              >
-                <ChevronDoubleRightIcon className="h-5 w-5" />
-              </IconButton>
-            </span>
-          </div>
+          <span onClick={openDrawer} className="fixed bottom-20 z-50">
+            <IconButton
+              size="lg"
+              className="rounded-tr-full rounded-br-full -left-3 opacity-50 transition ease-in-out hover:opacity-100 duration-500"
+              color="amber"
+            >
+              <ChevronDoubleRightIcon className="h-7 w-7" />
+            </IconButton>
+          </span>
+
           <Drawer open={draw} onClose={closeDrawer}>
             <SideBar screenSize={screenSize} />
           </Drawer>

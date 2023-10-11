@@ -8,14 +8,19 @@ import {
 import { SideBarContainer } from './components/SidebarContainer'
 import { useState } from 'react'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
-import { isleOfDawn } from '../data/isleOfDawnData'
+import { eden } from '../data/edenData'
+import { maps } from '../data/maps'
 import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import PageHeaderContainer from './components/PageHeaderContainer'
 import { GIF_EDEN, EDEN_ALT } from '../exports/mapGIFs'
 
 const PageEden = () => {
-  const [activeTab, setActiveTab] = useState('regular_spirits')
+  const [activeTab, setActiveTab] = useState('winged_lights')
+  const mapTitle = maps.map((mapName) =>
+    mapName.id === 7 ? mapName.title : ''
+  )
+  const mapIntro = maps.map((intro) => (intro.id === 7 ? intro.map_intro : ''))
 
   return (
     <div className="flex justify-start">
@@ -28,14 +33,15 @@ const PageEden = () => {
           alt={EDEN_ALT}
           height={25}
           width={75}
-          title={'Eye of Eden'}
+          title={mapTitle}
+          mapIntro={mapIntro}
         />
-        {/* <Tabs id="custom-animation" value={activeTab}>
+        <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
             variant="gradient"
-            className="bg-gradient-to-r from-blue-900 to-purple-900"
+            className="bg-gradient-to-r from-blue-900 to-purple-900 flex items-center"
           >
-            {isleOfDawn.map((headerTab, index) => {
+            {eden.map((headerTab, index) => {
               return (
                 <MapTabHeaderContainer
                   {...headerTab}
@@ -46,7 +52,7 @@ const PageEden = () => {
               )
             })}
           </TabsHeader>
-          {isleOfDawn.map((body, index) => {
+          {eden.map((body, index) => {
             return (
               <TabsBody
                 animate={{
@@ -87,7 +93,7 @@ const PageEden = () => {
               </TabsBody>
             )
           })}
-        </Tabs> */}
+        </Tabs>
       </div>
     </div>
   )
