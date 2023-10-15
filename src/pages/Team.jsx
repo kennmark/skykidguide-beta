@@ -17,7 +17,7 @@ import {
   faGithub,
 } from '@fortawesome/free-brands-svg-icons'
 import { team } from '../data/team'
-import TeamCardContainer from './components/teamCardContainer'
+import TeamCardContainer from '../pages/components/TeamCardContainer'
 
 const Team = () => {
   return (
@@ -95,7 +95,6 @@ const Team = () => {
           return <TeamCardContainer {...contributor} key={index} />
         })}
       </div>
-
       <FaQ />
     </div>
   )
