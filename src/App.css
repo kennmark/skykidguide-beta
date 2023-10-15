@@ -157,7 +157,7 @@ html {
       rgba(128, 237, 153, 0.25) 75%,
       rgba(199, 249, 204, 0.1) 100%
     ),
-    url(./assets/images/map-card-bg/Map8-Peaks.jpg);
+    url(./assets/images/map-card-bg/Map9-Aviary.jpg);
   /* url(./assets/images/bg/Map8-Peaks.jpg); */
   color: rgb(8 47 73);
   height: 514px;
@@ -223,7 +223,7 @@ html {
 }
 
 .wl-ms-imgs {
-  transition: transform 0.2s;
+  transition: transform 0.4s;
   margin: 0 auto;
 }
 .wl-ms-imgs:hover {

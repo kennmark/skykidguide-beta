@@ -49,6 +49,16 @@ import {
   GW_WL18,
 } from '../exports/wastelandWLImgUrl'
 import {
+  GW_MS1,
+  GW_MS2,
+  GW_MS3,
+  GW_MS4,
+  GW_MS5,
+  GW_MS6,
+  GW_MS7,
+  GW_MS8,
+} from '../exports/wastelandMSImgUrl'
+import {
   MAP5,
   SEASON1,
   SEASON2,
@@ -505,182 +515,220 @@ export const wasteland = [
         wl_label: 'Wasteland-WL1',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL1 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag may mataas na poste, lumipad patungo sa ibabaw nito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          `Pagkalapag may mataas na poste, lumipad patungo sa ibabaw nito, at makita mo ang winged light.`,
+        ],
       },
       {
         id: 2,
         wl_label: 'Wasteland-WL2',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL2 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, sa unahan makita mo agad itong winged light`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          `Pagkalapag, sa unahan makita mo agad itong winged light`,
+        ],
       },
       {
         id: 3,
         wl_label: 'Wasteland-WL3',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL3 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.>>
-        Pagdating sa 1-Krill Area, makita mo ang winged light sa tuktok ng sirang tore sa kanan.`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          ` Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.`,
+          `Pagdating sa 1-Krill Area, makita mo ang winged light sa tuktok ng sirang tore sa kanan.`,
+        ],
       },
       {
         id: 4,
         wl_label: 'Wasteland-WL4',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL4 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.>>
-        Pagdating sa 1-Krill Area,lumipad patungo sa kabilang lagusan, at nasa loob ng poste
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          ` Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.`,
+          `Pagdating sa 1-Krill Area,lumipad patungo sa kabilang lagusan, at nasa loob ng poste
         sa kanang banda ang winged light.`,
+        ],
       },
       {
         id: 5,
         wl_label: 'Wasteland-WL5',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL5 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.>>
-        Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa. >>
-        Sa dulo ay lumipad gawing kanan at nasa malawak na patag na bato ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          ` Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.`,
+          `Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa.`,
+          `Sa dulo ay lumipad gawing kanan at nasa malawak na patag na bato ang winged light.`,
+        ],
       },
       {
         id: 6,
         wl_label: 'Wasteland-WL6',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL6 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.>>
-        Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa. >>
-        Sa dulo ay lumipad Patungo sa mga malalaking bato sa dulo, at makita mo ang winged light sa gild ng bato`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          ` Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.`,
+          `Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa.`,
+          `Sa dulo ay lumipad Patungo sa mga malalaking bato sa dulo, at makita mo ang winged light sa gild ng bato`,
+        ],
       },
       {
         id: 7,
         wl_label: 'Wasteland-WL7',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL7 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.>>
-        Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa. >>
-        Sa dulo ay lumipad Patungo sa mga malalaking bato sa dulo, sa kaliwang parte nito ay may tunnel >>
-        sa loob ng tunnel ang winged light na ito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          ` Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.`,
+          `Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa.`,
+          `Sa dulo ay lumipad Patungo sa mga malalaking bato sa dulo, sa kaliwang parte nito ay may tunnel`,
+          `sa loob ng tunnel ang winged light na ito.`,
+        ],
       },
       {
         id: 8,
         wl_label: 'Wasteland-WL8',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL8 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.>>
-        Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa. >>
-        Sa dulo ay lumipad gawing kanan patungo sa hagdanan sa dulo.`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          ` Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.`,
+          `Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa.`,
+          `Sa dulo ay lumipad gawing kanan patungo sa hagdanan sa dulo.`,
+        ],
       },
       {
         id: 9,
         wl_label: 'Wasteland-WL9',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL9 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.>>
-        Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at
-        lumipad gawing kanan at may makita kang lagusan na tunnel >> Paglabas sa Shipwreck,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          ` Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.`,
+          `Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at
+        lumipad gawing kanan at may makita kang lagusan na tunnel`,
+          `Paglabas sa Shipwreck,
         lumipad pakanan at nasa mataas na butas ng pader ang winged light.`,
+        ],
       },
       {
         id: 10,
         wl_label: 'Wasteland-WL10',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL10 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.>>
-        Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at
-        lumipad gawing kanan at may makita kang lagusan na tunnel >> Paglabas sa Shipwreck,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          ` Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.`,
+          `Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at
+        lumipad gawing kanan at may makita kang lagusan na tunnel`,
+          `Paglabas sa Shipwreck,
         lumipad patungo sa loob ng Shipwreck at sa dulo sa mga banga ang winged light.`,
+        ],
       },
       {
         id: 11,
         wl_label: 'Wasteland-WL11',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL11 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.>>
-        Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at
-        lumipad gawing kanan at may makita kang lagusan na tunnel >> Paglabas sa Shipwreck,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          ` Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.`,
+          `Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at
+        lumipad gawing kanan at may makita kang lagusan na tunnel`,
+          `Paglabas sa Shipwreck,
         lumipad patungo pakaliwa at sa unahan ng mga tunnel na hagdanan makita ito.`,
+        ],
       },
       {
         id: 12,
         wl_label: 'Wasteland-WL12',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL12 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.>>
-        Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa. >>
-        Sa dulo ay lumipad gawing kanan patungo sa hagdanan sa dulo. >> 
-        Sa taas ng sirang templo makita ito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          ` Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.`,
+          `Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa.`,
+          `Sa dulo ay lumipad gawing kanan patungo sa hagdanan sa dulo`,
+          `Pagkalabas ay makita sa kanang bahagi sa itaas ng sirang templo.`,
+        ],
       },
       {
         id: 13,
         wl_label: 'Wasteland-WL13',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL13 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.>>
-        Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa. >>
-        Sa dulo ay lumipad gawing kanan patungo sa hagdanan sa dulo. >> 
-        Lumipad patungo sa sirang templo at sa dulo bago sa gate, sa likod ng poste sa kaliwa ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          ` Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.`,
+          `Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa.`,
+          `Sa dulo ay lumipad gawing kanan patungo sa hagdanan sa dulo`,
+          `Lumipad patungo sa sirang templo at sa dulo bago sa gate, sa likod ng poste sa kaliwa ang winged light.`,
+        ],
       },
       {
         id: 14,
         wl_label: 'Wasteland-WL14',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL14 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.>>
-        Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa. >>
-        Sa dulo ay lumipad gawing kanan patungo sa hagdanan sa dulo. >> 
-        Lumipad patungo sa sirang templo at sa dulo sindihan ang lock ng gate, at pumasok ka, sa loob ang winged light`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          ` Pagkalapag, lumipad patungo sa broken temple at pumasok sa lagusan.`,
+          `Pagdating sa 1-Krill Area, lumipad patungo sa kabilang lagusan at tumuloy mag skate pababa.`,
+          `Sa dulo ay lumipad gawing kanan patungo sa hagdanan sa dulo`,
+          `Lumipad patungo sa sirang templo at sa dulo sindihan ang lock ng gate, at pumasok ka, sa loob ang winged light`,
+        ],
       },
       {
         id: 15,
         wl_label: 'Wasteland-WL15',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL15 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad gawing kanan patungo sa bangka, at umupo ka. >>
-        Pgdating sa Forgotten Ark, lumipad hanggang makita ang Ark at sa unahan ang winged light na ito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          `Pagkalapag, lumipad gawing kanan patungo sa bangka, at umupo ka.`,
+          `Pagdating sa Forgotten Ark, lumipad hanggang makita ang Ark at sa unahan ang winged light na ito.`,
+        ],
       },
       {
         id: 16,
         wl_label: 'Wasteland-WL16',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL16 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad sa mga kaulapan >>
-        Pagkalapag, lumipad gawing kanan patungo sa bangka, at umupo ka. >>
-        Pgdating sa Forgotten Ark, lumipad patungo sa Ark. >>
-        Lumipad patungo sa dakong dulo na kapatagan at may lagusan na maliit sa bandang kaliwa,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          `Pagkalapag, lumipad gawing kanan patungo sa bangka, at umupo ka.`,
+          `Lumipad patungo sa dakong dulo na kapatagan at may lagusan na maliit sa bandang kaliwa,
         at pumasok ka at sa loob nito ang winged light.`,
+        ],
       },
       {
         id: 17,
         wl_label: 'Wasteland-WL17',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL17 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad gawing kanan,
-        at umupo sa bangka. >> Pagdating sa Treasure Reef, lumipad pataas >>
-        May mataas na tore sa gawing kanan at sa tuktok nito ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland >> Lumipad gawing kanan, at umupo sa bangka.`,
+          `Pagdating sa Treasure Reef, lumipad pataas`,
+          `May mataas na tore sa gawing kanan at sa tuktok nito ang winged light.`,
+        ],
       },
       {
         id: 18,
         wl_label: 'Wasteland-WL18',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL18 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 4 | Golden Wasteland >> Lumipad gawing kanan,
-        at umupo sa bangka. >> Pagdating sa Treasure Reef, lumipad pataas >>
-        May mataas na tore sa gawing kanan at ibaba nito ay may butas na bato, pumasok
-        at lumangoy pailalim hanggang sa makarating ka sa ibaba >>
-        Buksan ang pintuan sa gawing kaliwa, at nasa loob nito ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland >> Lumipad gawing kanan, at umupo sa bangka.`,
+          `Pagdating sa Treasure Reef, lumipad pataas`,
+          `Sa tapat ng mataas na tore sa gawing kanan, ay pumasok sa batong may butas na nasa dagat
+          at lumangoy pailalim hanggang sa makarating ka sa ibaba`,
+          ` Buksan ang pintuan sa gawing kaliwa, at nasa loob nito ang winged light.`,
+        ],
       },
     ],
   },
@@ -701,9 +749,93 @@ export const wasteland = [
       {
         id: 1,
         shrine_label: 'Map Shrine 1',
-        shrine_url: MAP_SHRINE,
-        shrine_location: `Pasok sa Map 2 | Daylight Prairie >> Sa Social Space, lumipad sa kaliwang bahagi at makita mo itong
-          Map Shrine.`,
+        shrine_url: GW_MS1 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 5 | Golden Wasteland, magtungo sa dulo ng lagusan.`,
+          `Bago ka pa makarating sa dulo, nasa bandang kaliwa ang map shrine.`,
+        ],
+      },
+      {
+        id: 2,
+        shrine_label: 'Map Shrine 2',
+        shrine_url: GW_MS2 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 5 | Golden Wasteland, magtungo sa dulo ng lagusan at tumalon.`,
+          `Pagkalapag, ay lumipad ka ng tuwid at makita mo sa harapan ang sirang templo
+          sa unahan, at sa gilid lang nito ang map shrine.`,
+        ],
+      },
+      {
+        id: 3,
+        shrine_label: 'Map Shrine 3',
+        shrine_url: GW_MS3 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 5 | Golden Wasteland, magtungo sa dulo ng lagusan at tumalon.`,
+          `Pagkalapag, ay lumipad ka ng tuwid patungo sa sirang templo at pagkalagpas
+          mo dito, ay pumasok ka sa lagusan malapit sa hagdanan.`,
+          `Pagkapasok, ay lumipad ka patungo sa Boneyard kung saan may 3 krills dito.`,
+          `Lumipad patungo sa malaking dark plants, at sa kanan nito ay may tunnel kung nasaan ang map shrine.`,
+        ],
+      },
+      {
+        id: 4,
+        shrine_label: 'Map Shrine 4',
+        shrine_url: GW_MS4 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 5 | Golden Wasteland, magtungo sa dulo ng lagusan at tumalon.`,
+          `Pagkalapag, ay lumipad ka ng tuwid patungo sa sirang templo at pagkalagpas
+          mo dito, ay pumasok ka sa lagusan malapit sa hagdanan.`,
+          `Tawirin ang 1-Krill Area, at pagkalagpas mo ay sa dakong kanan may lagusan na tunnel, pumasok ka`,
+          `Pagkalabas sa Shipwreck, lumipad patungo sa kanan at makikita mo ang map shrine sa isang maliit na isla.`,
+        ],
+      },
+      {
+        id: 5,
+        shrine_label: 'Map Shrine 5',
+        shrine_url: GW_MS5 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 5 | Golden Wasteland, magtungo sa dulo ng lagusan at tumalon.`,
+          `Pagkalapag, ay lumipad ka ng tuwid patungo sa sirang templo at pagkalagpas
+          mo dito, ay pumasok ka sa lagusan malapit sa hagdanan.`,
+          `Tawirin ang 1-Krill Area, at magtunog sa Boneyard na may 3-Krill sa area,`,
+          `At lumipad patungo sa malawak na hagdanan sa bandang kanan sa dulo`,
+          `Pagkalabas mo ay lumipad patungo sa entrance ng sirang templo, at sa bandang kaliwan makikita ang map shrine.`,
+        ],
+      },
+      {
+        id: 6,
+        shrine_label: 'Map Shrine 6',
+        shrine_url: GW_MS6 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 5 | Golden Wasteland, magtungo sa dulo ng lagusan at tumalon.`,
+          `Pagkalapag, ay lumipad ka ng tuwid patungo sa sirang templo at pagkalagpas
+          mo dito, ay pumasok ka sa lagusan malapit sa hagdanan.`,
+          `Tawirin ang 1-Krill Area, at magtunog sa Boneyard na may 3-Krill sa area,`,
+          `At lumipad patungo sa malawak na hagdanan sa bandang kanan sa dulo`,
+          `Pagkalabas mo ay lumipad patungo sa templot at pumasok ka, sa likod ng shrine 
+          makikita ang map shrine.`,
+        ],
+      },
+      {
+        id: 7,
+        shrine_label: 'Map Shrine 7',
+        shrine_url: GW_MS7 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 5 | Golden Wasteland, lumipad pakaliwa at sumakay sa bangka.`,
+          `Pagkarating sa Treasure Reef, ay lumipad patungo sa pinakamataas na tore at makita mo 
+          sa loob nito ang map shrine.`,
+        ],
+      },
+      {
+        id: 8,
+        shrine_label: 'Map Shrine 8',
+        shrine_url: GW_MS8 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 5 | Golden Wasteland, magtungo sa dulo ng lagusan at tumalon.`,
+          `Pagkalapag, ay lumipad ka gawing kanan at hanapin ang bangka sa dalampasigan at sumakay dito`,
+          `Pagkarating sa Forgotten Ark, ay lumipad patungo sa malaking barko at nasa loob nito sa gitna
+          ang map shrine.`,
+        ],
       },
     ],
   },

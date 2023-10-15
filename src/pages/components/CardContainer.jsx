@@ -10,6 +10,7 @@ import {
   DialogBody,
 } from '@material-tailwind/react'
 import { TextGuideModal } from './TextGuideModal'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const CardContainer = ({ label, location, url }) => {
   const [open, setOpen] = useState(false)
@@ -25,7 +26,12 @@ const CardContainer = ({ label, location, url }) => {
           className="relative h-auto flex justify-center bg-blue-gray-900 cursor-pointer"
           onClick={handleOpen}
         >
-          <img src={url} alt="card-image" className="wl-ms-imgs" />
+          <LazyLoadImage
+            src={url}
+            alt={label}
+            title={label}
+            className="wl-ms-imgs"
+          />
         </CardHeader>
         <CardBody>
           <Typography variant="h5" color="white" className="mb-2">
@@ -52,8 +58,8 @@ const CardContainer = ({ label, location, url }) => {
       >
         <DialogBody divider={true} className="p-0 w-full rounded-3xl">
           <img
-            alt="card-image"
-            className="w-full object-cover object-center rounded-3xl "
+            alt={label}
+            className="w-full object-cover object-center rounded-3xl border-amber-500 border-2"
             src={url}
           />
         </DialogBody>

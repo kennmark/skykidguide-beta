@@ -50,7 +50,19 @@ import {
   VT_WL16,
   VT_WL17,
 } from '../exports/valleyWLImgUrl'
-
+import {
+  VT_MS1,
+  VT_MS2,
+  VT_MS3,
+  VT_MS4,
+  VT_MS5,
+  VT_MS6,
+  VT_MS7,
+  VT_MS8,
+  VT_MS9,
+  VT_MS10,
+  VT_MS11,
+} from '../exports/valleyMSImgUrl'
 import {
   MAP4,
   SEASON1,
@@ -567,8 +579,10 @@ export const valley = [
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL1 ?? WINGED_LIGHT,
-        wl_location: `Mag-skate pababa at makita mo itong winged light sa iyong kaliwa >>
-        Daanan mo lang at makukuha mo na ito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa at sa igawi ang skykid pakaliwa upang madaanan
+          ang winged light. Tandaan hindi ito kailangan pindutin pero dapat sentro ang pagkadaan dito.`,
+        ],
       },
       {
         id: 2,
@@ -576,8 +590,11 @@ export const valley = [
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL2 ?? WINGED_LIGHT,
-        wl_location: `Mag-skate pababa at hanggang makarating ka ng Ice Rink >>
-        Pumasok ka sa ilalim at makita mo ito nakaangat at katabi ng sirang bangka.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `May lagusan papasok sa ilalim ng Ice Rink at makikita ang winged light malapit sa sirang
+          bangka.`,
+        ],
       },
       {
         id: 3,
@@ -585,8 +602,10 @@ export const valley = [
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL3 ?? WINGED_LIGHT,
-        wl_location: `Mag-skate pababa at hanggang makarating ka ng Ice Rink >>
-        sa sentro ng plaza ay makita mo ito tapat ng lagusan papuntang Skating Race.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Sa elevated platform ng Ice Rink sa gitna makikita ang winged light na ito.`,
+        ],
       },
       {
         id: 4,
@@ -594,8 +613,11 @@ export const valley = [
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL4 ?? WINGED_LIGHT,
-        wl_location: `Mag-skate pababa at hanggang makarating ka ng Ice Rink >>
-        Pumasok sa kaliwang lagusan, papuntang Citadle. Pinakamataas na tore, nasa kaliwang tore ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Pumasok sa kaliwang lagusan, papuntang Citadle. Pinakamataas na tore, nasa kaliwang tore ang winged light.
+          (Nakaharap ka sa Flying Race)`,
+        ],
       },
       {
         id: 5,
@@ -603,9 +625,11 @@ export const valley = [
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL5 ?? WINGED_LIGHT,
-        wl_location: `Mag-skate pababa at hanggang makarating ka ng Ice Rink >>
-        Pumasok sa kaliwang lagusan, papuntang Citadle, sa kaliwang tore nasa pinaka ibaba ito.
-        Daanan mo lang at makuha mo agad ito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Pumasok sa kaliwang lagusan, papuntang Citadle, sa kaliwang tore (Nakatalikod sa entrance
+            ng Flying Race) nasa pinaka ibaba ito. Daanan mo lang at makuha mo agad ito.`,
+        ],
       },
       {
         id: 6,
@@ -613,10 +637,12 @@ export const valley = [
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL6 ?? WINGED_LIGHT,
-        wl_location: `Mag-skate pababa at hanggang makarating ka ng Ice Rink >>
-        Pumasok sa kaliwang lagusan, papuntang Citadle, gawin ang Flying Race. >>
-        TANDAAN: Siguraduhin na madaanan mo sa gitna ang winged light dahil di ka na makalipad pabalik, pagkalagpas mo.>>
-        Nasa kanang parte ng race ito, Daanan mo lang at makukuha mo agad ito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          ` Pumasok sa kaliwang lagusan, papuntang Citadle, gawin ang Flying Race.
+          TANDAAN: Siguraduhin na madaanan mo sa gitna ang winged light dahil di ka na makalipad pabalik, pagkalagpas mo.`,
+          `Nasa kanang parte ng race ito, Daanan mo lang at makukuha mo agad ito.`,
+        ],
       },
       {
         id: 7,
@@ -624,11 +650,13 @@ export const valley = [
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL7 ?? WINGED_LIGHT,
-        wl_location: `Mag-skate pababa at hanggang makarating ka ng Ice Rink >>
-        Pumasok sa kaliwang lagusan, papuntang Citadle, gawin ang Flying Race. >>
-        TANDAAN: Siguraduhin na madaanan mo sa gitna ang winged light dahil di ka na makalipad pabalik, pagkalagpas mo.>>
-        Sa gitna ng mga nakalutang na bato, ay makita mo ang sirang tore.>>
-        Igawi mo sa kanan ang skykid mo at daanan mo lang, makukuha mo agad ang winged light na ito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Pumasok sa kaliwang lagusan, papuntang Citadle, gawin ang Flying Race.
+          TANDAAN: Siguraduhin na madaanan mo sa gitna ang winged light dahil di ka na makalipad pabalik, pagkalagpas mo.`,
+          `Sa gitna ng mga nakalutang na bato, ay makita mo ang sirang tore.`,
+          `Igawi mo sa kanan ang skykid mo at daanan mo lang, makukuha mo agad ang winged light na ito.`,
+        ],
       },
       {
         id: 8,
@@ -636,9 +664,11 @@ export const valley = [
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL8 ?? WINGED_LIGHT,
-        wl_location: `Mag-skate pababa at hanggang makarating ka ng Ice Rink >>
-        Pumasok sa gitnang lagusan, at gawin ang Skating Race. >>
-        Nasa bato ang spirit na ito, daanan mo lang at makukuha mo agad ito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Pumasok sa gitnang lagusan, at gawin ang Skating Race.`,
+          `Nasa bato ang spirit na ito, daanan mo lang at makukuha mo agad ito.`,
+        ],
       },
       {
         id: 9,
@@ -646,9 +676,11 @@ export const valley = [
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL9 ?? WINGED_LIGHT,
-        wl_location: `Mag-skate pababa at hanggang makarating ka ng Ice Rink >>
-        Pumasok sa gitna o kaliwang lagusan, at gawin mo ang isa sa mga race. >>
-        Sa dulo ng dalawang race bago pumasok sa Coliseum ay makikita ang winged light na ito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Pumasok sa gitna o kaliwang lagusan, at gawin mo ang isa sa mga race.`,
+          `Sa dulo ng dalawang race bago pumasok sa Coliseum ay makikita ang winged light na ito.`,
+        ],
       },
       {
         id: 10,
@@ -656,9 +688,12 @@ export const valley = [
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL10 ?? WINGED_LIGHT,
-        wl_location: `Mag-skate pababa at hanggang makarating ka ng Ice Rink >>
-        Pumasok sa gitna o kaliwang lagusan, at gawin mo ang isa sa mga race. >>
-        Sa kaliwang balikat ng kaliwang statue ay nandoon ang spirit na ito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Pumasok sa gitna o kaliwang lagusan, at gawin mo ang isa sa mga race.`,
+          `Pagdating sa Colliseum, sa kaliwang balikat (kapag nakatalikod ka sa templo) 
+          ng kaliwang statue (kapag nakaharap ka sa templo) na malaki ay nandoon ang spirit na ito.`,
+        ],
       },
       {
         id: 11,
@@ -666,74 +701,90 @@ export const valley = [
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL11 ?? WINGED_LIGHT,
-        wl_location: `Mag-skate pababa at hanggang makarating ka ng Ice Rink >>
-        Pumasok sa gitna o kaliwang lagusan, at gawin mo ang isa sa mga race. >>
-        Pumasok ka sa templo, at gawing kaliwa, may lagusan sa pinaka-itass ng pader.>>
-        Sundan lang ang lagusan at makita mo ang winged light na ito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Pumasok sa gitna o kaliwang lagusan, at gawin mo ang isa sa mga race.`,
+          `Pagdating sa Colliseum, Pumasok ka sa templo, at gawing kaliwa, may lagusan sa pinaka-itass ng pader.`,
+          `Sundan lang ang lagusan at makita mo ang winged light na ito.`,
+        ],
       },
       {
         id: 12,
         wl_label: 'valley-WL12',
         wl_group: 'wl-valley',
-        wl_season_group: 'wl-valley-0',
+        wl_season_group: 'wl-valley-8',
         wl_url: VT_WL12 ?? WINGED_LIGHT,
-        wl_location: `Pumasok sa Ika-apat na Mapa - Valley of Triumph >>
-        Sa iyong kanan, ay may lagusan papuntang Village of Dreams, pumasok ka.>>
-        Sa mga bukid na nasa kaliwa, isa dito ay may butas kung nasaan ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may lagusan papuntang 
+          Village of Dreams, pumasok ka.`,
+          `Pagkapasok, mag skate pababa at sa mga bukid na nasa kaliwa, isa dito ay 
+          may butas kung nasaan ang winged light.`,
+        ],
       },
       {
         id: 13,
         wl_label: 'valley-WL13',
         wl_group: 'wl-valley',
-        wl_season_group: 'wl-valley-0',
+        wl_season_group: 'wl-valley-8',
         wl_url: VT_WL13 ?? WINGED_LIGHT,
-        wl_location: `Pumasok sa Ika-apat na Mapa - Valley of Triumph >>
-        Sa iyong kanan, ay may lagusan papuntang Village of Dreams, pumasok ka.>>
-        Sa mga bukid na nasa kanan, isa dito ay may butas kung nasaan ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may lagusan papuntang 
+          Village of Dreams, pumasok ka.`,
+          `Pagkapasok, mag skate pababa at sa mga bukid na nasa kanan, isa dito ay 
+          may butas kung nasaan ang winged light.`,
+        ],
       },
       {
         id: 14,
         wl_label: 'valley-WL14',
         wl_group: 'wl-valley',
-        wl_season_group: 'wl-valley-0',
+        wl_season_group: 'wl-valley-13',
         wl_url: VT_WL14 ?? WINGED_LIGHT,
-        wl_location: `Pumasok sa Ika-apat na Mapa - Valley of Triumph >>
-        Sa iyong kanan, ay may lagusan papuntang Village of Dreams, pumasok ka.>>
-        Pagdating sa plaza, sa iyong kanan ay may lagusan papuntang Village Theater, pumasok ka.>>
-        Pumasok ka sa Theater Hall at sa likod ng stage ay may gitara sa labas ng lagusan, pumasok ka at sa dulo nag winged light.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may lagusan papuntang 
+          Village of Dreams, pumasok ka.`,
+          `Pagdating sa plaza, sa iyong kanan ay may lagusan papuntang Village Theater, pumasok ka.`,
+          `Pumasok ka sa Theater Hall at sa likod ng stage ay may gitara sa labas ng lagusan, pumasok ka at sa dulo nag winged light.`,
+        ],
       },
       {
         id: 15,
         wl_label: 'valley-WL15',
         wl_group: 'wl-valley',
-        wl_season_group: 'wl-valley-0',
+        wl_season_group: 'wl-valley-8',
         wl_url: VT_WL15 ?? WINGED_LIGHT,
-        wl_location: `Pumasok sa Ika-apat na Mapa - Valley of Triumph >>
-        Sa iyong kanan, ay may lagusan papuntang Village of Dreams, pumasok ka.>>
-        Pagdating sa plaza, umakyat ka papunta sa susunod na boat terminal>>
-        At sa tuktok ng tore na nasa gitna makita mo ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may lagusan papuntang 
+          Village of Dreams, pumasok ka.`,
+          `Pagdating sa plaza, umakyat ka papunta sa susunod na boat terminal`,
+          `At sa tuktok ng tore na nasa gitna makita mo ang winged light.`,
+        ],
       },
       {
         id: 16,
         wl_label: 'valley-WL16',
         wl_group: 'wl-valley',
-        wl_season_group: 'wl-valley-0',
+        wl_season_group: 'wl-valley-8',
         wl_url: VT_WL16 ?? WINGED_LIGHT,
-        wl_location: `Pumasok sa Ika-apat na Mapa - Valley of Triumph >>
-        Sa iyong kanan, ay may lagusan papuntang Village of Dreams, pumasok ka.>>
-        Pagdating sa plaza, umakyat ka papunta sa susunod na boat terminal>>
-        Sumakay ka sa Ferry Boat papuntang Hermitt's Valley, at sa likod ng bundok makita ang winged light dito.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may lagusan papuntang 
+          Village of Dreams, pumasok ka.`,
+          `Pagdating sa plaza, umakyat ka papunta sa susunod na boat terminal`,
+          `Sumakay ka sa Ferry Boat papuntang Hermitt's Valley, at sa likod mo ay may kweba sa bandang kanan ng bundok.`,
+        ],
       },
       {
         id: 17,
         wl_label: 'valley-WL17',
         wl_group: 'wl-valley',
-        wl_season_group: 'wl-valley-0',
+        wl_season_group: 'wl-valley-8',
         wl_url: VT_WL17 ?? WINGED_LIGHT,
-        wl_location: `Pumasok sa Ika-apat na Mapa - Valley of Triumph >>
-        Sa iyong kanan, ay may lagusan papuntang Village of Dreams, pumasok ka.>>
-        Pagdating sa plaza, umakyat ka papunta sa susunod na boat terminal>>
-        Sumakay ka sa Ferry Boat papuntang Hermitt's Valley, at sa likod mo ay may kweba sa bandang kanan ng bundok.`,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may lagusan papuntang 
+          Village of Dreams, pumasok ka.`,
+          `Pagdating sa plaza, umakyat ka papunta sa susunod na boat terminal`,
+          `Sumakay ka sa Ferry Boat papuntang Hermitt's Valley, at sa likod ng bundok makita ang winged light dito.`,
+        ],
       },
     ],
   },
@@ -756,9 +807,123 @@ export const valley = [
         id: 1,
         shrine_group: 'shrine-season-0',
         shrine_label: 'Map Shrine 1',
-        shrine_url: MAP_SHRINE,
-        shrine_location:
-          'Makikita mo ito pagkatapos sa pangalawang winged light. Nasa itaas lamang ng bangka.',
+        shrine_url: VT_MS1 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may sirang Gazebo (bahay) structure`,
+          `sa likod nito makita ang map shrine.`,
+        ],
+      },
+      {
+        id: 2,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 2',
+        shrine_url: VT_MS2 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Sa elevated platform na nasa gitna makita ang map shrine.`,
+        ],
+      },
+      {
+        id: 3,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 3',
+        shrine_url: VT_MS3 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Pumasok sa kaliwang lagusan, papuntang Citadle.`,
+          `Pagkadating sa Citadle, Sa bandang kanan sa loob ng Gazebo (bahay) structure,
+          Makita mo ang map shrine.`,
+        ],
+      },
+      {
+        id: 4,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 4',
+        shrine_url: VT_MS4 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Pumasok sa kaliwang lagusan, papuntang Citadle.`,
+          `Pagkadating sa Citadle, Sa bandang likuran ng pinakamataas na poste(KANAN na POSTE kung nakaharap
+            sa Flying Race Entrance), Makita mo ang map shrine.`,
+        ],
+      },
+      {
+        id: 5,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 5',
+        shrine_url: VT_MS5 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Pumasok sa kaliwang lagusan, papuntang Citadle.`,
+          `Pagkadating sa Citadle, magtungo sa Flying Race Temple at pumasok.`,
+          `Pagkapasok sa loob, nasa kanan na parte ng temple ang map shrine.`,
+        ],
+      },
+      {
+        id: 6,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 6',
+        shrine_url: VT_MS6 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa hanggang makarating sa Ice Rink.`,
+          `Magtungo sa gitnang lagusan, papuntang Skating Race.`,
+          `Pagkadating sa Skating Race Temple ay nasa kanan ang map shrine.`,
+        ],
+      },
+      {
+        id: 7,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 7',
+        shrine_url: VT_MS7 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa gawing kanan ay may lagusan papuntang Village of Dreams.`,
+          `Magskate pababa, at bago makarating sa plaza sa gitna, sa gawing kaliwa malapit sa bahay, makita
+          ang map shrine.`,
+        ],
+      },
+      {
+        id: 8,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 8',
+        shrine_url: VT_MS8 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa gawing kanan ay may lagusan papuntang Village of Dreams.`,
+          `Magskate pababa, at bago makarating sa plaza sa gitna, sa gawing kanan ay may lagusan papuntang
+          Village Theater, pumasok ka.`,
+          `Pagkarating sa Village Theeater, sa kaliwang banda makita ang map shrine.`,
+        ],
+      },
+      {
+        id: 9,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 9',
+        shrine_url: VT_MS9 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa gawing kanan ay may lagusan papuntang Village of Dreams.`,
+          `Magskate pababa, sa unahan ng statue, naka elevated ang map shrine malapit sa exit ng Performance Hall.`,
+        ],
+      },
+      {
+        id: 10,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 10',
+        shrine_url: VT_MS10 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa gawing kanan ay may lagusan papuntang Village of Dreams.`,
+          `Magskate pababa, at magtungo sa Port sa unahan lng ng plaza, sa kaliwang banda.`,
+          `Pagkasakay ng lumulutang na bangka, gawin din ito sa susunod na terminal patungo sa Hermitt's Valley`,
+          `Pagkarating ay lumipad patungo sa Cave na nasa bandang kanan, at sa tuktok ng Cave na ito ang map shrine.`,
+        ],
+      },
+      {
+        id: 11,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 11',
+        shrine_url: VT_MS11 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, magskate pababa patungong Ice Rink at gawin ang isang Race.`,
+          `Pagkarating sa Coliseum, nasa bandang likod sa itaas ng mga upuan ang map shrine.`,
+        ],
       },
     ],
   },

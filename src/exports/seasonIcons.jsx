@@ -16,6 +16,7 @@ import season15 from '../assets/images/season-icons/Season-15.png'
 import season16 from '../assets/images/season-icons/Season-16.png'
 import season17 from '../assets/images/season-icons/Season-17.png'
 import season18 from '../assets/images/season-icons/Season-18.png'
+import season19 from '../assets/images/season-icons/Season-19.png'
 
 import map1 from '../assets/images/icons/Map1-Isle-Icon.png'
 import map2 from '../assets/images/icons/Map2-Prairie-Icon.png'
@@ -43,6 +44,7 @@ export const SEASON15 = season15
 export const SEASON16 = season16
 export const SEASON17 = season17
 export const SEASON18 = season18
+export const SEASON19 = season19
 
 export const MAP1 = map1
 export const MAP2 = map2

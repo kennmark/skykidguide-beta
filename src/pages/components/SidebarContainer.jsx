@@ -26,7 +26,7 @@ export function SideBarContainer() {
           </span>
 
           <Drawer open={draw} onClose={closeDrawer}>
-            <SideBar screenSize={screenSize} />
+            <SideBar />
           </Drawer>
         </>
       )}

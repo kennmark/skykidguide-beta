@@ -16,7 +16,7 @@ export const FOREST_NUM_MAP_SHRINES = 10
 export const VALLEY_NUM_REG_SPIRIT = 7
 export const VALLEY_NUM_SEASON_SPIRIT = 16
 export const VALLEY_NUM_WL = 17
-export const VALLEY_NUM_MAP_SHRINES = 10
+export const VALLEY_NUM_MAP_SHRINES = 11
 
 export const WASTELAND_NUM_REG_SPIRIT = 6
 export const WASTELAND_NUM_SEASON_SPIRIT = 14
@@ -33,7 +33,7 @@ export const EDEN_NUM_SEASON_SPIRIT = 0
 export const EDEN_NUM_WL = 10
 export const EDEN_NUM_MAP_SHRINES = 3
 
-export const S18_NUM_REG_SPIRIT = 0
-export const S18_NUM_SEASON_SPIRIT = 4
-export const S18_NUM_WL = 3
-export const S18_NUM_MAP_SHRINES = 1
+export const S19_NUM_REG_SPIRIT = 0
+export const S19_NUM_SEASON_SPIRIT = 0
+export const S19_NUM_WL = 0
+export const S19_NUM_MAP_SHRINES = 1

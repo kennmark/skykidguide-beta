@@ -60,6 +60,18 @@ import {
   HF_WL18,
   HF_WL19,
 } from '../exports/forestImgWLUrl'
+import {
+  HF_MS1,
+  HF_MS2,
+  HF_MS3,
+  HF_MS4,
+  HF_MS5,
+  HF_MS6,
+  HF_MS7,
+  HF_MS8,
+  HF_MS9,
+  HF_MS10,
+} from '../exports/forestMSImgUrl'
 const youtube_embed = 'https://www.youtube.com/embed/'
 
 export const hiddenForest = [
@@ -560,8 +572,11 @@ export const hiddenForest = [
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL1 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        bago ka lumapag ay makita mo ang winged light na ito na nasa sanga ng isang puno.`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Bago ka lumapag ay makita mo sa bandang kanan ang winged light 
+          na ito na nasa sanga ng isang puno.`,
+        ],
       },
       {
         id: 2,
@@ -569,42 +584,49 @@ export const hiddenForest = [
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL2 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        At sa susunod na gate makita ang winged light na ito`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at pagdating sa 3rd Gate ay makita mo ang winged light. `,
+        ],
       },
       {
         id: 3,
         wl_label: 'Forest-WL3',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
-        wl_url: HF_WL3 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Dumako sa susunod na gate at buksan ito, Pagkalabas dumako sa waiting shed na bato. >>
-        Sa kaliwang banda ay may waiting shed na isa at sa pader may makita kang maliit na butas kung nasaan ang winged light.`,
+        wl_url: HF_WL5 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook, lakad ng kaonti at tingin sa kanang bahagi sa itaas makita mo ang shed house.`,
+          `Lipad ka pataas at makita mo ang winged light dito.`,
+        ],
       },
       {
         id: 4,
         wl_label: 'Forest-WL4',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
-        wl_url: HF_WL4 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, lakad ng kaonti at tingin sa kanang bahagi sa itaas makita mo ang shed house. >>
-        Lipad ka pataas at makita mo ang winged light dito.`,
+        wl_url: HF_WL3 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Dumaan sa isang batong silungan kung saan may spirit, at makikita mo ang butas sa gild ng pader.`,
+        ],
       },
       {
         id: 5,
         wl_label: 'Forest-WL5',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
-        wl_url: HF_WL5 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, dumako patungo sa tulay at tingin ka sa itaas sa kaliwang banda at makita mo ang shed house. >>
-        Lipad ka pataas at makita mo ang winged light dito.`,
+        wl_url: HF_WL4 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook, lumipad patungo sa batong tulay sa unahan.`,
+          `Bago pa makarating doon ay lumipad na pataas hanggang sa makarating sa isang Shed House sa iyong kaliwa
+          at makita mo dito ang winged light.`,
+        ],
       },
       {
         id: 6,
@@ -612,9 +634,11 @@ export const hiddenForest = [
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL6 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, dumako patungo sa tulay at sa dulo ng lagusan ay makita mo ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook, dumako patungo sa tulay at sa dulo ng lagusan ay makita mo ang winged light.`,
+        ],
       },
       {
         id: 7,
@@ -622,10 +646,12 @@ export const hiddenForest = [
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL7 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka. >>
-        Paglabas sa Sunny Forest, sa mga malalaking puno sa kanan, lumipad ka at sa likod nito ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka.`,
+          `Paglabas sa Sunny Forest, sa dulo ng malalaking puno ay makita mo ang winged light na elevated sa bato.`,
+        ],
       },
       {
         id: 8,
@@ -633,10 +659,12 @@ export const hiddenForest = [
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL8 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka. >>
-        Paglabas sa Sunny Forest, sa dulo ng malalaking puno ay makita mo ang winged light na elevated sa bato.`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka.`,
+          `Paglabas sa Sunny Forest, sa mga malalaking puno sa kanan, lumipad ka at sa likod nito ang winged light.`,
+        ],
       },
       {
         id: 9,
@@ -644,11 +672,13 @@ export const hiddenForest = [
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL9 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka. >>
-        Paglabas sa Sunny Forest, dumako sa broken bridge, at sa kaliwa ay may lagusan sa ilalim ng puno, Pumasok ka at gawin ang pouty emote >>
-        Pagkababa, lumipad patungo sa dulo at lumipad paakyat. Pasok ka sa lagusan at sa bandang ibaba sa kanng bahagi ay may gate kung nasan ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka.`,
+          `Paglabas sa Sunny Forest, dumako sa broken bridge, at sa kaliwa ay may lagusan sa ilalim ng puno, Pumasok ka at gawin ang pouty emote`,
+          `Pagkababa, lumipad patungo sa dulo at lumipad paakyat. Pasok ka sa lagusan at sa bandang ibaba sa kanng bahagi ay may gate kung nasan ang winged light.`,
+        ],
       },
       {
         id: 10,
@@ -656,56 +686,68 @@ export const hiddenForest = [
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL10 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka. >>
-        Paglabas sa Sunny Forest, dumako sa broken bridge, at sa kaliwa ay may lagusan sa ilalim ng puno, Pumasok ka at gawin ang pouty emote >>
-        Pagkababa, lumipad patungo sa dulo at lumipad paakyat. Pasok ka sa lagusan at sa bandang kaliwa sa unang lagusan, lumipad ka pataas kung nasaan ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka.`,
+          `Paglabas sa Sunny Forest, dumako sa broken bridge, at sa kaliwa ay may lagusan sa ilalim ng puno, Pumasok ka at gawin ang pouty emote`,
+          `Pagkababa, lumipad patungo sa dulo at lumipad paakyat. Pasok ka sa lagusan at sa bandang kaliwa sa unang lagusan, lumipad ka pataas kung nasaan ang winged light.`,
+        ],
       },
       {
         id: 11,
         wl_label: 'Forest-WL11',
         wl_group: 'wl-forest',
-        wl_season_group: 'wl-forest-0',
+        wl_season_group: 'wl-forest-3',
         wl_url: HF_WL11 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka. >>
-        Paglabas sa Sunny Forest, dumako sa broken bridge, at sa kaliwa ay may lagusan sa ilalim ng puno, Pumasok ka at gawin ang pouty emote >>
-        Pagkababa, lumipad patungo sa dulo at lumipad paakyat. Pasok ka sa lagusan at sa bandang kaliwa sa pangalawang lagusan, lumipad ka pataas kung nasaan ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka.`,
+          `Paglabas sa Sunny Forest, dumako sa broken bridge, at sa kaliwa ay may lagusan sa ilalim ng puno, Pumasok ka at gawin ang pouty emote`,
+          `Pagkababa, lumipad patungo sa dulo at lumipad paakyat. Pasok ka sa lagusan at sa bandang kaliwa sa pangalawang cave, Deep Honk,
+           lumipad ka pataas kung nasaan ang winged light.`,
+        ],
       },
       {
         id: 12,
         wl_label: 'Forest-WL12',
         wl_group: 'wl-forest',
-        wl_season_group: 'wl-forest-0',
+        wl_season_group: 'wl-forest-3',
         wl_url: HF_WL12 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka. >>
-        Paglabas sa Sunny Forest, dumako sa broken bridge, at sa kaliwa ay may lagusan sa ilalim ng puno, Pumasok ka at gawin ang pouty emote >>
-        Pagkababa, lumipad patungo sa dulo at lumipad paakyat. Pumunta ka sa exit gate ng Underground Cave at sa kaliwa nito ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka.`,
+          `Paglabas sa Sunny Forest, dumako sa broken bridge, at sa kaliwa ay may lagusan sa ilalim ng puno, Pumasok ka at gawin ang pouty emote`,
+          `Pagkababa, lumipad patungo sa dulo at lumipad paakyat. Pumunta ka sa exit gate ng Underground Cave at sa kaliwa nito ang winged light.`,
+        ],
       },
       {
         id: 13,
         wl_label: 'Forest-WL13',
         wl_group: 'wl-forest',
-        wl_season_group: 'wl-forest-0',
-        wl_url: HF_WL13 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, lumipad patungong lagusan sa dulo. >> Pagdating sa Boneyard ay may tower sa kaliwa kung nassan ang winged light na ito.`,
+        wl_season_group: 'wl-forest-3',
+        wl_url: HF_WL14 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook,lumipad patungong lagusan sa dulo.`,
+          `Pagdating sa Boneyard lumipad patungo sa mga tunnel at sa kanan, sa butas ng malaking puno ay makita mo ang winged light dito.`,
+        ],
       },
       {
         id: 14,
         wl_label: 'Forest-WL14',
         wl_group: 'wl-forest',
-        wl_season_group: 'wl-forest-0',
-        wl_url: HF_WL14 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, lumipad patungong lagusan sa dulo. >> Pagdating sa Boneyard,
-        lumipad patungo sa mga tunnel at sa kanan, sa butas ng malaking puno ay makita mo ang winged light dito.`,
+        wl_season_group: 'wl-forest-3',
+        wl_url: HF_WL13 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook,lumipad patungong lagusan sa dulo.`,
+          `Pagdating sa Boneyard ay may tower sa kaliwa kung nasaan ang winged light na ito.`,
+        ],
       },
       {
         id: 15,
@@ -713,10 +755,13 @@ export const hiddenForest = [
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL15 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, lumipad patungong lagusan sa dulo. >> Pagdating sa Boneyard, sa dulo ng mga
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook,lumipad patungong lagusan sa dulo.`,
+          ` Pagdating sa Boneyard, sa dulo ng mga
         broken bridges makita mo ang winged light na ito.`,
+        ],
       },
       {
         id: 16,
@@ -724,41 +769,50 @@ export const hiddenForest = [
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL16 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Pagkalapag sa Forest Entrance buksan ang gate. >> Pagkapasok dumako sa sunod na gate at buksan ito >>
-        Pagdating sa Forest Brook, lumipad patungong lagusan sa dulo. >> Pagdating sa Boneyard, lumipad
-        patungo sa templo. >> Sa labas ng templo, makita mo ang winged light sa kaliwa.`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
+          `Pagdating sa Forest Brook,lumipad patungong lagusan sa dulo.`,
+          ` Pagdating sa Boneyard, lumipad patungo sa templo.`,
+          `Sa labas ng templo, makita mo ang winged light sa kaliwa.`,
+        ],
       },
       {
         id: 17,
         wl_label: 'Forest-WL17',
         wl_group: 'wl-forest',
-        wl_season_group: 'wl-forest-0',
+        wl_season_group: 'wl-forest-9',
         wl_url: HF_WL17 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Bago makarating sa gate ng entrance, ay may lagusan sa kanan, pumasok ka >> Paglabas mo sa kweba
-        may makita kang duyan sa kanan, at sa itaas nito nakatago ang winged light sa puno.`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Bago makarating sa gate ng entrance, ay may lagusan sa kanan, pumasok ka`,
+          `Paglabas mo sa kweba may makita kang duyan sa kanan, at sa itaas ng puno nakatago ang winged light sa puno.`,
+        ],
       },
       {
         id: 18,
         wl_label: 'Forest-WL18',
         wl_group: 'wl-forest',
-        wl_season_group: 'wl-forest-0',
+        wl_season_group: 'wl-forest-9',
         wl_url: HF_WL18 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad pababa sa mga kaulapan. >>
-        Bago makarating sa gate ng entrance, ay may lagusan sa kanan, pumasok ka >> Paglabas mo sa kweba
-        may makita kang malaking treehouse, pumasok ka. >> at sa loob nito ay may lagusan pababa, makita
-        mo ang spirit na ito.`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Bago makarating sa gate ng entrance, ay may lagusan sa kanan, pumasok ka`,
+          `Paglabas mo sa kweba may makita kang malaking treehouse, pumasok ka.`,
+          `Sa loob nito ay may lagusan pababa, makita mo ang spirit na ito.`,
+        ],
       },
       {
         id: 19,
         wl_label: 'Forest-WL19',
         wl_group: 'wl-forest',
-        wl_season_group: 'wl-forest-0',
+        wl_season_group: 'wl-forest-11',
         wl_url: HF_WL19 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Pangatlong Mapa, lumipad ka gawing kanan at pumasok ka sa lagusan. >>
-        Paglabas mo sa Wind Path, ay may malaking isla sa gitna, at sa kanang bahagi ng isla,
-        lumipad ka pababa at pumasok ka (red circle) at lalabas ka sa lagusan (yellow circle)`,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad ka gawing kanan at pumasok ka sa lagusan.`,
+          `Paglabas mo sa Wind Path, ay may malaking isla sa gitna, `,
+          `at sa kanang bahagi ng isla lumipad ka pababa at pumasok ka (red circle) at lalabas ka sa lagusan (yellow circle)`,
+        ],
       },
     ],
   },
@@ -781,9 +835,123 @@ export const hiddenForest = [
         id: 1,
         shrine_group: 'shrine-season-0',
         shrine_label: 'Map Shrine 1',
-        shrine_url: MAP_SHRINE,
-        shrine_location:
-          'Makikita mo ito pagkatapos sa pangalawang winged light. Nasa itaas lamang ng bangka.',
+        shrine_url: HF_MS1 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hidden Forest, Sa bandang unahan malapit sa Stone Door ng Social Area,
+          sa kaliwang banda makita ang map shrine sa puno.`,
+        ],
+      },
+      {
+        id: 2,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 2',
+        shrine_url: HF_MS2 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hidden Forest, lumipad pababa sa mga kaulapan`,
+          `Bago pumasok sa gate, nasa bandang kanan malapit lng sa gate ang map shrine.`,
+        ],
+      },
+      {
+        id: 3,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 3',
+        shrine_url: HF_MS3 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hidden Forest, lumipad pababa sa mga kaulapan`,
+          `Pumasok sa 1st, 2nd, at 3rd gates para makapunta sa Forest Brook.`,
+          `Pagkarating sa Forest Brook, lumipad ng diretso patungo sa batong tulay.`,
+          `At sa gawing kanan sa silong ng puno makita ang map shrine`,
+        ],
+      },
+      {
+        id: 4,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 4',
+        shrine_url: HF_MS4 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hidden Forest, lumipad pababa sa mga kaulapan`,
+          `Pumasok sa 1st, 2nd, at 3rd gates para makapunta sa Forest Brook.`,
+          `Pagkarating sa Forest Brook, lumipad gawing kanan at pumasok sa lagusan.`,
+          `Pagkarating sa Sunny Forest, Lumipad gawing kanan at sa elevated na platform
+          sa likod ng puno makikita ang map shrine.`,
+        ],
+      },
+      {
+        id: 5,
+        shrine_group: 'shrine-season-3',
+        shrine_label: 'Map Shrine 5',
+        shrine_url: HF_MS5 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hidden Forest, lumipad pababa sa mga kaulapan`,
+          `Pumasok sa 1st, 2nd, at 3rd gates para makapunta sa Forest Brook.`,
+          `Pagkarating sa Forest Brook, lumipad gawing kanan at pumasok sa lagusan.`,
+          `Pagkarating sa Sunny Forest, Lumipad patungo sa sirang tulay, sa iyong kaliwa
+          ay may butas ang puno pumasok ka, Sundan lang ang lagusan pababa, at pagdating 
+          sa dulo lumipad pataas at pumasok sa lagusan.`,
+          `Nasa exit door kapag nagrerelive ng Spirit ng Hair Toussle Spirit.`,
+        ],
+      },
+      {
+        id: 6,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 6',
+        shrine_url: HF_MS6 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hidden Forest, lumipad pababa sa mga kaulapan`,
+          `Pumasok sa 1st, 2nd, at 3rd gates para makapunta sa Forest Brook.`,
+          `Pagkarating sa Forest Brook, lumipad patungo sa sirang tulay at dumiretso sa lagusan palabas.`,
+          `Magtungo sa simula ng sirang mga tulay, at sa bandang kanan ay may nakahiwalay na sirang tower 
+         kung nassan ang map shrine.`,
+        ],
+      },
+      {
+        id: 7,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 7',
+        shrine_url: HF_MS7 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hidden Forest, lumipad pababa sa mga kaulapan`,
+          `Pumasok sa 1st, 2nd, at 3rd gates para makapunta sa Forest Brook.`,
+          `Pagkarating sa Forest Brook, lumipad patungo sa sirang tulay at dumiretso sa lagusan palabas.`,
+          `Lumipad patungo sa templo at pumasok, pagkapasok sa templo ay nasa kanang banda malapit sa 
+          dark plants.`,
+        ],
+      },
+      {
+        id: 8,
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 8',
+        shrine_url: HF_MS8 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hidden Forest, lumipad pababa sa mga kaulapan`,
+          `Pumasok sa 1st, 2nd, at 3rd gates para makapunta sa Forest Brook.`,
+          `Pagkarating sa Forest Brook, lumipad patungo sa sirang tulay at dumiretso sa lagusan palabas.`,
+          `Lumipad patungo sa templo at pumasok, at lumabas patungo sa garden area malapit sa pond, makikita
+          ang map shrine..`,
+        ],
+      },
+      {
+        id: 9,
+        shrine_group: 'shrine-season-9',
+        shrine_label: 'Map Shrine 9',
+        shrine_url: HF_MS9 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hidden Forest, lumipad pababa sa mga kaulapan`,
+          `bago pa makarating sa entrance gate, sa kanang banda ay may maliit na lagusa
+          papuntang Treehouse.`,
+          `sa tuktok ng Treehouse makikita ang mapshrine.`,
+        ],
+      },
+      {
+        id: 10,
+        shrine_group: 'shrine-season-11',
+        shrine_label: 'Map Shrine 10',
+        shrine_url: HF_MS10 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hidden Forest, lumipad gawing kanan at pumasok sa Wind Paths.`,
+          `Pagdating sa Wind Paths, lumipad patungo sa dulong isla sa ibaba at nasa docking area
+          map shrine.`,
+        ],
       },
     ],
   },

@@ -17,6 +17,7 @@ import {
   SEASON16,
   SEASON17,
   SEASON18,
+  SEASON19,
 } from '../exports/seasonIcons'
 
 export const seasons2019 = [
@@ -175,5 +176,13 @@ export const seasons2023 = [
     spirits: '4',
     icon_route: SEASON18,
     page_route: 'seasons/2023/season-18/moments',
+  },
+  {
+    id: 19,
+    name: 'Season of Revival',
+    time_duration: 'October 16 - December 31, 2023',
+    spirits: '0',
+    icon_route: SEASON19,
+    page_route: 'seasons/2023/season-19/revival',
   },
 ]

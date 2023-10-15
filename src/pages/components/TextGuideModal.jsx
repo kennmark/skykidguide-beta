@@ -41,10 +41,14 @@ export function TextGuideModal({ label, handleOpen, open, direction = [] }) {
               Step 1
             </Typography>
             <Typography className="text-white text-md">{step1}</Typography>
-            <Typography variant="h6" color="amber">
-              Step 2
-            </Typography>
-            <Typography className="text-white text-md">{step2}</Typography>
+            {step2 && (
+              <>
+                <Typography variant="h6" color="amber">
+                  Step 2
+                </Typography>
+                <Typography className="text-white text-md">{step2}</Typography>
+              </>
+            )}
             {step3 && (
               <>
                 <Typography variant="h6" color="amber">
