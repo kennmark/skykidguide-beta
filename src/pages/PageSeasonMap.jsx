@@ -13,6 +13,7 @@ import SpiritCardContainer from './components/SpiritCardContainer'
 import CardContainer from './components/CardContainer'
 import PageHeaderContainer from './components/PageHeaderContainer'
 import { GIF_SEASON, SEASON_ALT } from '../exports/mapGIFs'
+import ScrollToTop from 'react-scroll-to-top'
 
 const PageSeasonMap = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
@@ -89,6 +90,7 @@ const PageSeasonMap = () => {
           })}
         </Tabs> */}
       </div>
+      <ScrollToTop smooth className="scrollToTop" />
     </div>
   )
 }

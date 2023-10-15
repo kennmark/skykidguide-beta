@@ -15,6 +15,7 @@ import CardContainer from './components/CardContainer'
 import { GIF_PRAIRIE, PRAIRIE_ALT } from '../exports/mapGIFs'
 import PageHeaderContainer from './components/PageHeaderContainer'
 import DifficultyCriteria from './components/DifficultyCriteria'
+import ScrollToTop from 'react-scroll-to-top'
 
 const PagePrairie = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
@@ -103,6 +104,7 @@ const PagePrairie = () => {
 
         <DifficultyCriteria />
       </div>
+      <ScrollToTop smooth className="scrollToTop" />
     </div>
   )
 }

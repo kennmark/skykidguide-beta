@@ -9,6 +9,7 @@ import CardContainer from './components/CardContainer'
 import PageHeaderContainer from './components/PageHeaderContainer'
 import { GIF_WASTELAND, WASTELAND_ALT } from '../exports/mapGIFs'
 import DifficultyCriteria from './components/DifficultyCriteria'
+import ScrollToTop from 'react-scroll-to-top'
 
 const PageWasteland = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
@@ -60,7 +61,12 @@ const PageWasteland = () => {
                   <div className="text-gray-100 pb-5">{body.desc}</div>
                   <div className="flex flex-wrap justify-center gap-3">
                     {body.spirits?.map((spirit, index) => {
-                      return <SpiritCardContainer {...spirit} key={index} />
+                      return (
+                        <SpiritCardContainer
+                          {...spirit}
+                          key={spirit.spirit_id}
+                        />
+                      )
                     })}
                     {body.winged_lights?.map((wingedLight, index) => {
                       return (
@@ -68,7 +74,7 @@ const PageWasteland = () => {
                           label={wingedLight.wl_label}
                           location={wingedLight.wl_location}
                           url={wingedLight.wl_url}
-                          key={index}
+                          key={wingedLight.wl_label}
                         />
                       )
                     })}
@@ -78,7 +84,7 @@ const PageWasteland = () => {
                           label={mapShrine.shrine_label}
                           location={mapShrine.shrine_location}
                           url={mapShrine.shrine_url}
-                          key={index}
+                          key={mapShrine.shrine_label}
                         />
                       )
                     })}
@@ -92,6 +98,7 @@ const PageWasteland = () => {
           <DifficultyCriteria />
         </div>
       </div>
+      <ScrollToTop smooth className="scrollToTop" />
     </div>
   )
 }

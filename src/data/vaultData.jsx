@@ -489,113 +489,148 @@ export const vault = [
         wl_label: 'Vault-WL1',
         wl_group: 'wl-vault',
         wl_url: VK_WL1 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 6 | Vault of Knowledge >> Lumipad gawing kaliwa sa may hagdanan >>
-        Sa tuktok ng hagdanan makita ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad gawing kaliwa sa may hagdanan sa tuktok ng hagdanan makita ang winged light.`,
+        ],
       },
       {
         id: 2,
         wl_label: 'Vault-WL2',
         wl_group: 'wl-vault',
         wl_url: VK_WL2 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 6 | Vault of Knowledge >> Lumipad patungo sa elevating platform >>
-        umakyat pataas hanggang 3rd floor >> at sa tuktok ng shed
-        house makita mo ang winged light na ito.`,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad patungo sa elevating platform at umakyat pataas hanggang 3rd floor`,
+          `at sa tuktok ng shed house makita mo ang winged light na ito.`,
+        ],
       },
       {
         id: 3,
         wl_label: 'Vault-WL3',
         wl_group: 'wl-vault',
         wl_url: VK_WL3 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 6 | Vault of Knowledge >> Lumipad patungo sa elevating platform >>
-        umakyat pataas hanggang 4th floor >> lumipad patungo kung saan makita ang
-        Daylight Prairie Constellation >> at makita mo ang nakalutang na islet na may spiral stairs >>
-        Sa loob ang winged light na ito.`,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad patungo sa elevating platform at umakyat pataas hanggang 4th floor`,
+          `Lumipad patungo kung saan makita ang Daylight Prairie Constellation at makita mo ang nakalutang na islet na may spiral stairs`,
+          `Sa loob ang winged light na ito.`,
+        ],
       },
       {
         id: 4,
         wl_label: 'Vault-WL4',
         wl_group: 'wl-vault',
         wl_url: VK_WL4 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 6 | Vault of Knowledge >> Lumipad patungo sa elevating platform >>
-        umakyat pataas hanggang 4th floor >> lumipad patungo kung saan makita ang
-        Isle of Dawn Constellation >> sa pinakatuktok na islet sa taas makita mo ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad patungo sa elevating platform at umakyat pataas hanggang 4th floor`,
+          `lumipad patungo kung saan makita ang Isle of Dawn Constellation`,
+          `sa pinakatuktok na islet sa taas makita mo ang winged light.`,
+        ],
       },
       {
         id: 5,
         wl_label: 'Vault-WL5',
         wl_group: 'wl-vault',
         wl_url: VK_WL5 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 6 | Vault of Knowledge >> Lumipad patungo sa elevating platform >>
-        umakyat pataas hanggang 5th floor >> lumipad patungo kung saan makita ang
-        malaking buto at nakapatong lng ang winged light dito.`,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad patungo sa elevating platform at umakyat pataas hanggang 5th floor`,
+          `lumipad patungo kung saan makita ang malaking buto at nakapatong lng ang winged light dito.`,
+        ],
       },
       {
         id: 6,
         wl_label: 'Vault-WL6',
         wl_group: 'wl-vault',
         wl_url: VK_WL6 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 6 | Vault of Knowledge >> Lumipad patungo sa elevating platform >>
-        umakyat pataas hanggang Summit >> Makita mo ang winged light sa paanan ng temple shrine.`,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad patungo sa elevating platform at  umakyat pataas hanggang Summit`,
+          `Makita mo ang winged light sa paanan ng temple shrine.`,
+        ],
       },
       {
         id: 7,
         wl_label: 'Vault-WL7',
         wl_group: 'wl-vault',
         wl_url: VK_WL7 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 6 | Vault of Knowledge >> Lumipad pataas at sa gawing kanan ay may
-        2-player door, buksan ito. Pagkabukas ay pumasok sa lagusan >> Pagkapasok ay
-        lumipad paakyat at pumasok sa kaliwang butas. >> Sa pangatlong pagbaba ay may
-        kwarto sa kaliwa kung saan may mga banga at sa likod nito ay may winged light.`,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad pataas at sa gawing kanan ay may 2-player door, buksan ito. Pagkabukas ay pumasok sa lagusan`,
+          `Pagkapasok ay lumipad paakyat at pumasok sa kaliwang butas.`,
+          `Sa pangatlong pagbaba ay may kwarto sa kaliwa kung saan may mga banga at sa likod nito ay may winged light.`,
+        ],
       },
       {
         id: 8,
         wl_label: 'Vault-WL8',
         wl_group: 'wl-vault',
         wl_url: VK_WL8 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 6 | Vault of Knowledge >> Lumipad pataas at sa gawing kanan ay may
-        2-player door, buksan ito. Pagkabukas ay pumasok sa lagusan >> Pagkapasok ay
-        lumipad paakyat at pumasok sa kaliwang butas. >> Sa pangatlong pagbaba dumako 
-        patungo sa makitang hagdanan at pumasok sa butas pataas at makita mo
-        ang winged light dito.`,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad pataas at sa gawing kanan ay may 2-player door, buksan ito. Pagkabukas ay pumasok sa lagusan`,
+          `Pagkapasok ay lumipad paakyat at pumasok sa kaliwang butas.`,
+          `Sa pangatlong pagbaba dumako patungo sa makitang hagdanan at pumasok sa butas pataas at makita mo
+            ang winged light dito.`,
+        ],
       },
       {
         id: 9,
         wl_label: 'Vault-WL9',
         wl_group: 'wl-vault',
         wl_url: VK_WL9 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 6 | Vault of Knowledge >> Lumipad pataas at sa gawing kaliwa ay may
-        lagusan papasok. >> Pagkarating sa Starlight Dessert, ay lumipad patungo sa malaking banga na
-        nasa iyong gawing kanan. >> Makita mo ang winged light sa tuktok nito.`,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad pataas at sa gawing kaliwa ay may lagusan papasok.`,
+          `Pagkapasok ay lumipad paakyat at pumasok sa kaliwang butas.`,
+          `Pagkarating sa Starlight Dessert, ay lumipad patungo sa malaking banga na
+          nasa iyong gawing kanan.`,
+          `Makita mo ang winged light sa tuktok nito.`,
+        ],
       },
       {
         id: 10,
         wl_label: 'Vault-WL10',
         wl_group: 'wl-vault',
         wl_url: VK_WL10 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 6 | Vault of Knowledge >> Lumipad pataas at sa gawing kaliwa ay may
-        lagusan papasok. >> Pagkarating sa Starlight Dessert, ay lumipad patungo sa mataas na tower 
-        na nasa iyong gawing kaliwa. >> Nasa tuktok ng tower ang winged light na ito.`,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad pataas at sa gawing kaliwa ay may lagusan papasok.`,
+          `Pagkapasok ay lumipad paakyat at pumasok sa kaliwang butas.`,
+          `Pagkarating sa Starlight Dessert, ay lumipad patungo sa mataas na tower 
+          na nasa iyong gawing kaliwa.`,
+          `Nasa tuktok ng tower ang winged light na ito.`,
+        ],
       },
       {
         id: 11,
         wl_label: 'Vault-WL11',
         wl_group: 'wl-vault',
         wl_url: VK_WL11 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 6 | Vault of Knowledge >> Lumipad pataas at sa gawing kaliwa ay may
-        lagusan papasok. >> Pagkarating sa Starlight Dessert, ay lumipad patungo sa buwan. >>
-        Sa unang islang nakalutang ay may hugis krus ito na butas sa ilalim at nasa loob
-        nito ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad pataas at sa gawing kaliwa ay may lagusan papasok.`,
+          `Pagkapasok ay lumipad paakyat at pumasok sa kaliwang butas.`,
+          `Pagkarating sa Starlight Dessert, ay lumipad patungo sa buwan.`,
+          `Sa unang islang nakalutang ay may hugis krus ito na butas sa ilalim at nasa loob
+          nito ang winged light.`,
+        ],
       },
       {
         id: 12,
         wl_label: 'Vault-WL12',
         wl_group: 'wl-vault',
         wl_url: VK_WL12 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 6 | Vault of Knowledge >> Lumipad patungo sa elevating platform. >>
-        Pagdating sa gitna ay may lagusan papasok sa iyong gawing kaliwa. >> Pagkapasok ay
-        may butas sa iyong kaliwa, pumasok ka ulit, hanggang sa lumabas ka sa repository >>
-        Lumipad palabas patungong kanan hanggat may makita kang maliit na ilaw
-        sa iyong kanan. >> Sa labas nito ay nakarehas ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad patungo sa elevating platform.`,
+          `Pagdating sa gitna ay may lagusan papasok sa iyong gawing kaliwa.`,
+          `Pagkapasok ay may butas sa iyong kaliwa, pumasok ka ulit, hanggang sa lumabas ka sa repository`,
+          `Lumipad palabas patungong kanan hanggat may makita kang maliit na ilaw
+        sa iyong kanan at sa labas nito ay nakarehas ang winged light`,
+        ],
       },
     ],
   },

@@ -229,3 +229,11 @@ html {
 .wl-ms-imgs:hover {
   transform: scale(1.5);
 }
+.scrollToTop {
+  background-color: #ffc107 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}

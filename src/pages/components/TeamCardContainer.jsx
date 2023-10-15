@@ -46,7 +46,12 @@ const TeamCardContainer = ({
             href={facebook}
             className="opacity-80 transition-opacity hover:opacity-100"
           >
-            <FontAwesomeIcon icon={faFacebook} size="2x" color="white" />
+            <FontAwesomeIcon
+              icon={faFacebook}
+              size="2x"
+              color="white"
+              cursor="pointer"
+            />
           </Typography>
         </Tooltip>
         {instagram && (
@@ -55,7 +60,12 @@ const TeamCardContainer = ({
               href={instagram}
               className="opacity-80 transition-opacity hover:opacity-100 text-sm"
             >
-              <FontAwesomeIcon icon={faInstagram} size="2x" color="white" />
+              <FontAwesomeIcon
+                icon={faInstagram}
+                size="2x"
+                color="white"
+                cursor="pointer"
+              />
             </Typography>
           </Tooltip>
         )}
@@ -66,7 +76,12 @@ const TeamCardContainer = ({
               href={tiktok}
               className="opacity-80 transition-opacity hover:opacity-100 text-sm"
             >
-              <FontAwesomeIcon icon={faTiktok} size="2x" color="white" />
+              <FontAwesomeIcon
+                icon={faTiktok}
+                size="2x"
+                color="white"
+                cursor="pointer"
+              />
             </Typography>
           </Tooltip>
         )}

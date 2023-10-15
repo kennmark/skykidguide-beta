@@ -15,6 +15,7 @@ import CardContainer from './components/CardContainer'
 import PageHeaderContainer from './components/PageHeaderContainer'
 import { GIF_VAULT, VAULT_ALT } from '../exports/mapGIFs'
 import DifficultyCriteria from './components/DifficultyCriteria'
+import ScrollToTop from 'react-scroll-to-top'
 
 const PageVault = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
@@ -66,16 +67,21 @@ const PageVault = () => {
                 <TabPanel key={index} value={body.value}>
                   <div className="text-gray-100 pb-5">{body.desc}</div>
                   <div className="flex flex-wrap justify-center gap-3">
-                    {body.spirits?.map((spirit, index) => {
-                      return <SpiritCardContainer {...spirit} key={index} />
+                    {body.spirits?.map((spirit) => {
+                      return (
+                        <SpiritCardContainer
+                          {...spirit}
+                          key={spirit.spirit_id}
+                        />
+                      )
                     })}
-                    {body.winged_lights?.map((wingedLight, index) => {
+                    {body.winged_lights?.map((wingedLight) => {
                       return (
                         <CardContainer
                           label={wingedLight.wl_label}
                           location={wingedLight.wl_location}
                           url={wingedLight.wl_url}
-                          key={index}
+                          key={wingedLight.wl_label}
                         />
                       )
                     })}
@@ -85,7 +91,7 @@ const PageVault = () => {
                           label={mapShrine.shrine_label}
                           location={mapShrine.shrine_location}
                           url={mapShrine.shrine_url}
-                          key={index}
+                          key={mapShrine.shrine_label}
                         />
                       )
                     })}
@@ -99,6 +105,7 @@ const PageVault = () => {
           <DifficultyCriteria />
         </div>
       </div>
+      <ScrollToTop smooth className="scrollToTop" />
     </div>
   )
 }
