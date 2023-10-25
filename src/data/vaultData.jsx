@@ -42,6 +42,16 @@ import {
   VK_WL12,
 } from '../exports/vaultWLImgUrl'
 import {
+  VK_MS1,
+  VK_MS2,
+  VK_MS3,
+  VK_MS4,
+  VK_MS5,
+  VK_MS6,
+  VK_MS7,
+  VK_MS8,
+} from '../exports/vaultMSImgUrl'
+import {
   MAP6,
   SEASON1,
   SEASON2,
@@ -479,8 +489,7 @@ export const vault = [
         <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
           {VAULT_NUM_WL}
         </span>{' '}
-        na winged lights ang pwede mong makuha dito sa Daylight Prairie, kasama
-        na ang 4 na nasa trials ng Season Of Prophecy.
+        na winged lights ang pwede mong makuha dito sa Vault of Knowledge
       </Typography>
     ),
     winged_lights: [
@@ -644,16 +653,98 @@ export const vault = [
         <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
           {VAULT_NUM_MAP_SHRINES}
         </span>{' '}
-        na Map Shrines ang pwede mong mabuksan sa loob ng Daylight Prairie.
+        na Map Shrines ang pwede mong mabuksan sa loob ng Vault of Knowledge.
       </Typography>
     ),
     map_shrines: [
       {
         id: 1,
         shrine_label: 'Map Shrine 1',
-        shrine_url: MAP_SHRINE,
-        shrine_location: `Pasok sa Map 2 | Daylight Prairie >> Sa Social Space, lumipad sa kaliwang bahagi at makita mo itong
-          Map Shrine.`,
+        shrine_url: VK_MS1 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad pakanan at buksan ang 2-player door at pumasok ka.`,
+          `Pagkadating sa Archives, sa dakong itaas makita mo ang map shrine.`,
+        ],
+      },
+      {
+        id: 2,
+        shrine_label: 'Map Shrine 2',
+        shrine_url: VK_MS2 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad pakaliwa at pumasok ka sa lagusan patungong Dessert Starlight.`,
+          `Pagkalabas mo ay lumipad sa direksyon ng buwan, at may makita kang garden`,
+          `Sa gawing kanan mo, sa loob ng maze makita ang map shrine.`,
+        ],
+      },
+      {
+        id: 3,
+        shrine_label: 'Map Shrine 3',
+        shrine_url: VK_MS3 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad sa direksyon ng elevated platfrom.`,
+          `Sa dakong likod ng platform ay makita mo ang map shrine dito`,
+        ],
+      },
+      {
+        id: 4,
+        shrine_label: 'Map Shrine 4',
+        shrine_url: VK_MS4 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad sa direksyon ng elevated platfrom.`,
+          `Sa gawing kaliwa ay pumasok sa lagusan pababa papuntang Repository of Refuge`,
+          `Pagkadating ay pumasok pa sa looban at sa gawing kaliwa malapit sa entrance makita mo
+          ang map shrine agad.`,
+        ],
+      },
+      {
+        id: 5,
+        shrine_label: 'Map Shrine 5',
+        shrine_url: VK_MS5 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad gawing kaliwa, at sa likuran at may makitid na lagusan papasok dito.`,
+          `Pagkarating sa entrance ay may portal na makikita (Tandaan: Kinakailangan mo ng Founder's Cape o
+          kasamang may Founder's Cape upang makapasok)`,
+          `Pagmakapasok ay lumipad pa sa looban at may pintuang lagusan, pumasok ka.`,
+          `Sa labas lng ng pintuan ng Office makita mo ang map shrine..`,
+        ],
+      },
+      {
+        id: 6,
+        shrine_label: 'Map Shrine 6',
+        shrine_url: VK_MS6 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad sa direksyon ng elevated platfrom.`,
+          `Umakyat hanggang 3rd floor.`,
+          `Malapit sa isang spirit, may nakalutang na bato at makita mo ang map shrine malapit sa kandila.`,
+        ],
+      },
+      {
+        id: 7,
+        shrine_label: 'Map Shrine 7',
+        shrine_url: VK_MS7 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad sa direksyon ng elevated platfrom.`,
+          `Umakyat hanggang 4rd floor.`,
+          `ang isang isla na malapit sa elevated platform, andito ang map shrine.`,
+        ],
+      },
+      {
+        id: 8,
+        shrine_label: 'Map Shrine 8',
+        shrine_url: VK_MS8 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad sa direksyon ng elevated platfrom.`,
+          `Umakyat hanggang Summit o last floor.`,
+          `Pagkarating ay nasa gawing kanan ng isla ang map shrine.`,
+        ],
       },
     ],
   },

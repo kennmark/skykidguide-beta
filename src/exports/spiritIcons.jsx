@@ -253,8 +253,8 @@ export const LOOKOUT_SCOUT = lookoutScout
 
 export const SALUTING_PROTECTOR = salutingProtector
 export const PLEAFUL_PARENT = pleafulParent
-export const RESPECTFUL_PIANIST = respectfulPianist
 export const CRAB_WHISPERER = crabWhisperer
+export const RESPECTFUL_PIANIST = respectfulPianist
 export const SNOOZING_CARPENTER = snoozingCarpenter
 export const NODDING_MURALIST = noddingMuralist
 export const CRAB_WALKER = crabWalker

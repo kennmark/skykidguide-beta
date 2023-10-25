@@ -23,40 +23,39 @@ const Header = () => {
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Link to="/balita" className="flex items-center">
-        <Typography
-          as="li"
-          variant="small"
-          className="p-1 font-normal uppercase text-white hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg"
-        >
-          Balita
-        </Typography>
+        <div className="font-normal uppercase text-white transition ease-in-out duration-500 hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg">
+          <Typography as="li" variant="small">
+            News
+          </Typography>
+        </div>
+      </Link>
+      <Link to="/seasons" className="flex items-center">
+        <div className="font-normal uppercase text-white transition ease-in-out duration-500 hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg">
+          <Typography as="li" variant="small">
+            Seasons
+          </Typography>
+        </div>
       </Link>
       <Link to="/team" className="flex items-center">
-        <Typography
-          as="li"
-          variant="small"
-          className="p-1 font-normal uppercase text-white hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg"
-        >
-          Team
-        </Typography>
+        <div className="font-normal uppercase text-white transition ease-in-out duration-500 hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg">
+          <Typography as="li" variant="small">
+            Team
+          </Typography>
+        </div>
       </Link>
       <Link to="/events" className="flex items-center">
-        <Typography
-          as="li"
-          variant="small"
-          className="p-1 font-normal uppercase text-white hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg"
-        >
-          Events
-        </Typography>
+        <div className="font-normal uppercase text-white transition ease-in-out duration-500 hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg">
+          <Typography as="li" variant="small">
+            Events
+          </Typography>
+        </div>
       </Link>
       <Link to="/support" className="flex items-center">
-        <Typography
-          as="li"
-          variant="small"
-          className="p-1 font-normal uppercase text-white hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg"
-        >
-          Support
-        </Typography>
+        <div className="font-normal uppercase text-white transition ease-in-out duration-500 hover:text-amber-600 hover:bg-gradient-to-tr hover:from-blue-900 to-purple-900  py-2 px-4 rounded-lg">
+          <Typography as="li" variant="small">
+            Support
+          </Typography>
+        </div>
       </Link>
     </ul>
   )
@@ -68,17 +67,14 @@ const Header = () => {
       fullWidth={true}
     >
       <div className="flex items-center justify-between uppercase">
-        <div className="hover:bg-gradient-to-tl hover:from-blue-900 to-purple-900  py-1 px-3 rounded-3xl">
-          <Link
-            to="/"
-            className="flex items-center text-white hover:text-amber-600"
-          >
+        <Link to="/" className="">
+          <div className="flex items-center text-white transition ease-in-out duration-500 hover:text-amber-600 hover:bg-gradient-to-tl hover:from-blue-900 to-purple-900  py-1 px-3 rounded-3xl">
             <LazyLoadImage src={skykidlogo} style={{ width: 50 }} />
             <Typography className="p-1 text-md font-bold hidden lg:flex">
               Skykid:Tulong & Gabay
             </Typography>
-          </Link>
-        </div>
+          </div>
+        </Link>
 
         <div className="flex items-center  gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>

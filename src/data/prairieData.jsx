@@ -585,8 +585,7 @@ export const prairie = [
         <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
           {PRAIRIE_NUM_WL}
         </span>{' '}
-        na winged lights ang pwede mong makuha dito sa Daylight Prairie, kasama
-        na ang 4 na nasa trials ng Season Of Prophecy.
+        na winged lights ang pwede mong makuha dito sa Daylight Prairie.
       </Typography>
     ),
     winged_lights: [

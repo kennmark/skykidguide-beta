@@ -4,6 +4,8 @@ import blu_avatar from '../assets/images/team/Blu.jpg'
 import bill_avatar from '../assets/images/team/Bill.jpg'
 import xy_avatar from '../assets/images/team/Xy.jpg'
 import banjo_avatar from '../assets/images/team/Banjo.jpg'
+import poi_avatar from '../assets/images/team/Poi.png'
+import yzo_avatar from '../assets/images/team/Yzo.jpg'
 
 export const team = [
   {
@@ -45,6 +47,22 @@ export const team = [
     tiktok: `https://www.tiktok.com/@xyyclstl`,
     title: `Sky Player`,
     avatar_img: xy_avatar,
+  },
+  {
+    fullname: `Poi Pororo`,
+    facebook: `https://www.facebook.com/skyadventures.poipororo`,
+    instagram: ``,
+    tiktok: ``,
+    title: `SkyPH Official • Community & Page Administrator`,
+    avatar_img: poi_avatar,
+  },
+  {
+    fullname: `tsumieee`,
+    facebook: `https://www.facebook.com/sophiayzabelle.tumulak`,
+    instagram: `https://www.instagram.com/soapdumpsterfire/`,
+    tiktok: ``,
+    title: `Artist / Sky Player`,
+    avatar_img: yzo_avatar,
   },
   {
     fullname: `Banjo Javier`,

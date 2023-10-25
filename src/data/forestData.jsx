@@ -80,12 +80,11 @@ export const hiddenForest = [
     value: 'regular_spirits',
     desc: (
       <Typography className="antialiased font-sans">
-        Ito ang pinaka-unang constellation - Isle of Dawn. May{' '}
+        Ito ang pangatlong constellation - Hidden Forest. May{' '}
         <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
           {FOREST_NUM_REG_SPIRIT}
         </span>{' '}
-        regular spirits na makikita mo dito. Andito ang mga spirits ng Pointing
-        Candlemaker, Rejecting Voyager at ang Ushering Stargazer.
+        regular spirits na makikita mo dito.
       </Typography>
     ),
     spirits: [
@@ -256,7 +255,7 @@ export const hiddenForest = [
     desc: (
       <Typography className="antialiased font-sans">
         Nandito ang mga spirits na dumaan noong nakaraang Seasonal Events na
-        makikita mo tuwing papasok ka sa Isle of Dawn. May{' '}
+        makikita mo tuwing papasok ka sa Hidden Forest. May{' '}
         <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
           {FOREST_NUM_SEASON_SPIRIT}
         </span>{' '}
@@ -561,8 +560,7 @@ export const hiddenForest = [
         <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
           {FOREST_NUM_WL}
         </span>{' '}
-        na winged lights ang pwede mong makuha dito sa Isle of Dawn, kasama na
-        ang 4 na nasa trials ng Season Of Prophecy.
+        na winged lights ang pwede mong makuha dito sa Hidden Forest.
       </Typography>
     ),
     winged_lights: [
@@ -827,7 +825,7 @@ export const hiddenForest = [
         <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
           {FOREST_NUM_MAP_SHRINES}
         </span>{' '}
-        na Map Shrines ang pwede mong mabuksan sa loob ng Isle of Dawn.
+        na Map Shrines ang pwede mong mabuksan sa loob ng Hidden Forest.
       </Typography>
     ),
     map_shrines: [

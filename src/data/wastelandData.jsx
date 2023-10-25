@@ -207,7 +207,7 @@ export const wasteland = [
     desc: (
       <Typography className="antialiased font-sans">
         Nandito ang mga spirits na dumaan noong nakaraang Seasonal Events na
-        makikita mo tuwing papasok ka sa Daylight Prairie. May{' '}
+        makikita mo tuwing papasok ka sa Golden Wasteland. May{' '}
         <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
           {WASTELAND_NUM_SEASON_SPIRIT}
         </span>{' '}
@@ -505,8 +505,7 @@ export const wasteland = [
         <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
           {WASTELAND_NUM_WL}
         </span>{' '}
-        na winged lights ang pwede mong makuha dito sa Daylight Prairie, kasama
-        na ang 4 na nasa trials ng Season Of Prophecy.
+        na winged lights ang pwede mong makuha dito
       </Typography>
     ),
     winged_lights: [

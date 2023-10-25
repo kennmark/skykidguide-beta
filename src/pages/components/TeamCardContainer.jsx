@@ -30,7 +30,7 @@ const TeamCardContainer = ({
       className="w-80 bg-gradient-to-t from-blue-900 to-purple-900 m-2"
     >
       <CardHeader floated={false} className="h-72">
-        <LazyLoadImage src={avatar_img} alt="profile-picture" effect="blur" />
+        <LazyLoadImage src={avatar_img} alt="avatar" effect="blur" />
       </CardHeader>
       <CardBody className="text-center">
         <Typography variant="h4" color="white" className="mb-2">

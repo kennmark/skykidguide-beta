@@ -95,10 +95,7 @@ function App() {
                 element={<PageVault />}
               />
               <Route path="/maps/7/eye-of-eden" element={<PageEden />} />
-              <Route
-                path="/seasons/2023/season-18/moments"
-                element={<PageSeasonMap />}
-              />
+              <Route path="/seasons" element={<PageSeasonMap />} />
               <Route path="/balita" element={<News />} />
               <Route path="/team" element={<Team />} />
               <Route path="/events" element={<Events />} />

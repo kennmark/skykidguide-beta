@@ -25,11 +25,7 @@ export const eden = [
     value: 'regular_spirits',
     desc: (
       <Typography className="antialiased font-sans">
-        May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
-          {EDEN_NUM_REG_SPIRIT}
-        </span>{' '}
-        regular spirits na makikita mo dito.
+        Walang Regular Spirit dito.
       </Typography>
     ),
     spirits: [],
@@ -39,11 +35,7 @@ export const eden = [
     value: 'seasonal_spirits',
     desc: (
       <Typography className="antialiased font-sans">
-        May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
-          {EDEN_NUM_SEASON_SPIRIT}
-        </span>{' '}
-        season spirits.
+        Walang Seasonal Spirit dito.
       </Typography>
     ),
     spirits: [],
@@ -58,8 +50,7 @@ export const eden = [
         <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
           {EDEN_NUM_WL}
         </span>{' '}
-        na winged lights ang pwede mong makuha dito sa Daylight Prairie, kasama
-        na ang 4 na nasa trials ng Season Of Prophecy.
+        na winged lights ang pwede mong makuha dito.
       </Typography>
     ),
     winged_lights: [
