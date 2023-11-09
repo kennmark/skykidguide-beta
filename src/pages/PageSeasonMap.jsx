@@ -124,8 +124,8 @@ const PageSeasonMap = () => {
           </Carousel>
           {/* Seasons 2023 */}
           <div className="pt-5 w-full px-5">
-            <div className="flex">
-              <Alert className="text-xl bg-blue-900/50">
+            <div className="">
+              <Alert className="flex justify-center text-xl bg-blue-900/50">
                 Seasons 2023 - [Remembrance, Passage, Moments, Revival]
               </Alert>
             </div>
@@ -139,8 +139,8 @@ const PageSeasonMap = () => {
           {/* Seasons 2023 */}
           {/* Seasons 2022 */}
           <div className="pt-5 w-full px-5">
-            <div className="flex">
-              <Alert className="text-xl bg-blue-900/50">
+            <div>
+              <Alert className="flex justify-center text-xl bg-blue-900/50">
                 Seasons 2022 - [Abyss, Performance, Shattering, AURORA]
               </Alert>
             </div>
@@ -154,13 +154,13 @@ const PageSeasonMap = () => {
           {/* Seasons 2022 */}
           {/* Seasons 2021 */}
           <div className="pt-5 w-full px-5">
-            <div className="flex">
-              <Alert className="text-xl bg-blue-900/50">
+            <div>
+              <Alert className="flex justify-center text-xl bg-blue-900/50">
                 Seasons 2021 - [Dreams, Assembly, The Little Prince, Flight]
               </Alert>
             </div>
 
-            <div className="flex flex-wrap  justify-center gap-4 py-5">
+            <div className="flex flex-wrap justify-center gap-4 py-5">
               {seasons2021.map((season) => {
                 return <SeasonDisplayContainer {...season} key={season.id} />
               })}
@@ -169,13 +169,13 @@ const PageSeasonMap = () => {
           {/* Seasons 2021 */}
           {/* Seasons 2020 */}
           <div className="pt-5 w-full px-5">
-            <div className="flex">
-              <Alert className="text-xl bg-blue-900/50">
+            <div>
+              <Alert className="flex justify-center text-xl bg-blue-900/50">
                 Seasons 2020 - [Rythm, Enchantment, Sanctuary, Prophecy]
               </Alert>
             </div>
 
-            <div className="flex flex-wrap  justify-center gap-4 py-5">
+            <div className="flex flex-wrap justify-center gap-4 py-5">
               {seasons2020.map((season) => {
                 return <SeasonDisplayContainer {...season} key={season.id} />
               })}
@@ -184,13 +184,13 @@ const PageSeasonMap = () => {
           {/* Seasons 2020 */}
           {/* Seasons 2019 */}
           <div className="pt-5 w-full px-5">
-            <div className="flex">
-              <Alert className="text-xl bg-blue-900/50">
+            <div>
+              <Alert className="flex justify-center text-xl bg-blue-900/50">
                 Seasons 2019 - [Gratitude, Lightseekers, Belonging]
               </Alert>
             </div>
 
-            <div className="flex flex-wrap  justify-center gap-4 py-5">
+            <div className="flex flex-wrap justify-center gap-4 py-5">
               {seasons2019.map((season) => {
                 return <SeasonDisplayContainer {...season} key={season.id} />
               })}

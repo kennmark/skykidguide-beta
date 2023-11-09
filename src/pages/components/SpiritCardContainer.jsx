@@ -38,6 +38,8 @@ const SpiritCardContainer = ({
   const videoUrl = spirit_guide_video_url ?? ''
   const constellationIconUrl = constellation_icon_route ?? ''
   const spiritDirection = spirit_direction ?? ''
+  const spiritCategory = spirit_category ?? ''
+  const spiritReliveType = spirit_relive_type ?? ''
 
   return (
     <Card
@@ -83,7 +85,7 @@ const SpiritCardContainer = ({
             }}
           >
             <Chip
-              value={spirit_category}
+              value={spiritCategory}
               className="rounded-full text-gray-200 bg-blue-900/80"
             />
           </Tooltip>
@@ -96,7 +98,7 @@ const SpiritCardContainer = ({
           >
             <Chip
               color="indigo"
-              value={spirit_relive_type}
+              value={spiritReliveType}
               className="rounded-full text-gray-200  bg-blue-900/80"
             />
           </Tooltip>

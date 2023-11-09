@@ -10,11 +10,11 @@ import {
 import { XMarkIcon } from '@heroicons/react/24/outline'
 
 export function TextGuideModal({ label, handleOpen, open, direction = [] }) {
-  const step1 = direction[0]
-  const step2 = direction[1]
-  const step3 = direction[2]
-  const step4 = direction[3]
-  const step5 = direction[4]
+  const step1 = direction[0] ?? ''
+  const step2 = direction[1] ?? ''
+  const step3 = direction[2] ?? ''
+  const step4 = direction[3] ?? ''
+  const step5 = direction[4] ?? ''
 
   return (
     <>

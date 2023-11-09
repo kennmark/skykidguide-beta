@@ -105,6 +105,52 @@ import {
   TIPTOEING_TEABREWER,
   WOUNDED_SOLDIER,
 } from '../exports/spiritIcons'
+import {
+  GW_WL15,
+  GW_WL16,
+  GW_WL17,
+  GW_WL18,
+} from '../exports/wastelandWLImgUrl'
+import {
+  PR_WL17,
+  PR_WL18,
+  PR_WL19,
+  PR_WL20,
+  PR_WL21,
+  PR_WL22,
+  PR_WL23,
+  PR_WL24,
+  PR_WL14,
+  PR_WL15,
+  PR_WL16,
+} from '../exports/prairieWLImgUrl'
+import { ID_WL6, ID_WL7, ID_WL8, ID_WL9 } from '../exports/isleWLImgUrl'
+import {
+  VT_WL12,
+  VT_WL13,
+  VT_WL15,
+  VT_WL16,
+  VT_WL17,
+  VT_WL14,
+} from '../exports/valleyWLImgUrl'
+import { VT_MS7, VT_MS8, VT_MS9, VT_MS10 } from '../exports/valleyMSImgUrl'
+import { HF_WL17, HF_WL18, HF_WL19 } from '../exports/forestImgWLUrl'
+import { VK_WL9, VK_WL10, VK_WL11, VK_WL12 } from '../exports/vaultWLImgUrl'
+import { VK_MS2, VK_MS4 } from '../exports/vaultMSImgUrl'
+import { GW_MS7, GW_MS8 } from '../exports/wastelandMSImgUrl'
+import { DP_MS7, DP_MS9 } from '../exports/prairieMSImgUrl'
+import { HF_MS9, HF_MS10 } from '../exports/forestMSImgUrl'
+import {
+  ID_MS5,
+  ID_MS6,
+  ID_MS7,
+  ID_MS8,
+  ID_MS9,
+  ID_MS2,
+} from '../exports/isleMSImgUrl'
+import { NON_SPIRIT, MAP_SHRINE, WINGED_LIGHT } from '../exports/defaultImages'
+
+const youtube_embed = 'https://www.youtube.com/embed/'
 
 export const seasons2019 = [
   {
@@ -112,40 +158,105 @@ export const seasons2019 = [
     name: 'Season of Gratitude',
     time_duration: 'July 19 - September 2, 2019',
     spirit_num: 6,
+    map_shrine: 0,
+    wl_num: 0,
     icon_route: SEASON1,
     page_route: 'seasons/2019/season-1/gratitude',
     quick_info: `Ito ang unang season na ginanap. Ang mga
-    Spirits ay magkakahiwalay at makikita sa 6 na mapa.`,
+        Spirits ay magkakahiwalay at makikita sa 6 na mapa.`,
+
     season_spirits: [
       {
         spirit_id: 'gratitude-spirit-1',
         spirit_name: 'Sassy Drifter',
-        spirit_img: SASSY_DRIFTER,
+        spirit_img_url: SASSY_DRIFTER,
+        spirit_category: 'stance',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 20,
+        difficulty_types: [1, 4],
+        spirit_guide_video_url: youtube_embed + 'ZX1k1hbb_sw',
+        spirit_direction: [
+          'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
+          'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
+          'Lumipad ka gawing kanan.',
+          'At malapit sa pader kung saan may mga ulap sa buhangin makikita ang spirit.',
+        ],
       },
       {
         spirit_id: 'gratitude-spirit-2',
         spirit_name: 'Stretching Guru',
-        spirit_img: STRETCHING_GURU,
+        spirit_img_url: STRETCHING_GURU,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 40,
+        difficulty_types: [1, 4, 6],
+        spirit_guide_video_url: youtube_embed + '_Atgn5k2kBY',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
+          `Makita mo ang Prairie Caves, sa entrance ng kweba, pasok ka lang ng onti, at sa gawing kaliwa mo makita
+        ang spirit na ito.`,
+        ],
       },
       {
         spirit_id: 'gratitude-spirit-3',
         spirit_name: 'Provoking Performer',
-        spirit_img: PROVOKING_PERFORMER,
+        spirit_img_url: PROVOKING_PERFORMER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 20,
+        difficulty_types: [1, 4],
+        spirit_guide_video_url: youtube_embed + 'Plpl2MGoZYo',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, lumipad ka patungo bago sa batong tulay.',
+          'At sa iyong kaliwa ay nasa bunganga ng tunnel ang spirit na ito.',
+        ],
       },
       {
         spirit_id: 'gratitude-spirit-4',
         spirit_name: 'Leaping Dancer',
-        spirit_img: LEAPING_DANCER,
+        spirit_img_url: LEAPING_DANCER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'collect-memory',
+        difficulty_level: 40,
+        difficulty_types: [2, 3, 7],
+        spirit_guide_video_url: youtube_embed + 'VTh2Qi8BQOM',
+        spirit_direction: [
+          `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
+          `Sa kanang banda pababa, ay may 2-Player door, nasa loob nito ang spirit.`,
+        ],
       },
       {
         spirit_id: 'gratitude-spirit-5',
         spirit_name: 'Saluting Protector',
-        spirit_img: SALUTING_PROTECTOR,
+        spirit_img_url: SALUTING_PROTECTOR,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 90,
+        difficulty_types: [1, 4, 6, 9],
+        spirit_guide_video_url: youtube_embed + '7mYtsn5_ff4',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
+          `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
+          `Sa 1-Krill Area, pagkalagpas sa sirang tore sa kaliwa, ay makita mo ang spirit nasa silong sa unahan.`,
+        ],
       },
       {
         spirit_id: 'gratitude-spirit-6',
         spirit_name: 'Greeting Shaman',
-        spirit_img: GREETING_SHAMAN,
+        spirit_img_url: GREETING_SHAMAN,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 30,
+        difficulty_types: [0, 2, 5],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform.`,
+          `Umakyat hanggang 4th floor,Pagkadating sa 4th Floor, lumipad patungo sa constellation ng Hidden Forest`,
+          `At dumako sa dulo ng mga gumagalaw na platform.`,
+        ],
       },
     ],
   },
@@ -154,6 +265,7 @@ export const seasons2019 = [
     name: 'Season of Lightseekers',
     time_duration: 'September 3 - November 10, 2019',
     spirit_num: 6,
+    map_shrine: 0,
     icon_route: SEASON2,
     page_route: 'seasons/2019/season-2/lightseekers',
     quick_info: `Ito ang season na sumunod sa Season of
@@ -163,32 +275,95 @@ export const seasons2019 = [
       {
         spirit_id: 'lightseeker-spirit-1',
         spirit_name: 'Piggyback Lightseeker',
-        spirit_img: PIGGYBACK_LIGHTSEEKER,
+        spirit_img_url: PIGGYBACK_LIGHTSEEKER,
+        spirit_category: 'friendship-action',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 20,
+        difficulty_types: [1, 4],
+        spirit_guide_video_url: youtube_embed + 'tY2JmP_skv0',
+        spirit_direction: [
+          'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
+          'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
+          'Lumipad ka gawing kaliwa.',
+          'Pagkalagpas mo sa isang maliit na bukid na buhangin, may kweba kang makikita.',
+        ],
       },
       {
         spirit_id: 'lightseeker-spirit-2',
         spirit_name: 'Doublefive Light Catcher',
-        spirit_img: DOUBLE_FIVE_LIGHT_CATCHER,
+        spirit_img_url: DOUBLE_FIVE_LIGHT_CATCHER,
+        spirit_category: 'friendship action',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 50,
+        difficulty_types: [1, 2, 4, 6],
+        spirit_guide_video_url: youtube_embed + 'nQUnUlwujMc',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka.`,
+          `Pagdating sa Bird's Nest, Lumipad ka gawing kaliwa, at sa likod ng sirang tore, dakong dulo ng isla ay makikita mo itong spirit.`,
+        ],
       },
       {
         spirit_id: 'lightseeker-spirit-3',
         spirit_name: 'Laidback Pioneer',
-        spirit_img: LAIDBACK_PIONEER,
+        spirit_img_url: LAIDBACK_PIONEER,
+        spirit_category: 'stance',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 20,
+        difficulty_types: [1, 4],
+        spirit_guide_video_url: youtube_embed + 'rlMGDjpznZo',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, lumipad ka patungo bago sa batong tulay.',
+          'At gawing kanan sa itaas, sa silong ng puno ay makita mo ang spirit na ito.',
+        ],
       },
       {
         spirit_id: 'lightseeker-spirit-4',
         spirit_name: 'Twirling Champion',
-        spirit_img: TWIRLING_CHAMPION,
+        spirit_img_url: TWIRLING_CHAMPION,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 2],
+        spirit_guide_video_url: youtube_embed + 'crKnfLTGvvM',
+        spirit_direction: [
+          `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
+          `Sa kaliwang banda ay makita mo ang spirit na ito.`,
+        ],
       },
       {
         spirit_id: 'lightseeker-spirit-5',
         spirit_name: 'Crab Whisperer',
-        spirit_img: CRAB_WHISPERER,
+        spirit_img_url: CRAB_WHISPERER,
+        spirit_category: 'call',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 120,
+        difficulty_types: [1, 4, 5, 6, 9, 13],
+        spirit_guide_video_url: youtube_embed + '5iqo_BiP1j0',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
+          `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
+          `Tawirin ang isang krill na lugar, pagkalagpas ay may lagusan sa bandang kanan.`,
+          `Pagkalabas, sa bandang ibaba na tunnel, sa loob nito ang spirit.`,
+        ],
       },
       {
         spirit_id: 'lightseeker-spirit-6',
         spirit_name: 'Shushing Light Scholar',
-        spirit_img: SHUSHING_LIGHTSCHOLAR,
+        spirit_img_url: SHUSHING_LIGHTSCHOLAR,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 55,
+        difficulty_types: [1, 4, 5, 6],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform.`,
+          `Umakyat hanggang 4th floor,Pagkadating sa 4th Floor, lumipad patungo sa 
+          spiral na platform, bandang constellation ng Isle of Dawn`,
+          `At sa unang malaking platform`,
+        ],
       },
     ],
   },
@@ -197,6 +372,7 @@ export const seasons2019 = [
     name: 'Season of Belonging',
     time_duration: 'November 18, 2019 - January 12, 2020',
     spirit_num: 6,
+    map_shrine: 0,
     icon_route: SEASON3,
     page_route: 'seasons/2019/season-3/belonging',
     quick_info: `A family of six Spirits will make 
@@ -207,32 +383,93 @@ export const seasons2019 = [
       {
         spirit_id: 'belonging-spirit-1',
         spirit_name: 'Boogie Kid',
-        spirit_img: BOOGIE_KID,
+        spirit_img_url: BOOGIE_KID,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 40,
+        difficulty_types: [0, 2, 3, 5],
+        spirit_guide_video_url: youtube_embed + 'X2FUMSK0ZLs',
+        spirit_direction: [
+          'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
+          'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
+          'Lumipad ka patungong templo.',
+          'Sa Kanan may makita kang daanan na ulap, pumasok ka at makita mo sa pintuan ang spirit.',
+        ],
       },
       {
         spirit_id: 'belonging-spirit-2',
         spirit_name: 'Confetti Cousin',
-        spirit_img: CONFETTI_COUSIN,
+        spirit_img_url: CONFETTI_COUSIN,
+        spirit_category: 'emote',
+        spirit_relive_type: 'collect-memory',
+        difficulty_level: 65,
+        difficulty_types: [2, 5, 6, 7],
+        spirit_guide_video_url: youtube_embed + 'bBjri4XwR2c',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  may makikita kang parang hugis globe na bukid at sa tuktok nito ay makikita mo
+        ang spirit.`,
+        ],
       },
       {
         spirit_id: 'belonging-spirit-3',
         spirit_name: 'Hairtousle Teen',
-        spirit_img: HAIRTOUSLE_TEEN,
+        spirit_img_url: HAIRTOUSLE_TEEN,
+        spirit_category: 'friendship-action',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 75,
+        difficulty_types: [0, 1, 2, 3, 5, 6],
+        spirit_guide_video_url: youtube_embed + '6TlBquksQa0',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, pumasok ng onti, sa kanan ay may lagusan at pumasok ka, sa Sunny Forest lumipad ka patungo sa sirang tulay.',
+          'At gawing kaliwa, sa ilalim ng puno ay may butas at kailangan mo ng kasama gumawa ng pouty emote, pagkababa ay lumipad hanggang dulo at nasa kanan ang spirit na ito',
+        ],
       },
       {
         spirit_id: 'belonging-spirit-4',
         spirit_name: 'Sparkler Parent',
-        spirit_img: SPARKLE_PARENT,
+        spirit_img_url: SPARKLE_PARENT,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 65,
+        difficulty_types: [1, 2, 4, 5, 6],
+        spirit_guide_video_url: youtube_embed + 'rUjIYqEcG7M',
+        spirit_direction: [
+          `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
+          `Pumasok ka sa Skating Race sa iyong harapan na lagusan.`,
+          `Pagdating sa Coliseum, Pasok sa templo at sa kaliwang banda ay may lagusan kung nasaan ang spirit.`,
+        ],
       },
       {
         spirit_id: 'belonging-spirit-5',
         spirit_name: 'Sparkler Parent',
-        spirit_img: PLEAFUL_PARENT,
+        spirit_img_url: PLEAFUL_PARENT,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 150,
+        difficulty_types: [1, 4, 5, 6, 9, 10, 13],
+        spirit_guide_video_url: youtube_embed + 'GjUfabmBwvE',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
+          `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
+          `Pagkalagpas sa 1-Krill Area, mag-skate pababa at lumipad gawing kanan, sa bonefire makita ang spirit.`,
+        ],
       },
       {
         spirit_id: 'belonging-spirit-6',
         spirit_name: 'Wise Grandparent',
-        spirit_img: WISE_GRANDPARENT,
+        spirit_img_url: WISE_GRANDPARENT,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 60,
+        difficulty_types: [0, 2, 3, 5, 6],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad sa gawing kanan sa 2-Player Door.`,
+          `Pasok papuntang Archives, at nasa gitna ng platform ang spirit na ito`,
+        ],
       },
     ],
   },
@@ -244,43 +481,106 @@ export const seasons2020 = [
     name: 'Season of Rhythm',
     time_duration: 'January 24 - April 5, 2020',
     spirit_num: 6,
+    map_shrine: 0,
     icon_route: SEASON4,
-    page_route: 'seasons/2020/season-4/rythm',
+    page_route: 'seasons/2020/season-4/rhythm',
     quick_info: `This winter-themed season follows 
     a troupe of traveling performers who have been 
     scattered across the kingdoms of Sky and need 
-    your help to get the show started. Which of the 
-    spirits will you befriend first?`,
+    your help to get the show started.`,
     season_spirits: [
       {
-        spirit_id: 'rythm-spirit-1',
+        spirit_id: 'rhythm-spirit-1',
         spirit_name: 'Troupe Greeter',
-        spirit_img: TROUPE_GREETER,
+        spirit_img_url: TROUPE_GREETER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 40,
+        difficulty_types: [0, 1, 2, 5],
+        spirit_guide_video_url: youtube_embed + 'J35XuoEkp5w',
+        spirit_direction: [
+          'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
+          'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
+          'Lumipad ka gawing kanan.',
+          'Makikita mo ang Passage Stone na malaking bato kang makikita at sa bandang likod nito ay ang spirit.',
+        ],
       },
       {
-        spirit_id: 'rythm-spirit-2',
+        spirit_id: 'rhythm-spirit-2',
         spirit_name: 'Festival Spin Dancer',
-        spirit_img: FESTIVAL_SPIN_DANCER,
+        spirit_img_url: FESTIVAL_SPIN_DANCER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 2],
+        spirit_guide_video_url: youtube_embed + 'eTI_5rJNQqg',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest sa iyong kinatatayuan tumalon kalang pababa at pagkalapag mo ay makita mo ang spirit sa
+        ilalim nito.`,
+        ],
       },
       {
-        spirit_id: 'rythm-spirit-3',
+        spirit_id: 'rhythm-spirit-3',
         spirit_name: 'Admiring Actor',
-        spirit_img: ADMIRING_ACTOR,
+        spirit_img_url: ADMIRING_ACTOR,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 20,
+        difficulty_types: [1, 4],
+        spirit_guide_video_url: youtube_embed + 'FpCci6gc0Kg',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, lumipad ka patungo sa batong tulay at pumasok sa lagusan sa dulo.',
+          'Paglabas mo lumipad patungo sa mga sirang tulay, sa ilalim ng pangalawang waiting shed ay makita ang spirit na ito.',
+        ],
       },
       {
-        spirit_id: 'rythm-spirit-4',
+        spirit_id: 'rhythm-spirit-4',
         spirit_name: 'Troupe Juggler',
-        spirit_img: TROUPE_JUGGLER,
+        spirit_img_url: TROUPE_JUGGLER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'Z7NwT-3zZVs',
+        spirit_direction: [
+          `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
+          `Pumasok ka sa tunnel na nasa kaliwang banda ng Ice Rink, sa looban makita mo ang spirit na ito.`,
+        ],
       },
       {
-        spirit_id: 'rythm-spirit-5',
+        spirit_id: 'rhythm-spirit-5',
         spirit_name: 'Respectful Pianist',
-        spirit_img: RESPECTFUL_PIANIST,
+        spirit_img_url: RESPECTFUL_PIANIST,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 105,
+        difficulty_types: [1, 4, 5, 6, 9],
+        spirit_guide_video_url: youtube_embed + 'A5rrM_cZWI0',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
+          `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
+          `Tawirin ang 1-krill area at pagdating sa boneyard, lumipad sa dakong kanan.`,
+          `Malapit sa may hagdanan, a isang bato makikita ang spirit na ito.`,
+        ],
       },
       {
-        spirit_id: 'rythm-spirit-6',
+        spirit_id: 'rhythm-spirit-6',
         spirit_name: 'Thoughtful Director',
-        spirit_img: THOUGHTFUL_DIRECTOR,
+        spirit_img_url: THOUGHTFUL_DIRECTOR,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 45,
+        difficulty_types: [1, 5, 6],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform.`,
+          `May 4-player door sa gawing kanan, gawin ang meditating emote.`,
+          `Pagkabukas ay nasa gawing kanan ng entrance ang spirit na ito.`,
+        ],
       },
     ],
   },
@@ -290,42 +590,138 @@ export const seasons2020 = [
     time_duration: 'April 20 - June 21, 2020',
     spirit_num: 6,
     wl_num: 2,
+    map_shrine: 1,
     icon_route: SEASON5,
     page_route: 'seasons/2020/season-5/enchantment',
-    quick_info: `Our newest Season follows the story 
-    of a group of mysterious Spirits helpless in a desolate 
-    land, who have crashed in Golden Wasteland and need your 
-    help. Which Spirit will you befriend first?`,
+    quick_info: `A group of Spirits started their voyage towards prosperity. Take the boat and set sail. Follow their path, a new land awaits…`,
     season_spirits: [
       {
         spirit_id: 'enchantment-spirit-1',
         spirit_name: 'Snoozing Carpenter',
-        spirit_img: SNOOZING_CARPENTER,
+        spirit_img_url: SNOOZING_CARPENTER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 40,
+        difficulty_types: [1, 4, 6],
+        spirit_guide_video_url: youtube_embed + '3ap3tbxOdFM',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
+          `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
+          `Pagdating sa Forgotten Ark, nasa gilid ng barko ang spirit na ito.`,
+        ],
       },
       {
         spirit_id: 'enchantment-spirit-2',
         spirit_name: 'Nodding Muralist',
-        spirit_img: NODDING_MURALIST,
+        spirit_img_url: NODDING_MURALIST,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 40,
+        difficulty_types: [1, 7, 13],
+        spirit_guide_video_url: youtube_embed + 'PLP7r3UoIwo',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
+          `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
+          `Pagdating sa Forgotten Ark, nasa kabilang gilid ng barko ang spirit na ito.`,
+        ],
       },
       {
         spirit_id: 'enchantment-spirit-3',
         spirit_name: 'Crab Walker',
-        spirit_img: CRAB_WALKER,
+        spirit_img_url: CRAB_WALKER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'collect-memory',
+        difficulty_level: 40,
+        difficulty_types: [1, 4, 6],
+        spirit_guide_video_url: youtube_embed + 'xhrGhAAAPXc',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
+          `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
+          `Pagdating sa Forgotten Ark, lumipad patungo sa kanan na tunnel at pumasok ka.`,
+        ],
       },
       {
         spirit_id: 'enchantment-spirit-4',
         spirit_name: 'Playfighting Herbalist',
-        spirit_img: PLAYFIGHTING_HERBALIST,
+        spirit_img_url: PLAYFIGHTING_HERBALIST,
+        spirit_category: 'friendship action',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 45,
+        difficulty_types: [1, 6, 13],
+        spirit_guide_video_url: youtube_embed + '2C7nqLsQKDU',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
+          `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
+          `Pagdating sa Forgotten Ark, sa pangalawang barko makita dito ang spirit.`,
+        ],
       },
       {
         spirit_id: 'enchantment-spirit-5',
         spirit_name: 'Scarecrow Farmer',
-        spirit_img: SCARECROW_FARMER,
+        spirit_img_url: SCARECROW_FARMER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 20,
+        difficulty_types: [1, 4],
+        spirit_guide_video_url: youtube_embed + 'il37sBlojXU',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
+          `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
+          `Pagdating sa Forgotten Ark, sa dakong likod may malaking kapatagan makikita ang spirit na ito.`,
+        ],
       },
       {
         spirit_id: 'enchantment-spirit-6',
         spirit_name: 'Indifferent Alchemist',
-        spirit_img: INDIFFERENT_ALCHEMIST,
+        spirit_img_url: INDIFFERENT_ALCHEMIST,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 35,
+        difficulty_types: [1, 4, 13],
+        spirit_guide_video_url: youtube_embed + 'XpMexGi-YO4',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
+          `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
+          `Pagdating sa Forgotten Ark, sa dakong likod sa tuktok ng bukid makikita ang spirit na ito.`,
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 'seasonal_wl_1',
+        wl_label: 'Wasteland-WL15',
+        wl_group: 'wl-wasteland',
+        wl_url: GW_WL15 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          `Pagkalapag, lumipad gawing kanan patungo sa bangka, at umupo ka.`,
+          `Pagdating sa Forgotten Ark, lumipad hanggang makita ang Ark at sa unahan ang winged light na ito.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_2',
+        wl_label: 'Wasteland-WL16',
+        wl_group: 'wl-wasteland',
+        wl_url: GW_WL16 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland at Lumipad sa mga kaulapan pababa,`,
+          `Pagkalapag, lumipad gawing kanan patungo sa bangka, at umupo ka.`,
+          `Lumipad patungo sa dakong dulo na kapatagan at may lagusan na maliit sa bandang kaliwa,
+        at pumasok ka at sa loob nito ang winged light.`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 'seasonal_ms_1',
+        shrine_label: 'Map Shrine 8',
+        shrine_url: GW_MS8 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 5 | Golden Wasteland, magtungo sa dulo ng lagusan at tumalon.`,
+          `Pagkalapag, ay lumipad ka gawing kanan at hanapin ang bangka sa dalampasigan at sumakay dito`,
+          `Pagkarating sa Forgotten Ark, ay lumipad patungo sa malaking barko at nasa loob nito sa gitna
+          ang map shrine.`,
+        ],
       },
     ],
   },
@@ -335,43 +731,234 @@ export const seasons2020 = [
     time_duration: 'July 13 - September 21, 2020',
     spirit_num: 6,
     wl_num: 8,
+    ms_num: 1,
     icon_route: SEASON6,
     page_route: 'seasons/2020/season-6/sanctuary',
-    quick_info: `Spirits are seeking an island retreat 
-    in Daylight Prairie. Join them for some relaxation 
-    and sightseeing. This special Season looks to bring 
-    a retreat-like experience for everyone playing and 
-    staying safe at home.`,
+    quick_info: `Spirits are seeking an island retreat in Daylight Prairie. Join them for some relaxation and sightseeing. This special Season looks to bring a retreat-like experience for everyone playing and staying safe at home. Meet the new Spirits, learn about their backstories, and unlock the fun summer-inspired Collectibles along the way!`,
     season_spirits: [
       {
         spirit_id: 'sanctuary-spirit-1',
         spirit_name: 'Timid Bookworm',
-        spirit_img: TIMID_BOOKWORM,
+        spirit_img_url: TIMID_BOOKWORM,
+        spirit_category: 'stance',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 35,
+        difficulty_types: [0, 2, 6],
+        spirit_guide_video_url: youtube_embed + 'GTnvyuwFNE0',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
+          `Pagdating mo sa Sanctuary Islands, lumipad ka papunta sa unang nakalutang na isla sa harap mo, makikita ang spirit na ito
+        sa likod ng nakalutang na isla, nakasampa sa gild.`,
+        ],
       },
       {
         spirit_id: 'sanctuary-spirit-2',
         spirit_name: 'Chill Sunbather',
-        spirit_img: CHILL_SUNBATHER,
+        spirit_img_url: CHILL_SUNBATHER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 55,
+        difficulty_types: [1, 4, 5, 6],
+        spirit_guide_video_url: youtube_embed + '197tor-WWVo',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
+          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, at may makikita ka kaagad na spirit na nasa
+        labas ng maliit na lagusan.`,
+        ],
       },
       {
         spirit_id: 'sanctuary-spirit-3',
         spirit_name: 'Grateful Shell Collector',
-        spirit_img: GRATEFUL_SHELL_COLLECTOR,
+        spirit_img_url: GRATEFUL_SHELL_COLLECTOR,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 30,
+        difficulty_types: [0, 2, 5],
+        spirit_guide_video_url: youtube_embed + 'fMZdaF0WRC8',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
+          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, nasa gilid bunganga ng entrance ng malaking kweba.`,
+        ],
       },
       {
         spirit_id: 'sanctuary-spirit-4',
         spirit_name: 'Hiking Grouch',
-        spirit_img: HIKING_GROUCH,
+        spirit_img_url: HIKING_GROUCH,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 95,
+        difficulty_types: [1, 2, 4, 5, 6, 10],
+        spirit_guide_video_url: youtube_embed + 'fILkeV1zji4',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
+          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, nasa elevated na lugar, dakong kanan ng bundok.`,
+        ],
       },
       {
         spirit_id: 'sanctuary-spirit-5',
         spirit_name: 'Rallying Thrillseeker',
-        spirit_img: RALLYING_THRILLSEEKER,
+        spirit_img_url: RALLYING_THRILLSEEKER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'collect-memory',
+        difficulty_level: 65,
+        difficulty_types: [2, 5, 6, 7],
+        spirit_guide_video_url: youtube_embed + 'vqDrzq5MZ9k',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
+          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, makikita mo itong spirit katabi sa nag-iisang 
+        geyser unahan ng waterfalls.`,
+        ],
       },
       {
         spirit_id: 'sanctuary-spirit-6',
         spirit_name: 'Jelly Whisperer',
-        spirit_img: JELLY_WHISPERER,
+        spirit_img_url: JELLY_WHISPERER,
+        spirit_category: 'sound-call',
+        spirit_relive_type: 'collect-memory',
+        difficulty_level: 30,
+        difficulty_types: [2, 7],
+        spirit_guide_video_url: youtube_embed + 'svKLM5uXQpg',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
+          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, at sa likod ng malaking isla may malaking
+        kweba na may mga jellyfish, nasa looban ang spirit dito.`,
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 'seasonal_wl_1',
+        wl_label: 'Prairie-WL17',
+        wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
+        wl_url: PR_WL17 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, makita mo ito agad sa malaking islang nakalutang.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_2',
+        wl_label: 'Prairie-WL18',
+        wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
+        wl_url: PR_WL18 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, sa tuktok ng malaking isla ay may maliit na lagusan.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_3',
+        wl_label: 'Prairie-WL19',
+        wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
+        wl_url: PR_WL19 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, sa dakong kanan, makita ang tatlong maliliit na nakalutang na isla. Nasa kanan na isla.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_4',
+        wl_label: 'Prairie-WL20',
+        wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
+        wl_url: PR_WL20 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, sa bandang likuran ay may mga kampana at sa bandang ibaba ay nakapwesto ang winged light na ito.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_5',
+        wl_label: 'Prairie-WL21',
+        wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
+        wl_url: PR_WL21 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, sa likod ng malaking isla makikita ang jellyfish cave.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_5',
+        wl_label: 'Prairie-WL22',
+        wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
+        wl_url: PR_WL22 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, lumipad pababa at makita ang malaking bunganga ng kweba nasa likod ng waterfall ito.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_6',
+        wl_label: 'Prairie-WL23',
+        wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
+        wl_url: PR_WL23 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, lumipad pababa
+          at makita ang malaking bunganga ng kweba pumasok at sa kaliwa ay may lagusan`,
+          `Lumipad pataas at ito ay iyong makikita.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_7',
+        wl_label: 'Prairie-WL24',
+        wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-6',
+        wl_url: PR_WL24 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, lumipad pababa
+        at makita ang malaking bunganga ng kweba pumasok at sa kanan ay may lagusan`,
+          `Pumasok ka sa Crabs Area, lumipad pataas at may lagusan papasok, dito ang winged light.`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 'seasonal_ms_1',
+        shrine_label: 'Map Shrine 9',
+        shrine_url: DP_MS9 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakanan at pumasok sa lagusan`,
+          `Paglabas sa Bird's Nest, lumipad pababa hanggang sa lagusan na ulap.`,
+          `Paglabas sa Sanctuary Islands, lumipad pababa patungo sa mga Bells, at malapit sa Quest Giver ng Sanctuary
+          ay makita mo ang map shrine.`,
+        ],
       },
     ],
   },
@@ -381,6 +968,7 @@ export const seasons2020 = [
     time_duration: 'October 5 - December 13, 2020',
     spirit_num: 4,
     wl_num: 4,
+    ms_num: 5,
     icon_route: SEASON7,
     page_route: 'seasons/2020/season-7/prophecy',
     quick_info: `The Season of Prophecy will take 
@@ -392,22 +980,173 @@ export const seasons2020 = [
       {
         spirit_id: 'prophecy-spirit-1',
         spirit_name: 'Prophet of Water',
-        spirit_img: PROPHET_OF_WATER,
+        spirit_img_url: PROPHET_OF_WATER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + '6t-gksA_AjE',
+        spirit_direction: [
+          'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
+          'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
+          'Lumipad ka gawing kanan, may makitang kang ulap na kweba, pumasok ka at pagkapasok mo lilipad ka ulit papasok hanggang sa umabot ka sa pintuan',
+          'Lumapit ka sa Quest Giver na nasa gitna at ituturo sayo ang spirit.',
+        ],
       },
       {
         spirit_id: 'prophecy-spirit-2',
         spirit_name: 'Prophet of Earth',
-        spirit_img: PROPHET_OF_EARTH,
+        spirit_img_url: PROPHET_OF_EARTH,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 35,
+        difficulty_types: [0, 1, 6],
+        spirit_guide_video_url: youtube_embed + 'F9MHavec2FE',
+        spirit_direction: [
+          'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
+          'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
+          'Lumipad ka gawing kanan, May makitang kang ulap na kweba, pumasok ka at pagkapasok mo lilipad ka ulit papasok hanggang sa umabot ka sa pintuan.',
+          'Lumapit ka sa Quest Giver na nasa gitna at ituturo sayo ang spirit.',
+        ],
       },
       {
         spirit_id: 'prophecy-spirit-3',
         spirit_name: 'Prophet of Air',
-        spirit_img: PROPHET_OF_AIR,
+        spirit_img_url: PROPHET_OF_AIR,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 35,
+        difficulty_types: [0, 2, 6],
+        spirit_guide_video_url: youtube_embed + 'eJ1XmXur2E4',
+        spirit_direction: [
+          'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
+          'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
+          'Lumipad ka gawing kanan, May makitang kang ulap na kweba, pumasok ka at pagkapasok mo lilipad ka ulit papasok hanggang sa umabot ka sa pintuan.',
+          ' Lumapit ka sa Quest Giver na nasa gitna at ituturo sayo ang spirit.',
+        ],
       },
       {
         spirit_id: 'prophecy-spirit-4',
         spirit_name: 'Prophet of Fire',
-        spirit_img: PROPHET_OF_FIRE,
+        spirit_img_url: PROPHET_OF_FIRE,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 35,
+        difficulty_types: [0, 1, 6],
+        spirit_guide_video_url: youtube_embed + 'wup0dXxlEn4',
+        spirit_direction: [
+          'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
+          'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
+          'Lumipad ka gawing kanan may makitang kang ulap na kweba, pumasok ka at pagkapasok mo lilipad ka ulit papasok hanggang sa umabot ka sa pintuan.',
+          'Pagkapasok mo, lumapit ka sa Quest Giver na nasa gitna at ituturo sayo ang spirit.',
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 'seasonal_wl_1',
+        wl_label: 'Isle-WL6',
+        wl_group: 'wl-isle',
+        wl_season_group: 'wl-isle-season-7',
+        wl_url: ID_WL6 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `lumipad ka gawing kanan at may lagusan papasok sa Cave of Prophecy pumasok ka,`,
+          `Pumasok ka sa Water Trial ng Cave of Prophecy nasa dulo ng trial ang winged light.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_2',
+        wl_label: 'Isle-WL7',
+        wl_group: 'wl-isle',
+        wl_season_group: 'wl-isle-season-7',
+        wl_url: ID_WL7 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `lumipad ka gawing kanan at may lagusan papasok sa Cave of Prophecy pumasok ka,`,
+          `Pumasok ka sa Earth Trial ng Cave of Prophecy nasa dulo ng trial ang winged light.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_3',
+        wl_label: 'Isle-WL8',
+        wl_group: 'wl-isle',
+        wl_season_group: 'wl-isle-season-7',
+        wl_url: ID_WL8 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `lumipad ka gawing kanan at may lagusan papasok sa Cave of Prophecy pumasok ka,`,
+          `Pumasok ka sa Air Trial ng Cave of Prophecy nasa dulo ng trial ang winged light.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_4',
+        wl_label: 'Isle-WL9',
+        wl_group: 'wl-isle',
+        wl_season_group: 'wl-isle-season-7',
+        wl_url: ID_WL9 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `lumipad ka gawing kanan at may lagusan papasok sa Cave of Prophecy pumasok ka,`,
+          `Pumasok ka sa Fire Trial ng Cave of Prophecy nasa dulo ng trial ang winged light.`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 5,
+        shrine_group: 'shrine-season-7',
+        shrine_label: 'Map Shrine 5',
+        shrine_url: ID_MS5 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad gawing kanan, may lagusan papasok Cave of Prophecy.`,
+          `Pagdating sa Cave of Prophecy, tumalon ka pakaliwa sa ibaba lang mismo makikita ang map shrine.`,
+        ],
+      },
+      {
+        id: 6,
+        shrine_group: 'shrine-season-7',
+        shrine_label: 'Map Shrine 6',
+        shrine_url: ID_MS6 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad gawing kanan, may lagusan papasok Cave of Prophecy.`,
+          `Pagdating sa Cave of Prophecy, Gawin ang Water Trial nasa gawing kanan ang map shrine.`,
+        ],
+      },
+      {
+        id: 7,
+        shrine_group: 'shrine-season-7',
+        shrine_label: 'Map Shrine 7',
+        shrine_url: ID_MS7 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad gawing kanan, may lagusan papasok Cave of Prophecy.`,
+          `Pagdating sa Cave of Prophecy, Gawin ang Earth Trial, Pagdumating ka sa aakyat ng hagdaan, sa kanan nito ang map shrine.`,
+        ],
+      },
+      {
+        id: 8,
+        shrine_group: 'shrine-season-7',
+        shrine_label: 'Map Shrine 8',
+        shrine_url: ID_MS8 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad gawing kanan, may lagusan papasok Cave of Prophecy.`,
+          `Pagdating sa Cave of Prophecy, Gawin ang Air Trial`,
+        ],
+      },
+      {
+        id: 9,
+        shrine_group: 'shrine-season-7',
+        shrine_label: 'Map Shrine 9',
+        shrine_url: ID_MS9 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad gawing kanan, may lagusan papasok Cave of Prophecy.`,
+          `Pagdating sa Cave of Prophecy, Gawin ang Fire Trial, at bago pumasok sa 3rd floor nasa gawing kanan ng pintuan ang map shrine.`,
+        ],
       },
     ],
   },
@@ -420,33 +1159,176 @@ export const seasons2021 = [
     time_duration: 'January 4 - March 15, 2021',
     spirit_num: 4,
     wl_num: 4,
+    ms_num: 3,
     icon_route: SEASON8,
     page_route: 'seasons/2021/season-8/dreams',
-    quick_info: `The Season of Prophecy will take 
-    adventurers on an origin story to expand the 
-    lore behind the kingdom of Sky. Venture forth 
-    into the eerie new Cave of Prophecies in Isle 
-    of Dawn to begin your adventure`,
+    quick_info: `The Season of Dreams took players 
+    through the journey of a young spirit who dreams 
+    of performing in the Valley of Triumph’s Coliseum. 
+    Enter the humble new Village of Dreams and perilous 
+    Hermit Valley in Valley of Triumph and follow the 
+    tale of the young skater. Similar to the previous 
+    season, there were 4 Mentors/Spirits, each challenging 
+    you and the young skater with unique quests that will 
+    test your performance skills.`,
     season_spirits: [
       {
         spirit_id: 'dreams-spirit-1',
         spirit_name: 'Dancing Performer',
-        spirit_img: DANCING_PERFORMER,
+        spirit_img_url: DANCING_PERFORMER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'oe6sjjiJrjw',
+        spirit_direction: [
+          `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
+          `Mag-skate pababa, sa mga kabahayan sa kaliwang banda ay makita mo ang spirit na ito.`,
+        ],
       },
       {
         spirit_id: 'dreams-spirit-2',
         spirit_name: 'Peeking Postman',
-        spirit_img: PEEKING_POSTMAN,
+        spirit_img_url: PEEKING_POSTMAN,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'x7GGq7Ef_cQ',
+        spirit_direction: [
+          `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
+          `Mag-skate pababa, papuntang plaza ng Village of Dreams, at sa likod na bahay ng Quest Giver, ay nakatago ang spirit na ito.`,
+        ],
       },
       {
         spirit_id: 'dreams-spirit-3',
         spirit_name: 'Spinning Mentor',
-        spirit_img: SPINNING_MENTOR,
+        spirit_img_url: SPINNING_MENTOR,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'IfbDJSE9U8c',
+        spirit_direction: [
+          `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
+          `Mag-skate pababa, papuntang plaza ng Village of Dreams, at sa unahan lng ng Quest Giver, bandang kanan, nasa gilid ng bahay ang spirit na ito.`,
+        ],
       },
       {
         spirit_id: 'dreams-spirit-4',
         spirit_name: 'Bearhug Hermit',
-        spirit_img: BEARHUG_HERMIT,
+        spirit_img_url: BEARHUG_HERMIT,
+        spirit_category: 'frienship action',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 55,
+        difficulty_types: [1, 4, 5, 6],
+        spirit_guide_video_url: youtube_embed + '98WLZSrH9fY',
+        spirit_direction: [
+          `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
+          `Mag-skate pababa, papuntang plaza ng Village of Dreams, at sa kabahayan sa kaliwang banda, nasa likod nito ang spirit.`,
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 'seasonal_wl_1',
+        wl_label: 'valley-WL12',
+        wl_group: 'wl-valley',
+        wl_season_group: 'wl-valley-8',
+        wl_url: VT_WL12 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may lagusan papuntang 
+          Village of Dreams, pumasok ka.`,
+          `Pagkapasok, mag skate pababa at sa mga bukid na nasa kaliwa, isa dito ay 
+          may butas kung nasaan ang winged light.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_2',
+        wl_label: 'valley-WL13',
+        wl_group: 'wl-valley',
+        wl_season_group: 'wl-valley-8',
+        wl_url: VT_WL13 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may lagusan papuntang 
+          Village of Dreams, pumasok ka.`,
+          `Pagkapasok, mag skate pababa at sa mga bukid na nasa kanan, isa dito ay 
+          may butas kung nasaan ang winged light.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_3',
+        wl_label: 'valley-WL15',
+        wl_group: 'wl-valley',
+        wl_season_group: 'wl-valley-8',
+        wl_url: VT_WL15 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may lagusan papuntang 
+          Village of Dreams, pumasok ka.`,
+          `Pagdating sa plaza, umakyat ka papunta sa susunod na boat terminal`,
+          `At sa tuktok ng tore na nasa gitna makita mo ang winged light.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_4',
+        wl_label: 'valley-WL16',
+        wl_group: 'wl-valley',
+        wl_season_group: 'wl-valley-8',
+        wl_url: VT_WL16 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may lagusan papuntang 
+          Village of Dreams, pumasok ka.`,
+          `Pagdating sa plaza, umakyat ka papunta sa susunod na boat terminal`,
+          `Sumakay ka sa Ferry Boat papuntang Hermitt's Valley, at sa likod mo ay may kweba sa bandang kanan ng bundok.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_5',
+        wl_label: 'valley-WL17',
+        wl_group: 'wl-valley',
+        wl_season_group: 'wl-valley-8',
+        wl_url: VT_WL17 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may lagusan papuntang 
+          Village of Dreams, pumasok ka.`,
+          `Pagdating sa plaza, umakyat ka papunta sa susunod na boat terminal`,
+          `Sumakay ka sa Ferry Boat papuntang Hermitt's Valley, at sa likod ng bundok makita ang winged light dito.`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 'seasonal_ms_1',
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 7',
+        shrine_url: VT_MS7 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa gawing kanan ay may lagusan papuntang Village of Dreams.`,
+          `Magskate pababa, at bago makarating sa plaza sa gitna, sa gawing kaliwa malapit sa bahay, makita
+          ang map shrine.`,
+        ],
+      },
+      {
+        id: 'seasonal_ms_2',
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 9',
+        shrine_url: VT_MS9 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa gawing kanan ay may lagusan papuntang Village of Dreams.`,
+          `Magskate pababa, sa unahan ng statue, naka elevated ang map shrine malapit sa exit ng Performance Hall.`,
+        ],
+      },
+      {
+        id: 'seasonal_ms_3',
+        shrine_group: 'shrine-season-0',
+        shrine_label: 'Map Shrine 10',
+        shrine_url: VT_MS10 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa gawing kanan ay may lagusan papuntang Village of Dreams.`,
+          `Magskate pababa, at magtungo sa Port sa unahan lng ng plaza, sa kaliwang banda.`,
+          `Pagkasakay ng lumulutang na bangka, gawin din ito sa susunod na terminal patungo sa Hermitt's Valley`,
+          `Pagkarating ay lumipad patungo sa Cave na nasa bandang kanan, at sa tuktok ng Cave na ito ang map shrine.`,
+        ],
       },
     ],
   },
@@ -454,25 +1336,430 @@ export const seasons2021 = [
     id: 9,
     name: 'Season of Assembly',
     time_duration: 'April 5 - June 13, 2021',
-    spirit_num: '6',
+    spirit_num: 6,
+    wl_num: 2,
+    ms_num: 1,
     icon_route: SEASON9,
     page_route: 'seasons/2021/season-9/assembly',
+    quick_info: `Set in the rainy Hidden Forest, 
+    this story follows a lone Scout spirit who 
+    invites players to help build and then adorn 
+    a treehouse fit for hosting friends. Throughout 
+    the course of the season, players will be prompted
+     to visit the dwellings of the six other Scout spirits 
+     in order to gather the perfect items for improving 
+     the space. Each spirit this season is individually 
+     related to the realm Ancestors of Sky – with their 
+     theme and items a reflection of their personalities.`,
+    season_spirits: [
+      {
+        spirit_id: 'assembly-spirit-1',
+        spirit_name: 'Scolding Student',
+        spirit_img_url: SCOLDING_SPIRIT,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 45,
+        difficulty_types: [0, 1, 2, 6],
+        spirit_guide_video_url: youtube_embed + 'vRy9eyVQTX0',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, lumipad patungo sa susunod na gate at sa kaliwa ay makita mo ang spirit na ito.',
+        ],
+      },
+      {
+        spirit_id: 'assembly-spirit-2',
+        spirit_name: 'Baffled Botanist',
+        spirit_img_url: BAFFLED_BOTANIST,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 45,
+        difficulty_types: [0, 1, 2, 6],
+        spirit_guide_video_url: youtube_embed + 'ESYM7mzrZv8',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, lumipad ka pakaliwa sa likod ng mga puno makita mo ang spirit na ito.',
+        ],
+      },
+      {
+        spirit_id: 'assembly-spirit-3',
+        spirit_name: 'Marching Adventurer',
+        spirit_img_url: MARCHING_ADVENTURER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 45,
+        difficulty_types: [0, 1, 2, 6],
+        spirit_guide_video_url: youtube_embed + 'FIX2wsGwMRk',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, lumipad patungo sa susunod na gate at sindihan mo ang lumabas na fire icon.',
+          'Pagkabukas, lumipad patungo sa batong waiting shed sa itaas ng bukid bandang kaliwa, na may kandila sa ilalim, makita ang spirit.',
+        ],
+      },
+      {
+        spirit_id: 'assembly-spirit-4',
+        spirit_name: 'Scaredy Cadet',
+        spirit_img_url: SCAREDY_CADET,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 45,
+        difficulty_types: [0, 1, 2, 6],
+        spirit_guide_video_url: youtube_embed + 'ygMPERry2xs',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, lumipad patungo sa susunod na gate at sindihan mo ang lumabas na fire icon.',
+          'Pagkabukas, lumipad patungo sa batong waiting shed sa itaas ng bukid bandang kanan, malapit sa bonfire makita ang spirit.',
+        ],
+      },
+      {
+        spirit_id: 'assembly-spirit-5',
+        spirit_name: 'Chuckling Scout',
+        spirit_img_url: CHUCKLING_SCOUT,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 45,
+        difficulty_types: [0, 1, 2, 6],
+        spirit_guide_video_url: youtube_embed + 'W5gAsEBSNas',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, lumipad patungo sa susunod na gate at sindihan mo ang lumabas na fire icon.',
+          'Pagkabukas, lumipad ka patungo sa batong tulay at pumasok sa lagusan sa dulo at lumipad paitaas gawing kanan, sa GILID ng treehouse ang spirit.',
+        ],
+      },
+      {
+        spirit_id: 'assembly-spirit-6',
+        spirit_name: 'Daydream Forester',
+        spirit_img_url: DAYDREAM_FORESTER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 45,
+        difficulty_types: [0, 1, 2, 6],
+        spirit_guide_video_url: youtube_embed + 'douhHwsYmJw',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, lumipad patungo sa susunod na gate at sindihan mo ang lumabas na fire icon.',
+          'Pagkabukas, lumipad ka patungo sa batong tulay at pumasok sa lagusan sa dulo at lumipad paitaas gawing kanan, sa LIKOD ng treehouse ang spirit.',
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 17,
+        wl_label: 'Forest-WL17',
+        wl_group: 'wl-forest',
+        wl_season_group: 'wl-forest-9',
+        wl_url: HF_WL17 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Bago makarating sa gate ng entrance, ay may lagusan sa kanan, pumasok ka`,
+          `Paglabas mo sa kweba may makita kang duyan sa kanan, at sa itaas ng puno nakatago ang winged light sa puno.`,
+        ],
+      },
+      {
+        id: 18,
+        wl_label: 'Forest-WL18',
+        wl_group: 'wl-forest',
+        wl_season_group: 'wl-forest-9',
+        wl_url: HF_WL18 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
+          `Bago makarating sa gate ng entrance, ay may lagusan sa kanan, pumasok ka`,
+          `Paglabas mo sa kweba may makita kang malaking treehouse, pumasok ka.`,
+          `Sa loob nito ay may lagusan pababa, makita mo ang spirit na ito.`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 9,
+        shrine_group: 'shrine-season-9',
+        shrine_label: 'Map Shrine 9',
+        shrine_url: HF_MS9 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hidden Forest, lumipad pababa sa mga kaulapan`,
+          `bago pa makarating sa entrance gate, sa kanang banda ay may maliit na lagusa
+          papuntang Treehouse.`,
+          `sa tuktok ng Treehouse makikita ang mapshrine.`,
+        ],
+      },
+    ],
   },
   {
     id: 10,
     name: 'Season of The Little Prince',
     time_duration: 'July 6 - September 19, 2021',
-    spirit_num: '6',
+    spirit_num: 6,
+    wl_num: 3,
+    ms_num: 1,
     icon_route: SEASON10,
     page_route: 'seasons/2021/season-10/the-little-prince',
+    quick_info: `This season was the first collaborative 
+    season released by thatgamecompany, collaborating with
+     the titular story of Antoine de Saint-Exupéry's The 
+     Little Prince (French: Le Petit Prince). This season 
+     featured six prominent characters from the story as 
+     spirits, as well as the Little Prince as the protagonist
+      and The Rose as the Seasonal Guide. Befriend the royal
+       visitor and discover lost connections.`,
+    season_spirits: [
+      {
+        spirit_id: 'the-little-prince-spirit-1',
+        spirit_name: 'Slouching Soldier',
+        spirit_img_url: SLOUCHING_SOLDIER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 30,
+        difficulty_types: [1, 2, 4],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
+          `Maglakad palabas ng lagusan, at lumipad gawing kanan patungo sa malaking banga.`,
+          `Pumasok sa bunganga ng banga at nasa bandang kanan ang spirit na ito.`,
+        ],
+      },
+      {
+        spirit_id: 'the-little-prince-spirit-2',
+        spirit_name: 'Gloating Narcissist',
+        spirit_img_url: GLOATING_NARCISSIST,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
+          `Maglakad palabas ng lagusan, at lumipad gawing kaliwa patungo sa maliit na coliseum kung saan may fireworks.`,
+          `Nasa gawing kanan ng stage sa likod ng poste makikita ito.`,
+        ],
+      },
+      {
+        spirit_id: 'the-little-prince-spirit-3',
+        spirit_name: 'Stretching Lamplighter',
+        spirit_img_url: STRETCHING_LAMPLIGHTER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
+          `Maglakad palabas ng lagusan, at lumipad gawing kaliwa patungo sa mataas na tore, at sa loob nito ang spirit.`,
+        ],
+      },
+      {
+        spirit_id: 'the-little-prince-spirit-4',
+        spirit_name: 'Star Collector',
+        spirit_img_url: STAR_COLLECTOR,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 45,
+        difficulty_types: [2, 5, 7],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
+          `Maglakad palabas ng lagusan, at lumipad gawing kaliwa patungo sa mga kaulapan at may lagusan ito papasok.`,
+          `Paglabas ay makita mo ang isang sirang barko at nasa loob nito ang spirit.`,
+        ],
+      },
+      {
+        spirit_id: 'the-little-prince-spirit-5',
+        spirit_name: 'Beckoning Ruler',
+        spirit_img_url: BECKONING_RULER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
+          `Maglakad palabas ng lagusan, at lumipad patungo sa buwan, at lumapag sa unang islang nakalutang.`,
+          `Nasa kaliwang banda ang spirit na ito.`,
+        ],
+      },
+      {
+        spirit_id: 'the-little-prince-spirit-6',
+        spirit_name: 'Sneezing Geographer',
+        spirit_img_url: SNEEZING_GEOGRAPHER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 30,
+        difficulty_types: [1, 2, 4],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
+          `Maglakad palabas ng lagusan, at lumipad patungo sa buwan, at lumapag sa pangalawang islang nakalutang.`,
+          `makita mo agad ang spirit na ito.`,
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 'seasonal_wl_1',
+        wl_label: 'Vault-WL9',
+        wl_group: 'wl-vault',
+        wl_url: VK_WL9 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad pataas at sa gawing kaliwa ay may lagusan papasok.`,
+          `Pagkapasok ay lumipad paakyat at pumasok sa kaliwang butas.`,
+          `Pagkarating sa Starlight Dessert, ay lumipad patungo sa malaking banga na
+          nasa iyong gawing kanan.`,
+          `Makita mo ang winged light sa tuktok nito.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_2',
+        wl_label: 'Vault-WL10',
+        wl_group: 'wl-vault',
+        wl_url: VK_WL10 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad pataas at sa gawing kaliwa ay may lagusan papasok.`,
+          `Pagkapasok ay lumipad paakyat at pumasok sa kaliwang butas.`,
+          `Pagkarating sa Starlight Dessert, ay lumipad patungo sa mataas na tower 
+          na nasa iyong gawing kaliwa.`,
+          `Nasa tuktok ng tower ang winged light na ito.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_3',
+        wl_label: 'Vault-WL11',
+        wl_group: 'wl-vault',
+        wl_url: VK_WL11 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad pataas at sa gawing kaliwa ay may lagusan papasok.`,
+          `Pagkapasok ay lumipad paakyat at pumasok sa kaliwang butas.`,
+          `Pagkarating sa Starlight Dessert, ay lumipad patungo sa buwan.`,
+          `Sa unang islang nakalutang ay may hugis krus ito na butas sa ilalim at nasa loob
+          nito ang winged light.`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 'seasonal_ms_1',
+        shrine_label: 'Map Shrine 2',
+        shrine_url: VK_MS2 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad pakaliwa at pumasok ka sa lagusan patungong Dessert Starlight.`,
+          `Pagkalabas mo ay lumipad sa direksyon ng buwan, at may makita kang garden`,
+          `Sa gawing kanan mo, sa loob ng maze makita ang map shrine.`,
+        ],
+      },
+    ],
   },
   {
     id: 11,
     name: 'Season of Flight',
     time_duration: 'October 4 - December 19, 2021',
-    spirit_num: '4',
+    spirit_num: 4,
+    wl_num: 1,
+    ms_num: 1,
     icon_route: SEASON11,
     page_route: 'seasons/2021/season-11/flight',
+    quick_info: `A brand new area to discover has 
+    been added to the game in the clouds of Hidden 
+    Forest. The Season of Flight features five 
+    seasonal quests to team up with spirits and 
+    reveal routes forward for Sky children and 
+    Light Creatures alike. Gliding aloft currents 
+    of wind, players will uncover new insight into 
+    the lives of the creatures who fly beside 
+    them—and uncover a feature that carries them 
+    from an ancient crossroads to the winds woven 
+    throughout the world of Sky; The Wind Paths.`,
+    season_spirits: [
+      {
+        spirit_id: 'flight-1',
+        spirit_name: 'Tinkering Chimesmith',
+        spirit_img_url: TINKERING_CHIMESMITH,
+        spirit_category: 'stance',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 45,
+        difficulty_types: [0, 1, 2, 6],
+        spirit_guide_video_url: youtube_embed + 'hrEATTwKo5A?start=253',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
+          'Lumapag ka sa pinakamalaking isla, at gawing kaliwa sa mga hagdanan ay nandoon ang spirit',
+        ],
+      },
+      {
+        spirit_id: 'flight-2',
+        spirit_name: 'Light Whisperer',
+        spirit_img_url: LIGHT_WHISPERER,
+        spirit_category: 'call',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 45,
+        difficulty_types: [0, 1, 2, 6],
+        spirit_guide_video_url: youtube_embed + 'CjUqSpOT2WA',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
+          'Lumapag ka sa pinakamalaking isla, at sa likod lang ng isla makita mo ang spirit na ito',
+        ],
+      },
+      {
+        spirit_id: 'flight-3',
+        spirit_name: 'Lively Navigator',
+        spirit_img_url: LIVELY_NAVIGATOR,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 45,
+        difficulty_types: [0, 1, 2, 6],
+        spirit_guide_video_url: youtube_embed + '1fPZOKhpqoU',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
+          'Lumapag ka sa pangalawang isla mula sa kaliwa, na nakapalibot sa main na isla. Andito ang spirit na ito.',
+        ],
+      },
+      {
+        spirit_id: 'flight-4',
+        spirit_name: 'Talented Builder',
+        spirit_img_url: TALENTED_BUILDER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 45,
+        difficulty_types: [0, 1, 2, 6],
+        spirit_guide_video_url: youtube_embed + 'DgJk7h0sy3w',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
+          'Lumapag ka sa unang isla mula sa kanan at makita mo ang spirit dito.',
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 'seasonal_wl_1',
+        wl_label: 'Forest-WL19',
+        wl_group: 'wl-forest',
+        wl_season_group: 'wl-forest-11',
+        wl_url: HF_WL19 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad ka gawing kanan at pumasok ka sa lagusan.`,
+          `Paglabas mo sa Wind Path, ay may malaking isla sa gitna, `,
+          `at sa kanang bahagi ng isla lumipad ka pababa at pumasok ka (red circle) at lalabas ka sa lagusan (yellow circle)`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 'seasonal_ms_1',
+        shrine_group: 'shrine-season-11',
+        shrine_label: 'Map Shrine 10',
+        shrine_url: HF_MS10 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hidden Forest, lumipad gawing kanan at pumasok sa Wind Paths.`,
+          `Pagdating sa Wind Paths, lumipad patungo sa dulong isla sa ibaba at nasa docking area
+          map shrine.`,
+        ],
+      },
+    ],
   },
 ]
 
@@ -481,33 +1768,333 @@ export const seasons2022 = [
     id: 12,
     name: 'Season of Abyss',
     time_duration: 'January 17 - March 27, 2022',
-    spirit_num: '4',
+    spirit_num: 4,
+    wl_num: 2,
     icon_route: SEASON12,
     page_route: 'seasons/2022/season-12/abyss',
+    quick_info: `Season of Abyss follows the 
+    adventures of four scrappy spirits who 
+    scavenge the realm for resources. Throughout 
+    the course of the season, players were prompted 
+    to discover the mysteries and surprises 
+    that awaited in the sapphire depths of 
+    Season of Abyss in a brand new area called 
+    The Treasure Reef.`,
+    season_spirits: [
+      {
+        spirit_id: 'abyss-1',
+        spirit_name: 'Ceasing Commodore',
+        spirit_img_url: CEASING_COMMODORE,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 35,
+        difficulty_types: [0, 2, 6],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
+          `Pagkadating sa Treasure Reef, lumipad paakyat sa likod ng bukid na nasa harapan makita ang spirit.`,
+        ],
+      },
+      {
+        spirit_id: 'abyss-2',
+        spirit_name: 'Anxious Angler',
+        spirit_img_url: ANXIOUS_ANGLER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 35,
+        difficulty_types: [0, 2, 6],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
+          `Pagkadating sa Treasure Reef, lumipad pakaliwa, at sa mga maliliit na isla makikita ang spirit.`,
+        ],
+      },
+      {
+        spirit_id: 'abyss-3',
+        spirit_name: 'Bumbling Boatswain',
+        spirit_img_url: BUMBLING_BOATSWAIN,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 35,
+        difficulty_types: [0, 2, 6],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
+          `Pagkadating sa Treasure Reef, lumipad pataas at dumako sa barko na nasa dock, at malapit dito ang spirit.`,
+        ],
+      },
+      {
+        spirit_id: 'abyss-4',
+        spirit_name: 'Cackling Cannoneer',
+        spirit_img_url: CACKLING_CANNONEER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 35,
+        difficulty_types: [0, 2, 6],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
+          `Pagkadating sa Treasure Reef, lumipad pataas at dumako sa dulong isla at sa likod nito makita ang spirit.`,
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 17,
+        wl_label: 'Wasteland-WL17',
+        wl_group: 'wl-wasteland',
+        wl_url: GW_WL17 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland >> Lumipad gawing kanan, at umupo sa bangka.`,
+          `Pagdating sa Treasure Reef, lumipad pataas`,
+          `May mataas na tore sa gawing kanan at sa tuktok nito ang winged light.`,
+        ],
+      },
+      {
+        id: 18,
+        wl_label: 'Wasteland-WL18',
+        wl_group: 'wl-wasteland',
+        wl_url: GW_WL18 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 4 | Golden Wasteland >> Lumipad gawing kanan, at umupo sa bangka.`,
+          `Pagdating sa Treasure Reef, lumipad pataas`,
+          `Sa tapat ng mataas na tore sa gawing kanan, ay pumasok sa batong may butas na nasa dagat
+          at lumangoy pailalim hanggang sa makarating ka sa ibaba`,
+          ` Buksan ang pintuan sa gawing kaliwa, at nasa loob nito ang winged light.`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 7,
+        shrine_label: 'Map Shrine 7',
+        shrine_url: GW_MS7 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 5 | Golden Wasteland, lumipad pakaliwa at sumakay sa bangka.`,
+          `Pagkarating sa Treasure Reef, ay lumipad patungo sa pinakamataas na tore at makita mo 
+          sa loob nito ang map shrine.`,
+        ],
+      },
+    ],
   },
   {
     id: 13,
     name: 'Season of Performance',
     time_duration: 'April 11 - June 26, 2022',
-    spirit_num: '4',
+    spirit_num: 4,
+    wl_num: 1,
     icon_route: SEASON13,
     page_route: 'seasons/2022/season-13/performance',
+    quick_info: `The Season of Performance takes place 
+    in a new area in Valley of Triumph. Visit the stage 
+    tucked away in a sleepy mountain village. Meet the 
+    Performance Guide and a group of four performer 
+    Spirits to share their imagination and passion with 
+    an audience!`,
+    season_spirits: [
+      {
+        spirit_id: 'performance-1',
+        spirit_name: 'Forgetful Storyteller',
+        spirit_img_url: FORGETFUL_STORYTELLER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'm5iu5e6CgE4?start=267',
+        spirit_direction: [
+          `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
+          `Mag-skate pababa, sa iyong kanan ang Village Theater, pumasok ka.`,
+          `Sa iyong kanan makikita mo agad ang spirit na ito.`,
+        ],
+      },
+      {
+        spirit_id: 'performance-2',
+        spirit_name: 'Frantic Stagehand',
+        spirit_img_url: FRANTIC_STAGEHEAD,
+        spirit_category: 'frienship action',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
+          `Mag-skate pababa, sa iyong kanan ang Village Theater, pumasok ka.`,
+          `Sa gitna ng pang 3rd at 4th na bahay sa iyong kaliwa ay makikita mo ang spirit na ito.`,
+        ],
+      },
+      {
+        spirit_id: 'performance-3',
+        spirit_name: 'Mellow Musician',
+        spirit_img_url: MELLOW_MUSICIAN,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'S-snIMOtkB8?start=411',
+        spirit_direction: [
+          `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
+          `Mag-skate pababa, sa iyong kanan ang Village Theater, pumasok ka.`,
+          `Sa iyong kaliwa, sa 1st at 2nd na bahay, ay nasa gitna mo makikita ang spirit na ito.`,
+        ],
+      },
+      {
+        spirit_id: 'performance-4',
+        spirit_name: 'Modest Dancer',
+        spirit_img_url: MODEST_DANCER,
+        spirit_category: 'friendship action',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'mkLk74WFkug',
+        spirit_direction: [
+          `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
+          `Mag-skate pababa, sa iyong kanan ang Village Theater, pumasok ka.`,
+          `Sa iyong kaliwa, sa 5th at 6th na bahay, ay nasa likod nito ang spirit.`,
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 'seasonal_wl_1',
+        wl_label: 'valley-WL14',
+        wl_group: 'wl-valley',
+        wl_season_group: 'wl-valley-13',
+        wl_url: VT_WL14 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa iyong kanan, ay may lagusan papuntang 
+          Village of Dreams, pumasok ka.`,
+          `Pagdating sa plaza, sa iyong kanan ay may lagusan papuntang Village Theater, pumasok ka.`,
+          `Pumasok ka sa Theater Hall at sa likod ng stage ay may gitara sa labas ng lagusan, pumasok ka at sa dulo nag winged light.`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 'seasonal_ms_1',
+        shrine_group: 'shrine-season-13',
+        shrine_label: 'Map Shrine 8',
+        shrine_url: VT_MS8 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 4 | Valley of Triumph, Sa gawing kanan ay may lagusan papuntang Village of Dreams.`,
+          `Magskate pababa, at bago makarating sa plaza sa gitna, sa gawing kanan ay may lagusan papuntang
+          Village Theater, pumasok ka.`,
+          `Pagkarating sa Village Theeater, sa kaliwang banda makita ang map shrine.`,
+        ],
+      },
+    ],
   },
   {
     id: 14,
     name: 'Season of Shattering',
     time_duration: 'July 11 - September 26, 2022',
-    spirit_num: '2',
+    spirit_num: 2,
+    wl_num: 6,
     icon_route: SEASON14,
     page_route: 'seasons/2022/season-14/shattering',
+    quick_info: `This Season takes a different approach 
+    to telling a new facet of the story of Sky. There is
+    no spirits to relive but memories of light and darkness
+    which holds cosmetics and can be found in the void of 
+    Shattering. Winged lights are showed in 6 different 
+    memories every red shards fall schedule.`,
+    season_spirits: [
+      {
+        spirit_id: 'shattering-1',
+        spirit_name: 'Ancient Darkness',
+        spirit_img_url: NON_SPIRIT,
+        spirit_category: 'non-entity',
+        spirit_relive_type: 'task',
+        difficulty_level: 5,
+        difficulty_types: [8],
+      },
+      {
+        spirit_id: 'shattering-2',
+        spirit_name: 'Ancient Light',
+        spirit_img_url: NON_SPIRIT,
+        spirit_category: 'non-entity',
+        spirit_relive_type: 'task',
+        difficulty_level: 5,
+        difficulty_types: [8],
+      },
+    ],
+    winged_lights: [],
   },
   {
     id: 15,
     name: 'Season of AURORA',
     time_duration: 'October 17, 2022 - January 2, 2023',
-    spirit_num: '4',
+    spirit_num: 4,
     icon_route: SEASON15,
     page_route: 'seasons/2022/season-15/aurora',
+    quick_info: `The Coliseum in Valley of Triumph got yet 
+    another makeover as the Season of AURORA prepared to 
+    house the 4 Spirits of the Season and AURORA themselves. 
+    The Coliseum undergoes changes with every Seasonal Quest 
+    from the Season. To be able to acquire the spirits you must
+    do all the quests.`,
+    season_spirits: [
+      {
+        spirit_id: 'aurora-1',
+        spirit_name: 'Running Wayfarer',
+        spirit_img_url: RUNNING_WAYFARER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'task',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'OBSCV3KYhtw',
+        spirit_direction: [
+          `Pasok ka sa Ikalimang Mapa - Valley of Triumph, Dumako ka sa Colisuem.`,
+          `At hanapin si Aurora spirit sa bandang kanan na may tent. Gawin ang Unang quest.`,
+          `Ang Quest ay nasa Unang Mapa - Isle of Dawn, Entrance.`,
+        ],
+      },
+      {
+        spirit_id: 'aurora-2',
+        spirit_name: 'Mindful Miner',
+        spirit_img_url: MINDFUL_MINER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'task',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + 'JhL5XARrPkY',
+        spirit_direction: [
+          `Pasok ka sa Ikalimang Mapa - Valley of Triumph, Dumako ka sa Colisuem.`,
+          `At hanapin si Aurora spirit sa bandang kanan na may tent. Gawin ang Pangalawang quest.`,
+          `Ang Quest ay nasa Pangatlong Mapa - Hidden Forest, Underground Cave.`,
+        ],
+      },
+      {
+        spirit_id: 'aurora-3',
+        spirit_name: 'Seed of Hope',
+        spirit_img_url: SEED_OF_HOPE,
+        spirit_category: 'emote',
+        spirit_relive_type: 'task',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'ce3xkxPz8jE',
+        spirit_direction: [
+          `Pasok ka sa Ikalimang Mapa - Valley of Triumph, Dumako ka sa Colisuem.`,
+          `At hanapin si Aurora spirit sa bandang kanan na may tent. Gawin ang pang-apat na quest.`,
+          `Ang Quest ay nasa Ikalimang Mapa - Golden Wasteland, Battlefield.`,
+        ],
+      },
+      {
+        spirit_id: 'aurora-4',
+        spirit_name: 'Warrior of Love',
+        spirit_img_url: WARRIOR_OF_LOVE,
+        spirit_category: 'emote',
+        spirit_relive_type: 'task',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + 'zp8IiXdL_II',
+        spirit_direction: [
+          `Pasok ka sa Ikalimang Mapa - Valley of Triumph, Dumako ka sa Colisuem.`,
+          `At hanapin si Aurora spirit sa bandang kanan na may tent. Gawin ang pangatlong quest.`,
+
+          `Ang Quest ay nasa Pang-apat na Mapa - Valley of Triumph, Citadle.`,
+        ],
+      },
+    ],
   },
 ]
 
@@ -516,32 +2103,395 @@ export const seasons2023 = [
     id: 16,
     name: 'Season of Remembrance',
     time_duration: 'January 16, April 2, 2023',
-    spirit_num: '4',
+    spirit_num: 4,
+    wl_num: 1,
+    ms_num: 1,
     icon_route: SEASON16,
     page_route: 'seasons/2023/season-16/remembrance',
+    quick_info: `Journey alongside Spirits who lived 
+    through eras of turmoil to press on and rebuild together.`,
+    season_spirits: [
+      {
+        spirit_id: 'remembrance-1',
+        spirit_name: 'Bereft Veteran',
+        spirit_img_url: BEREFT_VETERAN,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform,`,
+          `Pagkarating sa gitna, kumaliwa ka at may lagusan pababa kang makikita.`,
+          `Pagkarating mo sa Repository Refugee, makita mo ang spirit sa butas sa kaliwang banda.`,
+        ],
+      },
+      {
+        spirit_id: 'remembrance-2',
+        spirit_name: 'Pleading Child',
+        spirit_img_url: PLEADING_CHILD,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform,`,
+          `Pagkarating sa gitna, kumaliwa ka at may lagusan pababa kang makikita.`,
+          `Pagkarating mo sa Repository Refugee, lumipad ka pataas hanggang sa tuktok.`,
+          `Lumapag ka kahit saan at makita mo dito sa huling floor ang spirit.`,
+        ],
+      },
+      {
+        spirit_id: 'remembrance-3',
+        spirit_name: 'Tiptoeing Tea-Brewer',
+        spirit_img_url: TIPTOEING_TEABREWER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform,`,
+          `Pagkarating sa gitna, kumaliwa ka at may lagusan pababa kang makikita.`,
+          `Pagkarating mo sa Repository Refugee, lumipad pataas hanggang sa may makita kang platform na may tent.`,
+          `Lumapag ka at pumasok sa butas, makita mo ang spirit na ito sa gawing kanan likod ng pader.`,
+        ],
+      },
+      {
+        spirit_id: 'remembrance-4',
+        spirit_name: 'Wounded Warrior',
+        spirit_img_url: WOUNDED_SOLDIER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform,`,
+          `Pagkarating sa gitna, kumaliwa ka at may lagusan pababa kang makikita.`,
+          `Pagkarating mo sa Repository Refugee, sa kanang bahagi ng Spirit Guide, may butas sa likod`,
+          `Pumasok ka at makita mo ang spirit na ito sa platform sa labas.`,
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 12,
+        wl_label: 'Vault-WL12',
+        wl_group: 'wl-vault',
+        wl_url: VK_WL12 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad patungo sa elevating platform.`,
+          `Pagdating sa gitna ay may lagusan papasok sa iyong gawing kaliwa.`,
+          `Pagkapasok ay may butas sa iyong kaliwa, pumasok ka ulit, hanggang sa lumabas ka sa repository`,
+          `Lumipad palabas patungong kanan hanggat may makita kang maliit na ilaw
+        sa iyong kanan at sa labas nito ay nakarehas ang winged light`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 4,
+        shrine_label: 'Map Shrine 4',
+        shrine_url: VK_MS4 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad sa direksyon ng elevated platfrom.`,
+          `Sa gawing kaliwa ay pumasok sa lagusan pababa papuntang Repository of Refuge`,
+          `Pagkadating ay pumasok pa sa looban at sa gawing kaliwa malapit sa entrance makita mo
+          ang map shrine agad.`,
+        ],
+      },
+    ],
   },
   {
     id: 17,
     name: 'Season of Passage',
     time_duration: 'April 17 - July 2, 2023',
-    spirit_num: '4',
+    spirit_num: 4,
+    ms_num: 1,
     icon_route: SEASON17,
     page_route: 'seasons/2023/season-17/passage',
+    quick_info: `Venture into the twilight and 
+    meet four young Spirits in Isle of Dawn. 
+    Experience their memories as each one learned 
+    to navigate the route towards their community.`,
+    season_spirits: [
+      {
+        spirit_id: 'passage-1',
+        spirit_name: 'Melancholy Mope',
+        spirit_img_url: MELANCHOLY_MOPE,
+        spirit_category: 'emote',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_relive_type: 'follow-memory',
+        spirit_guide_video_url: youtube_embed + 'dj5NMRkGBoo',
+        spirit_direction: [
+          'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
+          'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
+          'Lumipad ka gawing kanan sa likod ng malaking bato umupo ka sa likod ng Passage Stone Shrine.',
+          'Lumipad ka gawing papunta sa batong may hagdanan, bago ka makarating sa hagdanan, sa likod ng posteng bato, makikita mo ang spirit na ito.',
+        ],
+      },
+      {
+        spirit_id: 'passage-2',
+        spirit_name: 'Oddball Outcast',
+        spirit_img_url: ODDBALL_OUTCAST,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'Ev1SkZRrwV0',
+        spirit_direction: [
+          'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
+          'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
+          'Lumipad ka gawing kanan sa likod ng malaking bato umupo ka sa likod ng Passage Stone Shrine. ',
+          'Lumipad ka gawi papuntang kweba ng Cave of Prophecy, at kung saan banda ang spirit na Sassy Drifter, makikita mo ang spirit na ito.',
+        ],
+      },
+      {
+        spirit_id: 'passage-3',
+        spirit_name: 'Overactive Overachiever',
+        spirit_img_url: OVERACTIVE_OVERACHIEVER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'JJGW3koPH3Y',
+        spirit_direction: [
+          'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
+          'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
+          'Lumipad  ka gawing kanan sa likod ng malaking bato umupo ka sa likod ng Passage Stone Shrine.',
+          'Lumipad ka pabalik sa San Dunes kung nasaan iyong spirit na Pointing Candlemaker. Sa taas ng kweba malapit na sa dagat makikita mo ang spirit na ito.',
+        ],
+      },
+      {
+        spirit_id: 'passage-4',
+        spirit_name: 'Tumbling Troublemaker',
+        spirit_img_url: TUMBLING_TROUBLEMAKER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'LQAdsM3l6vg',
+        spirit_direction: [
+          `Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.`,
+          `Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.`,
+          `Lumipad ka gawing kanan. Sa likod ng malaking bato umupo ka sa likod ng Passage Stone Shrine.`,
+          `Lumipad ka gawi papuntang kweba ng Cave of Prophecy, bago ka makarating sa Oddball Outcast spirit makikita mo na agad ang spirit na ito.`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 2,
+        shrine_group: 'shrine-season-17',
+        shrine_label: 'Map Shrine 2',
+        shrine_url: ID_MS2 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          ` Pagkalabas mo ay lumipad gawing kanan nasa tuktok ito ng
+          Passage Stone.`,
+        ],
+      },
+    ],
   },
   {
     id: 18,
     name: 'Season of Moments',
     time_duration: 'July 17 - October 1, 2023',
-    spirit_num: '4',
+    spirit_num: 4,
+    wl_num: 3,
+    ms_num: 1,
     icon_route: SEASON18,
     page_route: 'seasons/2023/season-18/moments',
+    quick_info: `A new area called Prairie Peaks 
+    opens itself to Sky children in this latest 
+    Season. Snow-capped mountains tower over a lush, 
+    green valley home to scores of light creatures. 
+    Rivers beckon explorers onward to mountain crests 
+    and hillside caves.`,
+    season_spirits: [
+      {
+        spirit_id: 'moments-1',
+        spirit_name: 'Reassuring Ranger',
+        spirit_img_url: REASSURING_RANGER,
+        spirit_category: 'friendship action',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 35,
+        difficulty_types: [0, 1, 6],
+        spirit_guide_video_url: youtube_embed + 'MN1DV_iu7EQ',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
+          `Paglabas mo, makita mo ang Prairie Caves, at sa kaliwang bahagi ay may maliit na lagusan, pumasok ka.`,
+          `Umupo ka sa bangka. Pagdating mo ay lakarin mo lng papasok hanggang makita mo ang tanawin. May bato na malaki sa iyong kanan, nasa likod ang spirit na ito.`,
+        ],
+      },
+      {
+        spirit_id: 'moments-2',
+        spirit_name: 'Nightbird Whisperer',
+        spirit_img_url: NIGHTBIRD_WHISPERER,
+        spirit_category: 'sound-call',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_guide_video_url: youtube_embed + 'C8otHgCYJ7U',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
+          `Paglabas mo, makita mo ang Prairie Caves, at sa kaliwang bahagi ay may maliit na lagusan, pumasok ka.`,
+          `Umupo ka sa bangka. Pagdating mo ay lumipad ka gawing kaliwa, patungo 
+        sa mga bundok na lagusan. Pumasok ka hanggang sa maliit na lagusan sa mababa at 
+         may makikita kang pinakamalaking monolith o matarik na bato at sa likod nito ang spirit.`,
+        ],
+      },
+      {
+        spirit_id: 'moments-3',
+        spirit_name: 'Ascetic Monk',
+        spirit_img_url: ASCETIC_MONK,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 45,
+        difficulty_types: [0, 2, 4, 6],
+        spirit_guide_video_url: youtube_embed + 'v8ecSqd3NOA',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
+          `Paglabas mo, makita mo ang Prairie Caves, at sa kaliwang bahagi ay may maliit na lagusan, pumasok ka.`,
+          `Umupo ka sa bangka. Pagdating mo ay lumipad ka gawing kaliwa, patungo sa mataas na bundok kung saan may nyebe (snow)
+        at sa bandang patag ay makita mo ang spirit na ito.`,
+        ],
+      },
+      {
+        spirit_id: 'moments-4',
+        spirit_name: 'Jolly Geologist',
+        spirit_img_url: JOLLY_GEOLOGIST,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 11],
+        spirit_guide_video_url: youtube_embed + 'PSttOiSBiys',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
+          `Paglabas mo, makita mo ang Prairie Caves, at sa kaliwang bahagi ay may maliit na lagusan, pumasok ka.`,
+          `Umupo ka sa bangka. Pagdating mo ay lumipad ka sa direksyon ng malaking talon, at bago ka umabot sa talon
+        ay may maliit na lagusan ng kweba. Pasok ka sa gawing kanan.`,
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 'seasonal_wl_1',
+        wl_label: 'Prairie-WL14',
+        wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-18',
+        wl_url: PR_WL14 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakaliwa at pumasok sa lagusan`,
+          `Paglabas lumipad, patungong kanan, sa maliit na butas, pumasok at umupo sa bangka`,
+          `Lumipad pakaliwa at may maliit na lagusan sa ibaba, pasok ka at sentro ng kweba, lipad  pataas at hanapin ang sa gitnang pader.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_2',
+        wl_label: 'Prairie-WL15',
+        wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-18',
+        wl_url: PR_WL15 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakaliwa at pumasok sa lagusan`,
+          `Paglabas lumipad, patungong kanan, sa maliit na butas, pumasok at umupo sa bangka`,
+          `Pagdating dumako papasok at lumipad patungo sa malaking sa falls, ay lumangoy pailalim`,
+          `pumasok sa butas at lumangoy at umahon at lumipad papasok sa tabi ng orb makikita ang winged light.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_3',
+        wl_label: 'Prairie-WL16',
+        wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-18',
+        wl_url: PR_WL16 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
+          `Pagkalapag sa Butterfly Field, lumipad pakaliwa at pumasok sa lagusan`,
+          `Paglabas lumipad, patungong kanan, sa maliit na butas, pumasok at umupo sa bangka`,
+          `Pagdating dumako papasok at lumipad patungo sa pinakamataas na bundok at sa tuktok nito ang winged light.`,
+          `pumasok sa butas at lumangoy at umahon at lumipad papasok sa tabi ng orb makikita ang winged light.`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 7,
+        shrine_label: 'Map Shrine 7',
+        shrine_url: DP_MS7 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
+          `Sa gawing kaliwa ng Prairie Caves, ay may butas papasok papuntang Prairie Peaks, pumasok at sumakay sa bangka.`,
+          `Pagdating sa Prairie Peaks, ay pumasok sa looban at pagkalabas ay sa may bato sa bandang kanan, nasa itaas ang map shrine.`,
+        ],
+      },
+    ],
   },
   {
     id: 19,
     name: 'Season of Revival',
     time_duration: 'October 16 - December 31, 2023',
-    spirit_num: '0',
+    spirit_num: 0,
     icon_route: SEASON19,
     page_route: 'seasons/2023/season-19/revival',
+    quick_info: `In a forgotten corner of the kingdom 
+    stand the ruins of Aviary Village, a town that once 
+    flourished. Now, the time has come to bring it back 
+    to life! Join the Season of Revival to rebuild a new 
+    area steeped in Sky’s history, and transform it into 
+    a thriving town center once again for Spirits and Sky 
+    children alike. There are four (4) cosmetic dolls
+    available on Aviary Shop that are available.`,
+    season_spirits: [
+      {
+        spirit_id: 'revival-1',
+        spirit_name: 'Vestige of a Deserted Oasis',
+        spirit_img_url: NON_SPIRIT,
+        spirit_category: 'none entity',
+        spirit_relive_type: 'task',
+        difficulty_level: 5,
+        difficulty_types: [8],
+      },
+      {
+        spirit_id: 'revival-2',
+        spirit_name: 'Memory of a Lost Village ',
+        spirit_img_url: NON_SPIRIT,
+        spirit_category: 'none entity',
+        spirit_relive_type: 'task',
+        difficulty_level: 5,
+        difficulty_types: [8],
+      },
+      {
+        spirit_id: 'revival-3',
+        spirit_name: 'Echo of an Abandoned Refuge',
+        spirit_img_url: NON_SPIRIT,
+        spirit_category: 'none entity',
+        spirit_relive_type: 'task',
+        difficulty_level: 5,
+        difficulty_types: [8],
+      },
+      {
+        spirit_id: 'revival-4',
+        spirit_name: 'Remnant of a Forgotten Haven',
+        spirit_img_url: NON_SPIRIT,
+        spirit_category: 'none entity',
+        spirit_relive_type: 'task',
+        difficulty_level: 5,
+        difficulty_types: [8],
+      },
+    ],
   },
 ]

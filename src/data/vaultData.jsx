@@ -262,17 +262,15 @@ export const vault = [
         season: 'Season 3 - Season of Belonging',
         spirit_category: 'emote',
         spirit_relive_type: 'follow-memory',
-        difficulty_level: 55,
-        difficulty_types: [1, 4, 5, 6],
+        difficulty_level: 60,
+        difficulty_types: [0, 2, 3, 5, 6],
         spirit_name: 'Wise Grandparent',
         spirit_img_url: WISE_GRANDPARENT,
         icon_route: SEASON3,
         spirit_guide_video_url: youtube_embed + '',
         spirit_direction: [
-          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform.`,
-          `Umakyat hanggang 4th floor,Pagkadating sa 4th Floor, lumipad patungo sa 
-          spiral na platform, bandang constellation ng Isle of Dawn`,
-          `At sa unang malaking platform`,
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad sa gawing kanan sa 2-Player Door.`,
+          `Pasok papuntang Archives, at nasa gitna ng platform ang spirit na ito`,
         ],
       },
       {

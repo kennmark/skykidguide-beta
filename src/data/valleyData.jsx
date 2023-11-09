@@ -882,7 +882,7 @@ export const valley = [
       },
       {
         id: 8,
-        shrine_group: 'shrine-season-0',
+        shrine_group: 'shrine-season-13',
         shrine_label: 'Map Shrine 8',
         shrine_url: VT_MS8 ?? MAP_SHRINE,
         shrine_location: [

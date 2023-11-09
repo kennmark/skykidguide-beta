@@ -17,15 +17,14 @@ const SeasonDisplayContainer = ({
   name,
   time_duration,
   icon_route,
-  page_route,
-  season_spirits,
   spirit_num,
   wl_num,
   quick_info,
+  page_route,
+  season_spirits,
 }) => {
   const [open, setOpen] = useState(false)
   const handleOpen = () => setOpen((cur) => !cur)
-  console.log(season_spirits)
   return (
     <>
       <Tooltip
@@ -63,39 +62,28 @@ const SeasonDisplayContainer = ({
           color="gray"
           variant="gradient"
         >
-          <CardHeader
-            variant="gradient"
-            color="amber"
-            className="mb-4 grid h-44 place-items-center text-center p-2"
-          >
+          <CardHeader className="bg-gray-900 text-white grid h-auto pb-2 pt-1 place-items-center text-center px-1">
             <div className="block">
               <LazyLoadImage
                 src={icon_route}
                 alt={name}
                 title={name}
-                width={40}
+                width={55}
                 effect="blur"
               />
-              <Typography variant="h3" color="black">
-                {name}
-              </Typography>
-              <Typography variant="small" color="blue" className="font-bold">
-                {time_duration}
-              </Typography>
+              <Typography variant="h3">{name}</Typography>
+              <Typography>{time_duration}</Typography>
             </div>
           </CardHeader>
           <CardBody className="flex flex-col gap-4">
-            <Typography variant="paragraph" color="amber">
-              Quick Note:
-            </Typography>
+            <Typography color="amber">Quick Note:</Typography>
             <p>{quick_info}</p>
 
-            <Typography variant="paragraph" color="amber">
-              No. of Spirits ({spirit_num})
+            <Typography color="amber">No. of Spirits ({spirit_num})</Typography>
+            <Typography color="amber">
+              No. of Winged Lights ({wl_num})
             </Typography>
-            <Typography variant="paragraph" color="amber">
-              {wl_num && `No. of Winged Lights sa New Map (${wl_num})`}
-            </Typography>
+
             <div className="flex flex-nowrap justify-center items-center">
               {season_spirits?.map((spirit) => {
                 return (
@@ -110,9 +98,8 @@ const SeasonDisplayContainer = ({
                   >
                     <div>
                       <LazyLoadImage
-                        src={spirit.spirit_img}
+                        src={spirit.spirit_img_url}
                         alt={spirit.spirit_name}
-                        // title={spirit.spirit_name}
                         effect="blur"
                         className="p-1"
                       />
@@ -137,10 +124,10 @@ const SeasonDisplayContainer = ({
                 Pasok
               </Button>
             </Link>
-            <Typography variant="small" className="mt-6 flex justify-center">
-              Bisitahin ang page ng
-              <span className="ml-2 font-bold text-light-blue-600">{name}</span>
-            </Typography>
+            <div className="flex justify-center items-center align-middle text-xs mt-2">
+              <span className="text-blue-gray-100">Bisitahin ang page ng</span>
+              <span className="ml-2 text-light-blue-300">{name}</span>
+            </div>
           </CardFooter>
         </Card>
       </Dialog>

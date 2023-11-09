@@ -357,10 +357,12 @@ export const isleOfDawn = [
         spirit_img_url: TUMBLING_TROUBLEMAKER,
         icon_route: SEASON17,
         spirit_guide_video_url: youtube_embed + 'LQAdsM3l6vg',
-        spirit_direction: `Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.
-        Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin. Lumipad 
-        ka gawing kanan. Sa likod ng malaking bato umupo ka sa likod ng Passage Stone Shrine. Lumipad ka gawi papuntang kweba ng Cave
-        of Prophecy, bago ka makarating sa Oddball Outcast spirit makikita mo na agad ang spirit na ito.`,
+        spirit_direction: [
+          `Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.`,
+          `Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.`,
+          `Lumipad ka gawing kanan. Sa likod ng malaking bato umupo ka sa likod ng Passage Stone Shrine.`,
+          `Lumipad ka gawi papuntang kweba ng Cave of Prophecy, bago ka makarating sa Oddball Outcast spirit makikita mo na agad ang spirit na ito.`,
+        ],
       },
       {
         id: 14,

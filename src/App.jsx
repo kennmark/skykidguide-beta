@@ -59,6 +59,146 @@ const PageSeasonMap = lazy(() => import('./pages/PageSeasonMap'))
 
 const ErrorPage = lazy(() => import('./pages/ErrorPage'))
 
+const S1Gratitude = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S1GratitudePage')),
+      300
+    )
+  })
+})
+
+const S2LightSeeker = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S2LightSeekerPage')),
+      300
+    )
+  })
+})
+
+const S3Belonging = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S3BelongingPage')),
+      300
+    )
+  })
+})
+const S4Rhythm = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import('./pages/SeasonsPages/S4RhythmPage')), 300)
+  })
+})
+const S5Enchantment = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S5EnchantmentPage')),
+      300
+    )
+  })
+})
+const S6Sanctuary = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S6SanctuaryPage')),
+      300
+    )
+  })
+})
+const S7Prophecy = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S7ProphecyPage')),
+      300
+    )
+  })
+})
+const S8Dreams = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import('./pages/SeasonsPages/S8DreamsPage')), 300)
+  })
+})
+const S9Assembly = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S9AssemblyPage')),
+      300
+    )
+  })
+})
+const S10TheLittlePrince = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S10TheLittlePrincePage')),
+      300
+    )
+  })
+})
+const S11Flight = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import('./pages/SeasonsPages/S11FlightPage')), 300)
+  })
+})
+const S12Abyss = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import('./pages/SeasonsPages/S12AbyssPage')), 300)
+  })
+})
+const S13Performance = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S13PerformancePage')),
+      300
+    )
+  })
+})
+const S14Shattering = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S14ShatteringPage')),
+      300
+    )
+  })
+})
+const S15Aurora = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import('./pages/SeasonsPages/S15AuroraPage')), 300)
+  })
+})
+const S16Remembrance = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S16RemembrancePage')),
+      300
+    )
+  })
+})
+const S17Passage = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S17PassagePage')),
+      300
+    )
+  })
+})
+const S18Moments = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S18MomentsPage')),
+      300
+    )
+  })
+})
+const S19Revival = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S19RevivalPage')),
+      300
+    )
+  })
+})
+
 function App() {
   return (
     <div className="mooliMono">
@@ -96,6 +236,82 @@ function App() {
               />
               <Route path="/maps/7/eye-of-eden" element={<PageEden />} />
               <Route path="/seasons" element={<PageSeasonMap />} />
+              <Route
+                path="seasons/2019/season-1/gratitude"
+                element={<S1Gratitude />}
+              />
+              <Route
+                path="seasons/2019/season-2/lightseekers"
+                element={<S2LightSeeker />}
+              />
+              <Route
+                path="seasons/2019/season-3/belonging"
+                element={<S3Belonging />}
+              />
+              <Route
+                path="seasons/2020/season-4/rhythm"
+                element={<S4Rhythm />}
+              />
+              <Route
+                path="seasons/2020/season-5/enchantment"
+                element={<S5Enchantment />}
+              />
+              <Route
+                path="seasons/2020/season-6/sanctuary"
+                element={<S6Sanctuary />}
+              />
+              <Route
+                path="seasons/2020/season-7/prophecy"
+                element={<S7Prophecy />}
+              />
+              <Route
+                path="seasons/2021/season-8/dreams"
+                element={<S8Dreams />}
+              />
+              <Route
+                path="seasons/2021/season-9/assembly"
+                element={<S9Assembly />}
+              />
+              <Route
+                path="seasons/2021/season-10/the-little-prince"
+                element={<S10TheLittlePrince />}
+              />
+              <Route
+                path="seasons/2021/season-11/flight"
+                element={<S11Flight />}
+              />
+              <Route
+                path="seasons/2022/season-12/abyss"
+                element={<S12Abyss />}
+              />
+              <Route
+                path="seasons/2022/season-13/performance"
+                element={<S13Performance />}
+              />
+              <Route
+                path="seasons/2022/season-14/shattering"
+                element={<S14Shattering />}
+              />
+              <Route
+                path="seasons/2022/season-15/aurora"
+                element={<S15Aurora />}
+              />
+              <Route
+                path="seasons/2023/season-16/remembrance"
+                element={<S16Remembrance />}
+              />
+              <Route
+                path="seasons/2023/season-17/passage"
+                element={<S17Passage />}
+              />
+              <Route
+                path="seasons/2023/season-18/moments"
+                element={<S18Moments />}
+              />
+              <Route
+                path="seasons/2023/season-19/revival"
+                element={<S19Revival />}
+              />
               <Route path="/balita" element={<News />} />
               <Route path="/team" element={<Team />} />
               <Route path="/events" element={<Events />} />
