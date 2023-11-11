@@ -105,22 +105,30 @@ const SideBar = ({ screenSize }) => {
         <AccordionSeason2023 open={open} handleOpen={handleOpen} />
         <hr className="my-2 border-blue-gray-900" />
         <ListItem>
-          <ListItemPrefix>
-            <UserGroupIcon className="h-5 w-5" />
-          </ListItemPrefix>
-          Winged Lights
-          <ListItemSuffix>
-            <ArrowRightOnRectangleIcon className="h-5 w-5" />
-          </ListItemSuffix>
+          <Link to={'/winged-lights'}>
+            <div className="flex flex-wrap text-blue-gray-900">
+              <ListItemPrefix>
+                <UserGroupIcon className="h-5 w-5" />
+              </ListItemPrefix>
+              Winged Lights
+              <ListItemSuffix>
+                <ArrowRightOnRectangleIcon className="h-5 w-5" />
+              </ListItemSuffix>
+            </div>
+          </Link>
         </ListItem>
         <ListItem>
-          <ListItemPrefix>
-            <InboxIcon className="h-5 w-5" />
-          </ListItemPrefix>
-          Map Shrines
-          <ListItemSuffix>
-            <ArrowRightOnRectangleIcon className="h-5 w-5" />
-          </ListItemSuffix>
+          <Link to={'/map-shrines'}>
+            <div className="flex flex-wrap text-blue-gray-900">
+              <ListItemPrefix>
+                <InboxIcon className="h-5 w-5" />
+              </ListItemPrefix>
+              Map Shrines
+              <ListItemSuffix>
+                <ArrowRightOnRectangleIcon className="h-5 w-5" />
+              </ListItemSuffix>
+            </div>
+          </Link>
         </ListItem>
       </List>
       {!screenSize <= window.innerWidth && <BuyMeACoffee />}

@@ -55,6 +55,16 @@ const PageEden = lazy(() => {
     setTimeout(() => resolve(import('./pages/PageEden')), 300)
   })
 })
+const PageWingedLights = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import('./pages/PageWingedLights')), 300)
+  })
+})
+const PageMapShrines = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import('./pages/PageMapShrines')), 300)
+  })
+})
 const PageSeasonMap = lazy(() => import('./pages/PageSeasonMap'))
 
 const ErrorPage = lazy(() => import('./pages/ErrorPage'))
@@ -236,6 +246,8 @@ function App() {
               />
               <Route path="/maps/7/eye-of-eden" element={<PageEden />} />
               <Route path="/seasons" element={<PageSeasonMap />} />
+              <Route path="/winged-lights" element={<PageWingedLights />} />
+              <Route path="/map-shrines" element={<PageMapShrines />} />
               <Route
                 path="seasons/2019/season-1/gratitude"
                 element={<S1Gratitude />}

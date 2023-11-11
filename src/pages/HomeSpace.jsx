@@ -16,6 +16,7 @@ import { Clock } from '../pages/components/Clock'
 import carousel1 from '../assets/images/home-carousel/home.jpg'
 import carousel2 from '../assets/images/home-carousel/home2.jpg'
 import carousel3 from '../assets/images/home-carousel/home4.jpg'
+import { WL_COUNT_DATE_UPDATED, TOTAL_WL_COUNT } from '../exports/constants'
 // import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const HomeSpace = () => {
@@ -70,8 +71,8 @@ const HomeSpace = () => {
               color="white"
               className="flex text-center font-normal opacity-80"
             >
-              sa pinakahuling tala noong {latest_date_update} may &nbsp;
-              {winged_lights} WL na sa iOS at Android.
+              sa pinakahuling tala noong {WL_COUNT_DATE_UPDATED} may &nbsp;
+              {TOTAL_WL_COUNT} WL na sa iOS at Android.
             </Typography>
           </div>
         }
@@ -98,7 +99,7 @@ const HomeSpace = () => {
             </svg>
 
             <Typography className="animate-ping text-white font-light lg:font-bold text-xs lg:text-lg">
-              {winged_lights}
+              {TOTAL_WL_COUNT}
             </Typography>
           </span>
           <span className="relative inline-flex">
