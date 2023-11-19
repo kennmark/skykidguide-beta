@@ -56,7 +56,7 @@ export const eden = [
     winged_lights: [
       {
         id: 1,
-        wl_label: 'Vault-WL1',
+        wl_label: 'Eden-WL1',
         wl_group: 'wl-vault',
         wl_url: EE_WL1 ?? WINGED_LIGHT,
         wl_location: `Pasok sa Map 7 | Eye of Eden >> Buksan ang malakit gate.>>
@@ -65,7 +65,7 @@ export const eden = [
       },
       {
         id: 2,
-        wl_label: 'Vault-WL2',
+        wl_label: 'Eden-WL2',
         wl_group: 'wl-vault',
         wl_url: EE_WL2 ?? WINGED_LIGHT,
         wl_location: `Pasok sa Map 7 | Eye of Eden >> Buksan ang malakit gate.>>
@@ -75,7 +75,7 @@ export const eden = [
       },
       {
         id: 3,
-        wl_label: 'Vault-WL3',
+        wl_label: 'Eden-WL3',
         wl_group: 'wl-vault',
         wl_url: EE_WL3 ?? WINGED_LIGHT,
         wl_location: `Pasok sa Map 7 | Eye of Eden >> Buksan ang malakit gate.>>
@@ -85,7 +85,7 @@ export const eden = [
       },
       {
         id: 4,
-        wl_label: 'Vault-WL4',
+        wl_label: 'Eden-WL4',
         wl_group: 'wl-vault',
         wl_url: EE_WL4 ?? WINGED_LIGHT,
         wl_location: `Pasok sa Map 7 | Eye of Eden >> Buksan ang malakit gate.>>
@@ -95,7 +95,7 @@ export const eden = [
       },
       {
         id: 5,
-        wl_label: 'Vault-WL5',
+        wl_label: 'Eden-WL5',
         wl_group: 'wl-vault',
         wl_url: EE_WL5 ?? WINGED_LIGHT,
         wl_location: `Pasok sa Map 7 | Eye of Eden >> uksan ang malakit gate.>>
@@ -105,7 +105,7 @@ export const eden = [
       },
       {
         id: 6,
-        wl_label: 'Vault-WL6',
+        wl_label: 'Eden-WL6',
         wl_group: 'wl-vault',
         wl_url: EE_WL6 ?? WINGED_LIGHT,
         wl_location: `Pasok sa Map 7 | Eye of Eden >> Lumipad patungo sa elevating platform >>
@@ -114,7 +114,7 @@ export const eden = [
       },
       {
         id: 7,
-        wl_label: 'Vault-WL7',
+        wl_label: 'Eden-WL7',
         wl_group: 'wl-vault',
         wl_url: EE_WL7 ?? WINGED_LIGHT,
         wl_location: `Pasok sa Map 7 | Eye of Eden >>Lumipad patungo sa elevating platform >>
@@ -123,7 +123,7 @@ export const eden = [
       },
       {
         id: 8,
-        wl_label: 'Vault-WL8',
+        wl_label: 'Eden-WL8',
         wl_group: 'wl-vault',
         wl_url: EE_WL8 ?? WINGED_LIGHT,
         wl_location: `Pasok sa Map 7 | Eye of Eden >> Lumipad patungo sa elevating platform >>
@@ -132,7 +132,7 @@ export const eden = [
       },
       {
         id: 9,
-        wl_label: 'Vault-WL9',
+        wl_label: 'Eden-WL9',
         wl_group: 'wl-vault',
         wl_url: EE_WL9 ?? WINGED_LIGHT,
         wl_location: `Pasok sa Map 7 | Lumipad patungo sa elevating platform >>
@@ -141,7 +141,7 @@ export const eden = [
       },
       {
         id: 10,
-        wl_label: 'Vault-WL10',
+        wl_label: 'Eden-WL10',
         wl_group: 'wl-vault',
         wl_url: EE_WL10 ?? WINGED_LIGHT,
         wl_location: `Pasok sa Map 7 | Eye of Eden >> Lumipad patungo sa elevating platform >>
