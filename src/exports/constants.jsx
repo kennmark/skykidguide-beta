@@ -40,7 +40,7 @@ export const S19_NUM_MAP_SHRINES = 1
 
 export const WL_COUNT = 116
 export const WB_REGULAR_SPIRITS = 49
-export const WB_TRAVELING_SPIRITS = 57
+export const WB_TRAVELING_SPIRITS = 58
 export const TOTAL_WL_COUNT =
   WL_COUNT + WB_REGULAR_SPIRITS + WB_TRAVELING_SPIRITS
 export const TOTAL_MS_COUNT =
@@ -51,5 +51,5 @@ export const TOTAL_MS_COUNT =
   WASTELAND_NUM_MAP_SHRINES +
   VAULT_NUM_MAP_SHRINES +
   EDEN_NUM_MAP_SHRINES
-export const WL_COUNT_DATE_UPDATED = 'September 14, 2023'
+export const WL_COUNT_DATE_UPDATED = 'November 23, 2023'
 export const MS_COUNT_DATE_UPDATED = 'October 16, 2023'
