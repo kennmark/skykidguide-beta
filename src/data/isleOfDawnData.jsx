@@ -167,7 +167,7 @@ export const isleOfDawn = [
         spirit_name: 'Sassy Drifter',
         spirit_img_url: SASSY_DRIFTER,
         icon_route: SEASON1,
-        spirit_guide_video_url: youtube_embed + 'ZX1k1hbb_sw',
+        spirit_guide_video_url: youtube_embed + 'OC0M5IYDnck',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -188,7 +188,7 @@ export const isleOfDawn = [
         spirit_name: 'Piggyback Lightseeker',
         spirit_img_url: PIGGYBACK_LIGHTSEEKER,
         icon_route: SEASON2,
-        spirit_guide_video_url: youtube_embed + 'tY2JmP_skv0',
+        spirit_guide_video_url: youtube_embed + '6szBwvCEchU',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -209,7 +209,7 @@ export const isleOfDawn = [
         spirit_name: 'Boogie Kid',
         spirit_img_url: BOOGIE_KID,
         icon_route: SEASON3,
-        spirit_guide_video_url: youtube_embed + 'X2FUMSK0ZLs',
+        spirit_guide_video_url: youtube_embed + 'LPVVeJI9kpo',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -222,7 +222,7 @@ export const isleOfDawn = [
         spirit_id: 'isle7',
         season_id: 'season-4',
         spirit_type: 'seasonal',
-        season: 'Season 4 - Season of Rythm',
+        season: 'Season 4 - Season of Rhythm',
         spirit_category: 'emote',
         spirit_relive_type: 'follow-memory',
         difficulty_level: 40,
@@ -230,7 +230,7 @@ export const isleOfDawn = [
         spirit_name: 'Troupe Greeter',
         spirit_img_url: TROUPE_GREETER,
         icon_route: SEASON4,
-        spirit_guide_video_url: youtube_embed + 'J35XuoEkp5w',
+        spirit_guide_video_url: youtube_embed + 'ab4I-QSR4sU',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -251,7 +251,7 @@ export const isleOfDawn = [
         spirit_name: 'Prophet of Water',
         spirit_img_url: PROPHET_OF_WATER,
         icon_route: SEASON7,
-        spirit_guide_video_url: youtube_embed + '6t-gksA_AjE',
+        spirit_guide_video_url: youtube_embed + 'TMz1D1PXGYU',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -272,7 +272,7 @@ export const isleOfDawn = [
         difficulty_types: [0, 1, 6],
         spirit_img_url: PROPHET_OF_EARTH,
         icon_route: SEASON7,
-        spirit_guide_video_url: youtube_embed + 'F9MHavec2FE',
+        spirit_guide_video_url: youtube_embed + 'zE7Js8dqFfU',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -293,7 +293,7 @@ export const isleOfDawn = [
         spirit_name: 'Prophet of Air',
         spirit_img_url: PROPHET_OF_AIR,
         icon_route: SEASON7,
-        spirit_guide_video_url: youtube_embed + 'eJ1XmXur2E4',
+        spirit_guide_video_url: youtube_embed + 'uGk2xSqdobk',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -314,7 +314,7 @@ export const isleOfDawn = [
         spirit_name: 'Prophet of Fire',
         spirit_img_url: PROPHET_OF_FIRE,
         icon_route: SEASON7,
-        spirit_guide_video_url: youtube_embed + 'wup0dXxlEn4',
+        spirit_guide_video_url: youtube_embed + 'bEOTU3o7iuM',
         spirit_direction: [
           'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
           'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -335,7 +335,7 @@ export const isleOfDawn = [
         spirit_name: 'Oddball Outcast',
         spirit_img_url: ODDBALL_OUTCAST,
         icon_route: SEASON17,
-        spirit_guide_video_url: youtube_embed + 'Ev1SkZRrwV0',
+        spirit_guide_video_url: youtube_embed + 'jBp8u1A0nmg',
         spirit_direction: [
           'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
           'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -356,7 +356,7 @@ export const isleOfDawn = [
         spirit_name: 'Tumbling Troublemaker',
         spirit_img_url: TUMBLING_TROUBLEMAKER,
         icon_route: SEASON17,
-        spirit_guide_video_url: youtube_embed + 'LQAdsM3l6vg',
+        spirit_guide_video_url: youtube_embed + 'zv1fVtpaWoY',
         spirit_direction: [
           `Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.`,
           `Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.`,
@@ -377,7 +377,7 @@ export const isleOfDawn = [
         spirit_name: 'Melancholy Mope',
         spirit_img_url: MELANCHOLY_MOPE,
         icon_route: SEASON17,
-        spirit_guide_video_url: youtube_embed + 'dj5NMRkGBoo',
+        spirit_guide_video_url: youtube_embed + 'rPGqdQf90Ns',
         spirit_direction: [
           'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
           'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -398,7 +398,7 @@ export const isleOfDawn = [
         spirit_name: 'Overactive Overachiever',
         spirit_img_url: OVERACTIVE_OVERACHIEVER,
         icon_route: SEASON17,
-        spirit_guide_video_url: youtube_embed + 'JJGW3koPH3Y',
+        spirit_guide_video_url: youtube_embed + 'vkO4ujp0JNc',
         spirit_direction: [
           'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
           'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',

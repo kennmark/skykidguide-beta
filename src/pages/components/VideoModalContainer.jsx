@@ -31,7 +31,7 @@ const VideoModalContainer = ({
             <XMarkIcon className="h-6 w-6" />
           </IconButton>
         </DialogHeader>
-        <DialogBody className="h-80 drop-shadow-2xl">
+        <DialogBody className="h-96 drop-shadow-2xl">
           <iframe
             className="w-full h-full"
             src={spirit_guide_video_url}
