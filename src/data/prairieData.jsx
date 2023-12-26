@@ -108,7 +108,7 @@ export const prairie = [
         spirit_name: 'Applauding Bellmaker',
         spirit_img_url: APPLAUDING_BELLMAKER,
         constellation_icon_route: MAP2,
-        spirit_guide_video_url: youtube_embed + 'ODMA1Q9155o',
+        spirit_guide_video_url: youtube_embed + 'c7kGy7s9-jY',
         spirit_direction: [
           'Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan',
           'Pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita at lumusot sa batong pintuan at lumipad.',
@@ -128,7 +128,7 @@ export const prairie = [
         spirit_name: 'Bird Whisperer',
         spirit_img_url: BIRD_WHISPERER,
         constellation_icon_route: MAP2,
-        spirit_guide_video_url: youtube_embed + 'dMDOQfWCFEg',
+        spirit_guide_video_url: youtube_embed + 'oEq8TjItdaM',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka.`,
@@ -167,7 +167,7 @@ export const prairie = [
         spirit_name: 'Ceremonial Worshiper',
         spirit_img_url: CEREMONIAL_WORSHIPPER,
         constellation_icon_route: MAP2,
-        spirit_guide_video_url: youtube_embed + 'QyxnF3E58Xg?start=1070',
+        spirit_guide_video_url: youtube_embed + 'c0KB1cD5j4Y',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita at lumusot sa batong pintuan at lumipad.`,
@@ -188,7 +188,7 @@ export const prairie = [
         spirit_name: 'Exhausted Dock Worker',
         spirit_img_url: EXHAUSTED_DOCK_WORKER,
         constellation_icon_route: MAP2,
-        spirit_guide_video_url: youtube_embed + 'QyxnF3E58Xg?start=1706',
+        spirit_guide_video_url: youtube_embed + 'ae4nHnxXnaY',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, sa gawing kaliwa mo ay may lagusan papasok.`,
@@ -209,7 +209,7 @@ export const prairie = [
         spirit_name: 'Laughing Light Catcher',
         spirit_img_url: LAUGHING_LIGHT_CATCHER,
         constellation_icon_route: MAP2,
-        spirit_guide_video_url: youtube_embed + 'bxbQ0E0-6P0',
+        spirit_guide_video_url: youtube_embed + '_sHazypMGKM',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita.`,
@@ -228,7 +228,7 @@ export const prairie = [
         spirit_name: 'Slumbering Shipwright',
         spirit_img_url: SLUMBERING_SHIPWRIGHT,
         constellation_icon_route: MAP2,
-        spirit_guide_video_url: youtube_embed + 'TndluWxF7tw',
+        spirit_guide_video_url: youtube_embed + 'Si6JXZmjMV8',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita.`,
@@ -249,7 +249,7 @@ export const prairie = [
         spirit_name: 'Waving Bellmaker',
         spirit_img_url: WAVING_BELLMAKER,
         constellation_icon_route: MAP2,
-        spirit_guide_video_url: youtube_embed + 'f4PG-FV55jM',
+        spirit_guide_video_url: youtube_embed + 'L33gNWXTxh4',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, dumako ka patungo sa direksyon ng templo na iyong makikita.`,
@@ -285,7 +285,7 @@ export const prairie = [
         spirit_name: 'Stretching Guru',
         spirit_img_url: STRETCHING_GURU,
         icon_route: SEASON1,
-        spirit_guide_video_url: youtube_embed + '_Atgn5k2kBY',
+        spirit_guide_video_url: youtube_embed + 'HCmwZWxOkFM',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
@@ -306,7 +306,7 @@ export const prairie = [
         spirit_name: 'Doublefive Light Catcher',
         spirit_img_url: DOUBLE_FIVE_LIGHT_CATCHER,
         icon_route: SEASON2,
-        spirit_guide_video_url: youtube_embed + 'nQUnUlwujMc',
+        spirit_guide_video_url: youtube_embed + 'SoF7OUY9Tho',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka.`,
@@ -326,7 +326,7 @@ export const prairie = [
         spirit_name: 'Confetti Cousin',
         spirit_img_url: CONFETTI_COUSIN,
         icon_route: SEASON3,
-        spirit_guide_video_url: youtube_embed + 'bBjri4XwR2c',
+        spirit_guide_video_url: youtube_embed + 'H9QcHm8kfBg',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  may makikita kang parang hugis globe na bukid at sa tuktok nito ay makikita mo
@@ -346,7 +346,7 @@ export const prairie = [
         spirit_name: 'Festival Spin Dancer',
         spirit_img_url: FESTIVAL_SPIN_DANCER,
         icon_route: SEASON4,
-        spirit_guide_video_url: youtube_embed + 'eTI_5rJNQqg',
+        spirit_guide_video_url: youtube_embed + 'DUpjerHhBqA',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -367,7 +367,7 @@ export const prairie = [
         spirit_name: 'Chill Sunbather',
         spirit_img_url: CHILL_SUNBATHER,
         icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + '197tor-WWVo',
+        spirit_guide_video_url: youtube_embed + '4W6eiKr_21c',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -389,7 +389,7 @@ export const prairie = [
         spirit_name: 'Rallying Thrillseeker',
         spirit_img_url: RALLYING_THRILLSEEKER,
         icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + 'vqDrzq5MZ9k',
+        spirit_guide_video_url: youtube_embed + 'rGjLAZFGM8o',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -411,7 +411,7 @@ export const prairie = [
         spirit_name: 'Grateful Shell Collector',
         spirit_img_url: GRATEFUL_SHELL_COLLECTOR,
         icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + 'fMZdaF0WRC8',
+        spirit_guide_video_url: youtube_embed + '3qBtSHuGHtQ',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -432,7 +432,7 @@ export const prairie = [
         spirit_name: 'Hiking Grouch',
         spirit_img_url: HIKING_GROUCH,
         icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + 'fILkeV1zji4',
+        spirit_guide_video_url: youtube_embed + 'd_jE1N1qlfM',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -453,7 +453,7 @@ export const prairie = [
         spirit_name: 'Jelly Whisperer',
         spirit_img_url: JELLY_WHISPERER,
         icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + 'svKLM5uXQpg',
+        spirit_guide_video_url: youtube_embed + '93xGI6POTDQ',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -475,7 +475,7 @@ export const prairie = [
         spirit_name: 'Timid Bookworm',
         spirit_img_url: TIMID_BOOKWORM,
         icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + 'GTnvyuwFNE0',
+        spirit_guide_video_url: youtube_embed + '6UafYcL-qDI',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -497,7 +497,7 @@ export const prairie = [
         spirit_name: 'Reassuring Ranger',
         spirit_img_url: REASSURING_RANGER,
         icon_route: SEASON18,
-        spirit_guide_video_url: youtube_embed + 'MN1DV_iu7EQ',
+        spirit_guide_video_url: youtube_embed + 'jhm4hLDM-88',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
@@ -518,7 +518,7 @@ export const prairie = [
         spirit_name: 'Jolly Geologist',
         spirit_img_url: JOLLY_GEOLOGIST,
         icon_route: SEASON18,
-        spirit_guide_video_url: youtube_embed + 'PSttOiSBiys',
+        spirit_guide_video_url: youtube_embed + 'tDwp1gBOIv4',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
@@ -540,7 +540,7 @@ export const prairie = [
         spirit_name: 'Ascetic Monk',
         spirit_img_url: ASCETIC_MONK,
         icon_route: SEASON18,
-        spirit_guide_video_url: youtube_embed + 'v8ecSqd3NOA',
+        spirit_guide_video_url: youtube_embed + 'vQ_Jyh_oink',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
@@ -562,7 +562,7 @@ export const prairie = [
         spirit_name: 'Nightbird Whisperer',
         spirit_img_url: NIGHTBIRD_WHISPERER,
         icon_route: SEASON18,
-        spirit_guide_video_url: youtube_embed + 'C8otHgCYJ7U',
+        spirit_guide_video_url: youtube_embed + 'KsXwZnr5dQU',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
