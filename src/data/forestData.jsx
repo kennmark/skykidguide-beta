@@ -100,7 +100,7 @@ export const hiddenForest = [
         spirit_name: 'Shivering Trailblazer',
         spirit_img_url: SHIVERING_TRAILBLAZER,
         constellation_icon_route: MAP3,
-        spirit_guide_video_url: youtube_embed + 'XN1u4PxlGrs',
+        spirit_guide_video_url: youtube_embed + '8pc34umHQSE',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate',
           `Sindihan mo ang lumabas na fire icon sa kanang banda ng gate upang magbukas.`,
@@ -119,7 +119,7 @@ export const hiddenForest = [
         spirit_name: 'Blushing Prospector',
         spirit_img_url: BLUSHING_PROSPECTOR,
         constellation_icon_route: MAP3,
-        spirit_guide_video_url: youtube_embed + '5DNs9K-zeeI?start=344',
+        spirit_guide_video_url: youtube_embed + 'hYHmaLE69Ts',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -139,7 +139,7 @@ export const hiddenForest = [
         spirit_name: `Hide'n'Seek Pioneer`,
         spirit_img_url: HIDENSEEK_PIONEER,
         constellation_icon_route: MAP3,
-        spirit_guide_video_url: youtube_embed + '5DNs9K-zeeI?start=646',
+        spirit_guide_video_url: youtube_embed + 'XoCtDrapcZc',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -159,7 +159,7 @@ export const hiddenForest = [
         spirit_name: 'Pouty Porter',
         spirit_img_url: POUTY_PORTER,
         constellation_icon_route: MAP3,
-        spirit_guide_video_url: youtube_embed + '5DNs9K-zeeI?start=555',
+        spirit_guide_video_url: youtube_embed + 'fgQxc-BYips',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -179,7 +179,7 @@ export const hiddenForest = [
         spirit_name: 'Dismayed Hunter',
         spirit_img_url: DISMAYED_HUNTER,
         constellation_icon_route: MAP3,
-        spirit_guide_video_url: youtube_embed + '5DNs9K-zeeI?start=825',
+        spirit_guide_video_url: youtube_embed + 'rLhuEJ2t0BM',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -199,7 +199,7 @@ export const hiddenForest = [
         spirit_name: 'Apologetic Lumberjack',
         spirit_img_url: APOLOGETIC_LUMBERJACK,
         constellation_icon_route: MAP3,
-        spirit_guide_video_url: youtube_embed + '5DNs9K-zeeI?start=936',
+        spirit_guide_video_url: youtube_embed + 'z4LBCfASS6I',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -219,7 +219,7 @@ export const hiddenForest = [
         spirit_name: 'Whale Whisperer',
         spirit_img_url: WHALE_WHISPERER,
         constellation_icon_route: MAP3,
-        spirit_guide_video_url: youtube_embed + '5DNs9K-zeeI?start=1108',
+        spirit_guide_video_url: youtube_embed + 'sIGC16Ex-Kk',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon.',
@@ -239,7 +239,7 @@ export const hiddenForest = [
         spirit_name: 'Tearful Light Miner',
         spirit_img_url: TEARFUL_MINER,
         constellation_icon_route: MAP3,
-        spirit_guide_video_url: youtube_embed + '-qlPyROfiew',
+        spirit_guide_video_url: youtube_embed + 'n-SGJml4iXs',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -276,7 +276,7 @@ export const hiddenForest = [
         spirit_name: 'Provoking Performer',
         spirit_img_url: PROVOKING_PERFORMER,
         icon_route: SEASON1,
-        spirit_guide_video_url: youtube_embed + 'Plpl2MGoZYo',
+        spirit_guide_video_url: youtube_embed + 'ykP_DP2CuBQ',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -297,7 +297,7 @@ export const hiddenForest = [
         spirit_name: 'Laidback Pioneer',
         spirit_img_url: LAIDBACK_PIONEER,
         icon_route: SEASON2,
-        spirit_guide_video_url: youtube_embed + 'rlMGDjpznZo',
+        spirit_guide_video_url: youtube_embed + '7LTOXtTzXc0',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -318,7 +318,7 @@ export const hiddenForest = [
         spirit_name: 'Hairtousle Teen',
         spirit_img_url: HAIRTOUSLE_TEEN,
         icon_route: SEASON3,
-        spirit_guide_video_url: youtube_embed + '6TlBquksQa0',
+        spirit_guide_video_url: youtube_embed + 'zX_ids0ygV8',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -339,7 +339,7 @@ export const hiddenForest = [
         spirit_name: 'Admiring Actor',
         spirit_img_url: ADMIRING_ACTOR,
         icon_route: SEASON4,
-        spirit_guide_video_url: youtube_embed + 'FpCci6gc0Kg',
+        spirit_guide_video_url: youtube_embed + 'BrqjwxellSM',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -360,7 +360,7 @@ export const hiddenForest = [
         spirit_name: 'Baffled Botanist',
         spirit_img_url: BAFFLED_BOTANIST,
         icon_route: SEASON9,
-        spirit_guide_video_url: youtube_embed + 'ESYM7mzrZv8',
+        spirit_guide_video_url: youtube_embed + 'FjBXDty6SuQ',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -380,7 +380,7 @@ export const hiddenForest = [
         spirit_name: 'Scolding Student',
         spirit_img_url: SCOLDING_SPIRIT,
         icon_route: SEASON9,
-        spirit_guide_video_url: youtube_embed + 'vRy9eyVQTX0',
+        spirit_guide_video_url: youtube_embed + '2P8DrkECLCM',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -400,7 +400,7 @@ export const hiddenForest = [
         spirit_name: 'Marching Adventurer',
         spirit_img_url: MARCHING_ADVENTURER,
         icon_route: SEASON9,
-        spirit_guide_video_url: youtube_embed + 'FIX2wsGwMRk',
+        spirit_guide_video_url: youtube_embed + 'j1ciHsJ937o',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -421,7 +421,7 @@ export const hiddenForest = [
         spirit_name: 'Scaredy Cadet',
         spirit_img_url: SCAREDY_CADET,
         icon_route: SEASON9,
-        spirit_guide_video_url: youtube_embed + 'ygMPERry2xs',
+        spirit_guide_video_url: youtube_embed + 'o_xH5KOe_nc',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -442,7 +442,7 @@ export const hiddenForest = [
         spirit_name: 'Chuckling Scout',
         spirit_img_url: CHUCKLING_SCOUT,
         icon_route: SEASON9,
-        spirit_guide_video_url: youtube_embed + 'W5gAsEBSNas',
+        spirit_guide_video_url: youtube_embed + '7H1jciUCheE',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -463,7 +463,7 @@ export const hiddenForest = [
         spirit_name: 'Daydream Forester',
         spirit_img_url: DAYDREAM_FORESTER,
         icon_route: SEASON9,
-        spirit_guide_video_url: youtube_embed + 'douhHwsYmJw',
+        spirit_guide_video_url: youtube_embed + 'Z-aufTQT0H0',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -484,7 +484,7 @@ export const hiddenForest = [
         spirit_name: 'Tinkering Chimesmith',
         spirit_img_url: TINKERING_CHIMESMITH,
         icon_route: SEASON11,
-        spirit_guide_video_url: youtube_embed + 'hrEATTwKo5A?start=253',
+        spirit_guide_video_url: youtube_embed + '_WIn5vyLPv4',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
           'Lumapag ka sa pinakamalaking isla, at gawing kaliwa sa mga hagdanan ay nandoon ang spirit',
@@ -503,7 +503,7 @@ export const hiddenForest = [
         spirit_name: 'Light Whisperer',
         spirit_img_url: LIGHT_WHISPERER,
         icon_route: SEASON11,
-        spirit_guide_video_url: youtube_embed + 'CjUqSpOT2WA',
+        spirit_guide_video_url: youtube_embed + 'pJjVGRbjL3g',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
           'Lumapag ka sa pinakamalaking isla, at sa likod lang ng isla makita mo ang spirit na ito',
@@ -522,7 +522,7 @@ export const hiddenForest = [
         spirit_name: 'Lively Navigator',
         spirit_img_url: LIVELY_NAVIGATOR,
         icon_route: SEASON11,
-        spirit_guide_video_url: youtube_embed + '1fPZOKhpqoU',
+        spirit_guide_video_url: youtube_embed + 'xFXP57ZCsvw',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
           'Lumapag ka sa pangalawang isla mula sa kaliwa, na nakapalibot sa main na isla. Andito ang spirit na ito.',
@@ -541,7 +541,7 @@ export const hiddenForest = [
         spirit_name: 'Talented Builder',
         spirit_img_url: TALENTED_BUILDER,
         icon_route: SEASON11,
-        spirit_guide_video_url: youtube_embed + 'DgJk7h0sy3w',
+        spirit_guide_video_url: youtube_embed + 'bzCvgOT3t0g',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
           'Lumapag ka sa unang isla mula sa kanan at makita mo ang spirit dito.',
