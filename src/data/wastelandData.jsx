@@ -144,7 +144,7 @@ export const wasteland = [
         spirit_id: 'wasteland4',
         season_id: 'season-0',
         spirit_type: 'regular',
-        spirit_category: 'emote',
+        spirit_category: 'stance',
         spirit_relive_type: 'follow-memory',
         difficulty_level: 65,
         difficulty_types: [0, 1, 9],

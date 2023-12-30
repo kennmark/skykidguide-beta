@@ -102,7 +102,7 @@ export const valley = [
         spirit_name: 'Confident Sightseer',
         spirit_img_url: CONFIDENT_SIGHTSEER,
         constellation_icon_route: MAP4,
-        spirit_guide_video_url: youtube_embed + 'DwhjSpV-BAw',
+        spirit_guide_video_url: youtube_embed + 'ukkYW0UiuKE',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Sa bandang kanan ng lagusan, lumipad ka pataas at makikita mo ang spirit na ito.`,
@@ -120,7 +120,7 @@ export const valley = [
         spirit_name: 'Backflipping Champion',
         spirit_img_url: BACKFLIPPING_CHAMPION,
         constellation_icon_route: MAP4,
-        spirit_guide_video_url: youtube_embed + 'VrC9HR4wA7A',
+        spirit_guide_video_url: youtube_embed + 'GUqYcLjeYA8',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Sa bandang kaliwa ay may lagusan patungong citadel, pumasok ka.`,
@@ -140,7 +140,7 @@ export const valley = [
         spirit_name: 'Handstanding Thrillseeker',
         spirit_img_url: HANDSTANDING_THRILLSEEKER,
         constellation_icon_route: MAP4,
-        spirit_guide_video_url: youtube_embed + '-sVP-uZXkaI?start=689',
+        spirit_guide_video_url: youtube_embed + 'AwpBBSZcfeE',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Sa bandang kaliwa ay may lagusan patungong citadel, pumasok ka.`,
@@ -160,7 +160,7 @@ export const valley = [
         spirit_name: 'Manta Whisperer',
         spirit_img_url: MANTA_WHISPERER,
         constellation_icon_route: MAP4,
-        spirit_guide_video_url: youtube_embed + '-sVP-uZXkaI?start=876',
+        spirit_guide_video_url: youtube_embed + 'Tq3HWYajMzY',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Sa bandang kaliwa ay may lagusan patungong citadel, pumasok ka.`,
@@ -180,7 +180,7 @@ export const valley = [
         spirit_name: 'Proud Victor',
         spirit_img_url: PROUD_VICTOR,
         constellation_icon_route: MAP4,
-        spirit_guide_video_url: youtube_embed + 'Sd5uNpaQrVU',
+        spirit_guide_video_url: youtube_embed + 'HgL7qC1uJvs',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Pumasok ka sa Skating Race sa iyong harapan na lagusan.`,
@@ -199,7 +199,7 @@ export const valley = [
         spirit_name: 'Bowing Medalist',
         spirit_img_url: BOWING_MEDALIST,
         constellation_icon_route: MAP4,
-        spirit_guide_video_url: youtube_embed + '2cSlZT8mbvA',
+        spirit_guide_video_url: youtube_embed + 'wwpu2V_6nKI',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Pumasok ka sa Skating Race sa iyong harapan na lagusan.`,
@@ -218,7 +218,7 @@ export const valley = [
         spirit_name: 'Cheerful Spectator',
         spirit_img_url: CHEERFUL_SPECTATOR,
         constellation_icon_route: MAP4,
-        spirit_guide_video_url: youtube_embed + '-sVP-uZXkaI?start=1487',
+        spirit_guide_video_url: youtube_embed + 'kkRnJ8a5p3U',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Pumasok ka sa Skating Race sa iyong harapan na lagusan.`,
@@ -254,7 +254,7 @@ export const valley = [
         spirit_name: 'Leaping Dancer',
         spirit_img_url: LEAPING_DANCER,
         icon_route: SEASON1,
-        spirit_guide_video_url: youtube_embed + 'VTh2Qi8BQOM',
+        spirit_guide_video_url: youtube_embed + 'qM46Yfsl4Oc',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Sa kanang banda pababa, ay may 2-Player door, nasa loob nito ang spirit.`,
@@ -273,7 +273,7 @@ export const valley = [
         spirit_name: 'Twirling Champion',
         spirit_img_url: TWIRLING_CHAMPION,
         icon_route: SEASON2,
-        spirit_guide_video_url: youtube_embed + 'crKnfLTGvvM',
+        spirit_guide_video_url: youtube_embed + 'gJMN_Wuq2lM',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Sa kaliwang banda ay makita mo ang spirit na ito.`,
@@ -292,7 +292,7 @@ export const valley = [
         spirit_name: 'Sparkler Parent',
         spirit_img_url: SPARKLE_PARENT,
         icon_route: SEASON3,
-        spirit_guide_video_url: youtube_embed + 'rUjIYqEcG7M',
+        spirit_guide_video_url: youtube_embed + '1U65HqbrWeM',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Pumasok ka sa Skating Race sa iyong harapan na lagusan.`,
@@ -312,7 +312,7 @@ export const valley = [
         spirit_name: 'Troupe Juggler',
         spirit_img_url: TROUPE_JUGGLER,
         icon_route: SEASON4,
-        spirit_guide_video_url: youtube_embed + 'Z7NwT-3zZVs',
+        spirit_guide_video_url: youtube_embed + 'Fa5csPKdgCo',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Pumasok ka sa tunnel na nasa kaliwang banda ng Ice Rink, sa looban makita mo ang spirit na ito.`,
@@ -331,7 +331,7 @@ export const valley = [
         spirit_name: 'Dancing Performer',
         spirit_img_url: DANCING_PERFORMER,
         icon_route: SEASON8,
-        spirit_guide_video_url: youtube_embed + 'oe6sjjiJrjw',
+        spirit_guide_video_url: youtube_embed + 'CUcyXXvawO8',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, sa mga kabahayan sa kaliwang banda ay makita mo ang spirit na ito.`,
@@ -350,7 +350,7 @@ export const valley = [
         spirit_name: 'Peeking Postman',
         spirit_img_url: PEEKING_POSTMAN,
         icon_route: SEASON8,
-        spirit_guide_video_url: youtube_embed + 'x7GGq7Ef_cQ',
+        spirit_guide_video_url: youtube_embed + 'uCfBPcR9X4k',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, papuntang plaza ng Village of Dreams, at sa likod na bahay ng Quest Giver, ay nakatago ang spirit na ito.`,
@@ -369,7 +369,7 @@ export const valley = [
         spirit_name: 'Spinning Mentor',
         spirit_img_url: SPINNING_MENTOR,
         icon_route: SEASON8,
-        spirit_guide_video_url: youtube_embed + 'IfbDJSE9U8c',
+        spirit_guide_video_url: youtube_embed + 'QOFfrU-J-Yw',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, papuntang plaza ng Village of Dreams, at sa unahan lng ng Quest Giver, bandang kanan, nasa gilid ng bahay ang spirit na ito.`,
@@ -388,7 +388,7 @@ export const valley = [
         spirit_name: 'Bearhug Hermit',
         spirit_img_url: BEARHUG_HERMIT,
         icon_route: SEASON8,
-        spirit_guide_video_url: youtube_embed + '98WLZSrH9fY',
+        spirit_guide_video_url: youtube_embed + 's_0_jm6c8SY',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, papuntang plaza ng Village of Dreams, at sa kabahayan sa kaliwang banda, nasa likod nito ang spirit.`,
@@ -407,7 +407,7 @@ export const valley = [
         spirit_name: 'Frantic Stagehand',
         spirit_img_url: FRANTIC_STAGEHEAD,
         icon_route: SEASON13,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'iRsevRYePBI',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, sa iyong kanan ang Village Theater, pumasok ka.`,
@@ -427,7 +427,7 @@ export const valley = [
         spirit_name: 'Forgetful Storyteller',
         spirit_img_url: FORGETFUL_STORYTELLER,
         icon_route: SEASON13,
-        spirit_guide_video_url: youtube_embed + 'm5iu5e6CgE4?start=267',
+        spirit_guide_video_url: youtube_embed + '6fCttoMbOB0',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, sa iyong kanan ang Village Theater, pumasok ka.`,
@@ -447,7 +447,7 @@ export const valley = [
         spirit_name: 'Mellow Musician',
         spirit_img_url: MELLOW_MUSICIAN,
         icon_route: SEASON13,
-        spirit_guide_video_url: youtube_embed + 'S-snIMOtkB8?start=411',
+        spirit_guide_video_url: youtube_embed + '-K0-u2qIJsM',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, sa iyong kanan ang Village Theater, pumasok ka.`,
@@ -467,7 +467,7 @@ export const valley = [
         spirit_name: 'Modest Dancer',
         spirit_img_url: MODEST_DANCER,
         icon_route: SEASON13,
-        spirit_guide_video_url: youtube_embed + 'mkLk74WFkug',
+        spirit_guide_video_url: youtube_embed + 'g3MSGbE9XZA',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, sa iyong kanan ang Village Theater, pumasok ka.`,
@@ -487,7 +487,7 @@ export const valley = [
         spirit_name: 'Running Wayfarer',
         spirit_img_url: RUNNING_WAYFARER,
         icon_route: SEASON15,
-        spirit_guide_video_url: youtube_embed + 'OBSCV3KYhtw',
+        spirit_guide_video_url: youtube_embed + '0nc59JDjgoA',
         spirit_direction: [
           `Pasok ka sa Ikalimang Mapa - Valley of Triumph, Dumako ka sa Colisuem.`,
           `At hanapin si Aurora spirit sa bandang kanan na may tent. Gawin ang Unang quest.`,
@@ -507,7 +507,7 @@ export const valley = [
         spirit_name: 'Mindful Miner',
         spirit_img_url: MINDFUL_MINER,
         icon_route: SEASON15,
-        spirit_guide_video_url: youtube_embed + 'JhL5XARrPkY',
+        spirit_guide_video_url: youtube_embed + '09XhkJcsL90',
         spirit_direction: [
           `Pasok ka sa Ikalimang Mapa - Valley of Triumph, Dumako ka sa Colisuem.`,
           `At hanapin si Aurora spirit sa bandang kanan na may tent. Gawin ang Pangalawang quest.`,
@@ -527,7 +527,7 @@ export const valley = [
         spirit_name: 'Warrior of Love',
         spirit_img_url: WARRIOR_OF_LOVE,
         icon_route: SEASON15,
-        spirit_guide_video_url: youtube_embed + 'zp8IiXdL_II',
+        spirit_guide_video_url: youtube_embed + 'Lb3DAYkWxoM',
         spirit_direction: [
           `Pasok ka sa Ikalimang Mapa - Valley of Triumph, Dumako ka sa Colisuem.`,
           `At hanapin si Aurora spirit sa bandang kanan na may tent. Gawin ang pangatlong quest.`,
@@ -548,7 +548,7 @@ export const valley = [
         spirit_name: 'Seed of Hope',
         spirit_img_url: SEED_OF_HOPE,
         icon_route: SEASON15,
-        spirit_guide_video_url: youtube_embed + 'ce3xkxPz8jE',
+        spirit_guide_video_url: youtube_embed + 'xLymA7CvM04',
         spirit_direction: [
           `Pasok ka sa Ikalimang Mapa - Valley of Triumph, Dumako ka sa Colisuem.`,
           `At hanapin si Aurora spirit sa bandang kanan na may tent. Gawin ang pang-apat na quest.`,
