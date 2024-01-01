@@ -41,11 +41,11 @@ export const team = [
     avatar_img: bill_avatar,
   },
   {
-    fullname: `Rexyl Mae Celestial`,
+    fullname: `Xyle`,
     facebook: `https://www.facebook.com/mxd.nxght.9`,
     instagram: `https://www.instagram.com/mintxorange/`,
     tiktok: `https://www.tiktok.com/@xyyclstl`,
-    title: `Sky Player`,
+    title: `Amateur Chrochet Maker | Sky Player`,
     avatar_img: xy_avatar,
   },
   {
