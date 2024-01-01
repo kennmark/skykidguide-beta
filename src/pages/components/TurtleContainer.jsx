@@ -5,7 +5,7 @@ const Turtle = () => {
     <>
       <Typography>
         Nagsisimula ang Turtle sa{' '}
-        <span className="text-red-400">ODD Numbers na Oras </span>na may&nbsp;
+        <span className="text-red-400">EVEN Numbers na Oras </span>na may&nbsp;
         <span className="text-amber-700 font-extrabold">:55</span>&nbsp;minuto,
         Halimbawa&nbsp;
         {/* <span className="text-red-400">1</span>
