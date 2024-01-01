@@ -118,6 +118,10 @@ const SpiritCardContainer = ({
             }
           />
         </span>
+        <span className="text-blue-gray-300 text-xs leading-relaxed">
+          Tap / Click ang progress bar upang makita pa tungkol sa difficulty ng
+          spirit.
+        </span>
         <ButtonGroup size="md" ripple={true} fullWidth={true}>
           <Button
             className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
