@@ -96,7 +96,7 @@ export const wasteland = [
         spirit_name: 'Fainting Warrior',
         spirit_img_url: FAINTING_WARRIOR,
         constellation_icon_route: MAP5,
-        spirit_guide_video_url: youtube_embed + 'X0dj10tnvpQ?start=154',
+        spirit_guide_video_url: youtube_embed + 'cfMQdMkXk_Q',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad sa gawing kanan at sa likod ng malaking poste ay ang spirit na ito.`,
@@ -114,7 +114,7 @@ export const wasteland = [
         spirit_name: 'Frightened Refugee',
         spirit_img_url: FRIGHTENED_REFUGEE,
         constellation_icon_route: MAP5,
-        spirit_guide_video_url: youtube_embed + 'jAW8PTC5qT8',
+        spirit_guide_video_url: youtube_embed + '3Y12fLtiFCk',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad sa patungo sa sirang templo, at makita mo ang spirit na ito.`,
@@ -132,7 +132,7 @@ export const wasteland = [
         spirit_name: 'Courageous Soldier',
         spirit_img_url: COURAGEOUS_SOLDIER,
         constellation_icon_route: MAP5,
-        spirit_guide_video_url: youtube_embed + '6fEGZrXCijQ',
+        spirit_guide_video_url: youtube_embed + '_IlgT8cc7Fg',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
@@ -151,7 +151,7 @@ export const wasteland = [
         spirit_name: 'Stealthy Survivor',
         spirit_img_url: STEALTHY_SURVIVOR,
         constellation_icon_route: MAP5,
-        spirit_guide_video_url: youtube_embed + 'XqgBAzIfIsk',
+        spirit_guide_video_url: youtube_embed + 'NhbsBbiaIC4',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
@@ -171,7 +171,7 @@ export const wasteland = [
         spirit_name: 'Saluting Captain',
         spirit_img_url: SALUTING_CAPTAIN,
         constellation_icon_route: MAP5,
-        spirit_guide_video_url: youtube_embed + 'X0dj10tnvpQ?start=665',
+        spirit_guide_video_url: youtube_embed + '8tA8ptXXgLM',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
@@ -191,7 +191,7 @@ export const wasteland = [
         spirit_name: 'Lookout Scout',
         spirit_img_url: LOOKOUT_SCOUT,
         constellation_icon_route: MAP5,
-        spirit_guide_video_url: youtube_embed + 'X0dj10tnvpQ?start=1105',
+        spirit_guide_video_url: youtube_embed + 'FTbNx4P0ygw',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
@@ -228,7 +228,7 @@ export const wasteland = [
         spirit_name: 'Saluting Protector',
         spirit_img_url: SALUTING_PROTECTOR,
         icon_route: SEASON1,
-        spirit_guide_video_url: youtube_embed + '7mYtsn5_ff4',
+        spirit_guide_video_url: youtube_embed + 'ln51yEQiNh4',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
@@ -248,7 +248,7 @@ export const wasteland = [
         spirit_name: 'Pleaful Parent',
         spirit_img_url: PLEAFUL_PARENT,
         icon_route: SEASON3,
-        spirit_guide_video_url: youtube_embed + 'GjUfabmBwvE',
+        spirit_guide_video_url: youtube_embed + '6UUH2_kgesM',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
@@ -268,7 +268,7 @@ export const wasteland = [
         spirit_name: 'Respectful Pianist',
         spirit_img_url: RESPECTFUL_PIANIST,
         icon_route: SEASON4,
-        spirit_guide_video_url: youtube_embed + 'A5rrM_cZWI0',
+        spirit_guide_video_url: youtube_embed + 'dSfferJMUHM',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
@@ -281,7 +281,7 @@ export const wasteland = [
         spirit_id: 'wasteland10',
         season_id: 'season-2',
         spirit_type: 'seasonal',
-        season: 'Season 4 - Season of Lightseeker',
+        season: 'Season 2 - Season of Lightseekers',
         spirit_category: 'call',
         spirit_relive_type: 'carry-memory',
         difficulty_level: 120,
@@ -289,7 +289,7 @@ export const wasteland = [
         spirit_name: 'Crab Whisperer',
         spirit_img_url: CRAB_WHISPERER,
         icon_route: SEASON2,
-        spirit_guide_video_url: youtube_embed + '5iqo_BiP1j0',
+        spirit_guide_video_url: youtube_embed + 'okCFgF0LnXw',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,

@@ -42,7 +42,7 @@ const Team = () => {
               Kenn Mark Sabalberino
             </Typography>
             <Typography color="white" className="font-medium">
-              Developer/ Freelancer
+              Developer / Admin SkyPH
             </Typography>
             {/* <Typography className="flex justify-center">
               <a href="https://www.buymeacoffee.com/KennDev" target="_blank">
