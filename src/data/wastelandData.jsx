@@ -310,7 +310,7 @@ export const wasteland = [
         spirit_name: 'Snoozing Carpenter',
         spirit_img_url: SNOOZING_CARPENTER,
         icon_route: SEASON5,
-        spirit_guide_video_url: youtube_embed + '3ap3tbxOdFM',
+        spirit_guide_video_url: youtube_embed + 'zDzJ3kNvpag',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
@@ -330,7 +330,7 @@ export const wasteland = [
         spirit_name: 'Nodding Muralist',
         spirit_img_url: NODDING_MURALIST,
         icon_route: SEASON5,
-        spirit_guide_video_url: youtube_embed + 'PLP7r3UoIwo',
+        spirit_guide_video_url: youtube_embed + 'ATyUO04_4FY',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
@@ -350,7 +350,7 @@ export const wasteland = [
         spirit_name: 'Crab Walker',
         spirit_img_url: CRAB_WALKER,
         icon_route: SEASON5,
-        spirit_guide_video_url: youtube_embed + 'xhrGhAAAPXc',
+        spirit_guide_video_url: youtube_embed + 'HuUE9oikCRg',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
@@ -370,7 +370,7 @@ export const wasteland = [
         spirit_name: 'Playfighting Herbalist',
         spirit_img_url: PLAYFIGHTING_HERBALIST,
         icon_route: SEASON5,
-        spirit_guide_video_url: youtube_embed + '2C7nqLsQKDU',
+        spirit_guide_video_url: youtube_embed + '7n4j6kDeiX8',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
@@ -390,7 +390,7 @@ export const wasteland = [
         spirit_name: 'Scarecrow Farmer',
         spirit_img_url: SCARECROW_FARMER,
         icon_route: SEASON5,
-        spirit_guide_video_url: youtube_embed + 'il37sBlojXU',
+        spirit_guide_video_url: youtube_embed + 'kGlva_YxYFI',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
@@ -410,7 +410,7 @@ export const wasteland = [
         spirit_name: 'Indifferent Alchemist',
         spirit_img_url: INDIFFERENT_ALCHEMIST,
         icon_route: SEASON5,
-        spirit_guide_video_url: youtube_embed + 'XpMexGi-YO4',
+        spirit_guide_video_url: youtube_embed + 'ZOGLAfZtSeM',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
@@ -430,7 +430,7 @@ export const wasteland = [
         spirit_name: 'Ceasing Commodore',
         spirit_img_url: CEASING_COMMODORE,
         icon_route: SEASON12,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'Qe5W_ZgGQKo',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
           `Pagkadating sa Treasure Reef, lumipad paakyat sa likod ng bukid na nasa harapan makita ang spirit.`,
@@ -449,7 +449,7 @@ export const wasteland = [
         spirit_name: 'Anxious Angler',
         spirit_img_url: ANXIOUS_ANGLER,
         icon_route: SEASON12,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '1NBUcSWFlu8',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
           `Pagkadating sa Treasure Reef, lumipad pakaliwa, at sa mga maliliit na isla makikita ang spirit.`,
@@ -468,7 +468,7 @@ export const wasteland = [
         spirit_name: 'Bumbling Boatswain',
         spirit_img_url: BUMBLING_BOATSWAIN,
         icon_route: SEASON12,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'xFnYj4msYuo',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
           `Pagkadating sa Treasure Reef, lumipad pataas at dumako sa barko na nasa dock, at malapit dito ang spirit.`,
@@ -487,7 +487,7 @@ export const wasteland = [
         spirit_name: 'Cackling Cannoneer',
         spirit_img_url: CACKLING_CANNONEER,
         icon_route: SEASON12,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'https://youtu.be/1yxTCyNbg4o',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
           `Pagkadating sa Treasure Reef, lumipad pataas at dumako sa dulong isla at sa likod nito makita ang spirit.`,
