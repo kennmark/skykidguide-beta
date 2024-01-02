@@ -89,7 +89,7 @@ export const vault = [
         spirit_name: 'Levitating Adept',
         spirit_img_url: LEVITATING_ADEPT,
         constellation_icon_route: MAP6,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'l4zapmZhb7w',
         spirit_direction: [
           `Pasok ka sa Ika-Anim na Mapa - Vault of Knowledge, Lumipad patungo sa Elevating Platform.`,
           `Pagdating sa gitna, sindihan ang mga poste at memory lamps. Umupo sa platform para makaakyat sa 2nd floor`,
@@ -109,7 +109,7 @@ export const vault = [
         spirit_name: 'Polite Scholar',
         spirit_img_url: POLITE_SCHOLAR,
         constellation_icon_route: MAP6,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '2kOiFD5YQ_s',
         spirit_direction: [
           `Pasok ka sa Ika-Anim na Mapa - Vault of Knowledge, Lumipad patungo sa Elevating Platform.`,
           `Pagdating sa gitna, sindihan ang mga poste at memory lamps. Umupo sa platform para makaakyat sa 2nd floor`,
@@ -129,7 +129,7 @@ export const vault = [
         spirit_name: 'Memory Whisperer',
         spirit_img_url: MEMORY_WHISPERER,
         constellation_icon_route: MAP6,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'VFEsHNyXmm8',
         spirit_direction: [
           `Pasok ka sa Ika-Anim na Mapa - Vault of Knowledge, Lumipad patungo sa Elevating Platform.`,
           `Pagdating sa gitna, sindihan ang mga poste at memory lamps, Umakyat ka hanggang makarating ng 4th floor.`,
@@ -149,7 +149,7 @@ export const vault = [
         spirit_name: 'Praying Acolyte',
         spirit_img_url: PRAYING_ACOLYTE,
         constellation_icon_route: MAP6,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'LGFyXjnMtE0',
         spirit_direction: [
           `Pasok ka sa Ika-Anim na Mapa - Vault of Knowledge, Lumipad patungo sa Elevating Platform.`,
           `Pagdating sa platform, sa gawing kanan ay 4-player door, mag-antay ng ibang player (siguraduhing mayroon ka ng
@@ -169,7 +169,7 @@ export const vault = [
         spirit_name: 'Meditating Monastic',
         spirit_img_url: MEDITATING_MONASTIC,
         constellation_icon_route: MAP6,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '0-1qb2iU_a8',
         spirit_direction: [
           `Pasok ka sa Ika-Anim na Mapa - Vault of Knowledge, Lumipad patungo sa Elevating Platform.`,
           `Pagdating sa platform, umakyat hanggang 4th floor.`,
@@ -206,7 +206,7 @@ export const vault = [
         spirit_name: 'Thoughtful Director',
         spirit_img_url: THOUGHTFUL_DIRECTOR,
         icon_route: SEASON4,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'vs3rSSsbULA',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform.`,
           `May 4-player door sa gawing kanan, gawin ang meditating emote.`,
@@ -226,7 +226,7 @@ export const vault = [
         spirit_name: 'Greeting Shaman',
         spirit_img_url: GREETING_SHAMAN,
         icon_route: SEASON1,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'SSeg3jdBfIM',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform.`,
           `Umakyat hanggang 4th floor,Pagkadating sa 4th Floor, lumipad patungo sa constellation ng Hidden Forest`,
@@ -246,7 +246,7 @@ export const vault = [
         spirit_name: 'Shushing Light Scholar',
         spirit_img_url: SHUSHING_LIGHTSCHOLAR,
         icon_route: SEASON2,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'YqX3lKP3sCA',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform.`,
           `Umakyat hanggang 4th floor,Pagkadating sa 4th Floor, lumipad patungo sa 
@@ -267,7 +267,7 @@ export const vault = [
         spirit_name: 'Wise Grandparent',
         spirit_img_url: WISE_GRANDPARENT,
         icon_route: SEASON3,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'brZdwktwP4E',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad sa gawing kanan sa 2-Player Door.`,
           `Pasok papuntang Archives, at nasa gitna ng platform ang spirit na ito`,
@@ -286,7 +286,7 @@ export const vault = [
         spirit_name: 'Slouching Soldier',
         spirit_img_url: SLOUCHING_SOLDIER,
         icon_route: SEASON10,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '4gi3bw88THM',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
           `Maglakad palabas ng lagusan, at lumipad gawing kanan patungo sa malaking banga.`,
@@ -306,7 +306,7 @@ export const vault = [
         spirit_name: 'Gloating Narcissist',
         spirit_img_url: GLOATING_NARCISSIST,
         icon_route: SEASON10,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'T6eFDkfCbb4',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
           `Maglakad palabas ng lagusan, at lumipad gawing kaliwa patungo sa maliit na coliseum kung saan may fireworks.`,
@@ -326,7 +326,7 @@ export const vault = [
         spirit_name: 'Stretching Lamplighter',
         spirit_img_url: STRETCHING_LAMPLIGHTER,
         icon_route: SEASON10,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '33IDYonEa5c',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
           `Maglakad palabas ng lagusan, at lumipad gawing kaliwa patungo sa mataas na tore, at sa loob nito ang spirit.`,
@@ -345,7 +345,7 @@ export const vault = [
         spirit_name: 'Star Collector',
         spirit_img_url: STAR_COLLECTOR,
         icon_route: SEASON10,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'D_eLgCvFtbo',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
           `Maglakad palabas ng lagusan, at lumipad gawing kaliwa patungo sa mga kaulapan at may lagusan ito papasok.`,
@@ -365,7 +365,7 @@ export const vault = [
         spirit_name: 'Beckoning Ruler',
         spirit_img_url: BECKONING_RULER,
         icon_route: SEASON10,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 't6nUg257N5M',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
           `Maglakad palabas ng lagusan, at lumipad patungo sa buwan, at lumapag sa unang islang nakalutang.`,
@@ -385,7 +385,7 @@ export const vault = [
         spirit_name: 'Sneezing Geographer',
         spirit_img_url: SNEEZING_GEOGRAPHER,
         icon_route: SEASON10,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'JjhpahvgdZo',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
           `Maglakad palabas ng lagusan, at lumipad patungo sa buwan, at lumapag sa pangalawang islang nakalutang.`,
@@ -405,7 +405,7 @@ export const vault = [
         spirit_name: 'Bereft Veteran',
         spirit_img_url: BEREFT_VETERAN,
         icon_route: SEASON16,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'feXvYTOGEi4',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform,`,
           `Pagkarating sa gitna, kumaliwa ka at may lagusan pababa kang makikita.`,
@@ -425,7 +425,7 @@ export const vault = [
         spirit_name: 'Wounded Warrior',
         spirit_img_url: WOUNDED_SOLDIER,
         icon_route: SEASON16,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '-Oc-2ftk0OM',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform,`,
           `Pagkarating sa gitna, kumaliwa ka at may lagusan pababa kang makikita.`,
@@ -446,7 +446,7 @@ export const vault = [
         spirit_name: 'Tiptoeing Tea-Brewer',
         spirit_img_url: TIPTOEING_TEABREWER,
         icon_route: SEASON16,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'mwLn70j2Sjs',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform,`,
           `Pagkarating sa gitna, kumaliwa ka at may lagusan pababa kang makikita.`,
@@ -467,7 +467,7 @@ export const vault = [
         spirit_name: 'Pleading Child',
         spirit_img_url: PLEADING_CHILD,
         icon_route: SEASON16,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'PcKmzQOjKFU',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform,`,
           `Pagkarating sa gitna, kumaliwa ka at may lagusan pababa kang makikita.`,
