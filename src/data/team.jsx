@@ -33,7 +33,7 @@ export const team = [
     avatar_img: blu_avatar,
   },
   {
-    fullname: `Bill Ibañez`,
+    fullname: `Nymphis Raffa`,
     facebook: `https://www.facebook.com/Vilgarri.Ibanez`,
     instagram: `https://www.instagram.com/iam_billicious/`,
     tiktok: ``,
