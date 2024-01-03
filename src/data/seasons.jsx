@@ -174,7 +174,7 @@ export const seasons2019 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 20,
         difficulty_types: [1, 4],
-        spirit_guide_video_url: youtube_embed + 'ZX1k1hbb_sw',
+        spirit_guide_video_url: youtube_embed + 'OC0M5IYDnck',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -190,7 +190,7 @@ export const seasons2019 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 40,
         difficulty_types: [1, 4, 6],
-        spirit_guide_video_url: youtube_embed + '_Atgn5k2kBY',
+        spirit_guide_video_url: youtube_embed + 'HCmwZWxOkFM',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
@@ -206,7 +206,7 @@ export const seasons2019 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 20,
         difficulty_types: [1, 4],
-        spirit_guide_video_url: youtube_embed + 'Plpl2MGoZYo',
+        spirit_guide_video_url: youtube_embed + 'ykP_DP2CuBQ',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -222,7 +222,7 @@ export const seasons2019 = [
         spirit_relive_type: 'collect-memory',
         difficulty_level: 40,
         difficulty_types: [2, 3, 7],
-        spirit_guide_video_url: youtube_embed + 'VTh2Qi8BQOM',
+        spirit_guide_video_url: youtube_embed + 'qM46Yfsl4Oc',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Sa kanang banda pababa, ay may 2-Player door, nasa loob nito ang spirit.`,
@@ -236,7 +236,7 @@ export const seasons2019 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 90,
         difficulty_types: [1, 4, 6, 9],
-        spirit_guide_video_url: youtube_embed + '7mYtsn5_ff4',
+        spirit_guide_video_url: youtube_embed + 'ln51yEQiNh4',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
@@ -251,7 +251,7 @@ export const seasons2019 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 30,
         difficulty_types: [0, 2, 5],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'SSeg3jdBfIM',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform.`,
           `Umakyat hanggang 4th floor,Pagkadating sa 4th Floor, lumipad patungo sa constellation ng Hidden Forest`,
@@ -280,7 +280,7 @@ export const seasons2019 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 20,
         difficulty_types: [1, 4],
-        spirit_guide_video_url: youtube_embed + 'tY2JmP_skv0',
+        spirit_guide_video_url: youtube_embed + '6szBwvCEchU',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -296,7 +296,7 @@ export const seasons2019 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 50,
         difficulty_types: [1, 2, 4, 6],
-        spirit_guide_video_url: youtube_embed + 'nQUnUlwujMc',
+        spirit_guide_video_url: youtube_embed + 'SoF7OUY9Tho',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka.`,
@@ -311,7 +311,7 @@ export const seasons2019 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 20,
         difficulty_types: [1, 4],
-        spirit_guide_video_url: youtube_embed + 'rlMGDjpznZo',
+        spirit_guide_video_url: youtube_embed + '7LTOXtTzXc0',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -327,7 +327,7 @@ export const seasons2019 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 2],
-        spirit_guide_video_url: youtube_embed + 'crKnfLTGvvM',
+        spirit_guide_video_url: youtube_embed + 'gJMN_Wuq2lM',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Sa kaliwang banda ay makita mo ang spirit na ito.`,
@@ -341,7 +341,7 @@ export const seasons2019 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 120,
         difficulty_types: [1, 4, 5, 6, 9, 13],
-        spirit_guide_video_url: youtube_embed + '5iqo_BiP1j0',
+        spirit_guide_video_url: youtube_embed + 'okCFgF0LnXw',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
@@ -357,7 +357,7 @@ export const seasons2019 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 55,
         difficulty_types: [1, 4, 5, 6],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'YqX3lKP3sCA',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform.`,
           `Umakyat hanggang 4th floor,Pagkadating sa 4th Floor, lumipad patungo sa 
@@ -388,7 +388,7 @@ export const seasons2019 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 40,
         difficulty_types: [0, 2, 3, 5],
-        spirit_guide_video_url: youtube_embed + 'X2FUMSK0ZLs',
+        spirit_guide_video_url: youtube_embed + 'LPVVeJI9kpo',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -404,7 +404,7 @@ export const seasons2019 = [
         spirit_relive_type: 'collect-memory',
         difficulty_level: 65,
         difficulty_types: [2, 5, 6, 7],
-        spirit_guide_video_url: youtube_embed + 'bBjri4XwR2c',
+        spirit_guide_video_url: youtube_embed + 'H9QcHm8kfBg',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  may makikita kang parang hugis globe na bukid at sa tuktok nito ay makikita mo
@@ -419,7 +419,7 @@ export const seasons2019 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 75,
         difficulty_types: [0, 1, 2, 3, 5, 6],
-        spirit_guide_video_url: youtube_embed + '6TlBquksQa0',
+        spirit_guide_video_url: youtube_embed + 'zX_ids0ygV8',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -435,7 +435,7 @@ export const seasons2019 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 65,
         difficulty_types: [1, 2, 4, 5, 6],
-        spirit_guide_video_url: youtube_embed + 'rUjIYqEcG7M',
+        spirit_guide_video_url: youtube_embed + '1U65HqbrWeM',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Pumasok ka sa Skating Race sa iyong harapan na lagusan.`,
@@ -450,7 +450,7 @@ export const seasons2019 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 150,
         difficulty_types: [1, 4, 5, 6, 9, 10, 13],
-        spirit_guide_video_url: youtube_embed + 'GjUfabmBwvE',
+        spirit_guide_video_url: youtube_embed + '6UUH2_kgesM',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
@@ -461,11 +461,11 @@ export const seasons2019 = [
         spirit_id: 'belonging-spirit-6',
         spirit_name: 'Wise Grandparent',
         spirit_img_url: WISE_GRANDPARENT,
-        spirit_category: 'emote',
+        spirit_category: 'stance',
         spirit_relive_type: 'follow-memory',
         difficulty_level: 60,
         difficulty_types: [0, 2, 3, 5, 6],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'brZdwktwP4E',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad sa gawing kanan sa 2-Player Door.`,
           `Pasok papuntang Archives, at nasa gitna ng platform ang spirit na ito`,
@@ -497,7 +497,7 @@ export const seasons2020 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 40,
         difficulty_types: [0, 1, 2, 5],
-        spirit_guide_video_url: youtube_embed + 'J35XuoEkp5w',
+        spirit_guide_video_url: youtube_embed + 'ab4I-QSR4sU',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -513,7 +513,7 @@ export const seasons2020 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 2],
-        spirit_guide_video_url: youtube_embed + 'eTI_5rJNQqg',
+        spirit_guide_video_url: youtube_embed + 'DUpjerHhBqA',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -529,7 +529,7 @@ export const seasons2020 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 20,
         difficulty_types: [1, 4],
-        spirit_guide_video_url: youtube_embed + 'FpCci6gc0Kg',
+        spirit_guide_video_url: youtube_embed + 'BrqjwxellSM',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -545,7 +545,7 @@ export const seasons2020 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'Z7NwT-3zZVs',
+        spirit_guide_video_url: youtube_embed + 'Fa5csPKdgCo',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Pumasok ka sa tunnel na nasa kaliwang banda ng Ice Rink, sa looban makita mo ang spirit na ito.`,
@@ -559,7 +559,7 @@ export const seasons2020 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 105,
         difficulty_types: [1, 4, 5, 6, 9],
-        spirit_guide_video_url: youtube_embed + 'A5rrM_cZWI0',
+        spirit_guide_video_url: youtube_embed + 'dSfferJMUHM',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad papasok ng sa malaking templo sa harap.`,
@@ -575,7 +575,7 @@ export const seasons2020 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 45,
         difficulty_types: [1, 5, 6],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'vs3rSSsbULA',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform.`,
           `May 4-player door sa gawing kanan, gawin ang meditating emote.`,
@@ -603,7 +603,7 @@ export const seasons2020 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 40,
         difficulty_types: [1, 4, 6],
-        spirit_guide_video_url: youtube_embed + '3ap3tbxOdFM',
+        spirit_guide_video_url: youtube_embed + 'zDzJ3kNvpag',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
@@ -618,7 +618,7 @@ export const seasons2020 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 40,
         difficulty_types: [1, 7, 13],
-        spirit_guide_video_url: youtube_embed + 'PLP7r3UoIwo',
+        spirit_guide_video_url: youtube_embed + 'ATyUO04_4FY',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
@@ -633,7 +633,7 @@ export const seasons2020 = [
         spirit_relive_type: 'collect-memory',
         difficulty_level: 40,
         difficulty_types: [1, 4, 6],
-        spirit_guide_video_url: youtube_embed + 'xhrGhAAAPXc',
+        spirit_guide_video_url: youtube_embed + 'HuUE9oikCRg',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
@@ -648,7 +648,7 @@ export const seasons2020 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 45,
         difficulty_types: [1, 6, 13],
-        spirit_guide_video_url: youtube_embed + '2C7nqLsQKDU',
+        spirit_guide_video_url: youtube_embed + '7n4j6kDeiX8',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
@@ -663,7 +663,7 @@ export const seasons2020 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 20,
         difficulty_types: [1, 4],
-        spirit_guide_video_url: youtube_embed + 'il37sBlojXU',
+        spirit_guide_video_url: youtube_embed + 'kGlva_YxYFI',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
@@ -678,7 +678,7 @@ export const seasons2020 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 35,
         difficulty_types: [1, 4, 13],
-        spirit_guide_video_url: youtube_embed + 'XpMexGi-YO4',
+        spirit_guide_video_url: youtube_embed + 'ZOGLAfZtSeM',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad pababa.`,
           `Pagkalapag, lumipad gawing kanan papuntang Docking Area at sumakay sa bangka.`,
@@ -744,7 +744,7 @@ export const seasons2020 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 35,
         difficulty_types: [0, 2, 6],
-        spirit_guide_video_url: youtube_embed + 'GTnvyuwFNE0',
+        spirit_guide_video_url: youtube_embed + '6UafYcL-qDI',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -761,7 +761,7 @@ export const seasons2020 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 55,
         difficulty_types: [1, 4, 5, 6],
-        spirit_guide_video_url: youtube_embed + '197tor-WWVo',
+        spirit_guide_video_url: youtube_embed + '4W6eiKr_21c',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -778,7 +778,7 @@ export const seasons2020 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 30,
         difficulty_types: [0, 2, 5],
-        spirit_guide_video_url: youtube_embed + 'fMZdaF0WRC8',
+        spirit_guide_video_url: youtube_embed + '3qBtSHuGHtQ',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -794,7 +794,7 @@ export const seasons2020 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 95,
         difficulty_types: [1, 2, 4, 5, 6, 10],
-        spirit_guide_video_url: youtube_embed + 'fILkeV1zji4',
+        spirit_guide_video_url: youtube_embed + 'd_jE1N1qlfM',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -810,7 +810,7 @@ export const seasons2020 = [
         spirit_relive_type: 'collect-memory',
         difficulty_level: 65,
         difficulty_types: [2, 5, 6, 7],
-        spirit_guide_video_url: youtube_embed + 'vqDrzq5MZ9k',
+        spirit_guide_video_url: youtube_embed + 'rGjLAZFGM8o',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -827,7 +827,7 @@ export const seasons2020 = [
         spirit_relive_type: 'collect-memory',
         difficulty_level: 30,
         difficulty_types: [2, 7],
-        spirit_guide_video_url: youtube_embed + 'svKLM5uXQpg',
+        spirit_guide_video_url: youtube_embed + '93xGI6POTDQ',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
@@ -985,7 +985,7 @@ export const seasons2020 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + '6t-gksA_AjE',
+        spirit_guide_video_url: youtube_embed + 'TMz1D1PXGYU',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -1001,7 +1001,7 @@ export const seasons2020 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 35,
         difficulty_types: [0, 1, 6],
-        spirit_guide_video_url: youtube_embed + 'F9MHavec2FE',
+        spirit_guide_video_url: youtube_embed + 'zE7Js8dqFfU',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -1017,7 +1017,7 @@ export const seasons2020 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 35,
         difficulty_types: [0, 2, 6],
-        spirit_guide_video_url: youtube_embed + 'eJ1XmXur2E4',
+        spirit_guide_video_url: youtube_embed + 'uGk2xSqdobk',
         spirit_direction: [
           'Pasok ka sa Unang Mapa - Isle of Dawn, lumakad ka o lumipad papasok sa unang kweba na makita mo.',
           'Lakarin mo ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -1033,7 +1033,7 @@ export const seasons2020 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 35,
         difficulty_types: [0, 1, 6],
-        spirit_guide_video_url: youtube_embed + 'wup0dXxlEn4',
+        spirit_guide_video_url: youtube_embed + 'bEOTU3o7iuM',
         spirit_direction: [
           'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
           'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -1180,7 +1180,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'oe6sjjiJrjw',
+        spirit_guide_video_url: youtube_embed + 'CUcyXXvawO8',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, sa mga kabahayan sa kaliwang banda ay makita mo ang spirit na ito.`,
@@ -1194,7 +1194,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'x7GGq7Ef_cQ',
+        spirit_guide_video_url: youtube_embed + 'uCfBPcR9X4k',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, papuntang plaza ng Village of Dreams, at sa likod na bahay ng Quest Giver, ay nakatago ang spirit na ito.`,
@@ -1208,7 +1208,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'IfbDJSE9U8c',
+        spirit_guide_video_url: youtube_embed + 'QOFfrU-J-Yw',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, papuntang plaza ng Village of Dreams, at sa unahan lng ng Quest Giver, bandang kanan, nasa gilid ng bahay ang spirit na ito.`,
@@ -1222,7 +1222,7 @@ export const seasons2021 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 55,
         difficulty_types: [1, 4, 5, 6],
-        spirit_guide_video_url: youtube_embed + '98WLZSrH9fY',
+        spirit_guide_video_url: youtube_embed + 's_0_jm6c8SY',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, papuntang plaza ng Village of Dreams, at sa kabahayan sa kaliwang banda, nasa likod nito ang spirit.`,
@@ -1360,7 +1360,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [0, 1, 2, 6],
-        spirit_guide_video_url: youtube_embed + 'vRy9eyVQTX0',
+        spirit_guide_video_url: youtube_embed + '2P8DrkECLCM',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -1375,7 +1375,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [0, 1, 2, 6],
-        spirit_guide_video_url: youtube_embed + 'ESYM7mzrZv8',
+        spirit_guide_video_url: youtube_embed + 'FjBXDty6SuQ',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -1390,7 +1390,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [0, 1, 2, 6],
-        spirit_guide_video_url: youtube_embed + 'FIX2wsGwMRk',
+        spirit_guide_video_url: youtube_embed + 'j1ciHsJ937o',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -1406,7 +1406,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [0, 1, 2, 6],
-        spirit_guide_video_url: youtube_embed + 'ygMPERry2xs',
+        spirit_guide_video_url: youtube_embed + 'o_xH5KOe_nc',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -1422,7 +1422,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [0, 1, 2, 6],
-        spirit_guide_video_url: youtube_embed + 'W5gAsEBSNas',
+        spirit_guide_video_url: youtube_embed + '7H1jciUCheE',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -1438,7 +1438,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [0, 1, 2, 6],
-        spirit_guide_video_url: youtube_embed + 'douhHwsYmJw',
+        spirit_guide_video_url: youtube_embed + 'Z-aufTQT0H0',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
           'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
@@ -1515,7 +1515,7 @@ export const seasons2021 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 30,
         difficulty_types: [1, 2, 4],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '4gi3bw88THM',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
           `Maglakad palabas ng lagusan, at lumipad gawing kanan patungo sa malaking banga.`,
@@ -1530,7 +1530,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 25,
         difficulty_types: [0, 1, 2],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'T6eFDkfCbb4',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
           `Maglakad palabas ng lagusan, at lumipad gawing kaliwa patungo sa maliit na coliseum kung saan may fireworks.`,
@@ -1545,7 +1545,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 25,
         difficulty_types: [0, 1, 2],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '33IDYonEa5c',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
           `Maglakad palabas ng lagusan, at lumipad gawing kaliwa patungo sa mataas na tore, at sa loob nito ang spirit.`,
@@ -1559,7 +1559,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [2, 5, 7],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'D_eLgCvFtbo',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
           `Maglakad palabas ng lagusan, at lumipad gawing kaliwa patungo sa mga kaulapan at may lagusan ito papasok.`,
@@ -1574,7 +1574,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 25,
         difficulty_types: [0, 1, 2],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 't6nUg257N5M',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
           `Maglakad palabas ng lagusan, at lumipad patungo sa buwan, at lumapag sa unang islang nakalutang.`,
@@ -1589,7 +1589,7 @@ export const seasons2021 = [
         spirit_relive_type: 'carry-memory',
         difficulty_level: 30,
         difficulty_types: [1, 2, 4],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'JjhpahvgdZo',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad gawing kaliwa at pumasok ka sa lagusan,`,
           `Maglakad palabas ng lagusan, at lumipad patungo sa buwan, at lumapag sa pangalawang islang nakalutang.`,
@@ -1684,7 +1684,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [0, 1, 2, 6],
-        spirit_guide_video_url: youtube_embed + 'hrEATTwKo5A?start=253',
+        spirit_guide_video_url: youtube_embed + '_WIn5vyLPv4',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
           'Lumapag ka sa pinakamalaking isla, at gawing kaliwa sa mga hagdanan ay nandoon ang spirit',
@@ -1698,7 +1698,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [0, 1, 2, 6],
-        spirit_guide_video_url: youtube_embed + 'CjUqSpOT2WA',
+        spirit_guide_video_url: youtube_embed + 'pJjVGRbjL3g',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
           'Lumapag ka sa pinakamalaking isla, at sa likod lang ng isla makita mo ang spirit na ito',
@@ -1712,7 +1712,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [0, 1, 2, 6],
-        spirit_guide_video_url: youtube_embed + '1fPZOKhpqoU',
+        spirit_guide_video_url: youtube_embed + 'xFXP57ZCsvw',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
           'Lumapag ka sa pangalawang isla mula sa kaliwa, na nakapalibot sa main na isla. Andito ang spirit na ito.',
@@ -1726,7 +1726,7 @@ export const seasons2021 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [0, 1, 2, 6],
-        spirit_guide_video_url: youtube_embed + 'DgJk7h0sy3w',
+        spirit_guide_video_url: youtube_embed + 'bzCvgOT3t0g',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
           'Lumapag ka sa unang isla mula sa kanan at makita mo ang spirit dito.',
@@ -1789,7 +1789,7 @@ export const seasons2022 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 35,
         difficulty_types: [0, 2, 6],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'Qe5W_ZgGQKo',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
           `Pagkadating sa Treasure Reef, lumipad paakyat sa likod ng bukid na nasa harapan makita ang spirit.`,
@@ -1803,7 +1803,7 @@ export const seasons2022 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 35,
         difficulty_types: [0, 2, 6],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '1NBUcSWFlu8',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
           `Pagkadating sa Treasure Reef, lumipad pakaliwa, at sa mga maliliit na isla makikita ang spirit.`,
@@ -1817,7 +1817,7 @@ export const seasons2022 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 35,
         difficulty_types: [0, 2, 6],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'xFnYj4msYuo',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
           `Pagkadating sa Treasure Reef, lumipad pataas at dumako sa barko na nasa dock, at malapit dito ang spirit.`,
@@ -1831,7 +1831,7 @@ export const seasons2022 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 35,
         difficulty_types: [0, 2, 6],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '1yxTCyNbg4o',
         spirit_direction: [
           `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
           `Pagkadating sa Treasure Reef, lumipad pataas at dumako sa dulong isla at sa likod nito makita ang spirit.`,
@@ -1900,7 +1900,7 @@ export const seasons2022 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'm5iu5e6CgE4?start=267',
+        spirit_guide_video_url: youtube_embed + '6fCttoMbOB0',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, sa iyong kanan ang Village Theater, pumasok ka.`,
@@ -1915,7 +1915,7 @@ export const seasons2022 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'iRsevRYePBI',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, sa iyong kanan ang Village Theater, pumasok ka.`,
@@ -1930,7 +1930,7 @@ export const seasons2022 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'S-snIMOtkB8?start=411',
+        spirit_guide_video_url: youtube_embed + '-K0-u2qIJsM',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, sa iyong kanan ang Village Theater, pumasok ka.`,
@@ -1945,7 +1945,7 @@ export const seasons2022 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'mkLk74WFkug',
+        spirit_guide_video_url: youtube_embed + 'g3MSGbE9XZA',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, sa iyong kanan may may lagusan, pumasok ka.`,
           `Mag-skate pababa, sa iyong kanan ang Village Theater, pumasok ka.`,
@@ -2041,7 +2041,7 @@ export const seasons2022 = [
         spirit_relive_type: 'task',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'OBSCV3KYhtw',
+        spirit_guide_video_url: youtube_embed + '0nc59JDjgoA',
         spirit_direction: [
           `Pasok ka sa Ikalimang Mapa - Valley of Triumph, Dumako ka sa Colisuem.`,
           `At hanapin si Aurora spirit sa bandang kanan na may tent. Gawin ang Unang quest.`,
@@ -2056,7 +2056,7 @@ export const seasons2022 = [
         spirit_relive_type: 'task',
         difficulty_level: 25,
         difficulty_types: [0, 1, 2],
-        spirit_guide_video_url: youtube_embed + 'JhL5XARrPkY',
+        spirit_guide_video_url: youtube_embed + '09XhkJcsL90',
         spirit_direction: [
           `Pasok ka sa Ikalimang Mapa - Valley of Triumph, Dumako ka sa Colisuem.`,
           `At hanapin si Aurora spirit sa bandang kanan na may tent. Gawin ang Pangalawang quest.`,
@@ -2071,7 +2071,7 @@ export const seasons2022 = [
         spirit_relive_type: 'task',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'ce3xkxPz8jE',
+        spirit_guide_video_url: youtube_embed + 'xLymA7CvM04',
         spirit_direction: [
           `Pasok ka sa Ikalimang Mapa - Valley of Triumph, Dumako ka sa Colisuem.`,
           `At hanapin si Aurora spirit sa bandang kanan na may tent. Gawin ang pang-apat na quest.`,
@@ -2086,7 +2086,7 @@ export const seasons2022 = [
         spirit_relive_type: 'task',
         difficulty_level: 25,
         difficulty_types: [0, 1, 2],
-        spirit_guide_video_url: youtube_embed + 'zp8IiXdL_II',
+        spirit_guide_video_url: youtube_embed + 'Lb3DAYkWxoM',
         spirit_direction: [
           `Pasok ka sa Ikalimang Mapa - Valley of Triumph, Dumako ka sa Colisuem.`,
           `At hanapin si Aurora spirit sa bandang kanan na may tent. Gawin ang pangatlong quest.`,
@@ -2119,7 +2119,7 @@ export const seasons2023 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 25,
         difficulty_types: [0, 1, 2],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'feXvYTOGEi4',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform,`,
           `Pagkarating sa gitna, kumaliwa ka at may lagusan pababa kang makikita.`,
@@ -2134,7 +2134,7 @@ export const seasons2023 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 25,
         difficulty_types: [0, 1, 2],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'PcKmzQOjKFU',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform,`,
           `Pagkarating sa gitna, kumaliwa ka at may lagusan pababa kang makikita.`,
@@ -2150,7 +2150,7 @@ export const seasons2023 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 25,
         difficulty_types: [0, 1, 2],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'mwLn70j2Sjs',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform,`,
           `Pagkarating sa gitna, kumaliwa ka at may lagusan pababa kang makikita.`,
@@ -2166,7 +2166,7 @@ export const seasons2023 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 25,
         difficulty_types: [0, 1, 2],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '-Oc-2ftk0OM',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo sa elevating platform,`,
           `Pagkarating sa gitna, kumaliwa ka at may lagusan pababa kang makikita.`,
@@ -2227,7 +2227,7 @@ export const seasons2023 = [
         difficulty_level: 15,
         difficulty_types: [0, 1],
         spirit_relive_type: 'follow-memory',
-        spirit_guide_video_url: youtube_embed + 'dj5NMRkGBoo',
+        spirit_guide_video_url: youtube_embed + 'rPGqdQf90Ns',
         spirit_direction: [
           'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
           'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -2243,7 +2243,7 @@ export const seasons2023 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'Ev1SkZRrwV0',
+        spirit_guide_video_url: youtube_embed + 'jBp8u1A0nmg',
         spirit_direction: [
           'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
           'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -2259,7 +2259,7 @@ export const seasons2023 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'JJGW3koPH3Y',
+        spirit_guide_video_url: youtube_embed + 'vkO4ujp0JNc',
         spirit_direction: [
           'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
           'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
@@ -2275,7 +2275,7 @@ export const seasons2023 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'LQAdsM3l6vg',
+        spirit_guide_video_url: youtube_embed + 'zv1fVtpaWoY',
         spirit_direction: [
           `Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.`,
           `Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.`,
@@ -2322,7 +2322,7 @@ export const seasons2023 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 35,
         difficulty_types: [0, 1, 6],
-        spirit_guide_video_url: youtube_embed + 'MN1DV_iu7EQ',
+        spirit_guide_video_url: youtube_embed + 'jhm4hLDM-88',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
@@ -2338,7 +2338,7 @@ export const seasons2023 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
-        spirit_guide_video_url: youtube_embed + 'C8otHgCYJ7U',
+        spirit_guide_video_url: youtube_embed + 'KsXwZnr5dQU',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
@@ -2356,7 +2356,7 @@ export const seasons2023 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [0, 2, 4, 6],
-        spirit_guide_video_url: youtube_embed + 'v8ecSqd3NOA',
+        spirit_guide_video_url: youtube_embed + 'vQ_Jyh_oink',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
@@ -2373,7 +2373,7 @@ export const seasons2023 = [
         spirit_relive_type: 'follow-memory',
         difficulty_level: 25,
         difficulty_types: [0, 1, 11],
-        spirit_guide_video_url: youtube_embed + 'PSttOiSBiys',
+        spirit_guide_video_url: youtube_embed + 'tDwp1gBOIv4',
         spirit_direction: [
           `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
           `Pagkalapag, gawing kaliwa mo ay may lagusan papasok.`,
