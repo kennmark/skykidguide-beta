@@ -734,7 +734,9 @@ export const seasons2020 = [
     ms_num: 1,
     icon_route: SEASON6,
     page_route: 'seasons/2020/season-6/sanctuary',
-    quick_info: `Spirits are seeking an island retreat in Daylight Prairie. Join them for some relaxation and sightseeing. This special Season looks to bring a retreat-like experience for everyone playing and staying safe at home. Meet the new Spirits, learn about their backstories, and unlock the fun summer-inspired Collectibles along the way!`,
+    quick_info: `Spirits are seeking an island retreat in Daylight Prairie.
+    Join them for some relaxation and sightseeing. This special Season looks to bring 
+    a retreat-like experience for everyone playing and staying safe at home.`,
     season_spirits: [
       {
         spirit_id: 'sanctuary-spirit-1',
@@ -1165,9 +1167,7 @@ export const seasons2021 = [
     quick_info: `The Season of Dreams took players 
     through the journey of a young spirit who dreams 
     of performing in the Valley of Triumph’s Coliseum. 
-    Enter the humble new Village of Dreams and perilous 
-    Hermit Valley in Valley of Triumph and follow the 
-    tale of the young skater. Similar to the previous 
+    Similar to the previous 
     season, there were 4 Mentors/Spirits, each challenging 
     you and the young skater with unique quests that will 
     test your performance skills.`,
@@ -1344,11 +1344,8 @@ export const seasons2021 = [
     quick_info: `Set in the rainy Hidden Forest, 
     this story follows a lone Scout spirit who 
     invites players to help build and then adorn 
-    a treehouse fit for hosting friends. Throughout 
-    the course of the season, players will be prompted
-     to visit the dwellings of the six other Scout spirits 
-     in order to gather the perfect items for improving 
-     the space. Each spirit this season is individually 
+    a treehouse fit for hosting friends.
+    Each spirit this season is individually 
      related to the realm Ancestors of Sky – with their 
      theme and items a reflection of their personalities.`,
     season_spirits: [
@@ -1504,8 +1501,7 @@ export const seasons2021 = [
      Little Prince (French: Le Petit Prince). This season 
      featured six prominent characters from the story as 
      spirits, as well as the Little Prince as the protagonist
-      and The Rose as the Seasonal Guide. Befriend the royal
-       visitor and discover lost connections.`,
+      and The Rose as the Seasonal Guide.`,
     season_spirits: [
       {
         spirit_id: 'the-little-prince-spirit-1',

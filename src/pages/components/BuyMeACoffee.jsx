@@ -44,6 +44,12 @@ export function BuyMeACoffee() {
             />
           </a>
         </div>
+        <div>OR</div>
+        <div>
+          <a href="https://www.buymeacoffee.com/KennDev" target="_blank">
+            Buy Me a Coffee
+          </a>
+        </div>
       </CardBody>
     </Card>
   )

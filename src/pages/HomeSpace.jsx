@@ -151,16 +151,23 @@ const HomeSpace = () => {
             https:alt="image 1"
             className="h-full w-full object-cover"
           />
-          <img
-            src={carousel2}
-            https:alt="image 2"
-            className="h-full w-full object-cover"
-          />
-          <img
-            src={carousel3}
-            alt="image 4"
-            className="h-full w-full object-cover"
-          />
+          <a
+            href="https://www.facebook.com/groups/skycotlphofficial"
+            target="_blank"
+          >
+            <img
+              src={carousel2}
+              https:alt="image 2"
+              className="h-full w-full object-cover"
+            />
+          </a>
+          <a href="https://www.youtube.com/@SKYKIDTulongGabay" target="_blank">
+            <img
+              src={carousel3}
+              alt="image 4"
+              className="h-full w-full object-cover"
+            />
+          </a>
         </Carousel>
         <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border-none bg-gradient-to-br py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
           <div>
