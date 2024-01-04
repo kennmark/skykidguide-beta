@@ -40,6 +40,7 @@ import {
   GIF_WASTELAND,
   GIF_VAULT,
   GIF_EDEN,
+  GIF_AVIARY,
   GIF_SEASON,
   ISLE_ALT,
   PRAIRIE_ALT,
@@ -48,6 +49,7 @@ import {
   WASTELAND_ALT,
   VAULT_ALT,
   EDEN_ALT,
+  AVIARY_ALT,
   SEASON_ALT,
 } from '../exports/mapGIFs'
 
@@ -157,6 +159,22 @@ export const maps = [
     num_of_reg_spirits: EDEN_NUM_REG_SPIRIT,
     num_of_season_spirits: EDEN_NUM_SEASON_SPIRIT,
     num_of_map_shrines: EDEN_NUM_MAP_SHRINES,
+  },
+  {
+    id: 8,
+    title: 'Aviary Village',
+    subtitle: 'Ika-Walong Mapa',
+    map_intro: 'Push into the darkness',
+    alt: AVIARY_ALT,
+    img: GIF_AVIARY,
+    group: 'map-8 shadow-8',
+    pageRoute: 'seasons/2023/season-19/revival',
+    caption:
+      'Ang nakalimutang parte ng kingdom ng Sky ay nagbabalik - Aviary Village',
+    num_of_wls: S19_NUM_WL,
+    num_of_reg_spirits: S19_NUM_REG_SPIRIT,
+    num_of_season_spirits: S19_NUM_SEASON_SPIRIT,
+    num_of_map_shrines: S19_NUM_MAP_SHRINES,
   },
   // {
   //   id: 8,

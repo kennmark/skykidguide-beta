@@ -140,6 +140,7 @@ import { VK_MS2, VK_MS4 } from '../exports/vaultMSImgUrl'
 import { GW_MS7, GW_MS8 } from '../exports/wastelandMSImgUrl'
 import { DP_MS7, DP_MS9 } from '../exports/prairieMSImgUrl'
 import { HF_MS9, HF_MS10 } from '../exports/forestMSImgUrl'
+import { AV_MS1 } from '../exports/aviaryMSImgUrl'
 import {
   ID_MS5,
   ID_MS6,
@@ -2487,6 +2488,18 @@ export const seasons2023 = [
         spirit_relive_type: 'task',
         difficulty_level: 5,
         difficulty_types: [8],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 1,
+        shrine_label: 'Map Shrine 1',
+        shrine_url: AV_MS1 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Aviary Village, ang nasa gitnang portal sa Old Home.`,
+          `Or kung nasa Aviary Village ka na,`,
+          `Pagkapasok sa portal, dumako sa dulo ng village at malapit sa wardrobe, makikita ang map shrine`,
+        ],
       },
     ],
   },

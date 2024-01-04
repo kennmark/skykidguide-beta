@@ -27,6 +27,8 @@ import {
   WASTELAND_NUM_MAP_SHRINES,
   VAULT_NUM_MAP_SHRINES,
   EDEN_NUM_MAP_SHRINES,
+  MS_HOME,
+  S19_NUM_MAP_SHRINES,
 } from '../exports/constants'
 import CardContainer from './components/CardContainer'
 
@@ -83,6 +85,18 @@ const PageMapShrines = () => {
                 </tr>
               </thead>
               <tbody>
+                <tr>
+                  <td className="border border-slate-700 p-3">Old Home</td>
+                  <td className="border border-slate-700 p-3">{MS_HOME}</td>
+                </tr>
+                <tr>
+                  <td className="border border-slate-700 p-3">
+                    Aviary Village
+                  </td>
+                  <td className="border border-slate-700 p-3">
+                    {S19_NUM_MAP_SHRINES}
+                  </td>
+                </tr>
                 <tr>
                   <td className="border border-slate-700 p-3">
                     MS in Isle of Dawn

@@ -68,7 +68,7 @@ const SideBar = ({ screenSize }) => {
                     : ''
                 }`}
               >
-                Mapa 1-7
+                Mapa 1-8
               </Typography>
             </AccordionHeader>
           </ListItem>

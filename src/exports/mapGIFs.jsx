@@ -6,6 +6,7 @@ import crabby from '../assets/images/animated/animated-5.gif'
 import lantey from '../assets/images/animated/animated-7.gif'
 import mothy from '../assets/images/animated/animated-1.gif'
 import candly from '../assets/images/animated/animated-8.gif'
+import weasle from '../assets/images/animated/animated-11.gif'
 
 export const GIF_ISLE = annuby
 export const ISLE_ALT = 'Annubis Mask'
@@ -27,6 +28,9 @@ export const VAULT_ALT = 'Lantern'
 
 export const GIF_EDEN = mothy
 export const EDEN_ALT = 'Mothy'
+
+export const GIF_AVIARY = weasle
+export const AVIARY_ALT = 'Weasle'
 
 export const GIF_SEASON = candly
 export const SEASON_ALT = 'Candle'
