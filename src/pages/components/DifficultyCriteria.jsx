@@ -22,6 +22,7 @@ const DifficultyCriteria = () => {
         <Chip color="cyan" value="Swim +10" />
         <Chip color="pink" value="Chase +15" />
         <Chip color="red" value="Crabs +15" />
+        <Chip color="gray" value="None" />
       </div>
     </Alert>
   )

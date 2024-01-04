@@ -127,11 +127,10 @@ const HomeSpace = () => {
   return (
     <div>
       <AnnouncementModal />
-      <figure className="relative carousel-image w-full my-6 px-1">
+      <figure className="relative carousel-image w-full h-full my-6 px-1">
         <Carousel
           autoplay={true}
           loop={true}
-          className="rounded-xl"
           navigation={({ setActiveIndex, activeIndex, length }) => (
             <div className="absolute bottom-4 left-2/4 z-40 flex -translate-x-2/4 gap-2">
               {new Array(length).fill('').map((_, i) => (
@@ -149,7 +148,7 @@ const HomeSpace = () => {
           <img
             src={carousel1}
             https:alt="image 1"
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover rounded-xl"
           />
           <a
             href="https://www.facebook.com/groups/skycotlphofficial"
@@ -158,14 +157,14 @@ const HomeSpace = () => {
             <img
               src={carousel2}
               https:alt="image 2"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover rounded-xl"
             />
           </a>
           <a href="https://www.youtube.com/@SKYKIDTulongGabay" target="_blank">
             <img
               src={carousel3}
               alt="image 4"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover rounded-xl"
             />
           </a>
         </Carousel>

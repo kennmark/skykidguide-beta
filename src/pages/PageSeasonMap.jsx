@@ -122,6 +122,21 @@ const PageSeasonMap = () => {
               </div>
             </div>
           </Carousel>
+          {/* Seasons 2024 */}
+          {/* <div className="pt-5 w-full px-5">
+            <div className="">
+              <Alert className="flex justify-center text-xl bg-blue-900/50">
+                Seasons 2024 - [The Nine Colored Deer]
+              </Alert>
+            </div>
+
+            <div className="flex flex-wrap  justify-center gap-4 py-5">
+              {seasons2024.map((season) => {
+                return <SeasonDisplayContainer {...season} key={season.id} />
+              })}
+            </div>
+          </div> */}
+          {/* Seasons 2024 */}
           {/* Seasons 2023 */}
           <div className="pt-5 w-full px-5">
             <div className="">
