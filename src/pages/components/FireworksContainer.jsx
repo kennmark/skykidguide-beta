@@ -4,7 +4,7 @@ const Fireworks = () => {
   return (
     <>
       <Typography>
-        Nagsisimula ang Fireworks sa{' '}
+        Nagsisimula ang Fireworks sa unang araw ng buwan sa saktong oras na{' '}
         <span className="text-red-400">EVEN Numbers na Oras </span>na may&nbsp;
         <span className="text-amber-700 font-extrabold">:00</span>&nbsp;minuto,
         Halimbawa&nbsp;
