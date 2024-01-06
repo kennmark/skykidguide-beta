@@ -1,12 +1,12 @@
 import { Button, Typography } from '@material-tailwind/react'
 
-const Turtle = () => {
+const Fireworks = () => {
   return (
     <>
       <Typography>
-        Nagsisimula ang Turtle sa{' '}
+        Nagsisimula ang Fireworks sa{' '}
         <span className="text-red-400">EVEN Numbers na Oras </span>na may&nbsp;
-        <span className="text-amber-700 font-extrabold">:55</span>&nbsp;minuto,
+        <span className="text-amber-700 font-extrabold">:00</span>&nbsp;minuto,
         Halimbawa&nbsp;
         {/* <span className="text-red-400">1</span>
         <span className="text-amber-700 font-extrabold">:55</span>, &nbsp;
@@ -18,28 +18,23 @@ const Turtle = () => {
         <span className="text-amber-700 font-extrabold">:55</span>, &nbsp;
         <span className="text-red-400">9</span>
         <span className="text-amber-700 font-extrabold">:55</span>, &nbsp;
-        <span className="text-red-400">11</span> */}
-        <span className="text-red-400">2</span>
-        <span className="text-amber-700 font-extrabold">:55</span>, &nbsp;
+        <span className="text-red-400">11</span>  */}
         <span className="text-red-400">4</span>
-        <span className="text-amber-700 font-extrabold">:55</span>, &nbsp;
-        <span className="text-red-400">6</span>
-        <span className="text-amber-700 font-extrabold">:55</span>, &nbsp;
+        <span className="text-amber-700 font-extrabold">:00</span>, &nbsp;
         <span className="text-red-400">8</span>
-        <span className="text-amber-700 font-extrabold">:55</span>, &nbsp;
-        <span className="text-red-400">10</span>
-        <span className="text-amber-700 font-extrabold">:55</span>, &nbsp;
+        <span className="text-amber-700 font-extrabold">:00</span>, &nbsp;
         <span className="text-red-400">12</span>
-        <span className="text-amber-700 font-extrabold">:55</span>. At tumatagal
+        <span className="text-amber-700 font-extrabold">:00</span>. At tumatagal
         lamang ito ng{' '}
         <span className="text-amber-700 font-extrabold">
-          sampung (10) minuto
+          labing-limang (15) minuto
         </span>
-        . Mahahanap mo ito sa Sanctuary Islands, dako sa mga maliliit na isla,
-        ng Daylight Prairie | Ikalawang Mapa.
+        . Mahahanap mo ito sa Aviary Village | Ika-walong mapa (Iyong nasa
+        gitnang portal na nasa dagat kung ikaw ay galing sa old home), dako sa
+        portal area kung saan makikita ang fireworks staff.
       </Typography>
     </>
   )
 }
 
-export default Turtle
+export default Fireworks

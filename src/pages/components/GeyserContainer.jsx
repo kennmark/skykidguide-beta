@@ -29,7 +29,7 @@ const GeyserContainer = () => {
         <span className="text-red-400">10</span>
         <span className="text-amber-700 font-extrabold">:05</span>, &nbsp;
         <span className="text-red-400">12</span>
-        <span className="text-amber-700 font-extrabold">:05</span>. At tumatakbo
+        <span className="text-amber-700 font-extrabold">:05</span>. At tumatagal
         lamang ito ng{' '}
         <span className="text-amber-700 font-extrabold">
           sampung (10) minuto
