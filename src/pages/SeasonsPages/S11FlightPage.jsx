@@ -75,12 +75,11 @@ const S11Flight = () => {
                     {quick_info} Nagsimula ito noong {time_duration}. May{' '}
                     {spirit_num} na spirits sa season na ito at{' '}
                     {wl_num ? 'May ' + wl_num : '(0) o walang winged light '}
-                    &nbsp; winged light(s) sa bawat trials dito. Sa season na
-                    ito ay
+                    &nbsp; winged light(s). Sa season na ito ay
                     {ms_num
                       ? ' may ' + ms_num
                       : ' (0) o walang map shrine'}{' '}
-                    &nbsp;map shrine(s) sa bawat trials dito.
+                    &nbsp;map shrine(s).
                   </Typography>{' '}
                   <br />
                   <Typography>
