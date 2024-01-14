@@ -1,7 +1,7 @@
 import React from 'react'
 import moment from 'moment'
 
-export default class countdownTimer extends React.Component {
+export default class TimerCountdown extends React.Component {
   state = {
     days: undefined,
     hours: undefined,
