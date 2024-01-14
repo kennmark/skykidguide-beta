@@ -1,9 +1,8 @@
 import { Carousel, Typography, Button, Alert } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
-import carousel1 from '../assets/images/seasonal-banners/Season of Revival-1.jpg'
-import carousel2 from '../assets/images/seasonal-banners/Season of Revival-2.jpg'
-import carousel3 from '../assets/images/seasonal-banners/Season of Revival-3.jpg'
+import carousel1 from '../assets/images/seasonal-banners/season-nine-colored-deer-1.jpg'
+import carousel2 from '../assets/images/seasonal-banners/season-nine-colored-deer-2.jpg'
 import SeasonDisplayContainer from './components/SeasonDisplayContainer'
 import {
   seasons2019,
@@ -11,6 +10,7 @@ import {
   seasons2021,
   seasons2022,
   seasons2023,
+  seasons2024,
 } from '../data/seasons'
 const PageSeasonMap = () => {
   return (
@@ -41,7 +41,7 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 19 | Season of Revival
+                    Season 20 | Season of The Nine colored Deer
                   </Typography>
                   <Typography
                     variant="lead"
@@ -59,7 +59,7 @@ const PageSeasonMap = () => {
                     >
                       Pasok
                     </Button>
-                    <a href="https://www.thatskygame.com/news/build-together-with-season-of-revival/">
+                    <a href="https://www.thatskygame.com/">
                       <Button size="sm" color="white" variant="outlined">
                         Visit Site
                       </Button>
@@ -81,20 +81,19 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Building Towards the Future
+                    New Season | New Map
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    Aviary Village won’t be built in a day, but we promise good
-                    times and lasting memories ahead!
+                    3rd Season Collaboration in Sky.
                   </Typography>
                 </div>
               </div>
             </div>
-            <div className="relative h-full w-full">
+            {/* <div className="relative h-full w-full">
               <img
                 src={carousel3}
                 alt="image 3"
@@ -120,10 +119,10 @@ const PageSeasonMap = () => {
                   </Typography>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Carousel>
           {/* Seasons 2024 */}
-          {/* <div className="pt-5 w-full px-5">
+          <div className="pt-5 w-full px-5">
             <div className="">
               <Alert className="flex justify-center text-xl bg-blue-900/50">
                 Seasons 2024 - [The Nine Colored Deer]
@@ -135,7 +134,7 @@ const PageSeasonMap = () => {
                 return <SeasonDisplayContainer {...season} key={season.id} />
               })}
             </div>
-          </div> */}
+          </div>
           {/* Seasons 2024 */}
           {/* Seasons 2023 */}
           <div className="pt-5 w-full px-5">

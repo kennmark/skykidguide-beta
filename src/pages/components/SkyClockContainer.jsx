@@ -10,6 +10,7 @@ import { createElement, useState } from 'react'
 
 const SkyClockContainer = () => {
   const [activeTab, setActiveTab] = useState('geyser')
+
   return (
     <div className="w-full border-b border-blue-gray-50 py-4">
       <Tabs value={activeTab}>
@@ -26,7 +27,7 @@ const SkyClockContainer = () => {
             >
               <div className="flex items-center gap-2 py-2">
                 {createElement(icon, { className: 'w-5 h-5' })}
-                {label}
+                {screen.width > 750 ? label : ''}
               </div>
             </Tab>
           ))}

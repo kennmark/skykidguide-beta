@@ -18,6 +18,7 @@ import {
   SEASON17,
   SEASON18,
   SEASON19,
+  SEASON20,
 } from '../exports/seasonIcons'
 import {
   SASSY_DRIFTER,
@@ -104,6 +105,10 @@ import {
   PLEADING_CHILD,
   TIPTOEING_TEABREWER,
   WOUNDED_SOLDIER,
+  PRINCESS,
+  FEUDAL_LORD,
+  HUNTER,
+  HERB_GATHERER,
 } from '../exports/spiritIcons'
 import {
   GW_WL15,
@@ -135,8 +140,15 @@ import {
 } from '../exports/valleyWLImgUrl'
 import { VT_MS7, VT_MS8, VT_MS9, VT_MS10 } from '../exports/valleyMSImgUrl'
 import { HF_WL17, HF_WL18, HF_WL19 } from '../exports/forestImgWLUrl'
-import { VK_WL9, VK_WL10, VK_WL11, VK_WL12 } from '../exports/vaultWLImgUrl'
-import { VK_MS2, VK_MS4 } from '../exports/vaultMSImgUrl'
+import {
+  VK_WL9,
+  VK_WL10,
+  VK_WL11,
+  VK_WL12,
+  VK_WL13,
+  VK_WL14,
+} from '../exports/vaultWLImgUrl'
+import { VK_MS2, VK_MS4, VK_MS10 } from '../exports/vaultMSImgUrl'
 import { GW_MS7, GW_MS8 } from '../exports/wastelandMSImgUrl'
 import { DP_MS7, DP_MS9 } from '../exports/prairieMSImgUrl'
 import { HF_MS9, HF_MS10 } from '../exports/forestMSImgUrl'
@@ -2000,18 +2012,18 @@ export const seasons2022 = [
         spirit_name: 'Ancient Darkness',
         spirit_img_url: NON_SPIRIT,
         spirit_category: 'non-entity',
-        spirit_relive_type: 'task',
-        difficulty_level: 5,
-        difficulty_types: [8],
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
       },
       {
         spirit_id: 'shattering-2',
         spirit_name: 'Ancient Light',
         spirit_img_url: NON_SPIRIT,
         spirit_category: 'non-entity',
-        spirit_relive_type: 'task',
-        difficulty_level: 5,
-        difficulty_types: [8],
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
       },
     ],
     winged_lights: [],
@@ -2503,63 +2515,119 @@ export const seasons2023 = [
       },
     ],
   },
-  // {
-  //   id: 20,
-  //   name: 'Season of The Nine Colored Deer',
-  //   time_duration: 'January 15 - March 30, 2024',
-  //   spirit_num: 4,
-  //   icon_route: SEASON20,
-  //   page_route: 'seasons/2024/season-20/nine-colored-deer',
-  //   quick_info: ` It is the third collaborative Seasonal Event in the world of Sky.`,
-  //   season_spirits: [
-  //     {
-  //       spirit_id: 'nine-colored-deer-1',
-  //       spirit_name: 'Vestige of a Deserted Oasis',
-  //       spirit_img_url: NON_SPIRIT,
-  //       spirit_category: 'none entity',
-  //       spirit_relive_type: 'task',
-  //       difficulty_level: 5,
-  //       difficulty_types: [8],
-  //     },
-  //     {
-  //       spirit_id: 'nine-colored-deer-2',
-  //       spirit_name: 'Memory of a Lost Village ',
-  //       spirit_img_url: NON_SPIRIT,
-  //       spirit_category: 'none entity',
-  //       spirit_relive_type: 'task',
-  //       difficulty_level: 5,
-  //       difficulty_types: [8],
-  //     },
-  //     {
-  //       spirit_id: 'nine-colored-deer-3',
-  //       spirit_name: 'Echo of an Abandoned Refuge',
-  //       spirit_img_url: NON_SPIRIT,
-  //       spirit_category: 'none entity',
-  //       spirit_relive_type: 'task',
-  //       difficulty_level: 5,
-  //       difficulty_types: [8],
-  //     },
-  //     {
-  //       spirit_id: 'nine-colored-deer-4',
-  //       spirit_name: 'Remnant of a Forgotten Haven',
-  //       spirit_img_url: NON_SPIRIT,
-  //       spirit_category: 'none entity',
-  //       spirit_relive_type: 'task',
-  //       difficulty_level: 5,
-  //       difficulty_types: [8],
-  //     },
-  //   ],
-  //   map_shrines: [
-  //     {
-  //       id: 1,
-  //       shrine_label: 'Map Shrine 1',
-  //       shrine_url: AV_MS1 ?? MAP_SHRINE,
-  //       shrine_location: [
-  //         `Pasok sa Aviary Village, ang nasa gitnang portal sa Old Home.`,
-  //         `Or kung nasa Aviary Village ka na,`,
-  //         `Pagkapasok sa portal, dumako sa dulo ng village at malapit sa wardrobe, makikita ang map shrine`,
-  //       ],
-  //     },
-  //   ],
-  // },
+]
+
+export const seasons2024 = [
+  {
+    id: 20,
+    name: 'Season of The Nine Colored Deer',
+    time_duration: 'January 15 - March 31, 2024',
+    spirit_num: 4,
+    wl_num: 2,
+    ms_num: 1,
+    icon_route: SEASON20,
+    page_route: 'seasons/2024/season-20/the-nine-colored-deer',
+    quick_info: ` It is the third collaborative Seasonal Event in the world of Sky.`,
+    season_spirits: [
+      {
+        spirit_id: 'nine-colored-deer-1',
+        spirit_name: 'Hunter',
+        spirit_img_url: HUNTER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow memory',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+          `Pagkadating ay makikita ang Spirit Mural at sa itaas nito makikita ang Hunter Spirit.`,
+        ],
+      },
+      {
+        spirit_id: 'nine-colored-deer-2',
+        spirit_name: 'Herb Gatherer',
+        spirit_img_url: HERB_GATHERER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow memory',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+          `Pagkadating ay magtungo sa palasyo at bago makatawid sa ilog ay makikita ang spirit na ito.`,
+        ],
+      },
+      {
+        spirit_id: 'nine-colored-deer-3',
+        spirit_name: 'Feudal Lord',
+        spirit_img_url: FEUDAL_LORD,
+        spirit_category: 'friendship action',
+        spirit_relive_type: 'follow memory',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+          `Pagkadating ay magtungo sa palasyo at sa bandang kaliwa bago makapasok sa palasyo ay makikita ang spirit na ito.`,
+        ],
+      },
+      {
+        spirit_id: 'nine-colored-deer-4',
+        spirit_name: 'Princess',
+        spirit_img_url: PRINCESS,
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow memory',
+        difficulty_level: 25,
+        difficulty_types: [0, 1, 2],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+          `Pagkdating ay magtunog sa palasyo at umakyat papuntang tore ng palasyo at makita mo ang spirit.`,
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 'seasonal_wl_1',
+        wl_label: 'VAULT-WL13',
+        wl_group: 'wl-vault',
+        wl_season_group: 'wl-vault-20',
+        wl_url: VK_WL13 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+          `Magtungo papuntang Hunter Spirit at sa bandang likod pababa ay makikita ang winged light.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_2',
+        wl_label: 'VAULT-WL14',
+        wl_group: 'wl-vault',
+        wl_season_group: 'wl-vault-20',
+        wl_url: VK_WL14 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+          `Pagkdating ay magtunog sa Tore ng palasyo, at sa labas nito sa bandang likuran makikita ang winged light.`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 1,
+        shrine_label: 'Map Shrine 1',
+        shrine_url: VK_MS10 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad gawing kaliwa, at pumasok sa portal papuntang Collaboration Room.`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+          `Pagkadating, ay magtungo sa quest giver sa tapat ng lawa (lake), at sa kabila nito makita ang map shrine.`,
+        ],
+      },
+    ],
+  },
 ]

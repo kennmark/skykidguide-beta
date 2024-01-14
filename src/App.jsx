@@ -209,6 +209,15 @@ const S19Revival = lazy(() => {
   })
 })
 
+const S20TheNineColoredDeer = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S20TheNineColoredDeerPage')),
+      300
+    )
+  })
+})
+
 function App() {
   return (
     <div className="mooliMono">
@@ -323,6 +332,10 @@ function App() {
               <Route
                 path="seasons/2023/season-19/revival"
                 element={<S19Revival />}
+              />
+              <Route
+                path="seasons/2024/season-20/the-nine-colored-deer"
+                element={<S20TheNineColoredDeer />}
               />
               <Route path="/balita" element={<News />} />
               <Route path="/team" element={<Team />} />

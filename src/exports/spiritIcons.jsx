@@ -142,6 +142,10 @@ import bereftVeteran from '../assets/images/emotes/map6/seasons/S16-bereft-veter
 import pleadingChild from '../assets/images/emotes/map6/seasons/S16-pleading-child.png'
 import tiptoeingTeaBrewer from '../assets/images/emotes/map6/seasons/S16-tiptoeing-tea-brewer.png'
 import WoundedSoldIer from '../assets/images/emotes/map6/seasons/S16-wonded-soldier.png'
+import HerbGatherer from '../assets/images/emotes/map6/seasons/S20-herb-gatherer.png'
+import Hunter from '../assets/images/emotes/map6/seasons/S20-hunter.png'
+import FeudalLord from '../assets/images/emotes/map6/seasons/S20-feudal-lord.png'
+import Princess from '../assets/images/emotes/map6/seasons/S20-princess.png'
 
 // MAP 6
 
@@ -288,5 +292,9 @@ export const BEREFT_VETERAN = bereftVeteran
 export const PLEADING_CHILD = pleadingChild
 export const TIPTOEING_TEABREWER = tiptoeingTeaBrewer
 export const WOUNDED_SOLDIER = WoundedSoldIer
+export const HERB_GATHERER = HerbGatherer
+export const HUNTER = Hunter
+export const FEUDAL_LORD = FeudalLord
+export const PRINCESS = Princess
 
 // MAP 6

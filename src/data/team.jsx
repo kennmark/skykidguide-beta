@@ -6,14 +6,23 @@ import xy_avatar from '../assets/images/team/Xy.jpg'
 import banjo_avatar from '../assets/images/team/Banjo.jpg'
 import poi_avatar from '../assets/images/team/Poi.png'
 import yzo_avatar from '../assets/images/team/Yzo.jpg'
+import kennAvatar from '../assets/images/team/kenndev.jpg'
 
 export const team = [
+  // {
+  //   fullname: `Kenn Mark`,
+  //   facebook: `https://www.facebook.com/KennMDev/`,
+  //   instagram: `https://www.instagram.com/skyhex27/`,
+  //   tiktok: ``,
+  //   title: `Developer / Admin SkyPH`,
+  //   avatar_img: kennAvatar,
+  // },
   {
     fullname: `Amber Jan Naval`,
     facebook: `https://www.facebook.com/amberjan.naval`,
     instagram: `https://www.instagram.com/amber_rain22/`,
     tiktok: `https://www.tiktok.com/@amberrain0612`,
-    title: `Sky Veteran / Moderator SkyPH`,
+    title: `Teacher / Moderator SkyPH`,
     avatar_img: amber_avatar,
   },
   {
@@ -37,7 +46,7 @@ export const team = [
     facebook: `https://www.facebook.com/Vilgarri.Ibanez`,
     instagram: `https://www.instagram.com/iam_billicious/`,
     tiktok: ``,
-    title: `Sky Player / Moderator SkyPH`,
+    title: `Billings Associate / Moderator SkyPH`,
     avatar_img: bill_avatar,
   },
   {
@@ -53,7 +62,7 @@ export const team = [
     facebook: `https://www.facebook.com/skyadventures.poipororo`,
     instagram: ``,
     tiktok: ``,
-    title: `SkyPH Official • Community & Page Administrator`,
+    title: `SkyPH Admin`,
     avatar_img: poi_avatar,
   },
   {
@@ -69,7 +78,7 @@ export const team = [
     facebook: `https://www.facebook.com/Bvier060794`,
     instagram: `https://www.instagram.com/banjojavier/`,
     tiktok: `https://www.tiktok.com/@banjojavier339`,
-    title: `Freelancer /Sky Player`,
+    title: `Teacher /Sky Player`,
     avatar_img: banjo_avatar,
   },
 ]

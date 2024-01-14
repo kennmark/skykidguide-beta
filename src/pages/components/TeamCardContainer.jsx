@@ -27,28 +27,29 @@ const TeamCardContainer = ({
   return (
     <Card
       variant="gradient"
-      className="w-80 bg-gradient-to-t from-blue-900 to-purple-900 m-2"
+      className="sm:w-56 bg-indigo-900 bg-opacity-0 hover:bg-opacity-70 transition ease-in-out duration-500"
     >
-      <CardHeader floated={false} className="h-72">
+      <CardHeader floated={false} className="h-48">
         <LazyLoadImage src={avatar_img} alt="avatar" effect="blur" />
       </CardHeader>
       <CardBody className="text-center">
-        <Typography variant="h4" color="white" className="mb-2">
+        <Typography variant="h6" color="white" className="mb-2">
           {fullname}
         </Typography>
-        <Typography color="white" className="font-medium">
+        <Typography color="white" className="text-xs">
           {title}
         </Typography>
       </CardBody>
       <CardFooter className="flex justify-center gap-7 pt-2">
         <Tooltip content="Like">
           <Typography
+            as="a"
             href={facebook}
             className="opacity-80 transition-opacity hover:opacity-100"
           >
             <FontAwesomeIcon
               icon={faFacebook}
-              size="2x"
+              className="h-7"
               color="white"
               cursor="pointer"
             />
@@ -57,6 +58,7 @@ const TeamCardContainer = ({
         {instagram && (
           <Tooltip content="Follow">
             <Typography
+              as="a"
               href={instagram}
               className="opacity-80 transition-opacity hover:opacity-100 text-sm"
             >
@@ -73,6 +75,7 @@ const TeamCardContainer = ({
         {tiktok && (
           <Tooltip content="Follow">
             <Typography
+              as="a"
               href={tiktok}
               className="opacity-80 transition-opacity hover:opacity-100 text-sm"
             >

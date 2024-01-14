@@ -164,6 +164,22 @@ html {
   background-size: cover;
 }
 
+.map-9 {
+  background: rgb(56, 102, 65);
+  background: linear-gradient(
+      0deg,
+      rgba(56, 102, 65, 1) 0%,
+      rgba(106, 153, 78, 0.75) 25%,
+      rgba(167, 201, 87, 0.5) 50%,
+      rgba(242, 232, 207, 0.25) 75%,
+      rgba(188, 71, 73, 0.1) 100%
+    ),
+    url(./assets/images/map-card-bg/Season20-bg.jpg);
+  color: rgb(8 47 73);
+  height: 514px;
+  background-size: cover;
+}
+
 .carousel-image {
   height: 35rem;
   width: 100%;
@@ -236,4 +252,41 @@ html {
   justify-content: center;
   border-top-left-radius: 20px !important;
   border-top-right-radius: 20px !important;
+}
+
+.countdown-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.countdown-item {
+  color: #ffc107;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 30px;
+  margin: 10px;
+  padding-top: 10px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.countdown-item span {
+  color: #d8a200;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.countdown-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
 }

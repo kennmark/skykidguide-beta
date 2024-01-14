@@ -49,13 +49,7 @@ const MapCardContainer = ({
               />
             </span>
           </Typography>
-          <Typography
-            variant="h5"
-            color="blue-gray"
-            className="font-bold uppercase"
-          >
-            {title}
-          </Typography>
+          <Typography className="text-xl text-blue-gray-50">{title}</Typography>
           <Typography
             color="white"
             className="bg-gradient-to-r from-purple-500/0 via-blue-900 to-purple-500/0 py-1 shadow-lg"

@@ -17,6 +17,7 @@ import {
   faGithub,
 } from '@fortawesome/free-brands-svg-icons'
 import { team } from '../data/team'
+import { skyPhFbTeam } from '../data/skyPhFbTeam'
 import TeamCardContainer from '../pages/components/TeamCardContainer'
 
 const Team = () => {
@@ -24,13 +25,17 @@ const Team = () => {
     <div>
       <div className="pt-5">
         <Typography variant="h2">The Team</Typography>
+        <Typography>
+          Ang Skykid: Tuloy & Gabay ay binubuo ng isang grupo na mula sa SKY:
+          Children of The Light (Philippines)
+        </Typography>
       </div>
-      <div className="flex justify-center py-5">
+      <div className="flex justify-center py-5 ">
         <Card
           variant="gradient"
-          className="w-80 bg-gradient-to-t from-blue-900 to-purple-900 "
+          className="sm:w-56 bg-indigo-900 bg-opacity-0 hover:bg-opacity-70 transition ease-in-out duration-500"
         >
-          <CardHeader floated={false} className="h-72">
+          <CardHeader floated={false} className="h-48 ">
             <LazyLoadImage
               src={kennAvatar}
               alt="profile-picture"
@@ -38,32 +43,25 @@ const Team = () => {
             />
           </CardHeader>
           <CardBody className="text-center">
-            <Typography variant="h4" color="white" className="mb-2">
+            <Typography variant="h6" color="white" className="mb-2">
               Kenn Mark Sabalberino
             </Typography>
-            <Typography color="white" className="font-medium">
+            <Typography color="white" className="font-medium text-xs">
               Developer / Admin SkyPH
             </Typography>
-            {/* <Typography className="flex justify-center">
-              <a href="https://www.buymeacoffee.com/KennDev" target="_blank">
-                <LazyLoadImage
-                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=KennDev&button_colour=068dd0&font_colour=ffffff&font_family=Comic&outline_colour=ffffff&coffee_colour=FFDD00"
-                  placeholderSrc={
-                    <Spinner className="h-10 w-10 text-gray-900/50" />
-                  }
-                  effect="blur"
-                />
-              </a>
-            </Typography> */}
           </CardBody>
-          <CardFooter className="flex justify-center gap-7 pt-2">
+          <CardFooter className="flex justify-center gap-3 pt-2">
             <Tooltip content="Like">
               <Typography
                 as="a"
                 href="https://www.facebook.com/KennMDev/"
                 className="opacity-80 transition-opacity hover:opacity-100"
               >
-                <FontAwesomeIcon icon={faFacebook} size="2x" color="white" />
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  color="white"
+                  className="h-7"
+                />
               </Typography>
             </Tooltip>
             <Tooltip content="Follow">
@@ -88,7 +86,24 @@ const Team = () => {
         </Card>
       </div>
       <div className="py-5">
-        <Typography variant="h4">Contributors Team</Typography>
+        <Typography
+          variant="h4"
+          as="a"
+          color="amber"
+          href="https://www.facebook.com/groups/skycotlphofficial"
+        >
+          SkyPH Facebook Group Team
+        </Typography>
+      </div>
+      <div className="flex flex-wrap justify-center pb-5">
+        {skyPhFbTeam.map((skyphTeam, index) => {
+          return <TeamCardContainer {...skyphTeam} key={index} />
+        })}
+      </div>
+      <div className="py-5">
+        <Typography variant="h4" color="amber">
+          Contributors Team
+        </Typography>
       </div>
       <div className="flex flex-wrap justify-center pb-5">
         {team.map((contributor, index) => {
