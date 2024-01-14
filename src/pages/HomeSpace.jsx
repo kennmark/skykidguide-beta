@@ -17,7 +17,8 @@ import carousel1 from '../assets/images/home-carousel/home-slideshow-1.jpg'
 import carousel2 from '../assets/images/home-carousel/home-slideshow-2.jpg'
 import carousel3 from '../assets/images/home-carousel/home4.jpg'
 import { WL_COUNT_DATE_UPDATED, TOTAL_WL_COUNT } from '../exports/constants'
-import TimerCountdown from './components/TimerCountdown'
+
+import { Countdown } from './components/Countdown'
 
 // import { LazyLoadImage } from 'react-lazy-load-image-component'
 
@@ -202,10 +203,7 @@ const HomeSpace = () => {
         </figcaption>
       </figure>
       <Clock />
-      <TimerCountdown
-        timeTillDate="01 15 2024, 4:00 pm"
-        timeFormat="MM DD YYYY, h:mm a"
-      />
+      {/* <Countdown /> */}
       <div className="flex flex-wrap justify-center">
         <SkyClock />
       </div>
