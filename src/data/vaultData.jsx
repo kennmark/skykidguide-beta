@@ -557,7 +557,7 @@ export const vault = [
         spirit_name: 'Princess',
         spirit_img_url: PRINCESS,
         icon_route: SEASON20,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'XB_wHSO3nKA',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
