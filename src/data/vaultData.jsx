@@ -497,7 +497,7 @@ export const vault = [
         spirit_name: 'Hunter',
         spirit_img_url: HUNTER,
         icon_route: SEASON20,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '2yjliDfvtdM',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
@@ -517,7 +517,7 @@ export const vault = [
         spirit_name: 'Herb Gatherer',
         spirit_img_url: HERB_GATHERER,
         icon_route: SEASON20,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'h0uDIdauBNM',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
@@ -537,7 +537,7 @@ export const vault = [
         spirit_name: 'Feudal Lord',
         spirit_img_url: FEUDAL_LORD,
         icon_route: SEASON20,
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '83LkIYB5HEs',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,

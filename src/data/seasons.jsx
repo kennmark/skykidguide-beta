@@ -2537,7 +2537,7 @@ export const seasons2024 = [
         spirit_relive_type: 'follow memory',
         difficulty_level: 25,
         difficulty_types: [0, 1, 2],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '2yjliDfvtdM',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
@@ -2552,7 +2552,7 @@ export const seasons2024 = [
         spirit_relive_type: 'follow memory',
         difficulty_level: 25,
         difficulty_types: [0, 1, 2],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'h0uDIdauBNM',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
@@ -2567,7 +2567,7 @@ export const seasons2024 = [
         spirit_relive_type: 'follow memory',
         difficulty_level: 25,
         difficulty_types: [0, 1, 2],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + '83LkIYB5HEs',
         spirit_direction: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
