@@ -7,7 +7,7 @@ import ms6 from '../assets/images/map-shrines/Vault/VK_MS6.jpg'
 import ms7 from '../assets/images/map-shrines/Vault/VK_MS7.jpg'
 import ms8 from '../assets/images/map-shrines/Vault/VK_MS8.jpg'
 import ms9 from '../assets/images/map-shrines/Vault/VK_MS9.jpg'
-import ms10 from '../assets/images/map-shrines/Vault/VK_MS9.jpg'
+import ms10 from '../assets/images/map-shrines/Vault/VK_MS10.jpg'
 
 export const VK_MS1 = ms1
 export const VK_MS2 = ms2
