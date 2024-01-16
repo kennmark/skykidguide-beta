@@ -42,7 +42,7 @@ const S20TheNineColoredDeerPage = () => {
           height={25}
           width={75}
           title={name}
-          mapIntro={'A hidden refuge, lost to time.'}
+          mapIntro={'Home of the Nine-Colored Deer.'}
         />
         <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
