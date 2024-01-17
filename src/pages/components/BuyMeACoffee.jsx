@@ -18,12 +18,12 @@ export function BuyMeACoffee() {
       <CardHeader
         shadow={false}
         floated={false}
-        className="m-0 w-2/5 shrink-0 rounded-r-none"
+        className="m-0 w-2/5 shrink-0 rounded-r-none "
       >
         <LazyLoadImage
           src={kennAvatar}
           alt="card-image"
-          className="h-full w-full object-cover grayscale opacity-80"
+          className="h-full w-full object-cover grayscale opacity-80 "
         />
       </CardHeader>
       <CardBody>
@@ -36,7 +36,7 @@ export function BuyMeACoffee() {
         <div className="flex justify-center">
           <a href="https://www.buymeacoffee.com/KennDev" target="_blank">
             <LazyLoadImage
-              src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=KennDev&button_colour=068dd0&font_colour=ffffff&font_family=Comic&outline_colour=ffffff&coffee_colour=FFDD00"
+              src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=KennDev&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff"
               placeholderSrc={
                 <Spinner className="h-10 w-10 text-gray-900/50" />
               }

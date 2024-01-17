@@ -23,11 +23,12 @@ import TeamCardContainer from '../pages/components/TeamCardContainer'
 const Team = () => {
   return (
     <div>
-      <div className="pt-5">
+      <div className="pt-5 mt-6">
         <Typography variant="h2">The Team</Typography>
-        <Typography>
+        <Typography className="mt-4">
           Ang Skykid: Tuloy & Gabay ay binubuo ng isang grupo na mula sa SKY:
-          Children of The Light (Philippines)
+          Children of The Light (Philippines). Ako naman ay si Kenn ang gumawa
+          ng website na ito.
         </Typography>
       </div>
       <div className="flex justify-center py-5 ">
@@ -35,7 +36,10 @@ const Team = () => {
           variant="gradient"
           className="sm:w-56 bg-indigo-900 bg-opacity-0 hover:bg-opacity-70 transition ease-in-out duration-500"
         >
-          <CardHeader floated={false} className="h-48 ">
+          <CardHeader
+            floated={false}
+            className="h-48 grayscale hover:grayscale-0 rounded-2xl md:rounded-full"
+          >
             <LazyLoadImage
               src={kennAvatar}
               alt="profile-picture"

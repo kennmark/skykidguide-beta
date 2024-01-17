@@ -62,7 +62,7 @@ export const team = [
     facebook: `https://www.facebook.com/skyadventures.poipororo`,
     instagram: ``,
     tiktok: ``,
-    title: `SkyPH Admin`,
+    title: `Admin SkyPH`,
     avatar_img: poi_avatar,
   },
   {
