@@ -124,7 +124,7 @@ const Footer = () => {
             className="mb-4 text-center font-normal text-white-900 md:mb-0 text-xs"
           >
             &copy; {currentYear}{' '}
-            <a href="https://www.facebook.com/KennMDev/">KennDev</a>. All Rights
+            <a href="https://kenndev.onrender.com/">KennDev</a>. All Rights
             Reserved.
           </Typography>
         </div>
@@ -148,7 +148,7 @@ const Footer = () => {
               />
             </svg>
           </Typography>
-          <Typography
+          {/* <Typography
             as="a"
             href="https://www.instagram.com/skyhex27/"
             className="opacity-80 transition-opacity hover:opacity-100 text-sm"
@@ -165,7 +165,7 @@ const Footer = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </Typography>
+          </Typography> */}
           {/* <Typography
             as="a"
             href="#"
