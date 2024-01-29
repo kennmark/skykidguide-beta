@@ -148,6 +148,14 @@ import {
   VK_WL13,
   VK_WL14,
 } from '../exports/vaultWLImgUrl'
+import {
+  VOID_WL1,
+  VOID_WL2,
+  VOID_WL3,
+  VOID_WL4,
+  VOID_WL5,
+  VOID_WL6,
+} from '../exports/voidWLImgUrl'
 import { VK_MS2, VK_MS4, VK_MS10 } from '../exports/vaultMSImgUrl'
 import { GW_MS7, GW_MS8 } from '../exports/wastelandMSImgUrl'
 import { DP_MS7, DP_MS9 } from '../exports/prairieMSImgUrl'
@@ -2026,7 +2034,78 @@ export const seasons2022 = [
         difficulty_types: [14],
       },
     ],
-    winged_lights: [],
+    winged_lights: [
+      {
+        id: 'seasonal_wl_1',
+        wl_label: 'Jellyfish Void',
+        wl_group: 'wl-void',
+        wl_season_group: 'wl-void-14',
+        wl_url: VOID_WL1 ?? WINGED_LIGHT,
+        wl_location: [
+          `Gawin ang Red Shard Eruptions upang makapasok sa void space`,
+          `Nasa gitnang Jellyfish na nakalutang at sa tuktok nito makikita ang winged light.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_2',
+        wl_label: 'Crabs and Flying Darkness Void',
+        wl_group: 'wl-void',
+        wl_season_group: 'wl-void-14',
+        wl_url: VOID_WL2 ?? WINGED_LIGHT,
+        wl_location: [
+          `Gawin ang Red Shard Eruptions upang makapasok sa void space`,
+          `Nasa pinaka-itaas na darkness plant sa gawing kaliwa makikita ang winged light`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_3',
+        wl_label: 'Mantas Void',
+        wl_group: 'wl-void',
+        wl_season_group: 'wl-void-14',
+        wl_url: VOID_WL3 ?? WINGED_LIGHT,
+        wl_location: [
+          `Gawin ang Red Shard Eruptions upang makapasok sa void space`,
+          `Nasa dulong manta at sa ibabaw nito makikita ang winged light.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_4',
+        wl_label: 'Krill Void',
+        wl_group: 'wl-void',
+        wl_season_group: 'wl-void-14',
+        wl_url: VOID_WL4 ?? WINGED_LIGHT,
+        wl_location: [
+          `Gawin ang Red Shard Eruptions upang makapasok sa void space`,
+          `Nasa harapan lamang ng krill ang winged light.`,
+          `Huwag mag-alala, hindi gumagalaw ang krill dito.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_5',
+        wl_label: 'Whale Void',
+        wl_group: 'wl-void',
+        wl_season_group: 'wl-void-14',
+        wl_url: VOID_WL5 ?? WINGED_LIGHT,
+        wl_location: [
+          `Gawin ang Red Shard Eruptions upang makapasok sa void space`,
+          `Nasa gawing kanang mata ng whale (o kapag naka harap ka sa whale ay nasa kaliwa mo.)`,
+          `Sa loob ng mata makikita ang winged light`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_6',
+        wl_label: 'Elders Void',
+        wl_group: 'wl-void',
+        wl_season_group: 'wl-void-14',
+        wl_url: VOID_WL6 ?? WINGED_LIGHT,
+        wl_location: [
+          `Gawin ang Red Shard Eruptions upang makapasok sa void space`,
+          `Nasa pinakatuktok ng red crystal ang winged light dito`,
+          `Pwede kang mag-recharge ng wing power sa mga maliliit na red rocks na 
+          nakapalibot sa red crsytal.`,
+        ],
+      },
+    ],
   },
   {
     id: 15,
@@ -2596,7 +2675,7 @@ export const seasons2024 = [
         wl_label: 'VAULT-WL13',
         wl_group: 'wl-vault',
         wl_season_group: 'wl-vault-20',
-        wl_url: VK_WL13 ?? WINGED_LIGHT,
+        wl_url: VOID_WL1 ?? WINGED_LIGHT,
         wl_location: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,

@@ -73,7 +73,7 @@ const S14ShatteringPage = () => {
             <TabPanel key={activeTab} value={activeTab}>
               {activeTab === 'info' && (
                 <div className="text-gray-100 pb-5">
-                  <Typography>
+                  <Typography className="mb-3">
                     {quick_info} Nagsimula ito noong {time_duration}. May{' '}
                     {spirit_num} na spirits sa season na ito at{' '}
                     {wl_num ? 'May ' + wl_num : '(0) o walang winged light '}
@@ -83,10 +83,21 @@ const S14ShatteringPage = () => {
                       : ' (0) o walang map shrine'}{' '}
                     &nbsp;map shrine(s).
                   </Typography>{' '}
-                  <br />
+                  <Typography className="mb-3">
+                    Ang Shard Schedules ay hindi sunod-sunod. Upang makapasok sa
+                    void memories, Red Shards Eruption ang tanging paraan para
+                    makapasok. Mayroong Jellyfish Void bilang 1st void, Crabs &
+                    Flying Darkness Plants void 2nd void, Mantas Void naman
+                    bilang 3rd void, Krill Void bilang 4th void, Whale void
+                    bilang 5th void, at Elders Void bilang 6th void.
+                  </Typography>
                   <Typography>
-                    The ground shakes and the sky darkens... Unite, Sky kids,
-                    and bring your light to Season of Shattering!
+                    Kung ito ay unang beses mo palang gagawin ang Red Shards
+                    Eruption, ay maari mong ulit-ulitin habang ginagawa mo ang
+                    quest sa Shattering Void Spaces. Tandaan na bago ka lumabas
+                    sa void space ay pindutin ang susunod na quest ng Shard
+                    Quest Giver, upang ma-unlock mo at macomplete mo ang quest
+                    at balik ka nanaman sa location ng Shard Eruption that day.
                   </Typography>
                 </div>
               )}
