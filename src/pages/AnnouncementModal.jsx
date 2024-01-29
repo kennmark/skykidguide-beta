@@ -95,7 +95,7 @@ const AnnouncementModal = () => {
         <Button
           variant="gradient"
           onClick={handleOpen}
-          className="bg-gradient-to-r from-blue-900 to-purple-900"
+          className="bg-gradient-to-r from-deep-orange-800 to-brown-900"
         >
           Magpatuloy
         </Button>

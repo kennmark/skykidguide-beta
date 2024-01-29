@@ -13,7 +13,7 @@ const SkyClock = () => {
       <Button
         onClick={toggleOpen}
         variant="gradient"
-        className="bg-gradient-to-r from-blue-900 to-purple-900 mb-4 flex items-center"
+        className="bg-gradient-to-r from-deep-orange-800 to-brown-900 mb-4 flex items-center"
       >
         {!open ? (
           <Bars3Icon className="h-6 w-6 text-gray-50 stroke-2" />

@@ -52,7 +52,7 @@ const MapCardContainer = ({
           <Typography className="text-xl text-blue-gray-50">{title}</Typography>
           <Typography
             color="white"
-            className="bg-gradient-to-r from-purple-500/0 via-blue-900 to-purple-500/0 py-1 shadow-lg"
+            className="bg-gradient-to-r from-purple-500/0 via-deep-orange-900 to-purple-500/0 py-1 shadow-lg"
           >
             {subtitle}
           </Typography>
@@ -129,7 +129,7 @@ const MapCardContainer = ({
             <Button
               size="lg"
               color="gray"
-              className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:scale-[1.02] hover:shadow-indigo-500 hover:shadow-xl"
+              className="bg-gradient-to-r from-deep-orange-800 to-brown-900 shadow-lg shadow-orange-900/50 hover:scale-[1.02] hover:shadow-orange-900 hover:shadow-xl"
               ripple={true}
               fullWidth={true}
             >

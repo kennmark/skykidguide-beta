@@ -16,14 +16,16 @@ const SkyClockContainer = () => {
       <Tabs value={activeTab}>
         <TabsHeader
           variant="gradient"
-          className="bg-gradient-to-r from-blue-900 to-purple-900"
+          className="bg-gradient-to-r from-deep-orange-800 to-brown-900"
         >
           {skyclock.map(({ label, value, icon }) => (
             <Tab
               key={value}
               value={value}
               onClick={() => setActiveTab(value)}
-              className={activeTab === value ? 'text-indigo-900' : 'text-white'}
+              className={
+                activeTab === value ? 'text-deep-orange-900' : 'text-white'
+              }
             >
               <div className="flex items-center gap-2 py-2">
                 {createElement(icon, { className: 'w-5 h-5' })}

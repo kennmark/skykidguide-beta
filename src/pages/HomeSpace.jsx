@@ -181,7 +181,7 @@ const HomeSpace = () => {
             </Typography>
             <Typography
               color="amber"
-              className="mt-1 font-light lg:font-bold text-xs lg:text-lg bg-gradient-to-r from-purple-500/0 via-indigo-900/80 to-purple-500/0"
+              className="mt-1 font-light lg:font-bold text-xs lg:text-lg bg-gradient-to-r from-purple-500/0 via-brown-900/80 to-purple-500/0"
             >
               {formattedToday}
             </Typography>

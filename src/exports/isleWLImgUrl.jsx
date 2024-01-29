@@ -1,12 +1,12 @@
-import wl1 from '../assets/images/winged lights/Map 1 - Isle of Dawn/ID-WL1.jpg'
-import wl2 from '../assets/images/winged lights/Map 1 - Isle of Dawn/ID-WL2.jpg'
-import wl3 from '../assets/images/winged lights/Map 1 - Isle of Dawn/ID-WL3.jpg'
-import wl4 from '../assets/images/winged lights/Map 1 - Isle of Dawn/ID-WL4.jpg'
-import wl5 from '../assets/images/winged lights/Map 1 - Isle of Dawn/ID-WL5.jpg'
-import wl6 from '../assets/images/winged lights/Map 1 - Isle of Dawn/ID-WL6.jpg'
-import wl7 from '../assets/images/winged lights/Map 1 - Isle of Dawn/ID-WL7.jpg'
-import wl8 from '../assets/images/winged lights/Map 1 - Isle of Dawn/ID-WL8.jpg'
-import wl9 from '../assets/images/winged lights/Map 1 - Isle of Dawn/ID-WL9.jpg'
+import wl1 from '../assets/images/winged-lights/Map 1 - Isle of Dawn/ID-WL1.jpg'
+import wl2 from '../assets/images/winged-lights/Map 1 - Isle of Dawn/ID-WL2.jpg'
+import wl3 from '../assets/images/winged-lights/Map 1 - Isle of Dawn/ID-WL3.jpg'
+import wl4 from '../assets/images/winged-lights/Map 1 - Isle of Dawn/ID-WL4.jpg'
+import wl5 from '../assets/images/winged-lights/Map 1 - Isle of Dawn/ID-WL5.jpg'
+import wl6 from '../assets/images/winged-lights/Map 1 - Isle of Dawn/ID-WL6.jpg'
+import wl7 from '../assets/images/winged-lights/Map 1 - Isle of Dawn/ID-WL7.jpg'
+import wl8 from '../assets/images/winged-lights/Map 1 - Isle of Dawn/ID-WL8.jpg'
+import wl9 from '../assets/images/winged-lights/Map 1 - Isle of Dawn/ID-WL9.jpg'
 
 export const ID_WL1 = wl1
 export const ID_WL2 = wl2

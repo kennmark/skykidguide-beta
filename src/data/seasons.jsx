@@ -2675,7 +2675,7 @@ export const seasons2024 = [
         wl_label: 'VAULT-WL13',
         wl_group: 'wl-vault',
         wl_season_group: 'wl-vault-20',
-        wl_url: VOID_WL1 ?? WINGED_LIGHT,
+        wl_url: VK_WL13 ?? WINGED_LIGHT,
         wl_location: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
