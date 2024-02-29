@@ -77,5 +77,5 @@ export const TOTAL_MS_COUNT = // updated January 15, 2024
   S19_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'February 28, 2024'
+export const WL_COUNT_DATE_UPDATED = 'February 29, 2024'
 export const MS_COUNT_DATE_UPDATED = 'January 15, 2024'

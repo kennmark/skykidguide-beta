@@ -50,9 +50,12 @@ const HomeSpace = () => {
 
   const today = new Date()
   const year = today.getFullYear()
+
   const day = dayName[today.getDay()]
   let mm = monthName[today.getMonth()]
   let dd = today.getDate()
+  let dateFormat = mm + ' ' + dd + ', ' + year
+  console.log(dateFormat)
   if (dd < 10) dd = '0' + dd
   const formattedToday = day + ' | ' + mm + ' ' + dd + ', ' + year
 
@@ -72,7 +75,9 @@ const HomeSpace = () => {
               color="white"
               className="flex text-center font-normal opacity-80"
             >
-              sa pinakahuling tala noong {WL_COUNT_DATE_UPDATED} may &nbsp;
+              sa pinakahuling tala{' '}
+              {WL_COUNT_DATE_UPDATED === dateFormat ? 'ngayong' : 'noong'}{' '}
+              {WL_COUNT_DATE_UPDATED} may &nbsp;
               {TOTAL_WL_COUNT} WL na sa iOS at Android.
             </Typography>
           </div>
