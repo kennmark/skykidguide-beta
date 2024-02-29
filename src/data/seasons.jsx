@@ -147,6 +147,7 @@ import {
   VK_WL12,
   VK_WL13,
   VK_WL14,
+  VK_WL15,
 } from '../exports/vaultWLImgUrl'
 import {
   VOID_WL1,
@@ -2692,6 +2693,18 @@ export const seasons2024 = [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
           `Pagkdating ay magtunog sa Tore ng palasyo, at sa labas nito sa bandang likuran makikita ang winged light.`,
+        ],
+      },
+      {
+        id: 'seasonal_wl_3',
+        wl_label: 'Vault-WL15',
+        wl_group: 'wl-vault',
+        wl_url: VK_WL15 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+          `Pagkdating sa Cresecent Oasis, dumako malapit sa waterfalls at pumasok sa ulap na lagusan`,
+          `Sa ilalim ng puno makita ang winged light dito`,
         ],
       },
     ],

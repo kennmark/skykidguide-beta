@@ -11,6 +11,22 @@ const News = () => {
       <section className="container">
         <div className="ml-10">
           <Card
+            className="pt-2 pb-4 w-11/12 pr-5"
+            variant="gradient"
+            color="gray"
+          >
+            <Typography variant="h4" className="flex justify-start pl-10 mb-5">
+              SkyPH Infographics Team - Coming Soon!
+            </Typography>
+            <Typography variant="h6" className="flex justify-start pl-16">
+              Ang SkyPH ay magbubuo ng grupo para sa Infographics Team! Abangan!
+            </Typography>
+          </Card>
+        </div>
+        <hr className="my-3 ml-10 mr-10" />
+
+        <div className="ml-10">
+          <Card
             className="pt-2 pb-4 w-11/12 pr-2"
             variant="gradient"
             color="gray"

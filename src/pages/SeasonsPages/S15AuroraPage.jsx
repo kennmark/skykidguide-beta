@@ -84,7 +84,11 @@ const S15AuroraPage = () => {
                   <br />
                   <Typography>
                     Ang Season of Aurora quest ay mahahanap sa colliseum ng
-                    valley of triumph.
+                    valley of triumph. Ang schedule ng oras ng concert ay
+                    nagsisimula sa reset sa atin ng 4:00 PM at umuulit ito bawat
+                    4 hours interval. Tulad ng 4:00 PM, 8:00 PM, 12:00 MN, 4:00
+                    AM, 8:00 AM, 12:00 PM. At nagtatagal ang concert ng 50
+                    minutes.
                   </Typography>
                 </div>
               )}

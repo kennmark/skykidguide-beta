@@ -28,7 +28,7 @@ export const WASTELAND_NUM_MAP_SHRINES = 8
 
 export const VAULT_NUM_REG_SPIRIT = 5
 export const VAULT_NUM_SEASON_SPIRIT = 18
-export const VAULT_NUM_WL = 14
+export const VAULT_NUM_WL = 15
 export const VAULT_NUM_MAP_SHRINES = 10
 
 export const EDEN_NUM_REG_SPIRIT = 0
@@ -43,7 +43,7 @@ export const S19_NUM_MAP_SHRINES = 1
 
 export const S20_NUM_REG_SPIRIT = 0
 export const S20_NUM_SEASON_SPIRIT = 4
-export const S20_NUM_WL = 2
+export const S20_NUM_WL = 3
 export const S20_NUM_MAP_SHRINES = 1
 
 // WL_COUNT updates added from season of the nine colored deer
@@ -59,7 +59,7 @@ export const WL_COUNT =
   SHARDS_WL
 
 export const WB_REGULAR_SPIRITS = 49
-export const WB_TRAVELING_SPIRITS = 60
+export const WB_TRAVELING_SPIRITS = 61
 
 export const MS_HOME = 1
 
@@ -77,5 +77,5 @@ export const TOTAL_MS_COUNT = // updated January 15, 2024
   S19_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'January 18, 2024'
+export const WL_COUNT_DATE_UPDATED = 'February 28, 2024'
 export const MS_COUNT_DATE_UPDATED = 'January 15, 2024'

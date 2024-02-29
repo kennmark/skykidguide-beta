@@ -12,6 +12,7 @@ import wl11 from '../assets/images/winged-lights/Map 6 - Vault of Knowledge/VK_W
 import wl12 from '../assets/images/winged-lights/Map 6 - Vault of Knowledge/VK_WL12.jpg'
 import wl13 from '../assets/images/winged-lights/Map 6 - Vault of Knowledge/VK_WL13.jpg'
 import wl14 from '../assets/images/winged-lights/Map 6 - Vault of Knowledge/VK_WL14.jpg'
+import wl15 from '../assets/images/winged-lights/Map 6 - Vault of Knowledge/VK_WL15.jpg'
 
 export const VK_WL1 = wl1
 export const VK_WL2 = wl2
@@ -27,3 +28,4 @@ export const VK_WL11 = wl11
 export const VK_WL12 = wl12
 export const VK_WL13 = wl13
 export const VK_WL14 = wl14
+export const VK_WL15 = wl15

@@ -16,6 +16,7 @@ import { Clock } from '../pages/components/Clock'
 import carousel1 from '../assets/images/home-carousel/home-slideshow-1.jpg'
 import carousel2 from '../assets/images/home-carousel/home-slideshow-2.jpg'
 import carousel3 from '../assets/images/home-carousel/home4.jpg'
+import carousel4 from '../assets/images/home-carousel/Upcoming-Season-21.jpg'
 import { WL_COUNT_DATE_UPDATED, TOTAL_WL_COUNT } from '../exports/constants'
 
 import { Countdown } from './components/Countdown'
@@ -170,6 +171,11 @@ const HomeSpace = () => {
               className="h-full w-full object-cover rounded-xl"
             />
           </a>
+          <img
+            src={carousel4}
+            https:alt="Season 21"
+            className="h-full w-full object-cover rounded-xl"
+          />
         </Carousel>
         <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border-none bg-gradient-to-br py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
           <div>
