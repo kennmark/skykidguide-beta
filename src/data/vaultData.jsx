@@ -141,7 +141,7 @@ export const vault = [
         constellation_icon_route: MAP6,
         spirit_guide_video_url: youtube_embed + 'VFEsHNyXmm8',
         spirit_direction: [
-          `Pasok ka sa Ika-Anim na Mapa - Vault of Knowledge, Lumipad patungo sa Elevating Platform.`,
+          `Pasok ka sa Ika-Anim na Mapa - Vault of Knowledge, Lumipad patungo sa Elevating Platform. (Tandaan kailangan mong marelive muna ang Manta Whisperer ng Valley of Triumph)`,
           `Pagdating sa gitna, sindihan ang mga poste at memory lamps, Umakyat ka hanggang makarating ng 4th floor.`,
           `Pagdating ay may pinakamalaking set ng platforms na nasa kaliwa ng constelation ng Isle of Dawn.`,
           `Malapit sa ilalim ay may 2 platforms na may 5 kandila, sindihan mo lahat at makuha agad ang spirit.`,

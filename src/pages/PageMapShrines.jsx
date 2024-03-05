@@ -31,6 +31,7 @@ import {
   S19_NUM_MAP_SHRINES,
 } from '../exports/constants'
 import CardContainer from './components/CardContainer'
+import { BarsArrowDownIcon } from '@heroicons/react/24/solid'
 
 const PageMapShrines = () => {
   const [open, setOpen] = useState(0)
@@ -179,7 +180,10 @@ const PageMapShrines = () => {
                   : 'text-amber-500 hover:text-amber-900'
               }`}
             >
-              Isle of Dawn - {ISLE_NUM_MAP_SHRINES} Map Shrines
+              <span className="flex">
+                Isle of Dawn - {ISLE_NUM_MAP_SHRINES} Map Shrines &nbsp;
+                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+              </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
               <div className="flex flex-wrap justify-center gap-3">
@@ -208,7 +212,10 @@ const PageMapShrines = () => {
                   : 'text-amber-500 hover:text-amber-900'
               }`}
             >
-              Daylight Prairie - {PRAIRIE_NUM_MAP_SHRINES} Map Shrines
+              <span className="flex">
+                Daylight Prairie - {PRAIRIE_NUM_MAP_SHRINES} Map Shrines &nbsp;
+                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+              </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
               <div className="flex flex-wrap justify-center gap-3">
@@ -227,7 +234,7 @@ const PageMapShrines = () => {
           </Accordion>
           <Accordion
             open={open === 3}
-            className="rounded-lg border border-blue-gray-100 px-4"
+            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
           >
             <AccordionHeader
               onClick={() => handleOpen(3)}
@@ -237,7 +244,10 @@ const PageMapShrines = () => {
                   : 'text-amber-500 hover:text-amber-900'
               }`}
             >
-              Hidden Forest - {FOREST_NUM_MAP_SHRINES} Map Shrines
+              <span className="flex">
+                Hidden Forest - {FOREST_NUM_MAP_SHRINES} Map Shrines &nbsp;
+                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+              </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
               <div className="flex flex-wrap justify-center gap-3">
@@ -256,7 +266,7 @@ const PageMapShrines = () => {
           </Accordion>
           <Accordion
             open={open === 4}
-            className="rounded-lg border border-blue-gray-100 px-4"
+            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
           >
             <AccordionHeader
               onClick={() => handleOpen(4)}
@@ -266,7 +276,10 @@ const PageMapShrines = () => {
                   : 'text-amber-500 hover:text-amber-900'
               }`}
             >
-              Valley of Triumph - {VALLEY_NUM_MAP_SHRINES} Map Shrines
+              <span className="flex">
+                Valley of Triumph - {VALLEY_NUM_MAP_SHRINES} Map Shrines &nbsp;
+                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+              </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
               <div className="flex flex-wrap justify-center gap-3">
@@ -285,7 +298,7 @@ const PageMapShrines = () => {
           </Accordion>
           <Accordion
             open={open === 5}
-            className="rounded-lg border border-blue-gray-100 px-4"
+            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
           >
             <AccordionHeader
               onClick={() => handleOpen(5)}
@@ -295,7 +308,11 @@ const PageMapShrines = () => {
                   : 'text-amber-500 hover:text-amber-900'
               }`}
             >
-              Golden Wasteland - {WASTELAND_NUM_MAP_SHRINES} Map Shrines
+              <span className="flex">
+                Golden Wasteland - {WASTELAND_NUM_MAP_SHRINES} Map Shrines
+                &nbsp;
+                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+              </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
               <div className="flex flex-wrap justify-center gap-3">
@@ -314,7 +331,7 @@ const PageMapShrines = () => {
           </Accordion>
           <Accordion
             open={open === 6}
-            className="rounded-lg border border-blue-gray-100 px-4"
+            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
           >
             <AccordionHeader
               onClick={() => handleOpen(6)}
@@ -324,7 +341,10 @@ const PageMapShrines = () => {
                   : 'text-amber-500 hover:text-amber-900'
               }`}
             >
-              Vault of Knowledge - {VAULT_NUM_MAP_SHRINES} Map Shrines
+              <span className="flex">
+                Vault of Knowledge - {VAULT_NUM_MAP_SHRINES} Map Shrines &nbsp;
+                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+              </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
               <div className="flex flex-wrap justify-center gap-3">
@@ -343,7 +363,7 @@ const PageMapShrines = () => {
           </Accordion>
           <Accordion
             open={open === 7}
-            className="rounded-lg border border-blue-gray-100 px-4"
+            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
           >
             <AccordionHeader
               onClick={() => handleOpen(7)}
@@ -353,7 +373,10 @@ const PageMapShrines = () => {
                   : 'text-amber-500 hover:text-amber-900'
               }`}
             >
-              Eye of Eden - {EDEN_NUM_MAP_SHRINES} Map Shrines
+              <span className="flex">
+                Eye of Eden - {EDEN_NUM_MAP_SHRINES} Map Shrines &nbsp;
+                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+              </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
               <div className="flex flex-wrap justify-center gap-3">

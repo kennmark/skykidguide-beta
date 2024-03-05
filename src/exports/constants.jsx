@@ -59,7 +59,7 @@ export const WL_COUNT =
   SHARDS_WL
 
 export const WB_REGULAR_SPIRITS = 49
-export const WB_TRAVELING_SPIRITS = 61
+export const WB_TRAVELING_SPIRITS = 63
 
 export const MS_HOME = 1
 
@@ -77,5 +77,5 @@ export const TOTAL_MS_COUNT = // updated January 15, 2024
   S19_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'February 29, 2024'
+export const WL_COUNT_DATE_UPDATED = 'March 04, 2024'
 export const MS_COUNT_DATE_UPDATED = 'January 15, 2024'
