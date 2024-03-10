@@ -9,15 +9,15 @@ const GeyserContainer = () => {
         <span className="text-amber-700 font-extrabold">:05</span> minuto,
         Halimbawa&nbsp;
         <span className="text-red-400">1</span>
-        <span className="text-amber-700 font-extrabold">:35</span>, &nbsp;
+        <span className="text-amber-700 font-extrabold">:05</span>, &nbsp;
         <span className="text-red-400">3</span>
-        <span className="text-amber-700 font-extrabold">:35</span>, &nbsp;
+        <span className="text-amber-700 font-extrabold">:05</span>, &nbsp;
         <span className="text-red-400">5</span>
-        <span className="text-amber-700 font-extrabold">:35</span>, &nbsp;
+        <span className="text-amber-700 font-extrabold">:05</span>, &nbsp;
         <span className="text-red-400">7</span>
-        <span className="text-amber-700 font-extrabold">:35</span>, &nbsp;
+        <span className="text-amber-700 font-extrabold">:05</span>, &nbsp;
         <span className="text-red-400">9</span>
-        <span className="text-amber-700 font-extrabold">:35</span>, &nbsp;
+        <span className="text-amber-700 font-extrabold">:05</span>, &nbsp;
         <span className="text-red-400">11</span>
         {/* <span className="text-red-400">2</span>
         <span className="text-amber-700 font-extrabold">:05</span>, &nbsp;
