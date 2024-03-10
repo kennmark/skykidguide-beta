@@ -17,6 +17,7 @@ import { valley } from '../data/valleyData'
 import { wasteland } from '../data/wastelandData'
 import { vault } from '../data/vaultData'
 import { eden } from '../data/edenData'
+import { seasons2022 } from '../data/seasons'
 import {
   WL_COUNT_DATE_UPDATED,
   TOTAL_WL_COUNT,
@@ -30,6 +31,7 @@ import {
   WASTELAND_NUM_WL,
   VAULT_NUM_WL,
   EDEN_NUM_WL,
+  SHARDS_WL,
 } from '../exports/constants'
 import CardContainer from './components/CardContainer'
 import { BarsArrowDownIcon } from '@heroicons/react/24/solid'
@@ -44,6 +46,7 @@ const PageWingedLights = () => {
   const wasteland_wl = wasteland[2].winged_lights
   const vault_wl = vault[2].winged_lights
   const eden_wl = eden[2].winged_lights
+  const shards_wl = seasons2022[2].winged_lights
 
   // console.log(isle_wl)
   const handleOpen = (value) => setOpen(open === value ? 0 : value)
@@ -119,6 +122,12 @@ const PageWingedLights = () => {
                   <td className="border border-slate-700 p-3">
                     {WB_TRAVELING_SPIRITS}
                   </td>
+                </tr>
+                <tr>
+                  <td className="border border-slate-700 p-3">
+                    WL in Shattering Void Space
+                  </td>
+                  <td className="border border-slate-700 p-3">{SHARDS_WL}</td>
                 </tr>
                 <tr>
                   <td className="border border-slate-700 font-bold p-3">
@@ -346,6 +355,38 @@ const PageWingedLights = () => {
             <AccordionBody className="pt-0 text-base font-normal">
               <div className="flex flex-wrap justify-center gap-3">
                 {eden_wl?.map((wingedLight) => {
+                  return (
+                    <CardContainer
+                      label={wingedLight.wl_label}
+                      location={wingedLight.wl_location}
+                      url={wingedLight.wl_url}
+                      key={wingedLight.wl_label}
+                    />
+                  )
+                })}
+              </div>
+            </AccordionBody>
+          </Accordion>
+          <Accordion
+            open={open === 8}
+            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
+          >
+            <AccordionHeader
+              onClick={() => handleOpen(8)}
+              className={`border-b-0 transition-colors ${
+                open === 8
+                  ? 'text-amber-500 hover:!text-amber-700'
+                  : 'text-amber-500 hover:text-amber-900'
+              }`}
+            >
+              <span className="flex">
+                Shattering Void Space - {SHARDS_WL} WL &nbsp;
+                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+              </span>
+            </AccordionHeader>
+            <AccordionBody className="pt-0 text-base font-normal">
+              <div className="flex flex-wrap justify-center gap-3">
+                {shards_wl?.map((wingedLight) => {
                   return (
                     <CardContainer
                       label={wingedLight.wl_label}
