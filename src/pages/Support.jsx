@@ -14,8 +14,8 @@ const Support = () => {
     <>
       <div className="flex flex-wrap justify-center my-10">
         <Typography variant="h5" className="p-10">
-          Do you like this website? Your generosity and kindness will inspire me
-          more to improve this site.
+          Did you like this website? Your generosity and kindness will inspire
+          me more to improve this site.
         </Typography>
         <BuyMeACoffee />
         <div className="mt-10">
