@@ -21,6 +21,7 @@ const Grandma = () => {
         <span className="text-red-400">9</span>
         <span className="text-amber-700 font-extrabold">:35</span>, &nbsp;
         <span className="text-red-400">11</span>
+        <span className="text-amber-700 font-extrabold">:35</span>, &nbsp;
         {/* <span className="text-red-400">2</span>
         <span className="text-amber-700 font-extrabold">:35</span>, &nbsp;
         <span className="text-red-400">4</span>
