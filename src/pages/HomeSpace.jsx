@@ -224,7 +224,7 @@ const HomeSpace = () => {
           return <MapCardContainer {...map} key={map.id} />
         })}
       </div>
-      <div className="my-6">
+      <div className="my-6 w-96 md:w-full">
         <Testimonials />
       </div>
       <FaQ />

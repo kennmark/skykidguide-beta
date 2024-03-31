@@ -28,7 +28,7 @@ function StarIcon() {
 
 const Testimonials = () => {
   return (
-    <div className="border-t border-blue-gray-50 ">
+    <div className="border-t border-blue-gray-50">
       <div className="py-6">
         <Typography variant="h2">Testimonials</Typography>
       </div>
