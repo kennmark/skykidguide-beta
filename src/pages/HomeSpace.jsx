@@ -20,6 +20,7 @@ import carousel4 from '../assets/images/home-carousel/Upcoming-Season-21.jpg'
 import { WL_COUNT_DATE_UPDATED, TOTAL_WL_COUNT } from '../exports/constants'
 
 import { Countdown } from './components/Countdown'
+import Testimonials from './components/Testimonials'
 
 // import { LazyLoadImage } from 'react-lazy-load-image-component'
 
@@ -222,6 +223,9 @@ const HomeSpace = () => {
         {maps.map((map) => {
           return <MapCardContainer {...map} key={map.id} />
         })}
+      </div>
+      <div className="my-6">
+        <Testimonials />
       </div>
       <FaQ />
     </div>
