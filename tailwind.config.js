@@ -7,7 +7,11 @@ module.exports = withMT({
     fontFamily: {
       sans: ['Mooli', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'card-bg': "url('/T_G Logo white.png')",
+      },
+    },
   },
   plugins: [],
 })

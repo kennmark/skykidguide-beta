@@ -73,6 +73,99 @@ import {
   SEASON13,
   SEASON15,
 } from '../exports/seasonIcons'
+import {
+  VALLEY_SPIRIT_1,
+  VALLEY_SPIRIT_2,
+  VALLEY_SPIRIT_3,
+  VALLEY_SPIRIT_4,
+  VALLEY_SPIRIT_5,
+  VALLEY_SPIRIT_6,
+  VALLEY_SPIRIT_7,
+  VALLEY_SEASON_SPIRIT_1,
+  VALLEY_SEASON_SPIRIT_2,
+  VALLEY_SEASON_SPIRIT_3,
+  VALLEY_SEASON_SPIRIT_4,
+  VALLEY_SEASON_SPIRIT_5,
+  VALLEY_SEASON_SPIRIT_6,
+  VALLEY_SEASON_SPIRIT_7,
+  VALLEY_SEASON_SPIRIT_8,
+  VALLEY_SEASON_SPIRIT_9,
+  VALLEY_SEASON_SPIRIT_10,
+  VALLEY_SEASON_SPIRIT_11,
+  VALLEY_SEASON_SPIRIT_12,
+  VALLEY_SEASON_SPIRIT_13,
+  VALLEY_SEASON_SPIRIT_14,
+  VALLEY_SEASON_SPIRIT_15,
+  VALLEY_SEASON_SPIRIT_16,
+} from '../exports/spiritValleyImages'
+import {
+  CONFIDENT_ITEM_1,
+  CONFIDENT_ITEM_2,
+  CHAMPION_ITEM_1,
+  CHAMPION_ITEM_2,
+  HANDSTAND_ITEM_1,
+  HANDSTAND_ITEM_2,
+  PROUD_ITEM_1,
+  PROUD_ITEM_2,
+  PROUD_ITEM_3,
+  MEDALIST_ITEM_1,
+  MEDALIST_ITEM_2,
+  CHEERFUL_ITEM_1,
+  CHEERFUL_ITEM_2,
+  DANCER_ITEM_1,
+  DANCER_ITEM_2,
+  TWIRLING_ITEM_1,
+  TWIRLING_ITEM_2,
+  TWIRLING_ITEM_3,
+  PARENT_ITEM_1,
+  PARENT_ITEM_2,
+  PARENT_ITEM_3,
+  JUGGLER_ITEM_1,
+  JUGGLER_ITEM_2,
+  JUGGLER_ITEM_3,
+  JUGGLER_ITEM_4,
+  PERFORMER_ITEM_1,
+  PERFORMER_ITEM_2,
+  PERFORMER_ITEM_3,
+  PERFORMER_ITEM_4,
+  PEEKING_ITEM_1,
+  PEEKING_ITEM_2,
+  PEEKING_ITEM_3,
+  PEEKING_ITEM_4,
+  MENTOR_ITEM_1,
+  MENTOR_ITEM_2,
+  MENTOR_ITEM_3,
+  HERMIT_ITEM_1,
+  HERMIT_ITEM_2,
+  HERMIT_ITEM_3,
+  FRANTIC_ITEM_1,
+  FRANTIC_ITEM_2,
+  FRANTIC_ITEM_3,
+  FORGETFUL_ITEM_1,
+  FORGETFUL_ITEM_2,
+  FORGETFUL_ITEM_3,
+  FORGETFUL_ITEM_4,
+  MELLOW_ITEM_1,
+  MELLOW_ITEM_2,
+  MELLOW_ITEM_3,
+  MELLOW_ITEM_4,
+  MODEST_ITEM_1,
+  MODEST_ITEM_2,
+  MODEST_ITEM_3,
+  WAYFARER_ITEM_1,
+  WAYFARER_ITEM_2,
+  WAYFARER_ITEM_3,
+  MINER_ITEM_1,
+  MINER_ITEM_2,
+  MINER_ITEM_3,
+  MINER_ITEM_4,
+  WARRIOR_ITEM_1,
+  WARRIOR_ITEM_2,
+  WARRIOR_ITEM_3,
+  HOPE_ITEM_1,
+  HOPE_ITEM_2,
+  HOPE_ITEM_3,
+} from '../exports/spiritValleyCollectibles'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -90,6 +183,7 @@ export const valley = [
       </Typography>
     ),
     spirits: [
+      // CONFIDENT_SIGHTSEER
       {
         id: 1,
         spirit_id: 'valley1',
@@ -101,6 +195,40 @@ export const valley = [
         difficulty_types: [0, 2, 6],
         spirit_name: 'Confident Sightseer',
         spirit_img_url: CONFIDENT_SIGHTSEER,
+        spirit_image: VALLEY_SPIRIT_1,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: CONFIDENT_ITEM_1,
+            currency: 'Hearts',
+            price: 2,
+          },
+          {
+            label: 'Outfit',
+            img: CONFIDENT_ITEM_2,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Emote',
+            img: CONFIDENT_SIGHTSEER,
+            currency: 'Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 9,
+            hearts: 7,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Valley of Triumph',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP4,
         spirit_guide_video_url: youtube_embed + 'ukkYW0UiuKE',
         spirit_direction: [
@@ -108,6 +236,7 @@ export const valley = [
           `Sa bandang kanan ng lagusan, lumipad ka pataas at makikita mo ang spirit na ito.`,
         ],
       },
+      // BACKFLIPPING_CHAMPION
       {
         id: 2,
         spirit_id: 'valley2',
@@ -119,6 +248,40 @@ export const valley = [
         difficulty_types: [0, 2, 5, 6],
         spirit_name: 'Backflipping Champion',
         spirit_img_url: BACKFLIPPING_CHAMPION,
+        spirit_image: VALLEY_SPIRIT_2,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: CHAMPION_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Mask',
+            img: CHAMPION_ITEM_2,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Emote',
+            img: BACKFLIPPING_CHAMPION,
+            currency: 'Candles',
+            price: 11,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 20,
+            hearts: 10,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Valley of Triumph',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP4,
         spirit_guide_video_url: youtube_embed + 'GUqYcLjeYA8',
         spirit_direction: [
@@ -128,6 +291,7 @@ export const valley = [
           `Sa iyong kaliwa ay may maliit na tower, nasa loob nito ang spirit.`,
         ],
       },
+      // HANDSTANDING_THRILLSEEKER
       {
         id: 3,
         spirit_id: 'valley3',
@@ -139,6 +303,40 @@ export const valley = [
         difficulty_types: [0, 2, 5, 6],
         spirit_name: 'Handstanding Thrillseeker',
         spirit_img_url: HANDSTANDING_THRILLSEEKER,
+        spirit_image: VALLEY_SPIRIT_3,
+        spirit_collectibles: [
+          {
+            label: 'Cape Lvl 1',
+            img: HANDSTAND_ITEM_1,
+            currency: 'Hearts',
+            price: 40,
+          },
+          {
+            label: 'Cape Lvl 2',
+            img: HANDSTAND_ITEM_2,
+            currency: 'Hearts',
+            price: 120,
+          },
+          {
+            label: 'Emote',
+            img: HANDSTANDING_THRILLSEEKER,
+            currency: 'Candles',
+            price: 11,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 20,
+            hearts: 160,
+            ascended_candles: 12,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Valley of Triumph',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP4,
         spirit_guide_video_url: youtube_embed + 'AwpBBSZcfeE',
         spirit_direction: [
@@ -148,6 +346,7 @@ export const valley = [
           `Lumipad ka patungo sa main Citadel towers, sa mga daanan ng towers makita mo ang spirit na ito.`,
         ],
       },
+      // MANTA_WHISPERER
       {
         id: 4,
         spirit_id: 'valley4',
@@ -159,6 +358,28 @@ export const valley = [
         difficulty_types: [0, 2, 5, 6, 12],
         spirit_name: 'Manta Whisperer',
         spirit_img_url: MANTA_WHISPERER,
+        spirit_image: VALLEY_SPIRIT_4,
+        spirit_collectibles: [
+          {
+            label: 'Sound-Call',
+            img: MANTA_WHISPERER,
+            currency: 'Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 9,
+            hearts: 3,
+            ascended_candles: 1,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Valley of Triumph',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP4,
         spirit_guide_video_url: youtube_embed + 'Tq3HWYajMzY',
         spirit_direction: [
@@ -168,6 +389,7 @@ export const valley = [
           `Lumipad ka patungo sa main Citadel towers, lumipad gawing kanan at sa likod ng hagdanan ang spirit na ito.`,
         ],
       },
+      // PROUD_VICTOR
       {
         id: 5,
         spirit_id: 'valley5',
@@ -179,6 +401,46 @@ export const valley = [
         difficulty_types: [0, 6],
         spirit_name: 'Proud Victor',
         spirit_img_url: PROUD_VICTOR,
+        spirit_image: VALLEY_SPIRIT_5,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: PROUD_ITEM_1,
+            currency: 'Hearts',
+            price: 30,
+          },
+          {
+            label: 'Cape Lvl 1',
+            img: PROUD_ITEM_2,
+            currency: 'Hearts',
+            price: 10,
+          },
+          {
+            label: 'Cape Lvl 2',
+            img: PROUD_ITEM_3,
+            currency: 'Hearts',
+            price: 30,
+          },
+          {
+            label: 'Stance',
+            img: PROUD_VICTOR,
+            currency: 'Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 9,
+            hearts: 70,
+            ascended_candles: 12,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Valley of Triumph',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP4,
         spirit_guide_video_url: youtube_embed + 'HgL7qC1uJvs',
         spirit_direction: [
@@ -187,6 +449,7 @@ export const valley = [
           `Pagdating sa Coliseum, sa kaliwang banda sa tuktok ng mga upuan malapit sa statwa, makita mo ang spirit na ito.`,
         ],
       },
+      // BOWING_MEDALIST
       {
         id: 6,
         spirit_id: 'valley6',
@@ -198,6 +461,40 @@ export const valley = [
         difficulty_types: [0, 6],
         spirit_name: 'Bowing Medalist',
         spirit_img_url: BOWING_MEDALIST,
+        spirit_image: VALLEY_SPIRIT_6,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: MEDALIST_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Mask',
+            img: MEDALIST_ITEM_2,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Emote',
+            img: BOWING_MEDALIST,
+            currency: 'Candles',
+            price: 11,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 20,
+            hearts: 10,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Valley of Triumph',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP4,
         spirit_guide_video_url: youtube_embed + 'wwpu2V_6nKI',
         spirit_direction: [
@@ -206,6 +503,7 @@ export const valley = [
           `Pagdating sa Coliseum, sa kanang banda sa tuktok ng mga upuan malapit sa statwa, makita mo ang spirit na ito.`,
         ],
       },
+      // CHEERFUL_SPECTATOR
       {
         id: 7,
         spirit_id: 'valley7',
@@ -217,6 +515,40 @@ export const valley = [
         difficulty_types: [0, 6],
         spirit_name: 'Cheerful Spectator',
         spirit_img_url: CHEERFUL_SPECTATOR,
+        spirit_image: VALLEY_SPIRIT_7,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: CHEERFUL_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Prop',
+            img: CHEERFUL_ITEM_2,
+            currency: 'Hearts',
+            price: 10,
+          },
+          {
+            label: 'Emote',
+            img: CHEERFUL_SPECTATOR,
+            currency: 'Candles',
+            price: 11,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 20,
+            hearts: 15,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Valley of Triumph',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP4,
         spirit_guide_video_url: youtube_embed + 'kkRnJ8a5p3U',
         spirit_direction: [
@@ -241,6 +573,7 @@ export const valley = [
       </Typography>
     ),
     spirits: [
+      // LEAPING_DANCER
       {
         id: 8,
         spirit_id: 'valley8',
@@ -253,6 +586,48 @@ export const valley = [
         difficulty_types: [2, 3, 7],
         spirit_name: 'Leaping Dancer',
         spirit_img_url: LEAPING_DANCER,
+        spirit_image: VALLEY_SEASON_SPIRIT_1,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: DANCER_ITEM_1,
+            currency: 'Candles',
+            price: 54,
+          },
+          {
+            label: 'Prop',
+            img: DANCER_ITEM_2,
+            currency: 'Candles',
+            price: 40,
+          },
+          {
+            label: 'Emote',
+            img: LEAPING_DANCER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 107,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Jun 24, 2020',
+            visitNo: 12,
+          },
+          {
+            visit_date: 'Mar 18, 2021',
+            visitNo: 19,
+          },
+          {
+            visit_date: 'Jul 3, 2023',
+            visitNo: 'GV#3',
+          },
+        ],
         icon_route: SEASON1,
         spirit_guide_video_url: youtube_embed + 'qM46Yfsl4Oc',
         spirit_direction: [
@@ -260,6 +635,7 @@ export const valley = [
           `Sa kanang banda pababa, ay may 2-Player door, nasa loob nito ang spirit.`,
         ],
       },
+      // TWIRLING_CHAMPION
       {
         id: 9,
         spirit_id: 'valley9',
@@ -273,12 +649,61 @@ export const valley = [
         spirit_name: 'Twirling Champion',
         spirit_img_url: TWIRLING_CHAMPION,
         icon_route: SEASON2,
+        spirit_image: VALLEY_SEASON_SPIRIT_2,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: TWIRLING_ITEM_1,
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Mask',
+            img: TWIRLING_ITEM_2,
+            currency: 'Candles',
+            price: 24,
+          },
+          {
+            label: 'Prop',
+            img: TWIRLING_ITEM_3,
+            currency: 'Candles',
+            price: 60,
+          },
+          {
+            label: 'Emote',
+            img: TWIRLING_CHAMPION,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 131,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Sep 17, 2020',
+            visitNo: 18,
+          },
+          {
+            visit_date: 'Jan 6, 2022',
+            visitNo: 52,
+          },
+          {
+            visit_date: 'Feb 1, 2024',
+            visitNo: 106,
+          },
+        ],
         spirit_guide_video_url: youtube_embed + 'gJMN_Wuq2lM',
         spirit_direction: [
           `Pasok ka Pang-Apat na Mapa - Valley of Triumph, slide pababa hanggang sa makarating ka sa plaza ng Ice Rink.`,
           `Sa kaliwang banda ay makita mo ang spirit na ito.`,
         ],
       },
+      // SPARKLE_PARENT
       {
         id: 10,
         spirit_id: 'valley10',
@@ -291,6 +716,58 @@ export const valley = [
         difficulty_types: [1, 2, 4, 5, 6],
         spirit_name: 'Sparkler Parent',
         spirit_img_url: SPARKLE_PARENT,
+        spirit_image: VALLEY_SEASON_SPIRIT_3,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: PARENT_ITEM_1,
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Mask',
+            img: PARENT_ITEM_2,
+            currency: 'Candles',
+            price: 36,
+          },
+          {
+            label: 'Prop',
+            img: PARENT_ITEM_3,
+            currency: 'Candles',
+            price: 33,
+          },
+          {
+            label: 'Emote',
+            img: SPARKLE_PARENT,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 116,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'May 14, 2020',
+            visitNo: 9,
+          },
+          {
+            visit_date: 'Apr 1, 2021',
+            visitNo: 32,
+          },
+          {
+            visit_date: 'Dec 23, 2021',
+            visitNo: 51,
+          },
+          {
+            visit_date: 'Jun 22, 2023',
+            visitNo: 90,
+          },
+        ],
         icon_route: SEASON3,
         spirit_guide_video_url: youtube_embed + '1U65HqbrWeM',
         spirit_direction: [
@@ -299,6 +776,7 @@ export const valley = [
           `Pagdating sa Coliseum, Pasok sa templo at sa kaliwang banda ay may lagusan kung nasaan ang spirit.`,
         ],
       },
+      // TROUPE_JUGGLER
       {
         id: 11,
         spirit_id: 'valley11',
@@ -311,6 +789,56 @@ export const valley = [
         difficulty_types: [0, 1],
         spirit_name: 'Troupe Juggler',
         spirit_img_url: TROUPE_JUGGLER,
+        spirit_image: VALLEY_SEASON_SPIRIT_4,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: JUGGLER_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Outfit',
+            img: JUGGLER_ITEM_2,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Cape',
+            img: JUGGLER_ITEM_3,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Prop',
+            img: JUGGLER_ITEM_4,
+            currency: 'Hearts',
+            price: 14,
+          },
+          {
+            label: 'Emote',
+            img: TROUPE_JUGGLER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 205,
+            hearts: 27,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Sep 16, 2021',
+            visitNo: 44,
+          },
+          {
+            visit_date: 'Oct 26, 2023',
+            visitNo: 99,
+          },
+        ],
         icon_route: SEASON4,
         spirit_guide_video_url: youtube_embed + 'Fa5csPKdgCo',
         spirit_direction: [
@@ -318,6 +846,7 @@ export const valley = [
           `Pumasok ka sa tunnel na nasa kaliwang banda ng Ice Rink, sa looban makita mo ang spirit na ito.`,
         ],
       },
+      // DANCING_PERFORMER
       {
         id: 12,
         spirit_id: 'valley12',
@@ -330,6 +859,52 @@ export const valley = [
         difficulty_types: [0, 1],
         spirit_name: 'Dancing Performer',
         spirit_img_url: DANCING_PERFORMER,
+        spirit_image: VALLEY_SEASON_SPIRIT_5,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: PERFORMER_ITEM_1,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Mask',
+            img: PERFORMER_ITEM_2,
+            currency: 'Candles',
+            price: 50,
+          },
+          {
+            label: 'Cape',
+            img: PERFORMER_ITEM_3,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Prop',
+            img: PERFORMER_ITEM_4,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: DANCING_PERFORMER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 240,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Apr 25, 2024',
+            visitNo: 112,
+          },
+        ],
         icon_route: SEASON8,
         spirit_guide_video_url: youtube_embed + 'CUcyXXvawO8',
         spirit_direction: [
@@ -337,6 +912,7 @@ export const valley = [
           `Mag-skate pababa, sa mga kabahayan sa kaliwang banda ay makita mo ang spirit na ito.`,
         ],
       },
+      // PEEKING_POSTMAN
       {
         id: 13,
         spirit_id: 'valley13',
@@ -349,6 +925,52 @@ export const valley = [
         difficulty_types: [0, 1],
         spirit_name: 'Peeking Postman',
         spirit_img_url: PEEKING_POSTMAN,
+        spirit_image: VALLEY_SEASON_SPIRIT_6,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: PEEKING_ITEM_1,
+            currency: 'Candles',
+            price: 54,
+          },
+          {
+            label: 'Outfit',
+            img: PEEKING_ITEM_2,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Cape',
+            img: PEEKING_ITEM_3,
+            currency: 'Candles',
+            price: 65,
+          },
+          {
+            label: 'Shoes',
+            img: PEEKING_ITEM_4,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: PEEKING_POSTMAN,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 217,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Jun 23, 2022',
+            visitNo: 64,
+          },
+        ],
         icon_route: SEASON8,
         spirit_guide_video_url: youtube_embed + 'uCfBPcR9X4k',
         spirit_direction: [
@@ -356,6 +978,7 @@ export const valley = [
           `Mag-skate pababa, papuntang plaza ng Village of Dreams, at sa likod na bahay ng Quest Giver, ay nakatago ang spirit na ito.`,
         ],
       },
+      // SPINNING_MENTOR
       {
         id: 14,
         spirit_id: 'valley14',
@@ -368,6 +991,50 @@ export const valley = [
         difficulty_types: [0, 1],
         spirit_name: 'Spinning Mentor',
         spirit_img_url: SPINNING_MENTOR,
+        spirit_image: VALLEY_SEASON_SPIRIT_7,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: MENTOR_ITEM_1,
+            currency: 'Candles',
+            price: 44,
+          },
+          {
+            label: 'Mask',
+            img: MENTOR_ITEM_2,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Cape',
+            img: MENTOR_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: SPINNING_MENTOR,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 169,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Apr 14, 2022',
+            visitNo: 59,
+          },
+          {
+            visit_date: 'Jul 6, 2023',
+            visitNo: 91,
+          },
+        ],
         icon_route: SEASON8,
         spirit_guide_video_url: youtube_embed + 'QOFfrU-J-Yw',
         spirit_direction: [
@@ -375,6 +1042,7 @@ export const valley = [
           `Mag-skate pababa, papuntang plaza ng Village of Dreams, at sa unahan lng ng Quest Giver, bandang kanan, nasa gilid ng bahay ang spirit na ito.`,
         ],
       },
+      // BEARHUG_HERMIT
       {
         id: 15,
         spirit_id: 'valley15',
@@ -387,6 +1055,50 @@ export const valley = [
         difficulty_types: [1, 4, 5, 6],
         spirit_name: 'Bearhug Hermit',
         spirit_img_url: BEARHUG_HERMIT,
+        spirit_image: VALLEY_SEASON_SPIRIT_8,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: HERMIT_ITEM_1,
+            currency: 'Candles',
+            price: 50,
+          },
+          {
+            label: 'Hair Accessory',
+            img: HERMIT_ITEM_2,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Outfit',
+            img: HERMIT_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Friendship Action',
+            img: BEARHUG_HERMIT,
+            currency: 'Hearts',
+            price: 8,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 190,
+            hearts: 8,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Nov 24, 2022',
+            visitNo: 75,
+          },
+          {
+            visit_date: 'Feb 15, 2024',
+            visitNo: 107,
+          },
+        ],
         icon_route: SEASON8,
         spirit_guide_video_url: youtube_embed + 's_0_jm6c8SY',
         spirit_direction: [
@@ -394,18 +1106,59 @@ export const valley = [
           `Mag-skate pababa, papuntang plaza ng Village of Dreams, at sa kabahayan sa kaliwang banda, nasa likod nito ang spirit.`,
         ],
       },
+      // FRANTIC_STAGEHEAD
       {
         id: 16,
         spirit_id: 'valley16',
         season_id: 'season-13',
         spirit_type: 'seasonal',
         season: 'Season 13 - Season of Performance',
-        spirit_category: 'frienship action',
+        spirit_category: 'friendship action',
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
         spirit_name: 'Frantic Stagehand',
         spirit_img_url: FRANTIC_STAGEHEAD,
+        spirit_image: VALLEY_SEASON_SPIRIT_9,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: FRANTIC_ITEM_1,
+            currency: 'Candles',
+            price: 48,
+          },
+          {
+            label: 'Mask',
+            img: FRANTIC_ITEM_2,
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Outfit',
+            img: FRANTIC_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Friendship Action',
+            img: FRANTIC_STAGEHEAD,
+            currency: 'Hearts',
+            price: 8,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 187,
+            hearts: 8,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Mar 4, 2024',
+            visitNo: 'GV#5',
+          },
+        ],
         icon_route: SEASON13,
         spirit_guide_video_url: youtube_embed + 'iRsevRYePBI',
         spirit_direction: [
@@ -414,6 +1167,7 @@ export const valley = [
           `Sa gitna ng pang 3rd at 4th na bahay sa iyong kaliwa ay makikita mo ang spirit na ito.`,
         ],
       },
+      // FORGETFUL_STORYTELLER
       {
         id: 17,
         spirit_id: 'valley17',
@@ -426,6 +1180,47 @@ export const valley = [
         difficulty_types: [0, 1],
         spirit_name: 'Forgetful Storyteller',
         spirit_img_url: FORGETFUL_STORYTELLER,
+        spirit_image: VALLEY_SEASON_SPIRIT_10,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: FORGETFUL_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: FORGETFUL_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: FORGETFUL_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: FORGETFUL_ITEM_4,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: FORGETFUL_STORYTELLER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON13,
         spirit_guide_video_url: youtube_embed + '6fCttoMbOB0',
         spirit_direction: [
@@ -434,6 +1229,7 @@ export const valley = [
           `Sa iyong kanan makikita mo agad ang spirit na ito.`,
         ],
       },
+      // MELLOW_MUSICIAN
       {
         id: 18,
         spirit_id: 'valley18',
@@ -446,6 +1242,47 @@ export const valley = [
         difficulty_types: [0, 1],
         spirit_name: 'Mellow Musician',
         spirit_img_url: MELLOW_MUSICIAN,
+        spirit_image: VALLEY_SEASON_SPIRIT_11,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: MELLOW_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: MELLOW_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: MELLOW_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Instrument',
+            img: MELLOW_ITEM_4,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: MELLOW_MUSICIAN,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON13,
         spirit_guide_video_url: youtube_embed + '-K0-u2qIJsM',
         spirit_direction: [
@@ -454,6 +1291,7 @@ export const valley = [
           `Sa iyong kaliwa, sa 1st at 2nd na bahay, ay nasa gitna mo makikita ang spirit na ito.`,
         ],
       },
+      // MODEST_DANCER
       {
         id: 19,
         spirit_id: 'valley19',
@@ -466,6 +1304,41 @@ export const valley = [
         difficulty_types: [0, 1],
         spirit_name: 'Modest Dancer',
         spirit_img_url: MODEST_DANCER,
+        spirit_image: VALLEY_SEASON_SPIRIT_12,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: MODEST_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: MODEST_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: MODEST_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Friendship Action',
+            img: MODEST_DANCER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON13,
         spirit_guide_video_url: youtube_embed + 'g3MSGbE9XZA',
         spirit_direction: [
@@ -474,6 +1347,7 @@ export const valley = [
           `Sa iyong kaliwa, sa 5th at 6th na bahay, ay nasa likod nito ang spirit.`,
         ],
       },
+      // RUNNING_WAYFARER
       {
         id: 20,
         spirit_id: 'valley20',
@@ -486,6 +1360,41 @@ export const valley = [
         difficulty_types: [0, 1],
         spirit_name: 'Running Wayfarer',
         spirit_img_url: RUNNING_WAYFARER,
+        spirit_image: VALLEY_SEASON_SPIRIT_13,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: WAYFARER_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: WAYFARER_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: WAYFARER_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: RUNNING_WAYFARER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON15,
         spirit_guide_video_url: youtube_embed + '0nc59JDjgoA',
         spirit_direction: [
@@ -494,6 +1403,7 @@ export const valley = [
           `Ang Quest ay nasa Unang Mapa - Isle of Dawn, Entrance.`,
         ],
       },
+      // MINDFUL_MINER
       {
         id: 21,
         spirit_id: 'valley21',
@@ -506,6 +1416,47 @@ export const valley = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Mindful Miner',
         spirit_img_url: MINDFUL_MINER,
+        spirit_image: VALLEY_SEASON_SPIRIT_14,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: MINER_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: MINER_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: MINER_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: MINER_ITEM_4,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: MINDFUL_MINER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON15,
         spirit_guide_video_url: youtube_embed + '09XhkJcsL90',
         spirit_direction: [
@@ -514,6 +1465,7 @@ export const valley = [
           `Ang Quest ay nasa Pangatlong Mapa - Hidden Forest, Underground Cave.`,
         ],
       },
+      // WARRIOR_OF_LOVE
       {
         id: 22,
         spirit_id: 'valley22',
@@ -526,6 +1478,41 @@ export const valley = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Warrior of Love',
         spirit_img_url: WARRIOR_OF_LOVE,
+        spirit_image: VALLEY_SEASON_SPIRIT_15,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: WARRIOR_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: WARRIOR_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: WARRIOR_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: WARRIOR_OF_LOVE,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON15,
         spirit_guide_video_url: youtube_embed + 'Lb3DAYkWxoM',
         spirit_direction: [
@@ -535,6 +1522,7 @@ export const valley = [
           `Ang Quest ay nasa Pang-apat na Mapa - Valley of Triumph, Citadle.`,
         ],
       },
+      // SEED_OF_HOPE
       {
         id: 23,
         spirit_id: 'valley23',
@@ -547,6 +1535,41 @@ export const valley = [
         difficulty_types: [0, 1],
         spirit_name: 'Seed of Hope',
         spirit_img_url: SEED_OF_HOPE,
+        spirit_image: VALLEY_SEASON_SPIRIT_16,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: HOPE_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: HOPE_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: HOPE_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: SEED_OF_HOPE,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON15,
         spirit_guide_video_url: youtube_embed + 'xLymA7CvM04',
         spirit_direction: [

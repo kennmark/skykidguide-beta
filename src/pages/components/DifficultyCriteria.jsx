@@ -1,13 +1,15 @@
 import React from 'react'
-import { Typography, Alert, Chip } from '@material-tailwind/react'
+import { Typography, Chip, Card } from '@material-tailwind/react'
 const DifficultyCriteria = () => {
   return (
-    <Alert variant="gradient" className="mt-3">
-      <Typography>Information on Spirit's Difficulty Factors:</Typography>
+    <Card className="flex mt-3 p-5 bg-gray-900/50 text-white">
+      <Typography className="">
+        Information on Spirit's Difficulty Factors:
+      </Typography>
       <Typography>
         Ang criteria na ito ay base sa "moth" o "new player" experience.
       </Typography>
-      <div className="flex flex-wrap justify-center gap-2 py-3">
+      <div className="flex flex-row flex-wrap justify-center gap-2 py-3">
         <Chip color="green" value="Follow +5" />
         <Chip color="teal" value="Walk +10" />
         <Chip color="cyan" value="Fly +10" />
@@ -24,7 +26,7 @@ const DifficultyCriteria = () => {
         <Chip color="red" value="Crabs +15" />
         <Chip color="gray" value="None" />
       </div>
-    </Alert>
+    </Card>
   )
 }
 

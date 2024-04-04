@@ -1,3 +1,11 @@
+import rc from '../assets/images/icons/candle.png'
+import heart from '../assets/images/icons/heart.png'
+import ac from '../assets/images/icons/AC.png'
+
+export const RC = rc
+export const HEART = heart
+export const AC = ac
+
 export const ORBIT_WL = 1
 export const SHARDS_WL = 6
 

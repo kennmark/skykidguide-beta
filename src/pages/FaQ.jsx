@@ -8,7 +8,7 @@ const FaQ = () => {
   const handleOpen = (value) => setOpen(open === value ? 0 : value)
   return (
     <div className="my-6 border-t border-blue-gray-50 py-4 px-6 md:flex-row md:justify-between">
-      <Typography variant="h2">FAQ's</Typography>
+      <Typography variant="h2">FAQ</Typography>
       {faqdetails.map((faq) => {
         return (
           <FaqContainer

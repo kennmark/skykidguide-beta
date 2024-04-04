@@ -72,6 +72,90 @@ import {
   HF_MS9,
   HF_MS10,
 } from '../exports/forestMSImgUrl'
+import {
+  FOREST_SPIRIT_1,
+  FOREST_SPIRIT_2,
+  FOREST_SPIRIT_3,
+  FOREST_SPIRIT_4,
+  FOREST_SPIRIT_5,
+  FOREST_SPIRIT_6,
+  FOREST_SPIRIT_7,
+  FOREST_SPIRIT_8,
+  FOREST_SEASON_SPIRIT_9,
+  FOREST_SEASON_SPIRIT_10,
+  FOREST_SEASON_SPIRIT_11,
+  FOREST_SEASON_SPIRIT_12,
+  FOREST_SEASON_SPIRIT_13,
+  FOREST_SEASON_SPIRIT_14,
+  FOREST_SEASON_SPIRIT_15,
+  FOREST_SEASON_SPIRIT_16,
+  FOREST_SEASON_SPIRIT_17,
+  FOREST_SEASON_SPIRIT_18,
+  FOREST_SEASON_SPIRIT_19,
+  FOREST_SEASON_SPIRIT_20,
+  FOREST_SEASON_SPIRIT_21,
+  FOREST_SEASON_SPIRIT_22,
+} from '../exports/spiritForestImages'
+import {
+  SHIVERING_ITEM_1,
+  SHIVERING_ITEM_2,
+  PROSPECTOR_ITEM_1,
+  PROSPECTOR_ITEM_2,
+  PIONEER_ITEM_1,
+  PIONEER_ITEM_2,
+  PIONEER_ITEM_3,
+  PORTER_ITEM_1,
+  PORTER_ITEM_2,
+  PORTER_ITEM_3,
+  HUNTER_ITEM_1,
+  HUNTER_ITEM_2,
+  HUNTER_ITEM_3,
+  APOLOGETIC_ITEM_1,
+  APOLOGETIC_ITEM_2,
+  MINER_ITEM_1,
+  PERFORMER_ITEM_1,
+  PERFORMER_ITEM_2,
+  LAIDBACK_ITEM_1,
+  LAIDBACK_ITEM_2,
+  LAIDBACK_ITEM_3,
+  TEEN_ITEM_1,
+  TEEN_ITEM_2,
+  ACTOR_ITEM_1,
+  ACTOR_ITEM_2,
+  BOTANIST_ITEM_1,
+  BOTANIST_ITEM_2,
+  BOTANIST_ITEM_3,
+  STUDENT_ITEM_1,
+  STUDENT_ITEM_2,
+  STUDENT_ITEM_3,
+  ADVENTURER_ITEM_1,
+  ADVENTURER_ITEM_2,
+  ADVENTURER_ITEM_3,
+  CADET_ITEM_1,
+  CADET_ITEM_2,
+  CADET_ITEM_3,
+  SCOUT_ITEM_1,
+  SCOUT_ITEM_2,
+  SCOUT_ITEM_3,
+  SCOUT_ITEM_4,
+  FORESTER_ITEM_1,
+  FORESTER_ITEM_2,
+  TINKERING_ITEM_1,
+  TINKERING_ITEM_2,
+  TINKERING_ITEM_3,
+  TINKERING_ITEM_4,
+  LIGHT_ITEM_1,
+  LIGHT_ITEM_2,
+  LIGHT_ITEM_3,
+  LIGHT_ITEM_4,
+  LIVELY_ITEM_1,
+  LIVELY_ITEM_2,
+  LIVELY_ITEM_3,
+  BUILDER_ITEM_1,
+  BUILDER_ITEM_2,
+  BUILDER_ITEM_3,
+} from '../exports/spiritForestCollectibles'
+
 const youtube_embed = 'https://www.youtube.com/embed/'
 
 export const hiddenForest = [
@@ -88,6 +172,7 @@ export const hiddenForest = [
       </Typography>
     ),
     spirits: [
+      // SHIVERING_TRAILBLAZER
       {
         id: 1,
         spirit_id: 'forest1',
@@ -99,6 +184,40 @@ export const hiddenForest = [
         difficulty_types: [0, 1, 3],
         spirit_name: 'Shivering Trailblazer',
         spirit_img_url: SHIVERING_TRAILBLAZER,
+        spirit_image: FOREST_SPIRIT_1,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: SHIVERING_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Outfit',
+            img: SHIVERING_ITEM_2,
+            currency: 'Hearts',
+            price: 2,
+          },
+          {
+            label: 'Emote',
+            img: SHIVERING_TRAILBLAZER,
+            currency: 'Candles',
+            price: 8,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 17,
+            hearts: 7,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Hidden Forest',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP3,
         spirit_guide_video_url: youtube_embed + '8pc34umHQSE',
         spirit_direction: [
@@ -107,6 +226,7 @@ export const hiddenForest = [
           'Pagkabukas, ay nasa kaliwang banda ng kwarto.',
         ],
       },
+      // BLUSHING_PROSPECTOR
       {
         id: 2,
         spirit_id: 'forest2',
@@ -118,6 +238,40 @@ export const hiddenForest = [
         difficulty_types: [0, 2, 6],
         spirit_name: 'Blushing Prospector',
         spirit_img_url: BLUSHING_PROSPECTOR,
+        spirit_image: FOREST_SPIRIT_2,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: PROSPECTOR_ITEM_1,
+            currency: 'Hearts',
+            price: 3,
+          },
+          {
+            label: 'Instrument',
+            img: PROSPECTOR_ITEM_2,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Emote',
+            img: BLUSHING_PROSPECTOR,
+            currency: 'Candles',
+            price: 11,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 20,
+            hearts: 8,
+            ascended_candles: 1,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Hidden Forest',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP3,
         spirit_guide_video_url: youtube_embed + 'hYHmaLE69Ts',
         spirit_direction: [
@@ -127,6 +281,7 @@ export const hiddenForest = [
           'At sa iyong kaliwa ay may isang waiting shed na isa kung nasaan ang spirit na ito.',
         ],
       },
+      // HIDENSEEK_PIONEER
       {
         id: 3,
         spirit_id: 'forest3',
@@ -138,6 +293,46 @@ export const hiddenForest = [
         difficulty_types: [0, 1],
         spirit_name: `Hide'n'Seek Pioneer`,
         spirit_img_url: HIDENSEEK_PIONEER,
+        spirit_image: FOREST_SPIRIT_3,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: PIONEER_ITEM_1,
+            currency: 'Hearts',
+            price: 2,
+          },
+          {
+            label: 'Mask',
+            img: PIONEER_ITEM_2,
+            currency: 'Hearts',
+            price: 20,
+          },
+          {
+            label: 'Outfit',
+            img: PIONEER_ITEM_3,
+            currency: 'Hearts',
+            price: 15,
+          },
+          {
+            label: 'Emote',
+            img: HIDENSEEK_PIONEER,
+            currency: 'Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 9,
+            hearts: 37,
+            ascended_candles: 9,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Hidden Forest',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP3,
         spirit_guide_video_url: youtube_embed + 'XoCtDrapcZc',
         spirit_direction: [
@@ -147,6 +342,7 @@ export const hiddenForest = [
           'bago sa tulay ay sa iyong kanan ay may dark plants na kailgan sindihan at nasa loob ang spirit na ito.',
         ],
       },
+      // POUTY_PORTER
       {
         id: 4,
         spirit_id: 'forest4',
@@ -158,6 +354,46 @@ export const hiddenForest = [
         difficulty_types: [0, 1],
         spirit_name: 'Pouty Porter',
         spirit_img_url: POUTY_PORTER,
+        spirit_image: FOREST_SPIRIT_4,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: PORTER_ITEM_1,
+            currency: 'Hearts',
+            price: 3,
+          },
+          {
+            label: 'Cape Lvl 1',
+            img: PORTER_ITEM_2,
+            currency: 'Hearts',
+            price: 20,
+          },
+          {
+            label: 'Cape Lvl 2',
+            img: PORTER_ITEM_3,
+            currency: 'Hearts',
+            price: 60,
+          },
+          {
+            label: 'Emote',
+            img: POUTY_PORTER,
+            currency: 'Candles',
+            price: 11,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 20,
+            hearts: 83,
+            ascended_candles: 8,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Hidden Forest',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP3,
         spirit_guide_video_url: youtube_embed + 'fgQxc-BYips',
         spirit_direction: [
@@ -167,6 +403,7 @@ export const hiddenForest = [
           'At sa iyong kaliwa ay lagusan kung nasaan ang spirit na ito.',
         ],
       },
+      // DISMAYED_HUNTER
       {
         id: 5,
         spirit_id: 'forest5',
@@ -178,6 +415,46 @@ export const hiddenForest = [
         difficulty_types: [0, 1],
         spirit_name: 'Dismayed Hunter',
         spirit_img_url: DISMAYED_HUNTER,
+        spirit_image: FOREST_SPIRIT_5,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: HUNTER_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Cape Lvl 1',
+            img: HUNTER_ITEM_2,
+            currency: 'Hearts',
+            price: 30,
+          },
+          {
+            label: 'Cape Lvl 2',
+            img: HUNTER_ITEM_3,
+            currency: 'Hearts',
+            price: 90,
+          },
+          {
+            label: 'Emote',
+            img: DISMAYED_HUNTER,
+            currency: 'Candles',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 22,
+            hearts: 125,
+            ascended_candles: 12,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Hidden Forest',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP3,
         spirit_guide_video_url: youtube_embed + 'rLhuEJ2t0BM',
         spirit_direction: [
@@ -187,6 +464,7 @@ export const hiddenForest = [
           'Paglabas mo sa iyong kanan ay nakasilong sa gilid ang spirit na ito.',
         ],
       },
+      // APOLOGETIC_LUMBERJACK
       {
         id: 6,
         spirit_id: 'forest6',
@@ -198,6 +476,40 @@ export const hiddenForest = [
         difficulty_types: [0, 1],
         spirit_name: 'Apologetic Lumberjack',
         spirit_img_url: APOLOGETIC_LUMBERJACK,
+        spirit_image: FOREST_SPIRIT_6,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: APOLOGETIC_ITEM_1,
+            currency: 'Hearts',
+            price: 3,
+          },
+          {
+            label: 'Mask',
+            img: APOLOGETIC_ITEM_2,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Emote',
+            img: APOLOGETIC_LUMBERJACK,
+            currency: 'Candles',
+            price: 9,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 18,
+            hearts: 8,
+            ascended_candles: 1,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Hidden Forest',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP3,
         spirit_guide_video_url: youtube_embed + 'z4LBCfASS6I',
         spirit_direction: [
@@ -207,6 +519,7 @@ export const hiddenForest = [
           'Paglabas mo sa bandang kaliwa ng mga tunnel, ay makita mo ang spirit na ito.',
         ],
       },
+      // WHALE_WHISPERER
       {
         id: 7,
         spirit_id: 'forest7',
@@ -218,6 +531,28 @@ export const hiddenForest = [
         difficulty_types: [1, 8],
         spirit_name: 'Whale Whisperer',
         spirit_img_url: WHALE_WHISPERER,
+        spirit_image: FOREST_SPIRIT_7,
+        spirit_collectibles: [
+          {
+            label: 'Sound-Call',
+            img: WHALE_WHISPERER,
+            currency: 'Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 9,
+            hearts: 2,
+            ascended_candles: 1,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Hidden Forest',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP3,
         spirit_guide_video_url: youtube_embed + 'sIGC16Ex-Kk',
         spirit_direction: [
@@ -227,6 +562,7 @@ export const hiddenForest = [
           'Paglabas mo lumipad patungo sa mga sirang tulay, sa kaliwa ay may buto ng whale, sindihan lahat ng dark plants at makuha mo ang spirit na ito.',
         ],
       },
+      // TEARFUL_MINER
       {
         id: 8,
         spirit_id: 'forest8',
@@ -238,6 +574,34 @@ export const hiddenForest = [
         difficulty_types: [0, 1],
         spirit_name: 'Tearful Light Miner',
         spirit_img_url: TEARFUL_MINER,
+        spirit_image: FOREST_SPIRIT_8,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: MINER_ITEM_1,
+            currency: 'Hearts',
+            price: 3,
+          },
+          {
+            label: 'Emote',
+            img: TEARFUL_MINER,
+            currency: 'Candles',
+            price: 21,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 30,
+            hearts: 3,
+            ascended_candles: 4,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Hidden Forest',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP3,
         spirit_guide_video_url: youtube_embed + 'n-SGJml4iXs',
         spirit_direction: [
@@ -263,6 +627,7 @@ export const hiddenForest = [
       </Typography>
     ),
     spirits: [
+      // PROVOKING_PERFORMER
       {
         id: 9,
         spirit_id: 'forest9',
@@ -275,6 +640,48 @@ export const hiddenForest = [
         difficulty_types: [1, 4],
         spirit_name: 'Provoking Performer',
         spirit_img_url: PROVOKING_PERFORMER,
+        spirit_image: FOREST_SEASON_SPIRIT_9,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: PERFORMER_ITEM_1,
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Mask',
+            img: PERFORMER_ITEM_2,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Emote',
+            img: PROVOKING_PERFORMER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 104,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Mar 12, 2020',
+            visitNo: 4,
+          },
+          {
+            visit_date: 'Oct 1, 2020',
+            visitNo: 19,
+          },
+          {
+            visit_date: 'Mar 30, 2023',
+            visitNo: 84,
+          },
+        ],
         icon_route: SEASON1,
         spirit_guide_video_url: youtube_embed + 'ykP_DP2CuBQ',
         spirit_direction: [
@@ -284,6 +691,7 @@ export const hiddenForest = [
           'At sa iyong kaliwa ay nasa bunganga ng tunnel ang spirit na ito.',
         ],
       },
+      // LAIDBACK_PIONEER
       {
         id: 10,
         spirit_id: 'forest10',
@@ -297,6 +705,54 @@ export const hiddenForest = [
         spirit_name: 'Laidback Pioneer',
         spirit_img_url: LAIDBACK_PIONEER,
         icon_route: SEASON2,
+        spirit_image: FOREST_SEASON_SPIRIT_10,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: LAIDBACK_ITEM_1,
+            currency: 'Candles',
+            price: 18,
+          },
+          {
+            label: 'Mask',
+            img: LAIDBACK_ITEM_2,
+            currency: 'Candles',
+            price: 30,
+          },
+          {
+            label: 'Prop',
+            img: LAIDBACK_ITEM_3,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Stance',
+            img: LAIDBACK_PIONEER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 151,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Feb 27, 2020',
+            visitNo: 3,
+          },
+          {
+            visit_date: 'Nov 26, 2020',
+            visitNo: 23,
+          },
+          {
+            visit_date: 'Oct 13, 2022',
+            visitNo: 72,
+          },
+        ],
         spirit_guide_video_url: youtube_embed + '7LTOXtTzXc0',
         spirit_direction: [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
@@ -305,6 +761,7 @@ export const hiddenForest = [
           'At gawing kanan sa itaas, sa silong ng puno ay makita mo ang spirit na ito.',
         ],
       },
+      // HAIRTOUSLE_TEEN
       {
         id: 11,
         spirit_id: 'forest11',
@@ -317,6 +774,48 @@ export const hiddenForest = [
         difficulty_types: [0, 1, 2, 3, 5, 6],
         spirit_name: 'Hairtousle Teen',
         spirit_img_url: HAIRTOUSLE_TEEN,
+        spirit_image: FOREST_SEASON_SPIRIT_11,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: TEEN_ITEM_1,
+            currency: 'Candles',
+            price: 50,
+          },
+          {
+            label: 'Instrument',
+            img: TEEN_ITEM_2,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Friendship Action',
+            img: HAIRTOUSLE_TEEN,
+            currency: 'Hearts',
+            price: 9,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 148,
+            hearts: 9,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Jun 11, 2020',
+            visitNo: 11,
+          },
+          {
+            visit_date: 'Jun 9, 2022',
+            visitNo: 63,
+          },
+          {
+            visit_date: 'Mar 28, 2024',
+            visitNo: 110,
+          },
+        ],
         icon_route: SEASON3,
         spirit_guide_video_url: youtube_embed + 'zX_ids0ygV8',
         spirit_direction: [
@@ -326,6 +825,7 @@ export const hiddenForest = [
           'At gawing kaliwa, sa ilalim ng puno ay may butas at kailangan mo ng kasama gumawa ng pouty emote, pagkababa ay lumipad hanggang dulo at nasa kanan ang spirit na ito',
         ],
       },
+      // ADMIRING_ACTOR
       {
         id: 12,
         spirit_id: 'forest12',
@@ -338,6 +838,48 @@ export const hiddenForest = [
         difficulty_types: [1, 4],
         spirit_name: 'Admiring Actor',
         spirit_img_url: ADMIRING_ACTOR,
+        spirit_image: FOREST_SEASON_SPIRIT_12,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: ACTOR_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Outfit',
+            img: ACTOR_ITEM_2,
+            currency: 'Candles',
+            price: 65,
+          },
+          {
+            label: 'Emote',
+            img: ADMIRING_ACTOR,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 135,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Oct 15, 2020',
+            visitNo: 20,
+          },
+          {
+            visit_date: 'Jun 24, 2021',
+            visitNo: 38,
+          },
+          {
+            visit_date: 'Jun 8, 2023',
+            visitNo: 89,
+          },
+        ],
         icon_route: SEASON4,
         spirit_guide_video_url: youtube_embed + 'BrqjwxellSM',
         spirit_direction: [
@@ -347,6 +889,7 @@ export const hiddenForest = [
           'Paglabas mo lumipad patungo sa mga sirang tulay, sa ilalim ng pangalawang waiting shed ay makita ang spirit na ito.',
         ],
       },
+      // BAFFLED_BOTANIST
       {
         id: 13,
         spirit_id: 'forest13',
@@ -359,6 +902,50 @@ export const hiddenForest = [
         difficulty_types: [0, 1, 2, 6],
         spirit_name: 'Baffled Botanist',
         spirit_img_url: BAFFLED_BOTANIST,
+        spirit_image: FOREST_SEASON_SPIRIT_13,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: BOTANIST_ITEM_1,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Mask',
+            img: BOTANIST_ITEM_2,
+            currency: 'Candles',
+            price: 24,
+          },
+          {
+            label: 'Prop',
+            img: BOTANIST_ITEM_3,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Emote',
+            img: BAFFLED_BOTANIST,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 127,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Jan 5, 2023',
+            visitNo: 78,
+          },
+          {
+            visit_date: 'Mar 6, 2023',
+            visitNo: 'GV#1',
+          },
+        ],
         icon_route: SEASON9,
         spirit_guide_video_url: youtube_embed + 'FjBXDty6SuQ',
         spirit_direction: [
@@ -367,6 +954,7 @@ export const hiddenForest = [
           'Pagkabukas, lumipad ka pakaliwa sa likod ng mga puno makita mo ang spirit na ito.',
         ],
       },
+      // SCOLDING_SPIRIT
       {
         id: 14,
         spirit_id: 'forest14',
@@ -379,6 +967,46 @@ export const hiddenForest = [
         difficulty_types: [0, 1, 2, 6],
         spirit_name: 'Scolding Student',
         spirit_img_url: SCOLDING_SPIRIT,
+        spirit_image: FOREST_SEASON_SPIRIT_14,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: STUDENT_ITEM_1,
+            currency: 'Candles',
+            price: 50,
+          },
+          {
+            label: 'Mask',
+            img: STUDENT_ITEM_2,
+            currency: 'Candles',
+            price: 24,
+          },
+          {
+            label: 'Cape',
+            img: STUDENT_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: SCOLDING_SPIRIT,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 157,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Aug 18, 2022',
+            visitNo: 68,
+          },
+        ],
         icon_route: SEASON9,
         spirit_guide_video_url: youtube_embed + '2P8DrkECLCM',
         spirit_direction: [
@@ -387,6 +1015,7 @@ export const hiddenForest = [
           'Pagkabukas, lumipad patungo sa susunod na gate at sa kaliwa ay makita mo ang spirit na ito.',
         ],
       },
+      // MARCHING_ADVENTURER
       {
         id: 15,
         spirit_id: 'forest15',
@@ -399,6 +1028,46 @@ export const hiddenForest = [
         difficulty_types: [0, 1, 2, 6],
         spirit_name: 'Marching Adventurer',
         spirit_img_url: MARCHING_ADVENTURER,
+        spirit_image: FOREST_SEASON_SPIRIT_15,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: ADVENTURER_ITEM_1,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Mask',
+            img: ADVENTURER_ITEM_2,
+            currency: 'Candles',
+            price: 30,
+          },
+          {
+            label: 'Prop',
+            img: ADVENTURER_ITEM_3,
+            currency: 'Candles',
+            price: 55,
+          },
+          {
+            label: 'Emote',
+            img: MARCHING_ADVENTURER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 143,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Mar 6, 2023',
+            visitNo: 'GV#1',
+          },
+        ],
         icon_route: SEASON9,
         spirit_guide_video_url: youtube_embed + 'j1ciHsJ937o',
         spirit_direction: [
@@ -408,6 +1077,7 @@ export const hiddenForest = [
           'Pagkabukas, lumipad patungo sa batong waiting shed sa itaas ng bukid bandang kaliwa, na may kandila sa ilalim, makita ang spirit.',
         ],
       },
+      // SCAREDY_CADET
       {
         id: 16,
         spirit_id: 'forest16',
@@ -420,6 +1090,46 @@ export const hiddenForest = [
         difficulty_types: [0, 1, 2, 6],
         spirit_name: 'Scaredy Cadet',
         spirit_img_url: SCAREDY_CADET,
+        spirit_image: FOREST_SEASON_SPIRIT_16,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: CADET_ITEM_1,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Mask',
+            img: CADET_ITEM_2,
+            currency: 'Candles',
+            price: 24,
+          },
+          {
+            label: 'Prop',
+            img: CADET_ITEM_3,
+            currency: 'Candles',
+            price: 55,
+          },
+          {
+            label: 'Emote',
+            img: SCAREDY_CADET,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 152,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Mar 6, 2023',
+            visitNo: 'GV#1',
+          },
+        ],
         icon_route: SEASON9,
         spirit_guide_video_url: youtube_embed + 'o_xH5KOe_nc',
         spirit_direction: [
@@ -429,6 +1139,7 @@ export const hiddenForest = [
           'Pagkabukas, lumipad patungo sa batong waiting shed sa itaas ng bukid bandang kanan, malapit sa bonfire makita ang spirit.',
         ],
       },
+      // CHUCKLING_SCOUT
       {
         id: 17,
         spirit_id: 'forest17',
@@ -441,6 +1152,52 @@ export const hiddenForest = [
         difficulty_types: [0, 1, 2, 6],
         spirit_name: 'Chuckling Scout',
         spirit_img_url: CHUCKLING_SCOUT,
+        spirit_image: FOREST_SEASON_SPIRIT_17,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: SCOUT_ITEM_1,
+            currency: 'Candles',
+            price: 36,
+          },
+          {
+            label: 'Outfit',
+            img: SCOUT_ITEM_2,
+            currency: 'Candles',
+            price: 65,
+          },
+          {
+            label: 'Shoes',
+            img: SCOUT_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: SCOUT_ITEM_4,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Emote',
+            img: CHUCKLING_SCOUT,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 159,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Mar 6, 2023',
+            visitNo: 'GV#1',
+          },
+        ],
         icon_route: SEASON9,
         spirit_guide_video_url: youtube_embed + '7H1jciUCheE',
         spirit_direction: [
@@ -450,6 +1207,7 @@ export const hiddenForest = [
           'Pagkabukas, lumipad ka patungo sa batong tulay at pumasok sa lagusan sa dulo at lumipad paitaas gawing kanan, sa GILID ng treehouse ang spirit.',
         ],
       },
+      // DAYDREAM_FORESTER
       {
         id: 18,
         spirit_id: 'forest18',
@@ -462,6 +1220,44 @@ export const hiddenForest = [
         difficulty_types: [0, 1, 2, 6],
         spirit_name: 'Daydream Forester',
         spirit_img_url: DAYDREAM_FORESTER,
+        spirit_image: FOREST_SEASON_SPIRIT_18,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: FORESTER_ITEM_1,
+            currency: 'Candles',
+            price: 44,
+          },
+          {
+            label: 'Mask',
+            img: FORESTER_ITEM_2,
+            currency: 'Candles',
+            price: 24,
+          },
+          {
+            label: 'Emote',
+            img: DAYDREAM_FORESTER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 96,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Apr 28, 2022',
+            visitNo: 60,
+          },
+          {
+            visit_date: 'Mar 14, 2024',
+            visitNo: 109,
+          },
+        ],
         icon_route: SEASON9,
         spirit_guide_video_url: youtube_embed + 'Z-aufTQT0H0',
         spirit_direction: [
@@ -471,6 +1267,7 @@ export const hiddenForest = [
           'Pagkabukas, lumipad ka patungo sa batong tulay at pumasok sa lagusan sa dulo at lumipad paitaas gawing kanan, sa LIKOD ng treehouse ang spirit.',
         ],
       },
+      // TINKERING_CHIMESMITH
       {
         id: 19,
         spirit_id: 'forest19',
@@ -483,6 +1280,52 @@ export const hiddenForest = [
         difficulty_types: [0, 1, 2, 6],
         spirit_name: 'Tinkering Chimesmith',
         spirit_img_url: TINKERING_CHIMESMITH,
+        spirit_image: FOREST_SEASON_SPIRIT_19,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: TINKERING_ITEM_1,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Hair Accessory',
+            img: TINKERING_ITEM_2,
+            currency: 'Candles',
+            price: 35,
+          },
+          {
+            label: 'Outfit',
+            img: TINKERING_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Instrument',
+            img: TINKERING_ITEM_4,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Stance',
+            img: TINKERING_CHIMESMITH,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 238,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'May 11, 2023',
+            visitNo: 87,
+          },
+        ],
         icon_route: SEASON11,
         spirit_guide_video_url: youtube_embed + '_WIn5vyLPv4',
         spirit_direction: [
@@ -490,6 +1333,7 @@ export const hiddenForest = [
           'Lumapag ka sa pinakamalaking isla, at gawing kaliwa sa mga hagdanan ay nandoon ang spirit',
         ],
       },
+      // LIGHT_WHISPERER
       {
         id: 20,
         spirit_id: 'forest20',
@@ -502,6 +1346,52 @@ export const hiddenForest = [
         difficulty_types: [0, 1, 2, 6],
         spirit_name: 'Light Whisperer',
         spirit_img_url: LIGHT_WHISPERER,
+        spirit_image: FOREST_SEASON_SPIRIT_20,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: LIGHT_ITEM_1,
+            currency: 'Candles',
+            price: 50,
+          },
+          {
+            label: 'Hair Accessory',
+            img: LIGHT_ITEM_2,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Outfit',
+            img: LIGHT_ITEM_3,
+            currency: 'Candles',
+            price: 65,
+          },
+          {
+            label: 'Cape',
+            img: LIGHT_ITEM_4,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Sound-Call',
+            img: LIGHT_WHISPERER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 243,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Feb 29, 2024',
+            visitNo: 108,
+          },
+        ],
         icon_route: SEASON11,
         spirit_guide_video_url: youtube_embed + 'pJjVGRbjL3g',
         spirit_direction: [
@@ -509,6 +1399,7 @@ export const hiddenForest = [
           'Lumapag ka sa pinakamalaking isla, at sa likod lang ng isla makita mo ang spirit na ito',
         ],
       },
+      // LIVELY_NAVIGATOR
       {
         id: 21,
         spirit_id: 'forest21',
@@ -521,6 +1412,46 @@ export const hiddenForest = [
         difficulty_types: [0, 1, 2, 6],
         spirit_name: 'Lively Navigator',
         spirit_img_url: LIVELY_NAVIGATOR,
+        spirit_image: FOREST_SEASON_SPIRIT_21,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: LIVELY_ITEM_1,
+            currency: 'Candles',
+            price: 55,
+          },
+          {
+            label: 'Hair Accessory',
+            img: LIVELY_ITEM_2,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Cape',
+            img: LIVELY_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: LIVELY_NAVIGATOR,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 198,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Aug 17, 2023',
+            visitNo: 94,
+          },
+        ],
         icon_route: SEASON11,
         spirit_guide_video_url: youtube_embed + 'xFXP57ZCsvw',
         spirit_direction: [
@@ -528,6 +1459,7 @@ export const hiddenForest = [
           'Lumapag ka sa pangalawang isla mula sa kaliwa, na nakapalibot sa main na isla. Andito ang spirit na ito.',
         ],
       },
+      // TALENTED_BUILDER
       {
         id: 22,
         spirit_id: 'forest22',
@@ -540,6 +1472,46 @@ export const hiddenForest = [
         difficulty_types: [0, 1, 2, 6],
         spirit_name: 'Talented Builder',
         spirit_img_url: TALENTED_BUILDER,
+        spirit_image: FOREST_SEASON_SPIRIT_22,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: BUILDER_ITEM_1,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Neck Accessory',
+            img: BUILDER_ITEM_2,
+            currency: 'Candles',
+            price: 40,
+          },
+          {
+            label: 'Outfit',
+            img: BUILDER_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: TALENTED_BUILDER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 183,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Nov 23, 2023',
+            visitNo: 101,
+          },
+        ],
         icon_route: SEASON11,
         spirit_guide_video_url: youtube_embed + 'bzCvgOT3t0g',
         spirit_direction: [
@@ -700,8 +1672,7 @@ export const hiddenForest = [
         wl_url: HF_WL11 ?? WINGED_LIGHT,
         wl_location: [
           `Pasok sa Map 3 | Hiddden Forest, lumipad pababa sa mga kaulapan.`,
-          `Pumasok sa 1st at 2nd Gate at 3rd Gate, at pagdating sa Forest Brook lumipad pakaliwa.`,
-          `Pagdating sa Forest Brook, lumakad ng kaonti at sa kanang pader ay may lagusan, pumasok ka.`,
+          `Pumasok sa 1st Gate hanggang 3rd Gate, at pagdating sa Forest Brook sa kanang pader ay may lagusan, pumasok ka.`,
           `Paglabas sa Sunny Forest, dumako sa broken bridge, at sa kaliwa ay may lagusan sa ilalim ng puno, Pumasok ka at gawin ang pouty emote`,
           `Pagkababa, lumipad patungo sa dulo at lumipad paakyat. Pasok ka sa lagusan at sa bandang kaliwa sa pangalawang cave, Deep Honk,
            lumipad ka pataas kung nasaan ang winged light.`,

@@ -67,6 +67,84 @@ import {
   SEASON5,
   SEASON12,
 } from '../exports/seasonIcons'
+import {
+  WASTELAND_SPIRIT_1,
+  WASTELAND_SPIRIT_2,
+  WASTELAND_SPIRIT_3,
+  WASTELAND_SPIRIT_4,
+  WASTELAND_SPIRIT_5,
+  WASTELAND_SPIRIT_6,
+  WASTELAND_SEASON_SPIRIT_1,
+  WASTELAND_SEASON_SPIRIT_2,
+  WASTELAND_SEASON_SPIRIT_3,
+  WASTELAND_SEASON_SPIRIT_4,
+  WASTELAND_SEASON_SPIRIT_5,
+  WASTELAND_SEASON_SPIRIT_6,
+  WASTELAND_SEASON_SPIRIT_7,
+  WASTELAND_SEASON_SPIRIT_8,
+  WASTELAND_SEASON_SPIRIT_9,
+  WASTELAND_SEASON_SPIRIT_10,
+  WASTELAND_SEASON_SPIRIT_11,
+  WASTELAND_SEASON_SPIRIT_12,
+  WASTELAND_SEASON_SPIRIT_13,
+  WASTELAND_SEASON_SPIRIT_14,
+} from '../exports/spiritWastelandImages'
+import {
+  WARRIOR_ITEM_1,
+  WARRIOR_ITEM_2,
+  REFUGEE_ITEM_1,
+  REFUGEE_ITEM_2,
+  SOLDIER_ITEM_1,
+  SOLDIER_ITEM_2,
+  SOLDIER_ITEM_3,
+  SURVIVOR_ITEM_1,
+  SURVIVOR_ITEM_2,
+  SURVIVOR_ITEM_3,
+  CAPTAIN_ITEM_1,
+  CAPTAIN_ITEM_2,
+  SCOUT_ITEM_1,
+  SCOUT_ITEM_2,
+  PROTECTOR_ITEM_1,
+  PROTECTOR_ITEM_2,
+  PARENT_ITEM_1,
+  PARENT_ITEM_2,
+  PARENT_ITEM_3,
+  PIANIST_ITEM_1,
+  PIANIST_ITEM_2,
+  PIANIST_ITEM_3,
+  WHISPERER_ITEM_1,
+  WHISPERER_ITEM_2,
+  WHISPERER_ITEM_3,
+  WHISPERER_ITEM_4,
+  CARPENTER_ITEM_1,
+  CARPENTER_ITEM_2,
+  MURALIST_ITEM_1,
+  MURALIST_ITEM_2,
+  WALKER_ITEM_1,
+  WALKER_ITEM_2,
+  HERBALIST_ITEM_1,
+  HERBALIST_ITEM_2,
+  HERBALIST_ITEM_3,
+  HERBALIST_ITEM_4,
+  FARMER_ITEM_1,
+  FARMER_ITEM_2,
+  ALCHEMIST_ITEM_1,
+  ALCHEMIST_ITEM_2,
+  ALCHEMIST_ITEM_3,
+  CEASING_ITEM_1,
+  CEASING_ITEM_2,
+  CEASING_ITEM_3,
+  ANGLER_ITEM_1,
+  ANGLER_ITEM_2,
+  ANGLER_ITEM_3,
+  ANGLER_ITEM_4,
+  BOATSWAIN_ITEM_1,
+  BOATSWAIN_ITEM_2,
+  BOATSWAIN_ITEM_3,
+  CACKLING_ITEM_1,
+  CACKLING_ITEM_2,
+  CACKLING_ITEM_3,
+} from '../exports/spiritWastelandCollectibles'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -84,6 +162,7 @@ export const wasteland = [
       </Typography>
     ),
     spirits: [
+      // FAINTING_WARRIOR
       {
         id: 1,
         spirit_id: 'wasteland1',
@@ -95,6 +174,40 @@ export const wasteland = [
         difficulty_types: [0, 1],
         spirit_name: 'Fainting Warrior',
         spirit_img_url: FAINTING_WARRIOR,
+        spirit_image: WASTELAND_SPIRIT_1,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: WARRIOR_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Mask',
+            img: WARRIOR_ITEM_2,
+            currency: 'Hearts',
+            price: 15,
+          },
+          {
+            label: 'Emote',
+            img: FAINTING_WARRIOR,
+            currency: 'Hearts',
+            price: 14,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 23,
+            hearts: 20,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Golden Wasteland',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP5,
         spirit_guide_video_url: youtube_embed + 'cfMQdMkXk_Q',
         spirit_direction: [
@@ -102,6 +215,7 @@ export const wasteland = [
           `Pagkalapag, lumipad sa gawing kanan at sa likod ng malaking poste ay ang spirit na ito.`,
         ],
       },
+      // FRIGHTENED_REFUGEE
       {
         id: 2,
         spirit_id: 'wasteland2',
@@ -113,6 +227,40 @@ export const wasteland = [
         difficulty_types: [0, 1],
         spirit_name: 'Frightened Refugee',
         spirit_img_url: FRIGHTENED_REFUGEE,
+        spirit_image: WASTELAND_SPIRIT_2,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: REFUGEE_ITEM_1,
+            currency: 'Hearts',
+            price: 3,
+          },
+          {
+            label: 'Instrument',
+            img: REFUGEE_ITEM_2,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Emote',
+            img: FRIGHTENED_REFUGEE,
+            currency: 'Hearts',
+            price: 14,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 23,
+            hearts: 8,
+            ascended_candles: 1,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Golden Wasteland',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP5,
         spirit_guide_video_url: youtube_embed + '3Y12fLtiFCk',
         spirit_direction: [
@@ -120,17 +268,58 @@ export const wasteland = [
           `Pagkalapag, lumipad sa patungo sa sirang templo, at makita mo ang spirit na ito.`,
         ],
       },
+      // COURAGEOUS_SOLDIER
       {
         id: 3,
         spirit_id: 'wasteland3',
         season_id: 'season-0',
         spirit_type: 'regular',
-        spirit_category: 'emote',
+        spirit_category: 'stance',
         spirit_relive_type: 'follow-memory',
         difficulty_level: 65,
         difficulty_types: [0, 1, 9],
         spirit_name: 'Courageous Soldier',
         spirit_img_url: COURAGEOUS_SOLDIER,
+        spirit_image: WASTELAND_SPIRIT_3,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: SOLDIER_ITEM_1,
+            currency: 'Hearts',
+            price: 4,
+          },
+          {
+            label: 'Cape Lvl 1',
+            img: SOLDIER_ITEM_2,
+            currency: 'Hearts',
+            price: 15,
+          },
+          {
+            label: 'Cape Lvl 2',
+            img: SOLDIER_ITEM_3,
+            currency: 'Hearts',
+            price: 45,
+          },
+          {
+            label: 'Stance',
+            img: COURAGEOUS_SOLDIER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 9,
+            hearts: 64,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Golden Wasteland',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP5,
         spirit_guide_video_url: youtube_embed + '_IlgT8cc7Fg',
         spirit_direction: [
@@ -139,6 +328,7 @@ export const wasteland = [
           `Nasa daanan lang ang spirit na ito.`,
         ],
       },
+      // STEALTHY_SURVIVOR
       {
         id: 4,
         spirit_id: 'wasteland4',
@@ -150,6 +340,46 @@ export const wasteland = [
         difficulty_types: [0, 1, 9],
         spirit_name: 'Stealthy Survivor',
         spirit_img_url: STEALTHY_SURVIVOR,
+        spirit_image: WASTELAND_SPIRIT_4,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: SURVIVOR_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Cape Lvl 1',
+            img: SURVIVOR_ITEM_2,
+            currency: 'Hearts',
+            price: 50,
+          },
+          {
+            label: 'Cape Lvl 2',
+            img: SURVIVOR_ITEM_3,
+            currency: 'Hearts',
+            price: 150,
+          },
+          {
+            label: 'Stance',
+            img: STEALTHY_SURVIVOR,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 9,
+            hearts: 205,
+            ascended_candles: 16,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Golden Wasteland',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP5,
         spirit_guide_video_url: youtube_embed + 'NhbsBbiaIC4',
         spirit_direction: [
@@ -159,6 +389,7 @@ export const wasteland = [
           `Sa pinakadulong kweba, nasa gawing kaliwa sa ibaba ang spirit na ito.`,
         ],
       },
+      // SALUTING_CAPTAIN
       {
         id: 5,
         spirit_id: 'wasteland5',
@@ -166,10 +397,44 @@ export const wasteland = [
         spirit_type: 'regular',
         spirit_category: 'emote',
         spirit_relive_type: 'follow-memory',
-        difficulty_level: 65,
-        difficulty_types: [0, 1, 9],
+        difficulty_level: 85,
+        difficulty_types: [0, 1, 6, 9],
         spirit_name: 'Saluting Captain',
         spirit_img_url: SALUTING_CAPTAIN,
+        spirit_image: WASTELAND_SPIRIT_5,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: CAPTAIN_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Prop',
+            img: CAPTAIN_ITEM_2,
+            currency: 'Hearts',
+            price: 20,
+          },
+          {
+            label: 'Emote',
+            img: SALUTING_CAPTAIN,
+            currency: 'Candles',
+            price: 14,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 23,
+            hearts: 25,
+            ascended_candles: 3,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Golden Wasteland',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP5,
         spirit_guide_video_url: youtube_embed + '8tA8ptXXgLM',
         spirit_direction: [
@@ -179,6 +444,7 @@ export const wasteland = [
           `Sa frontside ng Shipwreck, sa bandang ibaba makikita ang spirit na ito.`,
         ],
       },
+      // LOOKOUT_SCOUT
       {
         id: 6,
         spirit_id: 'wasteland6',
@@ -190,6 +456,40 @@ export const wasteland = [
         difficulty_types: [0, 2, 6],
         spirit_name: 'Lookout Scout',
         spirit_img_url: LOOKOUT_SCOUT,
+        spirit_image: WASTELAND_SPIRIT_6,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: SCOUT_ITEM_1,
+            currency: 'Hearts',
+            price: 10,
+          },
+          {
+            label: 'Instrument',
+            img: SCOUT_ITEM_2,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Emote',
+            img: LOOKOUT_SCOUT,
+            currency: 'Candles',
+            price: 15,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 24,
+            hearts: 15,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Golden Wasteland',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP5,
         spirit_guide_video_url: youtube_embed + 'FTbNx4P0ygw',
         spirit_direction: [
@@ -215,6 +515,7 @@ export const wasteland = [
       </Typography>
     ),
     spirits: [
+      // SALUTING_PROTECTOR
       {
         id: 7,
         spirit_id: 'wasteland7',
@@ -227,6 +528,40 @@ export const wasteland = [
         difficulty_types: [1, 4, 6, 9],
         spirit_name: 'Saluting Protector',
         spirit_img_url: SALUTING_PROTECTOR,
+        spirit_image: WASTELAND_SEASON_SPIRIT_1,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: PROTECTOR_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Cape',
+            img: PROTECTOR_ITEM_2,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Emote',
+            img: SALUTING_PROTECTOR,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 145,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Jan 20, 2022',
+            visitNo: 53,
+          },
+        ],
         icon_route: SEASON1,
         spirit_guide_video_url: youtube_embed + 'ln51yEQiNh4',
         spirit_direction: [
@@ -235,6 +570,7 @@ export const wasteland = [
           `Sa 1-Krill Area, pagkalagpas sa sirang tore sa kaliwa, ay makita mo ang spirit nasa silong sa unahan.`,
         ],
       },
+      // PLEAFUL_PARENT
       {
         id: 8,
         spirit_id: 'wasteland8',
@@ -247,6 +583,54 @@ export const wasteland = [
         difficulty_types: [1, 4, 5, 6, 9, 10, 13],
         spirit_name: 'Pleaful Parent',
         spirit_img_url: PLEAFUL_PARENT,
+        spirit_image: WASTELAND_SEASON_SPIRIT_2,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: PARENT_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Cape',
+            img: PARENT_ITEM_2,
+            currency: 'Candles',
+            price: 65,
+          },
+          {
+            label: 'Instrument',
+            img: PARENT_ITEM_3,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Emote',
+            img: PLEAFUL_PARENT,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 195,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Mar 26, 2020',
+            visitNo: 5,
+          },
+          {
+            visit_date: 'Dec 10, 2020',
+            visitNo: 24,
+          },
+          {
+            visit_date: 'Dec 22, 2022',
+            visitNo: 77,
+          },
+        ],
         icon_route: SEASON3,
         spirit_guide_video_url: youtube_embed + '6UUH2_kgesM',
         spirit_direction: [
@@ -255,6 +639,7 @@ export const wasteland = [
           `Pagkalagpas sa 1-Krill Area, mag-skate pababa at lumipad gawing kanan, sa bonefire makita ang spirit.`,
         ],
       },
+      // RESPECTFUL_PIANIST
       {
         id: 9,
         spirit_id: 'wasteland9',
@@ -267,6 +652,50 @@ export const wasteland = [
         difficulty_types: [1, 4, 5, 6, 9],
         spirit_name: 'Respectful Pianist',
         spirit_img_url: RESPECTFUL_PIANIST,
+        spirit_image: WASTELAND_SEASON_SPIRIT_3,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: PIANIST_ITEM_1,
+            currency: 'Candles',
+            price: 26,
+          },
+          {
+            label: 'Mask',
+            img: PIANIST_ITEM_2,
+            currency: 'Candles',
+            price: 48,
+          },
+          {
+            label: 'Instrument',
+            img: PIANIST_ITEM_3,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Emote',
+            img: RESPECTFUL_PIANIST,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 162,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Feb 4, 2021',
+            visitNo: 28,
+          },
+          {
+            visit_date: 'Jul 3, 2023',
+            visitNo: 'GV#3',
+          },
+        ],
         icon_route: SEASON4,
         spirit_guide_video_url: youtube_embed + 'dSfferJMUHM',
         spirit_direction: [
@@ -276,6 +705,7 @@ export const wasteland = [
           `Malapit sa may hagdanan, a isang bato makikita ang spirit na ito.`,
         ],
       },
+      // CRAB_WHISPERER
       {
         id: 10,
         spirit_id: 'wasteland10',
@@ -288,6 +718,60 @@ export const wasteland = [
         difficulty_types: [1, 4, 5, 6, 9, 13],
         spirit_name: 'Crab Whisperer',
         spirit_img_url: CRAB_WHISPERER,
+        spirit_image: WASTELAND_SEASON_SPIRIT_4,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: WHISPERER_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Mask',
+            img: WHISPERER_ITEM_2,
+            currency: 'Candles',
+            price: 30,
+          },
+          {
+            label: 'Cape',
+            img: WHISPERER_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Prop',
+            img: WHISPERER_ITEM_4,
+            currency: 'Candles',
+            price: 20,
+          },
+          {
+            label: 'Call',
+            img: CRAB_WHISPERER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 190,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Apr 9, 2020',
+            visitNo: 6,
+          },
+          {
+            visit_date: 'Sep 2, 2021',
+            visitNo: 43,
+          },
+          {
+            visit_date: 'Aug 7, 2023',
+            visitNo: 'GV#4',
+          },
+        ],
         icon_route: SEASON2,
         spirit_guide_video_url: youtube_embed + 'okCFgF0LnXw',
         spirit_direction: [
@@ -297,6 +781,7 @@ export const wasteland = [
           `Pagkalabas, sa bandang ibaba na tunnel, sa loob nito ang spirit.`,
         ],
       },
+      // SNOOZING_CARPENTER
       {
         id: 11,
         spirit_id: 'wasteland11',
@@ -309,6 +794,45 @@ export const wasteland = [
         difficulty_types: [1, 4, 6],
         spirit_name: 'Snoozing Carpenter',
         spirit_img_url: SNOOZING_CARPENTER,
+        spirit_image: WASTELAND_SEASON_SPIRIT_5,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: CARPENTER_ITEM_1,
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Cape',
+            img: CARPENTER_ITEM_2,
+            currency: 'Candles',
+            price: 65,
+          },
+
+          {
+            label: 'Emote',
+            img: SNOOZING_CARPENTER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 112,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'May 27, 2021',
+            visitNo: 36,
+          },
+          {
+            visit_date: 'Apr 27, 2023',
+            visitNo: 86,
+          },
+        ],
         icon_route: SEASON5,
         spirit_guide_video_url: youtube_embed + 'zDzJ3kNvpag',
         spirit_direction: [
@@ -317,6 +841,7 @@ export const wasteland = [
           `Pagdating sa Forgotten Ark, nasa gilid ng barko ang spirit na ito.`,
         ],
       },
+      // NODDING_MURALIST
       {
         id: 12,
         spirit_id: 'wasteland12',
@@ -329,6 +854,49 @@ export const wasteland = [
         difficulty_types: [1, 7, 13],
         spirit_name: 'Nodding Muralist',
         spirit_img_url: NODDING_MURALIST,
+        spirit_image: WASTELAND_SEASON_SPIRIT_6,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: MURALIST_ITEM_1,
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Mask',
+            img: MURALIST_ITEM_2,
+            currency: 'Candles',
+            price: 30,
+          },
+
+          {
+            label: 'Emote',
+            img: NODDING_MURALIST,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 77,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Jan 7, 2021',
+            visitNo: 26,
+          },
+          {
+            visit_date: 'Oct 27, 2022',
+            visitNo: 73,
+          },
+          {
+            visit_date: 'Mar 4, 2024',
+            visitNo: 'GV#5',
+          },
+        ],
         icon_route: SEASON5,
         spirit_guide_video_url: youtube_embed + 'ATyUO04_4FY',
         spirit_direction: [
@@ -337,6 +905,7 @@ export const wasteland = [
           `Pagdating sa Forgotten Ark, nasa kabilang gilid ng barko ang spirit na ito.`,
         ],
       },
+      // CRAB_WALKER
       {
         id: 13,
         spirit_id: 'wasteland13',
@@ -349,6 +918,45 @@ export const wasteland = [
         difficulty_types: [1, 4, 6],
         spirit_name: 'Crab Walker',
         spirit_img_url: CRAB_WALKER,
+        spirit_image: WASTELAND_SEASON_SPIRIT_7,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: WALKER_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Cape',
+            img: WALKER_ITEM_2,
+            currency: 'Candles',
+            price: 60,
+          },
+
+          {
+            label: 'Emote',
+            img: CRAB_WALKER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 115,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Feb 18, 2021',
+            visitNo: 29,
+          },
+          {
+            visit_date: 'Mar 16, 2023',
+            visitNo: 84,
+          },
+        ],
         icon_route: SEASON5,
         spirit_guide_video_url: youtube_embed + 'HuUE9oikCRg',
         spirit_direction: [
@@ -357,6 +965,7 @@ export const wasteland = [
           `Pagdating sa Forgotten Ark, lumipad patungo sa kanan na tunnel at pumasok ka.`,
         ],
       },
+      // PLAYFIGHTING_HERBALIST
       {
         id: 14,
         spirit_id: 'wasteland14',
@@ -369,6 +978,56 @@ export const wasteland = [
         difficulty_types: [1, 6, 13],
         spirit_name: 'Playfighting Herbalist',
         spirit_img_url: PLAYFIGHTING_HERBALIST,
+        spirit_image: WASTELAND_SEASON_SPIRIT_8,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: HERBALIST_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Mask',
+            img: HERBALIST_ITEM_2,
+            currency: 'Candles',
+            price: 30,
+          },
+          {
+            label: 'Cape',
+            img: HERBALIST_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Prop',
+            img: HERBALIST_ITEM_4,
+            currency: 'Candles',
+            price: 20,
+          },
+          {
+            label: 'Friendship Action',
+            img: PLAYFIGHTING_HERBALIST,
+            currency: 'Hearts',
+            price: 10,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 195,
+            hearts: 10,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Oct 12, 2021',
+            visitNo: 47,
+          },
+          {
+            visit_date: 'Oct 1, 2023',
+            visitNo: 98,
+          },
+        ],
         icon_route: SEASON5,
         spirit_guide_video_url: youtube_embed + '7n4j6kDeiX8',
         spirit_direction: [
@@ -377,6 +1036,7 @@ export const wasteland = [
           `Pagdating sa Forgotten Ark, sa pangalawang barko makita dito ang spirit.`,
         ],
       },
+      // SCARECROW_FARMER
       {
         id: 15,
         spirit_id: 'wasteland15',
@@ -389,6 +1049,40 @@ export const wasteland = [
         difficulty_types: [1, 4],
         spirit_name: 'Scarecrow Farmer',
         spirit_img_url: SCARECROW_FARMER,
+        spirit_image: WASTELAND_SEASON_SPIRIT_9,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: FARMER_ITEM_1,
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Mask',
+            img: FARMER_ITEM_2,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Emote',
+            img: SCARECROW_FARMER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 89,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Mar 31, 2022',
+            visitNo: 58,
+          },
+        ],
         icon_route: SEASON5,
         spirit_guide_video_url: youtube_embed + 'kGlva_YxYFI',
         spirit_direction: [
@@ -397,6 +1091,7 @@ export const wasteland = [
           `Pagdating sa Forgotten Ark, sa dakong likod may malaking kapatagan makikita ang spirit na ito.`,
         ],
       },
+      // INDIFFERENT_ALCHEMIST
       {
         id: 16,
         spirit_id: 'wasteland16',
@@ -409,6 +1104,54 @@ export const wasteland = [
         difficulty_types: [1, 4, 13],
         spirit_name: 'Indifferent Alchemist',
         spirit_img_url: INDIFFERENT_ALCHEMIST,
+        spirit_image: WASTELAND_SEASON_SPIRIT_10,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: ALCHEMIST_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Mask',
+            img: ALCHEMIST_ITEM_2,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Cape',
+            img: ALCHEMIST_ITEM_3,
+            currency: 'Candles',
+            price: 60,
+          },
+          {
+            label: 'Emote',
+            img: INDIFFERENT_ALCHEMIST,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 167,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Oct 29, 2020',
+            visitNo: 21,
+          },
+          {
+            visit_date: 'Sep 1, 2022',
+            visitNo: 69,
+          },
+          {
+            visit_date: 'Mar 4, 2024',
+            visitNo: 'GV#5',
+          },
+        ],
         icon_route: SEASON5,
         spirit_guide_video_url: youtube_embed + 'ZOGLAfZtSeM',
         spirit_direction: [
@@ -417,6 +1160,7 @@ export const wasteland = [
           `Pagdating sa Forgotten Ark, sa dakong likod sa tuktok ng bukid makikita ang spirit na ito.`,
         ],
       },
+      // CEASING_COMMODORE
       {
         id: 17,
         spirit_id: 'wasteland17',
@@ -429,6 +1173,46 @@ export const wasteland = [
         difficulty_types: [0, 2, 6],
         spirit_name: 'Ceasing Commodore',
         spirit_img_url: CEASING_COMMODORE,
+        spirit_image: WASTELAND_SEASON_SPIRIT_11,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: CEASING_ITEM_1,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Mask',
+            img: CEASING_ITEM_2,
+            currency: 'Candles',
+            price: 40,
+          },
+          {
+            label: 'Cape',
+            img: CEASING_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: CEASING_COMMODORE,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 168,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Mar 4, 2024',
+            visitNo: 'GV#5',
+          },
+        ],
         icon_route: SEASON12,
         spirit_guide_video_url: youtube_embed + 'Qe5W_ZgGQKo',
         spirit_direction: [
@@ -436,6 +1220,7 @@ export const wasteland = [
           `Pagkadating sa Treasure Reef, lumipad paakyat sa likod ng bukid na nasa harapan makita ang spirit.`,
         ],
       },
+      // ANXIOUS_ANGLER
       {
         id: 18,
         spirit_id: 'wasteland18',
@@ -448,6 +1233,52 @@ export const wasteland = [
         difficulty_types: [0, 2, 6],
         spirit_name: 'Anxious Angler',
         spirit_img_url: ANXIOUS_ANGLER,
+        spirit_image: WASTELAND_SEASON_SPIRIT_12,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: ANGLER_ITEM_1,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Mask',
+            img: ANGLER_ITEM_2,
+            currency: 'Candles',
+            price: 35,
+          },
+          {
+            label: 'Outfit',
+            img: ANGLER_ITEM_3,
+            currency: 'Candles',
+            price: 65,
+          },
+          {
+            label: 'Cape',
+            img: ANGLER_ITEM_4,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: ANXIOUS_ANGLER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 228,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Jan 18, 2024',
+            visitNo: 105,
+          },
+        ],
         icon_route: SEASON12,
         spirit_guide_video_url: youtube_embed + '1NBUcSWFlu8',
         spirit_direction: [
@@ -455,6 +1286,7 @@ export const wasteland = [
           `Pagkadating sa Treasure Reef, lumipad pakaliwa, at sa mga maliliit na isla makikita ang spirit.`,
         ],
       },
+      // BUMBLING_BOATSWAIN
       {
         id: 19,
         spirit_id: 'wasteland19',
@@ -467,6 +1299,41 @@ export const wasteland = [
         difficulty_types: [0, 2, 6],
         spirit_name: 'Bumbling Boatswain',
         spirit_img_url: BUMBLING_BOATSWAIN,
+        spirit_image: WASTELAND_SEASON_SPIRIT_13,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: BOATSWAIN_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: BOATSWAIN_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: BOATSWAIN_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: BUMBLING_BOATSWAIN,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON12,
         spirit_guide_video_url: youtube_embed + 'xFnYj4msYuo',
         spirit_direction: [
@@ -474,6 +1341,7 @@ export const wasteland = [
           `Pagkadating sa Treasure Reef, lumipad pataas at dumako sa barko na nasa dock, at malapit dito ang spirit.`,
         ],
       },
+      // CACKLING_CANNONEER
       {
         id: 20,
         spirit_id: 'wasteland20',
@@ -486,6 +1354,46 @@ export const wasteland = [
         difficulty_types: [0, 2, 6],
         spirit_name: 'Cackling Cannoneer',
         spirit_img_url: CACKLING_CANNONEER,
+        spirit_image: WASTELAND_SEASON_SPIRIT_14,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: CACKLING_ITEM_1,
+            currency: 'Candles',
+            price: 50,
+          },
+          {
+            label: 'Mask',
+            img: CACKLING_ITEM_2,
+            currency: 'Candles',
+            price: 40,
+          },
+          {
+            label: 'Cape',
+            img: CACKLING_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: CACKLING_CANNONEER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 188,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Aug 7, 2023',
+            visitNo: 'GV#4',
+          },
+        ],
         icon_route: SEASON12,
         spirit_guide_video_url: youtube_embed + 'https://youtu.be/1yxTCyNbg4o',
         spirit_direction: [

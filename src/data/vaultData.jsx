@@ -70,6 +70,94 @@ import {
   SEASON16,
   SEASON20,
 } from '../exports/seasonIcons'
+import {
+  VAULT_SPIRIT_1,
+  VAULT_SPIRIT_2,
+  VAULT_SPIRIT_3,
+  VAULT_SPIRIT_4,
+  VAULT_SPIRIT_5,
+  VAULT_SEASON_SPIRIT_1,
+  VAULT_SEASON_SPIRIT_2,
+  VAULT_SEASON_SPIRIT_3,
+  VAULT_SEASON_SPIRIT_4,
+  VAULT_SEASON_SPIRIT_5,
+  VAULT_SEASON_SPIRIT_6,
+  VAULT_SEASON_SPIRIT_7,
+  VAULT_SEASON_SPIRIT_8,
+  VAULT_SEASON_SPIRIT_9,
+  VAULT_SEASON_SPIRIT_10,
+  VAULT_SEASON_SPIRIT_11,
+  VAULT_SEASON_SPIRIT_12,
+  VAULT_SEASON_SPIRIT_13,
+  VAULT_SEASON_SPIRIT_14,
+  VAULT_SEASON_SPIRIT_15,
+  VAULT_SEASON_SPIRIT_16,
+  VAULT_SEASON_SPIRIT_17,
+  VAULT_SEASON_SPIRIT_18,
+} from '../exports/spiritVaultImages'
+import {
+  ADEPT_ITEM_1,
+  ADEPT_ITEM_2,
+  SCHOLAR_ITEM_1,
+  SCHOLAR_ITEM_2,
+  MEMORY_ITEM_1,
+  MEMORY_ITEM_2,
+  MEMORY_ITEM_3,
+  ACOLYTE_ITEM_1,
+  ACOLYTE_ITEM_2,
+  ACOLYTE_ITEM_3,
+  MONASTIC_ITEM_1,
+  MONASTIC_ITEM_2,
+  DIRECTOR_ITEM_1,
+  DIRECTOR_ITEM_2,
+  DIRECTOR_ITEM_3,
+  SHAMAN_ITEM_1,
+  SHAMAN_ITEM_2,
+  SHUSHING_ITEM_1,
+  SHUSHING_ITEM_2,
+  GRANDPARENT_ITEM_1,
+  GRANDPARENT_ITEM_2,
+  GRANDPARENT_ITEM_3,
+  SOLDIER_ITEM_1,
+  SOLDIER_ITEM_2,
+  NARCISSIST_ITEM_1,
+  NARCISSIST_ITEM_2,
+  LAMPLIGHTER_ITEM_1,
+  LAMPLIGHTER_ITEM_2,
+  COLLECTOR_ITEM_1,
+  COLLECTOR_ITEM_2,
+  COLLECTOR_ITEM_3,
+  RULER_ITEM_1,
+  RULER_ITEM_2,
+  GEOGRAPHER_ITEM_1,
+  GEOGRAPHER_ITEM_2,
+  VETERAN_ITEM_1,
+  VETERAN_ITEM_2,
+  VETERAN_ITEM_3,
+  WARRIOR_ITEM_1,
+  WARRIOR_ITEM_2,
+  WARRIOR_ITEM_3,
+  BREWER_ITEM_1,
+  BREWER_ITEM_2,
+  BREWER_ITEM_3,
+  CHILD_ITEM_1,
+  CHILD_ITEM_2,
+  CHILD_ITEM_3,
+  CHILD_ITEM_4,
+  HUNTER_ITEM_1,
+  HUNTER_ITEM_2,
+  HUNTER_ITEM_3,
+  GATHERER_ITEM_1,
+  GATHERER_ITEM_2,
+  GATHERER_ITEM_3,
+  LORD_ITEM_1,
+  LORD_ITEM_2,
+  LORD_ITEM_3,
+  PRINCESS_ITEM_1,
+  PRINCESS_ITEM_2,
+  PRINCESS_ITEM_3,
+  PRINCESS_ITEM_4,
+} from '../exports/spiritVaultCollectibles'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -87,6 +175,7 @@ export const vault = [
       </Typography>
     ),
     spirits: [
+      // LEVITATING_ADEPT
       {
         id: 1,
         spirit_id: 'vault1',
@@ -98,6 +187,40 @@ export const vault = [
         difficulty_types: [0, 1, 3],
         spirit_name: 'Levitating Adept',
         spirit_img_url: LEVITATING_ADEPT,
+        spirit_image: VAULT_SPIRIT_1,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: ADEPT_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Mask',
+            img: ADEPT_ITEM_2,
+            currency: 'Hearts',
+            price: 10,
+          },
+          {
+            label: 'Emote',
+            img: LEVITATING_ADEPT,
+            currency: 'Candles',
+            price: 17,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 26,
+            hearts: 15,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Vault of Knowledge',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP6,
         spirit_guide_video_url: youtube_embed + 'l4zapmZhb7w',
         spirit_direction: [
@@ -107,6 +230,7 @@ export const vault = [
           `Pumasok ka, sa kaliwang poste sa likod nito ang spirit.`,
         ],
       },
+      // POLITE_SCHOLAR
       {
         id: 2,
         spirit_id: 'vault2',
@@ -118,6 +242,40 @@ export const vault = [
         difficulty_types: [0, 2],
         spirit_name: 'Polite Scholar',
         spirit_img_url: POLITE_SCHOLAR,
+        spirit_image: VAULT_SPIRIT_2,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: SCHOLAR_ITEM_1,
+            currency: 'Hearts',
+            price: 15,
+          },
+          {
+            label: 'Outfit',
+            img: SCHOLAR_ITEM_2,
+            currency: 'Hearts',
+            price: 2,
+          },
+          {
+            label: 'Stance',
+            img: POLITE_SCHOLAR,
+            currency: 'Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 9,
+            hearts: 17,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Vault of Knowledge',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP6,
         spirit_guide_video_url: youtube_embed + '2kOiFD5YQ_s',
         spirit_direction: [
@@ -127,6 +285,7 @@ export const vault = [
           `Pumasok ka, sa kaliwang poste sa likod nito ang spirit.`,
         ],
       },
+      // MEMORY_WHISPERER
       {
         id: 3,
         spirit_id: 'vault3',
@@ -138,6 +297,46 @@ export const vault = [
         difficulty_types: [0, 2],
         spirit_name: 'Memory Whisperer',
         spirit_img_url: MEMORY_WHISPERER,
+        spirit_image: VAULT_SPIRIT_3,
+        spirit_collectibles: [
+          {
+            label: 'Outfit',
+            img: MEMORY_ITEM_1,
+            currency: 'Hearts',
+            price: 3,
+          },
+          {
+            label: 'Cape Lvl 1',
+            img: MEMORY_ITEM_2,
+            currency: 'Hearts',
+            price: 50,
+          },
+          {
+            label: 'Cape Lvl 2',
+            img: MEMORY_ITEM_3,
+            currency: 'Hearts',
+            price: 150,
+          },
+          {
+            label: 'Call',
+            img: MEMORY_WHISPERER,
+            currency: 'Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 9,
+            hearts: 203,
+            ascended_candles: 16,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Vault of Knowledge',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP6,
         spirit_guide_video_url: youtube_embed + 'VFEsHNyXmm8',
         spirit_direction: [
@@ -147,6 +346,7 @@ export const vault = [
           `Malapit sa ilalim ay may 2 platforms na may 5 kandila, sindihan mo lahat at makuha agad ang spirit.`,
         ],
       },
+      // PRAYING_ACOLYTE
       {
         id: 4,
         spirit_id: 'vault4',
@@ -158,6 +358,46 @@ export const vault = [
         difficulty_types: [0, 2, 3],
         spirit_name: 'Praying Acolyte',
         spirit_img_url: PRAYING_ACOLYTE,
+        spirit_image: VAULT_SPIRIT_4,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: ACOLYTE_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Cape Lvl 1',
+            img: ACOLYTE_ITEM_2,
+            currency: 'Hearts',
+            price: 25,
+          },
+          {
+            label: 'Cape Lvl 2',
+            img: ACOLYTE_ITEM_3,
+            currency: 'Hearts',
+            price: 75,
+          },
+          {
+            label: 'Emote',
+            img: PRAYING_ACOLYTE,
+            currency: 'Candles',
+            price: 15,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 24,
+            hearts: 105,
+            ascended_candles: 12,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Vault of Knowledge',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP6,
         spirit_guide_video_url: youtube_embed + 'LGFyXjnMtE0',
         spirit_direction: [
@@ -167,6 +407,7 @@ export const vault = [
           `Pagkabukas, ay pumasok ka at nasa sa gitna ng pond ang spirit na ito.`,
         ],
       },
+      // MEDITATING_MONASTIC
       {
         id: 5,
         spirit_id: 'vault5',
@@ -178,6 +419,40 @@ export const vault = [
         difficulty_types: [0, 2, 6],
         spirit_name: 'Meditating Monastic',
         spirit_img_url: MEDITATING_MONASTIC,
+        spirit_image: VAULT_SPIRIT_5,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: MONASTIC_ITEM_1,
+            currency: 'Hearts',
+            price: 10,
+          },
+          {
+            label: 'Prop',
+            img: MONASTIC_ITEM_2,
+            currency: 'Hearts',
+            price: 30,
+          },
+          {
+            label: 'Emote',
+            img: MEDITATING_MONASTIC,
+            currency: 'Candles',
+            price: 27,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 36,
+            hearts: 40,
+            ascended_candles: 3,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Vault of Knowledge',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP6,
         spirit_guide_video_url: youtube_embed + '0-1qb2iU_a8',
         spirit_direction: [
@@ -203,6 +478,7 @@ export const vault = [
       </Typography>
     ),
     spirits: [
+      // THOUGHTFUL_DIRECTOR
       {
         id: 7,
         spirit_id: 'vault7',
@@ -215,6 +491,54 @@ export const vault = [
         difficulty_types: [1, 5, 6],
         spirit_name: 'Thoughtful Director',
         spirit_img_url: THOUGHTFUL_DIRECTOR,
+        spirit_image: VAULT_SEASON_SPIRIT_1,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: DIRECTOR_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Cape',
+            img: DIRECTOR_ITEM_2,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Prop',
+            img: DIRECTOR_ITEM_3,
+            currency: 'Candles',
+            price: 65,
+          },
+          {
+            label: 'Emote',
+            img: THOUGHTFUL_DIRECTOR,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 195,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'May 13, 2021',
+            visitNo: 35,
+          },
+          {
+            visit_date: 'Jul 8, 2022',
+            visitNo: 67,
+          },
+          {
+            visit_date: 'Jul 3, 2023',
+            visitNo: 'GV#3',
+          },
+        ],
         icon_route: SEASON4,
         spirit_guide_video_url: youtube_embed + 'vs3rSSsbULA',
         spirit_direction: [
@@ -223,6 +547,7 @@ export const vault = [
           `Pagkabukas ay nasa gawing kanan ng entrance ang spirit na ito.`,
         ],
       },
+      // GREETING_SHAMAN
       {
         id: 8,
         spirit_id: 'vault8',
@@ -235,6 +560,48 @@ export const vault = [
         difficulty_types: [0, 2, 5],
         spirit_name: 'Greeting Shaman',
         spirit_img_url: GREETING_SHAMAN,
+        spirit_image: VAULT_SEASON_SPIRIT_2,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: SHAMAN_ITEM_1,
+            currency: 'Candles',
+            price: 54,
+          },
+          {
+            label: 'Instrument',
+            img: SHAMAN_ITEM_2,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Emote',
+            img: GREETING_SHAMAN,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 112,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Jul 23, 2020',
+            visitNo: 14,
+          },
+          {
+            visit_date: 'May 26, 2022',
+            visitNo: 62,
+          },
+          {
+            visit_date: 'Jul 3, 2023',
+            visitNo: 'GV#3',
+          },
+        ],
         icon_route: SEASON1,
         spirit_guide_video_url: youtube_embed + 'SSeg3jdBfIM',
         spirit_direction: [
@@ -243,6 +610,7 @@ export const vault = [
           `At dumako sa dulo ng mga gumagalaw na platform.`,
         ],
       },
+      // SHUSHING_LIGHTSCHOLAR
       {
         id: 9,
         spirit_id: 'vault9',
@@ -255,6 +623,44 @@ export const vault = [
         difficulty_types: [1, 4, 5, 6],
         spirit_name: 'Shushing Light Scholar',
         spirit_img_url: SHUSHING_LIGHTSCHOLAR,
+        spirit_image: VAULT_SEASON_SPIRIT_3,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: SHUSHING_ITEM_1,
+            currency: 'Candles',
+            price: 30,
+          },
+          {
+            label: 'Cape',
+            img: SHUSHING_ITEM_2,
+            currency: 'Candles',
+            price: 65,
+          },
+          {
+            label: 'Emote',
+            img: SHUSHING_LIGHTSCHOLAR,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 108,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Aug 20, 2020',
+            visitNo: 16,
+          },
+          {
+            visit_date: 'Sep 15, 2022',
+            visitNo: 70,
+          },
+        ],
         icon_route: SEASON2,
         spirit_guide_video_url: youtube_embed + 'YqX3lKP3sCA',
         spirit_direction: [
@@ -264,18 +670,67 @@ export const vault = [
           `At sa unang malaking platform`,
         ],
       },
+      // WISE_GRANDPARENT
       {
         id: 10,
         spirit_id: 'vault10',
         season_id: 'season-3',
         spirit_type: 'seasonal',
         season: 'Season 3 - Season of Belonging',
-        spirit_category: 'emote',
+        spirit_category: 'stance',
         spirit_relive_type: 'follow-memory',
         difficulty_level: 60,
         difficulty_types: [0, 2, 3, 5, 6],
         spirit_name: 'Wise Grandparent',
         spirit_img_url: WISE_GRANDPARENT,
+        spirit_image: VAULT_SEASON_SPIRIT_4,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: GRANDPARENT_ITEM_1,
+            currency: 'Candles',
+            price: 48,
+          },
+          {
+            label: 'Cape',
+            img: GRANDPARENT_ITEM_2,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Prop',
+            img: GRANDPARENT_ITEM_3,
+            currency: 'Candles',
+            price: 10,
+          },
+          {
+            label: 'Stance',
+            img: WISE_GRANDPARENT,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 156,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Aug 6, 2020',
+            visitNo: 15,
+          },
+          {
+            visit_date: 'Nov 11, 2021',
+            visitNo: 48,
+          },
+          {
+            visit_date: 'Nov 9, 2023',
+            visitNo: 100,
+          },
+        ],
         icon_route: SEASON3,
         spirit_guide_video_url: youtube_embed + 'brZdwktwP4E',
         spirit_direction: [
@@ -283,6 +738,7 @@ export const vault = [
           `Pasok papuntang Archives, at nasa gitna ng platform ang spirit na ito`,
         ],
       },
+      // SLOUCHING_SOLDIER
       {
         id: 11,
         spirit_id: 'vault11',
@@ -295,6 +751,40 @@ export const vault = [
         difficulty_types: [1, 2, 4],
         spirit_name: 'Slouching Soldier',
         spirit_img_url: SLOUCHING_SOLDIER,
+        spirit_image: VAULT_SEASON_SPIRIT_5,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: SOLDIER_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Cape',
+            img: SOLDIER_ITEM_2,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: SLOUCHING_SOLDIER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 140,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Feb 16, 2023',
+            visitNo: 81,
+          },
+        ],
         icon_route: SEASON10,
         spirit_guide_video_url: youtube_embed + '4gi3bw88THM',
         spirit_direction: [
@@ -303,6 +793,7 @@ export const vault = [
           `Pumasok sa bunganga ng banga at nasa bandang kanan ang spirit na ito.`,
         ],
       },
+      // GLOATING_NARCISSIST
       {
         id: 12,
         spirit_id: 'vault12',
@@ -315,6 +806,40 @@ export const vault = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Gloating Narcissist',
         spirit_img_url: GLOATING_NARCISSIST,
+        spirit_image: VAULT_SEASON_SPIRIT_6,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: NARCISSIST_ITEM_1,
+            currency: 'Candles',
+            price: 46,
+          },
+          {
+            label: 'Outfit',
+            img: NARCISSIST_ITEM_2,
+            currency: 'Candles',
+            price: 65,
+          },
+          {
+            label: 'Emote',
+            img: GLOATING_NARCISSIST,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 139,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Jul 20, 2023',
+            visitNo: 92,
+          },
+        ],
         icon_route: SEASON10,
         spirit_guide_video_url: youtube_embed + 'T6eFDkfCbb4',
         spirit_direction: [
@@ -323,6 +848,7 @@ export const vault = [
           `Nasa gawing kanan ng stage sa likod ng poste makikita ito.`,
         ],
       },
+      // STRETCHING_LAMPLIGHTER
       {
         id: 13,
         spirit_id: 'vault13',
@@ -335,6 +861,40 @@ export const vault = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Stretching Lamplighter',
         spirit_img_url: STRETCHING_LAMPLIGHTER,
+        spirit_image: VAULT_SEASON_SPIRIT_7,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: LAMPLIGHTER_ITEM_1,
+            currency: 'Candles',
+            price: 44,
+          },
+          {
+            label: 'Cape',
+            img: LAMPLIGHTER_ITEM_2,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: STRETCHING_LAMPLIGHTER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 127,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Dec 7, 2023',
+            visitNo: 102,
+          },
+        ],
         icon_route: SEASON10,
         spirit_guide_video_url: youtube_embed + '33IDYonEa5c',
         spirit_direction: [
@@ -342,6 +902,7 @@ export const vault = [
           `Maglakad palabas ng lagusan, at lumipad gawing kaliwa patungo sa mataas na tore, at sa loob nito ang spirit.`,
         ],
       },
+      // STAR_COLLECTOR
       {
         id: 14,
         spirit_id: 'vault14',
@@ -354,6 +915,46 @@ export const vault = [
         difficulty_types: [2, 5, 7],
         spirit_name: 'Star Collector',
         spirit_img_url: STAR_COLLECTOR,
+        spirit_image: VAULT_SEASON_SPIRIT_8,
+        spirit_collectibles: [
+          {
+            label: 'Neck Accessory',
+            img: COLLECTOR_ITEM_1,
+            currency: 'Candles',
+            price: 40,
+          },
+          {
+            label: 'Cape',
+            img: COLLECTOR_ITEM_2,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Prop',
+            img: COLLECTOR_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: STAR_COLLECTOR,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 198,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Sep 14, 2023',
+            visitNo: 96,
+          },
+        ],
         icon_route: SEASON10,
         spirit_guide_video_url: youtube_embed + 'D_eLgCvFtbo',
         spirit_direction: [
@@ -362,6 +963,7 @@ export const vault = [
           `Paglabas ay makita mo ang isang sirang barko at nasa loob nito ang spirit.`,
         ],
       },
+      // BECKONING_RULER
       {
         id: 15,
         spirit_id: 'vault15',
@@ -374,6 +976,40 @@ export const vault = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Beckoning Ruler',
         spirit_img_url: BECKONING_RULER,
+        spirit_image: VAULT_SEASON_SPIRIT_9,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: RULER_ITEM_1,
+            currency: 'Candles',
+            price: 48,
+          },
+          {
+            label: 'Mask',
+            img: RULER_ITEM_2,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Emote',
+            img: BECKONING_RULER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 103,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Sep 29, 2022',
+            visitNo: 71,
+          },
+        ],
         icon_route: SEASON10,
         spirit_guide_video_url: youtube_embed + 't6nUg257N5M',
         spirit_direction: [
@@ -382,6 +1018,7 @@ export const vault = [
           `Nasa kaliwang banda ang spirit na ito.`,
         ],
       },
+      // SNEEZING_GEOGRAPHER
       {
         id: 16,
         spirit_id: 'vault16',
@@ -394,6 +1031,40 @@ export const vault = [
         difficulty_types: [1, 2, 4],
         spirit_name: 'Sneezing Geographer',
         spirit_img_url: SNEEZING_GEOGRAPHER,
+        spirit_image: VAULT_SEASON_SPIRIT_10,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: GEOGRAPHER_ITEM_1,
+            currency: 'Candles',
+            price: 40,
+          },
+          {
+            label: 'Cape',
+            img: GEOGRAPHER_ITEM_2,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: SNEEZING_GEOGRAPHER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 123,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Apr 13, 2023',
+            visitNo: 85,
+          },
+        ],
         icon_route: SEASON10,
         spirit_guide_video_url: youtube_embed + 'JjhpahvgdZo',
         spirit_direction: [
@@ -402,6 +1073,7 @@ export const vault = [
           `makita mo agad ang spirit na ito.`,
         ],
       },
+      // BEREFT_VETERAN
       {
         id: 17,
         spirit_id: 'vault17',
@@ -414,6 +1086,41 @@ export const vault = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Bereft Veteran',
         spirit_img_url: BEREFT_VETERAN,
+        spirit_image: VAULT_SEASON_SPIRIT_11,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: VETERAN_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: VETERAN_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: VETERAN_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: BEREFT_VETERAN,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON16,
         spirit_guide_video_url: youtube_embed + 'feXvYTOGEi4',
         spirit_direction: [
@@ -422,6 +1129,7 @@ export const vault = [
           `Pagkarating mo sa Repository Refugee, makita mo ang spirit sa butas sa kaliwang banda.`,
         ],
       },
+      // WOUNDED_SOLDIER
       {
         id: 18,
         spirit_id: 'vault18',
@@ -434,6 +1142,41 @@ export const vault = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Wounded Warrior',
         spirit_img_url: WOUNDED_SOLDIER,
+        spirit_image: VAULT_SEASON_SPIRIT_12,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: WARRIOR_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: WARRIOR_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: WARRIOR_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: WOUNDED_SOLDIER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON16,
         spirit_guide_video_url: youtube_embed + '-Oc-2ftk0OM',
         spirit_direction: [
@@ -443,6 +1186,7 @@ export const vault = [
           `Pumasok ka at makita mo ang spirit na ito sa platform sa labas.`,
         ],
       },
+      // TIPTOEING_TEABREWER
       {
         id: 19,
         spirit_id: 'vault19',
@@ -455,6 +1199,41 @@ export const vault = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Tiptoeing Tea-Brewer',
         spirit_img_url: TIPTOEING_TEABREWER,
+        spirit_image: VAULT_SEASON_SPIRIT_13,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: BREWER_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: BREWER_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: BREWER_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: TIPTOEING_TEABREWER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON16,
         spirit_guide_video_url: youtube_embed + 'mwLn70j2Sjs',
         spirit_direction: [
@@ -464,6 +1243,7 @@ export const vault = [
           `Lumapag ka at pumasok sa butas, makita mo ang spirit na ito sa gawing kanan likod ng pader.`,
         ],
       },
+      // PLEADING_CHILD
       {
         id: 20,
         spirit_id: 'vault20',
@@ -476,6 +1256,47 @@ export const vault = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Pleading Child',
         spirit_img_url: PLEADING_CHILD,
+        spirit_image: VAULT_SEASON_SPIRIT_14,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: CHILD_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Neck Accessory',
+            img: CHILD_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: CHILD_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Shoes',
+            img: CHILD_ITEM_4,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: PLEADING_CHILD,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON16,
         spirit_guide_video_url: youtube_embed + 'PcKmzQOjKFU',
         spirit_direction: [
@@ -485,6 +1306,7 @@ export const vault = [
           `Lumapag ka kahit saan at makita mo dito sa huling floor ang spirit.`,
         ],
       },
+      // HUNTER
       {
         id: 21,
         spirit_id: 'vault21',
@@ -497,6 +1319,41 @@ export const vault = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Hunter',
         spirit_img_url: HUNTER,
+        spirit_image: VAULT_SEASON_SPIRIT_15,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: HUNTER_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: HUNTER_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: HUNTER_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: HUNTER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON20,
         spirit_guide_video_url: youtube_embed + '2yjliDfvtdM',
         spirit_direction: [
@@ -505,6 +1362,7 @@ export const vault = [
           `Pagkadating ay makikita ang Spirit Mural at sa itaas nito makikita ang Hunter Spirit.`,
         ],
       },
+      // HERB_GATHERER
       {
         id: 22,
         spirit_id: 'vault22',
@@ -517,6 +1375,41 @@ export const vault = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Herb Gatherer',
         spirit_img_url: HERB_GATHERER,
+        spirit_image: VAULT_SEASON_SPIRIT_16,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: GATHERER_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: GATHERER_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: GATHERER_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: HERB_GATHERER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON20,
         spirit_guide_video_url: youtube_embed + 'h0uDIdauBNM',
         spirit_direction: [
@@ -525,6 +1418,7 @@ export const vault = [
           `Pagkadating ay magtungo sa palasyo at bago makatawid sa ilog ay makikita ang spirit na ito.`,
         ],
       },
+      // FEUDAL_LORD
       {
         id: 23,
         spirit_id: 'vault23',
@@ -537,6 +1431,41 @@ export const vault = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Feudal Lord',
         spirit_img_url: FEUDAL_LORD,
+        spirit_image: VAULT_SEASON_SPIRIT_17,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: LORD_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: LORD_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: LORD_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Friendship Action',
+            img: FEUDAL_LORD,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON20,
         spirit_guide_video_url: youtube_embed + '83LkIYB5HEs',
         spirit_direction: [
@@ -545,6 +1474,7 @@ export const vault = [
           `Pagkadating ay magtungo sa palasyo at sa bandang kaliwa bago makapasok sa palasyo ay makikita ang spirit na ito.`,
         ],
       },
+      // PRINCESS
       {
         id: 24,
         spirit_id: 'vault24',
@@ -557,6 +1487,47 @@ export const vault = [
         difficulty_types: [0, 1, 2],
         spirit_name: 'Princess',
         spirit_img_url: PRINCESS,
+        spirit_image: VAULT_SEASON_SPIRIT_18,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: PRINCESS_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: PRINCESS_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: PRINCESS_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: PRINCESS_ITEM_4,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: PRINCESS,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON20,
         spirit_guide_video_url: youtube_embed + 'XB_wHSO3nKA',
         spirit_direction: [

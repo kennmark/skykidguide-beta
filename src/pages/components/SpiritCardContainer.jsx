@@ -14,10 +14,12 @@ import VideoModalContainer from './VideoModalContainer'
 import SpiritDifficultyLevelProgressBar from './SpiritDifficultyLevelProgressBar'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { TextGuideModal } from './TextGuideModal'
+import SpiritImageDetails from './SpiritImageDetails'
 
 const SpiritCardContainer = ({
   spirit_img_url,
   spirit_name,
+  spirit_image,
   spirit_direction,
   spirit_guide_video_url,
   spirit_category,
@@ -27,11 +29,17 @@ const SpiritCardContainer = ({
   constellation_icon_route,
   difficulty_level,
   difficulty_types,
+  spirit_collectibles,
+  spirit_tree_cost,
+  number_of_visits,
 }) => {
   const [openVideoModal, setOpenVideoModal] = useState(false)
   const [openTextModal, setOpenTextModal] = useState(false)
+  const [openSpiritImageModal, setOpenSpiritImageModal] = useState(false)
   const handleVideoGuideOpen = () => setOpenVideoModal(!openVideoModal)
   const handleTextGuideOpen = () => setOpenTextModal(!openTextModal)
+  const handleSpiritImageOpen = () =>
+    setOpenSpiritImageModal(!openSpiritImageModal)
 
   const iconUrl = icon_route ?? ''
   const seasonLabel = season ?? ''
@@ -46,6 +54,9 @@ const SpiritCardContainer = ({
       color="gray"
       variant="gradient"
       className="lg:w-72 w-80 rounded-3xl justify-between mb-5"
+      style={{
+        backgroundImage: `url(${URL + 'T_G Logo white.png'})`,
+      }}
     >
       <CardHeader shadow={false} color="transparent" className="card-header">
         <span className="icon-badge">
@@ -122,12 +133,18 @@ const SpiritCardContainer = ({
           Tap / Click ang progress bar upang makita pa tungkol sa difficulty ng
           spirit.
         </span>
-        <ButtonGroup size="md" ripple={true} fullWidth={true}>
+        <ButtonGroup size="sm" ripple={true}>
           <Button
             className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
             onClick={handleVideoGuideOpen}
           >
             Video Guide
+          </Button>
+          <Button
+            onClick={handleSpiritImageOpen}
+            className="bg-purple-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
+          >
+            Spirit Info
           </Button>
           <Button
             onClick={handleTextGuideOpen}
@@ -148,6 +165,17 @@ const SpiritCardContainer = ({
           handleOpen={handleTextGuideOpen}
           open={openTextModal}
           label={spirit_name}
+        />
+
+        <SpiritImageDetails
+          handleOpen={handleSpiritImageOpen}
+          open={openSpiritImageModal}
+          label={spirit_name}
+          spiritImg={spirit_image}
+          spiritCollectibles={spirit_collectibles}
+          seasonLabel={seasonLabel}
+          spiritTreeCost={spirit_tree_cost}
+          noOfVisits={number_of_visits}
         />
       </CardBody>
     </Card>

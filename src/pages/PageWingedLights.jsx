@@ -109,7 +109,7 @@ const PageWingedLights = () => {
                 </tr>
                 <tr>
                   <td className="border border-slate-700 p-3">
-                    WL in Regular Spirits
+                    WB in Regular Spirits
                   </td>
                   <td className="border border-slate-700 p-3">
                     {WB_REGULAR_SPIRITS}
@@ -117,7 +117,7 @@ const PageWingedLights = () => {
                 </tr>
                 <tr>
                   <td className="border border-slate-700 p-3">
-                    WL in Traveling Spirits Spirits
+                    WB in Traveling Spirits
                   </td>
                   <td className="border border-slate-700 p-3">
                     {WB_TRAVELING_SPIRITS}

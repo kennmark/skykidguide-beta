@@ -90,6 +90,7 @@ const SpiritDifficultyLevelProgressBar = ({
           }
           size="lg"
           label={' '}
+          variant="gradient"
         />
       </Tooltip>
     </div>

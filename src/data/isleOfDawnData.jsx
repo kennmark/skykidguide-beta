@@ -55,6 +55,70 @@ import {
   ID_MS8,
   ID_MS9,
 } from '../exports/isleMSImgUrl'
+import {
+  ISLE_SPIRIT_1,
+  ISLE_SPIRIT_2,
+  ISLE_SPIRIT_3,
+  ISLE_SEASON_SPIRIT_1,
+  ISLE_SEASON_SPIRIT_2,
+  ISLE_SEASON_SPIRIT_3,
+  ISLE_SEASON_SPIRIT_4,
+  ISLE_SEASON_SPIRIT_5,
+  ISLE_SEASON_SPIRIT_6,
+  ISLE_SEASON_SPIRIT_7,
+  ISLE_SEASON_SPIRIT_8,
+  ISLE_SEASON_SPIRIT_9,
+  ISLE_SEASON_SPIRIT_10,
+  ISLE_SEASON_SPIRIT_11,
+  ISLE_SEASON_SPIRIT_12,
+} from '../exports/spiritIsleImages'
+import {
+  CANDLEMAKER_ITEM_1,
+  CANDLEMAKER_ITEM_2,
+  STARGAZER_ITEM_1,
+  STARGAZER_ITEM_2,
+  VOYAGER_ITEM_1,
+  VOYAGER_ITEM_2,
+  SASSY_ITEM_1,
+  SASSY_ITEM_2,
+  PIGGYBACK_ITEM_1,
+  PIGGYBACK_ITEM_2,
+  PIGGYBACK_ITEM_3,
+  BOOGIE_ITEM_1,
+  BOOGIE_ITEM_2,
+  GREETER_ITEM_1,
+  GREETER_ITEM_2,
+  WATER_ITEM_1,
+  WATER_ITEM_2,
+  WATER_ITEM_3,
+  WATER_ITEM_4,
+  EARTH_ITEM_1,
+  EARTH_ITEM_2,
+  EARTH_ITEM_3,
+  EARTH_ITEM_4,
+  AIR_ITEM_1,
+  AIR_ITEM_2,
+  AIR_ITEM_3,
+  AIR_ITEM_4,
+  FIRE_ITEM_1,
+  FIRE_ITEM_2,
+  FIRE_ITEM_3,
+  FIRE_ITEM_4,
+  FIRE_ITEM_5,
+  ODDBALL_ITEM_1,
+  ODDBALL_ITEM_2,
+  ODDBALL_ITEM_3,
+  TUMBLING_ITEM_1,
+  TUMBLING_ITEM_2,
+  TUMBLING_ITEM_3,
+  MOPE_ITEM_1,
+  MOPE_ITEM_2,
+  MOPE_ITEM_3,
+  OVERACTIVE_ITEM_1,
+  OVERACTIVE_ITEM_2,
+  OVERACTIVE_ITEM_3,
+} from '../exports/spiritIsleCollectibles'
+
 const youtube_embed = 'https://www.youtube.com/embed/'
 
 export const isleOfDawn = [
@@ -83,6 +147,40 @@ export const isleOfDawn = [
         difficulty_types: [0, 1],
         spirit_name: 'Pointing Candlemaker',
         spirit_img_url: CANDLEMAKER,
+        spirit_image: ISLE_SPIRIT_1,
+        spirit_collectibles: [
+          {
+            label: 'Outfit',
+            img: CANDLEMAKER_ITEM_1,
+            currency: 'Hearts',
+            price: 4,
+          },
+          {
+            label: 'Hair',
+            img: CANDLEMAKER_ITEM_2,
+            currency: 'Free',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: CANDLEMAKER,
+            currency: 'Candles',
+            price: 5,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 14,
+            hearts: 4,
+            ascended_candles: 1,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Isle of Dawn',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP1,
         spirit_guide_video_url: youtube_embed + 'eNHRHE2OLZc',
         spirit_direction: [
@@ -106,6 +204,40 @@ export const isleOfDawn = [
         difficulty_types: [0, 1],
         spirit_name: 'Ushering Stargazer',
         spirit_img_url: USHERING_STARGAZER,
+        spirit_image: ISLE_SPIRIT_2,
+        spirit_collectibles: [
+          {
+            label: 'Outfit',
+            img: STARGAZER_ITEM_1,
+            currency: 'Hearts',
+            price: 4,
+          },
+          {
+            label: 'Hair',
+            img: STARGAZER_ITEM_2,
+            currency: 'Free',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: USHERING_STARGAZER,
+            currency: 'Candles',
+            price: 5,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 14,
+            hearts: 4,
+            ascended_candles: 1,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Isle of Dawn',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP1,
         spirit_guide_video_url: youtube_embed + 'EDV18vy6YRE',
         spirit_direction: [
@@ -127,6 +259,40 @@ export const isleOfDawn = [
         difficulty_types: [0, 1],
         spirit_name: 'Rejecting Voyager',
         spirit_img_url: REJECTING_VOYAGER,
+        spirit_image: ISLE_SPIRIT_3,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: VOYAGER_ITEM_1,
+            currency: 'Hearts',
+            price: 3,
+          },
+          {
+            label: 'Hair',
+            img: VOYAGER_ITEM_2,
+            currency: 'Hears',
+            price: 1,
+          },
+          {
+            label: 'Emote',
+            img: REJECTING_VOYAGER,
+            currency: 'Candles',
+            price: 5,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 14,
+            hearts: 4,
+            ascended_candles: 1,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Isle of Dawn',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP1,
         spirit_guide_video_url: youtube_embed + 'snvZf2bOqlc',
         spirit_direction: [
@@ -154,6 +320,7 @@ export const isleOfDawn = [
       </Typography>
     ),
     spirits: [
+      //SASSY DRIFTER
       {
         id: 4,
         spirit_id: 'isle4',
@@ -166,6 +333,51 @@ export const isleOfDawn = [
         difficulty_types: [1, 4],
         spirit_name: 'Sassy Drifter',
         spirit_img_url: SASSY_DRIFTER,
+        spirit_image: ISLE_SEASON_SPIRIT_1,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: SASSY_ITEM_1,
+            currency: 'Candles',
+            price: 48,
+          },
+          {
+            label: 'Hair',
+            img: SASSY_ITEM_2,
+            currency: 'Candles',
+            price: 26,
+          },
+          {
+            label: 'Emote',
+            img: SASSY_DRIFTER,
+            currency: 'Free',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 87,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Jan 31, 2020',
+            visitNo: 1,
+          },
+          {
+            visit_date: 'May 28, 2020',
+            visitNo: 10,
+          },
+          {
+            visit_date: 'Jul 8, 2021',
+            visitNo: 39,
+          },
+          {
+            visit_date: 'Dec 8, 2022',
+            visitNo: 76,
+          },
+        ],
         icon_route: SEASON1,
         spirit_guide_video_url: youtube_embed + 'OC0M5IYDnck',
         spirit_direction: [
@@ -175,6 +387,7 @@ export const isleOfDawn = [
           'At malapit sa pader kung saan may mga ulap sa buhangin makikita ang spirit.',
         ],
       },
+      //PIGGYBACK_LIGHTSEEKER
       {
         id: 5,
         spirit_id: 'isle5',
@@ -187,6 +400,54 @@ export const isleOfDawn = [
         difficulty_types: [1, 4],
         spirit_name: 'Piggyback Lightseeker',
         spirit_img_url: PIGGYBACK_LIGHTSEEKER,
+        spirit_image: ISLE_SEASON_SPIRIT_2,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: PIGGYBACK_ITEM_1,
+            currency: 'Candles',
+            price: 26,
+          },
+          {
+            label: 'Mask',
+            img: PIGGYBACK_ITEM_2,
+            currency: 'Candles',
+            price: 24,
+          },
+          {
+            label: 'Cape',
+            img: PIGGYBACK_ITEM_3,
+            currency: 'Candles',
+            price: 60,
+          },
+          {
+            label: 'Emote',
+            img: PIGGYBACK_LIGHTSEEKER,
+            currency: 'Hearts',
+            price: 8,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 123,
+            hearts: 8,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Apr 16, 2020',
+            visitNo: 7,
+          },
+          {
+            visit_date: 'Mar 4, 2021',
+            visitNo: 30,
+          },
+          {
+            visit_date: 'Feb 2, 2023',
+            visitNo: 80,
+          },
+        ],
         icon_route: SEASON2,
         spirit_guide_video_url: youtube_embed + '6szBwvCEchU',
         spirit_direction: [
@@ -196,6 +457,7 @@ export const isleOfDawn = [
           'Pagkalagpas mo sa isang maliit na bukid na buhangin, may kweba kang makikita.',
         ],
       },
+      //BOOGIE_KID
       {
         id: 6,
         spirit_id: 'isle6',
@@ -208,6 +470,48 @@ export const isleOfDawn = [
         difficulty_types: [0, 2, 3, 5],
         spirit_name: 'Boogie Kid',
         spirit_img_url: BOOGIE_KID,
+        spirit_image: ISLE_SEASON_SPIRIT_3,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: BOOGIE_ITEM_1,
+            currency: 'Candles',
+            price: 30,
+          },
+          {
+            label: 'Outfit',
+            img: BOOGIE_ITEM_2,
+            currency: 'Candles',
+            price: 60,
+          },
+          {
+            label: 'Emote',
+            img: BOOGIE_KID,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 103,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Nov 12, 2020',
+            visitNo: 22,
+          },
+          {
+            visit_date: 'July 22, 2021',
+            visitNo: 40,
+          },
+          {
+            visit_date: 'Mar 2, 2023',
+            visitNo: 82,
+          },
+        ],
         icon_route: SEASON3,
         spirit_guide_video_url: youtube_embed + 'LPVVeJI9kpo',
         spirit_direction: [
@@ -217,6 +521,7 @@ export const isleOfDawn = [
           'Sa Kanan may makita kang daanan na ulap, pumasok ka at makita mo sa pintuan ang spirit.',
         ],
       },
+      //TROUPE_GREETER
       {
         id: 7,
         spirit_id: 'isle7',
@@ -229,6 +534,48 @@ export const isleOfDawn = [
         difficulty_types: [0, 1, 2, 5],
         spirit_name: 'Troupe Greeter',
         spirit_img_url: TROUPE_GREETER,
+        spirit_image: ISLE_SEASON_SPIRIT_4,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: GREETER_ITEM_1,
+            currency: 'Candles',
+            price: 48,
+          },
+          {
+            label: 'Outfit',
+            img: GREETER_ITEM_2,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: TROUPE_GREETER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 146,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Dec 24, 2020',
+            visitNo: 25,
+          },
+          {
+            visit_date: 'Mar 3, 2022',
+            visitNo: 56,
+          },
+          {
+            visit_date: 'Aug 7, 2023',
+            visitNo: 'GV#4',
+          },
+        ],
         icon_route: SEASON4,
         spirit_guide_video_url: youtube_embed + 'ab4I-QSR4sU',
         spirit_direction: [
@@ -238,6 +585,7 @@ export const isleOfDawn = [
           'Makikita mo ang Passage Stone na malaking bato kang makikita at sa bandang likod nito ay ang spirit.',
         ],
       },
+      //PROPHET_OF_WATER
       {
         id: 8,
         spirit_id: 'isle8',
@@ -250,6 +598,60 @@ export const isleOfDawn = [
         difficulty_types: [0, 1],
         spirit_name: 'Prophet of Water',
         spirit_img_url: PROPHET_OF_WATER,
+        spirit_image: ISLE_SEASON_SPIRIT_5,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: WATER_ITEM_1,
+            currency: 'Candles',
+            price: 44,
+          },
+          {
+            label: 'Mask',
+            img: WATER_ITEM_2,
+            currency: 'Candles',
+            price: 54,
+          },
+          {
+            label: 'Cape',
+            img: WATER_ITEM_3,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Prop',
+            img: WATER_ITEM_4,
+            currency: 'Candles',
+            price: 15,
+          },
+          {
+            label: 'Emote',
+            img: PROPHET_OF_WATER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 201,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Aug 8, 2021',
+            visitNo: 41,
+          },
+          {
+            visit_date: 'Nov 10, 2022',
+            visitNo: 74,
+          },
+          {
+            visit_date: 'May 15, 2023',
+            visitNo: 'GV#2',
+          },
+        ],
         icon_route: SEASON7,
         spirit_guide_video_url: youtube_embed + 'TMz1D1PXGYU',
         spirit_direction: [
@@ -259,6 +661,7 @@ export const isleOfDawn = [
           'Lumapit ka sa Quest Giver na nasa gitna at ituturo sayo ang spirit.',
         ],
       },
+      //PROPHET_OF_EARTH
       {
         id: 9,
         spirit_id: 'isle9',
@@ -271,6 +674,56 @@ export const isleOfDawn = [
         spirit_name: 'Prophet of Earth',
         difficulty_types: [0, 1, 6],
         spirit_img_url: PROPHET_OF_EARTH,
+        spirit_image: ISLE_SEASON_SPIRIT_6,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: EARTH_ITEM_1,
+            currency: 'Candles',
+            price: 44,
+          },
+          {
+            label: 'Mask',
+            img: EARTH_ITEM_2,
+            currency: 'Candles',
+            price: 44,
+          },
+          {
+            label: 'Cape',
+            img: EARTH_ITEM_3,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Prop',
+            img: EARTH_ITEM_4,
+            currency: 'Candles',
+            price: 15,
+          },
+          {
+            label: 'Emote',
+            img: PROPHET_OF_EARTH,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 211,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Feb 3, 2022',
+            visitNo: 54,
+          },
+          {
+            visit_date: 'May 15, 2023',
+            visitNo: 'GV#2',
+          },
+        ],
         icon_route: SEASON7,
         spirit_guide_video_url: youtube_embed + 'zE7Js8dqFfU',
         spirit_direction: [
@@ -280,6 +733,7 @@ export const isleOfDawn = [
           'Lumapit ka sa Quest Giver na nasa gitna at ituturo sayo ang spirit.',
         ],
       },
+      //PROPHET_OF_AIR
       {
         id: 10,
         spirit_id: 'isle10',
@@ -292,6 +746,56 @@ export const isleOfDawn = [
         difficulty_types: [0, 2, 6],
         spirit_name: 'Prophet of Air',
         spirit_img_url: PROPHET_OF_AIR,
+        spirit_image: ISLE_SEASON_SPIRIT_7,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: AIR_ITEM_1,
+            currency: 'Candles',
+            price: 44,
+          },
+          {
+            label: 'Mask',
+            img: AIR_ITEM_2,
+            currency: 'Candles',
+            price: 54,
+          },
+          {
+            label: 'Cape',
+            img: AIR_ITEM_3,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Prop',
+            img: AIR_ITEM_4,
+            currency: 'Candles',
+            price: 15,
+          },
+          {
+            label: 'Emote',
+            img: PROPHET_OF_AIR,
+            currency: 'Hearts',
+            price: 12,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 201,
+            hearts: 12,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'May 12, 2022',
+            visitNo: 61,
+          },
+          {
+            visit_date: 'May 15, 2023',
+            visitNo: 'GV#2',
+          },
+        ],
         icon_route: SEASON7,
         spirit_guide_video_url: youtube_embed + 'uGk2xSqdobk',
         spirit_direction: [
@@ -301,6 +805,7 @@ export const isleOfDawn = [
           ' Lumapit ka sa Quest Giver na nasa gitna at ituturo sayo ang spirit.',
         ],
       },
+      //PROPHET_OF_FIRE
       {
         id: 11,
         spirit_id: 'isle11',
@@ -313,6 +818,62 @@ export const isleOfDawn = [
         difficulty_types: [0, 1, 6],
         spirit_name: 'Prophet of Fire',
         spirit_img_url: PROPHET_OF_FIRE,
+        spirit_image: ISLE_SEASON_SPIRIT_8,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: FIRE_ITEM_1,
+            currency: 'Candles',
+            price: 44,
+          },
+          {
+            label: 'Mask',
+            img: FIRE_ITEM_2,
+            currency: 'Candles',
+            price: 54,
+          },
+          {
+            label: 'Outfit',
+            img: FIRE_ITEM_3,
+            currency: 'Candles',
+            price: 75,
+          },
+          {
+            label: 'Prop1',
+            img: FIRE_ITEM_4,
+            currency: 'Hearts',
+            price: 13,
+          },
+          {
+            label: 'Prop2',
+            img: FIRE_ITEM_5,
+            currency: 'Candles',
+            price: 15,
+          },
+          {
+            label: 'Emote',
+            img: PROPHET_OF_FIRE,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 216,
+            hearts: 26,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Dec 9, 2021',
+            visitNo: 50,
+          },
+          {
+            visit_date: 'Aug 3, 2023',
+            visitNo: 93,
+          },
+        ],
         icon_route: SEASON7,
         spirit_guide_video_url: youtube_embed + 'bEOTU3o7iuM',
         spirit_direction: [
@@ -322,6 +883,7 @@ export const isleOfDawn = [
           'Pagkapasok mo, lumapit ka sa Quest Giver na nasa gitna at ituturo sayo ang spirit.',
         ],
       },
+      //ODDBALL_OUTCAST
       {
         id: 12,
         spirit_id: 'isle12',
@@ -334,6 +896,41 @@ export const isleOfDawn = [
         difficulty_types: [0, 1],
         spirit_name: 'Oddball Outcast',
         spirit_img_url: ODDBALL_OUTCAST,
+        spirit_image: ISLE_SEASON_SPIRIT_9,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: ODDBALL_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Neck Accessory',
+            img: ODDBALL_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Pants',
+            img: ODDBALL_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: ODDBALL_OUTCAST,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON17,
         spirit_guide_video_url: youtube_embed + 'jBp8u1A0nmg',
         spirit_direction: [
@@ -343,6 +940,7 @@ export const isleOfDawn = [
           'Lumipad ka gawi papuntang kweba ng Cave of Prophecy, at kung saan banda ang spirit na Sassy Drifter, makikita mo ang spirit na ito.',
         ],
       },
+      //TUMBLING_TROUBLEMAKER
       {
         id: 13,
         spirit_id: 'isle13',
@@ -355,6 +953,41 @@ export const isleOfDawn = [
         difficulty_types: [0, 1],
         spirit_name: 'Tumbling Troublemaker',
         spirit_img_url: TUMBLING_TROUBLEMAKER,
+        spirit_image: ISLE_SEASON_SPIRIT_10,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: TUMBLING_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Hair Accessory',
+            img: TUMBLING_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: TUMBLING_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: TUMBLING_TROUBLEMAKER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON17,
         spirit_guide_video_url: youtube_embed + 'zv1fVtpaWoY',
         spirit_direction: [
@@ -364,6 +997,7 @@ export const isleOfDawn = [
           `Lumipad ka gawi papuntang kweba ng Cave of Prophecy, bago ka makarating sa Oddball Outcast spirit makikita mo na agad ang spirit na ito.`,
         ],
       },
+      //MELANCHOLY_MOPE
       {
         id: 14,
         spirit_id: 'isle14',
@@ -376,6 +1010,41 @@ export const isleOfDawn = [
         spirit_relive_type: 'follow-memory',
         spirit_name: 'Melancholy Mope',
         spirit_img_url: MELANCHOLY_MOPE,
+        spirit_image: ISLE_SEASON_SPIRIT_11,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: MOPE_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Hair Accessory',
+            img: MOPE_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: MOPE_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: MELANCHOLY_MOPE,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON17,
         spirit_guide_video_url: youtube_embed + 'rPGqdQf90Ns',
         spirit_direction: [
@@ -385,6 +1054,7 @@ export const isleOfDawn = [
           'Lumipad ka gawing papunta sa batong may hagdanan, bago ka makarating sa hagdanan, sa likod ng posteng bato, makikita mo ang spirit na ito.',
         ],
       },
+      //OVERACTIVE_OVERACHIEVER
       {
         id: 15,
         spirit_id: 'isle15',
@@ -397,6 +1067,41 @@ export const isleOfDawn = [
         difficulty_types: [0, 1],
         spirit_name: 'Overactive Overachiever',
         spirit_img_url: OVERACTIVE_OVERACHIEVER,
+        spirit_image: ISLE_SEASON_SPIRIT_12,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: OVERACTIVE_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: OVERACTIVE_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Instrument',
+            img: OVERACTIVE_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: OVERACTIVE_OVERACHIEVER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON17,
         spirit_guide_video_url: youtube_embed + 'vkO4ujp0JNc',
         spirit_direction: [

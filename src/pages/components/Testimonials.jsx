@@ -30,13 +30,13 @@ const Testimonials = () => {
   return (
     <div className="border-t border-blue-gray-50">
       <div className="py-6">
-        <Typography variant="h2">Testimonials</Typography>
+        <Typography variant="h2">Feedback</Typography>
       </div>
       <Carousel
         className="rounded-xl"
         transition={{ duration: 1 }}
-        autoplay="true"
-        loop="true"
+        autoplay={true}
+        loop={true}
         navigation={({ setActiveIndex, activeIndex, length }) => (
           <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
             {new Array(length).fill('').map((_, i) => (

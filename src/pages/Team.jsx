@@ -114,6 +114,14 @@ const Team = () => {
           return <TeamCardContainer {...contributor} key={index} />
         })}
       </div>
+      <div>
+        Special Credits: for the GIFs{' '}
+        <a href="https://www.behance.net/hongximing40a5">Joerdan Carney</a> and
+        the spirit images and their collectibles from{' '}
+        <a href="https://sky-children-of-the-light.fandom.com/wiki/Sky:_Children_of_the_Light_Wiki">
+          Sky: Children of the Light Wiki
+        </a>
+      </div>
       <FaQ />
     </div>
   )

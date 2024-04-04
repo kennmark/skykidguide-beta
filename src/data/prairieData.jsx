@@ -76,6 +76,85 @@ import {
   SEASON6,
   SEASON18,
 } from '../exports/seasonIcons'
+import {
+  PRAIRIE_SPIRIT_1,
+  PRAIRIE_SPIRIT_2,
+  PRAIRIE_SPIRIT_3,
+  PRAIRIE_SPIRIT_4,
+  PRAIRIE_SPIRIT_5,
+  PRAIRIE_SPIRIT_6,
+  PRAIRIE_SPIRIT_7,
+  PRAIRIE_SPIRIT_8,
+  PRAIRIE_SEASON_SPIRIT_9,
+  PRAIRIE_SEASON_SPIRIT_10,
+  PRAIRIE_SEASON_SPIRIT_11,
+  PRAIRIE_SEASON_SPIRIT_12,
+  PRAIRIE_SEASON_SPIRIT_13,
+  PRAIRIE_SEASON_SPIRIT_14,
+  PRAIRIE_SEASON_SPIRIT_15,
+  PRAIRIE_SEASON_SPIRIT_16,
+  PRAIRIE_SEASON_SPIRIT_17,
+  PRAIRIE_SEASON_SPIRIT_18,
+  PRAIRIE_SEASON_SPIRIT_19,
+  PRAIRIE_SEASON_SPIRIT_20,
+  PRAIRIE_SEASON_SPIRIT_21,
+  PRAIRIE_SEASON_SPIRIT_22,
+} from '../exports/spiritPrairieImages'
+import {
+  APPLAUDING_ITEM_1,
+  WHISPERER_ITEM_1,
+  CHARMER_ITEM_1,
+  CHARMER_ITEM_2,
+  CHARMER_ITEM_3,
+  WORKER_ITEM_1,
+  CATCHER_ITEM_1,
+  CATCHER_ITEM_2,
+  SHIPWRIGHT_ITEM_1,
+  WAVING_ITEM_1,
+  WAVING_ITEM_2,
+  GURU_ITEM_1,
+  GURU_ITEM_2,
+  LIGHTCATCHER_ITEM_1,
+  LIGHTCATCHER_ITEM_2,
+  LIGHTCATCHER_ITEM_3,
+  COUSIN_ITEM_1,
+  COUSIN_ITEM_2,
+  DANCER_ITEM_1,
+  DANCER_ITEM_2,
+  DANCER_ITEM_3,
+  CHILL_ITEM_1,
+  CHILL_ITEM_2,
+  CHILL_ITEM_3,
+  CHILL_ITEM_4,
+  RALLY_ITEM_1,
+  RALLY_ITEM_2,
+  COLLECTOR_ITEM_1,
+  COLLECTOR_ITEM_2,
+  COLLECTOR_ITEM_3,
+  HIKING_ITEM_1,
+  HIKING_ITEM_2,
+  HIKING_ITEM_3,
+  HIKING_ITEM_4,
+  JELLY_ITEM_1,
+  JELLY_ITEM_2,
+  JELLY_ITEM_3,
+  TIMID_ITEM_1,
+  TIMID_ITEM_2,
+  RANGER_ITEM_1,
+  RANGER_ITEM_2,
+  RANGER_ITEM_3,
+  RANGER_ITEM_4,
+  JOLLY_ITEM_1,
+  JOLLY_ITEM_2,
+  JOLLY_ITEM_3,
+  MONK_ITEM_1,
+  MONK_ITEM_2,
+  MONK_ITEM_3,
+  NIGHTBIRD_ITEM_1,
+  NIGHTBIRD_ITEM_2,
+  NIGHTBIRD_ITEM_3,
+  NIGHTBIRD_ITEM_4,
+} from '../exports/spiritPrairieCollectibles'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -96,6 +175,7 @@ export const prairie = [
       </Typography>
     ),
     spirits: [
+      //APPLAUDING_BELLMAKER
       {
         id: 1,
         spirit_id: 'prairie1',
@@ -107,6 +187,34 @@ export const prairie = [
         difficulty_types: [0, 6],
         spirit_name: 'Applauding Bellmaker',
         spirit_img_url: APPLAUDING_BELLMAKER,
+        spirit_image: PRAIRIE_SPIRIT_1,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: APPLAUDING_ITEM_1,
+            currency: 'Hearts',
+            price: 3,
+          },
+          {
+            label: 'Emote',
+            img: APPLAUDING_BELLMAKER,
+            currency: 'Candles',
+            price: 7,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 16,
+            hearts: 3,
+            ascended_candles: 1,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Daylight Prairie',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'c7kGy7s9-jY',
         spirit_direction: [
@@ -116,6 +224,7 @@ export const prairie = [
           'Sindihan ang isang parte ng pintuan at antayin ng may isang manlalaro nag magsindi din sa sa kabila at ito ay magbubukas. Sa loob ang spirit.',
         ],
       },
+      //BIRD_WHISPERER
       {
         id: 2,
         spirit_id: 'prairie2',
@@ -127,6 +236,34 @@ export const prairie = [
         difficulty_types: [0, 2, 6],
         spirit_name: 'Bird Whisperer',
         spirit_img_url: BIRD_WHISPERER,
+        spirit_image: PRAIRIE_SPIRIT_2,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: WHISPERER_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Sound-Call',
+            img: BIRD_WHISPERER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 9,
+            hearts: 6,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Daylight Prairie',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'oEq8TjItdaM',
         spirit_direction: [
@@ -136,6 +273,7 @@ export const prairie = [
           `Lumipad ka hanggat makita mo ang nasa dulo na isla at kumikinang na spirit ng Bird Whisperer.`,
         ],
       },
+      //BUTTERFLY_CHARMER
       {
         id: 3,
         spirit_id: 'prairie3',
@@ -147,6 +285,46 @@ export const prairie = [
         difficulty_types: [0, 1],
         spirit_name: 'Butterfly Charmer',
         spirit_img_url: BUTTERFLY_CHARMER,
+        spirit_image: PRAIRIE_SPIRIT_3,
+        spirit_collectibles: [
+          {
+            label: 'Outfit',
+            img: CHARMER_ITEM_1,
+            currency: 'Hearts',
+            price: 4,
+          },
+          {
+            label: 'Lvl 1 Cape',
+            img: CHARMER_ITEM_2,
+            currency: 'Hearts',
+            price: 3,
+          },
+          {
+            label: 'Lvl 2 Cape',
+            img: CHARMER_ITEM_3,
+            currency: 'Hearts',
+            price: 9,
+          },
+          {
+            label: 'Emote',
+            img: BUTTERFLY_CHARMER,
+            currency: 'Candles',
+            price: 5,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 14,
+            hearts: 16,
+            ascended_candles: 4,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Daylight Prairie',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'FL9QRbJfmgw',
         spirit_direction: [
@@ -155,6 +333,7 @@ export const prairie = [
         ang spirit na hinahanap mo.`,
         ],
       },
+      //CEREMONIAL_WORSHIPPER
       {
         id: 4,
         spirit_id: 'prairie4',
@@ -166,6 +345,28 @@ export const prairie = [
         difficulty_types: [3, 8],
         spirit_name: 'Ceremonial Worshiper',
         spirit_img_url: CEREMONIAL_WORSHIPPER,
+        spirit_image: PRAIRIE_SPIRIT_4,
+        spirit_collectibles: [
+          {
+            label: 'Emote',
+            img: CEREMONIAL_WORSHIPPER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 9,
+            hearts: 0,
+            ascended_candles: 1,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Daylight Prairie',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'c0KB1cD5j4Y',
         spirit_direction: [
@@ -176,6 +377,7 @@ export const prairie = [
           ng spirit at automatic makukuha mo na ang spirit.`,
         ],
       },
+      //EXHAUSTED_DOCK_WORKER
       {
         id: 5,
         spirit_id: 'prairie5',
@@ -187,6 +389,34 @@ export const prairie = [
         difficulty_types: [3, 8],
         spirit_name: 'Exhausted Dock Worker',
         spirit_img_url: EXHAUSTED_DOCK_WORKER,
+        spirit_image: PRAIRIE_SPIRIT_5,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: WORKER_ITEM_1,
+            currency: 'Hearts',
+            price: 4,
+          },
+          {
+            label: 'Emote',
+            img: EXHAUSTED_DOCK_WORKER,
+            currency: 'Candles',
+            price: 11,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 20,
+            hearts: 3,
+            ascended_candles: 1,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Daylight Prairie',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'ae4nHnxXnaY',
         spirit_direction: [
@@ -197,6 +427,7 @@ export const prairie = [
           `Pasok ka at makita mo ang spirit na ito.`,
         ],
       },
+      //LAUGHING_LIGHT_CATCHER
       {
         id: 6,
         spirit_id: 'prairie6',
@@ -208,6 +439,40 @@ export const prairie = [
         difficulty_types: [0, 1],
         spirit_name: 'Laughing Light Catcher',
         spirit_img_url: LAUGHING_LIGHT_CATCHER,
+        spirit_image: PRAIRIE_SPIRIT_6,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: CATCHER_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Instrument',
+            img: CATCHER_ITEM_2,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Emote',
+            img: LAUGHING_LIGHT_CATCHER,
+            currency: 'Candles',
+            price: 11,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 20,
+            hearts: 10,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Daylight Prairie',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + '_sHazypMGKM',
         spirit_direction: [
@@ -216,6 +481,7 @@ export const prairie = [
           `sa Village Islands, lumipad ka gawing kanan, at may makita kang isla. Nasa loob ang spirit na ito.`,
         ],
       },
+      //SLUMBERING_SHIPWRIGHT
       {
         id: 7,
         spirit_id: 'prairie7',
@@ -227,6 +493,34 @@ export const prairie = [
         difficulty_types: [0, 2],
         spirit_name: 'Slumbering Shipwright',
         spirit_img_url: SLUMBERING_SHIPWRIGHT,
+        spirit_image: PRAIRIE_SPIRIT_7,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: SHIPWRIGHT_ITEM_1,
+            currency: 'Hearts',
+            price: 3,
+          },
+          {
+            label: 'Emote',
+            img: SLUMBERING_SHIPWRIGHT,
+            currency: 'Candles',
+            price: 5,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 14,
+            hearts: 3,
+            ascended_candles: 1,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Daylight Prairie',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'Si6JXZmjMV8',
         spirit_direction: [
@@ -237,6 +531,7 @@ export const prairie = [
           `Pagkabukas nito ay makita mo sa loob yung spirit.`,
         ],
       },
+      //WAVING_BELLMAKER
       {
         id: 8,
         spirit_id: 'prairie8',
@@ -248,6 +543,40 @@ export const prairie = [
         difficulty_types: [0, 2],
         spirit_name: 'Waving Bellmaker',
         spirit_img_url: WAVING_BELLMAKER,
+        spirit_image: PRAIRIE_SPIRIT_8,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: WAVING_ITEM_2,
+            currency: 'Hearts',
+            price: 2,
+          },
+          {
+            label: 'Mask',
+            img: WAVING_ITEM_1,
+            currency: 'Hearts',
+            price: 5,
+          },
+          {
+            label: 'Emote',
+            img: WAVING_BELLMAKER,
+            currency: 'Candles',
+            price: 11,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 20,
+            hearts: 7,
+            ascended_candles: 8,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Daylight Prairie',
+            visitNo: '',
+          },
+        ],
         constellation_icon_route: MAP2,
         spirit_guide_video_url: youtube_embed + 'L33gNWXTxh4',
         spirit_direction: [
@@ -272,6 +601,7 @@ export const prairie = [
       </Typography>
     ),
     spirits: [
+      //STRETCHING_GURU
       {
         id: 9,
         spirit_id: 'prairie9',
@@ -284,6 +614,44 @@ export const prairie = [
         difficulty_types: [1, 4, 6],
         spirit_name: 'Stretching Guru',
         spirit_img_url: STRETCHING_GURU,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_9,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: GURU_ITEM_1,
+            currency: 'Candles',
+            price: 26,
+          },
+          {
+            label: 'Cape',
+            img: GURU_ITEM_2,
+            currency: 'Candles',
+            price: 65,
+          },
+          {
+            label: 'Emote',
+            img: STRETCHING_GURU,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 104,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Apr 30, 2020',
+            visitNo: 8,
+          },
+          {
+            visit_date: 'Mar 17, 2022',
+            visitNo: 57,
+          },
+        ],
         icon_route: SEASON1,
         spirit_guide_video_url: youtube_embed + 'HCmwZWxOkFM',
         spirit_direction: [
@@ -293,6 +661,7 @@ export const prairie = [
         ang spirit na ito.`,
         ],
       },
+      //DOUBLE_FIVE_LIGHT_CATCHER
       {
         id: 10,
         spirit_id: 'prairie10',
@@ -305,6 +674,54 @@ export const prairie = [
         difficulty_types: [1, 2, 4, 6],
         spirit_name: 'Doublefive Light Catcher',
         spirit_img_url: DOUBLE_FIVE_LIGHT_CATCHER,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_10,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: LIGHTCATCHER_ITEM_1,
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Mask',
+            img: LIGHTCATCHER_ITEM_2,
+            currency: 'Candles',
+            price: 24,
+          },
+          {
+            label: 'Instrument',
+            img: LIGHTCATCHER_ITEM_3,
+            currency: 'Candles',
+            price: 55,
+          },
+          {
+            label: 'Friendship Action',
+            img: DOUBLE_FIVE_LIGHT_CATCHER,
+            currency: 'Hearts',
+            price: 7,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 126,
+            hearts: 7,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Feb 14, 2020',
+            visitNo: 2,
+          },
+          {
+            visit_date: 'Apr 15, 2021',
+            visitNo: 33,
+          },
+          {
+            visit_date: 'Jul 21, 2022',
+            visitNo: 66,
+          },
+        ],
         icon_route: SEASON2,
         spirit_guide_video_url: youtube_embed + 'SoF7OUY9Tho',
         spirit_direction: [
@@ -313,6 +730,7 @@ export const prairie = [
           `Pagdating sa Bird's Nest, Lumipad ka gawing kaliwa, at sa likod ng sirang tore, dakong dulo ng isla ay makikita mo itong spirit.`,
         ],
       },
+      //CONFETTI_COUSIN
       {
         id: 11,
         spirit_id: 'prairie11',
@@ -325,6 +743,48 @@ export const prairie = [
         difficulty_types: [2, 5, 6, 7],
         spirit_name: 'Confetti Cousin',
         spirit_img_url: CONFETTI_COUSIN,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_11,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: COUSIN_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Cape',
+            img: COUSIN_ITEM_2,
+            currency: 'Candles',
+            price: 60,
+          },
+          {
+            label: 'Emote',
+            img: CONFETTI_COUSIN,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 115,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Jul 9, 2020',
+            visitNo: 13,
+          },
+          {
+            visit_date: 'Jan 21, 2021',
+            visitNo: 27,
+          },
+          {
+            visit_date: 'Sep 28, 2023',
+            visitNo: 97,
+          },
+        ],
         icon_route: SEASON3,
         spirit_guide_video_url: youtube_embed + 'H9QcHm8kfBg',
         spirit_direction: [
@@ -333,6 +793,7 @@ export const prairie = [
         ang spirit.`,
         ],
       },
+      //FESTIVAL_SPIN_DANCER
       {
         id: 12,
         spirit_id: 'prairie12',
@@ -345,6 +806,54 @@ export const prairie = [
         difficulty_types: [0, 2],
         spirit_name: 'Festival Spin Dancer',
         spirit_img_url: FESTIVAL_SPIN_DANCER,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_12,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: DANCER_ITEM_1,
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Outfit',
+            img: DANCER_ITEM_2,
+            currency: 'Candles',
+            price: 65,
+          },
+          {
+            label: 'Prop',
+            img: DANCER_ITEM_3,
+            currency: 'Candles',
+            price: 30,
+          },
+          {
+            label: 'Emote',
+            img: FESTIVAL_SPIN_DANCER,
+            currency: 'Hearts',
+            price: 19,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 157,
+            hearts: 19,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Sep 3, 2020',
+            visitNo: 17,
+          },
+          {
+            visit_date: 'Oct 14, 2021',
+            visitNo: 46,
+          },
+          {
+            visit_date: 'Dec 21, 2023',
+            visitNo: 103,
+          },
+        ],
         icon_route: SEASON4,
         spirit_guide_video_url: youtube_embed + 'DUpjerHhBqA',
         spirit_direction: [
@@ -354,114 +863,7 @@ export const prairie = [
         ilalim nito.`,
         ],
       },
-      {
-        id: 13,
-        spirit_id: 'prairie13',
-        season_id: 'season-6',
-        spirit_type: 'seasonal',
-        season: 'Season 6 - Season of Sanctuary',
-        spirit_category: 'emote',
-        spirit_relive_type: 'carry-memory',
-        difficulty_level: 55,
-        difficulty_types: [1, 4, 5, 6],
-        spirit_name: 'Chill Sunbather',
-        spirit_img_url: CHILL_SUNBATHER,
-        icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + '4W6eiKr_21c',
-        spirit_direction: [
-          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
-          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
-          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
-          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, at may makikita ka kaagad na spirit na nasa
-        labas ng maliit na lagusan.`,
-        ],
-      },
-      {
-        id: 14,
-        spirit_id: 'prairie14',
-        season_id: 'season-6',
-        spirit_type: 'seasonal',
-        season: 'Season 6 - Season of Sanctuary',
-        spirit_category: 'emote',
-        spirit_relive_type: 'collect-memory',
-        difficulty_level: 65,
-        difficulty_types: [2, 5, 6, 7],
-        spirit_name: 'Rallying Thrillseeker',
-        spirit_img_url: RALLYING_THRILLSEEKER,
-        icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + 'rGjLAZFGM8o',
-        spirit_direction: [
-          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
-          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
-          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
-          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, makikita mo itong spirit katabi sa nag-iisang 
-        geyser unahan ng waterfalls.`,
-        ],
-      },
-      {
-        id: 15,
-        spirit_id: 'prairie15',
-        season_id: 'season-6',
-        spirit_type: 'seasonal',
-        season: 'Season 6 - Season of Sanctuary',
-        spirit_category: 'emote',
-        spirit_relive_type: 'follow-memory',
-        difficulty_level: 30,
-        difficulty_types: [0, 2, 5],
-        spirit_name: 'Grateful Shell Collector',
-        spirit_img_url: GRATEFUL_SHELL_COLLECTOR,
-        icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + '3qBtSHuGHtQ',
-        spirit_direction: [
-          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
-          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
-          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
-          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, nasa gilid bunganga ng entrance ng malaking kweba.`,
-        ],
-      },
-      {
-        id: 16,
-        spirit_id: 'prairie16',
-        season_id: 'season-6',
-        spirit_type: 'seasonal',
-        season: 'Season 6 - Season of Sanctuary',
-        spirit_category: 'emote',
-        spirit_relive_type: 'carry-memory',
-        difficulty_level: 95,
-        difficulty_types: [1, 2, 4, 5, 6, 10],
-        spirit_name: 'Hiking Grouch',
-        spirit_img_url: HIKING_GROUCH,
-        icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + 'd_jE1N1qlfM',
-        spirit_direction: [
-          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
-          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
-          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
-          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, nasa elevated na lugar, dakong kanan ng bundok.`,
-        ],
-      },
-      {
-        id: 17,
-        spirit_id: 'prairie17',
-        season_id: 'season-6',
-        spirit_type: 'seasonal',
-        season: 'Season 6 - Season of Sanctuary',
-        spirit_category: 'sound-call',
-        spirit_relive_type: 'collect-memory',
-        difficulty_level: 30,
-        difficulty_types: [2, 7],
-        spirit_name: 'Jelly Whisperer',
-        spirit_img_url: JELLY_WHISPERER,
-        icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + '93xGI6POTDQ',
-        spirit_direction: [
-          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
-          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
-          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
-          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, at sa likod ng malaking isla may malaking
-        kweba na may mga jellyfish, nasa looban ang spirit dito.`,
-        ],
-      },
+      //TIMID_BOOKWORM
       {
         id: 18,
         spirit_id: 'prairie18',
@@ -474,6 +876,44 @@ export const prairie = [
         difficulty_types: [0, 2, 6],
         spirit_name: 'Timid Bookworm',
         spirit_img_url: TIMID_BOOKWORM,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_18,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: TIMID_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Cape',
+            img: TIMID_ITEM_2,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Stance',
+            img: TIMID_BOOKWORM,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 140,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Nov 25, 2021',
+            visitNo: 49,
+          },
+          {
+            visit_date: 'Aug 31, 2023',
+            visitNo: 95,
+          },
+        ],
         icon_route: SEASON6,
         spirit_guide_video_url: youtube_embed + '6UafYcL-qDI',
         spirit_direction: [
@@ -484,18 +924,460 @@ export const prairie = [
         sa likod ng nakalutang na isla, nakasampa sa gild.`,
         ],
       },
+      //CHILL_SUNBATHER
+      {
+        id: 13,
+        spirit_id: 'prairie13',
+        season_id: 'season-6',
+        spirit_type: 'seasonal',
+        season: 'Season 6 - Season of Sanctuary',
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 55,
+        difficulty_types: [1, 4, 5, 6],
+        spirit_name: 'Chill Sunbather',
+        spirit_img_url: CHILL_SUNBATHER,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_13,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: CHILL_ITEM_1,
+            currency: 'Candles',
+            price: 44,
+          },
+          {
+            label: 'Face Accessory',
+            img: CHILL_ITEM_2,
+            currency: 'Candles',
+            price: 66,
+          },
+          {
+            label: 'Cape',
+            img: CHILL_ITEM_3,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Prop',
+            img: CHILL_ITEM_4,
+            currency: 'Candles',
+            price: 20,
+          },
+          {
+            label: 'Emote',
+            img: CHILL_SUNBATHER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 213,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Aug 19, 2021',
+            visitNo: 42,
+          },
+          {
+            visit_date: 'Jan 4, 2021',
+            visitNo: 104,
+          },
+        ],
+        icon_route: SEASON6,
+        spirit_guide_video_url: youtube_embed + '4W6eiKr_21c',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
+          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, at may makikita ka kaagad na spirit na nasa
+        labas ng maliit na lagusan.`,
+        ],
+      },
+      //RALLYING_THRILLSEEKER
+      {
+        id: 14,
+        spirit_id: 'prairie14',
+        season_id: 'season-6',
+        spirit_type: 'seasonal',
+        season: 'Season 6 - Season of Sanctuary',
+        spirit_category: 'emote',
+        spirit_relive_type: 'collect-memory',
+        difficulty_level: 65,
+        difficulty_types: [2, 5, 6, 7],
+        spirit_name: 'Rallying Thrillseeker',
+        spirit_img_url: RALLYING_THRILLSEEKER,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_14,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: RALLY_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Outfit',
+            img: RALLY_ITEM_2,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Emote',
+            img: RALLYING_THRILLSEEKER,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 125,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Apr 29, 2021',
+            visitNo: 34,
+          },
+          {
+            visit_date: 'Jan 19, 2023',
+            visitNo: 79,
+          },
+        ],
+        icon_route: SEASON6,
+        spirit_guide_video_url: youtube_embed + 'rGjLAZFGM8o',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
+          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, makikita mo itong spirit katabi sa nag-iisang 
+        geyser unahan ng waterfalls.`,
+        ],
+      },
+      //GRATEFUL_SHELL_COLLECTOR
+      {
+        id: 15,
+        spirit_id: 'prairie15',
+        season_id: 'season-6',
+        spirit_type: 'seasonal',
+        season: 'Season 6 - Season of Sanctuary',
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 30,
+        difficulty_types: [0, 2, 5],
+        spirit_name: 'Grateful Shell Collector',
+        spirit_img_url: GRATEFUL_SHELL_COLLECTOR,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_15,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: COLLECTOR_ITEM_1,
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Cape',
+            img: COLLECTOR_ITEM_2,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Prop',
+            img: COLLECTOR_ITEM_3,
+            currency: 'Candles',
+            price: 45,
+          },
+          {
+            label: 'Emote',
+            img: GRATEFUL_SHELL_COLLECTOR,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 162,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Sep 21, 2021',
+            visitNo: 45,
+          },
+          {
+            visit_date: 'May 25, 2023',
+            visitNo: 88,
+          },
+        ],
+        icon_route: SEASON6,
+        spirit_guide_video_url: youtube_embed + '3qBtSHuGHtQ',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
+          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, nasa gilid bunganga ng entrance ng malaking kweba.`,
+        ],
+      },
+      //HIKING_GROUCH
+      {
+        id: 16,
+        spirit_id: 'prairie16',
+        season_id: 'season-6',
+        spirit_type: 'seasonal',
+        season: 'Season 6 - Season of Sanctuary',
+        spirit_category: 'emote',
+        spirit_relive_type: 'carry-memory',
+        difficulty_level: 95,
+        difficulty_types: [1, 2, 4, 5, 6, 10],
+        spirit_name: 'Hiking Grouch',
+        spirit_img_url: HIKING_GROUCH,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_16,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: HIKING_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Mask',
+            img: HIKING_ITEM_2,
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Neck Accessory',
+            img: HIKING_ITEM_3,
+            currency: 'Candles',
+            price: 50,
+          },
+          {
+            label: 'Prop',
+            img: HIKING_ITEM_4,
+            currency: 'Hearts',
+            price: 16,
+          },
+          {
+            label: 'Emote',
+            img: HIKING_GROUCH,
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 139,
+            hearts: 29,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Sep 21, 2021',
+            visitNo: 45,
+          },
+          {
+            visit_date: 'May 25, 2023',
+            visitNo: 88,
+          },
+        ],
+        icon_route: SEASON6,
+        spirit_guide_video_url: youtube_embed + 'd_jE1N1qlfM',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
+          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, nasa elevated na lugar, dakong kanan ng bundok.`,
+        ],
+      },
+      //JELLY_WHISPERER
+      {
+        id: 17,
+        spirit_id: 'prairie17',
+        season_id: 'season-6',
+        spirit_type: 'seasonal',
+        season: 'Season 6 - Season of Sanctuary',
+        spirit_category: 'sound-call',
+        spirit_relive_type: 'collect-memory',
+        difficulty_level: 30,
+        difficulty_types: [2, 7],
+        spirit_name: 'Jelly Whisperer',
+        spirit_img_url: JELLY_WHISPERER,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_17,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: JELLY_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Outfit',
+            img: JELLY_ITEM_2,
+            currency: 'Candles',
+            price: 65,
+          },
+          {
+            label: 'Prop',
+            img: JELLY_ITEM_3,
+            currency: 'Hearts',
+            price: 15,
+          },
+          {
+            label: 'Sound-Call',
+            img: JELLY_WHISPERER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 135,
+            hearts: 15,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Nov 25, 2021',
+            visitNo: 49,
+          },
+          {
+            visit_date: 'Aug 31, 2023',
+            visitNo: 95,
+          },
+        ],
+        icon_route: SEASON6,
+        spirit_guide_video_url: youtube_embed + '93xGI6POTDQ',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
+          `Pagdating mo sa Sanctuary Islands, lumipad ka pababa sa pinakamalaking isla, at sa likod ng malaking isla may malaking
+        kweba na may mga jellyfish, nasa looban ang spirit dito.`,
+        ],
+      },
+      //TIMID_BOOKWORM
+      {
+        id: 18,
+        spirit_id: 'prairie18',
+        season_id: 'season-6',
+        spirit_type: 'seasonal',
+        season: 'Season 6 - Season of Sanctuary',
+        spirit_category: 'stance',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 35,
+        difficulty_types: [0, 2, 6],
+        spirit_name: 'Timid Bookworm',
+        spirit_img_url: TIMID_BOOKWORM,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_18,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: TIMID_ITEM_1,
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Cape',
+            img: TIMID_ITEM_2,
+            currency: 'Candles',
+            price: 70,
+          },
+          {
+            label: 'Stance',
+            img: TIMID_BOOKWORM,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 140,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          {
+            visit_date: 'Nov 25, 2021',
+            visitNo: 49,
+          },
+          {
+            visit_date: 'Aug 31, 2023',
+            visitNo: 95,
+          },
+        ],
+        icon_route: SEASON6,
+        spirit_guide_video_url: youtube_embed + '6UafYcL-qDI',
+        spirit_direction: [
+          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
+          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
+          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
+          `Pagdating mo sa Sanctuary Islands, lumipad ka papunta sa unang nakalutang na isla sa harap mo, makikita ang spirit na ito
+        sa likod ng nakalutang na isla, nakasampa sa gild.`,
+        ],
+      },
+      //REASSURING_RANGER
       {
         id: 19,
         spirit_id: 'prairie19',
         season_id: 'season-18',
         spirit_type: 'seasonal',
-        season: 'Season 18 - Season of Monents',
+        season: 'Season 18 - Season of Moments',
         spirit_category: 'friendship action',
         spirit_relive_type: 'follow-memory',
         difficulty_level: 35,
         difficulty_types: [0, 1, 6],
         spirit_name: 'Reassuring Ranger',
         spirit_img_url: REASSURING_RANGER,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_19,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: RANGER_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: RANGER_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Face Accessory',
+            img: RANGER_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: RANGER_ITEM_4,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Friendship Action',
+            img: REASSURING_RANGER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON18,
         spirit_guide_video_url: youtube_embed + 'jhm4hLDM-88',
         spirit_direction: [
@@ -505,18 +1387,54 @@ export const prairie = [
           `Umupo ka sa bangka. Pagdating mo ay lakarin mo lng papasok hanggang makita mo ang tanawin. May bato na malaki sa iyong kanan, nasa likod ang spirit na ito.`,
         ],
       },
+      //JOLLY_GEOLOGIST
       {
         id: 20,
         spirit_id: 'prairie20',
         season_id: 'season-18',
         spirit_type: 'seasonal',
-        season: 'Season 18 - Season of Monents',
+        season: 'Season 18 - Season of Moments',
         spirit_category: 'emote',
         spirit_relive_type: 'follow-memory',
         difficulty_level: 25,
         difficulty_types: [0, 1, 11],
         spirit_name: 'Jolly Geologist',
         spirit_img_url: JOLLY_GEOLOGIST,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_20,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: JOLLY_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Face Accessory',
+            img: JOLLY_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: JOLLY_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: JOLLY_GEOLOGIST,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON18,
         spirit_guide_video_url: youtube_embed + 'tDwp1gBOIv4',
         spirit_direction: [
@@ -527,18 +1445,54 @@ export const prairie = [
         ay may maliit na lagusan ng kweba. Pasok ka sa gawing kanan.`,
         ],
       },
+      //ASCETIC_MONK
       {
         id: 21,
         spirit_id: 'prairie21',
         season_id: 'season-18',
         spirit_type: 'seasonal',
-        season: 'Season 18 - Season of Monents',
+        season: 'Season 18 - Season of Moments',
         spirit_category: 'emote',
         spirit_relive_type: 'follow-memory',
         difficulty_level: 45,
         difficulty_types: [0, 2, 4, 6],
         spirit_name: 'Ascetic Monk',
         spirit_img_url: ASCETIC_MONK,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_21,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: MONK_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: MONK_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: MONK_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: ASCETIC_MONK,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON18,
         spirit_guide_video_url: youtube_embed + 'vQ_Jyh_oink',
         spirit_direction: [
@@ -549,18 +1503,60 @@ export const prairie = [
         at sa bandang patag ay makita mo ang spirit na ito.`,
         ],
       },
+      //NIGHTBIRD_WHISPERER
       {
         id: 22,
         spirit_id: 'prairie22',
         season_id: 'season-18',
         spirit_type: 'seasonal',
-        season: 'Season 18 - Season of Monents',
+        season: 'Season 18 - Season of Moments',
         spirit_category: 'sound-call',
         spirit_relive_type: 'follow-memory',
         difficulty_level: 15,
         difficulty_types: [0, 1],
         spirit_name: 'Nightbird Whisperer',
         spirit_img_url: NIGHTBIRD_WHISPERER,
+        spirit_image: PRAIRIE_SEASON_SPIRIT_22,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: NIGHTBIRD_ITEM_1,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Hair Accessory',
+            img: NIGHTBIRD_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Outfit',
+            img: NIGHTBIRD_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Footwear',
+            img: NIGHTBIRD_ITEM_4,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Sound-Call',
+            img: NIGHTBIRD_WHISPERER,
+            currency: 'Hearts',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
         icon_route: SEASON18,
         spirit_guide_video_url: youtube_embed + 'KsXwZnr5dQU',
         spirit_direction: [

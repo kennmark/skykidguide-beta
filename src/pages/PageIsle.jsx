@@ -23,7 +23,7 @@ const PageIsle = () => {
       <div>
         <SideBarContainer />
       </div>
-      <div className="justify-start w-full">
+      <div className="w-full">
         <PageHeaderContainer
           imgUrl={GIF_ISLE}
           alt={ISLE_ALT}

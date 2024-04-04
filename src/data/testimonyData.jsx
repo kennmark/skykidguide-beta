@@ -2,6 +2,7 @@ import testimonee1 from '../assets/images/testimony/testimonee_1.jpg'
 import testimonee2 from '../assets/images/testimony/testimonee_2.jpg'
 import testimonee3 from '../assets/images/testimony/testimonee_3.jpg'
 import testimonee4 from '../assets/images/testimony/testimonee_4.jpg'
+import testimonee5 from '../assets/images/testimony/testimonee_5.jpg'
 export const testimonies = [
   {
     id: 1,
@@ -32,5 +33,13 @@ export const testimonies = [
     testimonee: 'レイ リン',
     testimonee_avatar: testimonee1,
     testimonial: 'Ganda ng website may season timeline din',
+  },
+  {
+    id: 6,
+    testimonee: 'Rémi Rémi',
+    testimonee_avatar: testimonee5,
+    testimonial: `magandang guide website ng group dito, tagalog,
+      madali maintindihan 🥰 kulang n lng infographics for daily guides.
+      tanglikin sarilin atin 🥰`,
   },
 ]

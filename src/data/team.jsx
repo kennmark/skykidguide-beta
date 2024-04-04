@@ -46,7 +46,7 @@ export const team = [
     facebook: `https://www.facebook.com/Vilgarri.Ibanez`,
     instagram: `https://www.instagram.com/iam_billicious/`,
     tiktok: ``,
-    title: `Billings Associate / Moderator SkyPH`,
+    title: `Billings Associate`,
     avatar_img: bill_avatar,
   },
   {
