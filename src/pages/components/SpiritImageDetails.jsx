@@ -106,7 +106,7 @@ const SpiritImageDetails = ({
           <img
             src={spiritImg}
             alt={label}
-            className="w-auto h-72 md:h-96 md:w-auto"
+            className="w-auto h-56 md:h-96 md:w-auto"
           />
         </div>
         <div>
