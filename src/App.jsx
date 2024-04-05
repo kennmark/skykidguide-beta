@@ -4,7 +4,7 @@ import './App.css'
 import './Clock.css'
 import './fonts/MooliFont.css'
 import 'react-lazy-load-image-component/src/effects/blur.css'
-import './Parallax-bg.css'
+import Layout from './pages/layout/Layout'
 
 import ScrollToTop from './pages/components/ScrollToTop '
 import { Spinner } from '@material-tailwind/react'
@@ -221,12 +221,6 @@ const S20TheNineColoredDeer = lazy(() => {
 function App() {
   return (
     <div className="mooliMono">
-      <div class="bg-animation">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-        <div id="stars4"></div>
-      </div>
       <Suspense
         fallback={
           <div className="w-1/2 h-1/2 absolute top-1/2 left-1/2 -mx-6 my-0">
@@ -238,121 +232,306 @@ function App() {
       >
         <Router>
           <ScrollToTop>
-            <Header />
             <Routes>
-              <Route path="/" element={<HomeSpace />} />
-              <Route path="/maps/1/isle-of-dawn" element={<PageIsle />} />
+              <Route
+                path="/"
+                element={
+                  <Layout>
+                    <HomeSpace />
+                  </Layout>
+                }
+              />
+              <Route
+                path="/maps/1/isle-of-dawn"
+                element={
+                  <Layout>
+                    <PageIsle />
+                  </Layout>
+                }
+              />
               <Route
                 path="/maps/2/daylight-prairie"
-                element={<PagePrairie />}
+                element={
+                  <Layout>
+                    <PagePrairie />
+                  </Layout>
+                }
               />
-              <Route path="/maps/3/hidden-forest" element={<PageForest />} />
+              <Route
+                path="/maps/3/hidden-forest"
+                element={
+                  <Layout>
+                    <PageForest />
+                  </Layout>
+                }
+              />
               <Route
                 path="/maps/4/valley-of-triumph"
-                element={<PageValley />}
+                element={
+                  <Layout>
+                    <PageValley />
+                  </Layout>
+                }
               />
               <Route
                 path="/maps/5/golden-wasteland"
-                element={<PageWasteland />}
+                element={
+                  <Layout>
+                    <PageWasteland />
+                  </Layout>
+                }
               />
               <Route
                 path="/maps/6/vault-of-knowledge"
-                element={<PageVault />}
+                element={
+                  <Layout>
+                    <PageVault />
+                  </Layout>
+                }
               />
-              <Route path="/maps/7/eye-of-eden" element={<PageEden />} />
-              <Route path="/seasons" element={<PageSeasonMap />} />
-              <Route path="/winged-lights" element={<PageWingedLights />} />
-              <Route path="/map-shrines" element={<PageMapShrines />} />
+              <Route
+                path="/maps/7/eye-of-eden"
+                element={
+                  <Layout>
+                    <PageEden />
+                  </Layout>
+                }
+              />
+              <Route
+                path="/seasons"
+                element={
+                  <Layout>
+                    <PageSeasonMap />
+                  </Layout>
+                }
+              />
+              <Route
+                path="/winged-lights"
+                element={
+                  <Layout>
+                    <PageWingedLights />
+                  </Layout>
+                }
+              />
+              <Route
+                path="/map-shrines"
+                element={
+                  <Layout>
+                    <PageMapShrines />
+                  </Layout>
+                }
+              />
               <Route
                 path="seasons/2019/season-1/gratitude"
-                element={<S1Gratitude />}
+                element={
+                  <Layout>
+                    <S1Gratitude />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2019/season-2/lightseekers"
-                element={<S2LightSeeker />}
+                element={
+                  <Layout>
+                    <S2LightSeeker />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2019/season-3/belonging"
-                element={<S3Belonging />}
+                element={
+                  <Layout>
+                    <S3Belonging />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2020/season-4/rhythm"
-                element={<S4Rhythm />}
+                element={
+                  <Layout>
+                    <S4Rhythm />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2020/season-5/enchantment"
-                element={<S5Enchantment />}
+                element={
+                  <Layout>
+                    <S5Enchantment />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2020/season-6/sanctuary"
-                element={<S6Sanctuary />}
+                element={
+                  <Layout>
+                    <S6Sanctuary />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2020/season-7/prophecy"
-                element={<S7Prophecy />}
+                element={
+                  <Layout>
+                    <S7Prophecy />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2021/season-8/dreams"
-                element={<S8Dreams />}
+                element={
+                  <Layout>
+                    <S8Dreams />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2021/season-9/assembly"
-                element={<S9Assembly />}
+                element={
+                  <Layout>
+                    <S9Assembly />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2021/season-10/the-little-prince"
-                element={<S10TheLittlePrince />}
+                element={
+                  <Layout>
+                    <S10TheLittlePrince />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2021/season-11/flight"
-                element={<S11Flight />}
+                element={
+                  <Layout>
+                    <S11Flight />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2022/season-12/abyss"
-                element={<S12Abyss />}
+                element={
+                  <Layout>
+                    <S12Abyss />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2022/season-13/performance"
-                element={<S13Performance />}
+                element={
+                  <Layout>
+                    <S13Performance />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2022/season-14/shattering"
-                element={<S14Shattering />}
+                element={
+                  <Layout>
+                    <S14Shattering />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2022/season-15/aurora"
-                element={<S15Aurora />}
+                element={
+                  <Layout>
+                    <S15Aurora />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2023/season-16/remembrance"
-                element={<S16Remembrance />}
+                element={
+                  <Layout>
+                    <S16Remembrance />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2023/season-17/passage"
-                element={<S17Passage />}
+                element={
+                  <Layout>
+                    <S17Passage />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2023/season-18/moments"
-                element={<S18Moments />}
+                element={
+                  <Layout>
+                    <S18Moments />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2023/season-19/revival"
-                element={<S19Revival />}
+                element={
+                  <Layout>
+                    <S19Revival />
+                  </Layout>
+                }
               />
               <Route
                 path="seasons/2024/season-20/the-nine-colored-deer"
-                element={<S20TheNineColoredDeer />}
+                element={
+                  <Layout>
+                    <S20TheNineColoredDeer />
+                  </Layout>
+                }
               />
-              <Route path="/balita" element={<News />} />
-              <Route path="/team" element={<Team />} />
-              <Route path="/events" element={<Events />} />
-              <Route path="/support" element={<Support />} />
-              <Route path="/faq" element={<FaQ />} />
-              <Route path="*" element={<ErrorPage />} />
+              <Route
+                path="/balita"
+                element={
+                  <Layout>
+                    <News />
+                  </Layout>
+                }
+              />
+              <Route
+                path="/team"
+                element={
+                  <Layout>
+                    <Team />
+                  </Layout>
+                }
+              />
+              <Route
+                path="/events"
+                element={
+                  <Layout>
+                    <Events />
+                  </Layout>
+                }
+              />
+              <Route
+                path="/support"
+                element={
+                  <Layout>
+                    <Support />
+                  </Layout>
+                }
+              />
+              <Route
+                path="/faq"
+                element={
+                  <Layout>
+                    <FaQ />
+                  </Layout>
+                }
+              />
+              <Route
+                path="*"
+                element={
+                  <Layout>
+                    <ErrorPage />
+                  </Layout>
+                }
+              />
             </Routes>
           </ScrollToTop>
         </Router>
-        <Footer />
       </Suspense>
     </div>
   )
