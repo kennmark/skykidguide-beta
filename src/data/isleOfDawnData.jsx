@@ -348,7 +348,7 @@ export const isleOfDawn = [
             price: 26,
           },
           {
-            label: 'Emote',
+            label: 'Stance',
             img: SASSY_DRIFTER,
             currency: 'Free',
             price: 0,

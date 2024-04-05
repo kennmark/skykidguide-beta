@@ -20,12 +20,6 @@ import {
   SEASON19,
   SEASON20,
 } from '../exports/seasonIcons'
-import {
-  PRINCESS,
-  FEUDAL_LORD,
-  HUNTER,
-  HERB_GATHERER,
-} from '../exports/spiritIcons'
 
 import {
   GW_WL15,
