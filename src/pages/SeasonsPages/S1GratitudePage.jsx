@@ -31,6 +31,7 @@ const S1GratitudePage = () => {
     winged_lights,
     map_shrines,
   } = seasons2019[0]
+
   return (
     <div className="flex justify-center">
       <div>
@@ -93,6 +94,7 @@ const S1GratitudePage = () => {
                         {...spirit}
                         icon_route={icon_route}
                         key={spirit.spirit_id}
+                        season={name}
                       />
                     )
                   })}

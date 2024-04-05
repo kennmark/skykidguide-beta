@@ -110,6 +110,7 @@ const S14ShatteringPage = () => {
                         {...spirit}
                         icon_route={icon_route}
                         key={spirit.spirit_id}
+                        season={name}
                       />
                     )
                   })}

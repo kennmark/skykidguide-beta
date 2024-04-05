@@ -98,6 +98,7 @@ const S17PassagePage = () => {
                         {...spirit}
                         icon_route={icon_route}
                         key={spirit.spirit_id}
+                        season={name}
                       />
                     )
                   })}

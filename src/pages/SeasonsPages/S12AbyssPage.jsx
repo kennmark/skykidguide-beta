@@ -99,6 +99,7 @@ const S12Abyss = () => {
                         {...spirit}
                         icon_route={icon_route}
                         key={spirit.spirit_id}
+                        season={name}
                       />
                     )
                   })}

@@ -100,6 +100,7 @@ const S9AssemblyPage = () => {
                         {...spirit}
                         icon_route={icon_route}
                         key={spirit.spirit_id}
+                        season={name}
                       />
                     )
                   })}
