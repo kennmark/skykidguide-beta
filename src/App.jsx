@@ -4,10 +4,10 @@ import './App.css'
 import './Clock.css'
 import './fonts/MooliFont.css'
 import 'react-lazy-load-image-component/src/effects/blur.css'
+import './Parallax-bg.css'
 
 import ScrollToTop from './pages/components/ScrollToTop '
 import { Spinner } from '@material-tailwind/react'
-
 const Header = lazy(() => import('./pages/components/Header'))
 const Footer = lazy(() => import('./pages/components/Footer'))
 const HomeSpace = lazy(() => {
@@ -221,6 +221,12 @@ const S20TheNineColoredDeer = lazy(() => {
 function App() {
   return (
     <div className="mooliMono">
+      <div class="bg-animation">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="stars4"></div>
+      </div>
       <Suspense
         fallback={
           <div className="w-1/2 h-1/2 absolute top-1/2 left-1/2 -mx-6 my-0">

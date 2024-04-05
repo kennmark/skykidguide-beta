@@ -1,4 +1,4 @@
-import { Carousel, Typography, Button, Alert } from '@material-tailwind/react'
+import { Carousel, Typography, Button, Card } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
 import carousel1 from '../assets/images/seasonal-banners/season-nine-colored-deer-1.jpg'
@@ -121,12 +121,149 @@ const PageSeasonMap = () => {
               </div>
             </div> */}
           </Carousel>
+
+          {/* <div className="w-[20rem] md:w-full py-10 pl-16 grid place-content-center">
+            <Timeline className="px-5">
+              <TimelineItem>
+                <TimelineConnector />
+                <TimelineHeader>
+                  <TimelineIcon className="p-0">
+                    <Typography className="bg-amber-600 py-1 px-1">
+                      '24
+                    </Typography>
+                  </TimelineIcon>
+                  <Typography variant="h5" color="white">
+                    Seasons - [The Nine Colored Deer]
+                  </Typography>
+                </TimelineHeader>
+                <TimelineBody className="pb-8 flex justify-center">
+                  <div className="gap-4 py-5">
+                    {seasons2024.map((season) => {
+                      return (
+                        <SeasonDisplayContainer {...season} key={season.id} />
+                      )
+                    })}
+                  </div>
+                </TimelineBody>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineConnector />
+                <TimelineHeader>
+                  <TimelineIcon className="p-0">
+                    <Typography className="bg-orange-700 py-1 px-1">
+                      '23
+                    </Typography>
+                  </TimelineIcon>
+                  <Typography variant="h5" color="white">
+                    Seasons - [Remembrance, Passage, Moments, Revival]
+                  </Typography>
+                </TimelineHeader>
+                <TimelineBody className="pb-8 flex justify-center">
+                  <div className="flex justify-center gap-4 py-5">
+                    {seasons2023.map((season) => {
+                      return (
+                        <SeasonDisplayContainer {...season} key={season.id} />
+                      )
+                    })}
+                  </div>
+                </TimelineBody>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineConnector />
+                <TimelineHeader>
+                  <TimelineIcon className="p-0">
+                    <Typography className="bg-red-700 py-1 px-1">
+                      '22
+                    </Typography>
+                  </TimelineIcon>
+                  <Typography variant="h5" color="white">
+                    Seasons - [Abyss, Performance, Shattering, AURORA]
+                  </Typography>
+                </TimelineHeader>
+                <TimelineBody className="pb-8">
+                  <div className="flex flex-wrap  justify-center gap-4 py-5">
+                    {seasons2022.map((season) => {
+                      return (
+                        <SeasonDisplayContainer {...season} key={season.id} />
+                      )
+                    })}
+                  </div>
+                </TimelineBody>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineConnector />
+                <TimelineHeader>
+                  <TimelineIcon className="p-0">
+                    <Typography className="bg-pink-700 py-1 px-1">
+                      '21
+                    </Typography>
+                  </TimelineIcon>
+                  <Typography variant="h5" color="white">
+                    Seasons - [Dreams, Assembly, The Little Prince, Flight]
+                  </Typography>
+                </TimelineHeader>
+                <TimelineBody className="pb-8">
+                  <div className="flex flex-wrap  justify-center gap-4 py-5">
+                    {seasons2021.map((season) => {
+                      return (
+                        <SeasonDisplayContainer {...season} key={season.id} />
+                      )
+                    })}
+                  </div>
+                </TimelineBody>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineConnector />
+                <TimelineHeader>
+                  <TimelineIcon className="p-0">
+                    <Typography className="bg-purple-700 py-1 px-1">
+                      '20
+                    </Typography>
+                  </TimelineIcon>
+                  <Typography variant="h5" color="white">
+                    Seasons - [Rhythm, Enchantment, Sanctuary, Prophecy]
+                  </Typography>
+                </TimelineHeader>
+                <TimelineBody className="pb-8">
+                  <div className="flex flex-wrap  justify-center gap-4 py-5">
+                    {seasons2020.map((season) => {
+                      return (
+                        <SeasonDisplayContainer {...season} key={season.id} />
+                      )
+                    })}
+                  </div>
+                </TimelineBody>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineHeader>
+                  <TimelineIcon className="p-0">
+                    <Typography className="bg-blue-700 py-1 px-1">
+                      '19
+                    </Typography>
+                  </TimelineIcon>
+                  <Typography variant="h5" color="white">
+                    Seasons - [Gratitude, LightSeekers, Belonging]
+                  </Typography>
+                </TimelineHeader>
+                <TimelineBody className="pb-8">
+                  <div className="flex flex-wrap  justify-center gap-4 py-5">
+                    {seasons2019.map((season) => {
+                      return (
+                        <SeasonDisplayContainer {...season} key={season.id} />
+                      )
+                    })}
+                  </div>
+                </TimelineBody>
+              </TimelineItem>
+            </Timeline>
+          </div> */}
+
           {/* Seasons 2024 */}
           <div className="pt-5 w-full px-5">
             <div className="">
-              <Alert className="flex justify-center text-xl bg-blue-900/50">
+              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
                 Seasons 2024 - [The Nine Colored Deer]
-              </Alert>
+              </Card>
             </div>
 
             <div className="flex flex-wrap  justify-center gap-4 py-5">
@@ -139,9 +276,9 @@ const PageSeasonMap = () => {
           {/* Seasons 2023 */}
           <div className="pt-5 w-full px-5">
             <div className="">
-              <Alert className="flex justify-center text-xl bg-blue-900/50">
+              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
                 Seasons 2023 - [Remembrance, Passage, Moments, Revival]
-              </Alert>
+              </Card>
             </div>
 
             <div className="flex flex-wrap  justify-center gap-4 py-5">
@@ -154,9 +291,9 @@ const PageSeasonMap = () => {
           {/* Seasons 2022 */}
           <div className="pt-5 w-full px-5">
             <div>
-              <Alert className="flex justify-center text-xl bg-blue-900/50">
+              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
                 Seasons 2022 - [Abyss, Performance, Shattering, AURORA]
-              </Alert>
+              </Card>
             </div>
 
             <div className="flex flex-wrap  justify-center gap-4 py-5">
@@ -169,9 +306,9 @@ const PageSeasonMap = () => {
           {/* Seasons 2021 */}
           <div className="pt-5 w-full px-5">
             <div>
-              <Alert className="flex justify-center text-xl bg-blue-900/50">
+              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
                 Seasons 2021 - [Dreams, Assembly, The Little Prince, Flight]
-              </Alert>
+              </Card>
             </div>
 
             <div className="flex flex-wrap justify-center gap-4 py-5">
@@ -184,9 +321,9 @@ const PageSeasonMap = () => {
           {/* Seasons 2020 */}
           <div className="pt-5 w-full px-5">
             <div>
-              <Alert className="flex justify-center text-xl bg-blue-900/50">
+              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
                 Seasons 2020 - [Rythm, Enchantment, Sanctuary, Prophecy]
-              </Alert>
+              </Card>
             </div>
 
             <div className="flex flex-wrap justify-center gap-4 py-5">
@@ -199,9 +336,9 @@ const PageSeasonMap = () => {
           {/* Seasons 2019 */}
           <div className="pt-5 w-full px-5">
             <div>
-              <Alert className="flex justify-center text-xl bg-blue-900/50">
+              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
                 Seasons 2019 - [Gratitude, Lightseekers, Belonging]
-              </Alert>
+              </Card>
             </div>
 
             <div className="flex flex-wrap justify-center gap-4 py-5">
