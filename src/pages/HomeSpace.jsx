@@ -219,6 +219,11 @@ const HomeSpace = () => {
       <div className="flex flex-wrap justify-center">
         <SkyClock />
       </div>
+      <div>
+        <Typography variant="h2" className="pt-5">
+          Maps
+        </Typography>
+      </div>
       <div className="flex flex-wrap justify-center">
         {maps.map((map) => {
           return <MapCardContainer {...map} key={map.id} />

@@ -95,11 +95,11 @@ const SpiritImageDetails = ({
         unmount: { scale: 0.9, y: -100 },
       }}
       size="xs"
-      className="bg-black/80 border-amber-600 border-4 h-fit rounded-3xl"
+      className="bg-black/80 -top-16 md:top-0 border-amber-600 border-4 h-fit rounded-3xl"
     >
       <DialogHeader className=" text-white flex justify-center flex-col">
         <Typography variant="h4">{label}</Typography>
-        <Typography variant="h6">{seasonLabel}</Typography>
+        <Typography className="text-xs">{seasonLabel}</Typography>
       </DialogHeader>
       <DialogBody className="flex flex-col items-center justify-center md:flex-row md:flex">
         <div className="flex items-center">

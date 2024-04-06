@@ -43,7 +43,7 @@ const AnnouncementModal = () => {
     <Dialog
       open={open}
       handler={handleOpen}
-      className="bg-transparent/80 h-auto"
+      className="bg-transparent/80 h-auto -top-14 md:top-0"
     >
       <DialogHeader className="flex justify-center">
         <svg
