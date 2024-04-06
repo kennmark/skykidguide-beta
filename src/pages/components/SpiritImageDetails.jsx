@@ -95,7 +95,7 @@ const SpiritImageDetails = ({
         unmount: { scale: 0.9, y: -100 },
       }}
       size="xs"
-      className="bg-black/80 -top-16 md:top-0 border-amber-600 border-4 h-fit rounded-3xl"
+      className="bg-black/80 -top-12 md:top-0 border-amber-600 border-4 h-fit rounded-3xl"
     >
       <DialogHeader className=" text-white flex justify-center flex-col">
         <Typography variant="h4">{label}</Typography>
