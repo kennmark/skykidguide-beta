@@ -8,7 +8,9 @@ import {
 import FaQ from './FaQ'
 import { BuyMeACoffee } from './components/BuyMeACoffee'
 import carousel3 from '../assets/images/home-carousel/home4.jpg'
-
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import gcashlogo from '../assets/images/support/gcashlogo.png'
+import GCash from '../assets/images/support/GCash.jpg'
 const Support = () => {
   return (
     <>
@@ -18,6 +20,39 @@ const Support = () => {
           me more to improve this site.
         </Typography>
         <BuyMeACoffee />
+        <div className="mt-10">
+          <Card
+            className="w-full max-w-[48rem] flex-row "
+            color="gray"
+            variant="gradient"
+          >
+            <CardHeader
+              shadow={false}
+              floated={false}
+              className="m-0 w-2/5 shrink-0 rounded-r-none"
+              style={{ backgroundColor: '#007dfe' }}
+            >
+              <LazyLoadImage
+                src={gcashlogo}
+                alt="card-image"
+                className="h-full w-full object-contain opacity-80 rounded-lg"
+              />
+            </CardHeader>
+            <CardBody className="flex flex-wrap justify-center">
+              <Typography variant="h6" color="white" className="mb-4 uppercase">
+                Send Thru GCash
+              </Typography>
+              <LazyLoadImage
+                src={GCash}
+                alt="GCash"
+                title="GCash"
+                width={335}
+                effect="blur"
+                className="rounded-lg w-full"
+              />
+            </CardBody>
+          </Card>
+        </div>
         <div className="mt-10">
           <Card className="w-full max-w-[48rem] flex-row ">
             <CardHeader

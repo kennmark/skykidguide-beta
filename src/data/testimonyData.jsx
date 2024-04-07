@@ -3,6 +3,7 @@ import testimonee2 from '../assets/images/testimony/testimonee_2.jpg'
 import testimonee3 from '../assets/images/testimony/testimonee_3.jpg'
 import testimonee4 from '../assets/images/testimony/testimonee_4.jpg'
 import testimonee5 from '../assets/images/testimony/testimonee_5.jpg'
+import avatarGuy from '../assets/images/testimony/avatar-guy.png'
 export const testimonies = [
   {
     id: 1,
@@ -41,5 +42,11 @@ export const testimonies = [
     testimonial: `magandang guide website ng group dito, tagalog,
       madali maintindihan 🥰 kulang n lng infographics for daily guides.
       tanglikin sarilin atin 🥰`,
+  },
+  {
+    id: 7,
+    testimonee: 'Carl Ivan Buena',
+    testimonee_avatar: avatarGuy,
+    testimonial: `Btw ang ganda po ng web nyo😭`,
   },
 ]
