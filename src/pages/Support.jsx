@@ -20,12 +20,8 @@ const Support = () => {
           me more to improve this site.
         </Typography>
         <BuyMeACoffee />
-        <div className="mt-10">
-          <Card
-            className="w-full max-w-[48rem] flex-row "
-            color="gray"
-            variant="gradient"
-          >
+        <div className="mt-10 w-[770px] max-w-[100rem]">
+          <Card className="w-full flex-row" color="gray" variant="gradient">
             <CardHeader
               shadow={false}
               floated={false}
@@ -38,17 +34,13 @@ const Support = () => {
                 className="h-full w-full object-contain opacity-80 rounded-lg"
               />
             </CardHeader>
-            <CardBody className="flex flex-wrap justify-center">
-              <Typography variant="h6" color="white" className="mb-4 uppercase">
-                Send Thru GCash
-              </Typography>
+            <CardBody className="flex flex-wrap justify-center w-full items-center">
               <LazyLoadImage
                 src={GCash}
                 alt="GCash"
                 title="GCash"
-                width={335}
                 effect="blur"
-                className="rounded-lg w-full"
+                className="w-60 md:w-60"
               />
             </CardBody>
           </Card>
