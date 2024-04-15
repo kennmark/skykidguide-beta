@@ -57,7 +57,7 @@ export const S19_NUM_MAP_SHRINES = 1
 export const S21_NUM_REG_SPIRIT = 0
 export const S21_NUM_SEASON_SPIRIT = 0
 export const S21_NUM_WL = 0
-export const S21_NUM_MAP_SHRINES = 1
+export const S21_NUM_MAP_SHRINES = 0
 
 // WL_COUNT updates added from season of the nine colored deer
 export const WL_COUNT =
