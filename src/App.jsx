@@ -8,8 +8,6 @@ import Layout from './pages/layout/Layout'
 
 import ScrollToTop from './pages/components/ScrollToTop '
 import { Spinner } from '@material-tailwind/react'
-const Header = lazy(() => import('./pages/components/Header'))
-const Footer = lazy(() => import('./pages/components/Footer'))
 const HomeSpace = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(() => resolve(import('./pages/HomeSpace')), 300)
@@ -53,6 +51,11 @@ const PageVault = lazy(() => {
 const PageEden = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(() => resolve(import('./pages/PageEden')), 300)
+  })
+})
+const PageAviary = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import('./pages/PageAviary')), 300)
   })
 })
 const PageWingedLights = lazy(() => {
@@ -218,6 +221,15 @@ const S20TheNineColoredDeer = lazy(() => {
   })
 })
 
+const S21Nesting = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S21NestingPage')),
+      300
+    )
+  })
+})
+
 function App() {
   return (
     <div className="mooliMono">
@@ -294,6 +306,14 @@ function App() {
                 element={
                   <Layout>
                     <PageEden />
+                  </Layout>
+                }
+              />
+              <Route
+                path="/maps/8/aviary-village"
+                element={
+                  <Layout>
+                    <PageAviary />
                   </Layout>
                 }
               />
@@ -478,6 +498,14 @@ function App() {
                 element={
                   <Layout>
                     <S20TheNineColoredDeer />
+                  </Layout>
+                }
+              />
+              <Route
+                path="seasons/2024/season-21/nesting"
+                element={
+                  <Layout>
+                    <S21Nesting />
                   </Layout>
                 }
               />

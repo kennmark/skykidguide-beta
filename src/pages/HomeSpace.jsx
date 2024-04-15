@@ -16,7 +16,7 @@ import { Clock } from '../pages/components/Clock'
 import carousel1 from '../assets/images/home-carousel/home-slideshow-1.jpg'
 import carousel2 from '../assets/images/home-carousel/home-slideshow-2.jpg'
 import carousel3 from '../assets/images/home-carousel/home4.jpg'
-import carousel4 from '../assets/images/home-carousel/Upcoming-Season-21.jpg'
+import carousel4 from '../assets/images/home-carousel/Season-of-Nesting.jpg'
 import { WL_COUNT_DATE_UPDATED, TOTAL_WL_COUNT } from '../exports/constants'
 
 import { Countdown } from './components/Countdown'

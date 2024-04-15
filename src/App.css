@@ -165,16 +165,16 @@ html {
 }
 
 .map-9 {
-  background: rgb(56, 102, 65);
+  background: rgb(8, 75, 131);
   background: linear-gradient(
       0deg,
-      rgba(56, 102, 65, 1) 0%,
-      rgba(106, 153, 78, 0.75) 25%,
-      rgba(167, 201, 87, 0.5) 50%,
-      rgba(242, 232, 207, 0.25) 75%,
-      rgba(188, 71, 73, 0.1) 100%
+      rgba(8, 75, 131, 1) 0%,
+      rgba(66, 191, 221, 0.75) 29%,
+      rgba(187, 230, 228, 0.5) 60%,
+      rgba(240, 246, 246, 0.25) 83%,
+      rgba(245, 110, 57, 0.1) 100%
     ),
-    url(./assets/images/map-card-bg/Season20-bg.jpg);
+    url(./assets/images/map-card-bg/Season21-bg.jpg);
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;

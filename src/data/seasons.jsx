@@ -19,6 +19,7 @@ import {
   SEASON18,
   SEASON19,
   SEASON20,
+  SEASON21,
 } from '../exports/seasonIcons'
 
 import {
@@ -3002,5 +3003,19 @@ export const seasons2024 = [
         ],
       },
     ],
+  },
+  {
+    id: 21,
+    name: 'Season of Nesting',
+    time_duration: 'April 15, 2024 - July 1, 2024',
+    spirit_num: 0,
+    wl_num: 0,
+    ms_num: 1,
+    icon_route: SEASON21,
+    page_route: 'seasons/2024/season-21/nesting',
+    quick_info: `It's TIME to DECORATE our own HOMESPACE!`,
+    season_spirits: [],
+    winged_lights: [],
+    map_shrines: [],
   },
 ]

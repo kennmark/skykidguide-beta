@@ -1,8 +1,8 @@
 import { Carousel, Typography, Button, Card } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
-import carousel1 from '../assets/images/seasonal-banners/season-nine-colored-deer-1.jpg'
-import carousel2 from '../assets/images/seasonal-banners/season-nine-colored-deer-2.jpg'
+import carousel1 from '../assets/images/seasonal-banners/S21-A.jpg'
+import carousel2 from '../assets/images/seasonal-banners/S21-B.jpg'
 import SeasonDisplayContainer from './components/SeasonDisplayContainer'
 import {
   seasons2019,
@@ -41,7 +41,7 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 20 | Season of The Nine colored Deer
+                    Season 21 | Season of Nesting
                   </Typography>
                   <Typography
                     variant="lead"
@@ -59,7 +59,7 @@ const PageSeasonMap = () => {
                     >
                       Pasok
                     </Button>
-                    <a href="https://www.thatskygame.com/">
+                    <a href="https://www.thatskygame.com/news/create-a-space-uniquely-yours-in-season-of-nesting">
                       <Button size="sm" color="white" variant="outlined">
                         Visit Site
                       </Button>
@@ -81,14 +81,14 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    New Season | New Map
+                    New Season - New Adventure
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    3rd Season Collaboration in Sky.
+                    Lets Decorate our own Homespace!
                   </Typography>
                 </div>
               </div>
@@ -262,7 +262,7 @@ const PageSeasonMap = () => {
           <div className="pt-5 w-full px-5">
             <div className="">
               <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
-                Seasons 2024 - [The Nine Colored Deer]
+                Seasons 2024 - [The Nine Colored Deer, Nesting]
               </Card>
             </div>
 

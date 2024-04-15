@@ -44,15 +44,20 @@ export const EDEN_NUM_SEASON_SPIRIT = 0
 export const EDEN_NUM_WL = 10
 export const EDEN_NUM_MAP_SHRINES = 4
 
+export const AVIARY_NUM_REG_SPIRIT = 0
+export const AVIARY_NUM_SEASON_SPIRIT = 4
+export const AVIARY_NUM_WL = 0
+export const AVIARY_NUM_MAP_SHRINES = 1
+
 export const S19_NUM_REG_SPIRIT = 0
-export const S19_NUM_SEASON_SPIRIT = 0
+export const S19_NUM_SEASON_SPIRIT = 4
 export const S19_NUM_WL = 0
 export const S19_NUM_MAP_SHRINES = 1
 
-export const S20_NUM_REG_SPIRIT = 0
-export const S20_NUM_SEASON_SPIRIT = 4
-export const S20_NUM_WL = 3
-export const S20_NUM_MAP_SHRINES = 1
+export const S21_NUM_REG_SPIRIT = 0
+export const S21_NUM_SEASON_SPIRIT = 0
+export const S21_NUM_WL = 0
+export const S21_NUM_MAP_SHRINES = 1
 
 // WL_COUNT updates added from season of the nine colored deer
 export const WL_COUNT =
