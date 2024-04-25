@@ -20,7 +20,7 @@ const Support = () => {
           me more to improve this site.
         </Typography>
         <BuyMeACoffee />
-        <div className="mt-10 w-full max-w-[48rem]">
+        {/* <div className="mt-10 w-full max-w-[48rem]">
           <Card className="w-full flex-row" color="gray" variant="gradient">
             <CardHeader
               shadow={false}
@@ -44,7 +44,7 @@ const Support = () => {
               />
             </CardBody>
           </Card>
-        </div>
+        </div> */}
         <div className="mt-10">
           <Card className="w-full max-w-[48rem] flex-row ">
             <CardHeader
