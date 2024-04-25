@@ -51,22 +51,16 @@ export function BuyMeACoffee() {
             Buy Me A Coffee
           </a>
         </div>
-        <div className="flex flex-wrap justify-center flex-col pt-5">
-          <div className="flex justify-center">
-            <hr className="my-3 w-36" />
-          </div>
-          <div>
-            <Typography>GCash</Typography>
-          </div>
-          <div>
-            <LazyLoadImage
-              src={GCash}
-              alt="GCash"
-              title="GCash"
-              effect="blur"
-              className="w-36 md:w-60 max-w-[48rem]"
-            />
-          </div>
+        <div className="flex flex-wrap justify-center items-center flex-col pt-5">
+          <hr className="my-3 w-36" />
+          <Typography>GCash</Typography>
+          <LazyLoadImage
+            src={GCash}
+            alt="GCash"
+            title="GCash"
+            effect="blur"
+            className="w-36 md:w-60 max-w-[48rem]"
+          />
         </div>
       </CardBody>
     </Card>

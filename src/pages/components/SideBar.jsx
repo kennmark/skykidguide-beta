@@ -133,7 +133,7 @@ const SideBar = ({ screenSize }) => {
           </Link>
         </ListItem>
       </List>
-      {!screenSize <= window.innerWidth && <BuyMeACoffee />}
+      {/* {!screenSize <= window.innerWidth && <BuyMeACoffee />} */}
     </div>
   )
 }
