@@ -29,7 +29,7 @@ export const newsData = [
     special. discover your new season in Sky. Season of Nesting, embarks on new way of
     designing your homespace, at Aviary Village!`,
     newsLink:
-      'https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1308-patch-notes---april-10-2024---0-25-0-257483-android-huawei-256148-ios-playstation-257607-pc-255731-switch/',
+      'https://www.thatskygame.com/news/create-a-space-uniquely-yours-in-season-of-nesting',
   },
   {
     id: 5,
@@ -42,6 +42,6 @@ export const newsData = [
      cafes, and they’ll be in Aviary Village for a special three-week 
      celebration welcoming Sky kids to the newest gathering place in the kingdom.`,
     newsLink:
-      'https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/1308-patch-notes---april-10-2024---0-25-0-257483-android-huawei-256148-ios-playstation-257607-pc-255731-switch/',
+      'https://www.thatskygame.com/news/sky-cinnamoroll-pop-up-cafe-opens-soon',
   },
 ]

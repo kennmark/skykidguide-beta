@@ -34,7 +34,7 @@ const News = () => {
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0 flex justify-start pl-10">
-                <a href={news.newsLink}>
+                <a href={news.newsLink} target="_blank">
                   <Button className="bg-gradient-to-r rounded-lg from-purple-900 to-blue-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg">
                     Read More
                   </Button>
