@@ -1,6 +1,7 @@
 import React from 'react'
 import { Typography, Card, CardHeader } from '@material-tailwind/react'
 import { eventsData } from '../../data/eventsData'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const EventCard = () => {
   return eventsData
@@ -10,7 +11,12 @@ const EventCard = () => {
       <div className="flex justify-center items-center pt-10" key={event.id}>
         <Card className="pt-2 pb-4 w-11/12 " variant="gradient" color="gray">
           <CardHeader color="blue-gray" className="relative h-auto">
-            <img src={event.img} alt={event.title} />
+            <LazyLoadImage
+              src={event.img}
+              alt={event.title}
+              title={event.title}
+              effect="blur"
+            />
           </CardHeader>
           <Typography
             variant="h4"

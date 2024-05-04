@@ -10,11 +10,11 @@ const AuroraConcert = () => {
         <span className="text-amber-700 font-extrabold">:00</span>
         &nbsp;at minuto,10 (Sampung Minuto) upang maghanap ng mauupuan sa
         concert. Halimbawa&nbsp;
-        <span className="text-red-400">3</span>
+        <span className="text-red-400">1</span>
         <span className="text-amber-700 font-extrabold">:00</span>, &nbsp;
-        <span className="text-red-400">7</span>
+        <span className="text-red-400">5</span>
         <span className="text-amber-700 font-extrabold">:00</span>, &nbsp;
-        <span className="text-red-400">11</span>
+        <span className="text-red-400">9</span>
         <span className="text-amber-700 font-extrabold">:00</span>&nbsp;
         {/* 
         <span className="text-red-400">4</span>
