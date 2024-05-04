@@ -83,8 +83,8 @@ const Footer = () => {
             </a>
 
             <Typography color="white" className="p-1 font-thin text-xs">
-              Skykid:T&G is not affiliated with ThatGameCompany or in any way.
-              Please refer always to{' '}
+              Skykid Hero : Help Guide is not affiliated with ThatGameCompany or
+              in any way. Please refer always to{' '}
               <a href="https://www.thatskygame.com/">ThatGameCompany</a> for
               official announcements.
             </Typography>

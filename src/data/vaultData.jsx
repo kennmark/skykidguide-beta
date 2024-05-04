@@ -1730,7 +1730,8 @@ export const vault = [
         wl_location: [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
-          `Pagkdating sa Cresecent Oasis, dumako malapit sa waterfalls at pumasok sa ulap na lagusan`,
+          `Pagkdating sa Cresecent Oasis, dumako malapit sa waterfalls at pumasok sa ulap na lagusan (Tandan kailangan
+            mong tapusin ang panghuling quest ng 9 Colored Deer Quest)`,
           `Sa ilalim ng puno makita ang winged light dito`,
         ],
       },
