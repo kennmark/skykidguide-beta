@@ -721,6 +721,10 @@ export const prairie = [
             visit_date: 'Jul 21, 2022',
             visitNo: 66,
           },
+          {
+            visit_date: 'May 23, 2024',
+            visitNo: 66,
+          },
         ],
         icon_route: SEASON2,
         spirit_guide_video_url: youtube_embed + 'SoF7OUY9Tho',
@@ -1311,6 +1315,10 @@ export const prairie = [
           },
           {
             visit_date: 'Aug 31, 2023',
+            visitNo: 95,
+          },
+          {
+            visit_date: 'May 9, 2024',
             visitNo: 95,
           },
         ],

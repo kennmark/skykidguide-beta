@@ -81,7 +81,7 @@ const Testimonials = () => {
                     </div>
                   </div>
                   <div className="flex justify-start">
-                    <Typography color="gray">SkyPH-Members</Typography>
+                    <Typography color="gray">{testimony.group}</Typography>
                   </div>
                 </div>
               </CardHeader>
