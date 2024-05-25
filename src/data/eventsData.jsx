@@ -1,5 +1,6 @@
 import DOB from '../assets/images/events/DaysOfBloom.jpg'
 import Cinnamoroll from '../assets/images/events/Sky-x-Cinnamoroll.jpg'
+import DON from '../assets/images/events/DaysOfNature2024.jpg'
 
 export const eventsData = [
   {
@@ -30,6 +31,20 @@ export const eventsData = [
      in the clouds—not unlike Sky children. Since his arrival to life on the ground, 
      he’s become an expert in how to make a cafe lively and inviting, and he’ll be 
      in Aviary Village as part of a special three-week collaboration that welcomes
-      Sky kids to the newest gathering place in the kingdom.`,
+      Sky kids to the newest gathering place in the kingdom. Credit: ThatSkyGame Official Website`,
+  },
+  {
+    id: 3,
+    title: 'Days of Nature 2024',
+    sub_title: 'Starting on May 27th - June 17th, 2024',
+    img: DON,
+    type: 'regular',
+    description: `Prairie Peaks is usually a haven away from the remains of the kingdom, 
+    but starting on May 27th, Spirits and Sky children alike will be called to aid the 
+    river that brings life to the area when Days of Nature returns. For three weeks, 
+    Shard Eruptions and the Darkness they bring threaten the health of Prairie Peaks’ waters. 
+    Spirits will be on hand to build a device that keeps the corruption from spreading 
+    downstream, but it’s up to Sky kids to capture its pollution and stop it from 
+    impacting the spaces around the river. Credit: ThatSkyGame Official Website`,
   },
 ]

@@ -44,4 +44,17 @@ export const newsData = [
     newsLink:
       'https://www.thatskygame.com/news/sky-cinnamoroll-pop-up-cafe-opens-soon',
   },
+  {
+    id: 5,
+    newsTitle: `Days of Nature 2024`,
+    newsBody: `Prairie Peaks is usually a haven away from the remains of the kingdom, 
+    but starting on May 27th, Spirits and Sky children alike will be called to aid the 
+    river that brings life to the area when Days of Nature returns. For three weeks, 
+    Shard Eruptions and the Darkness they bring threaten the health of Prairie Peaks’ waters. 
+    Spirits will be on hand to build a device that keeps the corruption from spreading 
+    downstream, but it’s up to Sky kids to capture its pollution and stop it from 
+    impacting the spaces around the river.`,
+    newsLink:
+      'https://www.thatskygame.com/news/aid-a-river-in-need-days-of-nature-2024',
+  },
 ]
