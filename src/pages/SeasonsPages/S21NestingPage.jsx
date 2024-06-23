@@ -12,7 +12,7 @@ import CardContainer from '../components/CardContainer'
 import PageHeaderContainer from '../components/PageHeaderContainer'
 import { SideBarContainer } from '../components/SidebarContainer'
 import DifficultyCriteria from '../components/DifficultyCriteria'
-import { SeasonTabHeader } from '../../data/seasonTabHeader'
+import { SeasonTabHeader2 } from '../../data/seasonTabHeader'
 import { seasons2024 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 
@@ -49,7 +49,7 @@ const S21NestingPage = () => {
             variant="gradient"
             className="bg-gradient-to-r from-blue-900 to-purple-900 flex items-center"
           >
-            {SeasonTabHeader.map((headerTab, index) => {
+            {SeasonTabHeader2.map((headerTab, index) => {
               return (
                 <MapTabHeaderContainer
                   {...headerTab}
@@ -86,7 +86,7 @@ const S21NestingPage = () => {
               )}
 
               <div className="flex flex-wrap justify-center gap-3">
-                {activeTab === 'season_spirits' &&
+                {activeTab === 'collectibles' &&
                   season_spirits?.map((spirit) => {
                     return (
                       <SpiritCardContainer

@@ -4,7 +4,7 @@ import SkyClockContainer from './components/SkyClockContainer'
 import { useEffect, useState } from 'react'
 
 const SkyClock = () => {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(true)
 
   const toggleOpen = () => setOpen((cur) => !cur)
 

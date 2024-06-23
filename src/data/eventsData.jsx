@@ -1,6 +1,7 @@
 import DOB from '../assets/images/events/DaysOfBloom.jpg'
 import Cinnamoroll from '../assets/images/events/Sky-x-Cinnamoroll.jpg'
 import DON from '../assets/images/events/DaysOfNature2024.jpg'
+import DOC from '../assets/images/events/DaysOfColor2024.jpg'
 
 export const eventsData = [
   {
@@ -46,5 +47,19 @@ export const eventsData = [
     Spirits will be on hand to build a device that keeps the corruption from spreading 
     downstream, but it’s up to Sky kids to capture its pollution and stop it from 
     impacting the spaces around the river. Credit: ThatSkyGame Official Website`,
+  },
+  {
+    id: 4,
+    title: 'Days of Color 2024',
+    sub_title: 'Starting on June 24th - July 8th, 2024',
+    img: DOC,
+    type: 'regular',
+    description: `For two weeks starting on June 24th PDT, a kaleidoscope of brilliant rainbows, 
+    shining capes, and colorful Spirits will celebrate the diverse world we share. To join in, 
+    talk with Spirits in Aviary Village or Home and they’ll teleport you to a bright, spacious 
+    area floating above the clouds above Daylight Prairie Village. There you’ll find a rainbow 
+    puzzle that grows each day. Complete that puzzle and you’ll reveal a new Days of Color feature 
+    that can satisfy your Sky kid’s need for speed. Don’t have what you need for the puzzle? Take a 
+    dip in a magical geyser nearby that will add a special splash of color to your cape (and more)!`,
   },
 ]

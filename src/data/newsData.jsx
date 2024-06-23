@@ -57,4 +57,14 @@ export const newsData = [
     newsLink:
       'https://www.thatskygame.com/news/aid-a-river-in-need-days-of-nature-2024',
   },
+  {
+    id: 6,
+    newsTitle: `Days of Color 2024`,
+    newsBody: `For two weeks starting on June 24th PDT, a kaleidoscope of brilliant rainbows,
+     shining capes, and colorful Spirits will celebrate the diverse world we share. To join in, 
+     talk with Spirits in Aviary Village or Home and they’ll teleport you to a bright, spacious
+      area floating above the clouds above Daylight Prairie Village.`,
+    newsLink:
+      'https://www.thatskygame.com/news/soaring-together-in-days-of-color-2024/',
+  },
 ]

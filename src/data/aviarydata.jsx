@@ -1,22 +1,4 @@
 import { Typography } from '@material-tailwind/react'
-import {
-  VDO_ITEM_1,
-  VDO_ITEM_2,
-  VDO_ITEM_3,
-  VDO_ITEM_4,
-  MLV_ITEM_1,
-  MLV_ITEM_2,
-  MLV_ITEM_3,
-  MLV_ITEM_4,
-  EAR_ITEM_1,
-  EAR_ITEM_2,
-  EAR_ITEM_3,
-  EAR_ITEM_4,
-  RFH_ITEM_1,
-  RFH_ITEM_2,
-  RFH_ITEM_3,
-  RFH_ITEM_4,
-} from '../exports/aviaryCollectibles'
 import { AV_MS1 } from '../exports/aviaryMSImgUrl'
 import {
   AVIARY_NUM_SEASON_SPIRIT,
@@ -25,9 +7,7 @@ import {
   AVIARY_NUM_MAP_SHRINES,
 } from '../exports/constants'
 import { NON_SPIRIT, MAP_SHRINE, WINGED_LIGHT } from '../exports/defaultImages'
-import { seasons2023 } from './seasons'
-
-console.log(seasons2023)
+import { seasons2023, seasons2024 } from './seasons'
 
 export const aviaryData = [
   {
@@ -45,8 +25,8 @@ export const aviaryData = [
     spirits: [],
   },
   {
-    label: 'Seasonal Spirits',
-    value: 'seasonal_spirits',
+    label: 'Collectibles',
+    value: 'collectibles',
     desc: (
       <Typography className="antialiased font-sans">
         Nandito ang mga spirits na dumaan noong nakaraang Seasonal Events na
@@ -127,6 +107,23 @@ export const aviaryData = [
           seasons2023[3].season_spirits[3].spirit_guide_video_url,
         spirit_direction: seasons2023[3].season_spirits[3].spirit_direction,
       },
+      // {
+      //   spirit_name: seasons2024[3].season_spirits[3]?.spirit_name,
+      //   spirit_img_url: seasons2024[3].season_spirits[3]?.spirit_img_url,
+      //   spirit_category: seasons2024[3].season_spirits[3]?.spirit_category,
+      //   spirit_relive_type:
+      //     seasons2024[3].season_spirits[3]?.spirit_relive_type,
+      //   difficulty_level: seasons2024[3].season_spirits[3]?.difficulty_level,
+      //   difficulty_types: seasons2024[3].season_spirits[3]?.difficulty_types,
+      //   spirit_image: seasons2024[3].season_spirits[3]?.spirit_image,
+      //   spirit_collectibles:
+      //     seasons2024[3].season_spirits[3]?.spirit_collectibles,
+      //   spirit_tree_cost: seasons2024[3].season_spirits[3]?.spirit_tree_cost,
+      //   number_of_visits: seasons2024[3].season_spirits[3]?.number_of_visits,
+      //   spirit_guide_video_url:
+      //     seasons2024[3].season_spirits[3]?.spirit_guide_video_url,
+      //   spirit_direction: seasons2024[3].season_spirits[3]?.spirit_direction,
+      // },
     ],
   },
   {

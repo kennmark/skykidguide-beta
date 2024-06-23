@@ -20,6 +20,7 @@ import {
   SEASON19,
   SEASON20,
   SEASON21,
+  SEASON22,
 } from '../exports/seasonIcons'
 
 import {
@@ -2022,6 +2023,7 @@ export const seasons2022 = [
   {
     id: 14,
     name: 'Season of Shattering',
+    season_type: 0,
     time_duration: 'July 11 - September 26, 2022',
     spirit_num: 2,
     wl_num: 6,
@@ -2690,6 +2692,7 @@ export const seasons2023 = [
   {
     id: 19,
     name: 'Season of Revival',
+    season_type: 0,
     time_duration: 'October 16 - December 31, 2023',
     spirit_num: 0,
     icon_route: SEASON19,
@@ -3007,12 +3010,28 @@ export const seasons2024 = [
   {
     id: 21,
     name: 'Season of Nesting',
+    season_type: 0,
     time_duration: 'April 15, 2024 - July 1, 2024',
     spirit_num: 0,
     wl_num: 0,
     ms_num: 1,
     icon_route: SEASON21,
     page_route: 'seasons/2024/season-21/nesting',
+    quick_info: `It's TIME to DECORATE our own HOMESPACE!`,
+    season_spirits: [],
+    winged_lights: [],
+    map_shrines: [],
+  },
+  {
+    id: 22,
+    name: 'Season of Duet',
+    season_type: 0,
+    time_duration: 'July 15, 2024 - September 30, 2024',
+    spirit_num: 0,
+    wl_num: 0,
+    ms_num: 1,
+    icon_route: SEASON22,
+    page_route: 'seasons/2024/season-22/duet',
     quick_info: `It's TIME to DECORATE our own HOMESPACE!`,
     season_spirits: [],
     winged_lights: [],
