@@ -45,7 +45,7 @@ export const EDEN_NUM_WL = 10
 export const EDEN_NUM_MAP_SHRINES = 4
 
 export const AVIARY_NUM_REG_SPIRIT = 0
-export const AVIARY_NUM_SEASON_SPIRIT = 4
+export const AVIARY_NUM_SEASON_SPIRIT = 8
 export const AVIARY_NUM_WL = 0
 export const AVIARY_NUM_MAP_SHRINES = 1
 

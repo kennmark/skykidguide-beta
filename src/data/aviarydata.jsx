@@ -29,12 +29,12 @@ export const aviaryData = [
     value: 'collectibles',
     desc: (
       <Typography className="antialiased font-sans">
-        Nandito ang mga spirits na dumaan noong nakaraang Seasonal Events na
-        makikita mo tuwing papasok ka sa Hidden Forest. May{' '}
+        Nandito ang mga collectibles na dumaan noong nakaraang Seasonal Events
+        na maari mong makuha kapag ito ay bumalik bilang TS. May{' '}
         <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
           {AVIARY_NUM_SEASON_SPIRIT}
         </span>{' '}
-        season spirits na pwede mong makita at makuha dito.
+        collectibles makukuha dito.
       </Typography>
     ),
     spirits: [
@@ -55,6 +55,7 @@ export const aviaryData = [
         spirit_guide_video_url:
           seasons2023[3].season_spirits[0].spirit_guide_video_url,
         spirit_direction: seasons2023[3].season_spirits[0].spirit_direction,
+        icon_route: seasons2023[3].icon_route,
       },
       //NON_SPIRIT
       {
@@ -72,6 +73,7 @@ export const aviaryData = [
         spirit_guide_video_url:
           seasons2023[3].season_spirits[1].spirit_guide_video_url,
         spirit_direction: seasons2023[3].season_spirits[1].spirit_direction,
+        icon_route: seasons2023[3].icon_route,
       },
       //NON_SPIRIT
       {
@@ -89,6 +91,7 @@ export const aviaryData = [
         spirit_guide_video_url:
           seasons2023[3].season_spirits[2].spirit_guide_video_url,
         spirit_direction: seasons2023[3].season_spirits[2].spirit_direction,
+        icon_route: seasons2023[3].icon_route,
       },
       //NON_SPIRIT
       {
@@ -106,24 +109,76 @@ export const aviaryData = [
         spirit_guide_video_url:
           seasons2023[3].season_spirits[3].spirit_guide_video_url,
         spirit_direction: seasons2023[3].season_spirits[3].spirit_direction,
+        icon_route: seasons2023[3].icon_route,
       },
-      // {
-      //   spirit_name: seasons2024[3].season_spirits[3]?.spirit_name,
-      //   spirit_img_url: seasons2024[3].season_spirits[3]?.spirit_img_url,
-      //   spirit_category: seasons2024[3].season_spirits[3]?.spirit_category,
-      //   spirit_relive_type:
-      //     seasons2024[3].season_spirits[3]?.spirit_relive_type,
-      //   difficulty_level: seasons2024[3].season_spirits[3]?.difficulty_level,
-      //   difficulty_types: seasons2024[3].season_spirits[3]?.difficulty_types,
-      //   spirit_image: seasons2024[3].season_spirits[3]?.spirit_image,
-      //   spirit_collectibles:
-      //     seasons2024[3].season_spirits[3]?.spirit_collectibles,
-      //   spirit_tree_cost: seasons2024[3].season_spirits[3]?.spirit_tree_cost,
-      //   number_of_visits: seasons2024[3].season_spirits[3]?.number_of_visits,
-      //   spirit_guide_video_url:
-      //     seasons2024[3].season_spirits[3]?.spirit_guide_video_url,
-      //   spirit_direction: seasons2024[3].season_spirits[3]?.spirit_direction,
-      // },
+      {
+        spirit_name: seasons2024[1].season_spirits[0].spirit_name,
+        spirit_img_url: seasons2024[1].season_spirits[0].spirit_img_url,
+        spirit_category: seasons2024[1].season_spirits[0].spirit_category,
+        spirit_relive_type: seasons2024[1].season_spirits[0].spirit_relive_type,
+        difficulty_level: seasons2024[1].season_spirits[0].difficulty_level,
+        difficulty_types: seasons2024[1].season_spirits[0].difficulty_types,
+        spirit_image: seasons2024[1].season_spirits[0].spirit_image,
+        spirit_collectibles:
+          seasons2024[1].season_spirits[0].spirit_collectibles,
+        spirit_tree_cost: seasons2024[1].season_spirits[0].spirit_tree_cost,
+        number_of_visits: seasons2024[1].season_spirits[0].number_of_visits,
+        spirit_guide_video_url:
+          seasons2024[1].season_spirits[0].spirit_guide_video_url,
+        spirit_direction: seasons2024[1].season_spirits[0].spirit_direction,
+        icon_route: seasons2024[1].icon_route,
+      },
+      {
+        spirit_name: seasons2024[1].season_spirits[1].spirit_name,
+        spirit_img_url: seasons2024[1].season_spirits[1].spirit_img_url,
+        spirit_category: seasons2024[1].season_spirits[1].spirit_category,
+        spirit_relive_type: seasons2024[1].season_spirits[1].spirit_relive_type,
+        difficulty_level: seasons2024[1].season_spirits[1].difficulty_level,
+        difficulty_types: seasons2024[1].season_spirits[1].difficulty_types,
+        spirit_image: seasons2024[1].season_spirits[1].spirit_image,
+        spirit_collectibles:
+          seasons2024[1].season_spirits[1].spirit_collectibles,
+        spirit_tree_cost: seasons2024[1].season_spirits[1].spirit_tree_cost,
+        number_of_visits: seasons2024[1].season_spirits[1].number_of_visits,
+        spirit_guide_video_url:
+          seasons2024[1].season_spirits[1].spirit_guide_video_url,
+        spirit_direction: seasons2024[1].season_spirits[1].spirit_direction,
+        icon_route: seasons2024[1].icon_route,
+      },
+      {
+        spirit_name: seasons2024[1].season_spirits[2].spirit_name,
+        spirit_img_url: seasons2024[1].season_spirits[2].spirit_img_url,
+        spirit_category: seasons2024[1].season_spirits[2].spirit_category,
+        spirit_relive_type: seasons2024[1].season_spirits[2].spirit_relive_type,
+        difficulty_level: seasons2024[1].season_spirits[2].difficulty_level,
+        difficulty_types: seasons2024[1].season_spirits[2].difficulty_types,
+        spirit_image: seasons2024[1].season_spirits[2].spirit_image,
+        spirit_collectibles:
+          seasons2024[1].season_spirits[2].spirit_collectibles,
+        spirit_tree_cost: seasons2024[1].season_spirits[2].spirit_tree_cost,
+        number_of_visits: seasons2024[1].season_spirits[2].number_of_visits,
+        spirit_guide_video_url:
+          seasons2024[1].season_spirits[2].spirit_guide_video_url,
+        spirit_direction: seasons2024[1].season_spirits[2].spirit_direction,
+        icon_route: seasons2024[1].icon_route,
+      },
+      {
+        spirit_name: seasons2024[1].season_spirits[3].spirit_name,
+        spirit_img_url: seasons2024[1].season_spirits[3].spirit_img_url,
+        spirit_category: seasons2024[1].season_spirits[3].spirit_category,
+        spirit_relive_type: seasons2024[1].season_spirits[3].spirit_relive_type,
+        difficulty_level: seasons2024[1].season_spirits[3].difficulty_level,
+        difficulty_types: seasons2024[1].season_spirits[3].difficulty_types,
+        spirit_image: seasons2024[1].season_spirits[3].spirit_image,
+        spirit_collectibles:
+          seasons2024[1].season_spirits[3].spirit_collectibles,
+        spirit_tree_cost: seasons2024[1].season_spirits[3].spirit_tree_cost,
+        number_of_visits: seasons2024[1].season_spirits[3].number_of_visits,
+        spirit_guide_video_url:
+          seasons2024[1].season_spirits[3].spirit_guide_video_url,
+        spirit_direction: seasons2024[1].season_spirits[3].spirit_direction,
+        icon_route: seasons2024[1].icon_route,
+      },
     ],
   },
   {
