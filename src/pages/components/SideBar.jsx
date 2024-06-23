@@ -25,7 +25,6 @@ import AccordionSeason2021 from './AccordionSeason2021'
 import AccordionSeason2022 from './AccordionSeason2022'
 import AccordionSeason2023 from './AccordionSeason2023'
 import AccordionSeason2024 from './AccordionSeason2024'
-import { BuyMeACoffee } from './BuyMeACoffee'
 import { Link } from 'react-router-dom'
 
 const SideBar = ({ screenSize }) => {
@@ -98,13 +97,12 @@ const SideBar = ({ screenSize }) => {
           </AccordionBody>
         </Accordion>
         <hr className="my-2 border-blue-gray-900" />
-
-        <AccordionSeason2019 open={open} handleOpen={handleOpen} />
-        <AccordionSeason2020 open={open} handleOpen={handleOpen} />
-        <AccordionSeason2021 open={open} handleOpen={handleOpen} />
-        <AccordionSeason2022 open={open} handleOpen={handleOpen} />
-        <AccordionSeason2023 open={open} handleOpen={handleOpen} />
         <AccordionSeason2024 open={open} handleOpen={handleOpen} />
+        <AccordionSeason2023 open={open} handleOpen={handleOpen} />
+        <AccordionSeason2022 open={open} handleOpen={handleOpen} />
+        <AccordionSeason2021 open={open} handleOpen={handleOpen} />
+        <AccordionSeason2020 open={open} handleOpen={handleOpen} />
+        <AccordionSeason2019 open={open} handleOpen={handleOpen} />
         <hr className="my-2 border-blue-gray-900" />
         <ListItem>
           <Link to={'/winged-lights'}>
