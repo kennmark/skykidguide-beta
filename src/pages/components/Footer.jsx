@@ -25,12 +25,12 @@ const Footer = () => {
           img: VITE_lOGO,
           link: 'https://vitejs.dev/',
         },
-        {
-          id: 3,
-          name: 'Netlify',
-          img: NETLIFY_LOGO,
-          link: 'https://www.netlify.com/',
-        },
+        // {
+        //   id: 3,
+        //   name: 'Netlify',
+        //   img: NETLIFY_LOGO,
+        //   link: 'https://www.netlify.com/',
+        // },
         {
           id: 4,
           name: 'TailwindCSS',

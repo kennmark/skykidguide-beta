@@ -31,6 +31,7 @@ const S22DuetPage = () => {
     map_shrines,
     season_type,
   } = seasons2024[2]
+  const dateToday = new Date()
   return (
     <div className="flex justify-center">
       <div>
@@ -73,8 +74,12 @@ const S22DuetPage = () => {
               {activeTab === 'info' && (
                 <div className="text-gray-100 pb-5">
                   <Typography>
-                    {quick_info} Nagsimula ito noong {time_duration}. May{' '}
-                    {spirit_num} na spirits sa season na ito at{' '}
+                    {quick_info}{' '}
+                    {time_duration === dateToday
+                      ? 'Nagsimula ito noong '
+                      : 'Magsisimula ito ngayong '}
+                    {time_duration}. May {spirit_num} na spirits sa season na
+                    ito at{' '}
                     {wl_num ? 'May ' + wl_num : '(0) o walang winged light '}
                     &nbsp; winged light(s). Sa season na ito ay
                     {ms_num
