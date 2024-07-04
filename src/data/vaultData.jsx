@@ -538,6 +538,10 @@ export const vault = [
             visit_date: 'Jul 3, 2023',
             visitNo: 'GV#3',
           },
+          {
+            visit_date: 'Jun 20, 2024',
+            visitNo: '116',
+          },
         ],
         icon_route: SEASON4,
         spirit_guide_video_url: youtube_embed + 'vs3rSSsbULA',
@@ -1008,6 +1012,10 @@ export const vault = [
           {
             visit_date: 'Sep 29, 2022',
             visitNo: 71,
+          },
+          {
+            visit_date: 'Jul 4, 2025',
+            visitNo: 117,
           },
         ],
         icon_route: SEASON10,

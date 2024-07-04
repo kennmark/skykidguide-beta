@@ -627,6 +627,10 @@ export const valley = [
             visit_date: 'Jul 3, 2023',
             visitNo: 'GV#3',
           },
+          {
+            visit_date: 'Jun 6, 2024',
+            visitNo: '115',
+          },
         ],
         icon_route: SEASON1,
         spirit_guide_video_url: youtube_embed + 'qM46Yfsl4Oc',

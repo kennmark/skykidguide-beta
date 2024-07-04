@@ -723,7 +723,7 @@ export const prairie = [
           },
           {
             visit_date: 'May 23, 2024',
-            visitNo: 66,
+            visitNo: 114,
           },
         ],
         icon_route: SEASON2,
