@@ -16,8 +16,8 @@ import { Clock } from '../pages/components/Clock'
 import carousel1 from '../assets/images/home-carousel/home-slideshow-1.jpg'
 import carousel2 from '../assets/images/home-carousel/home-slideshow-2.jpg'
 import carousel3 from '../assets/images/home-carousel/home4.jpg'
-import carousel4 from '../assets/images/home-carousel/Season-of-Nesting.jpg'
-import carousel5 from '../assets/images/events/DaysOfColor2024.jpg'
+import carousel4 from '../assets/images/home-carousel/Upcoming-Season-22.jpg'
+import carousel5 from '../assets/images/events/SkyFest-2024.jpg'
 import { WL_COUNT_DATE_UPDATED, TOTAL_WL_COUNT } from '../exports/constants'
 
 import { Countdown } from './components/Countdown'
@@ -178,14 +178,14 @@ const HomeSpace = () => {
               className="h-full w-full object-cover rounded-xl"
             />
           </a>
-          {/* <img
+          <img
             src={carousel4}
-            https:alt="Season 21"
+            https:alt="Season 22"
             className="h-full w-full object-cover rounded-xl"
-          /> */}
+          />
           <img
             src={carousel5}
-            https:alt="Days Of Color 2024"
+            https:alt="SkyFest 2024"
             className="h-full w-full object-cover rounded-xl"
           />
         </Carousel>

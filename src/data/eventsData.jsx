@@ -2,6 +2,7 @@ import DOB from '../assets/images/events/DaysOfBloom.jpg'
 import Cinnamoroll from '../assets/images/events/Sky-x-Cinnamoroll.jpg'
 import DON from '../assets/images/events/DaysOfNature2024.jpg'
 import DOC from '../assets/images/events/DaysOfColor2024.jpg'
+import SkyFest2024 from '../assets/images/events/SkyFest-2024.jpg'
 
 export const eventsData = [
   {
@@ -61,5 +62,20 @@ export const eventsData = [
     puzzle that grows each day. Complete that puzzle and you’ll reveal a new Days of Color feature 
     that can satisfy your Sky kid’s need for speed. Don’t have what you need for the puzzle? Take a 
     dip in a magical geyser nearby that will add a special splash of color to your cape (and more)!`,
+  },
+  {
+    id: 5,
+    title: 'SkyFest 2024',
+    sub_title: 'Starting on July 12th - July 27th, 2024',
+    img: SkyFest2024,
+    type: 'special',
+    description: `When Sky turns 5 this month, there’s going to be a party—a really, REALLY big party. 
+    We’re so excited to reach this milestone with the community, and this year we wanted to do something 
+    truly special. The result: a festival that brings in-game and in-person experiences together in an 
+    event so big it may not even fit in this blog post. We’ve said before that we wanted to make Sky’s 
+    5th birthday live up to the occasion, something that brings together the magic of an in-person event, 
+    shared with a global community across the game. And that’s exactly what SkyFest does! For two full 
+    weeks from July 12th through 26th PDT, the SkyFest 5th anniversary blends a community celebration 
+    with real-life events that everyone can be part of, no matter where they are in the world.`,
   },
 ]

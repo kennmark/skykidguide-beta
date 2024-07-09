@@ -67,4 +67,14 @@ export const newsData = [
     newsLink:
       'https://www.thatskygame.com/news/soaring-together-in-days-of-color-2024/',
   },
+  {
+    id: 7,
+    newsTitle: `SkyFest 2024`,
+    newsBody: `When Sky turns 5 this month, there’s going to be a party—a really, REALLY big party. 
+    We’re so excited to reach this milestone with the community, and this year we wanted to do 
+    something truly special. The result: a festival that brings in-game and in-person experiences 
+    together in an event so big it may not even fit in this blog post.`,
+    newsLink:
+      'https://www.thatskygame.com/news/skyfest-2024-an-anniversary-celebration-like-no-other',
+  },
 ]

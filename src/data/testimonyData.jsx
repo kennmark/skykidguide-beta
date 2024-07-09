@@ -7,6 +7,7 @@ import testimonee6 from '../assets/images/testimony/testimonee_6.jpg'
 import testimonee7 from '../assets/images/testimony/testimonee_7.jpg'
 import testimonee8 from '../assets/images/testimony/testimonee_8.jpg'
 import avatarGuy from '../assets/images/testimony/avatar-guy.png'
+import avatarLady from '../assets/images/testimony/avatar-lady.png'
 export const testimonies = [
   {
     id: 1,
@@ -80,5 +81,12 @@ export const testimonies = [
     testimonee_avatar: testimonee8,
     group: 'Sky Official Group-Moderator',
     testimonial: `Looks like a useful site from a quick look...`,
+  },
+  {
+    id: 11,
+    testimonee: 'Mikaela',
+    testimonee_avatar: avatarLady,
+    group: 'SkyPH-Member',
+    testimonial: `Hindi ko na kelangan mag sky wiki hahaha... galing`,
   },
 ]
