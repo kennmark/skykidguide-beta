@@ -515,7 +515,7 @@ function App() {
                 }
               />
               <Route
-                path="seasons/2024/season-22/duet"
+                path="seasons/2024/season-22/duets"
                 element={
                   <Layout>
                     <S22Duet />

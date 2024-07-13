@@ -58,20 +58,20 @@ import {
 } from '../exports/mapGIFs'
 
 export const maps = [
-  // {
-  //   id: 0,
-  //   title: 'Season of Nesting',
-  //   subtitle: 'Featured Season',
-  //   alt: SEASON_ALT,
-  //   img: GIF_SEASON,
-  //   group: 'map-9 shadow-8',
-  //   pageRoute: 'seasons/2024/season-21/nesting',
-  //   caption: 'Nesting',
-  //   num_of_wls: S21_NUM_WL,
-  //   num_of_reg_spirits: S21_NUM_REG_SPIRIT,
-  //   num_of_season_spirits: S21_NUM_SEASON_SPIRIT,
-  //   num_of_map_shrines: S21_NUM_MAP_SHRINES,
-  // },
+  {
+    id: 0,
+    title: 'Season of Duets',
+    subtitle: 'Featured Season',
+    alt: SEASON_ALT,
+    img: GIF_SEASON,
+    group: 'map-9 shadow-8',
+    pageRoute: 'seasons/2024/season-22/duets',
+    caption: 'Duets',
+    num_of_wls: S21_NUM_WL,
+    num_of_reg_spirits: S21_NUM_REG_SPIRIT,
+    num_of_season_spirits: S21_NUM_SEASON_SPIRIT,
+    num_of_map_shrines: S21_NUM_MAP_SHRINES,
+  },
   {
     id: 1,
     title: 'Isle Of Dawn',

@@ -1,8 +1,9 @@
 import { Carousel, Typography, Button, Card } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
-import carousel1 from '../assets/images/seasonal-banners/S21-A.jpg'
-import carousel2 from '../assets/images/seasonal-banners/S21-B.jpg'
+import carousel1 from '../assets/images/home-carousel/Season-of-Duets.jpg'
+import carousel2 from '../assets/images/seasonal-banners/s22A.webp'
+import carousel3 from '../assets/images/seasonal-banners/s22B.webp'
 import SeasonDisplayContainer from './components/SeasonDisplayContainer'
 import {
   seasons2019,
@@ -41,7 +42,7 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 21 | Season of Nesting
+                    Season 22 | Season of Duets
                   </Typography>
                   <Typography
                     variant="lead"
@@ -59,7 +60,7 @@ const PageSeasonMap = () => {
                     >
                       Pasok
                     </Button>
-                    <a href="https://www.thatskygame.com/news/create-a-space-uniquely-yours-in-season-of-nesting">
+                    <a href="https://www.thatskygame.com/news/connect-through-meaningful-harmonies-in-season-of-duets">
                       <Button size="sm" color="white" variant="outlined">
                         Visit Site
                       </Button>
@@ -88,12 +89,12 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    Lets Decorate our own Homespace!
+                    Connect Through Meaningful Harmonies in Season of Duets
                   </Typography>
                 </div>
               </div>
             </div>
-            {/* <div className="relative h-full w-full">
+            <div className="relative h-full w-full">
               <img
                 src={carousel3}
                 alt="image 3"
@@ -106,20 +107,19 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Other Changes Coming with the Season of Revival Update
+                    Season 22 | Season of Duets
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    All other items will be made available at a later point on a
-                    separate schedule from the related event. We’ll share more
-                    on how these items return in a future update!
+                    Season of Duets is all about discovering ways to bring
+                    meaningful musical experiences to life.
                   </Typography>
                 </div>
               </div>
-            </div> */}
+            </div>
           </Carousel>
 
           {/* <div className="w-[20rem] md:w-full py-10 pl-16 grid place-content-center">

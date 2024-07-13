@@ -77,4 +77,13 @@ export const newsData = [
     newsLink:
       'https://www.thatskygame.com/news/skyfest-2024-an-anniversary-celebration-like-no-other',
   },
+  {
+    id: 8,
+    newsTitle: `Season 22 | Season of Duets`,
+    newsBody: `The Duets Guide awaits you in Aviary Village where you will unlock the Season of Duets’
+     new area: the Aviary Village concert hall. Once you access backstage, find a room with colorful 
+     outfits, instruments, accessories, and musical decor that capture your favorite parts of the story.`,
+    newsLink:
+      'https://www.thatskygame.com/news/connect-through-meaningful-harmonies-in-season-of-duets',
+  },
 ]

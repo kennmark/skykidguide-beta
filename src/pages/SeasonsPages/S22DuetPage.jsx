@@ -44,7 +44,7 @@ const S22DuetPage = () => {
           height={25}
           width={75}
           title={name}
-          mapIntro={`It's TIME to DECORATE our own HOMESPACE!`}
+          mapIntro={`Enter the story of two Spirits who were once connected through their music.`}
         />
         <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
@@ -79,13 +79,10 @@ const S22DuetPage = () => {
                       ? 'Nagsimula ito noong '
                       : 'Magsisimula ito ngayong '}
                     {time_duration}. May {spirit_num} na spirits sa season na
-                    ito at{' '}
-                    {wl_num ? 'May ' + wl_num : '(0) o walang winged light '}
+                    ito at {wl_num ? 'May ' + wl_num : '(0) o walang'}
                     &nbsp; winged light(s). Sa season na ito ay
-                    {ms_num
-                      ? ' may ' + ms_num
-                      : ' (0) o walang map shrine'}{' '}
-                    &nbsp;map shrine(s).
+                    {!ms_num ? ' may ' + ms_num : ' (0) o walang'} &nbsp;map
+                    shrine(s).
                   </Typography>{' '}
                   <br />
                 </div>
