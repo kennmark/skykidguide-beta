@@ -44,7 +44,7 @@ const S22DuetPage = () => {
           height={25}
           width={75}
           title={name}
-          mapIntro={`Enter the story of two Spirits who were once connected through their music.`}
+          mapIntro={`The Aviary Village concert hall awaits you 🎼`}
         />
         <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
