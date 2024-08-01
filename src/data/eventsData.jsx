@@ -3,6 +3,7 @@ import Cinnamoroll from '../assets/images/events/Sky-x-Cinnamoroll.jpg'
 import DON from '../assets/images/events/DaysOfNature2024.jpg'
 import DOC from '../assets/images/events/DaysOfColor2024.jpg'
 import SkyFest2024 from '../assets/images/events/SkyFest-2024.jpg'
+import TOT2024 from '../assets/images/events/TournamentOfTriumph2024.jpg'
 
 export const eventsData = [
   {
@@ -77,5 +78,16 @@ export const eventsData = [
     shared with a global community across the game. And that’s exactly what SkyFest does! For two full 
     weeks from July 12th through 26th PDT, the SkyFest 5th anniversary blends a community celebration 
     with real-life events that everyone can be part of, no matter where they are in the world.`,
+  },
+  {
+    id: 6,
+    title: 'Tournament of Triumph 2024',
+    sub_title: 'Starting on July 29th - August 18th, 2024',
+    img: TOT2024,
+    type: 'special',
+    description: `The Tournament of Triumph opens its doors to a special version of the Coliseum, 
+    available through the Meditation circle in Aviary Village. After entering the Coliseum for the 
+    first time, you will be greeted by the Crab of Triumph and assigned to a team. Your contributions 
+    during the event will go towards your team’s victory!`,
   },
 ]

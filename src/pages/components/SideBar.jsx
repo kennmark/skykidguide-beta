@@ -34,7 +34,7 @@ const SideBar = ({ screenSize }) => {
   }
 
   return (
-    <div className="h-fit w-full max-w-[20rem] p-4 pb-16 shadow-xl shadow-blue-gray-900/5 bg-blue-gray-50">
+    <div className="sticky top-24 h-fit w-full max-w-[20rem] p-4 pb-16 shadow-xl shadow-blue-gray-900/5 bg-blue-gray-50">
       <div className="mb-2 flex items-center gap-4 p-4">
         <Typography variant="h5" color="blue-gray">
           Dashboard

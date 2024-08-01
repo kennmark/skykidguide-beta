@@ -86,4 +86,14 @@ export const newsData = [
     newsLink:
       'https://www.thatskygame.com/news/connect-through-meaningful-harmonies-in-season-of-duets',
   },
+  {
+    id: 9,
+    newsTitle: `Tournament of Triumph 2024`,
+    newsBody: `The Tournament of Triumph opens its doors to a special version of the Coliseum, 
+    available through the Meditation circle in Aviary Village. After entering the Coliseum for 
+    the first time, you will be greeted by the Crab of Triumph and assigned to a team. Your contributions 
+    during the event will go towards your team’s victory!`,
+    newsLink:
+      'https://www.thatskygame.com/news/ready-set-go-for-tournament-of-triumph',
+  },
 ]

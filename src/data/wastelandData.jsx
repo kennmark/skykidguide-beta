@@ -1423,7 +1423,7 @@ export const wasteland = [
     winged_lights: [
       {
         id: 1,
-        wl_label: 'Wasteland-WL1',
+        wl_label: 'WL1-Broken Temple (Pillar)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL1 ?? WINGED_LIGHT,
         wl_location: [
@@ -1433,7 +1433,7 @@ export const wasteland = [
       },
       {
         id: 2,
-        wl_label: 'Wasteland-WL2',
+        wl_label: 'WL2-Broken Temple (Entrance)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL2 ?? WINGED_LIGHT,
         wl_location: [
@@ -1443,7 +1443,7 @@ export const wasteland = [
       },
       {
         id: 3,
-        wl_label: 'Wasteland-WL3',
+        wl_label: 'WL3-Graveyard Entrance (1 Krill Area)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL3 ?? WINGED_LIGHT,
         wl_location: [
@@ -1454,7 +1454,7 @@ export const wasteland = [
       },
       {
         id: 4,
-        wl_label: 'Wasteland-WL4',
+        wl_label: 'WL4-Graveyard Entrance (Pillar)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL4 ?? WINGED_LIGHT,
         wl_location: [
@@ -1466,7 +1466,7 @@ export const wasteland = [
       },
       {
         id: 5,
-        wl_label: 'Wasteland-WL5',
+        wl_label: 'WL5-Graveyard (Near Catapult)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL5 ?? WINGED_LIGHT,
         wl_location: [
@@ -1478,7 +1478,7 @@ export const wasteland = [
       },
       {
         id: 6,
-        wl_label: 'Wasteland-WL6',
+        wl_label: 'WL6-Graveyard (Biggest Bone)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL6 ?? WINGED_LIGHT,
         wl_location: [
@@ -1490,7 +1490,7 @@ export const wasteland = [
       },
       {
         id: 7,
-        wl_label: 'Wasteland-WL7',
+        wl_label: 'WL7-Graveyard (Pipe)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL7 ?? WINGED_LIGHT,
         wl_location: [
@@ -1503,7 +1503,7 @@ export const wasteland = [
       },
       {
         id: 8,
-        wl_label: 'Wasteland-WL8',
+        wl_label: 'WL8-Graveyard (Exit to Battlefield)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL8 ?? WINGED_LIGHT,
         wl_location: [
@@ -1515,7 +1515,7 @@ export const wasteland = [
       },
       {
         id: 9,
-        wl_label: 'Wasteland-WL9',
+        wl_label: 'WL9-Shipwreck (Hidden Wall)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL9 ?? WINGED_LIGHT,
         wl_location: [
@@ -1529,7 +1529,7 @@ export const wasteland = [
       },
       {
         id: 10,
-        wl_label: 'Wasteland-WL10',
+        wl_label: 'WL10-Shipwreck (Jars)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL10 ?? WINGED_LIGHT,
         wl_location: [
@@ -1543,7 +1543,7 @@ export const wasteland = [
       },
       {
         id: 11,
-        wl_label: 'Wasteland-WL11',
+        wl_label: 'WL11-Shipwreck (Pipes)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL11 ?? WINGED_LIGHT,
         wl_location: [
@@ -1557,7 +1557,7 @@ export const wasteland = [
       },
       {
         id: 12,
-        wl_label: 'Wasteland-WL12',
+        wl_label: 'WL12-Battlefield (Broken Building)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL12 ?? WINGED_LIGHT,
         wl_location: [
@@ -1570,7 +1570,7 @@ export const wasteland = [
       },
       {
         id: 13,
-        wl_label: 'Wasteland-WL13',
+        wl_label: 'WL13-Battlefield (Pillar)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL13 ?? WINGED_LIGHT,
         wl_location: [
@@ -1583,7 +1583,7 @@ export const wasteland = [
       },
       {
         id: 14,
-        wl_label: 'Wasteland-WL14',
+        wl_label: 'WL14-Temple',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL14 ?? WINGED_LIGHT,
         wl_location: [
@@ -1596,7 +1596,7 @@ export const wasteland = [
       },
       {
         id: 15,
-        wl_label: 'Wasteland-WL15',
+        wl_label: 'WL15-Forgotten Ark (Ark Tip)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL15 ?? WINGED_LIGHT,
         wl_location: [
@@ -1607,7 +1607,7 @@ export const wasteland = [
       },
       {
         id: 16,
-        wl_label: 'Wasteland-WL16',
+        wl_label: 'WL16-Forgotten Ark (Polluted Pond)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL16 ?? WINGED_LIGHT,
         wl_location: [
@@ -1619,7 +1619,7 @@ export const wasteland = [
       },
       {
         id: 17,
-        wl_label: 'Wasteland-WL17',
+        wl_label: 'WL17-Treasure Reef (Broken Tower)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL17 ?? WINGED_LIGHT,
         wl_location: [
@@ -1630,7 +1630,7 @@ export const wasteland = [
       },
       {
         id: 18,
-        wl_label: 'Wasteland-WL18',
+        wl_label: 'WL18-Treasure Reef (Deep Waters)',
         wl_group: 'wl-wasteland',
         wl_url: GW_WL18 ?? WINGED_LIGHT,
         wl_location: [

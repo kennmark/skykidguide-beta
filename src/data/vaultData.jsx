@@ -1562,7 +1562,7 @@ export const vault = [
     winged_lights: [
       {
         id: 1,
-        wl_label: 'Vault-WL1',
+        wl_label: 'WL1-Social Space (Ladder)',
         wl_group: 'wl-vault',
         wl_url: VK_WL1 ?? WINGED_LIGHT,
         wl_location: [
@@ -1572,7 +1572,7 @@ export const vault = [
       },
       {
         id: 2,
-        wl_label: 'Vault-WL2',
+        wl_label: 'WL2-Third Level (Roof of Gazeboo)',
         wl_group: 'wl-vault',
         wl_url: VK_WL2 ?? WINGED_LIGHT,
         wl_location: [
@@ -1583,7 +1583,7 @@ export const vault = [
       },
       {
         id: 3,
-        wl_label: 'Vault-WL3',
+        wl_label: 'WL3-Fourth Level (Inside of Gazeboo)',
         wl_group: 'wl-vault',
         wl_url: VK_WL3 ?? WINGED_LIGHT,
         wl_location: [
@@ -1595,7 +1595,7 @@ export const vault = [
       },
       {
         id: 4,
-        wl_label: 'Vault-WL4',
+        wl_label: 'WL4-Fourth Level (Floating Land)',
         wl_group: 'wl-vault',
         wl_url: VK_WL4 ?? WINGED_LIGHT,
         wl_location: [
@@ -1607,7 +1607,7 @@ export const vault = [
       },
       {
         id: 5,
-        wl_label: 'Vault-WL5',
+        wl_label: 'WL5-Fifth Level (Bone)',
         wl_group: 'wl-vault',
         wl_url: VK_WL5 ?? WINGED_LIGHT,
         wl_location: [
@@ -1618,7 +1618,7 @@ export const vault = [
       },
       {
         id: 6,
-        wl_label: 'Vault-WL6',
+        wl_label: 'WL6-Summit',
         wl_group: 'wl-vault',
         wl_url: VK_WL6 ?? WINGED_LIGHT,
         wl_location: [
@@ -1629,7 +1629,7 @@ export const vault = [
       },
       {
         id: 7,
-        wl_label: 'Vault-WL7',
+        wl_label: 'WL7-The Archives (3rd Level)',
         wl_group: 'wl-vault',
         wl_url: VK_WL7 ?? WINGED_LIGHT,
         wl_location: [
@@ -1641,7 +1641,7 @@ export const vault = [
       },
       {
         id: 8,
-        wl_label: 'Vault-WL8',
+        wl_label: 'WL8-The Archives (3rd Level)',
         wl_group: 'wl-vault',
         wl_url: VK_WL8 ?? WINGED_LIGHT,
         wl_location: [
@@ -1654,7 +1654,7 @@ export const vault = [
       },
       {
         id: 9,
-        wl_label: 'Vault-WL9',
+        wl_label: 'WL9-Dessert Starlight (Big Jar)',
         wl_group: 'wl-vault',
         wl_url: VK_WL9 ?? WINGED_LIGHT,
         wl_location: [
@@ -1668,7 +1668,7 @@ export const vault = [
       },
       {
         id: 10,
-        wl_label: 'Vault-WL10',
+        wl_label: 'WL10-Dessert Starlight (Watchtower Roof)',
         wl_group: 'wl-vault',
         wl_url: VK_WL10 ?? WINGED_LIGHT,
         wl_location: [
@@ -1682,7 +1682,7 @@ export const vault = [
       },
       {
         id: 11,
-        wl_label: 'Vault-WL11',
+        wl_label: 'WL11-Dessert Starlight (Beckoning Ruler Island)',
         wl_group: 'wl-vault',
         wl_url: VK_WL11 ?? WINGED_LIGHT,
         wl_location: [
@@ -1696,7 +1696,7 @@ export const vault = [
       },
       {
         id: 12,
-        wl_label: 'Vault-WL12',
+        wl_label: 'WL12-Repository of Refuge (Broken Bars)',
         wl_group: 'wl-vault',
         wl_url: VK_WL12 ?? WINGED_LIGHT,
         wl_location: [
@@ -1710,7 +1710,7 @@ export const vault = [
       },
       {
         id: 13,
-        wl_label: 'Vault-WL13',
+        wl_label: 'WL13-Crescent Oasis (Pool of Water)',
         wl_group: 'wl-vault',
         wl_url: VK_WL13 ?? WINGED_LIGHT,
         wl_location: [
@@ -1721,7 +1721,7 @@ export const vault = [
       },
       {
         id: 14,
-        wl_label: 'Vault-WL14',
+        wl_label: 'WL14-Crescent Oasis (Feudal Lord Building)',
         wl_group: 'wl-vault',
         wl_url: VK_WL14 ?? WINGED_LIGHT,
         wl_location: [
@@ -1732,7 +1732,7 @@ export const vault = [
       },
       {
         id: 15,
-        wl_label: 'Vault-WL15',
+        wl_label: 'WL15-Crescent Oasis (Hidden Glade Tree)',
         wl_group: 'wl-vault',
         wl_url: VK_WL15 ?? WINGED_LIGHT,
         wl_location: [
