@@ -23,6 +23,7 @@ import { WL_COUNT_DATE_UPDATED, TOTAL_WL_COUNT } from '../exports/constants'
 
 import { Countdown } from './components/Countdown'
 import Testimonials from './components/Testimonials'
+import LatestTSVisit from './components/LatestTSVisit'
 
 // import { LazyLoadImage } from 'react-lazy-load-image-component'
 
@@ -240,6 +241,9 @@ const HomeSpace = () => {
         {maps.map((map) => {
           return <MapCardContainer {...map} key={map.id} />
         })}
+      </div>
+      <div className="my-6 w-96 md:w-full">
+        <LatestTSVisit />
       </div>
       <div className="my-6 w-96 md:w-full">
         <Testimonials />

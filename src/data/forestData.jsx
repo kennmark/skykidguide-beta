@@ -1538,7 +1538,7 @@ export const hiddenForest = [
     winged_lights: [
       {
         id: 1,
-        wl_label: 'Forest-WL1',
+        wl_label: 'WL1-Forest Entrance(Branch)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL1 ?? WINGED_LIGHT,
@@ -1550,7 +1550,7 @@ export const hiddenForest = [
       },
       {
         id: 2,
-        wl_label: 'Forest-WL2',
+        wl_label: 'WL2-Forest Entrance (3rd Gate)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL2 ?? WINGED_LIGHT,
@@ -1561,7 +1561,7 @@ export const hiddenForest = [
       },
       {
         id: 3,
-        wl_label: 'Forest-WL3',
+        wl_label: 'WL3-Forest Brook (2nd Left Gazebo)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL5 ?? WINGED_LIGHT,
@@ -1574,7 +1574,7 @@ export const hiddenForest = [
       },
       {
         id: 4,
-        wl_label: 'Forest-WL4',
+        wl_label: 'WL4-Forest Brook (Left Cave)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL3 ?? WINGED_LIGHT,
@@ -1586,7 +1586,7 @@ export const hiddenForest = [
       },
       {
         id: 5,
-        wl_label: 'Forest-WL5',
+        wl_label: 'WL5-Forest Brook (1st Right Gazebo)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL4 ?? WINGED_LIGHT,
@@ -1600,7 +1600,7 @@ export const hiddenForest = [
       },
       {
         id: 6,
-        wl_label: 'Forest-WL6',
+        wl_label: 'WL6-Forest Brook (End of Brook)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL6 ?? WINGED_LIGHT,
@@ -1612,7 +1612,7 @@ export const hiddenForest = [
       },
       {
         id: 7,
-        wl_label: 'Forest-WL7',
+        wl_label: 'WL7-Sunny Forest (Behind Big Tree)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL7 ?? WINGED_LIGHT,
@@ -1625,7 +1625,7 @@ export const hiddenForest = [
       },
       {
         id: 8,
-        wl_label: 'Forest-WL8',
+        wl_label: 'WL8-Sunny Forest (Near the Bridge)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL8 ?? WINGED_LIGHT,
@@ -1638,7 +1638,7 @@ export const hiddenForest = [
       },
       {
         id: 9,
-        wl_label: 'Forest-WL9',
+        wl_label: 'WL9-Underground Cavern (Bottom Gated Area)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL9 ?? WINGED_LIGHT,
@@ -1652,7 +1652,7 @@ export const hiddenForest = [
       },
       {
         id: 10,
-        wl_label: 'Forest-WL10',
+        wl_label: 'WL10-Underground Cavern (Birds Stream Cave)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL10 ?? WINGED_LIGHT,
@@ -1666,7 +1666,7 @@ export const hiddenForest = [
       },
       {
         id: 11,
-        wl_label: 'Forest-WL11',
+        wl_label: 'WL11-Underground Cavern (Butterfly Cave)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-3',
         wl_url: HF_WL11 ?? WINGED_LIGHT,
@@ -1680,7 +1680,7 @@ export const hiddenForest = [
       },
       {
         id: 12,
-        wl_label: 'Forest-WL12',
+        wl_label: 'WL12-Underground Cavern (Exit Gate)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-3',
         wl_url: HF_WL12 ?? WINGED_LIGHT,
@@ -1694,7 +1694,7 @@ export const hiddenForest = [
       },
       {
         id: 13,
-        wl_label: 'Forest-WL13',
+        wl_label: 'WL13-Tree Tunnels (Big Tree)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-3',
         wl_url: HF_WL14 ?? WINGED_LIGHT,
@@ -1707,7 +1707,7 @@ export const hiddenForest = [
       },
       {
         id: 14,
-        wl_label: 'Forest-WL14',
+        wl_label: 'WL14-Boneyard (Top Tower)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-3',
         wl_url: HF_WL13 ?? WINGED_LIGHT,
@@ -1720,7 +1720,7 @@ export const hiddenForest = [
       },
       {
         id: 15,
-        wl_label: 'Forest-WL15',
+        wl_label: 'WL15-Boneyard (Last Gazebo)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL15 ?? WINGED_LIGHT,
@@ -1734,7 +1734,7 @@ export const hiddenForest = [
       },
       {
         id: 16,
-        wl_label: 'Forest-WL16',
+        wl_label: 'WL16-Forest End (Tree Stump)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-0',
         wl_url: HF_WL16 ?? WINGED_LIGHT,
@@ -1748,7 +1748,7 @@ export const hiddenForest = [
       },
       {
         id: 17,
-        wl_label: 'Forest-WL17',
+        wl_label: 'WL17-TreeHouse (Hole in the Tree)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-9',
         wl_url: HF_WL17 ?? WINGED_LIGHT,
@@ -1760,7 +1760,7 @@ export const hiddenForest = [
       },
       {
         id: 18,
-        wl_label: 'Forest-WL18',
+        wl_label: 'WL18-TreeHouse (Inside Treehouse)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-9',
         wl_url: HF_WL18 ?? WINGED_LIGHT,
@@ -1773,7 +1773,7 @@ export const hiddenForest = [
       },
       {
         id: 19,
-        wl_label: 'Forest-WL19',
+        wl_label: 'WL19-Wind Paths (Wind Tunnel)',
         wl_group: 'wl-forest',
         wl_season_group: 'wl-forest-11',
         wl_url: HF_WL19 ?? WINGED_LIGHT,

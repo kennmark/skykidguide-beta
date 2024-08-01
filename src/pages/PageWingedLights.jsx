@@ -32,6 +32,7 @@ import {
   VAULT_NUM_WL,
   EDEN_NUM_WL,
   SHARDS_WL,
+  ORBIT_WL,
 } from '../exports/constants'
 import CardContainer from './components/CardContainer'
 import { BarsArrowDownIcon } from '@heroicons/react/24/solid'
@@ -122,6 +123,12 @@ const PageWingedLights = () => {
                   <td className="border border-slate-700 p-3">
                     {WB_TRAVELING_SPIRITS}
                   </td>
+                </tr>
+                <tr>
+                  <td className="border border-slate-700 p-3">
+                    Orbit (After Sky Logo Credits)
+                  </td>
+                  <td className="border border-slate-700 p-3">{ORBIT_WL}</td>
                 </tr>
                 <tr>
                   <td className="border border-slate-700 p-3">

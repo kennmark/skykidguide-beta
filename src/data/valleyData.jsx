@@ -1252,41 +1252,46 @@ export const valley = [
             label: 'Hair',
             img: MELLOW_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 42,
           },
           {
             label: 'Mask',
             img: MELLOW_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 32,
           },
           {
             label: 'Cape',
             img: MELLOW_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 70,
           },
           {
             label: 'Instrument',
             img: MELLOW_ITEM_4,
             currency: 'Candles',
-            price: 0,
+            price: 80,
           },
           {
             label: 'Emote',
             img: MELLOW_MUSICIAN,
             currency: 'Hearts',
-            price: 0,
+            price: 13,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
-            hearts: 0,
+            candles: 237,
+            hearts: 13,
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Aug 1, 2024',
+            visitNo: 119,
+          },
+        ],
         icon_route: SEASON13,
         spirit_guide_video_url: youtube_embed + '-K0-u2qIJsM',
         spirit_direction: [
@@ -1601,7 +1606,7 @@ export const valley = [
     winged_lights: [
       {
         id: 1,
-        wl_label: 'valley-WL1',
+        wl_label: 'WL1-Slope Entrance',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL1 ?? WINGED_LIGHT,
@@ -1612,7 +1617,7 @@ export const valley = [
       },
       {
         id: 2,
-        wl_label: 'valley-WL2',
+        wl_label: 'WL2-Ice Rink (Underground)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL2 ?? WINGED_LIGHT,
@@ -1624,7 +1629,7 @@ export const valley = [
       },
       {
         id: 3,
-        wl_label: 'valley-WL3',
+        wl_label: 'WL3-Ice Rink (Center Elevated)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL3 ?? WINGED_LIGHT,
@@ -1635,7 +1640,7 @@ export const valley = [
       },
       {
         id: 4,
-        wl_label: 'valley-WL4',
+        wl_label: 'WL4-Citadel (Top Gazebo)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL4 ?? WINGED_LIGHT,
@@ -1647,7 +1652,7 @@ export const valley = [
       },
       {
         id: 5,
-        wl_label: 'valley-WL5',
+        wl_label: 'WL5-Citadel (Hollowed Wall)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL5 ?? WINGED_LIGHT,
@@ -1659,7 +1664,7 @@ export const valley = [
       },
       {
         id: 6,
-        wl_label: 'valley-WL6',
+        wl_label: 'WL6-Flying Race (Ruin Hall)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL6 ?? WINGED_LIGHT,
@@ -1672,7 +1677,7 @@ export const valley = [
       },
       {
         id: 7,
-        wl_label: 'valley-WL7',
+        wl_label: 'WL7-Flying Race (Floating Gazebo)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL7 ?? WINGED_LIGHT,
@@ -1686,7 +1691,7 @@ export const valley = [
       },
       {
         id: 8,
-        wl_label: 'valley-WL8',
+        wl_label: 'WL8-Skating Race (Elevated Platform)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL8 ?? WINGED_LIGHT,
@@ -1698,7 +1703,7 @@ export const valley = [
       },
       {
         id: 9,
-        wl_label: 'valley-WL9',
+        wl_label: 'WL9-Joined Race (End of Race)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL9 ?? WINGED_LIGHT,
@@ -1710,7 +1715,7 @@ export const valley = [
       },
       {
         id: 10,
-        wl_label: 'valley-WL10',
+        wl_label: 'WL10-Coliseum (Left Statue)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL10 ?? WINGED_LIGHT,
@@ -1723,7 +1728,7 @@ export const valley = [
       },
       {
         id: 11,
-        wl_label: 'valley-WL11',
+        wl_label: 'WL11-Temple (Temple Maze)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-0',
         wl_url: VT_WL11 ?? WINGED_LIGHT,
@@ -1736,7 +1741,7 @@ export const valley = [
       },
       {
         id: 12,
-        wl_label: 'valley-WL12',
+        wl_label: 'WL12-Village of Dreams (Hollowed Mountain)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-8',
         wl_url: VT_WL12 ?? WINGED_LIGHT,
@@ -1749,7 +1754,7 @@ export const valley = [
       },
       {
         id: 13,
-        wl_label: 'valley-WL13',
+        wl_label: 'WL13-Village of Dreams (Hollowed Mountain)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-8',
         wl_url: VT_WL13 ?? WINGED_LIGHT,
@@ -1762,7 +1767,7 @@ export const valley = [
       },
       {
         id: 14,
-        wl_label: 'valley-WL14',
+        wl_label: 'WL14-Village Theater (Backstage)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-13',
         wl_url: VT_WL14 ?? WINGED_LIGHT,
@@ -1775,7 +1780,7 @@ export const valley = [
       },
       {
         id: 15,
-        wl_label: 'valley-WL15',
+        wl_label: 'WL15-Village of Dreams (Terminal 2 Tower)',
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-8',
         wl_url: VT_WL15 ?? WINGED_LIGHT,
@@ -1788,7 +1793,7 @@ export const valley = [
       },
       {
         id: 16,
-        wl_label: 'valley-WL16',
+        wl_label: `WL16-Hermit's Valley (Outside Hollow)`,
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-8',
         wl_url: VT_WL16 ?? WINGED_LIGHT,
@@ -1801,7 +1806,7 @@ export const valley = [
       },
       {
         id: 17,
-        wl_label: 'valley-WL17',
+        wl_label: `WL17-Hermit's Valley (Hollowed Wall)`,
         wl_group: 'wl-valley',
         wl_season_group: 'wl-valley-8',
         wl_url: VT_WL17 ?? WINGED_LIGHT,

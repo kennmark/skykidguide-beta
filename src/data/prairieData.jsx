@@ -1595,7 +1595,7 @@ export const prairie = [
     winged_lights: [
       {
         id: 1,
-        wl_label: 'Prairie-WL1',
+        wl_label: 'WL1-Butterfly Field (Cave)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL1 ?? WINGED_LIGHT,
@@ -1606,7 +1606,7 @@ export const prairie = [
       },
       {
         id: 2,
-        wl_label: 'Prairie-WL2',
+        wl_label: 'WL2-Butterfly Field (Dome Top)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL2 ?? WINGED_LIGHT,
@@ -1617,7 +1617,7 @@ export const prairie = [
       },
       {
         id: 3,
-        wl_label: 'Prairie-WL3',
+        wl_label: 'WL3-Butterfly Field (Exit to Prairie Village)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL3 ?? WINGED_LIGHT,
@@ -1628,7 +1628,7 @@ export const prairie = [
       },
       {
         id: 4,
-        wl_label: 'Prairie-WL4',
+        wl_label: 'WL4-Prairie Cave (Hole Left)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL4 ?? WINGED_LIGHT,
@@ -1640,7 +1640,7 @@ export const prairie = [
       },
       {
         id: 5,
-        wl_label: 'Prairie-WL5',
+        wl_label: 'WL5-Prairie Cave (Passage Hole)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL5 ?? WINGED_LIGHT,
@@ -1653,7 +1653,7 @@ export const prairie = [
       },
       {
         id: 6,
-        wl_label: 'Prairie-WL6',
+        wl_label: 'WL6-Prairie Village (Center Islet)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL6 ?? WINGED_LIGHT,
@@ -1665,7 +1665,7 @@ export const prairie = [
       },
       {
         id: 7,
-        wl_label: 'Prairie-WL7',
+        wl_label: 'WL7-Prairie Village (2-Player Door)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL7 ?? WINGED_LIGHT,
@@ -1677,7 +1677,7 @@ export const prairie = [
       },
       {
         id: 8,
-        wl_label: 'Prairie-WL8',
+        wl_label: 'WL8-Prairie Village (Behind 2nd Bell Islet)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL8 ?? WINGED_LIGHT,
@@ -1689,7 +1689,7 @@ export const prairie = [
       },
       {
         id: 9,
-        wl_label: 'Prairie-WL9',
+        wl_label: 'WL9-Prairie Temple (Lower Roof)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL9 ?? WINGED_LIGHT,
@@ -1701,7 +1701,7 @@ export const prairie = [
       },
       {
         id: 10,
-        wl_label: 'Prairie-WL10',
+        wl_label: 'WL10-Prairie Temple (Upper Roof)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL10 ?? WINGED_LIGHT,
@@ -1713,7 +1713,7 @@ export const prairie = [
       },
       {
         id: 11,
-        wl_label: 'Prairie-WL11',
+        wl_label: 'WL11-8 Player Puzzle Area(Cave)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL11 ?? WINGED_LIGHT,
@@ -1726,7 +1726,7 @@ export const prairie = [
       },
       {
         id: 12,
-        wl_label: 'Prairie-WL12',
+        wl_label: 'WL12-Birds Nest(Lower Islet)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL12 ?? WINGED_LIGHT,
@@ -1738,7 +1738,7 @@ export const prairie = [
       },
       {
         id: 13,
-        wl_label: 'Prairie-WL13',
+        wl_label: 'WL13-Birds Nest(Upper Islet)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL13 ?? WINGED_LIGHT,
@@ -1750,7 +1750,7 @@ export const prairie = [
       },
       {
         id: 14,
-        wl_label: 'Prairie-WL14',
+        wl_label: 'WL14-Prairie Peaks (Hollow Bird Cave)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-18',
         wl_url: PR_WL14 ?? WINGED_LIGHT,
@@ -1763,7 +1763,7 @@ export const prairie = [
       },
       {
         id: 15,
-        wl_label: 'Prairie-WL15',
+        wl_label: 'WL15-Prairie Peaks (Crystal Cave)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-18',
         wl_url: PR_WL15 ?? WINGED_LIGHT,
@@ -1777,7 +1777,7 @@ export const prairie = [
       },
       {
         id: 16,
-        wl_label: 'Prairie-WL16',
+        wl_label: 'WL16-Prairie Peaks (Mountain Peak)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-18',
         wl_url: PR_WL16 ?? WINGED_LIGHT,
@@ -1791,7 +1791,7 @@ export const prairie = [
       },
       {
         id: 17,
-        wl_label: 'Prairie-WL17',
+        wl_label: 'WL17-Sanctuary Islands (Big floating Island)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL17 ?? WINGED_LIGHT,
@@ -1804,7 +1804,7 @@ export const prairie = [
       },
       {
         id: 18,
-        wl_label: 'Prairie-WL18',
+        wl_label: 'WL18-Sanctuary Islands (Hole at Mountain Top)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL18 ?? WINGED_LIGHT,
@@ -1817,7 +1817,7 @@ export const prairie = [
       },
       {
         id: 19,
-        wl_label: 'Prairie-WL19',
+        wl_label: 'WL19-Sanctuary Islands (3rd Floating Islet)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL19 ?? WINGED_LIGHT,
@@ -1830,7 +1830,7 @@ export const prairie = [
       },
       {
         id: 20,
-        wl_label: 'Prairie-WL20',
+        wl_label: 'WL20-Sanctuary Islands (Edge of Cliff)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL20 ?? WINGED_LIGHT,
@@ -1843,7 +1843,7 @@ export const prairie = [
       },
       {
         id: 21,
-        wl_label: 'Prairie-WL21',
+        wl_label: 'WL21-Sanctuary Islands (Jellyfish Cave)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL21 ?? WINGED_LIGHT,
@@ -1856,7 +1856,7 @@ export const prairie = [
       },
       {
         id: 22,
-        wl_label: 'Prairie-WL22',
+        wl_label: 'WL22-Sanctuary Islands (Bottom of Waterfall)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL22 ?? WINGED_LIGHT,
@@ -1869,7 +1869,7 @@ export const prairie = [
       },
       {
         id: 23,
-        wl_label: 'Prairie-WL23',
+        wl_label: 'WL23-Sanctuary Islands (High Above 2nd Ladder)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL23 ?? WINGED_LIGHT,
@@ -1884,7 +1884,7 @@ export const prairie = [
       },
       {
         id: 24,
-        wl_label: 'Prairie-WL24',
+        wl_label: 'WL24-Sanctuary Islands (Crab Cave)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-6',
         wl_url: PR_WL24 ?? WINGED_LIGHT,

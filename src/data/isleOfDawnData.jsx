@@ -1131,7 +1131,7 @@ export const isleOfDawn = [
     winged_lights: [
       {
         id: 1,
-        wl_label: 'Isle-WL1',
+        wl_label: 'WL1-Mural Cave(Roof)',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
         wl_url: ID_WL1 ?? WINGED_LIGHT,
@@ -1142,7 +1142,7 @@ export const isleOfDawn = [
       },
       {
         id: 2,
-        wl_label: 'Isle-WL2',
+        wl_label: 'WL2-Sand Dunes(Boat)',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
         wl_url: ID_WL2 ?? WINGED_LIGHT,
@@ -1154,7 +1154,7 @@ export const isleOfDawn = [
       },
       {
         id: 3,
-        wl_label: 'Isle-WL3',
+        wl_label: 'WL3-Sand Dunes(Cave)',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
         wl_url: ID_WL3 ?? WINGED_LIGHT,
@@ -1166,7 +1166,7 @@ export const isleOfDawn = [
       },
       {
         id: 4,
-        wl_label: 'Isle-WL4',
+        wl_label: 'WL4-Sand Dunes(Stairs)',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
         wl_url: ID_WL4 ?? WINGED_LIGHT,
@@ -1177,7 +1177,7 @@ export const isleOfDawn = [
       },
       {
         id: 5,
-        wl_label: 'Isle-WL5',
+        wl_label: 'WL5-Butterfly Cave',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
         wl_url: ID_WL5 ?? WINGED_LIGHT,
@@ -1191,7 +1191,7 @@ export const isleOfDawn = [
       },
       {
         id: 6,
-        wl_label: 'Isle-WL6',
+        wl_label: 'WL6-Trial of Water',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
         wl_url: ID_WL6 ?? WINGED_LIGHT,
@@ -1203,7 +1203,7 @@ export const isleOfDawn = [
       },
       {
         id: 7,
-        wl_label: 'Isle-WL7',
+        wl_label: 'WL7-Trial of Earth',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
         wl_url: ID_WL7 ?? WINGED_LIGHT,
@@ -1215,7 +1215,7 @@ export const isleOfDawn = [
       },
       {
         id: 8,
-        wl_label: 'Isle-WL8',
+        wl_label: 'WL8-Trial of Air',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
         wl_url: ID_WL8 ?? WINGED_LIGHT,
@@ -1227,7 +1227,7 @@ export const isleOfDawn = [
       },
       {
         id: 9,
-        wl_label: 'Isle-WL9',
+        wl_label: 'WL9-Trial of Fire',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
         wl_url: ID_WL9 ?? WINGED_LIGHT,
