@@ -16,7 +16,7 @@ import { Clock } from '../pages/components/Clock'
 import carousel1 from '../assets/images/home-carousel/home-slideshow-1.jpg'
 import carousel2 from '../assets/images/home-carousel/home-slideshow-2.jpg'
 import carousel3 from '../assets/images/home-carousel/home4.jpg'
-import carousel4 from '../assets/images/home-carousel/Upcoming-Season-22.jpg'
+import carousel4 from '../assets/images/home-carousel/interest_check.jpg'
 import carousel5 from '../assets/images/events/SkyFest-2024.jpg'
 import carousel6 from '../assets/images/home-carousel/Season-of-Duets.jpg'
 import { WL_COUNT_DATE_UPDATED, TOTAL_WL_COUNT } from '../exports/constants'
@@ -180,11 +180,16 @@ const HomeSpace = () => {
               className="h-full w-full object-cover rounded-xl"
             />
           </a>
-          {/* <img
-            src={carousel4}
-            https:alt="Season 22"
-            className="h-full w-full object-cover rounded-xl"
-          /> */}
+          <a
+            href="https://www.facebook.com/photo/?fbid=8785224704825145&set=gm.1558774485050173&idorvanity=481394886121477"
+            target="_blank"
+          >
+            <img
+              src={carousel4}
+              https:alt="Season 22"
+              className="h-full w-full object-cover rounded-xl"
+            />
+          </a>
           <img
             src={carousel5}
             https:alt="SkyFest 2024"

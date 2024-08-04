@@ -96,4 +96,12 @@ export const newsData = [
     newsLink:
       'https://www.thatskygame.com/news/ready-set-go-for-tournament-of-triumph',
   },
+  {
+    id: 10,
+    newsTitle: `Interest Check | CosMoths Gathering 2024`,
+    newsBody: `Interest Check: Days of Gathering 2024 – A Christmas Celebration in Pasay City! 🎄
+We’re thrilled to announce that preparations for Days of Gathering 2024 are already underway!`,
+    newsLink:
+      'https://www.facebook.com/photo/?fbid=8785224704825145&set=gm.1558774485050173&idorvanity=481394886121477',
+  },
 ]
