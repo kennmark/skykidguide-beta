@@ -104,4 +104,35 @@ We’re thrilled to announce that preparations for Days of Gathering 2024 are al
     newsLink:
       'https://www.facebook.com/photo/?fbid=8785224704825145&set=gm.1558774485050173&idorvanity=481394886121477',
   },
+  {
+    id: 11,
+    newsTitle: `Season 23 | Sky x Moomin`,
+    newsBody: `👀
+              Moomin | #SkyxMoomin`,
+    newsLink:
+      'https://www.facebook.com/photo/?fbid=893951946110842&set=a.606494871523219',
+  },
+  {
+    id: 12,
+    newsTitle: `Days of Sunlight 2024`,
+    newsBody: `Clear streams, peaceful glades, enchanting wildlife—the golden hillsides of the 
+    Hidden Forest are just the place to beat the heat. Starting August 26th, escape to a balmy corner 
+    of the realms to make new memories with friends and Spirits during Days of Sunlight! Tucked in the
+     Elevated Clearing, a band of adventurous Spirits will welcome you to a Sky kid leisure land. 
+     Gather with the scouts or with friends around a cozy campfire to enjoy some toasty Light snacks 
+     (which will also feed your Candle count). It’s a great spot to share stories, but if you prefer 
+     music to words, check with the Spirits to jam together in ensemble mode!`,
+    newsLink:
+      'https://www.thatskygame.com/news/days-of-sunlight-2024-relax-in-the-perfect-sky-kid-playground',
+  },
+  {
+    id: 13,
+    newsTitle: `Group TS - Season of Shattering 2024`,
+    newsBody: `‼️⚠️Group TS - Season of Shattering is coming Soon⚠️‼️
+    Handa na ba ang inyong mga kandila @everyone? 🕯️🕯️🕯️
+    Ngayong September 16-30, 2024, For 2 weeks These Ancient Light and Ancient Darkness will arrive at the world 
+    of Sky as a group of Traveling Spirits.`,
+    newsLink:
+      'https://www.facebook.com/photo?fbid=8761704320524560&set=gm.1574036670190621&idorvanity=481394886121477',
+  },
 ]

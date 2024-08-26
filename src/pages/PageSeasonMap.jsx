@@ -262,7 +262,7 @@ const PageSeasonMap = () => {
           <div className="pt-5 w-full px-5">
             <div className="">
               <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
-                Seasons 2024 - [The Nine Colored Deer, Nesting, Duet]
+                Seasons 2024 - [The Nine Colored Deer, Nesting, Duet, Moomin]
               </Card>
             </div>
 

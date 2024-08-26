@@ -17,7 +17,6 @@ const SeasonDisplayContainer = ({
   name,
   time_duration,
   icon_route,
-  spirit_num,
   wl_num,
   quick_info,
   page_route,
@@ -25,6 +24,9 @@ const SeasonDisplayContainer = ({
 }) => {
   const [open, setOpen] = useState(false)
   const handleOpen = () => setOpen((cur) => !cur)
+  const spiritCount = season_spirits.length
+  // console.log(spiritCount)
+
   return (
     <>
       <Tooltip
@@ -79,7 +81,9 @@ const SeasonDisplayContainer = ({
             <Typography color="amber">Quick Note:</Typography>
             <p>{quick_info}</p>
 
-            <Typography color="amber">No. of Spirits ({spirit_num})</Typography>
+            <Typography color="amber">
+              No. of Spirits ({spiritCount})
+            </Typography>
             <Typography color="amber">
               No. of Winged Lights ({wl_num})
             </Typography>

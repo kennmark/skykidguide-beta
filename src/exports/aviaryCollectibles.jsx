@@ -34,6 +34,26 @@ import NN2 from '../assets/images/spirit-collectibles/aviary/NN2.webp'
 import NN3 from '../assets/images/spirit-collectibles/aviary/NN3.webp'
 import NN4 from '../assets/images/spirit-collectibles/aviary/NN4.webp'
 import NN5 from '../assets/images/spirit-collectibles/aviary/NN5.webp'
+import PB1 from '../assets/images/spirit-collectibles/aviary/PB1.webp'
+import PB2 from '../assets/images/spirit-collectibles/aviary/PB2.webp'
+import PB3 from '../assets/images/spirit-collectibles/aviary/PB3.webp'
+import PB4 from '../assets/images/spirit-collectibles/aviary/PB4.webp'
+import PB5 from '../assets/images/spirit-collectibles/aviary/PB5.webp'
+import CB1 from '../assets/images/spirit-collectibles/aviary/CB1.webp'
+import CB2 from '../assets/images/spirit-collectibles/aviary/CB2.webp'
+import CB3 from '../assets/images/spirit-collectibles/aviary/CB3.webp'
+import CB4 from '../assets/images/spirit-collectibles/aviary/CB4.webp'
+import ML1 from '../assets/images/spirit-collectibles/aviary/ML1.webp'
+import ML2 from '../assets/images/spirit-collectibles/aviary/ML2.webp'
+import ML3 from '../assets/images/spirit-collectibles/aviary/ML3.webp'
+import PF1 from '../assets/images/spirit-collectibles/aviary/PF1.webp'
+import PF2 from '../assets/images/spirit-collectibles/aviary/PF2.webp'
+import PF3 from '../assets/images/spirit-collectibles/aviary/PF3.webp'
+import PF4 from '../assets/images/spirit-collectibles/aviary/PF4.webp'
+import CF1 from '../assets/images/spirit-collectibles/aviary/CF1.webp'
+import CF2 from '../assets/images/spirit-collectibles/aviary/CF2.webp'
+import CF3 from '../assets/images/spirit-collectibles/aviary/CF3.webp'
+import CF4 from '../assets/images/spirit-collectibles/aviary/CF4.webp'
 
 export const VDO_ITEM_1 = VDO1
 export const VDO_ITEM_2 = VDO2
@@ -78,3 +98,28 @@ export const NN_ITEM_2 = NN2
 export const NN_ITEM_3 = NN3
 export const NN_ITEM_4 = NN4
 export const NN_ITEM_5 = NN5
+
+export const PB_ITEM_1 = PB1
+export const PB_ITEM_2 = PB2
+export const PB_ITEM_3 = PB3
+export const PB_ITEM_4 = PB4
+export const PB_ITEM_5 = PB5
+
+export const CB_ITEM_1 = CB1
+export const CB_ITEM_2 = CB2
+export const CB_ITEM_3 = CB3
+export const CB_ITEM_4 = CB4
+
+export const ML_ITEM_1 = ML1
+export const ML_ITEM_2 = ML2
+export const ML_ITEM_3 = ML3
+
+export const PF_ITEM_1 = PF1
+export const PF_ITEM_2 = PF2
+export const PF_ITEM_3 = PF3
+export const PF_ITEM_4 = PF4
+
+export const CF_ITEM_1 = CF1
+export const CF_ITEM_2 = CF2
+export const CF_ITEM_3 = CF3
+export const CF_ITEM_4 = CF4

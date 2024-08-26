@@ -17,8 +17,9 @@ import carousel1 from '../assets/images/home-carousel/home-slideshow-1.jpg'
 import carousel2 from '../assets/images/home-carousel/home-slideshow-2.jpg'
 import carousel3 from '../assets/images/home-carousel/home4.jpg'
 import carousel4 from '../assets/images/home-carousel/interest_check.jpg'
-import carousel5 from '../assets/images/events/SkyFest-2024.jpg'
+import carousel5 from '../assets/images/events/Group-TS-Season-of-Shattering.jpg'
 import carousel6 from '../assets/images/home-carousel/Season-of-Duets.jpg'
+import carousel7 from '../assets/images/home-carousel/Upcoming-Season-23.jpg'
 import { WL_COUNT_DATE_UPDATED, TOTAL_WL_COUNT } from '../exports/constants'
 
 import { Countdown } from './components/Countdown'
@@ -191,13 +192,23 @@ const HomeSpace = () => {
             />
           </a>
           <img
-            src={carousel5}
-            https:alt="SkyFest 2024"
-            className="h-full w-full object-cover rounded-xl"
-          />
-          <img
             src={carousel6}
             https:alt="Season of Duets"
+            className="h-full w-full object-cover rounded-xl"
+          />
+          <a
+            href="https://www.facebook.com/photo/?fbid=8761944303833895&set=gm.1574036670190621&idorvanity=481394886121477"
+            target="_blank"
+          >
+            <img
+              src={carousel5}
+              https:alt="Group TS - Season of Shattering"
+              className="h-full w-full object-cover rounded-xl"
+            />
+          </a>
+          <img
+            src={carousel7}
+            https:alt="Upcoming Season 23"
             className="h-full w-full object-cover rounded-xl"
           />
         </Carousel>

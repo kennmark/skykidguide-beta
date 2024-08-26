@@ -234,6 +234,11 @@ const S22Duet = lazy(() => {
     setTimeout(() => resolve(import('./pages/SeasonsPages/S22DuetPage')), 300)
   })
 })
+const S23Moomin = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import('./pages/SeasonsPages/S23MoominPage')), 300)
+  })
+})
 
 function App() {
   return (
@@ -519,6 +524,14 @@ function App() {
                 element={
                   <Layout>
                     <S22Duet />
+                  </Layout>
+                }
+              />
+              <Route
+                path="seasons/2024/season-23/moomin"
+                element={
+                  <Layout>
+                    <S23Moomin />
                   </Layout>
                 }
               />

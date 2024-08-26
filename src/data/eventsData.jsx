@@ -90,4 +90,18 @@ export const eventsData = [
     first time, you will be greeted by the Crab of Triumph and assigned to a team. Your contributions 
     during the event will go towards your team’s victory!`,
   },
+  {
+    id: 7,
+    title: 'Days of Sunlight 2024',
+    sub_title: 'Starting on August 26th - September 9th, 2024',
+    img: '',
+    type: 'special',
+    description: `Clear streams, peaceful glades, enchanting wildlife—the golden hillsides of the 
+    Hidden Forest are just the place to beat the heat. Starting August 26th, escape to a balmy corner 
+    of the realms to make new memories with friends and Spirits during Days of Sunlight! Tucked in the
+     Elevated Clearing, a band of adventurous Spirits will welcome you to a Sky kid leisure land. 
+     Gather with the scouts or with friends around a cozy campfire to enjoy some toasty Light snacks 
+     (which will also feed your Candle count). It’s a great spot to share stories, but if you prefer 
+     music to words, check with the Spirits to jam together in ensemble mode!`,
+  },
 ]

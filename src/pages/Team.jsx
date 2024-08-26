@@ -32,18 +32,16 @@ const Team = () => {
         </Typography>
       </div>
       <div className="flex justify-center py-5 ">
-        <Card
-          variant="gradient"
-          className="sm:w-56 bg-indigo-900 bg-opacity-0 hover:bg-opacity-70 transition ease-in-out duration-500"
-        >
+        <Card className="sm:w-56 bg-transparent team-avatar-card">
           <CardHeader
             floated={false}
-            className="h-48 grayscale hover:grayscale-0 rounded-2xl md:rounded-full"
+            className="h-48 rounded-2xl md:rounded-full"
           >
             <LazyLoadImage
               src={kennAvatar}
               alt="profile-picture"
               effect="blur"
+              className="avatar-image"
             />
           </CardHeader>
           <CardBody className="text-center">
@@ -101,7 +99,11 @@ const Team = () => {
       </div>
       <div className="flex flex-wrap justify-center pb-5">
         {skyPhFbTeam.map((skyphTeam, index) => {
-          return <TeamCardContainer {...skyphTeam} key={index} />
+          return (
+            <div className="px-5">
+              <TeamCardContainer {...skyphTeam} key={index} />
+            </div>
+          )
         })}
       </div>
       <div className="py-5">
@@ -111,7 +113,11 @@ const Team = () => {
       </div>
       <div className="flex flex-wrap justify-center pb-5">
         {team.map((contributor, index) => {
-          return <TeamCardContainer {...contributor} key={index} />
+          return (
+            <div className="px-5">
+              <TeamCardContainer {...contributor} key={index} />
+            </div>
+          )
         })}
       </div>
       <div>

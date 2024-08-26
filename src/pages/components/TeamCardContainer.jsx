@@ -25,15 +25,17 @@ const TeamCardContainer = ({
   avatar_img,
 }) => {
   return (
-    <Card
-      variant="gradient"
-      className="sm:w-56 bg-indigo-900 bg-opacity-0 hover:bg-opacity-70 transition ease-in-out duration-500"
-    >
+    <Card className="sm:w-56 bg-transparent team-avatar-card">
       <CardHeader
         floated={false}
-        className="h-80 md:h-48 rounded-2xl md:rounded-full grayscale hover:grayscale-0"
+        className="h-80 md:h-48 rounded-2xl md:rounded-full"
       >
-        <LazyLoadImage src={avatar_img} alt="avatar" effect="blur" />
+        <LazyLoadImage
+          src={avatar_img}
+          alt="avatar"
+          effect="blur"
+          className="avatar-image"
+        />
       </CardHeader>
       <CardBody className="text-center">
         <Typography variant="h6" color="white" className="mb-2">

@@ -184,6 +184,19 @@ html {
   height: 35rem;
   width: 100%;
 }
+.team-avatar-card:hover {
+  background-color: rgb(11, 35, 98, 0.7);
+  transition: ease-in-out;
+  transition-duration: 500ms;
+}
+.avatar-image {
+  filter: grayscale(100%);
+}
+.team-avatar-card:hover .avatar-image {
+  transition: ease-in-out;
+  transition-duration: 500ms;
+  filter: grayscale(0%);
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

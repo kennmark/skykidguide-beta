@@ -21,6 +21,7 @@ import {
   SEASON20,
   SEASON21,
   SEASON22,
+  SEASON23,
 } from '../exports/seasonIcons'
 
 import {
@@ -141,6 +142,26 @@ import {
   NN_ITEM_3,
   NN_ITEM_4,
   NN_ITEM_5,
+  PB_ITEM_1,
+  PB_ITEM_2,
+  PB_ITEM_3,
+  PB_ITEM_4,
+  PB_ITEM_5,
+  CB_ITEM_1,
+  CB_ITEM_2,
+  CB_ITEM_3,
+  CB_ITEM_4,
+  ML_ITEM_1,
+  ML_ITEM_2,
+  ML_ITEM_3,
+  PF_ITEM_1,
+  PF_ITEM_2,
+  PF_ITEM_3,
+  PF_ITEM_4,
+  CF_ITEM_1,
+  CF_ITEM_2,
+  CF_ITEM_3,
+  CF_ITEM_4,
 } from '../exports/aviaryCollectibles'
 const youtube_embed = 'https://www.youtube.com/embed/'
 // console.log(prairie[1].spirits[0])
@@ -2071,29 +2092,34 @@ export const seasons2022 = [
             label: 'Hair',
             img: DRAGON_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 40,
           },
           {
             label: 'Neck Accessory',
             img: DRAGON_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 45,
           },
           {
             label: 'Instrument',
             img: DRAGON_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 50,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
+            candles: 148,
             hearts: 0,
-            ascended_candles: 0,
+            ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Sep 16, 2024',
+            visitNo: 'GV#6',
+          },
+        ],
       },
       //PLANT
       {
@@ -2110,29 +2136,34 @@ export const seasons2022 = [
             label: 'Hair Accessory',
             img: PLANT_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 40,
           },
           {
             label: 'Mask',
             img: PLANT_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 45,
           },
           {
             label: 'Cape',
             img: PLANT_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 75,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
+            candles: 188,
             hearts: 0,
-            ascended_candles: 0,
+            ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Sep 16, 2024',
+            visitNo: 'GV#6',
+          },
+        ],
       },
       //JELLYFISH
       {
@@ -2149,29 +2180,34 @@ export const seasons2022 = [
             label: 'Hair',
             img: JELLYFISH_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 45,
           },
           {
             label: 'Hair Accessory',
             img: JELLYFISH_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 15,
           },
           {
             label: 'Cape',
             img: JELLYFISH_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 75,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
+            candles: 148,
             hearts: 0,
-            ascended_candles: 0,
+            ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Sep 16, 2024',
+            visitNo: 'GV#6',
+          },
+        ],
       },
       //MANTA
       {
@@ -2188,29 +2224,34 @@ export const seasons2022 = [
             label: 'Hair',
             img: MANTA_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 45,
           },
           {
             label: 'Outfit',
             img: MANTA_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 70,
           },
           {
             label: 'Cape',
             img: MANTA_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 75,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
+            candles: 218,
             hearts: 0,
-            ascended_candles: 0,
+            ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Sep 16, 2024',
+            visitNo: 'GV#6',
+          },
+        ],
       },
     ],
     winged_lights: [
@@ -2714,7 +2755,6 @@ export const seasons2023 = [
     name: 'Season of Revival',
     season_type: 0,
     time_duration: 'October 16 - December 31, 2023',
-    spirit_num: 0,
     icon_route: SEASON19,
     page_route: 'seasons/2023/season-19/revival',
     quick_info: `In a forgotten corner of the kingdom 
@@ -3032,7 +3072,6 @@ export const seasons2024 = [
     name: 'Season of Nesting',
     season_type: 0,
     time_duration: 'April 15, 2024 - July 1, 2024',
-    spirit_num: 0,
     wl_num: 0,
     ms_num: 1,
     icon_route: SEASON21,
@@ -3225,12 +3264,221 @@ export const seasons2024 = [
     name: 'Season of Duets',
     season_type: 0,
     time_duration: 'July 15, 2024 - September 30, 2024',
-    spirit_num: 0,
     wl_num: 0,
     ms_num: 1,
     icon_route: SEASON22,
     page_route: 'seasons/2024/season-22/duets',
     quick_info: `Connect Through Meaningful Harmonies in Season of Duets`,
+    season_spirits: [
+      //NON_SPIRIT
+      {
+        spirit_id: 'duets-1',
+        spirit_name: `The Pianist's Beginning`,
+        spirit_img_url: NON_SPIRIT,
+        spirit_category: 'non-entity',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: PB_ITEM_1,
+        spirit_collectibles: [
+          {
+            label: 'Outfit',
+            img: PB_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Hair',
+            img: PB_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: PB_ITEM_4,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: PB_ITEM_5,
+            currency: 'Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
+      //NON_SPIRIT
+      {
+        spirit_id: 'duets-2',
+        spirit_name: `The Cellist's Beginning`,
+        spirit_img_url: NON_SPIRIT,
+        spirit_category: 'non-entity',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: CB_ITEM_1,
+        spirit_collectibles: [
+          {
+            label: 'Outfit',
+            img: CB_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Hair',
+            img: CB_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: CB_ITEM_4,
+            currency: 'Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
+      //NON_SPIRIT
+      {
+        spirit_id: 'duets-3',
+        spirit_name: `The Musicians' Legacy`,
+        spirit_img_url: NON_SPIRIT,
+        spirit_category: 'non-entity',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: ML_ITEM_1,
+        spirit_collectibles: [
+          {
+            label: 'Instrument',
+            img: ML_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Instrument',
+            img: ML_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
+      //NON_SPIRIT
+      {
+        spirit_id: 'duets-4',
+        spirit_name: `The Pianist's Flourishing`,
+        spirit_img_url: NON_SPIRIT,
+        spirit_category: 'non-entity',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: PF_ITEM_1,
+        spirit_collectibles: [
+          {
+            label: 'Outfit',
+            img: PF_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Shoes',
+            img: PF_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: PF_ITEM_4,
+            currency: 'Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
+      //NON_SPIRIT
+      {
+        spirit_id: 'duets-4',
+        spirit_name: `The Cellist's Flourishing`,
+        spirit_img_url: NON_SPIRIT,
+        spirit_category: 'non-entity',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: CF_ITEM_1,
+        spirit_collectibles: [
+          {
+            label: 'Outfit',
+            img: CF_ITEM_2,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: CF_ITEM_3,
+            currency: 'Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: CF_ITEM_4,
+            currency: 'Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
+    ],
+    winged_lights: [],
+    map_shrines: [],
+  },
+  {
+    id: 23,
+    name: 'Season of Moomin',
+    season_type: 1,
+    time_duration: 'October 14, 2024 - December 30, 2024',
+    wl_num: 0,
+    ms_num: 1,
+    icon_route: SEASON23,
+    page_route: 'seasons/2024/season-23/moomin',
+    quick_info: `4th Collab Season in Sky`,
     season_spirits: [],
     winged_lights: [],
     map_shrines: [],
