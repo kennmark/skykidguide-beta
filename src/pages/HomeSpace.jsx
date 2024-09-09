@@ -1,12 +1,7 @@
 import React from 'react'
 import { maps } from '../data/maps'
-import {
-  Typography,
-  Carousel,
-  Chip,
-  Tooltip,
-  Spinner,
-} from '@material-tailwind/react'
+import { Typography, Chip, Tooltip, Button } from '@material-tailwind/react'
+import { Link } from 'react-router-dom'
 import MapCardContainer from './components/MapCardContainer'
 // import ErrorBoundary from './components/ErrorBoundary'
 import AnnouncementModal from './AnnouncementModal'
@@ -25,6 +20,9 @@ import { WL_COUNT_DATE_UPDATED, TOTAL_WL_COUNT } from '../exports/constants'
 import { Countdown } from './components/Countdown'
 import Testimonials from './components/Testimonials'
 import LatestTSVisit from './components/LatestTSVisit'
+import WingedLightIntro from './components/WingedLightIntro'
+import MapShrineIntro from './components/MapShrineIntro'
+import AnnouncementCarousel from './components/AnnouncementCarousel'
 
 // import { LazyLoadImage } from 'react-lazy-load-image-component'
 
@@ -60,7 +58,7 @@ const HomeSpace = () => {
   let mm = monthName[today.getMonth()]
   let dd = today.getDate()
   let dateFormat = mm + ' ' + dd + ', ' + year
-  console.log(dateFormat)
+  // console.log(dateFormat)
   if (dd < 10) dd = '0' + dd
   const formattedToday = day + ' | ' + mm + ' ' + dd + ', ' + year
 
@@ -142,76 +140,7 @@ const HomeSpace = () => {
     <div>
       <AnnouncementModal />
       <figure className="relative carousel-image w-full h-full my-6 px-1">
-        <Carousel
-          autoplay={true}
-          loop={true}
-          navigation={({ setActiveIndex, activeIndex, length }) => (
-            <div className="absolute bottom-4 left-2/4 z-40 flex -translate-x-2/4 gap-2">
-              {new Array(length).fill('').map((_, i) => (
-                <span
-                  key={i}
-                  className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${
-                    activeIndex === i ? 'w-8 bg-white' : 'w-4 bg-white/50'
-                  }`}
-                  onClick={() => setActiveIndex(i)}
-                />
-              ))}
-            </div>
-          )}
-        >
-          <img
-            src={carousel1}
-            https:alt="image 1"
-            className="h-full w-full object-cover rounded-xl"
-          />
-          <a
-            href="https://www.facebook.com/groups/skycotlphofficial"
-            target="_blank"
-          >
-            <img
-              src={carousel2}
-              https:alt="image 2"
-              className="h-full w-full object-cover rounded-xl"
-            />
-          </a>
-          <a href="https://www.youtube.com/@SKYKIDTulongGabay" target="_blank">
-            <img
-              src={carousel3}
-              alt="image 4"
-              className="h-full w-full object-cover rounded-xl"
-            />
-          </a>
-          <a
-            href="https://www.facebook.com/photo/?fbid=8785224704825145&set=gm.1558774485050173&idorvanity=481394886121477"
-            target="_blank"
-          >
-            <img
-              src={carousel4}
-              https:alt="Season 22"
-              className="h-full w-full object-cover rounded-xl"
-            />
-          </a>
-          <img
-            src={carousel6}
-            https:alt="Season of Duets"
-            className="h-full w-full object-cover rounded-xl"
-          />
-          <a
-            href="https://www.facebook.com/photo/?fbid=8761944303833895&set=gm.1574036670190621&idorvanity=481394886121477"
-            target="_blank"
-          >
-            <img
-              src={carousel5}
-              https:alt="Group TS - Season of Shattering"
-              className="h-full w-full object-cover rounded-xl"
-            />
-          </a>
-          <img
-            src={carousel7}
-            https:alt="Upcoming Season 23"
-            className="h-full w-full object-cover rounded-xl"
-          />
-        </Carousel>
+        <AnnouncementCarousel />
         <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border-none bg-gradient-to-br py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
           <div>
             <Typography
@@ -257,6 +186,34 @@ const HomeSpace = () => {
         {maps.map((map) => {
           return <MapCardContainer {...map} key={map.id} />
         })}
+      </div>
+      <div className="my-6 w-96 md:w-full border-t border-blue-gray-50">
+        <WingedLightIntro />
+        <Link to={`/winged-lights`}>
+          <Button
+            size="lg"
+            color="gray"
+            className="bg-gradient-to-r from-deep-orange-800 to-brown-900 shadow-lg shadow-orange-900/50 hover:scale-[1.02] hover:shadow-orange-900 hover:shadow-xl mt-5"
+            ripple={true}
+            fullWidth={false}
+          >
+            View Locations
+          </Button>
+        </Link>
+      </div>
+      <div className="my-6 w-96 md:w-full border-t border-blue-gray-50">
+        <MapShrineIntro />
+        <Link to={`/map-shrines`}>
+          <Button
+            size="lg"
+            color="gray"
+            className="bg-gradient-to-r from-deep-orange-800 to-brown-900 shadow-lg shadow-orange-900/50 hover:scale-[1.02] hover:shadow-orange-900 hover:shadow-xl mt-5"
+            ripple={true}
+            fullWidth={false}
+          >
+            View Locations
+          </Button>
+        </Link>
       </div>
       <div className="my-6 w-96 md:w-full">
         <LatestTSVisit />
