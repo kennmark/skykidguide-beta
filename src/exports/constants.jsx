@@ -67,16 +67,16 @@ export const WL_COUNT =
   VALLEY_NUM_WL +
   WASTELAND_NUM_WL +
   VAULT_NUM_WL +
-  EDEN_NUM_WL +
-  ORBIT_WL
+  EDEN_NUM_WL
 
-export const WB_REGULAR_SPIRITS = 53
-export const WB_TRAVELING_SPIRITS = 65
+export const WB_REGULAR_SPIRITS = 49
+//!!!UPDATE THIS Wing Buff Count every new TS that hasnt arrived yet!!!
+export const WB_TRAVELING_SPIRITS = 69 // updated September 16, 2024 Group Visit Shattering 4 spirit
 
 export const MS_HOME = 1
 
 export const TOTAL_WL_COUNT =
-  WL_COUNT + WB_REGULAR_SPIRITS + WB_TRAVELING_SPIRITS + SHARDS_WL
+  WL_COUNT + WB_REGULAR_SPIRITS + WB_TRAVELING_SPIRITS + SHARDS_WL + ORBIT_WL
 
 export const TOTAL_MS_COUNT = // updated January 15, 2024
   ISLE_NUM_MAP_SHRINES +

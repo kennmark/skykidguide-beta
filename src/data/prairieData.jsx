@@ -605,7 +605,7 @@ export const prairie = [
       {
         id: 9,
         spirit_id: 'prairie9',
-        season_id: 'season-1',
+        season_id: 1,
         spirit_type: 'seasonal',
         season: 'Season 1 - Season of Gratitude',
         spirit_category: 'emote',
@@ -665,7 +665,7 @@ export const prairie = [
       {
         id: 10,
         spirit_id: 'prairie10',
-        season_id: 'season-2',
+        season_id: 2,
         spirit_type: 'seasonal',
         season: 'Season 2 - Season of Lightseekers',
         spirit_category: 'friendship action',
@@ -738,7 +738,7 @@ export const prairie = [
       {
         id: 11,
         spirit_id: 'prairie11',
-        season_id: 'season-3',
+        season_id: 3,
         spirit_type: 'seasonal',
         season: 'Season 3 - Season of Belonging',
         spirit_category: 'emote',
@@ -801,7 +801,7 @@ export const prairie = [
       {
         id: 12,
         spirit_id: 'prairie12',
-        season_id: 'season-4',
+        season_id: 4,
         spirit_type: 'seasonal',
         season: 'Season 4 - Season of Rythm',
         spirit_category: 'emote',
@@ -871,7 +871,7 @@ export const prairie = [
       {
         id: 18,
         spirit_id: 'prairie18',
-        season_id: 'season-6',
+        season_id: 6,
         spirit_type: 'seasonal',
         season: 'Season 6 - Season of Sanctuary',
         spirit_category: 'stance',
@@ -932,7 +932,7 @@ export const prairie = [
       {
         id: 13,
         spirit_id: 'prairie13',
-        season_id: 'season-6',
+        season_id: 6,
         spirit_type: 'seasonal',
         season: 'Season 6 - Season of Sanctuary',
         spirit_category: 'emote',
@@ -1005,7 +1005,7 @@ export const prairie = [
       {
         id: 14,
         spirit_id: 'prairie14',
-        season_id: 'season-6',
+        season_id: 6,
         spirit_type: 'seasonal',
         season: 'Season 6 - Season of Sanctuary',
         spirit_category: 'emote',
@@ -1066,7 +1066,7 @@ export const prairie = [
       {
         id: 15,
         spirit_id: 'prairie15',
-        season_id: 'season-6',
+        season_id: 6,
         spirit_type: 'seasonal',
         season: 'Season 6 - Season of Sanctuary',
         spirit_category: 'emote',
@@ -1132,7 +1132,7 @@ export const prairie = [
       {
         id: 16,
         spirit_id: 'prairie16',
-        season_id: 'season-6',
+        season_id: 6,
         spirit_type: 'seasonal',
         season: 'Season 6 - Season of Sanctuary',
         spirit_category: 'emote',
@@ -1204,7 +1204,7 @@ export const prairie = [
       {
         id: 17,
         spirit_id: 'prairie17',
-        season_id: 'season-6',
+        season_id: 6,
         spirit_type: 'seasonal',
         season: 'Season 6 - Season of Sanctuary',
         spirit_category: 'sound-call',
@@ -1267,76 +1267,11 @@ export const prairie = [
         kweba na may mga jellyfish, nasa looban ang spirit dito.`,
         ],
       },
-      //TIMID_BOOKWORM
-      {
-        id: 18,
-        spirit_id: 'prairie18',
-        season_id: 'season-6',
-        spirit_type: 'seasonal',
-        season: 'Season 6 - Season of Sanctuary',
-        spirit_category: 'stance',
-        spirit_relive_type: 'follow-memory',
-        difficulty_level: 35,
-        difficulty_types: [0, 2, 6],
-        spirit_name: 'Timid Bookworm',
-        spirit_img_url: TIMID_BOOKWORM,
-        spirit_image: PRAIRIE_SEASON_SPIRIT_18,
-        spirit_collectibles: [
-          {
-            label: 'Hair',
-            img: TIMID_ITEM_1,
-            currency: 'Candles',
-            price: 42,
-          },
-          {
-            label: 'Cape',
-            img: TIMID_ITEM_2,
-            currency: 'Candles',
-            price: 70,
-          },
-          {
-            label: 'Stance',
-            img: TIMID_BOOKWORM,
-            currency: 'Hearts',
-            price: 0,
-          },
-        ],
-        spirit_tree_cost: [
-          {
-            candles: 140,
-            hearts: 0,
-            ascended_candles: 2,
-          },
-        ],
-        number_of_visits: [
-          {
-            visit_date: 'Nov 25, 2021',
-            visitNo: 49,
-          },
-          {
-            visit_date: 'Aug 31, 2023',
-            visitNo: 95,
-          },
-          {
-            visit_date: 'May 9, 2024',
-            visitNo: 95,
-          },
-        ],
-        icon_route: SEASON6,
-        spirit_guide_video_url: youtube_embed + '6UafYcL-qDI',
-        spirit_direction: [
-          `Pagkapasok mo sa Pangalawang Mapa - Daylight Prairie, Lumipad ka patungo sa kaulapan`,
-          `Pagkalapag,  sa gawing kanan ay may lagusan patungong Bird's Nest, pumasok ka`,
-          `Pagdating sa Bird's Nest  lumipad ka pababa hanggang sa makita mo ang lagusan na ulap.`,
-          `Pagdating mo sa Sanctuary Islands, lumipad ka papunta sa unang nakalutang na isla sa harap mo, makikita ang spirit na ito
-        sa likod ng nakalutang na isla, nakasampa sa gild.`,
-        ],
-      },
       //REASSURING_RANGER
       {
         id: 19,
         spirit_id: 'prairie19',
-        season_id: 'season-18',
+        season_id: 18,
         spirit_type: 'seasonal',
         season: 'Season 18 - Season of Moments',
         spirit_category: 'friendship action',
@@ -1399,7 +1334,7 @@ export const prairie = [
       {
         id: 20,
         spirit_id: 'prairie20',
-        season_id: 'season-18',
+        season_id: 18,
         spirit_type: 'seasonal',
         season: 'Season 18 - Season of Moments',
         spirit_category: 'emote',
@@ -1457,7 +1392,7 @@ export const prairie = [
       {
         id: 21,
         spirit_id: 'prairie21',
-        season_id: 'season-18',
+        season_id: 18,
         spirit_type: 'seasonal',
         season: 'Season 18 - Season of Moments',
         spirit_category: 'emote',
@@ -1515,7 +1450,7 @@ export const prairie = [
       {
         id: 22,
         spirit_id: 'prairie22',
-        season_id: 'season-18',
+        season_id: 18,
         spirit_type: 'seasonal',
         season: 'Season 18 - Season of Moments',
         spirit_category: 'sound-call',

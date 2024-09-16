@@ -577,7 +577,7 @@ export const valley = [
       {
         id: 8,
         spirit_id: 'valley8',
-        season_id: 'season-1',
+        season_id: 1,
         spirit_type: 'seasonal',
         season: 'Season 1 - Season of Gratitude',
         spirit_category: 'emote',
@@ -629,7 +629,7 @@ export const valley = [
           },
           {
             visit_date: 'Jun 6, 2024',
-            visitNo: '115',
+            visitNo: 115,
           },
         ],
         icon_route: SEASON1,
@@ -643,7 +643,7 @@ export const valley = [
       {
         id: 9,
         spirit_id: 'valley9',
-        season_id: 'season-2',
+        season_id: 2,
         spirit_type: 'seasonal',
         season: 'Season 2 - Season of Lightseeker',
         spirit_category: 'emote',
@@ -711,7 +711,7 @@ export const valley = [
       {
         id: 10,
         spirit_id: 'valley10',
-        season_id: 'season-3',
+        season_id: 3,
         spirit_type: 'seasonal',
         season: 'Season 3 - Season of Belonging',
         spirit_category: 'emote',
@@ -784,7 +784,7 @@ export const valley = [
       {
         id: 11,
         spirit_id: 'valley11',
-        season_id: 'season-4',
+        season_id: 4,
         spirit_type: 'seasonal',
         season: 'Season 4 - Season of Rythm',
         spirit_category: 'emote',
@@ -854,7 +854,7 @@ export const valley = [
       {
         id: 12,
         spirit_id: 'valley12',
-        season_id: 'season-8',
+        season_id: 8,
         spirit_type: 'seasonal',
         season: 'Season 8 - Season of Dreams',
         spirit_category: 'emote',
@@ -920,7 +920,7 @@ export const valley = [
       {
         id: 13,
         spirit_id: 'valley13',
-        season_id: 'season-8',
+        season_id: 8,
         spirit_type: 'seasonal',
         season: 'Season 8 - Season of Dreams',
         spirit_category: 'emote',
@@ -986,7 +986,7 @@ export const valley = [
       {
         id: 14,
         spirit_id: 'valley14',
-        season_id: 'season-8',
+        season_id: 8,
         spirit_type: 'seasonal',
         season: 'Season 8 - Season of Dreams',
         spirit_category: 'emote',
@@ -1050,7 +1050,7 @@ export const valley = [
       {
         id: 15,
         spirit_id: 'valley15',
-        season_id: 'season-8',
+        season_id: 8,
         spirit_type: 'seasonal',
         season: 'Season 8 - Season of Dreams',
         spirit_category: 'frienship action',
@@ -1114,7 +1114,7 @@ export const valley = [
       {
         id: 16,
         spirit_id: 'valley16',
-        season_id: 'season-13',
+        season_id: 13,
         spirit_type: 'seasonal',
         season: 'Season 13 - Season of Performance',
         spirit_category: 'friendship action',
@@ -1175,7 +1175,7 @@ export const valley = [
       {
         id: 17,
         spirit_id: 'valley17',
-        season_id: 'season-13',
+        season_id: 13,
         spirit_type: 'seasonal',
         season: 'Season 13 - Season of Performance',
         spirit_category: 'emote',
@@ -1237,7 +1237,7 @@ export const valley = [
       {
         id: 18,
         spirit_id: 'valley18',
-        season_id: 'season-13',
+        season_id: 13,
         spirit_type: 'seasonal',
         season: 'Season 13 - Season of Performance',
         spirit_category: 'emote',
@@ -1304,7 +1304,7 @@ export const valley = [
       {
         id: 19,
         spirit_id: 'valley19',
-        season_id: 'season-13',
+        season_id: 13,
         spirit_type: 'seasonal',
         season: 'Season 13 - Season of Performance',
         spirit_category: 'friendship action',
@@ -1360,7 +1360,7 @@ export const valley = [
       {
         id: 20,
         spirit_id: 'valley20',
-        season_id: 'season-15',
+        season_id: 15,
         spirit_type: 'seasonal',
         season: 'Season 15 - Season of AURORA',
         spirit_category: 'emote',
@@ -1416,7 +1416,7 @@ export const valley = [
       {
         id: 21,
         spirit_id: 'valley21',
-        season_id: 'season-15',
+        season_id: 15,
         spirit_type: 'seasonal',
         season: 'Season 15 - Season of AURORA',
         spirit_category: 'emote',
@@ -1478,7 +1478,7 @@ export const valley = [
       {
         id: 22,
         spirit_id: 'valley22',
-        season_id: 'season-15',
+        season_id: 15,
         spirit_type: 'seasonal',
         season: 'Season 15 - Season of AURORA',
         spirit_category: 'emote',
@@ -1535,7 +1535,7 @@ export const valley = [
       {
         id: 23,
         spirit_id: 'valley23',
-        season_id: 'season-15',
+        season_id: 15,
         spirit_type: 'seasonal',
         season: 'Season 15 - Season of AURORA',
         spirit_category: 'emote',

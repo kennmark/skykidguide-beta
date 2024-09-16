@@ -631,7 +631,7 @@ export const hiddenForest = [
       {
         id: 9,
         spirit_id: 'forest9',
-        season_id: 'season-1',
+        season_id: 1,
         spirit_type: 'seasonal',
         season: 'Season 1 - Season of Gratitude',
         spirit_category: 'emote',
@@ -695,7 +695,7 @@ export const hiddenForest = [
       {
         id: 10,
         spirit_id: 'forest10',
-        season_id: 'season-2',
+        season_id: 2,
         spirit_type: 'seasonal',
         season: 'Season 2 - Season of Lightseeker',
         spirit_category: 'stance',
@@ -765,7 +765,7 @@ export const hiddenForest = [
       {
         id: 11,
         spirit_id: 'forest11',
-        season_id: 'season-3',
+        season_id: 3,
         spirit_type: 'seasonal',
         season: 'Season 3 - Season of Belonging',
         spirit_category: 'friendship-action',
@@ -829,7 +829,7 @@ export const hiddenForest = [
       {
         id: 12,
         spirit_id: 'forest12',
-        season_id: 'season-4',
+        season_id: 4,
         spirit_type: 'seasonal',
         season: 'Season 4 - Season of Rythm',
         spirit_category: 'emote',
@@ -893,7 +893,7 @@ export const hiddenForest = [
       {
         id: 13,
         spirit_id: 'forest13',
-        season_id: 'season-9',
+        season_id: 9,
         spirit_type: 'seasonal',
         season: 'Season 9 - Season of Assembly',
         spirit_category: 'emote',
@@ -958,7 +958,7 @@ export const hiddenForest = [
       {
         id: 14,
         spirit_id: 'forest14',
-        season_id: 'season-9',
+        season_id: 9,
         spirit_type: 'seasonal',
         season: 'Season 9 - Season of Assembly',
         spirit_category: 'emote',
@@ -1019,7 +1019,7 @@ export const hiddenForest = [
       {
         id: 15,
         spirit_id: 'forest15',
-        season_id: 'season-9',
+        season_id: 9,
         spirit_type: 'seasonal',
         season: 'Season 9 - Season of Assembly',
         spirit_category: 'emote',
@@ -1081,7 +1081,7 @@ export const hiddenForest = [
       {
         id: 16,
         spirit_id: 'forest16',
-        season_id: 'season-9',
+        season_id: 9,
         spirit_type: 'seasonal',
         season: 'Season 9 - Season of Assembly',
         spirit_category: 'emote',
@@ -1143,7 +1143,7 @@ export const hiddenForest = [
       {
         id: 17,
         spirit_id: 'forest17',
-        season_id: 'season-9',
+        season_id: 9,
         spirit_type: 'seasonal',
         season: 'Season 9 - Season of Assembly',
         spirit_category: 'emote',
@@ -1211,7 +1211,7 @@ export const hiddenForest = [
       {
         id: 18,
         spirit_id: 'forest18',
-        season_id: 'season-9',
+        season_id: 9,
         spirit_type: 'seasonal',
         season: 'Season 9 - Season of Assembly',
         spirit_category: 'emote',
@@ -1271,7 +1271,7 @@ export const hiddenForest = [
       {
         id: 19,
         spirit_id: 'forest19',
-        season_id: 'season-9',
+        season_id: 11,
         spirit_type: 'seasonal',
         season: 'Season 11 - Season of Flight',
         spirit_category: 'stance',
@@ -1337,7 +1337,7 @@ export const hiddenForest = [
       {
         id: 20,
         spirit_id: 'forest20',
-        season_id: 'season-9',
+        season_id: 11,
         spirit_type: 'seasonal',
         season: 'Season 11 - Season of Flight',
         spirit_category: 'call',
@@ -1403,7 +1403,7 @@ export const hiddenForest = [
       {
         id: 21,
         spirit_id: 'forest21',
-        season_id: 'season-9',
+        season_id: 11,
         spirit_type: 'seasonal',
         season: 'Season 11 - Season of Flight',
         spirit_category: 'emote',
@@ -1463,7 +1463,7 @@ export const hiddenForest = [
       {
         id: 22,
         spirit_id: 'forest22',
-        season_id: 'season-9',
+        season_id: 11,
         spirit_type: 'seasonal',
         season: 'Season 11 - Season of Flight',
         spirit_category: 'emote',

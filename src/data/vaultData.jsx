@@ -482,7 +482,7 @@ export const vault = [
       {
         id: 7,
         spirit_id: 'vault7',
-        season_id: 'season-4',
+        season_id: 4,
         spirit_type: 'seasonal',
         season: 'Season 4 - Season of Rhythm',
         spirit_category: 'emote',
@@ -555,7 +555,7 @@ export const vault = [
       {
         id: 8,
         spirit_id: 'vault8',
-        season_id: 'season-1',
+        season_id: 1,
         spirit_type: 'seasonal',
         season: 'Season 1 - Season of Gratitude',
         spirit_category: 'emote',
@@ -618,7 +618,7 @@ export const vault = [
       {
         id: 9,
         spirit_id: 'vault9',
-        season_id: 'season-2',
+        season_id: 2,
         spirit_type: 'seasonal',
         season: 'Season 2 - Season of Lightseekers',
         spirit_category: 'emote',
@@ -664,6 +664,10 @@ export const vault = [
             visit_date: 'Sep 15, 2022',
             visitNo: 70,
           },
+          {
+            visit_date: 'Sep 12, 2024',
+            visitNo: 122,
+          },
         ],
         icon_route: SEASON2,
         spirit_guide_video_url: youtube_embed + 'YqX3lKP3sCA',
@@ -678,7 +682,7 @@ export const vault = [
       {
         id: 10,
         spirit_id: 'vault10',
-        season_id: 'season-3',
+        season_id: 3,
         spirit_type: 'seasonal',
         season: 'Season 3 - Season of Belonging',
         spirit_category: 'stance',
@@ -746,7 +750,7 @@ export const vault = [
       {
         id: 11,
         spirit_id: 'vault11',
-        season_id: 'season-10',
+        season_id: 10,
         spirit_type: 'seasonal',
         season: 'Season 10 - Season of The Little Prince',
         spirit_category: 'emote',
@@ -801,7 +805,7 @@ export const vault = [
       {
         id: 12,
         spirit_id: 'vault12',
-        season_id: 'season-10',
+        season_id: 10,
         spirit_type: 'seasonal',
         season: 'Season 10 - Season of The Little Prince',
         spirit_category: 'emote',
@@ -856,7 +860,7 @@ export const vault = [
       {
         id: 13,
         spirit_id: 'vault13',
-        season_id: 'season-10',
+        season_id: 10,
         spirit_type: 'seasonal',
         season: 'Season 10 - Season of The Little Prince',
         spirit_category: 'emote',
@@ -910,7 +914,7 @@ export const vault = [
       {
         id: 14,
         spirit_id: 'vault14',
-        season_id: 'season-10',
+        season_id: 10,
         spirit_type: 'seasonal',
         season: 'Season 10 - Season of The Little Prince',
         spirit_category: 'emote',
@@ -971,7 +975,7 @@ export const vault = [
       {
         id: 15,
         spirit_id: 'vault15',
-        season_id: 'season-10',
+        season_id: 10,
         spirit_type: 'seasonal',
         season: 'Season 10 - Season of The Little Prince',
         spirit_category: 'emote',
@@ -1030,7 +1034,7 @@ export const vault = [
       {
         id: 16,
         spirit_id: 'vault16',
-        season_id: 'season-10',
+        season_id: 10,
         spirit_type: 'seasonal',
         season: 'Season 10 - Season of The Little Prince',
         spirit_category: 'emote',
@@ -1085,7 +1089,7 @@ export const vault = [
       {
         id: 17,
         spirit_id: 'vault17',
-        season_id: 'season-16',
+        season_id: 16,
         spirit_type: 'seasonal',
         season: 'Season 16 - Season of Remembrance',
         spirit_category: 'emote',
@@ -1141,7 +1145,7 @@ export const vault = [
       {
         id: 18,
         spirit_id: 'vault18',
-        season_id: 'season-16',
+        season_id: 16,
         spirit_type: 'seasonal',
         season: 'Season 16 - Season of Remembrance',
         spirit_category: 'emote',
@@ -1198,7 +1202,7 @@ export const vault = [
       {
         id: 19,
         spirit_id: 'vault19',
-        season_id: 'season-16',
+        season_id: 16,
         spirit_type: 'seasonal',
         season: 'Season 16 - Season of Remembrance',
         spirit_category: 'emote',
@@ -1255,7 +1259,7 @@ export const vault = [
       {
         id: 20,
         spirit_id: 'vault20',
-        season_id: 'season-16',
+        season_id: 16,
         spirit_type: 'seasonal',
         season: 'Season 16 - Season of Remembrance',
         spirit_category: 'emote',
@@ -1318,7 +1322,7 @@ export const vault = [
       {
         id: 21,
         spirit_id: 'vault21',
-        season_id: 'season-20',
+        season_id: 20,
         spirit_type: 'seasonal',
         season: 'Season 20 - Season of The Nine-Colored Deer',
         spirit_category: 'emote',
@@ -1374,7 +1378,7 @@ export const vault = [
       {
         id: 22,
         spirit_id: 'vault22',
-        season_id: 'season-20',
+        season_id: 20,
         spirit_type: 'seasonal',
         season: 'Season 20 - Season of The Nine-Colored Deer',
         spirit_category: 'emote',
@@ -1430,7 +1434,7 @@ export const vault = [
       {
         id: 23,
         spirit_id: 'vault23',
-        season_id: 'season-20',
+        season_id: 20,
         spirit_type: 'seasonal',
         season: 'Season 20 - Season of The Nine-Colored Deer',
         spirit_category: 'friendship action',
@@ -1486,7 +1490,7 @@ export const vault = [
       {
         id: 24,
         spirit_id: 'vault24',
-        season_id: 'season-20',
+        season_id: 20,
         spirit_type: 'seasonal',
         season: 'Season 20 - Season of The Nine-Colored Deer',
         spirit_category: 'emote',

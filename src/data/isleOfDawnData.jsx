@@ -324,7 +324,7 @@ export const isleOfDawn = [
       {
         id: 4,
         spirit_id: 'isle4',
-        season_id: 'season-1',
+        season_id: 1,
         spirit_type: 'seasonal',
         season: 'Season 1 - Season of Gratitude',
         spirit_category: 'stance',
@@ -391,7 +391,7 @@ export const isleOfDawn = [
       {
         id: 5,
         spirit_id: 'isle5',
-        season_id: 'season-2',
+        season_id: 2,
         spirit_type: 'seasonal',
         season: 'Season 2 - Season of Lightseekers',
         spirit_category: 'friendship-action',
@@ -461,7 +461,7 @@ export const isleOfDawn = [
       {
         id: 6,
         spirit_id: 'isle6',
-        season_id: 'season-3',
+        season_id: 3,
         spirit_type: 'seasonal',
         season: 'Season 3 - Season of Belonging',
         spirit_category: 'emote',
@@ -525,7 +525,7 @@ export const isleOfDawn = [
       {
         id: 7,
         spirit_id: 'isle7',
-        season_id: 'season-4',
+        season_id: 4,
         spirit_type: 'seasonal',
         season: 'Season 4 - Season of Rhythm',
         spirit_category: 'emote',
@@ -589,7 +589,7 @@ export const isleOfDawn = [
       {
         id: 8,
         spirit_id: 'isle8',
-        season_id: 'season-7',
+        season_id: 7,
         spirit_type: 'seasonal',
         season: 'Season 7 - Season of Prophecy',
         spirit_category: 'emote',
@@ -665,8 +665,8 @@ export const isleOfDawn = [
       {
         id: 9,
         spirit_id: 'isle9',
+        season_id: 7,
         spirit_type: 'seasonal',
-        season_id: 'season-7',
         season: 'Season 7 - Season of Prophecy',
         spirit_category: 'emote',
         spirit_relive_type: 'follow-memory',
@@ -723,6 +723,10 @@ export const isleOfDawn = [
             visit_date: 'May 15, 2023',
             visitNo: 'GV#2',
           },
+          {
+            visit_date: 'Aug 29, 2024',
+            visitNo: 121,
+          },
         ],
         icon_route: SEASON7,
         spirit_guide_video_url: youtube_embed + 'zE7Js8dqFfU',
@@ -737,7 +741,7 @@ export const isleOfDawn = [
       {
         id: 10,
         spirit_id: 'isle10',
-        season_id: 'season-7',
+        season_id: 7,
         spirit_type: 'seasonal',
         season: 'Season 7 - Season of Prophecy',
         spirit_category: 'emote',
@@ -809,7 +813,7 @@ export const isleOfDawn = [
       {
         id: 11,
         spirit_id: 'isle11',
-        season_id: 'season-7',
+        season_id: 7,
         spirit_type: 'seasonal',
         season: 'Season 7 - Season of Prophecy',
         spirit_category: 'emote',
@@ -887,7 +891,7 @@ export const isleOfDawn = [
       {
         id: 12,
         spirit_id: 'isle12',
-        season_id: 'season-17',
+        season_id: 17,
         spirit_type: 'seasonal',
         season: 'Season 17 - Season of Passage',
         spirit_category: 'emote',
@@ -944,7 +948,7 @@ export const isleOfDawn = [
       {
         id: 13,
         spirit_id: 'isle13',
-        season_id: 'season-17',
+        season_id: 17,
         spirit_type: 'seasonal',
         season: 'Season 17 - Season of Passage',
         spirit_category: 'emote',
@@ -1001,7 +1005,7 @@ export const isleOfDawn = [
       {
         id: 14,
         spirit_id: 'isle14',
-        season_id: 'season-17',
+        season_id: 17,
         spirit_type: 'seasonal',
         season: 'Season 17 - Season of Passage',
         spirit_category: 'emote',
@@ -1058,7 +1062,7 @@ export const isleOfDawn = [
       {
         id: 15,
         spirit_id: 'isle15',
-        season_id: 'season-17',
+        season_id: 17,
         spirit_type: 'seasonal',
         season: 'Season 17 - Season of Passage',
         spirit_category: 'emote',

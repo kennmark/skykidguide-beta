@@ -519,7 +519,7 @@ export const wasteland = [
       {
         id: 7,
         spirit_id: 'wasteland7',
-        season_id: 'season-1',
+        season_id: 1,
         spirit_type: 'seasonal',
         season: 'Season 1 - Season of Gratitude',
         spirit_category: 'emote',
@@ -574,7 +574,7 @@ export const wasteland = [
       {
         id: 8,
         spirit_id: 'wasteland8',
-        season_id: 'season-3',
+        season_id: 3,
         spirit_type: 'seasonal',
         season: 'Season 3 - Season of Belonging',
         spirit_category: 'emote',
@@ -643,7 +643,7 @@ export const wasteland = [
       {
         id: 9,
         spirit_id: 'wasteland9',
-        season_id: 'season-4',
+        season_id: 4,
         spirit_type: 'seasonal',
         season: 'Season 4 - Season of Rythm',
         spirit_category: 'emote',
@@ -709,7 +709,7 @@ export const wasteland = [
       {
         id: 10,
         spirit_id: 'wasteland10',
-        season_id: 'season-2',
+        season_id: 2,
         spirit_type: 'seasonal',
         season: 'Season 2 - Season of Lightseekers',
         spirit_category: 'call',
@@ -785,7 +785,7 @@ export const wasteland = [
       {
         id: 11,
         spirit_id: 'wasteland11',
-        season_id: 'season-5',
+        season_id: 5,
         spirit_type: 'seasonal',
         season: 'Season 5 - Season of Enchantment',
         spirit_category: 'emote',
@@ -845,7 +845,7 @@ export const wasteland = [
       {
         id: 12,
         spirit_id: 'wasteland12',
-        season_id: 'season-5',
+        season_id: 5,
         spirit_type: 'seasonal',
         season: 'Season 5 - Season of Enchantment',
         spirit_category: 'emote',
@@ -909,7 +909,7 @@ export const wasteland = [
       {
         id: 13,
         spirit_id: 'wasteland13',
-        season_id: 'season-5',
+        season_id: 5,
         spirit_type: 'seasonal',
         season: 'Season 5 - Season of Enchantment',
         spirit_category: 'emote',
@@ -969,7 +969,7 @@ export const wasteland = [
       {
         id: 14,
         spirit_id: 'wasteland14',
-        season_id: 'season-5',
+        season_id: 5,
         spirit_type: 'seasonal',
         season: 'Season 5 - Season of Enchantment',
         spirit_category: 'friendship action',
@@ -1040,7 +1040,7 @@ export const wasteland = [
       {
         id: 15,
         spirit_id: 'wasteland15',
-        season_id: 'season-5',
+        season_id: 5,
         spirit_type: 'seasonal',
         season: 'Season 5 - Season of Enchantment',
         spirit_category: 'emote',
@@ -1099,7 +1099,7 @@ export const wasteland = [
       {
         id: 16,
         spirit_id: 'wasteland16',
-        season_id: 'season-5',
+        season_id: 5,
         spirit_type: 'seasonal',
         season: 'Season 5 - Season of Enchantment',
         spirit_category: 'emote',
@@ -1168,7 +1168,7 @@ export const wasteland = [
       {
         id: 17,
         spirit_id: 'wasteland17',
-        season_id: 'season-12',
+        season_id: 12,
         spirit_type: 'seasonal',
         season: 'Season 12 - Season of Abyss',
         spirit_category: 'emote',
@@ -1228,7 +1228,7 @@ export const wasteland = [
       {
         id: 18,
         spirit_id: 'wasteland18',
-        season_id: 'season-12',
+        season_id: 12,
         spirit_type: 'seasonal',
         season: 'Season 12 - Season of Abyss',
         spirit_category: 'emote',
@@ -1294,7 +1294,7 @@ export const wasteland = [
       {
         id: 19,
         spirit_id: 'wasteland19',
-        season_id: 'season-12',
+        season_id: 12,
         spirit_type: 'seasonal',
         season: 'Season 12 - Season of Abyss',
         spirit_category: 'emote',
@@ -1349,7 +1349,7 @@ export const wasteland = [
       {
         id: 20,
         spirit_id: 'wasteland20',
-        season_id: 'season-12',
+        season_id: 12,
         spirit_type: 'seasonal',
         season: 'Season 12 - Season of Abyss',
         spirit_category: 'emote',

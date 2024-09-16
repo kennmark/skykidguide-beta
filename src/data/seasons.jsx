@@ -2092,13 +2092,13 @@ export const seasons2022 = [
             label: 'Hair',
             img: DRAGON_ITEM_1,
             currency: 'Candles',
-            price: 40,
+            price: 70, //40
           },
           {
             label: 'Neck Accessory',
             img: DRAGON_ITEM_2,
             currency: 'Candles',
-            price: 45,
+            price: 70, //45
           },
           {
             label: 'Instrument',
@@ -2136,19 +2136,19 @@ export const seasons2022 = [
             label: 'Hair Accessory',
             img: PLANT_ITEM_1,
             currency: 'Candles',
-            price: 40,
+            price: 45, //40
           },
           {
             label: 'Mask',
             img: PLANT_ITEM_2,
             currency: 'Candles',
-            price: 45,
+            price: 50, //45
           },
           {
             label: 'Cape',
             img: PLANT_ITEM_3,
             currency: 'Candles',
-            price: 75,
+            price: 80, //75
           },
         ],
         spirit_tree_cost: [
@@ -2186,13 +2186,13 @@ export const seasons2022 = [
             label: 'Hair Accessory',
             img: JELLYFISH_ITEM_2,
             currency: 'Candles',
-            price: 15,
+            price: 50, //15
           },
           {
             label: 'Cape',
             img: JELLYFISH_ITEM_3,
             currency: 'Candles',
-            price: 75,
+            price: 80, //75
           },
         ],
         spirit_tree_cost: [
@@ -2224,19 +2224,19 @@ export const seasons2022 = [
             label: 'Hair',
             img: MANTA_ITEM_1,
             currency: 'Candles',
-            price: 45,
+            price: 50, //45
           },
           {
             label: 'Outfit',
             img: MANTA_ITEM_2,
             currency: 'Candles',
-            price: 70,
+            price: 75, //70
           },
           {
             label: 'Cape',
             img: MANTA_ITEM_3,
             currency: 'Candles',
-            price: 75,
+            price: 80, //75
           },
         ],
         spirit_tree_cost: [
@@ -2631,6 +2631,22 @@ export const seasons2023 = [
       //REASSURING_RANGER
       {
         spirit_id: 'moments-1',
+        spirit_name: prairie[1].spirits[10].spirit_name,
+        spirit_img_url: prairie[1].spirits[10].spirit_img_url,
+        spirit_category: prairie[1].spirits[10].spirit_category,
+        spirit_relive_type: prairie[1].spirits[10].spirit_relive_type,
+        difficulty_level: prairie[1].spirits[10].difficulty_level,
+        difficulty_types: prairie[1].spirits[10].difficulty_types,
+        spirit_image: prairie[1].spirits[10].spirit_image,
+        spirit_collectibles: prairie[1].spirits[10].spirit_collectibles,
+        spirit_tree_cost: prairie[1].spirits[10].spirit_tree_cost,
+        number_of_visits: prairie[1].spirits[10].number_of_visits,
+        spirit_guide_video_url: prairie[1].spirits[10].spirit_guide_video_url,
+        spirit_direction: prairie[1].spirits[10].spirit_direction,
+      },
+      //NIGHTBIRD_WHISPERER
+      {
+        spirit_id: 'moments-2',
         spirit_name: prairie[1].spirits[11].spirit_name,
         spirit_img_url: prairie[1].spirits[11].spirit_img_url,
         spirit_category: prairie[1].spirits[11].spirit_category,
@@ -2644,9 +2660,9 @@ export const seasons2023 = [
         spirit_guide_video_url: prairie[1].spirits[11].spirit_guide_video_url,
         spirit_direction: prairie[1].spirits[11].spirit_direction,
       },
-      //NIGHTBIRD_WHISPERER
+      //ASCETIC_MONK
       {
-        spirit_id: 'moments-2',
+        spirit_id: 'moments-3',
         spirit_name: prairie[1].spirits[12].spirit_name,
         spirit_img_url: prairie[1].spirits[12].spirit_img_url,
         spirit_category: prairie[1].spirits[12].spirit_category,
@@ -2660,9 +2676,9 @@ export const seasons2023 = [
         spirit_guide_video_url: prairie[1].spirits[12].spirit_guide_video_url,
         spirit_direction: prairie[1].spirits[12].spirit_direction,
       },
-      //ASCETIC_MONK
+      //JOLLY_GEOLOGIST
       {
-        spirit_id: 'moments-3',
+        spirit_id: 'moments-4',
         spirit_name: prairie[1].spirits[13].spirit_name,
         spirit_img_url: prairie[1].spirits[13].spirit_img_url,
         spirit_category: prairie[1].spirits[13].spirit_category,
@@ -2675,22 +2691,6 @@ export const seasons2023 = [
         number_of_visits: prairie[1].spirits[13].number_of_visits,
         spirit_guide_video_url: prairie[1].spirits[13].spirit_guide_video_url,
         spirit_direction: prairie[1].spirits[13].spirit_direction,
-      },
-      //JOLLY_GEOLOGIST
-      {
-        spirit_id: 'moments-4',
-        spirit_name: prairie[1].spirits[14].spirit_name,
-        spirit_img_url: prairie[1].spirits[14].spirit_img_url,
-        spirit_category: prairie[1].spirits[14].spirit_category,
-        spirit_relive_type: prairie[1].spirits[14].spirit_relive_type,
-        difficulty_level: prairie[1].spirits[14].difficulty_level,
-        difficulty_types: prairie[1].spirits[14].difficulty_types,
-        spirit_image: prairie[1].spirits[14].spirit_image,
-        spirit_collectibles: prairie[1].spirits[14].spirit_collectibles,
-        spirit_tree_cost: prairie[1].spirits[14].spirit_tree_cost,
-        number_of_visits: prairie[1].spirits[14].number_of_visits,
-        spirit_guide_video_url: prairie[1].spirits[14].spirit_guide_video_url,
-        spirit_direction: prairie[1].spirits[14].spirit_direction,
       },
     ],
     winged_lights: [
