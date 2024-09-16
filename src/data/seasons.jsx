@@ -2109,7 +2109,7 @@ export const seasons2022 = [
         ],
         spirit_tree_cost: [
           {
-            candles: 148,
+            candles: 208,
             hearts: 0,
             ascended_candles: 2,
           },
@@ -2153,7 +2153,7 @@ export const seasons2022 = [
         ],
         spirit_tree_cost: [
           {
-            candles: 188,
+            candles: 208,
             hearts: 0,
             ascended_candles: 2,
           },
@@ -2197,7 +2197,7 @@ export const seasons2022 = [
         ],
         spirit_tree_cost: [
           {
-            candles: 148,
+            candles: 193,
             hearts: 0,
             ascended_candles: 2,
           },
@@ -2241,7 +2241,7 @@ export const seasons2022 = [
         ],
         spirit_tree_cost: [
           {
-            candles: 218,
+            candles: 238,
             hearts: 0,
             ascended_candles: 2,
           },
