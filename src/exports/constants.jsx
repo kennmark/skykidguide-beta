@@ -71,7 +71,7 @@ export const WL_COUNT =
 
 export const WB_REGULAR_SPIRITS = 49
 //!!!UPDATE THIS Wing Buff Count every new TS that hasnt arrived yet!!!
-export const WB_TRAVELING_SPIRITS = 69 // updated September 16, 2024 Group Visit Shattering 4 spirit
+export const WB_TRAVELING_SPIRITS = 70 // updated October 10, 2024 Boatswain visit
 
 export const MS_HOME = 1
 
@@ -89,5 +89,5 @@ export const TOTAL_MS_COUNT = // updated January 15, 2024
   S19_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'September 16, 2024'
+export const WL_COUNT_DATE_UPDATED = 'October 10, 2024'
 export const MS_COUNT_DATE_UPDATED = 'January 15, 2024'

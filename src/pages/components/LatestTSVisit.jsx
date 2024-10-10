@@ -7,35 +7,37 @@ import { valley } from '../../data/valleyData'
 import { wasteland } from '../../data/wastelandData'
 import { vault } from '../../data/vaultData'
 import SpiritCardContainer from './SpiritCardContainer'
+import { seasons2022 } from '../../data/seasons'
 
 const LatestTSVisit = () => {
-  const IsleTS = isleOfDawn.map((seasonSpirits) => seasonSpirits.spirits)
-  const PrairieTS = prairie.map((seasonSpirits) => seasonSpirits.spirits)
-  const ForestTS = hiddenForest.map((seasonSpirits) => seasonSpirits.spirits)
-  const ValleyTS = valley.map((seasonSpirits) => seasonSpirits.spirits)
-  const WastelandTS = wasteland.map((seasonSpirits) => seasonSpirits.spirits)
-  const VaultTS = vault.map((seasonSpirits) => seasonSpirits.spirits)
+  // const latestTS = seasons2022.map(())
+  // const IsleTS = isleOfDawn.map((seasonSpirits) => seasonSpirits.spirits)
+  // const PrairieTS = prairie.map((seasonSpirits) => seasonSpirits.spirits)
+  // const ForestTS = hiddenForest.map((seasonSpirits) => seasonSpirits.spirits)
+  // const ValleyTS = valley.map((seasonSpirits) => seasonSpirits.spirits)
+  // const WastelandTS = wasteland.map((seasonSpirits) => seasonSpirits.spirits)
+  // const VaultTS = vault.map((seasonSpirits) => seasonSpirits.spirits)
 
-  const isle = IsleTS[1]
-  const daylight = PrairieTS[1]
-  const forest = ForestTS[1]
-  const triumph = ValleyTS[1]
-  const golden = WastelandTS[1]
-  const knowledge = VaultTS[1]
+  // const isle = IsleTS[1]
+  // const daylight = PrairieTS[1]
+  // const forest = ForestTS[1]
+  // const triumph = ValleyTS[1]
+  // const golden = WastelandTS[1]
+  // const knowledge = VaultTS[1]
 
-  const mergedTS = [
-    { ...isle },
-    { ...daylight },
-    { ...forest },
-    { ...triumph },
-    { ...golden },
-    { ...knowledge },
-  ]
+  // const mergedTS = [
+  //   { ...isle },
+  //   { ...daylight },
+  //   { ...forest },
+  //   { ...triumph },
+  //   { ...golden },
+  //   { ...knowledge },
+  // ]
 
   // const sortedTS = mergedTS.slice().sort()
-  const sorted = mergedTS.sort((a, b) => a.season_id - b.season_id)
+  // const sorted = mergedTS.sort((a, b) => a.season_id - b.season_id)
   // const founded = mergedTS.find(({ season_id }) => season_id === 1)
-  console.log(IsleTS)
+  // console.log(IsleTS)
 
   return (
     <div className="border-t border-blue-gray-50">

@@ -1309,35 +1309,40 @@ export const wasteland = [
             label: 'Hair',
             img: BOATSWAIN_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 35,
           },
           {
             label: 'Mask',
             img: BOATSWAIN_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 40,
           },
           {
-            label: 'Outfit',
+            label: 'Cape',
             img: BOATSWAIN_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 70,
           },
           {
             label: 'Emote',
             img: BUMBLING_BOATSWAIN,
             currency: 'Hearts',
-            price: 0,
+            price: 13,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
-            hearts: 0,
+            candles: 173,
+            hearts: 13,
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Oct 10, 2024',
+            visitNo: 124,
+          },
+        ],
         icon_route: SEASON12,
         spirit_guide_video_url: youtube_embed + 'xFnYj4msYuo',
         spirit_direction: [
