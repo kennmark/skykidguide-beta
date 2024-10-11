@@ -58,20 +58,20 @@ import {
 } from '../exports/mapGIFs'
 
 export const maps = [
-  {
-    id: 0,
-    title: 'Season of Duets',
-    subtitle: 'Featured Season',
-    alt: SEASON_ALT,
-    img: GIF_SEASON,
-    group: 'map-9 shadow-8',
-    pageRoute: 'seasons/2024/season-22/duets',
-    caption: 'The Aviary Village concert hall awaits you 🎼',
-    num_of_wls: S22_NUM_WL,
-    num_of_reg_spirits: S22_NUM_REG_SPIRIT,
-    num_of_season_spirits: S22_NUM_SEASON_SPIRIT,
-    num_of_map_shrines: S22_NUM_MAP_SHRINES,
-  },
+  // {
+  //   id: 0,
+  //   title: 'Season of Duets',
+  //   subtitle: 'Featured Season',
+  //   alt: SEASON_ALT,
+  //   img: GIF_SEASON,
+  //   group: 'map-9 shadow-8',
+  //   pageRoute: 'seasons/2024/season-22/duets',
+  //   caption: 'The Aviary Village concert hall awaits you 🎼',
+  //   num_of_wls: S22_NUM_WL,
+  //   num_of_reg_spirits: S22_NUM_REG_SPIRIT,
+  //   num_of_season_spirits: S22_NUM_SEASON_SPIRIT,
+  //   num_of_map_shrines: S22_NUM_MAP_SHRINES,
+  // },
   {
     id: 1,
     title: 'Isle Of Dawn',
