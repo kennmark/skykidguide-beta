@@ -33,8 +33,8 @@ export const testimonies = [
   {
     id: 4,
     testimonee: 'Alanis Reyes',
+    group: 'SkyPH-Moderator',
     testimonee_avatar: testimonee4,
-    group: 'SkyPH-Member',
     testimonial: 'Nirecommend ko rin yan sa mga foreigner sky friends!',
   },
   {
@@ -48,7 +48,7 @@ export const testimonies = [
     id: 6,
     testimonee: 'Rémi Rémi',
     testimonee_avatar: testimonee5,
-    group: 'SkyPH-Member',
+    group: 'SkyPH-Moderator',
     testimonial: `magandang guide website ng group dito, tagalog,
       madali maintindihan 🥰 kulang n lng infographics for daily guides.
       tanglikin sarilin atin 🥰`,

@@ -62,6 +62,7 @@ import {
   VK_WL13,
   VK_WL14,
   VK_WL15,
+  VK_WL16,
 } from '../exports/vaultWLImgUrl'
 import {
   VOID_WL1,
@@ -71,7 +72,7 @@ import {
   VOID_WL5,
   VOID_WL6,
 } from '../exports/voidWLImgUrl'
-import { VK_MS2, VK_MS4, VK_MS10 } from '../exports/vaultMSImgUrl'
+import { VK_MS2, VK_MS4, VK_MS10, VK_MS11 } from '../exports/vaultMSImgUrl'
 import { GW_MS7, GW_MS8 } from '../exports/wastelandMSImgUrl'
 import { DP_MS7, DP_MS9 } from '../exports/prairieMSImgUrl'
 import { HF_MS9, HF_MS10 } from '../exports/forestMSImgUrl'
@@ -3073,7 +3074,7 @@ export const seasons2024 = [
     season_type: 0,
     time_duration: 'April 15, 2024 - July 1, 2024',
     wl_num: 0,
-    ms_num: 1,
+    ms_num: 0,
     icon_route: SEASON21,
     page_route: 'seasons/2024/season-21/nesting',
     quick_info: `It's TIME to DECORATE our own HOMESPACE!`,
@@ -3265,7 +3266,7 @@ export const seasons2024 = [
     season_type: 0,
     time_duration: 'July 15, 2024 - September 30, 2024',
     wl_num: 0,
-    ms_num: 1,
+    ms_num: 0,
     icon_route: SEASON22,
     page_route: 'seasons/2024/season-22/duets',
     quick_info: `Connect Through Meaningful Harmonies in Season of Duets`,
@@ -3472,15 +3473,39 @@ export const seasons2024 = [
   {
     id: 23,
     name: 'Season of Moomin',
-    season_type: 1,
+    // season_type: 1,
     time_duration: 'October 14, 2024 - December 30, 2024',
-    wl_num: 0,
+    wl_num: 1,
     ms_num: 1,
     icon_route: SEASON23,
     page_route: 'seasons/2024/season-23/moomin',
     quick_info: `4th Collab Season in Sky`,
     season_spirits: [],
-    winged_lights: [],
-    map_shrines: [],
+    winged_lights: [
+      {
+        id: 'seasonal_wl_1',
+        wl_label: 'WL16',
+        wl_group: 'wl-vault',
+        wl_season_group: 'wl-vault-23',
+        wl_url: VK_WL16 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 11,
+        shrine_label: 'Map Shrine 11',
+        shrine_url: VK_MS11 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad gawing kaliwa, at pumasok sa portal papuntang Collaboration Room.`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+          `Pagkadating, ay magtungo sa malapit sa tent na green at malapit dito ang map shrine.`,
+        ],
+      },
+    ],
   },
 ]

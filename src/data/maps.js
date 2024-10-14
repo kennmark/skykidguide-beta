@@ -31,10 +31,10 @@ import {
   S19_NUM_REG_SPIRIT,
   S19_NUM_WL,
   S19_NUM_MAP_SHRINES,
-  S22_NUM_REG_SPIRIT,
-  S22_NUM_SEASON_SPIRIT,
-  S22_NUM_WL,
-  S22_NUM_MAP_SHRINES,
+  S23_NUM_REG_SPIRIT,
+  S23_NUM_SEASON_SPIRIT,
+  S23_NUM_WL,
+  S23_NUM_MAP_SHRINES,
 } from './../exports/constants'
 import {
   GIF_ISLE,
@@ -58,20 +58,21 @@ import {
 } from '../exports/mapGIFs'
 
 export const maps = [
-  // {
-  //   id: 0,
-  //   title: 'Season of Duets',
-  //   subtitle: 'Featured Season',
-  //   alt: SEASON_ALT,
-  //   img: GIF_SEASON,
-  //   group: 'map-9 shadow-8',
-  //   pageRoute: 'seasons/2024/season-22/duets',
-  //   caption: 'The Aviary Village concert hall awaits you 🎼',
-  //   num_of_wls: S22_NUM_WL,
-  //   num_of_reg_spirits: S22_NUM_REG_SPIRIT,
-  //   num_of_season_spirits: S22_NUM_SEASON_SPIRIT,
-  //   num_of_map_shrines: S22_NUM_MAP_SHRINES,
-  // },
+  {
+    id: 0,
+    title: 'Season of Moomin',
+    subtitle: 'Featured Season',
+    alt: SEASON_ALT,
+    img: GIF_SEASON,
+    group: 'map-9 shadow-8',
+    pageRoute: 'seasons/2024/season-23/moomin',
+    caption:
+      'The story of The Invisible Child reminds us of the importance of caring for others and the need to be seen',
+    num_of_wls: S23_NUM_WL,
+    num_of_reg_spirits: S23_NUM_REG_SPIRIT,
+    num_of_season_spirits: S23_NUM_SEASON_SPIRIT,
+    num_of_map_shrines: S23_NUM_MAP_SHRINES,
+  },
   {
     id: 1,
     title: 'Isle Of Dawn',

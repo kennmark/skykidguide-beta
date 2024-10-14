@@ -165,21 +165,136 @@ html {
 }
 
 .map-9 {
-  background: rgb(11, 35, 98);
+  background: rgb(22, 105, 122);
   background: linear-gradient(
       0deg,
-      rgba(11, 35, 98, 1) 0%,
-      rgba(18, 67, 169, 0.95) 25%,
-      rgba(103, 119, 232, 0.5) 50%,
-      rgba(94, 58, 132, 0.25) 75%,
-      rgba(202, 126, 186, 0.8) 100%
+      rgba(22, 105, 122, 1) 0%,
+      rgba(72, 159, 181, 0.75) 29%,
+      rgba(130, 192, 204, 0.5) 38%,
+      rgba(237, 231, 227, 0.25) 60%,
+      rgba(255, 166, 43, 0.1) 81%
     ),
-    url(./assets/images/map-card-bg/Season22-bg.jpg);
+    url(./assets/images/map-card-bg/Season23-bg.jpg);
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
 }
 
+.textbox {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+.news-bg-1 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/home-carousel/home4.jpg);
+}
+.news-bg-2 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/home-carousel/home2.jpg);
+}
+.news-bg-3 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/home-carousel/home2.jpg);
+}
+.news-bg-4 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  filter: grayscale(20%);
+  background-image: url(./assets/images/events/SeasonOfNesting.webp);
+}
+.news-bg-5 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/events/SkyXCinnamoroll.webp);
+}
+.news-bg-6 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/events/DaysOfNature2024.webp);
+}
+.news-bg-7 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/events/DaysOfColor2024.webp);
+}
+.news-bg-8 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/events/SkyFest5.webp);
+}
+.news-bg-9 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/events/SeasonOfDuets.webp);
+}
+.news-bg-10 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/events/SkyTournament.webp);
+}
+.news-bg-11 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/home-carousel/home2.jpg);
+}
+.news-bg-11 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/home-carousel/home2.jpg);
+}
+.news-bg-12 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/home-carousel/Upcoming-Season-23.jpg);
+}
+.news-bg-13 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/events/DaysOfSunlight2024.webp);
+}
+.news-bg-14 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/events/Group-TS-Season-of-Shattering.jpg);
+}
+.news-bg-15 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/events/DaysOfMoonlight.webp);
+}
+.news-bg-16 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/events/DaysOfFashion2024.webp);
+}
+.news-bg-17 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/events/SeasonOfMoomin.webp);
+}
 .carousel-image {
   height: 35rem;
   width: 100%;
@@ -215,6 +330,28 @@ html {
     height: 20rem;
     width: 100%;
   }
+}
+
+.pagination {
+  display: flex;
+
+  border: 1px solid #fff;
+
+  justify-content: space-between;
+
+  padding: 20px;
+}
+
+.pagination button {
+  padding: 10px;
+}
+
+.active {
+  background: black;
+
+  color: #fff;
+
+  border: 1px solid #fff;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

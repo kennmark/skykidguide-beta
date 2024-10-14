@@ -36,8 +36,8 @@ export const WASTELAND_NUM_MAP_SHRINES = 8
 
 export const VAULT_NUM_REG_SPIRIT = 5
 export const VAULT_NUM_SEASON_SPIRIT = 18
-export const VAULT_NUM_WL = 15
-export const VAULT_NUM_MAP_SHRINES = 10
+export const VAULT_NUM_WL = 16
+export const VAULT_NUM_MAP_SHRINES = 11
 
 export const EDEN_NUM_REG_SPIRIT = 0
 export const EDEN_NUM_SEASON_SPIRIT = 0
@@ -54,12 +54,11 @@ export const S19_NUM_SEASON_SPIRIT = 4
 export const S19_NUM_WL = 0
 export const S19_NUM_MAP_SHRINES = 1
 
-export const S22_NUM_REG_SPIRIT = 0
-export const S22_NUM_SEASON_SPIRIT = 0
-export const S22_NUM_WL = 0
-export const S22_NUM_MAP_SHRINES = 0
+export const S23_NUM_REG_SPIRIT = 0
+export const S23_NUM_SEASON_SPIRIT = 0
+export const S23_NUM_WL = 1
+export const S23_NUM_MAP_SHRINES = 1
 
-// WL_COUNT updates added from season of the nine colored deer
 export const WL_COUNT =
   ISLE_NUM_WL +
   PRAIRIE_NUM_WL +
@@ -78,7 +77,7 @@ export const MS_HOME = 1
 export const TOTAL_WL_COUNT =
   WL_COUNT + WB_REGULAR_SPIRITS + WB_TRAVELING_SPIRITS + SHARDS_WL + ORBIT_WL
 
-export const TOTAL_MS_COUNT = // updated January 15, 2024
+export const TOTAL_MS_COUNT = // October 14, 2024
   ISLE_NUM_MAP_SHRINES +
   PRAIRIE_NUM_MAP_SHRINES +
   FOREST_NUM_MAP_SHRINES +
@@ -86,8 +85,8 @@ export const TOTAL_MS_COUNT = // updated January 15, 2024
   WASTELAND_NUM_MAP_SHRINES +
   VAULT_NUM_MAP_SHRINES +
   EDEN_NUM_MAP_SHRINES +
-  S19_NUM_MAP_SHRINES +
+  AVIARY_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'October 10, 2024'
-export const MS_COUNT_DATE_UPDATED = 'January 15, 2024'
+export const WL_COUNT_DATE_UPDATED = 'October 14, 2024' //Season of Moomin
+export const MS_COUNT_DATE_UPDATED = 'October 14, 2024'

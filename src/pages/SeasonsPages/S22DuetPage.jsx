@@ -81,7 +81,7 @@ const S22DuetPage = () => {
                     {time_duration}. May {spirit_num} na spirits sa season na
                     ito at {wl_num ? 'May ' + wl_num : '(0) o walang'}
                     &nbsp; winged light(s). Sa season na ito ay
-                    {!ms_num ? ' may ' + ms_num : ' (0) o walang'} &nbsp;map
+                    {ms_num ? ' may ' + ms_num : ' (0) o walang'} &nbsp;map
                     shrine(s).
                   </Typography>{' '}
                   <br />

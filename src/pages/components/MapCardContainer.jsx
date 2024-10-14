@@ -99,7 +99,11 @@ const MapCardContainer = ({
                   <Chip
                     color="gray"
                     variant="gradient"
-                    value="Season Spirits"
+                    value={
+                      num_of_season_spirits > 0
+                        ? 'Season Spirits'
+                        : 'Collectibles'
+                    }
                     className="rounded-full bg-gradient-to-r from-bg-white/20 to-bg-white/30"
                   />
                 </Badge>

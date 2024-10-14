@@ -18,6 +18,8 @@ const PageIsle = () => {
   )
   const mapIntro = maps.map((intro) => (intro.id === 1 ? intro.map_intro : ''))
 
+  console.log(isleOfDawn[0].spirits.length)
+
   return (
     <div className="flex justify-center">
       <div>

@@ -47,6 +47,7 @@ import {
   VK_WL13,
   VK_WL14,
   VK_WL15,
+  VK_WL16,
 } from '../exports/vaultWLImgUrl'
 import {
   VK_MS1,
@@ -59,6 +60,7 @@ import {
   VK_MS8,
   VK_MS9,
   VK_MS10,
+  VK_MS11,
 } from '../exports/vaultMSImgUrl'
 import {
   MAP6,
@@ -1747,6 +1749,16 @@ export const vault = [
           `Sa ilalim ng puno makita ang winged light dito`,
         ],
       },
+      {
+        id: 16,
+        wl_label: 'WL16',
+        wl_group: 'wl-vault',
+        wl_url: VK_WL16 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+        ],
+      },
     ],
   },
   {
@@ -1871,6 +1883,17 @@ export const vault = [
           `Lumipad gawing kaliwa, at pumasok sa portal papuntang Collaboration Room.`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
           `Pagkadating, ay magtungo sa quest giver sa tapat ng lawa (lake), at sa kabila nito makita ang map shrine.`,
+        ],
+      },
+      {
+        id: 11,
+        shrine_label: 'Map Shrine 11',
+        shrine_url: VK_MS11 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad gawing kaliwa, at pumasok sa portal papuntang Collaboration Room.`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+          `Pagkadating, ay magtungo sa malapit sa tent na green at malapit dito ang map shrine.`,
         ],
       },
     ],

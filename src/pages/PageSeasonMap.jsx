@@ -1,9 +1,9 @@
 import { Carousel, Typography, Button, Card } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
-import carousel1 from '../assets/images/home-carousel/Season-of-Duets.jpg'
-import carousel2 from '../assets/images/seasonal-banners/s22A.webp'
-import carousel3 from '../assets/images/seasonal-banners/s22B.webp'
+import carousel1 from '../assets/images/seasonal-banners/s23A.webp'
+import carousel2 from '../assets/images/seasonal-banners/s23B.webp'
+import carousel3 from '../assets/images/seasonal-banners/s23C.webp'
 import SeasonDisplayContainer from './components/SeasonDisplayContainer'
 import {
   seasons2019,
@@ -42,7 +42,7 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 22 | Season of Duets
+                    Season 23 | Season of Moomin
                   </Typography>
                   <Typography
                     variant="lead"
@@ -60,7 +60,7 @@ const PageSeasonMap = () => {
                     >
                       Pasok
                     </Button>
-                    <a href="https://www.thatskygame.com/news/connect-through-meaningful-harmonies-in-season-of-duets">
+                    <a href="https://www.thatskygame.com/news/season-of-moomin-a-classic-tale-of-healing-and-acceptance/">
                       <Button size="sm" color="white" variant="outlined">
                         Visit Site
                       </Button>
@@ -89,7 +89,7 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    Connect Through Meaningful Harmonies in Season of Duets
+                    A Classic Tale of Healing and Acceptance
                   </Typography>
                 </div>
               </div>
@@ -107,15 +107,16 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 22 | Season of Duets
+                    Season 23 | Season of Moomin
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    Season of Duets is all about discovering ways to bring
-                    meaningful musical experiences to life.
+                    You’ll meet the Moomin family and their friends as you guide
+                    Ninny through a whimsical valley where her story is told,
+                    each step bringing her closer to her true self.
                   </Typography>
                 </div>
               </div>

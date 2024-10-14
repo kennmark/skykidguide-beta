@@ -4,6 +4,9 @@ import DON from '../assets/images/events/DaysOfNature2024.jpg'
 import DOC from '../assets/images/events/DaysOfColor2024.jpg'
 import SkyFest2024 from '../assets/images/events/SkyFest-2024.jpg'
 import TOT2024 from '../assets/images/events/TournamentOfTriumph2024.jpg'
+import DOS2024 from '../assets/images/events/DaysOfSunglight2024.jpg'
+import DOM2024 from '../assets/images/events/DaysOfMoonlight.jpg'
+import DOF2024 from '../assets/images/events/DaysOfFashion2024.jpg'
 
 export const eventsData = [
   {
@@ -94,7 +97,7 @@ export const eventsData = [
     id: 7,
     title: 'Days of Sunlight 2024',
     sub_title: 'Starting on August 26th - September 9th, 2024',
-    img: '',
+    img: DOS2024,
     type: 'special',
     description: `Clear streams, peaceful glades, enchanting wildlife—the golden hillsides of the 
     Hidden Forest are just the place to beat the heat. Starting August 26th, escape to a balmy corner 
@@ -103,5 +106,31 @@ export const eventsData = [
      Gather with the scouts or with friends around a cozy campfire to enjoy some toasty Light snacks 
      (which will also feed your Candle count). It’s a great spot to share stories, but if you prefer 
      music to words, check with the Spirits to jam together in ensemble mode!`,
+  },
+  {
+    id: 8,
+    title: 'Days of Moonlight 2024',
+    sub_title: 'Starting on September 16th - September 29th, 2024',
+    img: DOM2024,
+    type: 'regular',
+    description: `CA new event has arrived in Sky! Days of Moonlight 2024!
+    Deep in the Crescent Oasis, a tranquil retreat awaits you. A silvery moon shines above the stately tree, 
+    there are nearby paper lanterns with riddles for you to explore and solve.
+    Enjoy the serenity the oasis offers to those who slow down: deep sapphire skies, golden leaves of an 
+    ancient tree, the bright silver moon, gentle clouds and rippling waters.
+    Days of Moonlight is a chance to slow down, reflect, and take in a peaceful evening with friends.
+    Have a great time with this new event!`,
+  },
+  {
+    id: 9,
+    title: 'Days of Fashion 2024',
+    sub_title: 'Starting on September 30th - October 13th, 2024',
+    img: DOF2024,
+    type: 'regular',
+    description: `Aaand we are back!! Days of Style 2024 is here!!
+    From September 30 through October 13, the Style Guide Spirit will be waiting in Home and Aviary Village, 
+    eager to whisk you away to fashion runways hidden within Sky’s beautiful realms. This year, we’re 
+    introducing four new runway locations, each debuting a unique theme. Think of it as a rotating showcase 
+    for your imagination!Come and show off with your friends your style! Have a great fashion event, SKYPH KIDS!`,
   },
 ]

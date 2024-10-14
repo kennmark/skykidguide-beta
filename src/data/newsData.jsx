@@ -45,7 +45,7 @@ export const newsData = [
       'https://www.thatskygame.com/news/sky-cinnamoroll-pop-up-cafe-opens-soon',
   },
   {
-    id: 5,
+    id: 6,
     newsTitle: `Days of Nature 2024`,
     newsBody: `Prairie Peaks is usually a haven away from the remains of the kingdom, 
     but starting on May 27th, Spirits and Sky children alike will be called to aid the 
@@ -58,7 +58,7 @@ export const newsData = [
       'https://www.thatskygame.com/news/aid-a-river-in-need-days-of-nature-2024',
   },
   {
-    id: 6,
+    id: 7,
     newsTitle: `Days of Color 2024`,
     newsBody: `For two weeks starting on June 24th PDT, a kaleidoscope of brilliant rainbows,
      shining capes, and colorful Spirits will celebrate the diverse world we share. To join in, 
@@ -68,7 +68,7 @@ export const newsData = [
       'https://www.thatskygame.com/news/soaring-together-in-days-of-color-2024/',
   },
   {
-    id: 7,
+    id: 8,
     newsTitle: `SkyFest 2024`,
     newsBody: `When Sky turns 5 this month, there’s going to be a party—a really, REALLY big party. 
     We’re so excited to reach this milestone with the community, and this year we wanted to do 
@@ -78,7 +78,7 @@ export const newsData = [
       'https://www.thatskygame.com/news/skyfest-2024-an-anniversary-celebration-like-no-other',
   },
   {
-    id: 8,
+    id: 9,
     newsTitle: `Season 22 | Season of Duets`,
     newsBody: `The Duets Guide awaits you in Aviary Village where you will unlock the Season of Duets’
      new area: the Aviary Village concert hall. Once you access backstage, find a room with colorful 
@@ -87,7 +87,7 @@ export const newsData = [
       'https://www.thatskygame.com/news/connect-through-meaningful-harmonies-in-season-of-duets',
   },
   {
-    id: 9,
+    id: 10,
     newsTitle: `Tournament of Triumph 2024`,
     newsBody: `The Tournament of Triumph opens its doors to a special version of the Coliseum, 
     available through the Meditation circle in Aviary Village. After entering the Coliseum for 
@@ -97,7 +97,7 @@ export const newsData = [
       'https://www.thatskygame.com/news/ready-set-go-for-tournament-of-triumph',
   },
   {
-    id: 10,
+    id: 11,
     newsTitle: `Interest Check | CosMoths Gathering 2024`,
     newsBody: `Interest Check: Days of Gathering 2024 – A Christmas Celebration in Pasay City! 🎄
 We’re thrilled to announce that preparations for Days of Gathering 2024 are already underway!`,
@@ -105,7 +105,7 @@ We’re thrilled to announce that preparations for Days of Gathering 2024 are al
       'https://www.facebook.com/photo/?fbid=8785224704825145&set=gm.1558774485050173&idorvanity=481394886121477',
   },
   {
-    id: 11,
+    id: 12,
     newsTitle: `Season 23 | Sky x Moomin`,
     newsBody: `👀
               Moomin | #SkyxMoomin`,
@@ -113,7 +113,7 @@ We’re thrilled to announce that preparations for Days of Gathering 2024 are al
       'https://www.facebook.com/photo/?fbid=893951946110842&set=a.606494871523219',
   },
   {
-    id: 12,
+    id: 13,
     newsTitle: `Days of Sunlight 2024`,
     newsBody: `Clear streams, peaceful glades, enchanting wildlife—the golden hillsides of the 
     Hidden Forest are just the place to beat the heat. Starting August 26th, escape to a balmy corner 
@@ -126,7 +126,7 @@ We’re thrilled to announce that preparations for Days of Gathering 2024 are al
       'https://www.thatskygame.com/news/days-of-sunlight-2024-relax-in-the-perfect-sky-kid-playground',
   },
   {
-    id: 13,
+    id: 14,
     newsTitle: `Group TS - Season of Shattering 2024`,
     newsBody: `‼️⚠️Group TS - Season of Shattering is coming Soon⚠️‼️
     Handa na ba ang inyong mga kandila @everyone? 🕯️🕯️🕯️
@@ -134,5 +134,37 @@ We’re thrilled to announce that preparations for Days of Gathering 2024 are al
     of Sky as a group of Traveling Spirits.`,
     newsLink:
       'https://www.facebook.com/photo?fbid=8761704320524560&set=gm.1574036670190621&idorvanity=481394886121477',
+  },
+  {
+    id: 15,
+    newsTitle: `Days of Moonlight 2024`,
+    newsBody: `CA new event has arrived in Sky! Days of Moonlight 2024! Deep in the Crescent Oasis, a tranquil 
+    retreat awaits you. A silvery moon shines above the stately tree, there are nearby paper lanterns with riddles 
+    for you to explore and solve. Enjoy the serenity the oasis offers to those who slow down: deep sapphire skies,
+     golden leaves of an ancient tree, the bright silver moon, gentle clouds and rippling waters. Days of Moonlight 
+     is a chance to slow down, reflect, and take in a peaceful evening with friends. Have a great time with this 
+     new event!`,
+    newsLink:
+      'https://www.thatskygame.com/news/days-of-moonlight-2024-riddles-reflections-and-more',
+  },
+  {
+    id: 16,
+    newsTitle: `Days of Fashion 2024`,
+    newsBody: `Aaand we are back!! Days of Style 2024 is here!! From September 30 through October 13, the Style 
+    Guide Spirit will be waiting in Home and Aviary Village, eager to whisk you away to fashion runways hidden 
+    within Sky’s beautiful realms. This year, we’re introducing four new runway locations, each debuting a unique
+     theme. Think of it as a rotating showcase for your imagination!Come and show off with your friends your
+      style! Have a great fashion event, SKYPH KIDS!`,
+    newsLink:
+      'https://www.facebook.com/photo/?fbid=9038573266170996&set=oa.480228467682507',
+  },
+  {
+    id: 17,
+    newsTitle: `Season of Moomin`,
+    newsBody: `You’ll meet the Moomin family and their friends as you guide
+    Ninny through a whimsical valley where her story is told,
+    each step bringing her closer to her true self.`,
+    newsLink:
+      'https://www.thatskygame.com/news/season-of-moomin-a-classic-tale-of-healing-and-acceptance/',
   },
 ]
