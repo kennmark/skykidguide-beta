@@ -181,7 +181,7 @@ import {
   IOI_ITEM_5,
   IOI_ITEM_6,
 } from '../exports/spiritVaultCollectibles'
-import VaultConstellation from '../assets/images/maps-constellations/Map6-Vault-Constellation.jpg'
+import VaultConstellation from '../assets/images/maps-constellations/Map6_Vault_Constellation.jpg'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'

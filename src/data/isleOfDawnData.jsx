@@ -118,7 +118,7 @@ import {
   OVERACTIVE_ITEM_2,
   OVERACTIVE_ITEM_3,
 } from '../exports/spiritIsleCollectibles'
-import IsleConstellation from '../assets/images/maps-constellations/Map1-Isle-Constellation.jpg'
+import IsleConstellation from '../assets/images/maps-constellations/Map1_Isle_Constellation.jpg'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'

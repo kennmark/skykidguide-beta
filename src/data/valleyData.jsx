@@ -166,7 +166,7 @@ import {
   HOPE_ITEM_2,
   HOPE_ITEM_3,
 } from '../exports/spiritValleyCollectibles'
-import ValleyConstellation from '../assets/images/maps-constellations/Map4-Valley-Constellation.jpg'
+import ValleyConstellation from '../assets/images/maps-constellations/Map4_Valley_Constellation.jpg'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'

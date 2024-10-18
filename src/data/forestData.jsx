@@ -155,7 +155,7 @@ import {
   BUILDER_ITEM_2,
   BUILDER_ITEM_3,
 } from '../exports/spiritForestCollectibles'
-import ForestConstellation from '../assets/images/maps-constellations/Map3-Forest-Constellation.jpg'
+import ForestConstellation from '../assets/images/maps-constellations/Map3_Forest_Constellation.jpg'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'

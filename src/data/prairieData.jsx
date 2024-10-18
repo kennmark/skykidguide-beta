@@ -155,7 +155,7 @@ import {
   NIGHTBIRD_ITEM_3,
   NIGHTBIRD_ITEM_4,
 } from '../exports/spiritPrairieCollectibles'
-import PrairieConstellation from '../assets/images/maps-constellations/Map2-Prairie-Constellation.jpg'
+import PrairieConstellation from '../assets/images/maps-constellations/Map2_Prairie_Constellation.jpg'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'

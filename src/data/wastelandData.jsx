@@ -145,7 +145,7 @@ import {
   CACKLING_ITEM_2,
   CACKLING_ITEM_3,
 } from '../exports/spiritWastelandCollectibles'
-import WastelandConstellation from '../assets/images/maps-constellations/Map5-Wasteland-Constellation.jpg'
+import WastelandConstellation from '../assets/images/maps-constellations/Map5_Wasteland_Constellation.jpg'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
