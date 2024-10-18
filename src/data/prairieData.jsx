@@ -1,4 +1,4 @@
-import { Typography } from '@material-tailwind/react'
+import { Typography, Spinner } from '@material-tailwind/react'
 import {
   PRAIRIE_NUM_REG_SPIRIT,
   PRAIRIE_NUM_SEASON_SPIRIT,
@@ -155,6 +155,8 @@ import {
   NIGHTBIRD_ITEM_3,
   NIGHTBIRD_ITEM_4,
 } from '../exports/spiritPrairieCollectibles'
+import PrairieConstellation from '../assets/images/maps-constellations/Map2-Prairie-Constellation.jpg'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -163,16 +165,27 @@ export const prairie = [
     label: 'Regular Spirits',
     value: 'regular_spirits',
     desc: (
-      <Typography className="antialiased font-sans">
-        Ito ang pangalawang constellation - Daylight Prairie. May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
-          {PRAIRIE_NUM_REG_SPIRIT}
-        </span>{' '}
-        regular spirits na makikita mo dito. Andito ang mga spirits ng
-        Applauding Bellmaker, Bird Whisperer, Butterfly Charmer, Ceremonial
-        Worshipper, Exhausted Dock Worker, Laughing Light Catcher, Slumbering
-        Shipwright at Waving Bellmaker.
-      </Typography>
+      <>
+        <LazyLoadImage
+          src={PrairieConstellation}
+          alt="Daylight Prairie"
+          title="Daylight Prairie"
+          placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
+          effect="blur"
+          width={'100%'}
+          className="rounded-xl pb-10"
+        />
+        <Typography className="antialiased font-sans">
+          Ito ang pangalawang constellation - Daylight Prairie. May{' '}
+          <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+            {PRAIRIE_NUM_REG_SPIRIT}
+          </span>{' '}
+          regular spirits na makikita mo dito. Andito ang mga spirits ng
+          Applauding Bellmaker, Bird Whisperer, Butterfly Charmer, Ceremonial
+          Worshipper, Exhausted Dock Worker, Laughing Light Catcher, Slumbering
+          Shipwright at Waving Bellmaker.
+        </Typography>
+      </>
     ),
     spirits: [
       //APPLAUDING_BELLMAKER

@@ -1,4 +1,4 @@
-import { Typography } from '@material-tailwind/react'
+import { Typography, Spinner } from '@material-tailwind/react'
 import {
   WASTELAND_NUM_REG_SPIRIT,
   WASTELAND_NUM_SEASON_SPIRIT,
@@ -145,6 +145,8 @@ import {
   CACKLING_ITEM_2,
   CACKLING_ITEM_3,
 } from '../exports/spiritWastelandCollectibles'
+import WastelandConstellation from '../assets/images/maps-constellations/Map5-Wasteland-Constellation.jpg'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -153,13 +155,24 @@ export const wasteland = [
     label: 'Regular Spirits',
     value: 'regular_spirits',
     desc: (
-      <Typography className="antialiased font-sans">
-        May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
-          {WASTELAND_NUM_REG_SPIRIT}
-        </span>{' '}
-        regular spirits na makikita mo dito.
-      </Typography>
+      <>
+        <LazyLoadImage
+          src={WastelandConstellation}
+          alt="Golden Wasteland"
+          title="Golden Wasteland"
+          placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
+          effect="blur"
+          width={'100%'}
+          className="rounded-xl pb-10"
+        />
+        <Typography className="antialiased font-sans">
+          May{' '}
+          <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+            {WASTELAND_NUM_REG_SPIRIT}
+          </span>{' '}
+          regular spirits na makikita mo dito.
+        </Typography>
+      </>
     ),
     spirits: [
       // FAINTING_WARRIOR

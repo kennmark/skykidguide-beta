@@ -59,6 +59,26 @@ import princess1 from '../assets/images/spirit-collectibles/vault/princess1.webp
 import princess2 from '../assets/images/spirit-collectibles/vault/princess2.webp'
 import princess3 from '../assets/images/spirit-collectibles/vault/princess3.webp'
 import princess4 from '../assets/images/spirit-collectibles/vault/princess4.webp'
+import cof1 from '../assets/images/spirit-collectibles/vault/ComfortOfKindness1.webp'
+import cof2 from '../assets/images/spirit-collectibles/vault/ComfortOfKindness2.webp'
+import cof3 from '../assets/images/spirit-collectibles/vault/ComfortOfKindness3.webp'
+import cof4 from '../assets/images/spirit-collectibles/vault/ComfortOfKindness4.webp'
+import cof5 from '../assets/images/spirit-collectibles/vault/ComfortOfKindness5.webp'
+import sos1 from '../assets/images/spirit-collectibles/vault/SenseOfSelf1.webp'
+import sos2 from '../assets/images/spirit-collectibles/vault/SenseOfSelf2.webp'
+import sos3 from '../assets/images/spirit-collectibles/vault/SenseOfSelf3.webp'
+import sos4 from '../assets/images/spirit-collectibles/vault/SenseOfSelf4.webp'
+import soa1 from '../assets/images/spirit-collectibles/vault/SpiritOfAdventure1.webp'
+import soa2 from '../assets/images/spirit-collectibles/vault/SpiritOfAdventure2.webp'
+import soa3 from '../assets/images/spirit-collectibles/vault/SpiritOfAdventure3.webp'
+import soa4 from '../assets/images/spirit-collectibles/vault/SpiritOfAdventure4.webp'
+import soa5 from '../assets/images/spirit-collectibles/vault/SpiritOfAdventure5.webp'
+import ioi1 from '../assets/images/spirit-collectibles/vault/InspirationOfInclusion1.webp'
+import ioi2 from '../assets/images/spirit-collectibles/vault/InspirationOfInclusion2.webp'
+import ioi3 from '../assets/images/spirit-collectibles/vault/InspirationOfInclusion3.webp'
+import ioi4 from '../assets/images/spirit-collectibles/vault/InspirationOfInclusion4.webp'
+import ioi5 from '../assets/images/spirit-collectibles/vault/InspirationOfInclusion5.webp'
+import ioi6 from '../assets/images/spirit-collectibles/vault/InspirationOfInclusion6.webp'
 
 export const ADEPT_ITEM_1 = adept1
 export const ADEPT_ITEM_2 = adept2
@@ -122,3 +142,23 @@ export const PRINCESS_ITEM_1 = princess1
 export const PRINCESS_ITEM_2 = princess2
 export const PRINCESS_ITEM_3 = princess3
 export const PRINCESS_ITEM_4 = princess4
+export const COF_ITEM_1 = cof1
+export const COF_ITEM_2 = cof2
+export const COF_ITEM_3 = cof3
+export const COF_ITEM_4 = cof4
+export const COF_ITEM_5 = cof5
+export const SOS_ITEM_1 = sos1
+export const SOS_ITEM_2 = sos2
+export const SOS_ITEM_3 = sos3
+export const SOS_ITEM_4 = sos4
+export const SOA_ITEM_1 = soa1
+export const SOA_ITEM_2 = soa2
+export const SOA_ITEM_3 = soa3
+export const SOA_ITEM_4 = soa4
+export const SOA_ITEM_5 = soa5
+export const IOI_ITEM_1 = ioi1
+export const IOI_ITEM_2 = ioi2
+export const IOI_ITEM_3 = ioi3
+export const IOI_ITEM_4 = ioi4
+export const IOI_ITEM_5 = ioi5
+export const IOI_ITEM_6 = ioi6

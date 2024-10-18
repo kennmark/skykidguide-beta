@@ -13,7 +13,7 @@ import {
   DialogFooter,
   Badge,
 } from '@material-tailwind/react'
-import { RC, HEART, AC } from '../../exports/constants'
+import { RC, HEART, AC, SC_23_MOOMIN_ICON } from '../../exports/constants'
 
 const SpiritImageDetails = ({
   label,
@@ -24,8 +24,10 @@ const SpiritImageDetails = ({
   seasonLabel,
   spiritTreeCost,
   noOfVisits,
+  isCurrentSeason,
 }) => {
   const [activeTab, setActiveTab] = React.useState('tree-cost')
+  // console.log(isCurrentSeason)
   const data = [
     {
       label: 'Tree Cost',
@@ -38,12 +40,21 @@ const SpiritImageDetails = ({
               key={index}
             >
               {cost.candles}&nbsp;
-              <img
-                src={RC}
-                alt="white candles"
-                title="white candles"
-                className="h-5"
-              />
+              {isCurrentSeason === true ? (
+                <img
+                  src={SC_23_MOOMIN_ICON}
+                  alt="season candles"
+                  title="season candles"
+                  className="h-5"
+                />
+              ) : (
+                <img
+                  src={RC}
+                  alt="white candles"
+                  title="white candles"
+                  className="h-5"
+                />
+              )}
               &nbsp;|&nbsp;
               {cost.hearts || 0}&nbsp;
               <img src={HEART} alt="hearts" title="hearts" className="h-5" />
@@ -138,10 +149,19 @@ const SpiritImageDetails = ({
                           className="h-4 md:h-5"
                         />
                       </span>
-                    ) : (
+                    ) : collectible.currency === 'Heart' ? (
                       <span className="inline-flex flex-wrap justify-center">
                         <img
                           src={HEART}
+                          alt="hearts"
+                          title="hearts"
+                          className="h-4 md:h-5"
+                        />
+                      </span>
+                    ) : (
+                      <span className="inline-flex flex-wrap justify-center">
+                        <img
+                          src={SC_23_MOOMIN_ICON}
                           alt="hearts"
                           title="hearts"
                           className="h-4 md:h-5"
@@ -153,7 +173,16 @@ const SpiritImageDetails = ({
               </div>
             ))}
           </div>
-          {seasonLabel && (
+          {isCurrentSeason === true ? (
+            <div className="text-gray-300">
+              <p className="text-[11px] text-center pt-2">
+                Prices with value is attainable using season candles.
+              </p>
+              <p className="text-[11px] text-center">
+                items don't have prices, needs season pass.
+              </p>
+            </div>
+          ) : (
             <div className="text-gray-300">
               <p className="text-[11px] text-center pt-2">
                 Prices may vary upon arrival as TS.

@@ -89,4 +89,11 @@ export const testimonies = [
     group: 'SkyPH-Member',
     testimonial: `Hindi ko na kelangan mag sky wiki hahaha... galing`,
   },
+  {
+    id: 12,
+    testimonee: 'Lise Brognon',
+    testimonee_avatar: avatarLady,
+    group: 'SkyPH-Member',
+    testimonial: `It's great, thank  you ❤. Your site is really well done. I wish I found this when I was a beginner. But still very helpful.`,
+  },
 ]

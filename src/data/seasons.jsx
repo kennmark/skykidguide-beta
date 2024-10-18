@@ -3480,7 +3480,72 @@ export const seasons2024 = [
     icon_route: SEASON23,
     page_route: 'seasons/2024/season-23/moomin',
     quick_info: `4th Collab Season in Sky`,
-    season_spirits: [],
+    season_spirits: [
+      //Comfort of Kindness
+      {
+        spirit_id: 'moomin-1',
+        spirit_name: vault[1].spirits[18].spirit_name,
+        spirit_img_url: vault[1].spirits[18].spirit_img_url,
+        spirit_category: vault[1].spirits[18].spirit_category,
+        spirit_relive_type: vault[1].spirits[18].spirit_relive_type,
+        difficulty_level: vault[1].spirits[18].difficulty_level,
+        difficulty_types: vault[1].spirits[18].difficulty_types,
+        spirit_image: vault[1].spirits[18].spirit_image,
+        spirit_collectibles: vault[1].spirits[18].spirit_collectibles,
+        spirit_tree_cost: vault[1].spirits[18].spirit_tree_cost,
+        number_of_visits: vault[1].spirits[18].number_of_visits,
+        spirit_guide_video_url: vault[1].spirits[18].spirit_guide_video_url,
+        spirit_direction: vault[1].spirits[18].spirit_direction,
+      },
+      // Sense of Self
+      {
+        spirit_id: 'moomin-2',
+        spirit_name: vault[1].spirits[19].spirit_name,
+        spirit_img_url: vault[1].spirits[19].spirit_img_url,
+        spirit_category: vault[1].spirits[19].spirit_category,
+        spirit_relive_type: vault[1].spirits[19].spirit_relive_type,
+        difficulty_level: vault[1].spirits[19].difficulty_level,
+        difficulty_types: vault[1].spirits[19].difficulty_types,
+        spirit_image: vault[1].spirits[19].spirit_image,
+        spirit_collectibles: vault[1].spirits[19].spirit_collectibles,
+        spirit_tree_cost: vault[1].spirits[19].spirit_tree_cost,
+        number_of_visits: vault[1].spirits[19].number_of_visits,
+        spirit_guide_video_url: vault[1].spirits[19].spirit_guide_video_url,
+        spirit_direction: vault[1].spirits[19].spirit_direction,
+      },
+      // Spirit of Adventure
+      {
+        spirit_id: 'moomin-3',
+        spirit_name: vault[1].spirits[20].spirit_name,
+        spirit_img_url: vault[1].spirits[20].spirit_img_url,
+        spirit_category: vault[1].spirits[20].spirit_category,
+        spirit_relive_type: vault[1].spirits[20].spirit_relive_type,
+        difficulty_level: vault[1].spirits[20].difficulty_level,
+        difficulty_types: vault[1].spirits[20].difficulty_types,
+        spirit_image: vault[1].spirits[20].spirit_image,
+        spirit_collectibles: vault[1].spirits[20].spirit_collectibles,
+        spirit_tree_cost: vault[1].spirits[20].spirit_tree_cost,
+        number_of_visits: vault[1].spirits[20].number_of_visits,
+        spirit_guide_video_url: vault[1].spirits[20].spirit_guide_video_url,
+        spirit_direction: vault[1].spirits[20].spirit_direction,
+      },
+      // Inspiration of Inclusion
+      {
+        spirit_id: 'moomin-4',
+        spirit_name: vault[1].spirits[21].spirit_name,
+        spirit_img_url: vault[1].spirits[21].spirit_img_url,
+        spirit_category: vault[1].spirits[21].spirit_category,
+        spirit_relive_type: vault[1].spirits[21].spirit_relive_type,
+        difficulty_level: vault[1].spirits[21].difficulty_level,
+        difficulty_types: vault[1].spirits[21].difficulty_types,
+        spirit_image: vault[1].spirits[21].spirit_image,
+        spirit_collectibles: vault[1].spirits[21].spirit_collectibles,
+        spirit_tree_cost: vault[1].spirits[21].spirit_tree_cost,
+        number_of_visits: vault[1].spirits[21].number_of_visits,
+        spirit_guide_video_url: vault[1].spirits[21].spirit_guide_video_url,
+        spirit_direction: vault[1].spirits[21].spirit_direction,
+      },
+    ],
     winged_lights: [
       {
         id: 'seasonal_wl_1',
@@ -3509,3 +3574,11 @@ export const seasons2024 = [
     ],
   },
 ]
+
+export const allSeasons =
+  seasons2019.length +
+  seasons2020.length +
+  seasons2021.length +
+  seasons2022.length +
+  seasons2023.length +
+  seasons2024.length

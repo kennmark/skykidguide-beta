@@ -1,4 +1,4 @@
-import { Typography } from '@material-tailwind/react'
+import { Typography, Spinner } from '@material-tailwind/react'
 import {
   FOREST_NUM_REG_SPIRIT,
   FOREST_NUM_SEASON_SPIRIT,
@@ -155,6 +155,8 @@ import {
   BUILDER_ITEM_2,
   BUILDER_ITEM_3,
 } from '../exports/spiritForestCollectibles'
+import ForestConstellation from '../assets/images/maps-constellations/Map3-Forest-Constellation.jpg'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -163,13 +165,24 @@ export const hiddenForest = [
     label: 'Regular Spirits',
     value: 'regular_spirits',
     desc: (
-      <Typography className="antialiased font-sans">
-        Ito ang pangatlong constellation - Hidden Forest. May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
-          {FOREST_NUM_REG_SPIRIT}
-        </span>{' '}
-        regular spirits na makikita mo dito.
-      </Typography>
+      <>
+        <LazyLoadImage
+          src={ForestConstellation}
+          alt="Hidden Forest"
+          title="Hidden Forest"
+          placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
+          effect="blur"
+          width={'100%'}
+          className="rounded-xl pb-10"
+        />
+        <Typography className="antialiased font-sans">
+          Ito ang pangatlong constellation - Hidden Forest. May{' '}
+          <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+            {FOREST_NUM_REG_SPIRIT}
+          </span>{' '}
+          regular spirits na makikita mo dito.
+        </Typography>
+      </>
     ),
     spirits: [
       // SHIVERING_TRAILBLAZER

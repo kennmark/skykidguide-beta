@@ -13,7 +13,7 @@ import PageHeaderContainer from '../components/PageHeaderContainer'
 import { SideBarContainer } from '../components/SidebarContainer'
 import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader2 } from '../../data/seasonTabHeader'
-import { seasons2024 } from '../../data/seasons'
+import { allSeasons, seasons2024 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 
 const S23MoominPage = () => {
@@ -31,9 +31,12 @@ const S23MoominPage = () => {
     map_shrines,
     season_type,
   } = seasons2024[3]
-  // console.log(seasons2024[3].ms_num)
 
+  const currentSeasonId = seasons2024.length - 1
+  const isCurrentSeason =
+    allSeasons === seasons2024[currentSeasonId].id ? true : false
   const dateToday = new Date()
+  // console.log(isCurrentSeason)
   return (
     <div className="flex justify-center">
       <div>
@@ -103,6 +106,7 @@ const S23MoominPage = () => {
                         icon_route={icon_route}
                         key={spirit.spirit_id}
                         season={name}
+                        isCurrentSeason={isCurrentSeason}
                       />
                     )
                   })}

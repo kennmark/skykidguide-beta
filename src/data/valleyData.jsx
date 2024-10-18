@@ -1,4 +1,4 @@
-import { Typography } from '@material-tailwind/react'
+import { Typography, Spinner } from '@material-tailwind/react'
 import {
   VALLEY_NUM_REG_SPIRIT,
   VALLEY_NUM_SEASON_SPIRIT,
@@ -166,6 +166,8 @@ import {
   HOPE_ITEM_2,
   HOPE_ITEM_3,
 } from '../exports/spiritValleyCollectibles'
+import ValleyConstellation from '../assets/images/maps-constellations/Map4-Valley-Constellation.jpg'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -174,13 +176,24 @@ export const valley = [
     label: 'Regular Spirits',
     value: 'regular_spirits',
     desc: (
-      <Typography className="antialiased font-sans">
-        May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
-          {VALLEY_NUM_REG_SPIRIT}
-        </span>{' '}
-        regular spirits na makikita mo dito.
-      </Typography>
+      <>
+        <LazyLoadImage
+          src={ValleyConstellation}
+          alt="Valley of Triumph"
+          title="Valley of Triumph"
+          placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
+          effect="blur"
+          width={'100%'}
+          className="rounded-xl pb-10"
+        />
+        <Typography className="antialiased font-sans">
+          May{' '}
+          <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+            {VALLEY_NUM_REG_SPIRIT}
+          </span>{' '}
+          regular spirits na makikita mo dito.
+        </Typography>
+      </>
     ),
     spirits: [
       // CONFIDENT_SIGHTSEER

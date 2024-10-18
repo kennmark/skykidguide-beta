@@ -32,6 +32,7 @@ const SpiritCardContainer = ({
   spirit_collectibles,
   spirit_tree_cost,
   number_of_visits,
+  isCurrentSeason,
 }) => {
   const [openVideoModal, setOpenVideoModal] = useState(false)
   const [openTextModal, setOpenTextModal] = useState(false)
@@ -48,7 +49,7 @@ const SpiritCardContainer = ({
   const spiritDirection = spirit_direction ?? ''
   const spiritCategory = spirit_category ?? ''
   const spiritReliveType = spirit_relive_type ?? ''
-
+  // console.log(isCurrentSeason)
   return (
     <Card
       color="gray"
@@ -176,6 +177,7 @@ const SpiritCardContainer = ({
           seasonLabel={seasonLabel}
           spiritTreeCost={spirit_tree_cost}
           noOfVisits={number_of_visits}
+          isCurrentSeason={isCurrentSeason}
         />
       </CardBody>
     </Card>

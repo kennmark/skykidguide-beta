@@ -1,6 +1,7 @@
 import rc from '../assets/images/icons/candle.png'
 import heart from '../assets/images/icons/heart.png'
 import ac from '../assets/images/icons/AC.png'
+import sc from '../assets/images/season-candles/23-season-of-moomin/moomin-sc-icon.webp'
 
 export const RC = rc
 export const HEART = heart
@@ -90,3 +91,5 @@ export const TOTAL_MS_COUNT = // October 14, 2024
 
 export const WL_COUNT_DATE_UPDATED = 'October 14, 2024' //Season of Moomin
 export const MS_COUNT_DATE_UPDATED = 'October 14, 2024'
+
+export const SC_23_MOOMIN_ICON = sc

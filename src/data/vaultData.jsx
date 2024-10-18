@@ -1,4 +1,4 @@
-import { Typography } from '@material-tailwind/react'
+import { Typography, Spinner } from '@material-tailwind/react'
 import {
   VAULT_NUM_REG_SPIRIT,
   VAULT_NUM_SEASON_SPIRIT,
@@ -30,7 +30,7 @@ import {
   HUNTER,
   HERB_GATHERER,
 } from '../exports/spiritIcons'
-import { MAP_SHRINE, WINGED_LIGHT } from '../exports/defaultImages'
+import { MAP_SHRINE, WINGED_LIGHT, NON_SPIRIT } from '../exports/defaultImages'
 import {
   VK_WL1,
   VK_WL2,
@@ -71,6 +71,7 @@ import {
   SEASON10,
   SEASON16,
   SEASON20,
+  SEASON23,
 } from '../exports/seasonIcons'
 import {
   VAULT_SPIRIT_1,
@@ -159,7 +160,29 @@ import {
   PRINCESS_ITEM_2,
   PRINCESS_ITEM_3,
   PRINCESS_ITEM_4,
+  COF_ITEM_1,
+  COF_ITEM_2,
+  COF_ITEM_3,
+  COF_ITEM_4,
+  COF_ITEM_5,
+  SOS_ITEM_1,
+  SOS_ITEM_2,
+  SOS_ITEM_3,
+  SOS_ITEM_4,
+  SOA_ITEM_1,
+  SOA_ITEM_2,
+  SOA_ITEM_3,
+  SOA_ITEM_4,
+  SOA_ITEM_5,
+  IOI_ITEM_1,
+  IOI_ITEM_2,
+  IOI_ITEM_3,
+  IOI_ITEM_4,
+  IOI_ITEM_5,
+  IOI_ITEM_6,
 } from '../exports/spiritVaultCollectibles'
+import VaultConstellation from '../assets/images/maps-constellations/Map6-Vault-Constellation.jpg'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -168,13 +191,24 @@ export const vault = [
     label: 'Regular Spirits',
     value: 'regular_spirits',
     desc: (
-      <Typography className="antialiased font-sans">
-        May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
-          {VAULT_NUM_REG_SPIRIT}
-        </span>{' '}
-        regular spirits na makikita mo dito.
-      </Typography>
+      <>
+        <LazyLoadImage
+          src={VaultConstellation}
+          alt="Vault of Knowledge"
+          title="Vault of Knowledge"
+          placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
+          effect="blur"
+          width={'100%'}
+          className="rounded-xl pb-10"
+        />
+        <Typography className="antialiased font-sans">
+          May{' '}
+          <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+            {VAULT_NUM_REG_SPIRIT}
+          </span>{' '}
+          regular spirits na makikita mo dito.
+        </Typography>
+      </>
     ),
     spirits: [
       // LEVITATING_ADEPT
@@ -1548,6 +1582,230 @@ export const vault = [
           `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
           `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
           `Pagkdating ay magtunog sa palasyo at umakyat papuntang tore ng palasyo at makita mo ang spirit.`,
+        ],
+      },
+      // Comfort of Kindness
+      {
+        id: 25,
+        spirit_id: 'vault25',
+        season_id: 23,
+        spirit_type: 'seasonal',
+        season: 'Season 23 - Season of Moomin',
+        spirit_category: 'non-entity',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_name: 'Comfort of Kindness',
+        spirit_img_url: NON_SPIRIT,
+        spirit_image: COF_ITEM_1,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: COF_ITEM_2,
+            currency: 'Season Candles',
+            price: 16,
+          },
+          {
+            label: 'Cape',
+            img: COF_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: COF_ITEM_4,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: COF_ITEM_5,
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 101,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
+        icon_route: SEASON23,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa Moomin Mural upang makarating sa MoominValley Glade`,
+          `Pagkdating ay magtunog sa grassy area kung saan ang shop ng mga entities.`,
+        ],
+      },
+      // Sense of Self
+      {
+        id: 26,
+        spirit_id: 'vault26',
+        season_id: 23,
+        spirit_type: 'seasonal',
+        season: 'Season 23 - Season of Moomin',
+        spirit_category: 'non-entity',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_name: 'Sense of Self',
+        spirit_img_url: NON_SPIRIT,
+        spirit_image: SOS_ITEM_1,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: SOS_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Neck Accessory',
+            img: SOS_ITEM_3,
+            currency: 'Season Candles',
+            price: 24,
+          },
+          {
+            label: 'Shoes',
+            img: SOS_ITEM_4,
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 85,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
+        icon_route: SEASON23,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa Moomin Mural upang makarating sa MoominValley Glade`,
+          `Pagkdating ay magtunog sa grassy area kung saan ang shop ng mga entities.`,
+        ],
+      },
+      // Spirit of Adventure
+      {
+        id: 27,
+        spirit_id: 'vault27',
+        season_id: 23,
+        spirit_type: 'seasonal',
+        season: 'Season 23 - Season of Moomin',
+        spirit_category: 'non-entity',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_name: 'Spirit of Adventure',
+        spirit_img_url: NON_SPIRIT,
+        spirit_image: SOA_ITEM_1,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: SOA_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: SOA_ITEM_3,
+            currency: 'Season Candles',
+            price: 38,
+          },
+          {
+            label: 'Instrument',
+            img: SOA_ITEM_4,
+            currency: 'Season Candles',
+            price: 20,
+          },
+          {
+            label: 'Prop',
+            img: SOA_ITEM_5,
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 95,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
+        icon_route: SEASON23,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa Moomin Mural upang makarating sa MoominValley Glade`,
+          `Pagkdating ay magtunog sa grassy area kung saan ang shop ng mga entities.`,
+        ],
+      },
+      // Inspiration of Inclusion
+      {
+        id: 28,
+        spirit_id: 'vault28',
+        season_id: 23,
+        spirit_type: 'seasonal',
+        season: 'Season 23 - Season of Moomin',
+        spirit_category: 'non-entity',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_name: 'Inspiration of Inclusion',
+        spirit_img_url: NON_SPIRIT,
+        spirit_image: IOI_ITEM_1,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: IOI_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: IOI_ITEM_3,
+            currency: 'Season Candles',
+            price: 38,
+          },
+          {
+            label: 'Suitpants',
+            img: IOI_ITEM_4,
+            currency: 'Season Candles',
+            price: 20,
+          },
+          {
+            label: 'Prop',
+            img: IOI_ITEM_5,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: IOI_ITEM_6,
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 113,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
+        icon_route: SEASON23,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          `Pasok sa Ika-6 na Mapa | Vault of Knowledge, at lumipad patungo pataas sa kaliwa ay may lagusan,`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa Moomin Mural upang makarating sa MoominValley Glade`,
+          `Pagkdating ay magtunog sa grassy area kung saan ang shop ng mga entities.`,
         ],
       },
     ],

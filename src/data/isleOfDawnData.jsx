@@ -1,4 +1,4 @@
-import { Typography } from '@material-tailwind/react'
+import { Typography, Spinner } from '@material-tailwind/react'
 import { ArrowRightCircleIcon } from '@heroicons/react/24/solid'
 import {
   ISLE_NUM_REG_SPIRIT,
@@ -118,6 +118,8 @@ import {
   OVERACTIVE_ITEM_2,
   OVERACTIVE_ITEM_3,
 } from '../exports/spiritIsleCollectibles'
+import IsleConstellation from '../assets/images/maps-constellations/Map1-Isle-Constellation.jpg'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -126,14 +128,25 @@ export const isleOfDawn = [
     label: 'Regular Spirits',
     value: 'regular_spirits',
     desc: (
-      <Typography className="antialiased font-sans">
-        May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
-          {ISLE_NUM_REG_SPIRIT}
-        </span>{' '}
-        regular spirits na makikita mo dito. Andito ang mga spirits ng Pointing
-        Candlemaker, Rejecting Voyager at ang Ushering Stargazer.
-      </Typography>
+      <>
+        <LazyLoadImage
+          src={IsleConstellation}
+          alt="Isle Of Dawn"
+          title="Isle Of Dawn"
+          placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
+          effect="blur"
+          width={'100%'}
+          className="rounded-xl pb-10"
+        />
+        <Typography className="antialiased font-sans">
+          May{' '}
+          <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+            {ISLE_NUM_REG_SPIRIT}
+          </span>{' '}
+          regular spirits na makikita mo dito. Andito ang mga spirits ng
+          Pointing Candlemaker, Rejecting Voyager at ang Ushering Stargazer.
+        </Typography>
+      </>
     ),
     spirits: [
       {

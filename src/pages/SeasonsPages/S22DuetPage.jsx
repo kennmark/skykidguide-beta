@@ -31,7 +31,9 @@ const S22DuetPage = () => {
     map_shrines,
     season_type,
   } = seasons2024[2]
+
   const dateToday = new Date()
+
   return (
     <div className="flex justify-center">
       <div>
