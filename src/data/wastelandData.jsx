@@ -145,7 +145,7 @@ import {
   CACKLING_ITEM_2,
   CACKLING_ITEM_3,
 } from '../exports/spiritWastelandCollectibles'
-import WastelandConstellation from '../assets/images/maps-constellations/Map5_Wasteland_Constellation.jpg'
+import WastelandConstellation from '../assets/images/maps-constellations/Wasteland_Constellation.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
@@ -162,10 +162,9 @@ export const wasteland = [
           title="Golden Wasteland"
           placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
           effect="blur"
-          width={'100%'}
-          className="rounded-xl pb-10"
+          className="rounded-xl"
         />
-        <Typography className="antialiased font-sans">
+        <Typography className="antialiased font-sans pt-4">
           May{' '}
           <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
             {WASTELAND_NUM_REG_SPIRIT}

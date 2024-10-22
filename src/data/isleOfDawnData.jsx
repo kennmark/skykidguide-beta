@@ -118,7 +118,7 @@ import {
   OVERACTIVE_ITEM_2,
   OVERACTIVE_ITEM_3,
 } from '../exports/spiritIsleCollectibles'
-import IsleConstellation from '../assets/images/maps-constellations/Map1_Isle_Constellation.jpg'
+import IsleConstellation from '../assets/images/maps-constellations/Isle_Constellation.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
@@ -128,17 +128,16 @@ export const isleOfDawn = [
     label: 'Regular Spirits',
     value: 'regular_spirits',
     desc: (
-      <>
+      <div className="flex justify-center flex-wrap gap-2">
         <LazyLoadImage
           src={IsleConstellation}
           alt="Isle Of Dawn"
           title="Isle Of Dawn"
           placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
           effect="blur"
-          width={'100%'}
-          className="rounded-xl pb-10"
+          className="rounded-xl"
         />
-        <Typography className="antialiased font-sans">
+        <Typography className="antialiased font-sans pt-4">
           May{' '}
           <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
             {ISLE_NUM_REG_SPIRIT}
@@ -146,7 +145,7 @@ export const isleOfDawn = [
           regular spirits na makikita mo dito. Andito ang mga spirits ng
           Pointing Candlemaker, Rejecting Voyager at ang Ushering Stargazer.
         </Typography>
-      </>
+      </div>
     ),
     spirits: [
       {

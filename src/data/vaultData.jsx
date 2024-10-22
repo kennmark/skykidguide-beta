@@ -181,7 +181,7 @@ import {
   IOI_ITEM_5,
   IOI_ITEM_6,
 } from '../exports/spiritVaultCollectibles'
-import VaultConstellation from '../assets/images/maps-constellations/Map6_Vault_Constellation.jpg'
+import VaultConstellation from '../assets/images/maps-constellations/Vault_Constellation.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
@@ -198,10 +198,9 @@ export const vault = [
           title="Vault of Knowledge"
           placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
           effect="blur"
-          width={'100%'}
-          className="rounded-xl pb-10"
+          className="rounded-xl"
         />
-        <Typography className="antialiased font-sans">
+        <Typography className="antialiased font-sans pt-4">
           May{' '}
           <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
             {VAULT_NUM_REG_SPIRIT}

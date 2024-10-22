@@ -166,7 +166,7 @@ import {
   HOPE_ITEM_2,
   HOPE_ITEM_3,
 } from '../exports/spiritValleyCollectibles'
-import ValleyConstellation from '../assets/images/maps-constellations/Map4_Valley_Constellation.jpg'
+import ValleyConstellation from '../assets/images/maps-constellations/Valley_Constellation.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
@@ -183,10 +183,9 @@ export const valley = [
           title="Valley of Triumph"
           placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
           effect="blur"
-          width={'100%'}
-          className="rounded-xl pb-10"
+          className="rounded-xl"
         />
-        <Typography className="antialiased font-sans">
+        <Typography className="antialiased font-sans pt-4">
           May{' '}
           <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
             {VALLEY_NUM_REG_SPIRIT}

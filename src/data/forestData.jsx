@@ -155,7 +155,7 @@ import {
   BUILDER_ITEM_2,
   BUILDER_ITEM_3,
 } from '../exports/spiritForestCollectibles'
-import ForestConstellation from '../assets/images/maps-constellations/Map3_Forest_Constellation.jpg'
+import ForestConstellation from '../assets/images/maps-constellations/Forest_Constellation.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
@@ -172,10 +172,9 @@ export const hiddenForest = [
           title="Hidden Forest"
           placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
           effect="blur"
-          width={'100%'}
-          className="rounded-xl pb-10"
+          className="rounded-xl"
         />
-        <Typography className="antialiased font-sans">
+        <Typography className="antialiased font-sans pt-4">
           Ito ang pangatlong constellation - Hidden Forest. May{' '}
           <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
             {FOREST_NUM_REG_SPIRIT}

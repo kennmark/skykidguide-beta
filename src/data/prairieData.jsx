@@ -155,7 +155,7 @@ import {
   NIGHTBIRD_ITEM_3,
   NIGHTBIRD_ITEM_4,
 } from '../exports/spiritPrairieCollectibles'
-import PrairieConstellation from '../assets/images/maps-constellations/Map2_Prairie_Constellation.jpg'
+import PrairieConstellation from '../assets/images/maps-constellations/Prairie_Constellation.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
@@ -172,10 +172,9 @@ export const prairie = [
           title="Daylight Prairie"
           placeholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
           effect="blur"
-          width={'100%'}
-          className="rounded-xl pb-10"
+          className="rounded-xl"
         />
-        <Typography className="antialiased font-sans">
+        <Typography className="antialiased font-sans pt-4">
           Ito ang pangalawang constellation - Daylight Prairie. May{' '}
           <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
             {PRAIRIE_NUM_REG_SPIRIT}
