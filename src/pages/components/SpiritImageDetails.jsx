@@ -149,7 +149,7 @@ const SpiritImageDetails = ({
                           className="h-4 md:h-5"
                         />
                       </span>
-                    ) : collectible.currency === 'Heart' ? (
+                    ) : collectible.currency === 'Hearts' ? (
                       <span className="inline-flex flex-wrap justify-center">
                         <img
                           src={HEART}
@@ -162,8 +162,8 @@ const SpiritImageDetails = ({
                       <span className="inline-flex flex-wrap justify-center">
                         <img
                           src={SC_23_MOOMIN_ICON}
-                          alt="hearts"
-                          title="hearts"
+                          alt="Season Candles"
+                          title="Season Candles"
                           className="h-4 md:h-5"
                         />
                       </span>
