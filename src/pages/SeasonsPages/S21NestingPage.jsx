@@ -6,6 +6,7 @@ import {
   TabsBody,
   TabPanel,
   Typography,
+  Spinner,
 } from '@material-tailwind/react'
 import SpiritCardContainer from '../components/SpiritCardContainer'
 import CardContainer from '../components/CardContainer'
@@ -15,6 +16,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader2 } from '../../data/seasonTabHeader'
 import { seasons2024 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import SeasonOfNesting from '../../assets/images/home-carousel/Season-of-Nesting.jpg'
 
 const S21NestingPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -71,6 +74,16 @@ const S21NestingPage = () => {
             <TabPanel key={activeTab} value={activeTab}>
               {activeTab === 'info' && (
                 <div className="text-gray-100 pb-5">
+                  <LazyLoadImage
+                    src={SeasonOfNesting}
+                    alt="Season of Nesting"
+                    title="Season of Nesting"
+                    placeholderSrc={
+                      <Spinner className="h-10 w-10 text-gray-900/50" />
+                    }
+                    effect="blur"
+                    className="rounded-xl"
+                  />
                   <Typography>
                     {quick_info} Nagsimula ito noong {time_duration}. May{' '}
                     {spirit_num} na spirits sa season na ito at{' '}

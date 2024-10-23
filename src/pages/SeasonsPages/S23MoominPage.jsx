@@ -6,6 +6,7 @@ import {
   TabsBody,
   TabPanel,
   Typography,
+  Spinner,
 } from '@material-tailwind/react'
 import SpiritCardContainer from '../components/SpiritCardContainer'
 import CardContainer from '../components/CardContainer'
@@ -15,6 +16,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader2 } from '../../data/seasonTabHeader'
 import { allSeasons, seasons2024 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import SeasonOfMoomin from '../../assets/images/home-carousel/Season-of-Moomin.jpg'
 
 const S23MoominPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -49,7 +52,7 @@ const S23MoominPage = () => {
           height={25}
           width={75}
           title={name}
-          mapIntro={`4th Collab Season in Sky`}
+          mapIntro={quick_info}
         />
         <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader
@@ -78,6 +81,16 @@ const S23MoominPage = () => {
             <TabPanel key={activeTab} value={activeTab}>
               {activeTab === 'info' && (
                 <div className="text-gray-100 pb-5">
+                  <LazyLoadImage
+                    src={SeasonOfMoomin}
+                    alt="Season of Moomin"
+                    title="Season of Moomin"
+                    placeholderSrc={
+                      <Spinner className="h-10 w-10 text-gray-900/50" />
+                    }
+                    effect="blur"
+                    className="rounded-xl"
+                  />
                   <Typography>
                     {quick_info}{' '}
                     {time_duration === dateToday

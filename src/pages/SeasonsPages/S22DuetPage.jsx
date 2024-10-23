@@ -6,6 +6,7 @@ import {
   TabsBody,
   TabPanel,
   Typography,
+  Spinner,
 } from '@material-tailwind/react'
 import SpiritCardContainer from '../components/SpiritCardContainer'
 import CardContainer from '../components/CardContainer'
@@ -15,6 +16,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader2 } from '../../data/seasonTabHeader'
 import { seasons2024 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import SeasonOfDuets from '../../assets/images/home-carousel/Season-of-Duets.jpg'
 
 const S22DuetPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -75,6 +78,16 @@ const S22DuetPage = () => {
             <TabPanel key={activeTab} value={activeTab}>
               {activeTab === 'info' && (
                 <div className="text-gray-100 pb-5">
+                  <LazyLoadImage
+                    src={SeasonOfDuets}
+                    alt="Season of Duets"
+                    title="Season of Duets"
+                    placeholderSrc={
+                      <Spinner className="h-10 w-10 text-gray-900/50" />
+                    }
+                    effect="blur"
+                    className="rounded-xl"
+                  />
                   <Typography>
                     {quick_info}{' '}
                     {time_duration === dateToday

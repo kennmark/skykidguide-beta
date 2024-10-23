@@ -48,30 +48,33 @@ const AccordionSeason2024 = ({ open, handleOpen }) => {
       </ListItem>
       <AccordionBody className="py-1">
         <List className="p-0">
-          {seasons2024.map((season) => {
-            return (
-              <Link
-                to={`/${season.page_route}`}
-                className=" text-blue-gray-900"
-                key={season.id}
-              >
-                <ListItem className="hover:text-pink-500">
-                  <ListItemPrefix>
-                    <LazyLoadImage
-                      src={season.icon_route}
-                      alt={season.name}
-                      width={35}
-                      placeholderSrc={
-                        <Spinner className="h-10 w-10 text-gray-900/50" />
-                      }
-                      effect="blur"
-                    />
-                  </ListItemPrefix>
-                  {season.name}
-                </ListItem>
-              </Link>
-            )
-          })}
+          {seasons2024
+            .slice()
+            .reverse()
+            .map((season) => {
+              return (
+                <Link
+                  to={`/${season.page_route}`}
+                  className=" text-blue-gray-900"
+                  key={season.id}
+                >
+                  <ListItem className="hover:text-pink-500">
+                    <ListItemPrefix>
+                      <LazyLoadImage
+                        src={season.icon_route}
+                        alt={season.name}
+                        width={35}
+                        placeholderSrc={
+                          <Spinner className="h-10 w-10 text-gray-900/50" />
+                        }
+                        effect="blur"
+                      />
+                    </ListItemPrefix>
+                    {season.name}
+                  </ListItem>
+                </Link>
+              )
+            })}
         </List>
       </AccordionBody>
     </Accordion>

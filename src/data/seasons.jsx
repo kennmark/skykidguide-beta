@@ -2949,7 +2949,7 @@ export const seasons2024 = [
     ms_num: 1,
     icon_route: SEASON20,
     page_route: 'seasons/2024/season-20/the-nine-colored-deer',
-    quick_info: ` It is the third collaborative Seasonal Event in the world of Sky.`,
+    quick_info: `It is the third collaborative Seasonal Event in the world of Sky.`,
     season_spirits: [
       //HUNTER
       {
@@ -3479,7 +3479,7 @@ export const seasons2024 = [
     ms_num: 1,
     icon_route: SEASON23,
     page_route: 'seasons/2024/season-23/moomin',
-    quick_info: `4th Collab Season in Sky`,
+    quick_info: `Revisit a classic tale about friendship.`,
     season_spirits: [
       //Comfort of Kindness
       {
