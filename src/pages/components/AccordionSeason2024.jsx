@@ -39,7 +39,7 @@ const AccordionSeason2024 = ({ open, handleOpen }) => {
           <Typography
             color="blue-gray"
             className={`mr-auto font-normal transition-colors ${
-              open === 7 ? 'text-blue-500 hover:!text-blue-700' : ''
+              open === 7 ? 'text-amber-700 hover:!text-amber-900' : ''
             }`}
           >
             Seasons in 2024
@@ -58,7 +58,7 @@ const AccordionSeason2024 = ({ open, handleOpen }) => {
                   className=" text-blue-gray-900"
                   key={season.id}
                 >
-                  <ListItem className="hover:text-pink-500">
+                  <ListItem className="hover:text-amber-700">
                     <ListItemPrefix>
                       <LazyLoadImage
                         src={season.icon_route}

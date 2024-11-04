@@ -31,15 +31,17 @@ const AccordionSeason2020 = ({ open, handleOpen }) => {
       <ListItem className="p-0" selected={open === 3}>
         <AccordionHeader
           onClick={() => handleOpen(3)}
-          className="border-b-0 p-3"
+          className={`border-b-0 p-3 ${
+            open === 3 ? 'text-amber-700 hover:!text-amber-900' : ''
+          }`}
         >
           <ListItemPrefix>
-            <SparklesIcon className="h-5 w-5" />
+            <SparklesIcon className={`h-5 w-5 `} />
           </ListItemPrefix>
           <Typography
             color="blue-gray"
             className={`mr-auto font-normal transition-colors ${
-              open === 3 ? 'text-blue-500 hover:!text-blue-700' : ''
+              open === 3 ? 'text-amber-700 hover:!text-amber-900' : ''
             }`}
           >
             Seasons in 2020
@@ -58,7 +60,7 @@ const AccordionSeason2020 = ({ open, handleOpen }) => {
                   className=" text-blue-gray-900"
                   key={season.id}
                 >
-                  <ListItem className="hover:text-pink-500">
+                  <ListItem className="hover:text-amber-700">
                     <ListItemPrefix>
                       <LazyLoadImage
                         src={season.icon_route}

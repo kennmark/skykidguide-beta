@@ -68,6 +68,11 @@ const PageMapShrines = lazy(() => {
     setTimeout(() => resolve(import('./pages/PageMapShrines')), 300)
   })
 })
+const PageVeterans = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import('./pages/VeteranPage')), 300)
+  })
+})
 const PageSeasonMap = lazy(() => import('./pages/PageSeasonMap'))
 
 const ErrorPage = lazy(() => import('./pages/ErrorPage'))
@@ -348,6 +353,14 @@ function App() {
                 element={
                   <Layout>
                     <PageMapShrines />
+                  </Layout>
+                }
+              />
+              <Route
+                path="/veterans"
+                element={
+                  <Layout>
+                    <PageVeterans />
                   </Layout>
                 }
               />

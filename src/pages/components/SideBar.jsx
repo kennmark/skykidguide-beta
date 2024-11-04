@@ -13,10 +13,11 @@ import {
   GlobeAsiaAustraliaIcon,
   UserGroupIcon,
   InboxIcon,
+  CheckBadgeIcon,
 } from '@heroicons/react/24/solid'
 import {
   ChevronDownIcon,
-  ArrowRightOnRectangleIcon,
+  ArrowRightStartOnRectangleIcon,
 } from '@heroicons/react/24/outline'
 import { maps } from '../../data/maps'
 import AccordionSeason2019 from './AccordionSeason2019'
@@ -35,7 +36,7 @@ const SideBar = ({ screenSize }) => {
 
   return (
     <div className="sticky top-24 h-fit w-full max-w-[20rem] p-4 pb-16 shadow-xl shadow-blue-gray-900/5 bg-blue-gray-50">
-      <div className="mb-2 flex items-center gap-4 p-4">
+      <div className="mb-2 gap-4 p-4">
         <Typography variant="h5" color="blue-gray">
           Dashboard
         </Typography>
@@ -64,7 +65,7 @@ const SideBar = ({ screenSize }) => {
                 color="blue-gray"
                 className={`mr-auto font-normal transition-colors ${
                   open === 1
-                    ? 'text-blue-500 hover:!text-blue-700 font-semibold'
+                    ? 'text-pink-500 hover:!text-pink-700 font-semibold'
                     : ''
                 }`}
               >
@@ -87,7 +88,7 @@ const SideBar = ({ screenSize }) => {
                       </Typography>
 
                       <ListItemSuffix>
-                        <ArrowRightOnRectangleIcon className="h-5 w-5" />
+                        <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
                       </ListItemSuffix>
                     </ListItem>
                   </Link>
@@ -97,6 +98,7 @@ const SideBar = ({ screenSize }) => {
           </AccordionBody>
         </Accordion>
         <hr className="my-2 border-blue-gray-900" />
+
         <AccordionSeason2024 open={open} handleOpen={handleOpen} />
         <AccordionSeason2023 open={open} handleOpen={handleOpen} />
         <AccordionSeason2022 open={open} handleOpen={handleOpen} />
@@ -106,26 +108,39 @@ const SideBar = ({ screenSize }) => {
         <hr className="my-2 border-blue-gray-900" />
         <ListItem>
           <Link to={'/winged-lights'}>
-            <div className="flex flex-wrap text-blue-gray-900">
+            <div className="flex text-blue-gray-700">
               <ListItemPrefix>
                 <UserGroupIcon className="h-5 w-5" />
               </ListItemPrefix>
-              Winged Lights
+              <div>Winged Lights</div>
               <ListItemSuffix>
-                <ArrowRightOnRectangleIcon className="h-5 w-5" />
+                <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
               </ListItemSuffix>
             </div>
           </Link>
         </ListItem>
         <ListItem>
           <Link to={'/map-shrines'}>
-            <div className="flex flex-wrap text-blue-gray-900">
+            <div className="flex flex-wrap text-blue-gray-700">
               <ListItemPrefix>
                 <InboxIcon className="h-5 w-5" />
               </ListItemPrefix>
               Map Shrines
               <ListItemSuffix>
-                <ArrowRightOnRectangleIcon className="h-5 w-5" />
+                <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
+              </ListItemSuffix>
+            </div>
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link to={'/veterans'}>
+            <div className="flex flex-wrap text-blue-gray-700">
+              <ListItemPrefix>
+                <CheckBadgeIcon className="h-5 w-5" />
+              </ListItemPrefix>
+              Veterans
+              <ListItemSuffix>
+                <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
               </ListItemSuffix>
             </div>
           </Link>
