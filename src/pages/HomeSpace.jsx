@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { maps } from '../data/maps'
 import { Typography, Chip, Tooltip, Button } from '@material-tailwind/react'
 import { Link } from 'react-router-dom'
@@ -16,7 +16,21 @@ import LatestTSVisit from './components/LatestTSVisit'
 import WingedLightIntro from './components/WingedLightIntro'
 import MapShrineIntro from './components/MapShrineIntro'
 import AnnouncementCarousel from './components/AnnouncementCarousel'
+import useScreenSize from '../hooks/useScreenSize'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import {
+  EffectCoverflow,
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+} from 'swiper/modules'
 
+import 'swiper/css'
+import 'swiper/css/effect-coverflow'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import 'swiper/css/scrollbar'
 // import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const HomeSpace = () => {
@@ -129,6 +143,8 @@ const HomeSpace = () => {
     )
   }
 
+  const screenSize = useScreenSize()
+
   return (
     <div>
       <AnnouncementModal />
@@ -176,9 +192,33 @@ const HomeSpace = () => {
         </Typography>
       </div>
       <div className="flex flex-wrap justify-center">
-        {maps.map((map) => {
-          return <MapCardContainer {...map} key={map.id} />
-        })}
+        {screenSize < 1440 ? (
+          maps.map((map) => {
+            return <MapCardContainer {...map} key={map.id} />
+          })
+        ) : (
+          <Swiper
+            spaceBetween={10}
+            slidesPerView={3}
+            modules={[Navigation, Pagination, Scrollbar, A11y, EffectCoverflow]}
+            navigation
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+            slideshadows
+            loop={true}
+            effect="coverflow"
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+          >
+            {maps.map((map) => {
+              return (
+                <SwiperSlide zoom={true} className="flex justify-center">
+                  <MapCardContainer {...map} key={map.id} />
+                </SwiperSlide>
+              )
+            })}
+          </Swiper>
+        )}
       </div>
       <div className="my-6 w-96 md:w-full border-t border-blue-gray-50">
         <WingedLightIntro />

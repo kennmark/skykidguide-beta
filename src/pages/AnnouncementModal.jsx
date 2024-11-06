@@ -36,7 +36,7 @@ const AnnouncementModal = () => {
   useEffect(() => {
     setTimeout(() => {
       setOpen(false)
-    }, 20000)
+    }, 25000)
   })
 
   return (

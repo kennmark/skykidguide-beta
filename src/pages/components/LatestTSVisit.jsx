@@ -1,5 +1,6 @@
 import React from 'react'
 import { Typography } from '@material-tailwind/react'
+
 import { isleOfDawn } from '../../data/isleOfDawnData'
 import { prairie } from '../../data/prairieData'
 import { hiddenForest } from '../../data/forestData'
@@ -7,10 +8,26 @@ import { valley } from '../../data/valleyData'
 import { wasteland } from '../../data/wastelandData'
 import { vault } from '../../data/vaultData'
 import SpiritCardContainer from './SpiritCardContainer'
-import { seasons2022 } from '../../data/seasons'
+import {
+  seasons2019,
+  seasons2020,
+  seasons2021,
+  seasons2022,
+  seasons2023,
+  seasons2024,
+} from '../../data/seasons'
 
 const LatestTSVisit = () => {
-  // const latestTS = seasons2022.map(())
+  // const allSeasonSpirits = _.merge(
+  //   seasons2019,
+  //   seasons2020,
+  //   seasons2021,
+  //   seasons2022,
+  //   seasons2023,
+  //   seasons2024
+  // )
+  // console.log(allSeasonSpirits)
+
   // const IsleTS = isleOfDawn.map((seasonSpirits) => seasonSpirits.spirits)
   // const PrairieTS = prairie.map((seasonSpirits) => seasonSpirits.spirits)
   // const ForestTS = hiddenForest.map((seasonSpirits) => seasonSpirits.spirits)
@@ -37,7 +54,6 @@ const LatestTSVisit = () => {
   // const sortedTS = mergedTS.slice().sort()
   // const sorted = mergedTS.sort((a, b) => a.season_id - b.season_id)
   // const founded = mergedTS.find(({ season_id }) => season_id === 1)
-  // console.log(IsleTS)
 
   return (
     <div className="border-t border-blue-gray-50">

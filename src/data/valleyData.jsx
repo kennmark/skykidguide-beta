@@ -1505,35 +1505,40 @@ export const valley = [
             label: 'Hair',
             img: WARRIOR_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 45,
           },
           {
             label: 'Mask',
             img: WARRIOR_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 42,
           },
           {
             label: 'Cape',
             img: WARRIOR_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 80,
           },
           {
             label: 'Emote',
             img: WARRIOR_OF_LOVE,
             currency: 'Hearts',
-            price: 0,
+            price: 13,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
-            hearts: 0,
+            candles: 183,
+            hearts: 13,
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Nov 7, 2024',
+            visitNo: 126,
+          },
+        ],
         icon_route: SEASON15,
         spirit_guide_video_url: youtube_embed + 'Lb3DAYkWxoM',
         spirit_direction: [

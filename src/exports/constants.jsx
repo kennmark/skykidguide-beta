@@ -71,14 +71,14 @@ export const WL_COUNT =
 
 export const WB_REGULAR_SPIRITS = 49
 //!!!UPDATE THIS Wing Buff Count every new TS that hasnt arrived yet!!!
-export const WB_TRAVELING_SPIRITS = 70 // updated October 10, 2024 Boatswain visit
+export const WB_TRAVELING_SPIRITS = 71 // updated November 7, 2024 TS Warrior of Love
 
 export const MS_HOME = 1
 
 export const TOTAL_WL_COUNT =
   WL_COUNT + WB_REGULAR_SPIRITS + WB_TRAVELING_SPIRITS + SHARDS_WL + ORBIT_WL
 
-export const TOTAL_MS_COUNT = // October 14, 2024
+export const TOTAL_MS_COUNT = // November 7, 2024
   ISLE_NUM_MAP_SHRINES +
   PRAIRIE_NUM_MAP_SHRINES +
   FOREST_NUM_MAP_SHRINES +
@@ -89,7 +89,7 @@ export const TOTAL_MS_COUNT = // October 14, 2024
   AVIARY_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'October 14, 2024' //Season of Moomin
+export const WL_COUNT_DATE_UPDATED = 'November 7, 2024' //TS Warrior of Love
 export const MS_COUNT_DATE_UPDATED = 'October 14, 2024'
 
 export const SC_23_MOOMIN_ICON = sc
