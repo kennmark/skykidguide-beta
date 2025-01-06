@@ -248,9 +248,9 @@ const HomeSpace = () => {
           </Button>
         </Link>
       </div>
-      <div className="my-6 w-96 md:w-full">
+      {/* <div className="my-6 w-96 md:w-full">
         <LatestTSVisit />
-      </div>
+      </div> */}
       <div className="my-6 w-96 md:w-full">
         <Testimonials />
       </div>

@@ -1505,19 +1505,19 @@ export const valley = [
             label: 'Hair',
             img: WARRIOR_ITEM_1,
             currency: 'Candles',
-            price: 45,
+            price: 40,
           },
           {
             label: 'Mask',
             img: WARRIOR_ITEM_2,
             currency: 'Candles',
-            price: 42,
+            price: 35,
           },
           {
             label: 'Cape',
             img: WARRIOR_ITEM_3,
             currency: 'Candles',
-            price: 80,
+            price: 75,
           },
           {
             label: 'Emote',

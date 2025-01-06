@@ -138,7 +138,9 @@ const SpiritImageDetails = ({
                 <div className="flex flex-row">
                   <Typography className="text-sm md:text-base">
                     {collectible.label} -{' '}
-                    <span className="text-amber-500">{collectible.price}</span>
+                    <span className="text-amber-500">
+                      {collectible.price === 0 ? 'Free' : collectible.price}
+                    </span>
                     &nbsp;
                     {collectible.currency === 'Candles' ? (
                       <span className="inline-flex flex-wrap justify-center">
@@ -157,6 +159,10 @@ const SpiritImageDetails = ({
                           title="hearts"
                           className="h-4 md:h-5"
                         />
+                      </span>
+                    ) : collectible.currency === 'Free' ? (
+                      <span className="inline-flex flex-wrap justify-center">
+                        &nbsp;
                       </span>
                     ) : (
                       <span className="inline-flex flex-wrap justify-center">

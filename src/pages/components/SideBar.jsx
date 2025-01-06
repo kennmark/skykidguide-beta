@@ -26,6 +26,7 @@ import AccordionSeason2021 from './AccordionSeason2021'
 import AccordionSeason2022 from './AccordionSeason2022'
 import AccordionSeason2023 from './AccordionSeason2023'
 import AccordionSeason2024 from './AccordionSeason2024'
+import AccordionSeason2025 from './AccordionSeason2025'
 import { Link } from 'react-router-dom'
 
 const SideBar = ({ screenSize }) => {
@@ -99,6 +100,7 @@ const SideBar = ({ screenSize }) => {
         </Accordion>
         <hr className="my-2 border-blue-gray-900" />
 
+        <AccordionSeason2025 open={open} handleOpen={handleOpen} />
         <AccordionSeason2024 open={open} handleOpen={handleOpen} />
         <AccordionSeason2023 open={open} handleOpen={handleOpen} />
         <AccordionSeason2022 open={open} handleOpen={handleOpen} />
@@ -132,7 +134,7 @@ const SideBar = ({ screenSize }) => {
             </div>
           </Link>
         </ListItem>
-        <ListItem>
+        {/* <ListItem>
           <Link to={'/veterans'}>
             <div className="flex flex-wrap text-blue-gray-700">
               <ListItemPrefix>
@@ -144,9 +146,8 @@ const SideBar = ({ screenSize }) => {
               </ListItemSuffix>
             </div>
           </Link>
-        </ListItem>
+        </ListItem> */}
       </List>
-      {/* {!screenSize <= window.innerWidth && <BuyMeACoffee />} */}
     </div>
   )
 }

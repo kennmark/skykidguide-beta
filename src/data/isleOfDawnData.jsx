@@ -282,7 +282,7 @@ export const isleOfDawn = [
           {
             label: 'Hair',
             img: VOYAGER_ITEM_2,
-            currency: 'Hears',
+            currency: 'Hearts',
             price: 1,
           },
           {

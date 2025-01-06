@@ -12,6 +12,7 @@ import {
   seasons2022,
   seasons2023,
   seasons2024,
+  seasons2025,
 } from '../data/seasons'
 const PageSeasonMap = () => {
   return (
@@ -258,7 +259,21 @@ const PageSeasonMap = () => {
               </TimelineItem>
             </Timeline>
           </div> */}
+          {/* Seasons 2025 */}
+          <div className="pt-5 w-full px-5">
+            <div className="">
+              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
+                Seasons 2025 - [Radiance]
+              </Card>
+            </div>
 
+            <div className="flex flex-wrap  justify-center gap-4 py-5">
+              {seasons2025.map((season) => {
+                return <SeasonDisplayContainer {...season} key={season.id} />
+              })}
+            </div>
+          </div>
+          {/* Seasons 2025 */}
           {/* Seasons 2024 */}
           <div className="pt-5 w-full px-5">
             <div className="">

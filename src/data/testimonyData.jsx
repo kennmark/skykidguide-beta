@@ -96,4 +96,12 @@ export const testimonies = [
     group: 'SkyPH-Member',
     testimonial: `It's great, thank  you ❤. Your site is really well done. I wish I found this when I was a beginner. But still very helpful.`,
   },
+  {
+    id: 13,
+    testimonee: 'Aeriii',
+    testimonee_avatar: avatarLady,
+    group: 'SkyPH-Member',
+    testimonial: `thank you pooo kung sino man po may ari nito. Sobrang helpful nya po. Lalo na sa mga Moth, yes. Moth pa din tawag ko sa sarili kk.
+    🥹🥹🥹 Na hindi ganon kabisado yung map. Iwas hilo and pabalik balik na me, lalo na sa mga WL. 🥺🫶🏻`,
+  },
 ]

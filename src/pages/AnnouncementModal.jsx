@@ -43,7 +43,7 @@ const AnnouncementModal = () => {
     <Dialog
       open={open}
       handler={handleOpen}
-      className="bg-transparent/80 h-auto -top-14 md:top-0"
+      className="bg-transparent/80 h-auto -top-14 md:top-0 overflow-hidden"
     >
       <DialogHeader className="flex justify-center">
         <svg
@@ -65,7 +65,7 @@ const AnnouncementModal = () => {
       </DialogHeader>
       <DialogBody divider className="grid place-items-center gap-4">
         <Typography variant="h6" className="text-orange-400">
-          PAUNANG MGA SALITA
+          Word from Dev
         </Typography>
 
         <Typography className="text-center text-white text-sm lg:text-lg ">
@@ -86,9 +86,6 @@ const AnnouncementModal = () => {
           Upang mas maging user-friendly at interaktibo ang paggamit, ang mga
           bahagi ng website na ito ay nakasulat sa wikang Filipino upang mas
           madaling maunawaan ng mga Pilipinong gagamit nito.
-        </Typography>
-        <Typography variant="small" color="amber">
-          - Developer
         </Typography>
       </DialogBody>
       <DialogFooter className="space-x-2">

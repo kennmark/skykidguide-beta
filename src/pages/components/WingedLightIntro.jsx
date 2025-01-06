@@ -101,7 +101,7 @@ const WingedLightIntro = () => {
             </tbody>
           </table>
         </Card>
-        <LazyLoadImage src={WINGED_LIGHT} width={260} className="pl-5" />
+        <LazyLoadImage src={WINGED_LIGHT} width="auto" className="pl-5 gap-3" />
       </div>
     </div>
   )
