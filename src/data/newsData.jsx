@@ -167,4 +167,10 @@ We’re thrilled to announce that preparations for Days of Gathering 2024 are al
     newsLink:
       'https://www.thatskygame.com/news/season-of-moomin-a-classic-tale-of-healing-and-acceptance/',
   },
+  {
+    id: 18,
+    newsTitle: `Season of Radiance`,
+    newsBody: `Upcoming 24th Season in Sky - Season of Radiance.`,
+    newsLink: '',
+  },
 ]

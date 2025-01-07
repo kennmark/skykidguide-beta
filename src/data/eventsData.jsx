@@ -7,6 +7,7 @@ import TOT2024 from '../assets/images/events/TournamentOfTriumph2024.jpg'
 import DOS2024 from '../assets/images/events/DaysOfSunglight2024.jpg'
 import DOM2024 from '../assets/images/events/DaysOfMoonlight.jpg'
 import DOF2024 from '../assets/images/events/DaysOfFashion2024.jpg'
+import DOFxAlice2024 from '../assets/images/events/DaysOfFeast-x-Alice-in-Wonderland.webp'
 
 export const eventsData = [
   {
@@ -132,5 +133,15 @@ export const eventsData = [
     eager to whisk you away to fashion runways hidden within Sky’s beautiful realms. This year, we’re 
     introducing four new runway locations, each debuting a unique theme. Think of it as a rotating showcase 
     for your imagination!Come and show off with your friends your style! Have a great fashion event, SKYPH KIDS!`,
+  },
+  {
+    id: 10,
+    title: 'Days of Feast x Alice in Wonderland',
+    sub_title: 'Starting on December 23rd - January 12, 2025',
+    img: DOFxAlice2024,
+    type: 'collab',
+    description: `From December 23rd through January 12th, get ready for three weeks of whirlwind adventures! 
+    Inspired by the magic and mischief of a certain Wonderland tale, this year the Aviary Village Cafe is transformed 
+    into a holiday-themed fantastical tea party that you won’t want to miss!`,
   },
 ]

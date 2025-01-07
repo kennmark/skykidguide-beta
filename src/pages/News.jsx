@@ -8,7 +8,6 @@ import {
 import FaQ from './FaQ'
 import { newsData } from '../data/newsData'
 import { useState } from 'react'
-import Pagination from './components/Pagination'
 
 const News = () => {
   const [currentPage, setCurrentPage] = useState(1)

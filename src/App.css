@@ -295,6 +295,12 @@ html {
   background-position: top;
   background-image: url(./assets/images/events/SeasonOfMoomin.webp);
 }
+.news-bg-18 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/home-carousel/Season24News.webp);
+}
 .carousel-image {
   height: 35rem;
   width: 100%;

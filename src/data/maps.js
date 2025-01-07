@@ -58,6 +58,21 @@ import {
 } from '../exports/mapGIFs'
 
 export const maps = [
+  {
+    id: 8,
+    title: 'Aviary Village',
+    subtitle: 'Ika-Walong Mapa',
+    map_intro: 'Ang Bagong Homespace',
+    alt: AVIARY_ALT,
+    img: GIF_AVIARY,
+    group: 'map-8 shadow-8',
+    pageRoute: 'maps/8/aviary-village',
+    caption: 'Ang nakalimutang parte ng kingdom ng Sky ay nagbabalik',
+    num_of_wls: S19_NUM_WL,
+    num_of_season_spirits: AVIARY_NUM_SEASON_SPIRIT,
+    num_of_reg_spirits: S19_NUM_REG_SPIRIT,
+    num_of_map_shrines: S19_NUM_MAP_SHRINES,
+  },
   // {
   //   id: 0,
   //   title: 'Season of Radiance',
@@ -73,6 +88,7 @@ export const maps = [
   //   num_of_season_spirits: S24_NUM_SEASON_SPIRIT,
   //   num_of_map_shrines: S24_NUM_MAP_SHRINES,
   // },
+
   {
     id: 1,
     title: 'Isle Of Dawn',
