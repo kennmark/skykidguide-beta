@@ -17,7 +17,7 @@ import { SeasonTabHeader2 } from '../../data/seasonTabHeader'
 import { allSeasons, seasons2025 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
-import SeasonOfMoomin from '../../assets/images/home-carousel/Season-of-Moomin.jpg'
+import SeasonOfMoomin from '../../assets/images/home-carousel/Season-of-Moomin.webp'
 
 const S24RadiancePage = () => {
   const [activeTab, setActiveTab] = useState('info')
