@@ -7,7 +7,7 @@ import {
 } from '@material-tailwind/react'
 import FaQ from './FaQ'
 import { BuyMeACoffee } from './components/BuyMeACoffee'
-import carousel3 from '../assets/images/home-carousel/home4.jpg'
+import carousel3 from '../assets/images/home-carousel/home4.webp'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import gcashlogo from '../assets/images/support/gcashlogo.png'
 import GCash from '../assets/images/support/GCash.jpg'
