@@ -14,9 +14,9 @@ import ScrollToTop from 'react-scroll-to-top'
 const PageAviary = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
   const mapTitle = maps.map((mapName) =>
-    mapName.id === 8 ? mapName.title : ''
+    mapName.id === 1 ? mapName.title : ''
   )
-  const mapIntro = maps.map((intro) => (intro.id === 8 ? intro.map_intro : ''))
+  const mapIntro = maps.map((intro) => (intro.id === 1 ? intro.map_intro : ''))
   return (
     <div className="flex justify-center">
       <div>

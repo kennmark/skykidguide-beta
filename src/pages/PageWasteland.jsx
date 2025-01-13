@@ -14,9 +14,9 @@ import ScrollToTop from 'react-scroll-to-top'
 const PageWasteland = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
   const mapTitle = maps.map((mapName) =>
-    mapName.id === 5 ? mapName.title : ''
+    mapName.id === 6 ? mapName.title : ''
   )
-  const mapIntro = maps.map((intro) => (intro.id === 5 ? intro.map_intro : ''))
+  const mapIntro = maps.map((intro) => (intro.id === 6 ? intro.map_intro : ''))
   return (
     <div className="flex justify-center">
       <div>

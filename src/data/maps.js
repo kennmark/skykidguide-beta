@@ -58,21 +58,6 @@ import {
 } from '../exports/mapGIFs'
 
 export const maps = [
-  {
-    id: 8,
-    title: 'Aviary Village',
-    subtitle: 'Ika-Walong Mapa',
-    map_intro: 'Ang Bagong Homespace',
-    alt: AVIARY_ALT,
-    img: GIF_AVIARY,
-    group: 'map-8 shadow-8',
-    pageRoute: 'maps/8/aviary-village',
-    caption: 'Ang nakalimutang parte ng kingdom ng Sky ay nagbabalik',
-    num_of_wls: S19_NUM_WL,
-    num_of_season_spirits: AVIARY_NUM_SEASON_SPIRIT,
-    num_of_reg_spirits: S19_NUM_REG_SPIRIT,
-    num_of_map_shrines: S19_NUM_MAP_SHRINES,
-  },
   // {
   //   id: 0,
   //   title: 'Season of Radiance',
@@ -88,9 +73,23 @@ export const maps = [
   //   num_of_season_spirits: S24_NUM_SEASON_SPIRIT,
   //   num_of_map_shrines: S24_NUM_MAP_SHRINES,
   // },
-
   {
     id: 1,
+    title: 'Aviary Village',
+    subtitle: 'Ika-Walong Mapa',
+    map_intro: 'Ang Bagong Homespace',
+    alt: AVIARY_ALT,
+    img: GIF_AVIARY,
+    group: 'map-8 shadow-8',
+    pageRoute: 'maps/8/aviary-village',
+    caption: 'Ang nakalimutang parte ng kingdom ng Sky ay nagbabalik',
+    num_of_wls: S19_NUM_WL,
+    num_of_season_spirits: AVIARY_NUM_SEASON_SPIRIT,
+    num_of_reg_spirits: S19_NUM_REG_SPIRIT,
+    num_of_map_shrines: S19_NUM_MAP_SHRINES,
+  },
+  {
+    id: 2,
     title: 'Isle Of Dawn',
     subtitle: 'Unang Mapa',
     map_intro: `Free lost spirits and follow the bell to the temple`,
@@ -105,7 +104,7 @@ export const maps = [
     num_of_map_shrines: ISLE_NUM_MAP_SHRINES,
   },
   {
-    id: 2,
+    id: 3,
     title: 'Daylight Prairie',
     subtitle: 'Ikalawang Mapa',
     map_intro: 'Ring the bell towers and reveal your path',
@@ -120,7 +119,7 @@ export const maps = [
     num_of_map_shrines: PRAIRIE_NUM_MAP_SHRINES,
   },
   {
-    id: 3,
+    id: 4,
     title: 'Hidden Forest',
     subtitle: 'Ikatlong Mapa',
     map_intro: 'Protect your light and find the source of Ancient Power',
@@ -135,7 +134,7 @@ export const maps = [
     num_of_map_shrines: FOREST_NUM_MAP_SHRINES,
   },
   {
-    id: 4,
+    id: 5,
     title: 'Valley Of Triumph',
     subtitle: 'Ika-Apat na Mapa',
     map_intro: 'Race down the ridge, and the city gates will open to honor you',
@@ -150,7 +149,7 @@ export const maps = [
     num_of_map_shrines: VALLEY_NUM_MAP_SHRINES,
   },
   {
-    id: 5,
+    id: 6,
     title: 'Golden Wasteland',
     subtitle: 'Ika-Limang Mapa',
     map_intro: 'Beyond the barren wastes, the Vault of Knowledge awaits',
@@ -165,7 +164,7 @@ export const maps = [
     num_of_map_shrines: WASTELAND_NUM_MAP_SHRINES,
   },
   {
-    id: 6,
+    id: 7,
     title: 'Vault Of Knowledge',
     subtitle: 'Ika-Anim na Mapa',
     map_intro: 'Climb the Vault, its wisdom awaits',
@@ -180,7 +179,7 @@ export const maps = [
     num_of_map_shrines: VAULT_NUM_MAP_SHRINES,
   },
   {
-    id: 7,
+    id: 8,
     title: 'Eye of Eden',
     subtitle: 'Ika-Pitong Mapa',
     map_intro: 'Push into the darkness',
@@ -194,20 +193,5 @@ export const maps = [
     num_of_reg_spirits: EDEN_NUM_REG_SPIRIT,
     num_of_season_spirits: EDEN_NUM_SEASON_SPIRIT,
     num_of_map_shrines: EDEN_NUM_MAP_SHRINES,
-  },
-  {
-    id: 8,
-    title: 'Aviary Village',
-    subtitle: 'Ika-Walong Mapa',
-    map_intro: 'Ang Bagong Homespace',
-    alt: AVIARY_ALT,
-    img: GIF_AVIARY,
-    group: 'map-8 shadow-8',
-    pageRoute: 'maps/8/aviary-village',
-    caption: 'Ang nakalimutang parte ng kingdom ng Sky ay nagbabalik',
-    num_of_wls: S19_NUM_WL,
-    num_of_season_spirits: AVIARY_NUM_SEASON_SPIRIT,
-    num_of_reg_spirits: S19_NUM_REG_SPIRIT,
-    num_of_map_shrines: S19_NUM_MAP_SHRINES,
   },
 ]

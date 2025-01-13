@@ -17,7 +17,7 @@ import { SeasonTabHeader2 } from '../../data/seasonTabHeader'
 import { seasons2024 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
-import SeasonOfDuets from '../../assets/images/home-carousel/Season-of-Duets.jpg'
+import SeasonOfDuets from '../../assets/images/home-carousel/Season-of-Duets.webp'
 
 const S22DuetPage = () => {
   const [activeTab, setActiveTab] = useState('info')

@@ -35,8 +35,8 @@ html {
       rgba(181, 131, 141, 0.75) 75%,
       rgba(109, 104, 117, 1) 100%
     ),
-    url(./assets/images/map-card-bg/Map1-Isle.jpg);
-  /* url(./assets/images/bg/Map1-Isle.jpg); */
+    url(./assets/images/map-card-bg/Map1-Isle.webp);
+  /* url(./assets/images/bg/Map1-Isle.webp); */
   height: 514px;
   background-size: cover;
   color: rgb(8 47 73);
@@ -52,8 +52,8 @@ html {
       rgba(128, 237, 153, 0.25) 75%,
       rgba(199, 249, 204, 0.1) 100%
     ),
-    url(./assets/images/map-card-bg/Map2-Prairie.jpg);
-  /* url(./assets/images/bg/Map2-Prairie.jpg); */
+    url(./assets/images/map-card-bg/Map2-Prairie.webp);
+  /* url(./assets/images/bg/Map2-Prairie.webp); */
   height: 514px;
   background-size: cover;
   color: rgb(8 47 73);
@@ -69,8 +69,8 @@ html {
       rgba(24, 55, 73, 0.75) 75%,
       rgba(14, 25, 31, 1) 100%
     ),
-    url(./assets/images/map-card-bg/Map3-Forest.jpg);
-  /* url(./assets/images/bg/Map3-Forest.jpg); */
+    url(./assets/images/map-card-bg/Map3-Forest.webp);
+  /* url(./assets/images/bg/Map3-Forest.webp); */
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
@@ -86,8 +86,8 @@ html {
       rgba(204, 139, 121, 0.25) 75%,
       rgba(250, 174, 123, 0.1) 100%
     ),
-    url(./assets/images/map-card-bg/Map4-Valley.jpg);
-  /* url(./assets/images/bg/Map4-Valley.jpg); */
+    url(./assets/images/map-card-bg/Map4-Valley.webp);
+  /* url(./assets/images/bg/Map4-Valley.webp); */
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
@@ -103,8 +103,8 @@ html {
       rgba(144, 169, 85, 0.25) 75%,
       rgba(236, 243, 158, 0.1) 100%
     ),
-    url(./assets/images/map-card-bg/Map5-Wasteland.jpg);
-  /* url(./assets/images/bg/Map5-Wasteland.jpg); */
+    url(./assets/images/map-card-bg/Map5-Wasteland.webp);
+  /* url(./assets/images/bg/Map5-Wasteland.webp); */
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
@@ -120,8 +120,8 @@ html {
       rgba(21, 5, 120, 0.75) 75%,
       rgba(14, 14, 82, 1) 100%
     ),
-    url(./assets/images/map-card-bg/Map6-Vault.jpg);
-  /* url(./assets/images/bg/Map6-Vault.jpg); */
+    url(./assets/images/map-card-bg/Map6-Vault.webp);
+  /* url(./assets/images/bg/Map6-Vault.webp); */
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
@@ -141,8 +141,8 @@ html {
       rgba(23, 128, 161, 0.37) 87%,
       rgba(0, 145, 173, 0.3) 100%
     ),
-    url(./assets/images/map-card-bg/Map7-Eden.jpg);
-  /* url(./assets/images/bg/Map7-Eden.jpg); */
+    url(./assets/images/map-card-bg/Map7-Eden.webp);
+  /* url(./assets/images/bg/Map7-Eden.webp); */
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
@@ -157,8 +157,8 @@ html {
       rgba(128, 237, 153, 0.25) 75%,
       rgba(199, 249, 204, 0.1) 100%
     ),
-    url(./assets/images/map-card-bg/Map9-Aviary.jpg);
-  /* url(./assets/images/bg/Map8-Peaks.jpg); */
+    url(./assets/images/map-card-bg/Map9-Aviary.webp);
+  /* url(./assets/images/bg/Map8-Peaks.webp); */
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;
@@ -190,19 +190,19 @@ html {
   height: auto;
   background-attachment: fixed;
   background-position: top;
-  background-image: url(./assets/images/home-carousel/home4.jpg);
+  background-image: url(./assets/images/home-carousel/home4.webp);
 }
 .news-bg-2 {
   height: auto;
   background-attachment: fixed;
   background-position: top;
-  background-image: url(./assets/images/home-carousel/home2.jpg);
+  background-image: url(./assets/images/home-carousel/home2.webp);
 }
 .news-bg-3 {
   height: auto;
   background-attachment: fixed;
   background-position: top;
-  background-image: url(./assets/images/home-carousel/home2.jpg);
+  background-image: url(./assets/images/home-carousel/home2.webp);
 }
 .news-bg-4 {
   height: auto;
@@ -251,19 +251,19 @@ html {
   height: auto;
   background-attachment: fixed;
   background-position: top;
-  background-image: url(./assets/images/home-carousel/home2.jpg);
+  background-image: url(./assets/images/home-carousel/home2.webp);
 }
 .news-bg-11 {
   height: auto;
   background-attachment: fixed;
   background-position: top;
-  background-image: url(./assets/images/home-carousel/home2.jpg);
+  background-image: url(./assets/images/home-carousel/home2.webp);
 }
 .news-bg-12 {
   height: auto;
   background-attachment: fixed;
   background-position: top;
-  background-image: url(./assets/images/home-carousel/Upcoming-Season-23.jpg);
+  background-image: url(./assets/images/home-carousel/Upcoming-Season-23.webp);
 }
 .news-bg-13 {
   height: auto;
@@ -275,7 +275,7 @@ html {
   height: auto;
   background-attachment: fixed;
   background-position: top;
-  background-image: url(./assets/images/events/Group-TS-Season-of-Shattering.jpg);
+  background-image: url(./assets/images/events/Group-TS-Season-of-Shattering.webp);
 }
 .news-bg-15 {
   height: auto;

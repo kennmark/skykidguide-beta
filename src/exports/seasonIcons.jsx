@@ -23,13 +23,13 @@ import season22 from '../assets/images/season-icons/Season-22.png'
 import season23 from '../assets/images/season-icons/Season-23.png'
 import season24 from '../assets/images/season-icons/Season-24.png'
 
-import map1 from '../assets/images/icons/Map1-Isle-Icon.png'
-import map2 from '../assets/images/icons/Map2-Prairie-Icon.png'
-import map3 from '../assets/images/icons/Map3-Forest-Icon.png'
-import map4 from '../assets/images/icons/Map4-Valley-Icon.png'
-import map5 from '../assets/images/icons/Map5-Wasteland-Icon.png'
-import map6 from '../assets/images/icons/Map6-Vault-Icon.png'
-import map7 from '../assets/images/icons/Map7-Eden-Icon.png'
+import map1 from '../assets/images/icons/Map1-Isle-Icon.webp'
+import map2 from '../assets/images/icons/Map2-Prairie-Icon.webp'
+import map3 from '../assets/images/icons/Map3-Forest-Icon.webp'
+import map4 from '../assets/images/icons/Map4-Valley-Icon.webp'
+import map5 from '../assets/images/icons/Map5-Wasteland-Icon.webp'
+import map6 from '../assets/images/icons/Map6-Vault-Icon.webp'
+import map7 from '../assets/images/icons/Map7-Eden-Icon.webp'
 
 export const SEASON1 = season1
 export const SEASON2 = season2

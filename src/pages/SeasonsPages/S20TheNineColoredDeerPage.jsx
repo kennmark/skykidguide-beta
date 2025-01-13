@@ -17,7 +17,7 @@ import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2024 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
-import SeasonOf9ColoredDeer from '../../assets/images/home-carousel/Season-of-9-Colored-Deer.jpg'
+import SeasonOf9ColoredDeer from '../../assets/images/home-carousel/Season-of-9-Colored-Deer.webp'
 
 const S20TheNineColoredDeerPage = () => {
   const [activeTab, setActiveTab] = useState('info')

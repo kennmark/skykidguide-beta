@@ -14,9 +14,9 @@ import ScrollToTop from 'react-scroll-to-top'
 const PageIsle = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
   const mapTitle = maps.map((mapName) =>
-    mapName.id === 1 ? mapName.title : ''
+    mapName.id === 2 ? mapName.title : ''
   )
-  const mapIntro = maps.map((intro) => (intro.id === 1 ? intro.map_intro : ''))
+  const mapIntro = maps.map((intro) => (intro.id === 2 ? intro.map_intro : ''))
 
   console.log(isleOfDawn[0].spirits.length)
 

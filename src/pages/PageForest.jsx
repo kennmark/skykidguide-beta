@@ -14,9 +14,9 @@ import ScrollToTop from 'react-scroll-to-top'
 const PageForest = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
   const mapTitle = maps.map((mapName) =>
-    mapName.id === 3 ? mapName.title : ''
+    mapName.id === 4 ? mapName.title : ''
   )
-  const mapIntro = maps.map((intro) => (intro.id === 3 ? intro.map_intro : ''))
+  const mapIntro = maps.map((intro) => (intro.id === 4 ? intro.map_intro : ''))
   return (
     <div className="flex justify-center">
       <div>

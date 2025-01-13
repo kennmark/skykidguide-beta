@@ -104,4 +104,11 @@ export const testimonies = [
     testimonial: `thank you pooo kung sino man po may ari nito. Sobrang helpful nya po. Lalo na sa mga Moth, yes. Moth pa din tawag ko sa sarili kk.
     🥹🥹🥹 Na hindi ganon kabisado yung map. Iwas hilo and pabalik balik na me, lalo na sa mga WL. 🥺🫶🏻`,
   },
+  {
+    id: 14,
+    testimonee: 'Natalie Czarina',
+    testimonee_avatar: avatarLady,
+    group: 'SkyPH-Member',
+    testimonial: `Thank you for creating this omg pero ang noob ko padin di ko padin magets kahit tagalog na huhu`,
+  },
 ]

@@ -1,6 +1,6 @@
-import carousel1 from '../assets/images/home-carousel/home-slideshow-1.jpg'
-import carousel2 from '../assets/images/home-carousel/home-slideshow-2.jpg'
-import carousel3 from '../assets/images/home-carousel/home4.jpg'
+import carousel1 from '../assets/images/home-carousel/home-slideshow-1.webp'
+import carousel2 from '../assets/images/home-carousel/home-slideshow-2.webp'
+import carousel3 from '../assets/images/home-carousel/home4.webp'
 import carousel7 from '../assets/images/home-carousel/Season24News.webp'
 
 export const announcementCarousel = [

@@ -1,6 +1,6 @@
-import rc from '../assets/images/icons/candle.png'
-import heart from '../assets/images/icons/heart.png'
-import ac from '../assets/images/icons/AC.png'
+import rc from '../assets/images/icons/candle.webp'
+import heart from '../assets/images/icons/heart.webp'
+import ac from '../assets/images/icons/AC.webp'
 import sc from '../assets/images/season-candles/23-season-of-moomin/moomin-sc-icon.webp'
 
 export const RC = rc
@@ -71,7 +71,7 @@ export const WL_COUNT =
 
 export const WB_REGULAR_SPIRITS = 49
 //!!!UPDATE THIS Wing Buff Count every new TS that hasnt arrived yet!!!
-export const WB_TRAVELING_SPIRITS = 71 // updated November 7, 2024 TS Warrior of Love
+export const WB_TRAVELING_SPIRITS = 74 // updated January 13, 2024 Group TS: Pleading Child, Modest Dancer, Oddball Outcast
 
 export const MS_HOME = 1
 
@@ -89,7 +89,7 @@ export const TOTAL_MS_COUNT = // November 7, 2024
   AVIARY_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'November 7, 2024' //TS Warrior of Love
+export const WL_COUNT_DATE_UPDATED = 'January 13, 2024' //Group TS: Pleading Child, Modest Dancer, Oddball Outcast
 export const MS_COUNT_DATE_UPDATED = 'October 14, 2024'
 
 export const SC_23_MOOMIN_ICON = sc

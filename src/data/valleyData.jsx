@@ -854,6 +854,10 @@ export const valley = [
             visit_date: 'Oct 26, 2023',
             visitNo: 99,
           },
+          {
+            visit_date: 'Jan 13, 2025',
+            visitNo: 'GV#7',
+          },
         ],
         icon_route: SEASON4,
         spirit_guide_video_url: youtube_embed + 'Fa5csPKdgCo',
@@ -1331,35 +1335,40 @@ export const valley = [
             label: 'Hair',
             img: MODEST_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 40,
           },
           {
             label: 'Mask',
             img: MODEST_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 30,
           },
           {
             label: 'Outfit',
             img: MODEST_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 70,
           },
           {
             label: 'Friendship Action',
             img: MODEST_DANCER,
             currency: 'Hearts',
-            price: 0,
+            price: 13,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
-            hearts: 0,
+            candles: 168,
+            hearts: 13,
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Jan 13, 2025',
+            visitNo: 'GV#7',
+          },
+        ],
         icon_route: SEASON13,
         spirit_guide_video_url: youtube_embed + 'g3MSGbE9XZA',
         spirit_direction: [

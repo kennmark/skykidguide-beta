@@ -19,9 +19,9 @@ import ScrollToTop from 'react-scroll-to-top'
 const PageEden = () => {
   const [activeTab, setActiveTab] = useState('winged_lights')
   const mapTitle = maps.map((mapName) =>
-    mapName.id === 7 ? mapName.title : ''
+    mapName.id === 8 ? mapName.title : ''
   )
-  const mapIntro = maps.map((intro) => (intro.id === 7 ? intro.map_intro : ''))
+  const mapIntro = maps.map((intro) => (intro.id === 8 ? intro.map_intro : ''))
 
   return (
     <div className="flex justify-start">

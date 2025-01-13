@@ -918,35 +918,40 @@ export const isleOfDawn = [
             label: 'Hair',
             img: ODDBALL_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 40,
           },
           {
             label: 'Neck Accessory',
             img: ODDBALL_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 65,
           },
           {
             label: 'Pants',
             img: ODDBALL_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 65,
           },
           {
             label: 'Emote',
             img: ODDBALL_OUTCAST,
             currency: 'Hearts',
-            price: 0,
+            price: 13,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
-            hearts: 0,
+            candles: 183,
+            hearts: 13,
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Jan 13, 2025',
+            visitNo: 'GV#7',
+          },
+        ],
         icon_route: SEASON17,
         spirit_guide_video_url: youtube_embed + 'jBp8u1A0nmg',
         spirit_direction: [
