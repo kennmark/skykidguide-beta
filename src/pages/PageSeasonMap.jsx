@@ -2,8 +2,8 @@ import { Carousel, Typography, Button, Card } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
 import carousel1 from '../assets/images/seasonal-banners/s24A.webp'
-import carousel2 from '../assets/images/seasonal-banners/s24B.webp'
-import carousel3 from '../assets/images/seasonal-banners/s24C.webp'
+import carousel2 from '../assets/images/seasonal-banners/S24B.webp'
+import carousel3 from '../assets/images/seasonal-banners/S24C.webp'
 import SeasonDisplayContainer from './components/SeasonDisplayContainer'
 import {
   seasons2019,
