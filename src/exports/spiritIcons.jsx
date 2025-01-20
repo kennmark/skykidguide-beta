@@ -149,6 +149,13 @@ import Princess from '../assets/images/emotes/map6/seasons/S20-princess.webp'
 
 // MAP 6
 
+// MAP 7
+import RadianceProvokingPerformer from '../assets/images/emotes/map7/Map7-radiance-provoking.webp'
+import RadianceGreetingShaman from '../assets/images/emotes/map7/Map7-radiance-greeting-shaman.webp'
+import RadianceLeapingDancer from '../assets/images/emotes/map7/Map7-radiance-leaping-dancer.webp'
+
+// MAP 7
+
 // MAP 1
 export const CANDLEMAKER = candleMaker
 export const REJECTING_VOYAGER = rejectingVoyager
@@ -298,3 +305,10 @@ export const FEUDAL_LORD = FeudalLord
 export const PRINCESS = Princess
 
 // MAP 6
+
+// MAP 7
+export const RADIANCE_PROVOKING_PERFORMER = RadianceProvokingPerformer
+export const RADIANCE_GREETING_SHAMAN = RadianceGreetingShaman
+export const RADIANCE_LEAPING_DANCER = RadianceLeapingDancer
+
+// MAP 7

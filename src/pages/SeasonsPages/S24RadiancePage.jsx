@@ -13,11 +13,12 @@ import CardContainer from '../components/CardContainer'
 import PageHeaderContainer from '../components/PageHeaderContainer'
 import { SideBarContainer } from '../components/SidebarContainer'
 import DifficultyCriteria from '../components/DifficultyCriteria'
-import { SeasonTabHeader2 } from '../../data/seasonTabHeader'
+import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { allSeasons, seasons2025 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
-import SeasonOfMoomin from '../../assets/images/home-carousel/Season-of-Moomin.webp'
+import SeasonOfRadiance from '../../assets/images/home-carousel/Season-of-Radiance.webp'
+import DyeLocations from '../components/DyeLocations'
 
 const S24RadiancePage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -37,9 +38,12 @@ const S24RadiancePage = () => {
 
   const currentSeasonId = seasons2025.length - 1
   const isCurrentSeason =
-    allSeasons === seasons2025[currentSeasonId].id ? true : false
+    allSeasons.length === seasons2025[currentSeasonId].id ? true : false
   const dateToday = new Date()
-  // console.log(isCurrentSeason)
+  // console.log(seasons2025[currentSeasonId].id, 'Current Season')
+  // console.log(allSeasons.length, 'All Season')
+  // console.log(isCurrentSeason, 'Current Season?')
+
   return (
     <div className="flex justify-center">
       <div>
@@ -59,7 +63,7 @@ const S24RadiancePage = () => {
             variant="gradient"
             className="bg-gradient-to-r from-blue-900 to-purple-900 flex items-center"
           >
-            {SeasonTabHeader2.map((headerTab, index) => {
+            {SeasonTabHeader.map((headerTab, index) => {
               return (
                 <MapTabHeaderContainer
                   {...headerTab}
@@ -82,9 +86,9 @@ const S24RadiancePage = () => {
               {activeTab === 'info' && (
                 <div className="text-gray-100 pb-5">
                   <LazyLoadImage
-                    src={SeasonOfMoomin}
-                    alt="Season of Moomin"
-                    title="Season of Moomin"
+                    src={SeasonOfRadiance}
+                    alt="Season of Radiance"
+                    title="Season of Radiance"
                     placeholderSrc={
                       <Spinner className="h-10 w-10 text-gray-900/50" />
                     }
@@ -97,21 +101,22 @@ const S24RadiancePage = () => {
                       ? 'Nagsimula ito noong '
                       : 'Magsisimula ito ngayong '}
                     {time_duration}.{' '}
-                    {spirit_num
-                      ? `na spirits ${spirit_num} sa season na
-                    ito`
-                      : `Walang spirit sa season na ito.`}{' '}
-                    at {wl_num ? 'May ' + wl_num : '(0) o walang'}
+                    {spirit_num > 0
+                      ? `May ${spirit_num} na spirits sa season na
+                    ito. `
+                      : `Walang spirit sa season na ito. `}{' '}
+                    At {wl_num ? 'May ' + wl_num : '(0) o walang'}
                     &nbsp; winged light(s). Sa season na ito ay
                     {ms_num ? ' may ' + ms_num : ' (0) o walang'} &nbsp;map
                     shrine(s).
                   </Typography>{' '}
                   <br />
+                  <DyeLocations />
                 </div>
               )}
 
               <div className="flex flex-wrap justify-center gap-3">
-                {activeTab === 'collectibles' &&
+                {activeTab === 'season_spirits' &&
                   season_spirits?.map((spirit) => {
                     return (
                       <SpiritCardContainer

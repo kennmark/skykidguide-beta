@@ -58,23 +58,8 @@ import {
 } from '../exports/mapGIFs'
 
 export const maps = [
-  // {
-  //   id: 0,
-  //   title: 'Season of Radiance',
-  //   subtitle: 'Featured Season',
-  //   alt: SEASON_ALT,
-  //   img: GIF_SEASON,
-  //   group: 'map-9 shadow-8',
-  //   pageRoute: 'seasons/2025/season-24/radiance',
-  //   caption:
-  //     'The story of The Invisible Child reminds us of the importance of caring for others and the need to be seen',
-  //   num_of_wls: S24_NUM_WL,
-  //   num_of_reg_spirits: S24_NUM_REG_SPIRIT,
-  //   num_of_season_spirits: S24_NUM_SEASON_SPIRIT,
-  //   num_of_map_shrines: S24_NUM_MAP_SHRINES,
-  // },
   {
-    id: 1,
+    id: 0,
     title: 'Aviary Village',
     subtitle: 'Ika-Walong Mapa',
     map_intro: 'Ang Bagong Homespace',
@@ -87,6 +72,21 @@ export const maps = [
     num_of_season_spirits: AVIARY_NUM_SEASON_SPIRIT,
     num_of_reg_spirits: S19_NUM_REG_SPIRIT,
     num_of_map_shrines: S19_NUM_MAP_SHRINES,
+  },
+  {
+    id: 1,
+    title: 'Season of Radiance',
+    subtitle: 'Featured Season',
+    alt: SEASON_ALT,
+    img: GIF_SEASON,
+    group: 'map-9 shadow-8',
+    pageRoute: 'seasons/2025/season-24/radiance',
+    caption:
+      'The Light in Sky bursts into a spectrum of color when Season of Radiance arrives!',
+    num_of_wls: S24_NUM_WL,
+    num_of_reg_spirits: S24_NUM_REG_SPIRIT,
+    num_of_season_spirits: S24_NUM_SEASON_SPIRIT,
+    num_of_map_shrines: S24_NUM_MAP_SHRINES,
   },
   {
     id: 2,

@@ -1,9 +1,9 @@
 import { Carousel, Typography, Button, Card } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
-import carousel1 from '../assets/images/seasonal-banners/s23A.webp'
-import carousel2 from '../assets/images/seasonal-banners/s23B.webp'
-import carousel3 from '../assets/images/seasonal-banners/s23C.webp'
+import carousel1 from '../assets/images/seasonal-banners/s24A.webp'
+import carousel2 from '../assets/images/seasonal-banners/s24B.webp'
+import carousel3 from '../assets/images/seasonal-banners/s24C.webp'
 import SeasonDisplayContainer from './components/SeasonDisplayContainer'
 import {
   seasons2019,
@@ -43,7 +43,7 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 23 | Season of Moomin
+                    Season 24 | Season of Radiance
                   </Typography>
                   <Typography
                     variant="lead"
@@ -61,7 +61,7 @@ const PageSeasonMap = () => {
                     >
                       Pasok
                     </Button>
-                    <a href="https://www.thatskygame.com/news/season-of-moomin-a-classic-tale-of-healing-and-acceptance/">
+                    <a href="https://www.thatskygame.com/news/a-world-of-color-awaits-in-season-of-radiance/">
                       <Button size="sm" color="white" variant="outlined">
                         Visit Site
                       </Button>
@@ -90,7 +90,8 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    A Classic Tale of Healing and Acceptance
+                    A new type of Dark Plant will be found sprouting in the
+                    kingdom.
                   </Typography>
                 </div>
               </div>
@@ -108,16 +109,18 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 23 | Season of Moomin
+                    Season 24 | Season of Radiance
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    You’ll meet the Moomin family and their friends as you guide
-                    Ninny through a whimsical valley where her story is told,
-                    each step bringing her closer to her true self.
+                    This Season’s Spirits bring hairstyles, outfits, capes, and
+                    more, not to mention an instrument. Feel free to keep things
+                    in their original color if you enjoy a more minimalist
+                    aesthetic, but the Spirits have designed them especially to
+                    be dyed, and we can’t wait to see the designs you create!
                   </Typography>
                 </div>
               </div>

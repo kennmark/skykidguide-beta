@@ -37,9 +37,11 @@ const S23MoominPage = () => {
 
   const currentSeasonId = seasons2024.length - 1
   const isCurrentSeason =
-    allSeasons === seasons2024[currentSeasonId].id ? true : false
+    allSeasons.length === seasons2024[currentSeasonId].id ? true : false
   const dateToday = new Date()
-  // console.log(isCurrentSeason)
+  // console.log(seasons2024[currentSeasonId].id, 'Current Season')
+  // console.log(allSeasons.length, 'All Season')
+  // console.log(isCurrentSeason, 'Current Season?')
   return (
     <div className="flex justify-center">
       <div>

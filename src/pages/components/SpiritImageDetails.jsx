@@ -13,7 +13,7 @@ import {
   DialogFooter,
   Badge,
 } from '@material-tailwind/react'
-import { RC, HEART, AC, SC_23_MOOMIN_ICON } from '../../exports/constants'
+import { RC, HEART, AC, SC_24_RADIANCE_ICON } from '../../exports/constants'
 
 const SpiritImageDetails = ({
   label,
@@ -27,7 +27,7 @@ const SpiritImageDetails = ({
   isCurrentSeason,
 }) => {
   const [activeTab, setActiveTab] = React.useState('tree-cost')
-  // console.log(isCurrentSeason)
+  console.log(isCurrentSeason)
   const data = [
     {
       label: 'Tree Cost',
@@ -42,7 +42,7 @@ const SpiritImageDetails = ({
               {cost.candles}&nbsp;
               {isCurrentSeason === true ? (
                 <img
-                  src={SC_23_MOOMIN_ICON}
+                  src={SC_24_RADIANCE_ICON}
                   alt="season candles"
                   title="season candles"
                   className="h-5"
@@ -167,7 +167,7 @@ const SpiritImageDetails = ({
                     ) : (
                       <span className="inline-flex flex-wrap justify-center">
                         <img
-                          src={SC_23_MOOMIN_ICON}
+                          src={SC_24_RADIANCE_ICON}
                           alt="Season Candles"
                           title="Season Candles"
                           className="h-4 md:h-5"
@@ -182,7 +182,7 @@ const SpiritImageDetails = ({
           {isCurrentSeason === true ? (
             <div className="text-gray-300">
               <p className="text-[11px] text-center pt-2">
-                Prices with value is attainable using season candles.
+                Prices with value can be obtain using season candles.
               </p>
               <p className="text-[11px] text-center">
                 items don't have prices, needs season pass.
