@@ -137,7 +137,7 @@ export const PrairieDyeLocation = [
     imgUrl: DyeLoc16,
     order: 'Odd',
     imgName: `Peaks 3`,
-    imgDesc: `Left side of the river, right side the monolith.`,
+    imgDesc: `Right side of the river, right side the monolith.`,
   },
   {
     id: 17,
