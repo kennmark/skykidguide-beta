@@ -3611,7 +3611,7 @@ export const seasons2025 = [
     ms_num: 0,
     icon_route: SEASON24,
     page_route: 'seasons/2025/season-24/radiance',
-    quick_info: `New Season 2024`,
+    quick_info: `The Light in Sky bursts into a spectrum of color when Season of Radiance arrives!`,
     season_spirits: [
       //Radiance Provoking Perfomer
       {

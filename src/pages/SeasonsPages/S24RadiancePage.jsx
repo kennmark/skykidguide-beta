@@ -19,6 +19,7 @@ import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import SeasonOfRadiance from '../../assets/images/home-carousel/Season-of-Radiance.webp'
 import DyeLocations from '../components/DyeLocations'
+import DyeAlertMessage from '../components/DyeAlertMessage'
 
 const S24RadiancePage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -111,6 +112,18 @@ const S24RadiancePage = () => {
                     shrine(s).
                   </Typography>{' '}
                   <br />
+                  <div className="pb-5">
+                    <Typography variant="h3" className="mb-5">
+                      Dyeing Feature
+                    </Typography>
+                    Ang Dyeing, isang feature na ipinakilala sa Season of
+                    Radiance, ay nagbibigay-daan sa mga manlalaro na maghanap ng
+                    Color Dark Plants at gumawa ng mga dyes upang baguhin ang
+                    kulay ng mga gustong in-game Cosmetics. Sa pagsimula ng
+                    Season ay unti-onting magbubukas ng mga panibagong kulay sa
+                    bawat paggawa ng Season Task.
+                  </div>
+                  <DyeAlertMessage />
                   <DyeLocations />
                 </div>
               )}
