@@ -25,11 +25,13 @@ const DyeAlertMessage = () => {
     <div className="flex w-full flex-col gap-2 mt-2">
       <Alert color="amber" icon={<Icon />}>
         <Typography variant="h3">TANDAAN</Typography>
-        Ang pagsunog sa mga Dark Plants ay naglalabas ng mga Paru-paro na may
+        Ang pagsunog sa mga Dye Plants ay naglalabas ng mga Paru-paro na may
         katumbas na kulay. Gamitin ang Butterfly Expression o Deep Honk upang
         punan ang mga lalagyan ng Colored Lights, katulad ng mga Waxes sa
         regular candles. Kapag ang Lead ang gumawa ng emote o honk, maari na din
-        makatanggap ng kulay ang mga kasama nito.
+        makatanggap ng kulay ang mga kasama nito. Mayroong rotation ng location
+        ang mga Dye Plants. Sa bawat oras ay nagbabago ang location nito depende
+        kung ito ay EVEN or ODD Hours.
       </Alert>
     </div>
   )

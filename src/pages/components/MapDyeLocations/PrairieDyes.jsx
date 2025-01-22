@@ -48,6 +48,38 @@ const PrairieDyes = () => {
           </div>
         </div>
       </div>
+      <div>
+        <Typography variant="h4">Max Dyes Per Day</Typography>
+        <div className="flex flex-wrap justify-center pt-5 pb-10">
+          <div className="flex flex-wrap gap-2 mr-2">
+            <LazyLoadImage
+              src={RED_JAR}
+              alt={'Red Jar'}
+              title={'Red Jar'}
+              width={20}
+            />
+            <Typography className="flex place-self-end">4 Jars</Typography>
+          </div>
+          <div className="flex flex-wrap gap-2 mr-2">
+            <LazyLoadImage
+              src={YELLOW_JAR}
+              alt={'Yellow Jar'}
+              title={'Yellow Jar'}
+              width={20}
+            />
+            <Typography className="flex place-self-end">3 Jars</Typography>
+          </div>
+          <div className="flex flex-wrap gap-2 mr-2">
+            <LazyLoadImage
+              src={WHITE_JAR}
+              alt={'White Jar'}
+              title={'White Jar'}
+              width={20}
+            />
+            <Typography className="flex place-self-end">1 Jar</Typography>
+          </div>
+        </div>
+      </div>
       <div className="flex flex-wrap gap-5 justify-center">
         {PrairieDyeLocation.map((dyeLocation, index) => {
           return (

@@ -157,6 +157,8 @@ import {
 } from '../exports/spiritPrairieCollectibles'
 import PrairieConstellation from '../assets/images/maps-constellations/Prairie_Constellation.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
+import PrairieDyes from '../pages/components/MapDyeLocations/PrairieDyes'
+import DyeAlertMessage from '../pages/components/DyeAlertMessage'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -1955,5 +1957,15 @@ export const prairie = [
         ],
       },
     ],
+  },
+  {
+    label: 'Dye Locations',
+    value: 'dye_locations',
+    desc: (
+      <>
+        <DyeAlertMessage />
+        <PrairieDyes />
+      </>
+    ),
   },
 ]
