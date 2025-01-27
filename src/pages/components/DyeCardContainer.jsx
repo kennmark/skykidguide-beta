@@ -15,6 +15,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 import RED_JAR from '../../assets/images/Dyes/Red-Jar.webp'
 import YELLOW_JAR from '../../assets/images/Dyes/Yellow-Jar.webp'
 import WHITE_JAR from '../../assets/images/Dyes/White-Jar.webp'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const DyeCardContainer = ({
   imgUrl,

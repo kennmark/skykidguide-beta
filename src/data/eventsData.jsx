@@ -8,6 +8,7 @@ import DOS2024 from '../assets/images/events/DaysOfSunglight2024.webp'
 import DOM2024 from '../assets/images/events/DaysOfMoonlight.webp'
 import DOF2024 from '../assets/images/events/DaysOfFashion2024.webp'
 import DOFxAlice2024 from '../assets/images/events/DaysOfFeast-x-Alice-in-Wonderland.webp'
+import DOF2025 from '../assets/images/events/DaysOfFortune2025.webp'
 
 export const eventsData = [
   {
@@ -143,5 +144,15 @@ export const eventsData = [
     description: `From December 23rd through January 12th, get ready for three weeks of whirlwind adventures! 
     Inspired by the magic and mischief of a certain Wonderland tale, this year the Aviary Village Cafe is transformed 
     into a holiday-themed fantastical tea party that you won’t want to miss!`,
+  },
+  {
+    id: 11,
+    title: 'Days of Fortune 2025',
+    sub_title: 'Starting on January 27 - February 10, 2025',
+    img: DOF2025,
+    type: 'regular',
+    description: `Starting on January 27th PST (UTC -8), the event guide and a host of Spirits will be waiting for you 
+    to join them in Valley of Triumph to get the party started. Talk to the guide Spirit near the event announcement 
+    board in Aviary Village (or in Home too) to teleport to where all the fun is!`,
   },
 ]

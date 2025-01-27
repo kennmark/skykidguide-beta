@@ -173,4 +173,14 @@ We’re thrilled to announce that preparations for Days of Gathering 2024 are al
     newsBody: `Upcoming 24th Season in Sky - Season of Radiance.`,
     newsLink: '',
   },
+  {
+    id: 19,
+    newsTitle: `Days of Fortune 2025`,
+    newsBody: `Starting on January 27th PST (UTC -8), the event guide and a host of Spirits will 
+    be waiting for you to join them in Valley of Triumph to get the party started. Talk to the guide 
+    Spirit near the event announcement board in Aviary Village (or in Home too) to teleport to where 
+    all the fun is!`,
+    newsLink:
+      'https://www.thatskygame.com/news/days-of-fortune-2025-games-friends-and-fireworks-',
+  },
 ]
