@@ -31,6 +31,7 @@ import 'swiper/css/effect-coverflow'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
+import DyeLocations from './components/DyeLocations'
 // import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const HomeSpace = () => {
@@ -247,6 +248,9 @@ const HomeSpace = () => {
             View Locations
           </Button>
         </Link>
+      </div>
+      <div className="my-6 w-96 md:w-full border-t border-blue-gray-50">
+        <DyeLocations />
       </div>
       {/* <div className="my-6 w-96 md:w-full">
         <LatestTSVisit />

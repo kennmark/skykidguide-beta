@@ -71,7 +71,7 @@ export const WL_COUNT =
 
 export const WB_REGULAR_SPIRITS = 49
 //!!!UPDATE THIS Wing Buff Count every new TS that hasnt arrived yet!!!
-export const WB_TRAVELING_SPIRITS = 74 // updated January 13, 2024 Group TS: Pleading Child, Modest Dancer, Oddball Outcast
+export const WB_TRAVELING_SPIRITS = 75 // updated January 30, 2025 TS Forgetful Storyteller
 
 export const MS_HOME = 1
 
@@ -89,7 +89,7 @@ export const TOTAL_MS_COUNT = // November 7, 2024
   AVIARY_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'January 13, 2024' //Group TS: Pleading Child, Modest Dancer, Oddball Outcast
+export const WL_COUNT_DATE_UPDATED = 'January 30, 2025' //TS Forgetful Storyteller
 export const MS_COUNT_DATE_UPDATED = 'October 14, 2024'
 
 export const SC_24_RADIANCE_ICON = sc
