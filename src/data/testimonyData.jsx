@@ -111,4 +111,11 @@ export const testimonies = [
     group: 'SkyPH-Member',
     testimonial: `Thank you for creating this omg pero ang noob ko padin di ko padin magets kahit tagalog na huhu`,
   },
+  {
+    id: 14,
+    testimonee: 'Zyrex Sarmiento',
+    testimonee_avatar: avatarGuy,
+    group: 'SkyPH-Admin',
+    testimonial: `Malaki help to sakkin . Tagal ko di na nag reborrn ee hahaha`,
+  },
 ]

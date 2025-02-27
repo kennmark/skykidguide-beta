@@ -71,14 +71,14 @@ export const WL_COUNT =
 
 export const WB_REGULAR_SPIRITS = 49
 //!!!UPDATE THIS Wing Buff Count every new TS that hasnt arrived yet!!!
-export const WB_TRAVELING_SPIRITS = 75 // updated January 30, 2025 TS Forgetful Storyteller
+export const WB_TRAVELING_SPIRITS = 76 // updated February 27, 2025 TS Mindful Miner
 
 export const MS_HOME = 1
 
 export const TOTAL_WL_COUNT =
   WL_COUNT + WB_REGULAR_SPIRITS + WB_TRAVELING_SPIRITS + SHARDS_WL + ORBIT_WL
 
-export const TOTAL_MS_COUNT = // November 7, 2024
+export const TOTAL_MS_COUNT = // February 27, 2025
   ISLE_NUM_MAP_SHRINES +
   PRAIRIE_NUM_MAP_SHRINES +
   FOREST_NUM_MAP_SHRINES +
@@ -89,7 +89,7 @@ export const TOTAL_MS_COUNT = // November 7, 2024
   AVIARY_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'January 30, 2025' //TS Forgetful Storyteller
+export const WL_COUNT_DATE_UPDATED = 'February 27, 2025' //TS Mindful Miner
 export const MS_COUNT_DATE_UPDATED = 'October 14, 2024'
 
 export const SC_24_RADIANCE_ICON = sc

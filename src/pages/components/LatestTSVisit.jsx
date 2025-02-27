@@ -24,9 +24,11 @@ const LatestTSVisit = () => {
       </div>
       {allSeasons.map((seasons) =>
         seasons.season_spirits?.map((spirits) =>
-          spirits.number_of_visits?.map((visit) => (
-            <Typography>{visit.visitNo}</Typography>
-          ))
+          spirits.number_of_visits
+            ?.sort(function (a, b) {
+              return a - b
+            })
+            .map((visit) => <Typography>{visit.visitNo}</Typography>)
         )
       )}
     </div>

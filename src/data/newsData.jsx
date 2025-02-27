@@ -183,4 +183,10 @@ We’re thrilled to announce that preparations for Days of Gathering 2024 are al
     newsLink:
       'https://www.thatskygame.com/news/days-of-fortune-2025-games-friends-and-fireworks-',
   },
+  {
+    id: 20,
+    newsTitle: `Season of Blue Bird`,
+    newsBody: `Upcoming 25th Season in Sky - Season of Blue Bird.`,
+    newsLink: '',
+  },
 ]
