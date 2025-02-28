@@ -15,13 +15,13 @@ export const announcementCarousel = [
     id: 2,
     img_url: carousel2,
     alt: 'Youtube Channel',
-    url: 'https://www.youtube.com/@SKYKIDTulongGabay',
+    url: 'https://www.youtube.com/@SKYKIDHero',
   },
   {
     id: 3,
     img_url: carousel3,
     alt: 'Welcome To SKYPH Community',
-    url: 'https://www.youtube.com/@SKYKIDTulongGabay',
+    url: 'https://www.youtube.com/@SKYKIDHero',
   },
   {
     id: 4,

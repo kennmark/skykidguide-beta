@@ -301,6 +301,18 @@ html {
   background-position: top;
   background-image: url(./assets/images/home-carousel/Season24News.webp);
 }
+.news-bg-19 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/events/DaysOfFortune2025.webp);
+}
+.news-bg-20 {
+  height: auto;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(./assets/images/home-carousel/Season-of-Blue-Bird.webp);
+}
 .carousel-image {
   height: 35rem;
   width: 100%;

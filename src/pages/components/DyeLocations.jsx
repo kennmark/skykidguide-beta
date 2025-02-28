@@ -5,10 +5,12 @@ import ValleyDyes from './MapDyeLocations/ValleyDyes'
 import WastelandDyes from './MapDyeLocations/WastelandDyes'
 import VaultDyes from './MapDyeLocations/VaultDyes'
 import EdenDyes from './MapDyeLocations/EdenDyes'
+import DyesMaxPerDay from './DyesMaxPerDay'
 
 const DyeLocations = () => {
   return (
     <div>
+      <DyesMaxPerDay />
       <PrairieDyes />
       <ForestDyes />
       <ValleyDyes />
