@@ -36,12 +36,15 @@ const News = () => {
 
   return (
     <div>
-      <Typography variant="h1" className="my-10">
+      <Typography variant="h1" className="my-10 text-[#fe7f2d]">
         News
       </Typography>
       <section className="container grid justify-items-center gap-2">
         {records.map((news, index) => (
-          <Card className={`p-5 w-11/12  news-bg-${news.id}`} key={index}>
+          <Card
+            className={`p-5 w-11/12  news-bg-${news.id} bg-[#233d4d]`}
+            key={index}
+          >
             <CardBody className="textbox">
               <Typography variant="h4" className="text-left text-black mb-5">
                 {news.newsTitle}
@@ -53,9 +56,7 @@ const News = () => {
             </CardBody>
             <CardFooter className="pt-3 flex justify-start">
               <a href={news.newsLink} target="_blank">
-                <Button className="bg-gradient-to-r rounded-lg from-purple-900 to-blue-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg">
-                  Read More
-                </Button>
+                <Button className="theme-button">Read More</Button>
               </a>
             </CardFooter>
           </Card>

@@ -16,7 +16,7 @@ const WingedLightIntro = () => {
   return (
     <div className="justify-start w-full ">
       <div>
-        <Typography variant="h1" className="py-5">
+        <Typography variant="h1" className="my-10 text-[#fe7f2d]">
           Winged Lights
         </Typography>
         <Typography className="leading-8 py-5 px-10">
@@ -25,19 +25,19 @@ const WingedLightIntro = () => {
           upang magkaroon ng mataas na wing power at wing level ng isang Skykid.
           Unang (1st) paraan, ay kolektahin ang lahat ng winged lights na
           makikita sa buong Sky Kingdom. May{' '}
-          <span className="font-extrabold text-amber-500">{WL_COUNT} WL</span>{' '}
+          <span className="font-extrabold text-[#fe7f2d]">{WL_COUNT} WL</span>{' '}
           na makukuha sa buong Pitong (7) Realms kasama ang mga Season Maps as
           of{' '}
-          <span className="font-extrabold text-amber-500">
+          <span className="font-extrabold text-[#fe7f2d]">
             {WL_COUNT_DATE_UPDATED}
           </span>{' '}
           sa iOS at Android OS . Pangalawang (2nd) paraan, ay bilhin ang mga
           Wing Buffs na nasa mga Regular Spirits at Traveling Spirits. Mayroong{' '}
-          <span className="font-extrabold text-amber-500">
+          <span className="font-extrabold text-[#fe7f2d]">
             {WB_REGULAR_SPIRITS} Wing Buffs sa Regular Spirits
           </span>{' '}
           at{' '}
-          <span className="font-extrabold text-amber-500">
+          <span className="font-extrabold text-[#fe7f2d]">
             {WB_TRAVELING_SPIRITS} ng Wing Buffs sa Traveling Spirits
           </span>{' '}
           naman. Ang Wing Buffs ay permanenteng Wing Level pagkatapos mong

@@ -29,7 +29,7 @@ const Events = () => {
     }
   }
   return (
-    <div className="container grid justify-items-center gap-5">
+    <div className="container grid justify-items-center gap-5 my-10 text-[#fe7f2d]">
       <Typography variant="h1">Events</Typography>
       <EventCard records={records} />
       <div className="flex space-x-1">

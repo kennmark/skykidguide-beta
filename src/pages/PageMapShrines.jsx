@@ -58,19 +58,19 @@ const PageMapShrines = () => {
         <div className="p-5">
           <Accordion
             open={open === 1}
-            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
+            className="mb-2 rounded-lg bg-[#233d4d] text-[#fe7f2d] px-4"
           >
             <AccordionHeader
               onClick={() => handleOpen(1)}
               className={`border-b-0 transition-colors ${
                 open === 1
-                  ? 'text-amber-500 hover:!text-amber-700'
-                  : 'text-amber-500 hover:text-amber-900'
+                  ? 'text-[#fe7f2d] hover:!text-[#ff9854]'
+                  : 'text-[#fe7f2d] hover:text-[#c56646]'
               }`}
             >
               <span className="flex">
                 Isle of Dawn - {ISLE_NUM_MAP_SHRINES} Map Shrines &nbsp;
-                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+                <BarsArrowDownIcon className="h-6 w-6 text-[#fe7f2d]" />
               </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
@@ -90,19 +90,19 @@ const PageMapShrines = () => {
           </Accordion>
           <Accordion
             open={open === 2}
-            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
+            className="mb-2 rounded-lg bg-[#233d4d] text-[#fe7f2d] px-4"
           >
             <AccordionHeader
               onClick={() => handleOpen(2)}
               className={`border-b-0 transition-colors ${
                 open === 2
-                  ? 'text-amber-500 hover:!text-amber-700'
-                  : 'text-amber-500 hover:text-amber-900'
+                  ? 'text-[#fe7f2d] hover:!text-[#ff9854]'
+                  : 'text-[#fe7f2d] hover:text-[#c56646]'
               }`}
             >
               <span className="flex">
                 Daylight Prairie - {PRAIRIE_NUM_MAP_SHRINES} Map Shrines &nbsp;
-                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+                <BarsArrowDownIcon className="h-6 w-6 text-[#fe7f2d]" />
               </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
@@ -122,19 +122,19 @@ const PageMapShrines = () => {
           </Accordion>
           <Accordion
             open={open === 3}
-            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
+            className="mb-2 rounded-lg bg-[#233d4d] text-[#fe7f2d] px-4"
           >
             <AccordionHeader
               onClick={() => handleOpen(3)}
               className={`border-b-0 transition-colors ${
                 open === 3
-                  ? 'text-amber-500 hover:!text-amber-700'
-                  : 'text-amber-500 hover:text-amber-900'
+                  ? 'text-[#fe7f2d] hover:!text-[#ff9854]'
+                  : 'text-[#fe7f2d] hover:text-[#c56646]'
               }`}
             >
               <span className="flex">
                 Hidden Forest - {FOREST_NUM_MAP_SHRINES} Map Shrines &nbsp;
-                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+                <BarsArrowDownIcon className="h-6 w-6 text-[#fe7f2d]" />
               </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
@@ -154,19 +154,19 @@ const PageMapShrines = () => {
           </Accordion>
           <Accordion
             open={open === 4}
-            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
+            className="mb-2 rounded-lg bg-[#233d4d] text-[#fe7f2d] px-4"
           >
             <AccordionHeader
               onClick={() => handleOpen(4)}
               className={`border-b-0 transition-colors ${
                 open === 4
-                  ? 'text-amber-500 hover:!text-amber-700'
-                  : 'text-amber-500 hover:text-amber-900'
+                  ? 'text-[#fe7f2d] hover:!text-[#ff9854]'
+                  : 'text-[#fe7f2d] hover:text-[#c56646]'
               }`}
             >
               <span className="flex">
                 Valley of Triumph - {VALLEY_NUM_MAP_SHRINES} Map Shrines &nbsp;
-                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+                <BarsArrowDownIcon className="h-6 w-6 text-[#fe7f2d]" />
               </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
@@ -186,20 +186,20 @@ const PageMapShrines = () => {
           </Accordion>
           <Accordion
             open={open === 5}
-            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
+            className="mb-2 rounded-lg bg-[#233d4d] text-[#fe7f2d] px-4"
           >
             <AccordionHeader
               onClick={() => handleOpen(5)}
               className={`border-b-0 transition-colors ${
                 open === 5
-                  ? 'text-amber-500 hover:!text-amber-700'
-                  : 'text-amber-500 hover:text-amber-900'
+                  ? 'text-[#fe7f2d] hover:!text-[#ff9854]'
+                  : 'text-[#fe7f2d] hover:text-[#c56646]'
               }`}
             >
               <span className="flex">
                 Golden Wasteland - {WASTELAND_NUM_MAP_SHRINES} Map Shrines
                 &nbsp;
-                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+                <BarsArrowDownIcon className="h-6 w-6 text-[#fe7f2d]" />
               </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
@@ -219,19 +219,19 @@ const PageMapShrines = () => {
           </Accordion>
           <Accordion
             open={open === 6}
-            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
+            className="mb-2 rounded-lg bg-[#233d4d] text-[#fe7f2d] px-4"
           >
             <AccordionHeader
               onClick={() => handleOpen(6)}
               className={`border-b-0 transition-colors ${
                 open === 6
-                  ? 'text-amber-500 hover:!text-amber-700'
-                  : 'text-amber-500 hover:text-amber-900'
+                  ? 'text-[#fe7f2d] hover:!text-[#ff9854]'
+                  : 'text-[#fe7f2d] hover:text-[#c56646]'
               }`}
             >
               <span className="flex">
                 Vault of Knowledge - {VAULT_NUM_MAP_SHRINES} Map Shrines &nbsp;
-                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+                <BarsArrowDownIcon className="h-6 w-6 text-[#fe7f2d]" />
               </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">
@@ -251,19 +251,19 @@ const PageMapShrines = () => {
           </Accordion>
           <Accordion
             open={open === 7}
-            className="mb-2 rounded-lg border border-blue-gray-100 px-4"
+            className="mb-2 rounded-lg bg-[#233d4d] text-[#fe7f2d] px-4"
           >
             <AccordionHeader
               onClick={() => handleOpen(7)}
               className={`border-b-0 transition-colors ${
                 open === 7
-                  ? 'text-amber-500 hover:!text-amber-700'
-                  : 'text-amber-500 hover:text-amber-900'
+                  ? 'text-[#fe7f2d] hover:!text-[#ff9854]'
+                  : 'text-[#fe7f2d] hover:text-[#c56646]'
               }`}
             >
               <span className="flex">
                 Eye of Eden - {EDEN_NUM_MAP_SHRINES} Map Shrines &nbsp;
-                <BarsArrowDownIcon className="h-6 w-6 text-amber-500" />
+                <BarsArrowDownIcon className="h-6 w-6 text-[#fe7f2d]" />
               </span>
             </AccordionHeader>
             <AccordionBody className="pt-0 text-base font-normal">

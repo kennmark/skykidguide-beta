@@ -21,8 +21,8 @@ const PageSeasonMap = () => {
         <div className="pt-5">
           <SideBarContainer />
         </div>
-        <div className="h-fit w-full my-5 px-5">
-          <Typography variant="h1" className="pb-5">
+        <div className="h-fit w-full my-10 px-5">
+          <Typography variant="h1" className="pb-5 text-[#fe7f2d]">
             Seasons
           </Typography>
           <Carousel
@@ -53,16 +53,11 @@ const PageSeasonMap = () => {
                     Bagong Season ang dumating sa Sky: Children of The Light!
                   </Typography>
                   <div className="flex justify-center gap-2">
-                    <Button
-                      size="sm"
-                      color="gray"
-                      className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:scale-[1.02] hover:shadow-indigo-500 hover:shadow-xl"
-                      ripple={true}
-                    >
+                    <Button size="sm" className="theme-button" ripple={true}>
                       Pasok
                     </Button>
                     <a href="https://www.thatskygame.com/news/a-world-of-color-awaits-in-season-of-radiance/">
-                      <Button size="sm" color="white" variant="outlined">
+                      <Button size="sm" className="theme-button">
                         Visit Site
                       </Button>
                     </a>
@@ -265,7 +260,7 @@ const PageSeasonMap = () => {
           {/* Seasons 2025 */}
           <div className="pt-5 w-full px-5">
             <div className="">
-              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
+              <Card className="flex justify-center text-xl py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
                 Seasons 2025 - [Radiance]
               </Card>
             </div>
@@ -280,7 +275,7 @@ const PageSeasonMap = () => {
           {/* Seasons 2024 */}
           <div className="pt-5 w-full px-5">
             <div className="">
-              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
+              <Card className="flex justify-center text-xl  py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
                 Seasons 2024 - [The Nine Colored Deer, Nesting, Duet, Moomin]
               </Card>
             </div>
@@ -295,7 +290,7 @@ const PageSeasonMap = () => {
           {/* Seasons 2023 */}
           <div className="pt-5 w-full px-5">
             <div className="">
-              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
+              <Card className="flex justify-center text-xl py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
                 Seasons 2023 - [Remembrance, Passage, Moments, Revival]
               </Card>
             </div>
@@ -310,7 +305,7 @@ const PageSeasonMap = () => {
           {/* Seasons 2022 */}
           <div className="pt-5 w-full px-5">
             <div>
-              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
+              <Card className="flex justify-center text-xl  py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
                 Seasons 2022 - [Abyss, Performance, Shattering, AURORA]
               </Card>
             </div>
@@ -325,7 +320,7 @@ const PageSeasonMap = () => {
           {/* Seasons 2021 */}
           <div className="pt-5 w-full px-5">
             <div>
-              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
+              <Card className="flex justify-center text-xl py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
                 Seasons 2021 - [Dreams, Assembly, The Little Prince, Flight]
               </Card>
             </div>
@@ -340,7 +335,7 @@ const PageSeasonMap = () => {
           {/* Seasons 2020 */}
           <div className="pt-5 w-full px-5">
             <div>
-              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
+              <Card className="flex justify-center text-xl py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
                 Seasons 2020 - [Rythm, Enchantment, Sanctuary, Prophecy]
               </Card>
             </div>
@@ -355,7 +350,7 @@ const PageSeasonMap = () => {
           {/* Seasons 2019 */}
           <div className="pt-5 w-full px-5">
             <div>
-              <Card className="flex justify-center text-xl text-white py-2 md:py-5 px-3 bg-blue-900/50">
+              <Card className="flex justify-center text-xl py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
                 Seasons 2019 - [Gratitude, Lightseekers, Belonging]
               </Card>
             </div>

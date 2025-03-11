@@ -41,7 +41,7 @@ const SeasonDisplayContainer = ({
           unmount: { scale: 0, y: 25 },
         }}
       >
-        <div className="rounded-full h-20 bg-[#000c18] transition ease-in-out duration-500 hover:bg-light-blue-900/20 shadow-md shadow-blue-500 hover:shadow-xl hover:shadow-deep-orange-600 cursor-pointer">
+        <div className="rounded-full h-20 bg-[#000c18] transition ease-in-out duration-500 hover:bg-[#233d4d] shadow-md shadow-[#233d4d] hover:shadow-xl hover:shadow-[#fe7f2d] cursor-pointer">
           <LazyLoadImage
             src={icon_route}
             alt={name}
