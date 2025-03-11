@@ -41,7 +41,7 @@ const SeasonDisplayContainer = ({
           unmount: { scale: 0, y: 25 },
         }}
       >
-        <div className="rounded-full h-20 bg-[#000c18] transition ease-in-out duration-500 hover:bg-[#233d4d] shadow-md shadow-[#233d4d] hover:shadow-xl hover:shadow-[#fe7f2d] cursor-pointer">
+        <div className="rounded-full h-20 bg-[#233d4d] text-[#fe7f2d] transition ease-in-out duration-500 hover:bg-[#233d4d] shadow-md shadow-[#233d4d] hover:shadow-xl hover:shadow-[#fe7f2d] cursor-pointer">
           <LazyLoadImage
             src={icon_route}
             alt={name}
@@ -59,12 +59,8 @@ const SeasonDisplayContainer = ({
         className="bg-transparent shadow-none"
         key={name}
       >
-        <Card
-          className="mx-auto w-full max-w-[24rem]"
-          color="gray"
-          variant="gradient"
-        >
-          <CardHeader className="bg-gray-900 text-white grid h-auto pb-2 pt-1 place-items-center text-center px-1">
+        <Card className="mx-auto w-full max-w-[24rem] bg-[#233d4d] ">
+          <CardHeader className="bg-gray-900  grid h-auto pb-2 pt-1 place-items-center text-center px-1">
             <div className="block">
               <LazyLoadImage
                 src={icon_route}
@@ -73,18 +69,20 @@ const SeasonDisplayContainer = ({
                 width={55}
                 effect="blur"
               />
-              <Typography variant="h3">{name}</Typography>
-              <Typography>{time_duration}</Typography>
+              <Typography variant="h3" className="text-[#fe7f2d]">
+                {name}
+              </Typography>
+              <Typography className="text-white">{time_duration}</Typography>
             </div>
           </CardHeader>
           <CardBody className="flex flex-col gap-4">
-            <Typography color="amber">Quick Note:</Typography>
-            <p>{quick_info}</p>
+            <Typography className="text-[#fe7f2d]">Quick Note:</Typography>
+            <p className="text-white">{quick_info}</p>
 
-            <Typography color="amber">
+            <Typography className="text-[#fe7f2d]">
               No. of Spirits ({spiritCount})
             </Typography>
-            <Typography color="amber">
+            <Typography className="text-[#fe7f2d]">
               No. of Winged Lights ({wl_num})
             </Typography>
 
@@ -119,18 +117,13 @@ const SeasonDisplayContainer = ({
               className=" text-blue-gray-900"
               key={id}
             >
-              <Button
-                size="lg"
-                variant="gradient"
-                fullWidth
-                className="bg-gradient-to-r rounded-tl-none rounded-bl-none from-purple-900 to-blue-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
-              >
+              <Button size="lg" fullWidth className="theme-button">
                 Pasok
               </Button>
             </Link>
             <div className="flex justify-center items-center align-middle text-xs mt-2">
               <span className="text-blue-gray-100">Bisitahin ang page ng</span>
-              <span className="ml-2 text-light-blue-300">{name}</span>
+              <span className="ml-2 text-[#fe7f2d]">{name}</span>
             </div>
           </CardFooter>
         </Card>
