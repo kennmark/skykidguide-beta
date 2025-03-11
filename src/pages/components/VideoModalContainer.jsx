@@ -17,7 +17,7 @@ const VideoModalContainer = ({
   return (
     <>
       <Dialog
-        className="bg-gray-900 border-y-2 border-amber-600"
+        className="bg-[#233d4d] border-y-2 border-[#fe7f2d]"
         open={open}
         handler={handleOpen}
         animate={{
@@ -25,10 +25,10 @@ const VideoModalContainer = ({
           unmount: { scale: 0.9, y: -100 },
         }}
       >
-        <DialogHeader className="text-gray-200 justify-between">
+        <DialogHeader className="text-[#fe7f2d] justify-between">
           Spirit Guide Video - {spirit_name}
           <IconButton color="white" variant="text" onClick={handleOpen}>
-            <XMarkIcon className="h-6 w-6" />
+            <XMarkIcon className="h-6 w-6 text-[#fe7f2d]" />
           </IconButton>
         </DialogHeader>
         <DialogBody className="h-96 drop-shadow-2xl">

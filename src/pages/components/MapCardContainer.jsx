@@ -28,13 +28,13 @@ const MapCardContainer = ({
   num_of_map_shrines,
 }) => {
   return (
-    <div className="sm:px-4 my-3">
-      <Card className={`${group} max-w-[20rem] p-8 w-96 justify-end`}>
+    <div className="sm:px-4 py-10 flex justify-center">
+      <Card className={`${group} max-w-[20rem] p-8 w-96 `}>
         <CardHeader
           floated={false}
           shadow={false}
           color="transparent"
-          className="m-0 mb-5 rounded-none border-b border-white/10 pb-8 text-center "
+          className="m-0 mb-5 rounded-none pb-8 text-center"
         >
           <Typography className="mt-1 flex justify-center gap-1 text-7xl font-normal">
             <span>
@@ -50,10 +50,7 @@ const MapCardContainer = ({
             </span>
           </Typography>
           <Typography className="text-xl text-blue-gray-50">{title}</Typography>
-          <Typography
-            color="white"
-            className="bg-gradient-to-r from-purple-500/0 via-deep-orange-900 to-purple-500/0 py-1 shadow-lg"
-          >
+          <Typography className="bg-gradient-to-r from-purple-500/0 via-[#fe7f2d] to-purple-500/0 py-1 shadow-lg text-[#233d4d]">
             {subtitle}
           </Typography>
         </CardHeader>
@@ -62,9 +59,8 @@ const MapCardContainer = ({
             <li className="flex items-center gap-4">
               <span className="rounded-full bg-white/20 p-1">
                 <Badge
-                  color="amber"
                   content={num_of_wls}
-                  className="shadow-lg shadow-black/20 text-indigo-900 font-extrabold"
+                  className="shadow-lg shadow-black/20 font-extrabold bg-[#fe7f2d] text-[#233d4d]"
                 >
                   <Chip
                     color="gray"
@@ -76,9 +72,8 @@ const MapCardContainer = ({
               </span>
               <span className="rounded-full bg-white/20 p-1">
                 <Badge
-                  color="amber"
                   content={num_of_reg_spirits}
-                  className="shadow-lg shadow-black/20 text-indigo-900 font-extrabold"
+                  className="shadow-lg shadow-black/20 font-extrabold bg-[#fe7f2d] text-[#233d4d]"
                 >
                   <Chip
                     color="gray"
@@ -92,9 +87,8 @@ const MapCardContainer = ({
             <li className="flex items-center gap-4">
               <span className="rounded-full bg-white/20 p-1">
                 <Badge
-                  color="amber"
                   content={num_of_season_spirits}
-                  className="shadow-lg shadow-black/20 text-indigo-900 font-extrabold"
+                  className="shadow-lg shadow-black/20 font-extrabold bg-[#fe7f2d] text-[#233d4d]"
                 >
                   <Chip
                     color="gray"
@@ -110,9 +104,8 @@ const MapCardContainer = ({
               </span>
               <span className="rounded-full bg-white/20 p-1">
                 <Badge
-                  color="amber"
                   content={num_of_map_shrines}
-                  className="shadow-lg shadow-black/20 text-indigo-900 font-extrabold"
+                  className="shadow-lg shadow-black/20 font-extrabold bg-[#fe7f2d] text-[#233d4d]"
                 >
                   <Chip
                     color="gray"
@@ -133,7 +126,7 @@ const MapCardContainer = ({
             <Button
               size="lg"
               color="gray"
-              className="bg-gradient-to-r from-deep-orange-800 to-brown-900 shadow-lg shadow-orange-900/50 hover:scale-[1.02] hover:shadow-orange-900 hover:shadow-xl"
+              className="theme-button hover:shadow-xl"
               ripple={true}
               fullWidth={true}
             >

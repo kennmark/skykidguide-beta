@@ -14,7 +14,7 @@ const DyesMaxPerDay = () => {
   return (
     <div className="my-10">
       <Typography variant="h1">Max Dyes Per Day</Typography>
-      <div className="flex flex-wrap justify-center mt-5 pt-5 pb-10 bg-blue-gray-800 rounded-3xl">
+      <div className="flex flex-wrap justify-center mt-5 pt-5 pb-10 gap-4 rounded-3xl">
         <div className="flex flex-wrap gap-2 mr-2">
           <LazyLoadImage
             src={RED_JAR}

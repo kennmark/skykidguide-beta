@@ -26,31 +26,31 @@ const MapShrineIntro = () => {
   return (
     <div className="justify-start w-full">
       <div>
-        <Typography variant="h1" className="py-5">
+        <Typography variant="h1" className="py-5 text-[#fe7f2d]">
           Map Shrines
         </Typography>
         <Typography className="leading-8 py-5 px-10">
           Ang Map Shrines (MS) ay nagsisilbing gabay upang makita sa mapa ng
           buong Sky ang mga{' '}
-          <span className="font-extrabold text-amber-500">
+          <span className="font-extrabold text-[#fe7f2d]">
             lokasyon ng mga Winged Lights
           </span>{' '}
           na hindi pa nakukuha at ang{' '}
-          <span className="font-extrabold text-amber-500">Daily Quests</span> na
+          <span className="font-extrabold text-[#fe7f2d]">Daily Quests</span> na
           bagong feature ngayon na nakatakda sa araw na ito ay maari mo na din
           dito makita. May{' '}
-          <span className="font-extrabold text-amber-500">
+          <span className="font-extrabold text-[#fe7f2d]">
             {TOTAL_MS_COUNT} Map Shrines
           </span>{' '}
           na makukuha sa buong Pitong (7) Realms kasama ang mga Season Maps as
           of{' '}
-          <span className="font-extrabold text-amber-500">
+          <span className="font-extrabold text-[#fe7f2d]">
             {MS_COUNT_DATE_UPDATED}
           </span>{' '}
           sa iOS at Android OS .
         </Typography>
       </div>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center items-center">
         <Card className="py-3 px-1">
           <table className="w-full min-w-max table-auto text-left">
             <thead>
@@ -134,7 +134,7 @@ const MapShrineIntro = () => {
                 <td className="border border-slate-700 font-bold p-3">
                   MS TOTAL
                 </td>
-                <td className="border border-slate-700 font-bold text-amber-600 p-3">
+                <td className="border border-slate-700 font-bold text-[#fe7f2d] p-3">
                   {TOTAL_MS_COUNT}
                 </td>
               </tr>

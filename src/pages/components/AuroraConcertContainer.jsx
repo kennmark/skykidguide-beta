@@ -2,7 +2,7 @@ import { Button, Typography } from '@material-tailwind/react'
 
 const AuroraConcert = () => {
   return (
-    <>
+    <div className="my-16">
       <Typography>
         Nagsisimula ang Aurora Concert sa{' '}
         <span className="text-red-400">ODD Numbers na Oras </span>na may&nbsp;
@@ -29,7 +29,7 @@ const AuroraConcert = () => {
         . Makakapunta ka lamang dito kapag ikaw ay may Wings of Aurora o may
         kaibigan kang mayroong Wings of Aurora.
       </Typography>
-    </>
+    </div>
   )
 }
 

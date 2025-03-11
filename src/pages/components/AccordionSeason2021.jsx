@@ -31,19 +31,14 @@ const AccordionSeason2021 = ({ open, handleOpen }) => {
       <ListItem className="p-0" selected={open === 4}>
         <AccordionHeader
           onClick={() => handleOpen(4)}
-          className="border-b-0 p-3"
+          className={`border-b-0 p-3 hover:text-[#fe7f2d] transition-colors ${
+            open === 4 ? 'text-[#fe7f2d]' : ''
+          }`}
         >
           <ListItemPrefix>
             <SparklesIcon className="h-5 w-5" />
           </ListItemPrefix>
-          <Typography
-            color="blue-gray"
-            className={`mr-auto font-normal transition-colors ${
-              open === 4 ? 'text-amber-500 hover:!text-amber-700' : ''
-            }`}
-          >
-            Seasons in 2021
-          </Typography>
+          <Typography className={`mr-auto`}>Seasons in 2021</Typography>
         </AccordionHeader>
       </ListItem>
       <AccordionBody className="py-1">
@@ -58,7 +53,7 @@ const AccordionSeason2021 = ({ open, handleOpen }) => {
                   className=" text-blue-gray-900"
                   key={season.id}
                 >
-                  <ListItem className="hover:text-amber-500">
+                  <ListItem className="hover:text-[#fe7f2d]">
                     <ListItemPrefix>
                       <LazyLoadImage
                         src={season.icon_route}

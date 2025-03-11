@@ -22,8 +22,8 @@ const FaqContainer = ({ id, headerTitle, body, open, handleOpen }) => {
     >
       <AccordionHeader
         onClick={() => handleOpen(id)}
-        className={`border-b-0 text-white/90 text-lg hover:text-pink-400 transition-colors ${
-          open === id ? 'text-amber-600 hover:!text-pink-400' : ''
+        className={`border-b-0 text-white/90 text-lg hover:text-[#fe7f2d] transition-colors ${
+          open === id ? 'text-[#fe7f2d] hover:!text-[#fe7f2d]' : ''
         }`}
       >
         {headerTitle}

@@ -12,13 +12,12 @@ const SkyClock = () => {
     <>
       <Button
         onClick={toggleOpen}
-        variant="gradient"
-        className="bg-gradient-to-r from-deep-orange-800 to-brown-900 mb-4 flex items-center"
+        className=" mb-4 flex items-center theme-button"
       >
         {!open ? (
-          <Bars3Icon className="h-6 w-6 text-gray-50 stroke-2" />
+          <Bars3Icon className="h-6 w-6 text-[#233d4d] stroke-2" />
         ) : (
-          <ClockIcon className="h-6 w-6 text-gray-50 stroke-2" />
+          <ClockIcon className="h-6 w-6 text-[#233d4d] stroke-2" />
         )}
         <Typography className="text-lg font-bold">
           &nbsp; SkyClock &nbsp;

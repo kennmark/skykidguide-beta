@@ -189,4 +189,15 @@ We’re thrilled to announce that preparations for Days of Gathering 2024 are al
     newsBody: `Upcoming 25th Season in Sky - Season of Blue Bird.`,
     newsLink: '',
   },
+  {
+    id: 21,
+    newsTitle: `Days of Treasure 2025`,
+    newsBody: `From March 3rd PST (UTC -8) through March 16th PDT (UTC -7), mind your sea legs and gather 
+    'round, for adventure calls in the land of the seven realms! A series of enchanted maps have drifted 
+    into the realms of Sky, leading to troves of hidden wonders. But beware, for the sands of time slip 
+    swiftly through the glass, and once the map’s magic fades, so too will the treasures! Aye, ye must
+     be swift, sharp, and ready to heave ho!`,
+    newsLink:
+      'https://www.thatskygame.com/news/a-bounty-awaits-in-days-of-treasure',
+  },
 ]

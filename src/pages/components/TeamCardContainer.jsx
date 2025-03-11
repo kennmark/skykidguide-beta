@@ -25,7 +25,7 @@ const TeamCardContainer = ({
   avatar_img,
 }) => {
   return (
-    <Card className="sm:w-56 bg-transparent team-avatar-card">
+    <Card className="sm:w-56 bg-transparent team-avatar-card text-white hover:text-[#fe7f2d]">
       <CardHeader
         floated={false}
         className="h-80 md:h-48 rounded-2xl md:rounded-full"
@@ -37,8 +37,8 @@ const TeamCardContainer = ({
           className="avatar-image"
         />
       </CardHeader>
-      <CardBody className="text-center">
-        <Typography variant="h6" color="white" className="mb-2">
+      <CardBody className="text-center ">
+        <Typography variant="h6" className="mb-2">
           {fullname}
         </Typography>
         <Typography color="white" className="text-xs">
@@ -50,12 +50,11 @@ const TeamCardContainer = ({
           <Typography
             as="a"
             href={facebook}
-            className="opacity-80 transition-opacity hover:opacity-100"
+            className="opacity-80 transition-opacity hover:opacity-100 "
           >
             <FontAwesomeIcon
               icon={faFacebook}
-              className="h-7"
-              color="white"
+              className="h-7 text-white hover:text-[#fe7f2d]"
               cursor="pointer"
             />
           </Typography>
@@ -70,8 +69,8 @@ const TeamCardContainer = ({
               <FontAwesomeIcon
                 icon={faInstagram}
                 size="2x"
-                color="white"
                 cursor="pointer"
+                className="text-white hover:text-[#fe7f2d]"
               />
             </Typography>
           </Tooltip>
@@ -87,7 +86,7 @@ const TeamCardContainer = ({
               <FontAwesomeIcon
                 icon={faTiktok}
                 size="2x"
-                color="white"
+                className="text-white hover:text-[#fe7f2d]"
                 cursor="pointer"
               />
             </Typography>

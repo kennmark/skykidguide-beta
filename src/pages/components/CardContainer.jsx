@@ -21,9 +21,9 @@ const CardContainer = ({ label, location, url }) => {
 
   return (
     <>
-      <Card className="mt-6 lg:w-72 w-80 mb-5 " color="gray" variant="gradient">
+      <Card className="theme-card-bg mt-6 lg:w-72 w-80 mb-5 flex justify-between">
         <CardHeader
-          className="relative h-auto flex justify-center bg-blue-gray-900 cursor-pointer"
+          className="relative h-auto flex justify-center cursor-pointer"
           onClick={handleOpen}
         >
           <LazyLoadImage
@@ -34,7 +34,7 @@ const CardContainer = ({ label, location, url }) => {
           />
         </CardHeader>
         <CardBody>
-          <Typography variant="h5" color="white" className="mb-2">
+          <Typography variant="h5" className="mb-2 text-[#fe7f2d]">
             {label}
           </Typography>
         </CardBody>
@@ -43,7 +43,7 @@ const CardContainer = ({ label, location, url }) => {
             onClick={handleTextGuideOpen}
             ripple={true}
             fullWidth={true}
-            className="bg-gradient-to-r rounded-tl-none rounded-bl-none from-purple-900 to-blue-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
+            className="theme-button"
           >
             Text Guide
           </Button>
@@ -59,7 +59,7 @@ const CardContainer = ({ label, location, url }) => {
         <DialogBody divider={true} className="p-0 w-full rounded-3xl">
           <img
             alt={label}
-            className="w-full object-cover object-center rounded-3xl border-amber-500 border-2"
+            className="w-full object-cover object-center rounded-3xl border-[#fe7f2d] border-2"
             src={url}
           />
         </DialogBody>

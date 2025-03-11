@@ -45,10 +45,7 @@ const S9AssemblyPage = () => {
           mapIntro={'Be prepared to pledge allegiance as a Scout'}
         />
         <Tabs id="custom-animation" value={activeTab}>
-          <TabsHeader
-            variant="gradient"
-            className="bg-gradient-to-r from-blue-900 to-purple-900 flex items-center"
-          >
+          <TabsHeader className="bg-[#233d4d] flex items-center">
             {SeasonTabHeader.map((headerTab, index) => {
               return (
                 <MapTabHeaderContainer

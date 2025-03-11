@@ -16,7 +16,7 @@ export const aviaryData = [
     desc: (
       <Typography className="antialiased font-sans">
         Ito ang pang-walong mapa - Aviary Village. May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+        <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
           {AVIARY_NUM_REG_SPIRIT}
         </span>{' '}
         regular spirits na makikita mo dito.
@@ -31,7 +31,7 @@ export const aviaryData = [
       <Typography className="antialiased font-sans">
         Nandito ang mga collectibles na dumaan noong nakaraang Seasonal Events
         na maari mong makuha kapag ito ay bumalik bilang TS. May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+        <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
           {AVIARY_NUM_SEASON_SPIRIT}
         </span>{' '}
         collectibles makukuha dito.
@@ -40,7 +40,7 @@ export const aviaryData = [
     spirits: [
       //NON_SPIRIT
       {
-        spirit_id: 'revival-1',
+        spirit_id: seasons2023[3].season_spirits[0].spirit_id,
         spirit_name: seasons2023[3].season_spirits[0].spirit_name,
         spirit_img_url: seasons2023[3].season_spirits[0].spirit_img_url,
         spirit_category: seasons2023[3].season_spirits[0].spirit_category,
@@ -59,6 +59,7 @@ export const aviaryData = [
       },
       //NON_SPIRIT
       {
+        spirit_id: seasons2023[3].season_spirits[1].spirit_id,
         spirit_name: seasons2023[3].season_spirits[1].spirit_name,
         spirit_img_url: seasons2023[3].season_spirits[1].spirit_img_url,
         spirit_category: seasons2023[3].season_spirits[1].spirit_category,
@@ -77,6 +78,7 @@ export const aviaryData = [
       },
       //NON_SPIRIT
       {
+        spirit_id: seasons2023[3].season_spirits[2].spirit_id,
         spirit_name: seasons2023[3].season_spirits[2].spirit_name,
         spirit_img_url: seasons2023[3].season_spirits[2].spirit_img_url,
         spirit_category: seasons2023[3].season_spirits[2].spirit_category,
@@ -95,6 +97,7 @@ export const aviaryData = [
       },
       //NON_SPIRIT
       {
+        spirit_id: seasons2023[3].season_spirits[3].spirit_id,
         spirit_name: seasons2023[3].season_spirits[3].spirit_name,
         spirit_img_url: seasons2023[3].season_spirits[3].spirit_img_url,
         spirit_category: seasons2023[3].season_spirits[3].spirit_category,
@@ -112,6 +115,7 @@ export const aviaryData = [
         icon_route: seasons2023[3].icon_route,
       },
       {
+        spirit_id: seasons2024[1].season_spirits[0].spirit_id,
         spirit_name: seasons2024[1].season_spirits[0].spirit_name,
         spirit_img_url: seasons2024[1].season_spirits[0].spirit_img_url,
         spirit_category: seasons2024[1].season_spirits[0].spirit_category,
@@ -129,6 +133,7 @@ export const aviaryData = [
         icon_route: seasons2024[1].icon_route,
       },
       {
+        spirit_id: seasons2024[1].season_spirits[1].spirit_id,
         spirit_name: seasons2024[1].season_spirits[1].spirit_name,
         spirit_img_url: seasons2024[1].season_spirits[1].spirit_img_url,
         spirit_category: seasons2024[1].season_spirits[1].spirit_category,
@@ -146,6 +151,7 @@ export const aviaryData = [
         icon_route: seasons2024[1].icon_route,
       },
       {
+        spirit_id: seasons2024[1].season_spirits[2].spirit_id,
         spirit_name: seasons2024[1].season_spirits[2].spirit_name,
         spirit_img_url: seasons2024[1].season_spirits[2].spirit_img_url,
         spirit_category: seasons2024[1].season_spirits[2].spirit_category,
@@ -163,6 +169,7 @@ export const aviaryData = [
         icon_route: seasons2024[1].icon_route,
       },
       {
+        spirit_id: seasons2024[1].season_spirits[3].spirit_id,
         spirit_name: seasons2024[1].season_spirits[3].spirit_name,
         spirit_img_url: seasons2024[1].season_spirits[3].spirit_img_url,
         spirit_category: seasons2024[1].season_spirits[3].spirit_category,
@@ -180,6 +187,7 @@ export const aviaryData = [
         icon_route: seasons2024[1].icon_route,
       },
       {
+        spirit_id: seasons2024[2].season_spirits[0].spirit_id,
         spirit_name: seasons2024[2].season_spirits[0].spirit_name,
         spirit_img_url: seasons2024[2].season_spirits[0].spirit_img_url,
         spirit_category: seasons2024[2].season_spirits[0].spirit_category,
@@ -197,6 +205,7 @@ export const aviaryData = [
         icon_route: seasons2024[2].icon_route,
       },
       {
+        spirit_id: seasons2024[2].season_spirits[1].spirit_id,
         spirit_name: seasons2024[2].season_spirits[1].spirit_name,
         spirit_img_url: seasons2024[2].season_spirits[1].spirit_img_url,
         spirit_category: seasons2024[2].season_spirits[1].spirit_category,
@@ -214,6 +223,7 @@ export const aviaryData = [
         icon_route: seasons2024[2].icon_route,
       },
       {
+        spirit_id: seasons2024[2].season_spirits[2].spirit_id,
         spirit_name: seasons2024[2].season_spirits[2].spirit_name,
         spirit_img_url: seasons2024[2].season_spirits[2].spirit_img_url,
         spirit_category: seasons2024[2].season_spirits[2].spirit_category,
@@ -231,6 +241,7 @@ export const aviaryData = [
         icon_route: seasons2024[2].icon_route,
       },
       {
+        spirit_id: seasons2024[2].season_spirits[3].spirit_id,
         spirit_name: seasons2024[2].season_spirits[3].spirit_name,
         spirit_img_url: seasons2024[2].season_spirits[3].spirit_img_url,
         spirit_category: seasons2024[2].season_spirits[3].spirit_category,
@@ -248,6 +259,7 @@ export const aviaryData = [
         icon_route: seasons2024[2].icon_route,
       },
       {
+        spirit_id: seasons2024[2].season_spirits[4].spirit_id,
         spirit_name: seasons2024[2].season_spirits[4].spirit_name,
         spirit_img_url: seasons2024[2].season_spirits[4].spirit_img_url,
         spirit_category: seasons2024[2].season_spirits[4].spirit_category,
@@ -265,6 +277,7 @@ export const aviaryData = [
         icon_route: seasons2024[2].icon_route,
       },
       {
+        spirit_id: seasons2025[0].season_spirits[0].spirit_id,
         spirit_name: seasons2025[0].season_spirits[0].spirit_name,
         spirit_img_url: seasons2025[0].season_spirits[0].spirit_img_url,
         spirit_category: seasons2025[0].season_spirits[0].spirit_category,
@@ -282,6 +295,7 @@ export const aviaryData = [
         icon_route: seasons2025[0].icon_route,
       },
       {
+        spirit_id: seasons2025[0].season_spirits[1].spirit_id,
         spirit_name: seasons2025[0].season_spirits[1].spirit_name,
         spirit_img_url: seasons2025[0].season_spirits[1].spirit_img_url,
         spirit_category: seasons2025[0].season_spirits[1].spirit_category,
@@ -299,6 +313,7 @@ export const aviaryData = [
         icon_route: seasons2025[0].icon_route,
       },
       {
+        spirit_id: seasons2025[0].season_spirits[2].spirit_id,
         spirit_name: seasons2025[0].season_spirits[2].spirit_name,
         spirit_img_url: seasons2025[0].season_spirits[2].spirit_img_url,
         spirit_category: seasons2025[0].season_spirits[2].spirit_category,
@@ -324,7 +339,7 @@ export const aviaryData = [
       <Typography className="antialiased font-sans">
         Sa mapang ito mo rin makikita ang mga Winged Lights kung tawagin. Ito ay
         nagpapataas ng lebel para ikaw ay makalipad ng mas mataas. May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+        <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
           {AVIARY_NUM_WL}
         </span>{' '}
         na winged lights ang pwede mong makuha dito sa Hidden Forest.
@@ -339,7 +354,7 @@ export const aviaryData = [
       <Typography className="antialiased font-sans">
         Ang Map Shrines ay nagsisilbing gabay upang magtukoy kung ilan at saan
         pa ang kailangan mong kunin na winged lights sa loob ng mapa. May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+        <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
           {AVIARY_NUM_MAP_SHRINES}
         </span>{' '}
         na Map Shrines ang pwede mong mabuksan sa loob ng Hidden Forest.

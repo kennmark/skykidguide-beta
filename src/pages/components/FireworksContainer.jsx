@@ -2,7 +2,7 @@ import { Button, Typography } from '@material-tailwind/react'
 
 const Fireworks = () => {
   return (
-    <>
+    <div className="my-16">
       <Typography>
         Nagsisimula ang Fireworks sa unang araw ng buwan sa saktong oras na{' '}
         <span className="text-red-400">ODD Numbers na Oras </span>na may&nbsp;
@@ -29,7 +29,7 @@ const Fireworks = () => {
         gitnang portal na nasa dagat kung ikaw ay galing sa old home), dako sa
         portal area kung saan makikita ang fireworks staff.
       </Typography>
-    </>
+    </div>
   )
 }
 

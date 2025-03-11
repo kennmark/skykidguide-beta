@@ -35,20 +35,23 @@ const SideBar = ({ screenSize }) => {
     setOpen(open === value ? 0 : value)
   }
 
+  const [curUrl, setCurUrl] = useState('')
+
   return (
     <div className="sticky top-24 h-fit w-full max-w-[20rem] p-4 pb-16 shadow-xl shadow-blue-gray-900/5 bg-blue-gray-50">
       <div className="mb-2 gap-4 p-4">
-        <Typography variant="h5" color="blue-gray">
+        <Typography variant="h5" className="text-[#233d4d]">
           Dashboard
         </Typography>
       </div>
       <List className="pb-40">
         <Accordion
+          className="text-[#233d4d]"
           open={open === 1}
           icon={
             <ChevronDownIcon
               strokeWidth={2.5}
-              className={`mx-auto h-4 w-4 transition-transform ${
+              className={`mx-auto h-4 w-4 transition-transform  ${
                 open === 1 ? 'rotate-180' : ''
               }`}
             />
@@ -57,21 +60,14 @@ const SideBar = ({ screenSize }) => {
           <ListItem className="p-0" selected={open === 1}>
             <AccordionHeader
               onClick={() => handleOpen(1)}
-              className="border-b-0 p-3"
+              className={`border-b-0 p-3 hover:text-[#fe7f2d] transition-colors ${
+                open === 1 ? 'text-[#fe7f2d]' : ''
+              }`}
             >
-              <ListItemPrefix>
+              <ListItemPrefix className="">
                 <GlobeAsiaAustraliaIcon className="h-5 w-5" />
               </ListItemPrefix>
-              <Typography
-                color="blue-gray"
-                className={`mr-auto font-normal transition-colors ${
-                  open === 1
-                    ? 'text-pink-500 hover:!text-pink-700 font-semibold'
-                    : ''
-                }`}
-              >
-                Mapa 1-8
-              </Typography>
+              <Typography className={`mr-auto`}>Maps</Typography>
             </AccordionHeader>
           </ListItem>
           <AccordionBody className="py-1">
@@ -80,13 +76,14 @@ const SideBar = ({ screenSize }) => {
                 return (
                   <Link
                     to={`/${map.pageRoute}`}
-                    className=" flex justify-center text-blue-gray-900"
+                    className=" flex justify-center"
                     key={map.id}
                   >
-                    <ListItem className="hover:text-pink-500">
-                      <Typography>
-                        {map.id} - {map.title}&nbsp;
-                      </Typography>
+                    <ListItem
+                      selected={map.id}
+                      className={`text-[#233d4d] hover:text-[#fe7f2d] `}
+                    >
+                      <Typography>{map.title}&nbsp;</Typography>
 
                       <ListItemSuffix>
                         <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
@@ -98,7 +95,8 @@ const SideBar = ({ screenSize }) => {
             </List>
           </AccordionBody>
         </Accordion>
-        <hr className="my-2 border-blue-gray-900" />
+
+        <hr className="my-2 border-[#fe7f2d]" />
 
         <AccordionSeason2025 open={open} handleOpen={handleOpen} />
         <AccordionSeason2024 open={open} handleOpen={handleOpen} />
@@ -107,10 +105,12 @@ const SideBar = ({ screenSize }) => {
         <AccordionSeason2021 open={open} handleOpen={handleOpen} />
         <AccordionSeason2020 open={open} handleOpen={handleOpen} />
         <AccordionSeason2019 open={open} handleOpen={handleOpen} />
-        <hr className="my-2 border-blue-gray-900" />
-        <ListItem>
+
+        <hr className="my-2 border-[#fe7f2d]" />
+
+        <ListItem className="">
           <Link to={'/winged-lights'}>
-            <div className="flex text-blue-gray-700">
+            <div className="flex flex-wrap ">
               <ListItemPrefix>
                 <UserGroupIcon className="h-5 w-5" />
               </ListItemPrefix>
@@ -123,7 +123,7 @@ const SideBar = ({ screenSize }) => {
         </ListItem>
         <ListItem>
           <Link to={'/map-shrines'}>
-            <div className="flex flex-wrap text-blue-gray-700">
+            <div className="flex flex-wrap">
               <ListItemPrefix>
                 <InboxIcon className="h-5 w-5" />
               </ListItemPrefix>
@@ -134,6 +134,7 @@ const SideBar = ({ screenSize }) => {
             </div>
           </Link>
         </ListItem>
+
         {/* <ListItem>
           <Link to={'/veterans'}>
             <div className="flex flex-wrap text-blue-gray-700">

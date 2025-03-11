@@ -43,14 +43,14 @@ const AnnouncementModal = () => {
     <Dialog
       open={open}
       handler={handleOpen}
-      className="bg-transparent/80 h-auto -top-14 md:top-0 overflow-hidden"
+      className="bg-[#233d4d] h-auto -top-14 md:top-0 overflow-hidden"
     >
       <DialogHeader className="flex justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
-          fill="currentColor"
-          className="h-10 w-10 text-orange-400"
+          fill="#fe7f2d"
+          className="h-10 w-10 text-color"
         >
           <path
             fillRule="evenodd"
@@ -58,17 +58,17 @@ const AnnouncementModal = () => {
             clipRule="evenodd"
           />
         </svg>
-        <Typography variant="h6" color="white">
+        <Typography variant="h6" className="text-[#fe7f2d]">
           Pagbati SkyKid!
           <br /> {formattedToday}
         </Typography>
       </DialogHeader>
       <DialogBody divider className="grid place-items-center gap-4">
-        <Typography variant="h6" className="text-orange-400">
+        <Typography variant="h6" className="text-[#fe7f2d]">
           Word from Dev
         </Typography>
 
-        <Typography className="text-center text-white text-sm lg:text-lg ">
+        <Typography color="white" className="text-center text-sm lg:text-lg ">
           Ang website na ito ay binuo upang magamit bilang gabay sa paglalaro ng
           <a href="https://www.thatskygame.com/">
             {' '}
@@ -82,17 +82,16 @@ const AnnouncementModal = () => {
           "Grandma", at ng "turtle" at Kabilang din ang mga gabay para sa mga
           bagong event na kasalukuyang isinagawa sa loob ng laro.
         </Typography>
-        <Typography className="text-center text-white text-sm lg:text-lg ">
+        <Typography color="white" className="text-center text-sm lg:text-lg ">
           Upang mas maging user-friendly at interaktibo ang paggamit, ang mga
           bahagi ng website na ito ay nakasulat sa wikang Filipino upang mas
           madaling maunawaan ng mga Pilipinong gagamit nito.
         </Typography>
       </DialogBody>
-      <DialogFooter className="space-x-2">
+      <DialogFooter className="space-x-2 m-2">
         <Button
-          variant="gradient"
           onClick={handleOpen}
-          className="bg-gradient-to-r from-deep-orange-800 to-brown-900"
+          className="bg-[#fe7f2d] text-[#233d4d] border-2 border-[#233d4d] hover:bg-[#233d4d] hover:text-[#fe7f2d] hover:border-2 hover:border-[#fe7f2d]"
         >
           Magpatuloy
         </Button>

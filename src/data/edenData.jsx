@@ -19,6 +19,9 @@ import {
   EE_WL10,
 } from '../exports/edenWLImgUrl'
 import { EE_MS1, EE_MS2, EE_MS3, EE_MS4 } from '../exports/edenMSImgUrl'
+import DyeAlertMessage from '../pages/components/DyeAlertMessage'
+import EdenDyes from '../pages/components/MapDyeLocations/EdenDyes'
+
 export const eden = [
   {
     label: 'Regular Spirits',
@@ -59,94 +62,121 @@ export const eden = [
         wl_label: 'Eden-WL1',
         wl_group: 'wl-vault',
         wl_url: EE_WL1 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 7 | Eye of Eden >> Buksan ang malakit gate.>>
-        Umakyat hanggang sa susunod a level ng mapa >> Sa loob ng kwarto makikita
+        wl_location: [
+          `Pasok sa Map 7 | Eye of Eden`,
+          `Buksan ang malakit gate.`,
+          `Umakyat hanggang sa susunod a level ng mapa`,
+          `Sa loob ng kwarto makikita
         ang winged light.`,
+        ],
       },
       {
         id: 2,
         wl_label: 'Eden-WL2',
         wl_group: 'wl-vault',
         wl_url: EE_WL2 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 7 | Eye of Eden >> Buksan ang malakit gate.>>
-        Umakyat hanggang sa susunod a level ng mapa >> Lakbayin ang 2nd level hanggang 3rd Level paakyat >>
-        Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.
-        >> Nasa kaliwang banda bago sa pintuan ang winged light.`,
+        wl_location: [
+          `Pasok sa Map 7 | Eye of Eden, Buksan ang malakit gate.`,
+          `Lakbayin ang 2nd level hanggang 3rd Level paakyat`,
+          `Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.`,
+          `Nasa kaliwang banda bago sa pintuan ang winged light.`,
+        ],
       },
       {
         id: 3,
         wl_label: 'Eden-WL3',
         wl_group: 'wl-vault',
         wl_url: EE_WL3 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 7 | Eye of Eden >> Buksan ang malakit gate.>>
-        Umakyat hanggang sa susunod a level ng mapa >> Lakbayin ang 2nd level hanggang 3rd Level paakyat >>
-        Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.
-        >> Nasa pintuan lamang ang winged light na ito.`,
+        wl_location: [
+          `Pasok sa Map 7 | Eye of Eden, Buksan ang malakit gate.`,
+          `Lakbayin ang 2nd level hanggang 3rd Level paakyat`,
+          `Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.`,
+          `Nasa pintuan lamang ang winged light na ito.`,
+        ],
       },
       {
         id: 4,
         wl_label: 'Eden-WL4',
         wl_group: 'wl-vault',
         wl_url: EE_WL4 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 7 | Eye of Eden >> Buksan ang malakit gate.>>
-        Umakyat hanggang sa susunod a level ng mapa >> Lakbayin ang 2nd level hanggang 3rd Level paakyat >>
-        Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.
-        >> Baybayin lang hallway papasok sa Eden.`,
+        wl_location: [
+          `Pasok sa Map 7 | Eye of Eden, Buksan ang malakit gate.`,
+          `Lakbayin ang 2nd level hanggang 3rd Level paakyat`,
+          `Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.`,
+          `Baybayin lang hallway papasok sa Eden.`,
+        ],
       },
       {
         id: 5,
         wl_label: 'Eden-WL5',
         wl_group: 'wl-vault',
         wl_url: EE_WL5 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 7 | Eye of Eden >> uksan ang malakit gate.>>
-        Umakyat hanggang sa susunod a level ng mapa >> Lakbayin ang 2nd level hanggang 3rd Level paakyat >>
-        Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.
-        >> Baybayin lang hallway papasok sa Eden.`,
+        wl_location: [
+          `Pasok sa Map 7 | Eye of Eden, Buksan ang malakit gate.`,
+          `Lakbayin ang 2nd level hanggang 3rd Level paakyat`,
+          `Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.`,
+          `Baybayin lang hallway papasok sa Eden.`,
+        ],
       },
       {
         id: 6,
         wl_label: 'Eden-WL6',
         wl_group: 'wl-vault',
         wl_url: EE_WL6 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 7 | Eye of Eden >> Lumipad patungo sa elevating platform >>
-        umakyat pataas hanggang 5th floor >> lumipad patungo kung saan makita ang
-        malaking buto at nakapatong lng ang winged light dito.`,
+        wl_location: [
+          `Pasok sa Map 7 | Eye of Eden, Buksan ang malakit gate.`,
+          `Lakbayin ang 2nd level hanggang 3rd Level paakyat`,
+          `Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.`,
+          `Baybayin lang hallway papasok sa Eden.`,
+        ],
       },
       {
         id: 7,
         wl_label: 'Eden-WL7',
         wl_group: 'wl-vault',
         wl_url: EE_WL7 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 7 | Eye of Eden >>Lumipad patungo sa elevating platform >>
-        umakyat pataas hanggang 5th floor >> lumipad patungo kung saan makita ang
-        malaking buto at nakapatong lng ang winged light dito.`,
+        wl_location: [
+          `Pasok sa Map 7 | Eye of Eden, Buksan ang malakit gate.`,
+          `Lakbayin ang 2nd level hanggang 3rd Level paakyat`,
+          `Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.`,
+          `Baybayin lang hallway papasok sa Eden.`,
+        ],
       },
       {
         id: 8,
         wl_label: 'Eden-WL8',
         wl_group: 'wl-vault',
         wl_url: EE_WL8 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 7 | Eye of Eden >> Lumipad patungo sa elevating platform >>
-        umakyat pataas hanggang 5th floor >> lumipad patungo kung saan makita ang
-        malaking buto at nakapatong lng ang winged light dito.`,
+        wl_location: [
+          `Pasok sa Map 7 | Eye of Eden, Buksan ang malakit gate.`,
+          `Lakbayin ang 2nd level hanggang 3rd Level paakyat`,
+          `Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.`,
+          `Baybayin lang hallway papasok sa Eden.`,
+        ],
       },
       {
         id: 9,
         wl_label: 'Eden-WL9',
         wl_group: 'wl-vault',
         wl_url: EE_WL9 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 7 | Lumipad patungo sa elevating platform >>
-        umakyat pataas hanggang 5th floor >> lumipad patungo kung saan makita ang
-        malaking buto at nakapatong lng ang winged light dito.`,
+        wl_location: [
+          `Pasok sa Map 7 | Eye of Eden, Buksan ang malakit gate.`,
+          `Lakbayin ang 2nd level hanggang 3rd Level paakyat`,
+          `Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.`,
+          `Baybayin lang hallway papasok sa Eden.`,
+        ],
       },
       {
         id: 10,
         wl_label: 'Eden-WL10',
         wl_group: 'wl-vault',
         wl_url: EE_WL10 ?? WINGED_LIGHT,
-        wl_location: `Pasok sa Map 7 | Eye of Eden >> Lumipad patungo sa elevating platform >>
-        umakyat pataas hanggang 5th floor >> lumipad patungo kung saan makita ang
-        malaking buto at nakapatong lng ang winged light dito.`,
+        wl_location: [
+          `Pasok sa Map 7 | Eye of Eden, Buksan ang malakit gate.`,
+          `Lakbayin ang 2nd level hanggang 3rd Level paakyat`,
+          `Pagdating sa last Level may makitang lagusan papasok kung saan may dumadaan na krill sa pintuan.`,
+          `Baybayin lang hallway papasok sa Eden.`,
+        ],
       },
     ],
   },
@@ -168,33 +198,56 @@ export const eden = [
         id: 1,
         shrine_label: 'Map Shrine 1',
         shrine_url: EE_MS1 ?? MAP_SHRINE,
-        shrine_location: `Pasok sa Map 7 | Eye of Eden >> Sa Social Space malapit, 
+        shrine_location: [
+          `Pasok sa Map 7 | Eye of Eden`,
+          `Sa Social Space malapit, 
         makikita mo ang map shrine na ito.`,
+        ],
       },
       {
         id: 2,
         shrine_label: 'Map Shrine 2',
         shrine_url: EE_MS2 ?? MAP_SHRINE,
-        shrine_location: `Pasok sa Map 2 | Eye of Eden >> Nasa third level ito, 
+        shrine_location: [
+          `Pasok sa Map 7 | Eye of Eden`,
+          `Nasa third level ito, 
         pagkalabas mo sa tunnel, gawing kaliwa ng tunnel.`,
+        ],
       },
       {
         id: 3,
         shrine_label: 'Map Shrine 3',
         shrine_url: EE_MS3 ?? MAP_SHRINE,
-        shrine_location: `Pasok sa Map 2 | Eye of Eden >> Umakyat patungong last level at pumasok
-        sa hallway to Eden >>
-        Pagkapasok sa Storm Area ng Eden, sa Entrance,
+        shrine_location: [
+          `Pasok sa Map 7 | Eye of Eden`,
+          `Umakyat patungong last level at pumasok
+        sa hallway to Eden`,
+          `Pagkapasok sa Storm Area ng Eden, sa Entrance,
         gawing kanan sa likod ng bato makita ang map shrine.`,
+        ],
       },
       {
         id: 4,
         shrine_label: 'Map Shrine 4',
         shrine_url: EE_MS4 ?? MAP_SHRINE,
-        shrine_location: `Pasok sa Map 2 | Eye of Eden >> Umakyat patungong last level at pumasok
-        sa hallway to Eden >> Ma-petrify ang skykid mo at hanggang sa makarating ka sa Orbit. >>
-        sa ilalim ng meditating shrine, ay makita mo ang map shrine.`,
+        shrine_location: [
+          `Pasok sa Map 7 | Eye of Eden`,
+          `Umakyat patungong last level at pumasok
+        sa hallway to Eden`,
+          `Ma-petrify ang skykid mo at hanggang sa makarating ka sa Orbit.`,
+          `sa ilalim ng meditating shrine, ay makita mo ang map shrine.`,
+        ],
       },
     ],
+  },
+  {
+    label: 'Dye Locations',
+    value: 'dye_locations',
+    desc: (
+      <>
+        <DyeAlertMessage />
+        <EdenDyes />
+      </>
+    ),
   },
 ]

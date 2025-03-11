@@ -10,59 +10,56 @@ import CYAN_JAR from '../../../assets/images/Dyes/Cyan-Jar.webp'
 
 const ValleyDyes = () => {
   return (
-    <div className="mt-5 mb-5 border-4 rounded-3xl">
+    <div className="mt-5 mb-5 border-4 rounded-3xl p-5 w-72 h-auto md:h-96 flex flex-wrap justify-center items-center">
       <Typography variant="h2" className="my-5">
-        Valley Dye Locations
+        Valley Dye Distribution
       </Typography>
 
-      <div>
-        <Typography variant="h4">Dyes Plants Distribution</Typography>
-        <div className="flex flex-wrap justify-center pt-5 pb-10">
-          <div className="flex flex-wrap gap-2 mr-2">
-            <LazyLoadImage
-              src={RED_JAR}
-              alt={'Red Jar'}
-              title={'Red Jar'}
-              width={20}
-            />
-            <Typography className="flex place-self-end">27%</Typography>
-          </div>
-          <div className="flex flex-wrap gap-2 mr-2">
-            <LazyLoadImage
-              src={YELLOW_JAR}
-              alt={'Yellow Jar'}
-              title={'Yellow Jar'}
-              width={20}
-            />
-            <Typography className="flex place-self-end">13%</Typography>
-          </div>
-          <div className="flex flex-wrap gap-2 mr-2">
-            <LazyLoadImage
-              src={WHITE_JAR}
-              alt={'White Jar'}
-              title={'White Jar'}
-              width={20}
-            />
-            <Typography className="flex place-self-end">10%</Typography>
-          </div>
-          <div className="flex flex-wrap gap-2 mr-2">
-            <LazyLoadImage
-              src={GREEN_JAR}
-              alt={'Green Jar'}
-              title={'Green Jar'}
-              width={20}
-            />
-            <Typography className="flex place-self-end">27%</Typography>
-          </div>
-          <div className="flex flex-wrap gap-2 mr-2">
-            <LazyLoadImage
-              src={CYAN_JAR}
-              alt={'Cyan Jar'}
-              title={'Cyan Jar'}
-              width={20}
-            />
-            <Typography className="flex place-self-end">13%</Typography>
-          </div>
+      <div className="flex flex-wrap justify-center pt-5 pb-10 gap-4">
+        <div className="flex flex-wrap gap-2 mr-2">
+          <LazyLoadImage
+            src={RED_JAR}
+            alt={'Red Jar'}
+            title={'Red Jar'}
+            width={20}
+          />
+          <Typography className="flex place-self-end">27%</Typography>
+        </div>
+        <div className="flex flex-wrap gap-2 mr-2">
+          <LazyLoadImage
+            src={YELLOW_JAR}
+            alt={'Yellow Jar'}
+            title={'Yellow Jar'}
+            width={20}
+          />
+          <Typography className="flex place-self-end">13%</Typography>
+        </div>
+        <div className="flex flex-wrap gap-2 mr-2">
+          <LazyLoadImage
+            src={WHITE_JAR}
+            alt={'White Jar'}
+            title={'White Jar'}
+            width={20}
+          />
+          <Typography className="flex place-self-end">10%</Typography>
+        </div>
+        <div className="flex flex-wrap gap-2 mr-2">
+          <LazyLoadImage
+            src={GREEN_JAR}
+            alt={'Green Jar'}
+            title={'Green Jar'}
+            width={20}
+          />
+          <Typography className="flex place-self-end">27%</Typography>
+        </div>
+        <div className="flex flex-wrap gap-2 mr-2">
+          <LazyLoadImage
+            src={CYAN_JAR}
+            alt={'Cyan Jar'}
+            title={'Cyan Jar'}
+            width={20}
+          />
+          <Typography className="flex place-self-end">13%</Typography>
         </div>
       </div>
     </div>

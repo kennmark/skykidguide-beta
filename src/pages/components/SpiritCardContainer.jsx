@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {
   Card,
   CardHeader,
@@ -9,12 +9,14 @@ import {
   Chip,
   Tooltip,
   Spinner,
+  Checkbox,
 } from '@material-tailwind/react'
 import VideoModalContainer from './VideoModalContainer'
 import SpiritDifficultyLevelProgressBar from './SpiritDifficultyLevelProgressBar'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { TextGuideModal } from './TextGuideModal'
 import SpiritImageDetails from './SpiritImageDetails'
+import { useLocalStorage } from '../../hooks/useLocalStorage'
 
 const SpiritCardContainer = ({
   spirit_img_url,
@@ -42,6 +44,8 @@ const SpiritCardContainer = ({
   const handleSpiritImageOpen = () =>
     setOpenSpiritImageModal(!openSpiritImageModal)
 
+  // const [checked, setChecked] = useLocalStorage('checked', false)
+
   const iconUrl = icon_route ?? ''
   const seasonLabel = season ?? ''
   const videoUrl = spirit_guide_video_url ?? ''
@@ -49,17 +53,15 @@ const SpiritCardContainer = ({
   const spiritDirection = spirit_direction ?? ''
   const spiritCategory = spirit_category ?? ''
   const spiritReliveType = spirit_relive_type ?? ''
-  // console.log(isCurrentSeason)
+  // console.log(checked)
+
   return (
-    <Card
-      color="gray"
-      variant="gradient"
-      className="lg:w-72 w-80 rounded-3xl justify-between mb-5"
-      style={{
-        backgroundImage: `url(${URL + 'T_G Logo white.png'})`,
-      }}
-    >
-      <CardHeader shadow={false} color="transparent" className="card-header">
+    <Card className="theme-card-bg lg:w-72 w-80 justify-between mb-5">
+      <CardHeader
+        shadow={false}
+        color="transparent"
+        className="card-header mr-0"
+      >
         <span className="icon-badge">
           <LazyLoadImage
             src={iconUrl || constellationIconUrl}
@@ -78,12 +80,20 @@ const SpiritCardContainer = ({
           effect="blur"
           className="w-auto h-14 m-auto"
         />
+        <span className="checkbox-collected">
+          <Checkbox
+            className="color: #233d4d"
+            id={`ripple-on ${spirit_name}`}
+            // checked={checked}
+            // onChange={(e) => setChecked(e.target.checked)}
+            ripple={true}
+          />
+        </span>
       </CardHeader>
       <CardBody>
         <Typography
           variant="h5"
-          color="amber"
-          className="mb-2 flex justify-center items-center"
+          className="text-[#fe7f2d] mb-2 flex justify-center items-center"
         >
           <span>{spirit_name}</span>
         </Typography>
@@ -98,7 +108,7 @@ const SpiritCardContainer = ({
           >
             <Chip
               value={spiritCategory}
-              className="rounded-full text-gray-200 bg-blue-900/80"
+              className="rounded-full text-[#fe7f2d] bg-[#233d4d] border-[#fe7f2d]/80 border-2"
             />
           </Tooltip>
           <Tooltip
@@ -111,7 +121,7 @@ const SpiritCardContainer = ({
             <Chip
               color="indigo"
               value={spiritReliveType}
-              className="rounded-full text-gray-200  bg-blue-900/80"
+              className="rounded-full text-[#fe7f2d] bg-[#233d4d] border-[#fe7f2d]/80 border-2"
             />
           </Tooltip>
         </span>
@@ -134,23 +144,14 @@ const SpiritCardContainer = ({
           Tap / Click ang progress bar upang makita pa tungkol sa difficulty ng
           spirit.
         </span>
-        <ButtonGroup size="sm" ripple={true}>
-          <Button
-            className="bg-gradient-to-r from-blue-900 to-purple-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
-            onClick={handleVideoGuideOpen}
-          >
+        <ButtonGroup size="sm" ripple={true} className="mt-2" role="group">
+          <Button onClick={handleVideoGuideOpen} className="theme-button">
             Video Guide
           </Button>
-          <Button
-            onClick={handleSpiritImageOpen}
-            className="bg-purple-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
-          >
+          <Button onClick={handleSpiritImageOpen} className="theme-button">
             Spirit Info
           </Button>
-          <Button
-            onClick={handleTextGuideOpen}
-            className="bg-gradient-to-r rounded-tl-none rounded-bl-none from-purple-900 to-blue-900 shadow-lg shadow-indigo-500/50 hover:shadow-indigo-500 hover:shadow-lg"
-          >
+          <Button onClick={handleTextGuideOpen} className="theme-button">
             Text Guide
           </Button>
         </ButtonGroup>

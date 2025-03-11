@@ -36,7 +36,7 @@ const SpiritImageDetails = ({
         <div className="text-center">
           {spiritTreeCost?.map((cost, index) => (
             <span
-              className="inline-flex justify-center text-white text-base md:text-base"
+              className="inline-flex justify-center text-[#fe7f2d] text-base md:text-base"
               key={index}
             >
               {cost.candles}&nbsp;
@@ -76,7 +76,7 @@ const SpiritImageDetails = ({
       desc: (
         <div className="flex flex-wrap justify-center gap-3">
           {noOfVisits < 1 && (
-            <Chip color="amber" value="No Visit Yet" className="text-[10px]" />
+            <Chip value="No Visit Yet" className="text-[10px] text-[#fe7f2d]" />
           )}
           {noOfVisits?.map((visit, index) => (
             <Badge
@@ -86,9 +86,8 @@ const SpiritImageDetails = ({
               key={index}
             >
               <Chip
-                color="amber"
                 value={visit.visit_date}
-                className="text-[10px]"
+                className="text-[10px] bg-[#fe7f2d] text-[#233d4d]"
               />
             </Badge>
           ))}
@@ -106,9 +105,9 @@ const SpiritImageDetails = ({
         unmount: { scale: 0.9, y: -100 },
       }}
       size="xs"
-      className="bg-black/80 -top-12 md:top-0 border-amber-600 border-4 h-fit rounded-3xl"
+      className="bg-[#233d4d]/90 -top-12 md:top-0 border-[#fe7f2d] border-4 h-fit rounded-3xl"
     >
-      <DialogHeader className=" text-white flex justify-center flex-col">
+      <DialogHeader className=" text-[#fe7f2d] flex justify-center flex-col">
         <Typography variant="h4">{label}</Typography>
         <Typography className="text-xs">{seasonLabel}</Typography>
       </DialogHeader>
@@ -121,7 +120,7 @@ const SpiritImageDetails = ({
           />
         </div>
         <div>
-          <h2 className="text-white text-center">Main Collectibles</h2>
+          <h2 className="text-[#fe7f2d] text-center">Main Collectibles</h2>
 
           <div className="flex flex-wrap justify-center md:w-48 gap-x-2">
             {spiritCollectibles?.map((collectible, index) => (
@@ -138,7 +137,7 @@ const SpiritImageDetails = ({
                 <div className="flex flex-row">
                   <Typography className="text-sm md:text-base">
                     {collectible.label} -{' '}
-                    <span className="text-amber-500">
+                    <span className="text-[#fe7f2d]">
                       {collectible.price === 0 ? 'Free' : collectible.price}
                     </span>
                     &nbsp;
@@ -202,9 +201,9 @@ const SpiritImageDetails = ({
       </DialogBody>
       <DialogFooter className="flex justify-center">
         <Tabs id="custom-animation" value={activeTab} className="w-full">
-          <TabsHeader className=" bg-amber-500 flex items-center">
+          <TabsHeader className=" bg-[#233d4d] flex items-center border-[#fe7f2d] border-y-2">
             {data.map(({ label, value }) => (
-              <Tab key={value} value={value} className="text-black">
+              <Tab key={value} value={value} className="theme-navbar">
                 {label}
               </Tab>
             ))}

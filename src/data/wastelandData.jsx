@@ -147,6 +147,8 @@ import {
 } from '../exports/spiritWastelandCollectibles'
 import WastelandConstellation from '../assets/images/maps-constellations/Wasteland_Constellation.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
+import DyeAlertMessage from '../pages/components/DyeAlertMessage'
+import WastelandDyes from '../pages/components/MapDyeLocations/WastelandDyes'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -1770,5 +1772,15 @@ export const wasteland = [
         ],
       },
     ],
+  },
+  {
+    label: 'Dye Locations',
+    value: 'dye_locations',
+    desc: (
+      <>
+        <DyeAlertMessage />
+        <WastelandDyes />
+      </>
+    ),
   },
 ]

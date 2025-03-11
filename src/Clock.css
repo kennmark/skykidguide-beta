@@ -48,6 +48,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  color: #fe7f2d;
 }
 
 .show-counter .countdown.danger {
@@ -67,7 +68,8 @@
 .clock {
   margin: 10px;
   border-radius: 10px;
-  background: #000c18;
+  background-color: #ffffff00;
+  color: #fe7f2d;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,7 +128,7 @@
 
 .digital :last-child {
   position: relative;
-  color: rgb(255, 193, 7);
+  color: #fe7f2d;
 }
 
 .digital p {

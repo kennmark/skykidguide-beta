@@ -8,7 +8,12 @@ import AnnouncementModal from './AnnouncementModal'
 import FaQ from './FaQ'
 import SkyClock from './SkyClock'
 import { Clock } from '../pages/components/Clock'
-import { WL_COUNT_DATE_UPDATED, TOTAL_WL_COUNT } from '../exports/constants'
+import {
+  WL_COUNT_DATE_UPDATED,
+  TOTAL_WL_COUNT,
+  PLAYSTATION_MAX_WL,
+  STEAM_MAX_WL,
+} from '../exports/constants'
 
 import { Countdown } from './components/Countdown'
 import Testimonials from './components/Testimonials'
@@ -70,7 +75,7 @@ const HomeSpace = () => {
   if (dd < 10) dd = '0' + dd
   const formattedToday = day + ' | ' + mm + ' ' + dd + ', ' + year
 
-  const starIcon = () => {
+  const wingLightMaxCountChip = () => {
     return (
       <Tooltip
         content={
@@ -89,7 +94,8 @@ const HomeSpace = () => {
               sa pinakahuling tala{' '}
               {WL_COUNT_DATE_UPDATED === dateFormat ? 'ngayong' : 'noong'}{' '}
               {WL_COUNT_DATE_UPDATED} may &nbsp;
-              {TOTAL_WL_COUNT} WL na sa iOS at Android.
+              {TOTAL_WL_COUNT} WL na sa iOS at Android. Sa Playstation ay may{' '}
+              {PLAYSTATION_MAX_WL} at sa Steam ay may {STEAM_MAX_WL}
             </Typography>
           </div>
         }
@@ -147,11 +153,11 @@ const HomeSpace = () => {
   const screenSize = useScreenSize()
 
   return (
-    <div>
+    <div className="">
       <AnnouncementModal />
       <figure className="relative carousel-image w-full h-full my-6 px-1">
         <AnnouncementCarousel />
-        <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border-none bg-gradient-to-br py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
+        <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border-none bg-[#233d4d]/80 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
           <div>
             <Typography
               color="white"
@@ -159,10 +165,7 @@ const HomeSpace = () => {
             >
               Maligayang Paglipad Skykid!
             </Typography>
-            <Typography
-              color="amber"
-              className="mt-1 font-light lg:font-bold text-xs lg:text-lg bg-gradient-to-r from-purple-500/0 via-brown-900/80 to-purple-500/0"
-            >
+            <Typography className="mt-1 font-light text-[#fe7f2d] lg:font-bold text-xs lg:text-lg ">
               {formattedToday}
             </Typography>
           </div>
@@ -174,25 +177,25 @@ const HomeSpace = () => {
               Max Total Wings
             </Typography>
             <Chip
-              color="amber"
-              value={starIcon()}
+              value={wingLightMaxCountChip()}
               // variant="outlined"
-              className="rounded-full text-md"
+              className="rounded-full text-md text-[#233d4d] bg-[#fe7f2d] font-black"
             />
           </div>
         </figcaption>
       </figure>
       <Clock />
       {/* <Countdown /> */}
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center my-5 md:my-20">
         <SkyClock />
       </div>
-      <div>
-        <Typography variant="h2" className="pt-5">
-          Maps
-        </Typography>
-      </div>
-      <div className="flex flex-wrap justify-center">
+      {/* Map Cards */}
+      <div className="flex flex-wrap justify-center my-5 md:my-20">
+        <div>
+          <Typography variant="h1" className="text-[#fe7f2d]">
+            Maps
+          </Typography>
+        </div>
         {screenSize < 1440 ? (
           maps.map((map) => {
             return <MapCardContainer {...map} key={map.id} />
@@ -208,12 +211,11 @@ const HomeSpace = () => {
             slideshadows
             loop={true}
             effect="coverflow"
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
+            className="py-5"
           >
             {maps.map((map) => {
               return (
-                <SwiperSlide zoom={true} className="flex justify-center">
+                <SwiperSlide zoom={true}>
                   <MapCardContainer {...map} key={map.id} />
                 </SwiperSlide>
               )
@@ -221,13 +223,16 @@ const HomeSpace = () => {
           </Swiper>
         )}
       </div>
-      <div className="my-6 w-96 md:w-full border-t border-blue-gray-50">
+      {/* Map Cards */}
+
+      {/* Winged Lights */}
+      <div className="md:w-full bg-[#233d4d] text-[#fe7f2d] my-5 md:my-20 pt-10 rounded-3xl border-b-2 border-[#fe7f2d]">
         <WingedLightIntro />
         <Link to={`/winged-lights`}>
           <Button
             size="lg"
             color="gray"
-            className="bg-gradient-to-r from-deep-orange-800 to-brown-900 shadow-lg shadow-orange-900/50 hover:scale-[1.02] hover:shadow-orange-900 hover:shadow-xl mt-5"
+            className="theme-button my-20"
             ripple={true}
             fullWidth={false}
           >
@@ -235,13 +240,16 @@ const HomeSpace = () => {
           </Button>
         </Link>
       </div>
-      <div className="my-6 w-96 md:w-full border-t border-blue-gray-50">
+      {/* Winged Lights */}
+
+      {/* Map Shrines */}
+      <div className="my-5 md:my-20 w-96 md:w-full">
         <MapShrineIntro />
         <Link to={`/map-shrines`}>
           <Button
             size="lg"
             color="gray"
-            className="bg-gradient-to-r from-deep-orange-800 to-brown-900 shadow-lg shadow-orange-900/50 hover:scale-[1.02] hover:shadow-orange-900 hover:shadow-xl mt-5"
+            className="theme-button my-20"
             ripple={true}
             fullWidth={false}
           >
@@ -249,13 +257,24 @@ const HomeSpace = () => {
           </Button>
         </Link>
       </div>
-      <div className="my-6 w-96 md:w-full border-t border-blue-gray-50">
+      {/* Map Shrines */}
+
+      {/* Dye Locations */}
+      <div className="my-5 md:my-20 py-10 md:w-full bg-[#233d4d] text-[#fe7f2d] rounded-3xl border-b-2 border-[#fe7f2d]">
         <DyeLocations />
       </div>
+      {/* Dye Locations */}
+
+      {/* Veterans */}
+      <Typography variant="h1" className="text-[#fe7f2d]">
+        Veterans Coming Soon...
+      </Typography>
+      {/* Veterans */}
+
       {/* <div className="my-6 w-96 md:w-full">
         <LatestTSVisit />
       </div> */}
-      <div className="my-6 w-96 md:w-full">
+      <div className="my-5 md:my-20 w-96 md:w-full text-[#fe7f2d]">
         <Testimonials />
       </div>
       <FaQ />

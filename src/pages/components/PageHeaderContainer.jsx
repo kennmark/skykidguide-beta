@@ -21,7 +21,7 @@ const PageHeaderContainer = ({
           className="py-5"
           // PlaceholderSrc={<Spinner className="h-10 w-10 text-gray-900/50" />}
         />
-        <Typography className="p-5 mb-4 text-xl md:text-3xl ">
+        <Typography className="p-5 mb-4 text-xl md:text-3xl text-[#fe7f2d]">
           {title}
         </Typography>
       </div>

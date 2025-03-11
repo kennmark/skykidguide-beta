@@ -52,10 +52,7 @@ const S22DuetPage = () => {
           mapIntro={`The Aviary Village concert hall awaits you 🎼`}
         />
         <Tabs id="custom-animation" value={activeTab}>
-          <TabsHeader
-            variant="gradient"
-            className="bg-gradient-to-r from-blue-900 to-purple-900 flex items-center"
-          >
+          <TabsHeader className="bg-[#233d4d] flex items-center">
             {SeasonTabHeader2.map((headerTab, index) => {
               return (
                 <MapTabHeaderContainer

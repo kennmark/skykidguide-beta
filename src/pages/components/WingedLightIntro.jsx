@@ -14,7 +14,7 @@ import {
 
 const WingedLightIntro = () => {
   return (
-    <div className="justify-start w-full">
+    <div className="justify-start w-full ">
       <div>
         <Typography variant="h1" className="py-5">
           Winged Lights
@@ -45,7 +45,7 @@ const WingedLightIntro = () => {
         </Typography>
       </div>
       <div className="flex flex-wrap justify-center">
-        <Card className="py-3 px-1">
+        <Card className="py-3 px-1 h-auto md:h-96 mb-10">
           <table className="w-full min-w-max table-auto text-left">
             <thead>
               <tr>
@@ -94,14 +94,14 @@ const WingedLightIntro = () => {
                 <td className="border border-slate-700 font-bold p-3">
                   WL TOTAL
                 </td>
-                <td className="border border-slate-700 font-bold text-amber-600 p-3">
+                <td className="border border-slate-700 font-bold text-[#fe7f2d] p-3">
                   {TOTAL_WL_COUNT}
                 </td>
               </tr>
             </tbody>
           </table>
         </Card>
-        <LazyLoadImage src={WINGED_LIGHT} width="auto" className="pl-5 gap-3" />
+        <LazyLoadImage src={WINGED_LIGHT} className="pl-5 gap-3 w-auto h-96" />
       </div>
     </div>
   )

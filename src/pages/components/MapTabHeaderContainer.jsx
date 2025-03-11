@@ -7,9 +7,9 @@ const MapTabHeaderContainer = ({ label, value, activeTab, setActiveTab }) => {
       key={value}
       value={value}
       onClick={() => setActiveTab(value)}
-      className={
-        activeTab === value ? 'text-indigo-900 font-bold p-3' : 'text-white'
-      }
+      className={`py-3 theme-navbar
+                ${activeTab === value ? 'text-[#233d4d]' : 'text-[#fe7f2d]'}
+      `}
     >
       {label}
     </Tab>

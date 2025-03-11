@@ -2,7 +2,7 @@ import { Button, Typography } from '@material-tailwind/react'
 
 const Grandma = () => {
   return (
-    <>
+    <div className="my-16">
       <Typography>
         Nagsisimula ang Grandma sa{' '}
         <span className="text-red-400">ODD Numbers na Oras </span> at may
@@ -41,7 +41,7 @@ const Grandma = () => {
         . Mahahanap mo ito sa Sunny Forest - Loob ng malaking puno ng Hidden
         Forest | Ikatlong Mapa.
       </Typography>
-    </>
+    </div>
   )
 }
 

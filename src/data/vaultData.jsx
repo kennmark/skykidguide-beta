@@ -183,6 +183,8 @@ import {
 } from '../exports/spiritVaultCollectibles'
 import VaultConstellation from '../assets/images/maps-constellations/Vault_Constellation.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
+import DyeAlertMessage from '../pages/components/DyeAlertMessage'
+import VaultDyes from '../pages/components/MapDyeLocations/VaultDyes'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -2159,5 +2161,15 @@ export const vault = [
         ],
       },
     ],
+  },
+  {
+    label: 'Dye Locations',
+    value: 'dye_locations',
+    desc: (
+      <>
+        <DyeAlertMessage />
+        <VaultDyes />
+      </>
+    ),
   },
 ]

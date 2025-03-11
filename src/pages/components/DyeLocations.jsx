@@ -9,14 +9,16 @@ import DyesMaxPerDay from './DyesMaxPerDay'
 
 const DyeLocations = () => {
   return (
-    <div>
+    <div className="">
       <DyesMaxPerDay />
-      <PrairieDyes />
-      <ForestDyes />
-      <ValleyDyes />
-      <WastelandDyes />
-      <VaultDyes />
-      <EdenDyes />
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-3 justify-items-center content-evenly">
+        <PrairieDyes />
+        <ForestDyes />
+        <ValleyDyes />
+        <WastelandDyes />
+        <VaultDyes />
+        <EdenDyes />
+      </div>
     </div>
   )
 }

@@ -19,7 +19,7 @@ export function TextGuideModal({ label, handleOpen, open, direction = [] }) {
   return (
     <>
       <Dialog
-        className="bg-gray-900 bg-opacity-80 border-y-2 border-amber-600"
+        className="bg-[#233d4d] bg-opacity-90 border-y-2 border-[#fe7f2d]"
         open={open}
         handler={handleOpen}
         animate={{
@@ -28,22 +28,22 @@ export function TextGuideModal({ label, handleOpen, open, direction = [] }) {
         }}
       >
         <DialogHeader className="justify-between">
-          <Typography variant="h5" color="white">
+          <Typography variant="h5" className="text-[#fe7f2d]">
             Text Guide - {label}
           </Typography>
           <IconButton color="white" variant="text" onClick={handleOpen}>
-            <XMarkIcon className="h-6 w-6 text-amber-600" />
+            <XMarkIcon className="h-6 w-6 text-[#fe7f2d]" />
           </IconButton>
         </DialogHeader>
         <DialogBody className="pr-2 h-fit">
           <div className="w-fit">
-            <Typography variant="h6" color="amber">
+            <Typography variant="h6" className="text-[#fe7f2d]">
               Step 1
             </Typography>
             <Typography className="text-white text-md">{step1}</Typography>
             {step2 && (
               <>
-                <Typography variant="h6" color="amber">
+                <Typography variant="h6" className="text-[#fe7f2d]">
                   Step 2
                 </Typography>
                 <Typography className="text-white text-md">{step2}</Typography>
@@ -51,7 +51,7 @@ export function TextGuideModal({ label, handleOpen, open, direction = [] }) {
             )}
             {step3 && (
               <>
-                <Typography variant="h6" color="amber">
+                <Typography variant="h6" className="text-[#fe7f2d]">
                   Step 3
                 </Typography>
                 <Typography className="text-white text-md">{step3}</Typography>
@@ -59,7 +59,7 @@ export function TextGuideModal({ label, handleOpen, open, direction = [] }) {
             )}
             {step4 && (
               <>
-                <Typography variant="h6" color="amber">
+                <Typography variant="h6" className="text-[#fe7f2d]">
                   Step 4
                 </Typography>
                 <Typography className="text-white text-md">{step4}</Typography>
@@ -67,7 +67,7 @@ export function TextGuideModal({ label, handleOpen, open, direction = [] }) {
             )}
             {step5 && (
               <>
-                <Typography variant="h6" color="amber">
+                <Typography variant="h6" className="text-[#fe7f2d]">
                   Step 5
                 </Typography>
                 <Typography className="text-white text-md">{step5}</Typography>

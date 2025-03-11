@@ -1,7 +1,7 @@
 import { Button, Typography } from '@material-tailwind/react'
 const GeyserContainer = () => {
   return (
-    <>
+    <div className="my-16">
       <Typography>
         Nagsisimula ang Geyser sa{' '}
         <span className="text-red-400">ODD Numbers na Oras</span> at may &nbsp;
@@ -39,7 +39,7 @@ const GeyserContainer = () => {
         . Mahahanap mo ito sa Sanctuary Islands ng Daylight Prairie | Ikalawang
         Mapa.
       </Typography>
-    </>
+    </div>
   )
 }
 

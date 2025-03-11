@@ -28,9 +28,9 @@ function StarIcon() {
 
 const Testimonials = () => {
   return (
-    <div className="border-t border-blue-gray-50">
-      <div className="py-6">
-        <Typography variant="h2">Feedback</Typography>
+    <div className="">
+      <div className="my-10">
+        <Typography variant="h1">Feedback</Typography>
       </div>
       <Carousel
         className="rounded-xl"
@@ -68,7 +68,7 @@ const Testimonials = () => {
                 />
                 <div className="flex w-full flex-col gap-0.5">
                   <div className="flex items-center justify-between">
-                    <Typography variant="h5" color="white">
+                    <Typography variant="h5" className="text-[#fe7f2d]">
                       {testimony.testimonee}
                     </Typography>
 
@@ -81,12 +81,14 @@ const Testimonials = () => {
                     </div>
                   </div>
                   <div className="flex justify-start">
-                    <Typography color="gray">{testimony.group}</Typography>
+                    <Typography className="text-gray-500">
+                      {testimony.group}
+                    </Typography>
                   </div>
                 </div>
               </CardHeader>
               <CardBody className="mb-6  pb-5">
-                <Typography color="white">
+                <Typography className="text-[#fe7f2d]">
                   &quot;{testimony.testimonial}&quot;
                 </Typography>
               </CardBody>

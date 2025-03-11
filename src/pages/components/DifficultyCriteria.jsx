@@ -2,7 +2,7 @@ import React from 'react'
 import { Typography, Chip, Card } from '@material-tailwind/react'
 const DifficultyCriteria = () => {
   return (
-    <Card className="flex mt-3 p-5 bg-gray-900/50 text-white">
+    <Card className="flex mt-3 p-5 bg-[#233d4d] text-[#fe7f2d]">
       <Typography className="">
         Information on Spirit's Difficulty Factors:
       </Typography>

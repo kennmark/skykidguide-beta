@@ -24,7 +24,9 @@ const Team = () => {
   return (
     <div>
       <div className="pt-5 mt-6">
-        <Typography variant="h2">The Team</Typography>
+        <Typography variant="h1" className="text-[#fe7f2d]">
+          The Team
+        </Typography>
         <Typography className="mt-4">
           Ang Skykid: Tuloy & Gabay ay binubuo ng isang grupo na mula sa SKY:
           Children of The Light (Philippines). Ako naman ay si Kenn ang gumawa
@@ -32,7 +34,7 @@ const Team = () => {
         </Typography>
       </div>
       <div className="flex justify-center py-5 ">
-        <Card className="sm:w-56 bg-transparent team-avatar-card">
+        <Card className="sm:w-56 bg-transparent team-avatar-card text-white hover:text-[#fe7f2d]">
           <CardHeader
             floated={false}
             className="h-48 rounded-2xl md:rounded-full"
@@ -44,8 +46,8 @@ const Team = () => {
               className="avatar-image"
             />
           </CardHeader>
-          <CardBody className="text-center">
-            <Typography variant="h6" color="white" className="mb-2">
+          <CardBody className="text-center ">
+            <Typography variant="h6" className="mb-2">
               Kenn Mark Sabalberino
             </Typography>
             <Typography color="white" className="font-medium text-xs">
@@ -61,8 +63,7 @@ const Team = () => {
               >
                 <FontAwesomeIcon
                   icon={faFacebook}
-                  color="white"
-                  className="h-7"
+                  className="h-7 text-white hover:text-[#fe7f2d]"
                 />
               </Typography>
             </Tooltip>
@@ -72,7 +73,11 @@ const Team = () => {
                 href="https://www.instagram.com/skyhex27/"
                 className="opacity-80 transition-opacity hover:opacity-100 text-sm"
               >
-                <FontAwesomeIcon icon={faInstagram} size="2x" color="white" />
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  size="2x"
+                  className="text-white hover:text-[#fe7f2d]"
+                />
               </Typography>
             </Tooltip>
             <Tooltip content="Star">
@@ -81,7 +86,11 @@ const Team = () => {
                 href="https://github.com/kennmark"
                 className="opacity-80 transition-opacity hover:opacity-100 text-sm"
               >
-                <FontAwesomeIcon icon={faGithub} size="2x" color="white" />
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  size="2x"
+                  className="text-white hover:text-[#fe7f2d]"
+                />
               </Typography>
             </Tooltip>
           </CardFooter>
@@ -89,10 +98,10 @@ const Team = () => {
       </div>
       <div className="py-5">
         <Typography
-          variant="h4"
+          variant="h2"
           as="a"
-          color="amber"
           href="https://www.facebook.com/groups/skycotlphofficial"
+          className="text-[#fe7f2d]"
         >
           SkyPH Facebook Group Team
         </Typography>

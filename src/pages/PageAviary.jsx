@@ -14,9 +14,9 @@ import ScrollToTop from 'react-scroll-to-top'
 const PageAviary = () => {
   const [activeTab, setActiveTab] = useState('regular_spirits')
   const mapTitle = maps.map((mapName) =>
-    mapName.id === 1 ? mapName.title : ''
+    mapName.id === 0 ? mapName.title : ''
   )
-  const mapIntro = maps.map((intro) => (intro.id === 1 ? intro.map_intro : ''))
+  const mapIntro = maps.map((intro) => (intro.id === 0 ? intro.map_intro : ''))
   return (
     <div className="flex justify-center">
       <div>
@@ -32,10 +32,7 @@ const PageAviary = () => {
           mapIntro={mapIntro}
         />
         <Tabs id="custom-animation" value={activeTab}>
-          <TabsHeader
-            variant="gradient"
-            className="bg-gradient-to-r from-blue-900 to-purple-900 flex items-center"
-          >
+          <TabsHeader className="flex items-center bg-[#233d4d]">
             {aviaryData.map((headerTab, index) => {
               return (
                 <MapTabHeaderContainer

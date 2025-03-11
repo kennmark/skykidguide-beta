@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 html {
-  color: rgb(229 231 235);
-  background-color: #000c18;
+  color: #fe7f2d;
+  background-color: #01080c;
   height: 100%;
   padding: 0 5px;
 }
@@ -318,7 +318,7 @@ html {
   width: 100%;
 }
 .team-avatar-card:hover {
-  background-color: rgb(11, 35, 98, 0.7);
+  background-color: #233d4d;
   transition: ease-in-out;
   transition-duration: 500ms;
 }
@@ -403,9 +403,24 @@ html {
   padding: 0.5rem;
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  background-color: #0d47a1;
+  border-color: #fe7f2d;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
 }
 
+.checkbox-collected {
+  position: absolute;
+  top: 1.5rem;
+  right: 0px;
+  padding: 0.1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: #fe7f2d;
+}
+
+.shadow-md .remove-shadow {
+  --tw-shadow: none !important;
+}
 .wl-ms-imgs {
   transition: transform 0.4s;
   margin: 0 auto;

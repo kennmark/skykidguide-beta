@@ -9,6 +9,7 @@ import DOM2024 from '../assets/images/events/DaysOfMoonlight.webp'
 import DOF2024 from '../assets/images/events/DaysOfFashion2024.webp'
 import DOFxAlice2024 from '../assets/images/events/DaysOfFeast-x-Alice-in-Wonderland.webp'
 import DOF2025 from '../assets/images/events/DaysOfFortune2025.webp'
+import DOT2025 from '../assets/images/events/DaysOfTreasure2025.webp'
 
 export const eventsData = [
   {
@@ -154,5 +155,16 @@ export const eventsData = [
     description: `Starting on January 27th PST (UTC -8), the event guide and a host of Spirits will be waiting for you 
     to join them in Valley of Triumph to get the party started. Talk to the guide Spirit near the event announcement 
     board in Aviary Village (or in Home too) to teleport to where all the fun is!`,
+  },
+  {
+    id: 12,
+    title: 'Days of Treasure 2025',
+    sub_title: 'Starting on March 3 - March 16, 2025',
+    img: DOT2025,
+    type: 'regular',
+    description: `From March 3rd PST (UTC -8) through March 16th PDT (UTC -7), mind your sea legs and gather 'round, 
+    for adventure calls in the land of the seven realms! A series of enchanted maps have drifted into the realms of Sky, 
+    leading to troves of hidden wonders. But beware, for the sands of time slip swiftly through the glass, and once the 
+    map’s magic fades, so too will the treasures! Aye, ye must be swift, sharp, and ready to heave ho!`,
   },
 ]

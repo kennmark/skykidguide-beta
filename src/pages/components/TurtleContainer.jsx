@@ -2,7 +2,7 @@ import { Button, Typography } from '@material-tailwind/react'
 
 const Turtle = () => {
   return (
-    <>
+    <div className="my-16">
       <Typography>
         Nagsisimula ang Turtle sa{' '}
         <span className="text-red-400">ODD Numbers na Oras </span>na may&nbsp;
@@ -40,7 +40,7 @@ const Turtle = () => {
         . Mahahanap mo ito sa Sanctuary Islands, dako sa mga maliliit na isla,
         ng Daylight Prairie | Ikalawang Mapa.
       </Typography>
-    </>
+    </div>
   )
 }
 

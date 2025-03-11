@@ -46,7 +46,7 @@ export const EDEN_NUM_WL = 10
 export const EDEN_NUM_MAP_SHRINES = 4
 
 export const AVIARY_NUM_REG_SPIRIT = 0
-export const AVIARY_NUM_SEASON_SPIRIT = 8
+export const AVIARY_NUM_SEASON_SPIRIT = 16
 export const AVIARY_NUM_WL = 0
 export const AVIARY_NUM_MAP_SHRINES = 1
 
@@ -91,5 +91,8 @@ export const TOTAL_MS_COUNT = // February 27, 2025
 
 export const WL_COUNT_DATE_UPDATED = 'February 27, 2025' //TS Mindful Miner
 export const MS_COUNT_DATE_UPDATED = 'October 14, 2024'
+
+export const PLAYSTATION_MAX_WL = 243
+export const STEAM_MAX_WL = 209
 
 export const SC_24_RADIANCE_ICON = sc

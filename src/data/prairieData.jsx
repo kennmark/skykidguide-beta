@@ -178,7 +178,7 @@ export const prairie = [
         />
         <Typography className="antialiased font-sans pt-4">
           Ito ang pangalawang constellation - Daylight Prairie. May{' '}
-          <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+          <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
             {PRAIRIE_NUM_REG_SPIRIT}
           </span>{' '}
           regular spirits na makikita mo dito. Andito ang mga spirits ng
@@ -608,7 +608,7 @@ export const prairie = [
       <Typography className="antialiased font-sans">
         Nandito ang mga spirits na dumaan noong nakaraang Seasonal Events na
         makikita mo tuwing papasok ka sa Daylight Prairie. May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+        <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
           {PRAIRIE_NUM_SEASON_SPIRIT}
         </span>{' '}
         season spirits na pwede mong makita at makuha dito.
@@ -1535,7 +1535,7 @@ export const prairie = [
       <Typography className="antialiased font-sans">
         Sa mapang ito mo rin makikita ang mga Winged Lights kung tawagin. Ito ay
         nagpapataas ng lebel para ikaw ay makalipad ng mas mataas. May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+        <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
           {PRAIRIE_NUM_WL}
         </span>{' '}
         na winged lights ang pwede mong makuha dito sa Daylight Prairie.
@@ -1856,7 +1856,7 @@ export const prairie = [
       <Typography className="antialiased font-sans">
         Ang Map Shrines ay nagsisilbing gabay upang magtukoy kung ilan at saan
         pa ang kailangan mong kunin na winged lights sa loob ng mapa. May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-amber-700 rounded-3xl px-2">
+        <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
           {PRAIRIE_NUM_MAP_SHRINES}
         </span>{' '}
         na Map Shrines ang pwede mong mabuksan sa loob ng Daylight Prairie.
