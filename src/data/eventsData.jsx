@@ -167,4 +167,14 @@ export const eventsData = [
     leading to troves of hidden wonders. But beware, for the sands of time slip swiftly through the glass, and once the 
     map’s magic fades, so too will the treasures! Aye, ye must be swift, sharp, and ready to heave ho!`,
   },
+  {
+    id: 13,
+    title: '100 Hearts Giveaway',
+    sub_title: 'Starting April 2, 2025',
+    img: '',
+    type: 'regular',
+    description: `Are you in need of hearts?🥹🥹🥹 Do you wish to buy the cosmetics on your regular spirits but dont have enough hearts?🥹🥹🥹
+Join our In-Game Contest!😍😍😍 We are giving away 100 Hearts each for 5 winners.
+Contest will be announce ONLY in-game, so it will be surprise. The Game will start immediately once the number of participants is completed.`,
+  },
 ]

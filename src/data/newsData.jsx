@@ -200,4 +200,13 @@ We’re thrilled to announce that preparations for Days of Gathering 2024 are al
     newsLink:
       'https://www.thatskygame.com/news/a-bounty-awaits-in-days-of-treasure',
   },
+  {
+    id: 22,
+    newsTitle: `100 Hearts Giveaway`,
+    newsBody: `Are you in need of hearts?🥹🥹🥹 Do you wish to buy the cosmetics on your regular spirits but dont have enough hearts?🥹🥹🥹
+Join our In-Game Contest!😍😍😍 We are giving away 100 Hearts each for 5 winners.
+Contest will be announce ONLY in-game, so it will be surprise. The Game will start immediately once the number of participants is completed.`,
+    newsLink:
+      'https://www.facebook.com/photo/?fbid=23943736651894746&set=gm.1736212397306380&idorvanity=481394886121477',
+  },
 ]
