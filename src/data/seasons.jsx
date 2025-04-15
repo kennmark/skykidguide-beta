@@ -23,6 +23,7 @@ import {
   SEASON22,
   SEASON23,
   SEASON24,
+  SEASON25,
 } from '../exports/seasonIcons'
 
 import {
@@ -3758,6 +3759,107 @@ export const seasons2025 = [
     winged_lights: [],
     map_shrines: [],
   },
+  {
+    id: 25,
+    name: 'Season of Blue Bird',
+    season_type: 1,
+    time_duration: 'April 21, 2025 - July 7, 2025',
+    spirit_num: 5,
+    wl_num: 0,
+    ms_num: 0,
+    icon_route: SEASON25,
+    page_route: 'seasons/2025/season-25/blue-bird',
+    quick_info: `Season of Blue Bird`,
+    season_spirits: [
+      //Divining Wise Grandparent
+      {
+        spirit_id: hiddenForest[1].spirits[14].spirit_id,
+        spirit_name: hiddenForest[1].spirits[14].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[14].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[14].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[14].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[14].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[14].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[14].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[14].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[14].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[14].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[14].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[14].spirit_direction,
+      },
+      //Costumed Confetti Cousin
+      {
+        spirit_id: hiddenForest[1].spirits[15].spirit_id,
+        spirit_name: hiddenForest[1].spirits[15].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[15].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[15].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[15].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[15].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[15].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[15].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[15].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[15].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[15].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[15].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[15].spirit_direction,
+      },
+      //Royal Hairtousle Teen
+      {
+        spirit_id: hiddenForest[1].spirits[16].spirit_id,
+        spirit_name: hiddenForest[1].spirits[16].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[16].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[16].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[16].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[16].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[16].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[16].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[16].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[16].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[16].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[16].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[16].spirit_direction,
+      },
+      //Nostalgic Sparkler Parent
+      {
+        spirit_id: hiddenForest[1].spirits[17].spirit_id,
+        spirit_name: hiddenForest[1].spirits[17].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[17].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[17].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[17].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[17].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[17].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[17].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[17].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[17].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[17].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[17].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[17].spirit_direction,
+      },
+      //Woodworking Pleaful Parent
+      {
+        spirit_id: hiddenForest[1].spirits[18].spirit_id,
+        spirit_name: hiddenForest[1].spirits[18].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[18].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[18].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[18].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[18].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[18].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[18].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[18].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[18].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[18].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[18].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[18].spirit_direction,
+      },
+    ],
+    winged_lights: [],
+    map_shrines: [],
+  },
 ]
 
 export const allSeasons = [
@@ -7308,11 +7410,3 @@ export const allSeasons = [
     map_shrines: [],
   },
 ]
-
-// export const allSeasons =
-//   seasons2019.length +
-//   seasons2020.length +
-//   seasons2021.length +
-//   seasons2022.length +
-//   seasons2023.length +
-//   seasons2024.length

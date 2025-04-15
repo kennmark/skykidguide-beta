@@ -38,6 +38,7 @@ import {
   SEASON4,
   SEASON9,
   SEASON11,
+  SEASON25,
 } from '../exports/seasonIcons'
 import {
   HF_WL1,
@@ -95,6 +96,11 @@ import {
   FOREST_SEASON_SPIRIT_20,
   FOREST_SEASON_SPIRIT_21,
   FOREST_SEASON_SPIRIT_22,
+  FOREST_SEASON_SPIRIT_23,
+  FOREST_SEASON_SPIRIT_24,
+  FOREST_SEASON_SPIRIT_25,
+  FOREST_SEASON_SPIRIT_26,
+  FOREST_SEASON_SPIRIT_27,
 } from '../exports/spiritForestImages'
 import {
   SHIVERING_ITEM_1,
@@ -959,6 +965,10 @@ export const hiddenForest = [
             visit_date: 'Mar 6, 2023',
             visitNo: 'GV#1',
           },
+          {
+            visit_date: 'Sep 26, 2024',
+            visitNo: 123,
+          },
         ],
         icon_route: SEASON9,
         spirit_guide_video_url: youtube_embed + 'FjBXDty6SuQ',
@@ -1019,6 +1029,10 @@ export const hiddenForest = [
           {
             visit_date: 'Aug 18, 2022',
             visitNo: 68,
+          },
+          {
+            visit_date: 'Dec 5, 2024',
+            visitNo: 128,
           },
         ],
         icon_route: SEASON9,
@@ -1210,6 +1224,10 @@ export const hiddenForest = [
           {
             visit_date: 'Mar 6, 2023',
             visitNo: 'GV#1',
+          },
+          {
+            visit_date: 'Mar 13, 2025',
+            visitNo: 135,
           },
         ],
         icon_route: SEASON9,
@@ -1532,6 +1550,271 @@ export const hiddenForest = [
           'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
           'Lumapag ka sa unang isla mula sa kanan at makita mo ang spirit dito.',
         ],
+      },
+      //DIVINING_WISE_GRANDPARENT
+      {
+        spirit_id: 'blue-bird-1',
+        spirit_name: `Divining Wise Grandparent`,
+        spirit_img_url: TALENTED_BUILDER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: FOREST_SEASON_SPIRIT_23,
+        icon_route: SEASON25,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_collectibles: [
+          // {
+          //   label: 'Hair',
+          //   img: RPP_ITEM_1,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+          // {
+          //   label: 'Pants',
+          //   img: RPP_ITEM_2,
+          //   currency: 'Season Candles',
+          //   price: 24,
+          // },
+          // {
+          //   label: 'Cape',
+          //   img: RPP_ITEM_3,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+          // {
+          //   label: 'Shoes',
+          //   img: RPP_ITEM_4,
+          //   currency: 'Season Candles',
+          //   price: 38,
+          // },
+          // {
+          //   label: 'Instrument',
+          //   img: RPP_ITEM_5,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+        ],
+        spirit_tree_cost: [
+          // {
+          //   candles: 0,
+          //   hearts: 0,
+          //   ascended_candles: 0,
+          // },
+        ],
+        number_of_visits: [],
+      },
+      //COSTUMED_CONFETTI_COUNS
+      {
+        spirit_id: 'blue-bird-2',
+        spirit_name: `Costumed Confetti Cousin`,
+        spirit_img_url: TALENTED_BUILDER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: FOREST_SEASON_SPIRIT_24,
+        icon_route: SEASON25,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_collectibles: [
+          // {
+          //   label: 'Hair',
+          //   img: RPP_ITEM_1,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+          // {
+          //   label: 'Pants',
+          //   img: RPP_ITEM_2,
+          //   currency: 'Season Candles',
+          //   price: 24,
+          // },
+          // {
+          //   label: 'Cape',
+          //   img: RPP_ITEM_3,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+          // {
+          //   label: 'Shoes',
+          //   img: RPP_ITEM_4,
+          //   currency: 'Season Candles',
+          //   price: 38,
+          // },
+          // {
+          //   label: 'Instrument',
+          //   img: RPP_ITEM_5,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+        ],
+        spirit_tree_cost: [
+          // {
+          //   candles: 0,
+          //   hearts: 0,
+          //   ascended_candles: 0,
+          // },
+        ],
+        number_of_visits: [],
+      },
+      //ROYAL_HAIRTOUSLE_TEEN
+      {
+        spirit_id: 'blue-bird-3',
+        spirit_name: `Royal Hairtousle Teen`,
+        spirit_img_url: TALENTED_BUILDER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: FOREST_SEASON_SPIRIT_25,
+        icon_route: SEASON25,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_collectibles: [
+          // {
+          //   label: 'Hair',
+          //   img: RPP_ITEM_1,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+          // {
+          //   label: 'Pants',
+          //   img: RPP_ITEM_2,
+          //   currency: 'Season Candles',
+          //   price: 24,
+          // },
+          // {
+          //   label: 'Cape',
+          //   img: RPP_ITEM_3,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+          // {
+          //   label: 'Shoes',
+          //   img: RPP_ITEM_4,
+          //   currency: 'Season Candles',
+          //   price: 38,
+          // },
+          // {
+          //   label: 'Instrument',
+          //   img: RPP_ITEM_5,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+        ],
+        spirit_tree_cost: [
+          // {
+          //   candles: 0,
+          //   hearts: 0,
+          //   ascended_candles: 0,
+          // },
+        ],
+        number_of_visits: [],
+      },
+      //NOSTALGIC_SPARKLER_PARENT
+      {
+        spirit_id: 'blue-bird-4',
+        spirit_name: `Nostalgic Sparkler Parent`,
+        spirit_img_url: TALENTED_BUILDER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: FOREST_SEASON_SPIRIT_26,
+        icon_route: SEASON25,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_collectibles: [
+          // {
+          //   label: 'Hair',
+          //   img: RPP_ITEM_1,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+          // {
+          //   label: 'Pants',
+          //   img: RPP_ITEM_2,
+          //   currency: 'Season Candles',
+          //   price: 24,
+          // },
+          // {
+          //   label: 'Cape',
+          //   img: RPP_ITEM_3,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+          // {
+          //   label: 'Shoes',
+          //   img: RPP_ITEM_4,
+          //   currency: 'Season Candles',
+          //   price: 38,
+          // },
+          // {
+          //   label: 'Instrument',
+          //   img: RPP_ITEM_5,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+        ],
+        spirit_tree_cost: [
+          // {
+          //   candles: 0,
+          //   hearts: 0,
+          //   ascended_candles: 0,
+          // },
+        ],
+        number_of_visits: [],
+      },
+      //WOODWORKING_PLEAFUL_PARENT
+      {
+        spirit_id: 'blue-bird-5',
+        spirit_name: `Woodworking Pleaful Parent`,
+        spirit_img_url: TALENTED_BUILDER,
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: FOREST_SEASON_SPIRIT_27,
+        icon_route: SEASON25,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_collectibles: [
+          // {
+          //   label: 'Hair',
+          //   img: RPP_ITEM_1,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+          // {
+          //   label: 'Pants',
+          //   img: RPP_ITEM_2,
+          //   currency: 'Season Candles',
+          //   price: 24,
+          // },
+          // {
+          //   label: 'Cape',
+          //   img: RPP_ITEM_3,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+          // {
+          //   label: 'Shoes',
+          //   img: RPP_ITEM_4,
+          //   currency: 'Season Candles',
+          //   price: 38,
+          // },
+          // {
+          //   label: 'Instrument',
+          //   img: RPP_ITEM_5,
+          //   currency: 'Season Candles',
+          //   price: 0,
+          // },
+        ],
+        spirit_tree_cost: [
+          // {
+          //   candles: 0,
+          //   hearts: 0,
+          //   ascended_candles: 0,
+          // },
+        ],
+        number_of_visits: [],
       },
     ],
   },

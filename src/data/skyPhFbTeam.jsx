@@ -73,14 +73,14 @@ export const skyPhFbTeam = [
   //   title: `Financial Administrator / Moderator SkyPH`,
   //   avatar_img: remiAvatar,
   // },
-  {
-    fullname: `Nymphis Raffa`,
-    facebook: `https://www.facebook.com/Vilgarri.Ibanez`,
-    instagram: `https://www.instagram.com/iam_billicious/`,
-    tiktok: ``,
-    title: `Billings Associate / Moderator SkyPH`,
-    avatar_img: bill_avatar,
-  },
+  // {
+  //   fullname: `Nymphis Raffa`,
+  //   facebook: `https://www.facebook.com/Vilgarri.Ibanez`,
+  //   instagram: `https://www.instagram.com/iam_billicious/`,
+  //   tiktok: ``,
+  //   title: `Billings Associate / Moderator SkyPH`,
+  //   avatar_img: bill_avatar,
+  // },
   // {
   //   fullname: `Michael Jhon Brodahl`,
   //   facebook: `https://www.facebook.com/michaeljhonl.brodahl`,

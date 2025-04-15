@@ -11,11 +11,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export function BuyMeACoffee() {
   return (
-    <Card
-      className="w-full max-w-[48rem] flex-row"
-      color="gray"
-      variant="gradient"
-    >
+    <Card className="w-full max-w-[48rem] h-auto md:h-72 flex-row bg-[#233d4d]">
       <CardHeader
         shadow={false}
         floated={false}
@@ -28,39 +24,40 @@ export function BuyMeACoffee() {
         />
       </CardHeader>
       <CardBody>
-        <Typography variant="h6" color="amber" className="mb-4 uppercase">
+        <Typography variant="h6" className="mb-4 uppercase text-[#fe7f2d]">
           Buy Me A Coffee?
         </Typography>
-        <Typography color="white" className="mb-8 font-normal">
+        <Typography color="white" className="mb-2 font-normal">
           Please support my work through any of the options below.
         </Typography>
-        <div className="flex justify-center">
-          <a href="https://www.buymeacoffee.com/KennDev" target="_blank">
+        <div className="flex flex-wrap flex-col md:flex-row content-center items-center">
+          <div className="flex justify-center w-auto md:w-[50%]">
+            <a href="https://www.buymeacoffee.com/KennDev" target="_blank">
+              <LazyLoadImage
+                src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=KennDev&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff"
+                placeholderSrc={
+                  <Spinner className="h-10 w-10 text-gray-900/50" />
+                }
+                effect="blur"
+              />
+            </a>
+          </div>
+
+          {/* <div>
+            <a href="https://www.buymeacoffee.com/KennDev" target="_blank">
+              Buy Me A Coffee
+            </a>
+          </div> */}
+          <div className="flex flex-wrap justify-center items-center flex-col w-auto md:w-[50%]">
+            <Typography className="text-gray-400">GCash</Typography>
             <LazyLoadImage
-              src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=KennDev&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff"
-              placeholderSrc={
-                <Spinner className="h-10 w-10 text-gray-900/50" />
-              }
+              src={GCash}
+              alt="GCash"
+              title="GCash"
               effect="blur"
+              className="w-36 md:w-28 max-w-[48rem]"
             />
-          </a>
-        </div>
-        <div>OR</div>
-        <div>
-          <a href="https://www.buymeacoffee.com/KennDev" target="_blank">
-            Buy Me A Coffee
-          </a>
-        </div>
-        <div className="flex flex-wrap justify-center items-center flex-col pt-5">
-          <hr className="my-3 w-36" />
-          <Typography>GCash</Typography>
-          <LazyLoadImage
-            src={GCash}
-            alt="GCash"
-            title="GCash"
-            effect="blur"
-            className="w-36 md:w-60 max-w-[48rem]"
-          />
+          </div>
         </div>
       </CardBody>
     </Card>

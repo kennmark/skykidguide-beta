@@ -2,12 +2,21 @@ import React, { useState } from 'react'
 import { IconButton, Drawer } from '@material-tailwind/react'
 import { ChevronDoubleRightIcon } from '@heroicons/react/24/solid'
 import SideBar from './SideBar'
+import { height } from '@fortawesome/free-brands-svg-icons/fa42Group'
 
 export function SideBarContainer() {
   const [draw, setDraw] = useState(false)
   const [screenSize, setScreenSize] = useState(960)
-  const openDrawer = () => setDraw(true)
-  const closeDrawer = () => setDraw(false)
+  const openDrawer = () => {
+    setDraw(true)
+    if (typeof window !== 'undefined' && window.document) {
+      document.body.style.overflow = 'hidden'
+    }
+  }
+  const closeDrawer = () => {
+    setDraw(false)
+    document.body.style.overflow = 'unset'
+  }
 
   return (
     <>

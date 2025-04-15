@@ -931,6 +931,10 @@ export const prairie = [
             visit_date: 'Aug 31, 2023',
             visitNo: 95,
           },
+          {
+            visit_date: 'May 9, 2024',
+            visitNo: 113,
+          },
         ],
         icon_route: SEASON6,
         spirit_guide_video_url: youtube_embed + '6UafYcL-qDI',
@@ -1064,6 +1068,10 @@ export const prairie = [
           {
             visit_date: 'Jan 19, 2023',
             visitNo: 79,
+          },
+          {
+            visit_date: 'Mar 27, 2025',
+            visitNo: 136,
           },
         ],
         icon_route: SEASON6,
@@ -1544,7 +1552,18 @@ export const prairie = [
     winged_lights: [
       {
         id: 1,
-        wl_label: 'WL1-Butterfly Field (Cave)',
+        wl_label: 'WL1-Social Area',
+        wl_group: 'wl-prairie',
+        wl_season_group: 'wl-prairie-0',
+        wl_url: PR_WL3 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 2 | Daylight Prairie, Sa social area space`,
+          `Dumako sa Stone Ark na makikita sa area.`,
+        ],
+      },
+      {
+        id: 2,
+        wl_label: 'WL2-Butterfly Field (Cave)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL1 ?? WINGED_LIGHT,
@@ -1554,25 +1573,14 @@ export const prairie = [
         ],
       },
       {
-        id: 2,
-        wl_label: 'WL2-Butterfly Field (Dome Top)',
+        id: 3,
+        wl_label: 'WL3-Butterfly Field (Dome Top)',
         wl_group: 'wl-prairie',
         wl_season_group: 'wl-prairie-0',
         wl_url: PR_WL2 ?? WINGED_LIGHT,
         wl_location: [
           `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
           `Pagkalapag sa Butterfly Field, nasa tuktok ng maliit na bundok.`,
-        ],
-      },
-      {
-        id: 3,
-        wl_label: 'WL3-Butterfly Field (Exit to Prairie Village)',
-        wl_group: 'wl-prairie',
-        wl_season_group: 'wl-prairie-0',
-        wl_url: PR_WL3 ?? WINGED_LIGHT,
-        wl_location: [
-          `Pasok sa Map 2 | Daylight Prairie, Lumipad sa mga kaulapan,`,
-          `Pagkalapag sa Butterfly Field, lagpas ng maliit na bukid malapit sa batong portal.`,
         ],
       },
       {

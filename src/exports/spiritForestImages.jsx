@@ -20,6 +20,11 @@ import chimesmith from '../assets/images/spirit-images/forest/Tinkering Chimesmi
 import light from '../assets/images/spirit-images/forest/Light Whisperer.png'
 import navigator from '../assets/images/spirit-images/forest/Lively Navigator.png'
 import builder from '../assets/images/spirit-images/forest/Talented Builder .png'
+import divining from '../assets/images/spirit-images/forest/Divining Wise Grandparent.webp'
+import costumed from '../assets/images/spirit-images/forest/Costumed Confetti Cousin.webp'
+import royal from '../assets/images/spirit-images/forest/Royal Hairtousle Teen.webp'
+import nostalgic from '../assets/images/spirit-images/forest/Nostalgic Sparkler Parent.webp'
+import woodworking from '../assets/images/spirit-images/forest/Woodworking Pleaful Parent.webp'
 
 export const FOREST_SPIRIT_1 = shivering
 export const FOREST_SPIRIT_2 = blushing
@@ -46,3 +51,9 @@ export const FOREST_SEASON_SPIRIT_19 = chimesmith
 export const FOREST_SEASON_SPIRIT_20 = light
 export const FOREST_SEASON_SPIRIT_21 = navigator
 export const FOREST_SEASON_SPIRIT_22 = builder
+
+export const FOREST_SEASON_SPIRIT_23 = divining
+export const FOREST_SEASON_SPIRIT_24 = costumed
+export const FOREST_SEASON_SPIRIT_25 = royal
+export const FOREST_SEASON_SPIRIT_26 = nostalgic
+export const FOREST_SEASON_SPIRIT_27 = woodworking

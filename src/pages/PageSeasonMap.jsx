@@ -261,7 +261,7 @@ const PageSeasonMap = () => {
           <div className="pt-5 w-full px-5">
             <div className="">
               <Card className="flex justify-center text-xl py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
-                Seasons 2025 - [Radiance]
+                Seasons 2025 - [Radiance, Blue Bird]
               </Card>
             </div>
 

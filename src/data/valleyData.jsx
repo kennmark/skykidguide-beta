@@ -1056,6 +1056,10 @@ export const valley = [
             visit_date: 'Jul 6, 2023',
             visitNo: 91,
           },
+          {
+            visit_date: 'Aug 15, 2024',
+            visitNo: 120,
+          },
         ],
         icon_route: SEASON8,
         spirit_guide_video_url: youtube_embed + 'QOFfrU-J-Yw',
@@ -1493,7 +1497,12 @@ export const valley = [
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Feb 27, 2025',
+            visitNo: 134,
+          },
+        ],
         icon_route: SEASON15,
         spirit_guide_video_url: youtube_embed + '09XhkJcsL90',
         spirit_direction: [

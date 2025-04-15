@@ -253,6 +253,15 @@ const S24Radiance = lazy(() => {
   })
 })
 
+const S25BlueBird = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S25BlueBirdPage')),
+      300
+    )
+  })
+})
+
 function App() {
   return (
     <div className="mooliMono">
@@ -564,6 +573,15 @@ function App() {
                   </Layout>
                 }
               />
+              <Route
+                path="seasons/2025/season-25/blue-bird"
+                element={
+                  <Layout>
+                    <S25BlueBird />
+                  </Layout>
+                }
+              />
+
               <Route
                 path="/balita"
                 element={

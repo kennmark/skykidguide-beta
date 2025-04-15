@@ -112,10 +112,32 @@ export const testimonies = [
     testimonial: `Thank you for creating this omg pero ang noob ko padin di ko padin magets kahit tagalog na huhu`,
   },
   {
-    id: 14,
+    id: 15,
     testimonee: 'Zyrex Sarmiento',
     testimonee_avatar: avatarGuy,
     group: 'SkyPH-Admin',
     testimonial: `Malaki help to sakkin . Tagal ko di na nag reborrn ee hahaha`,
+  },
+  {
+    id: 16,
+    testimonee: 'Drex Garra',
+    testimonee_avatar: avatarGuy,
+    group: 'SkyPH-Member',
+    testimonial: `Wooooow! Circa 2020 wala kaming ganitoooo pero now, wow! Kudos! 👏🏽`,
+  },
+  {
+    id: 17,
+    testimonee: 'Aeriii',
+    testimonee_avatar: avatarLady,
+    group: 'SkyPH-Member',
+    testimonial: `thank you so much po!!! Grabeeee dami ko natutunan sa’yo po. Lalo na
+     yung sa websiteeee, super big help. Ta's ngayon may nalaman ulit ako. Thank u pooooo!!!`,
+  },
+  {
+    id: 18,
+    testimonee: 'Ali Corpuz Madid',
+    testimonee_avatar: avatarGuy,
+    group: 'SkyPH-Member',
+    testimonial: `super helpful. solid website nyo!!!! Recommended`,
   },
 ]

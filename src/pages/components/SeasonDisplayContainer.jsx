@@ -47,7 +47,7 @@ const SeasonDisplayContainer = ({
             alt={name}
             width={80}
             effect="blur"
-            className="p-1"
+            className="p-2"
             onClick={handleOpen}
           />
         </div>
@@ -59,7 +59,7 @@ const SeasonDisplayContainer = ({
         className="bg-transparent shadow-none"
         key={name}
       >
-        <Card className="mx-auto w-full max-w-[24rem] bg-[#233d4d] ">
+        <Card className="mx-auto w-full max-w-[24rem] bg-[#233d4d]">
           <CardHeader className="bg-gray-900  grid h-auto pb-2 pt-1 place-items-center text-center px-1">
             <div className="block">
               <LazyLoadImage

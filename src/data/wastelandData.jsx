@@ -572,8 +572,16 @@ export const wasteland = [
         ],
         number_of_visits: [
           {
+            visit_date: 'May 28, 2020',
+            visitNo: 'unknown',
+          },
+          {
             visit_date: 'Jan 20, 2022',
             visitNo: 53,
+          },
+          {
+            visit_date: 'Nov 21, 2024',
+            visitNo: 127,
           },
         ],
         icon_route: SEASON1,
@@ -973,6 +981,10 @@ export const wasteland = [
           {
             visit_date: 'Mar 16, 2023',
             visitNo: 84,
+          },
+          {
+            visit_date: 'Jan 16, 2025',
+            visitNo: 131,
           },
         ],
         icon_route: SEASON5,

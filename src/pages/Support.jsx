@@ -63,7 +63,7 @@ const Support = () => {
                 support us too at our youtube channel
               </Typography>
               <Typography variant="h4" color="blue-gray" className="mb-2">
-                SKYKID: Tulong & Gabay
+                SKYKIDHero
               </Typography>
               <Typography color="gray" className="mb-8 font-normal">
                 This channel is all about Sky: Children of The Light. From how

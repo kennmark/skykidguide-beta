@@ -577,7 +577,7 @@ export const vault = [
           },
           {
             visit_date: 'Jun 20, 2024',
-            visitNo: '116',
+            visitNo: 116,
           },
         ],
         icon_route: SEASON4,

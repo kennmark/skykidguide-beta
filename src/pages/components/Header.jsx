@@ -13,12 +13,12 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 const Header = () => {
   const [openNav, setOpenNav] = useState(false)
 
-  useEffect(() => {
-    window.addEventListener(
-      'resize',
-      () => window.innerWidth >= 960 && setOpenNav(false)
-    )
-  }, [])
+  // useEffect(() => {
+  //   window.addEventListener(
+  //     'resize',
+  //     () => window.innerWidth >= 960 && setOpenNav(true)
+  //   )
+  // }, [])
 
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">

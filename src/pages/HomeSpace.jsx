@@ -37,6 +37,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 import DyeLocations from './components/DyeLocations'
+import TravellingSpirits from './components/TravellingSpirits'
 // import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const HomeSpace = () => {
@@ -264,6 +265,10 @@ const HomeSpace = () => {
         <DyeLocations />
       </div>
       {/* Dye Locations */}
+
+      {/* Traveling Spirits */}
+      {/* <TravellingSpirits /> */}
+      {/* Traveling Spirits */}
 
       {/* Veterans */}
       <Typography variant="h1" className="text-[#fe7f2d]">
