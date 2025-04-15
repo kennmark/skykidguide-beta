@@ -112,7 +112,7 @@ const S25BlueBirdPage = () => {
                 </div>
               )}
 
-              <div className="flex flex-wrap justify-center gap-3">
+              {/* <div className="flex flex-wrap justify-center gap-3">
                 {activeTab === 'season_spirits' &&
                   season_spirits?.map((spirit) => {
                     return (
@@ -147,7 +147,7 @@ const S25BlueBirdPage = () => {
                       />
                     )
                   })}
-              </div>
+              </div> */}
             </TabPanel>
           </TabsBody>
         </Tabs>
