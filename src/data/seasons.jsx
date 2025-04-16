@@ -3761,7 +3761,7 @@ export const seasons2025 = [
   },
   {
     id: 25,
-    name: 'Season of Blue Bird',
+    name: 'Season of The Blue Bird',
     season_type: 1,
     time_duration: 'April 21, 2025 - July 7, 2025',
     spirit_num: 5,

@@ -1,9 +1,9 @@
 import { Carousel, Typography, Button, Card } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
-import carousel1 from '../assets/images/seasonal-banners/s24A.webp'
-import carousel2 from '../assets/images/seasonal-banners/S24B.webp'
-import carousel3 from '../assets/images/seasonal-banners/S24C.webp'
+import carousel1 from '../assets/images/seasonal-banners/S25A.webp'
+import carousel2 from '../assets/images/seasonal-banners/S25B.webp'
+import carousel3 from '../assets/images/seasonal-banners/S25C.webp'
 import SeasonDisplayContainer from './components/SeasonDisplayContainer'
 import {
   seasons2019,
@@ -14,6 +14,7 @@ import {
   seasons2024,
   seasons2025,
 } from '../data/seasons'
+import { Link } from 'react-router-dom'
 const PageSeasonMap = () => {
   return (
     <div>
@@ -43,7 +44,7 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 24 | Season of Radiance
+                    Season 25 | Season of The Blue Bird
                   </Typography>
                   <Typography
                     variant="lead"
@@ -53,10 +54,13 @@ const PageSeasonMap = () => {
                     Bagong Season ang dumating sa Sky: Children of The Light!
                   </Typography>
                   <div className="flex justify-center gap-2">
-                    <Button size="sm" className="theme-button" ripple={true}>
-                      Pasok
-                    </Button>
-                    <a href="https://www.thatskygame.com/news/a-world-of-color-awaits-in-season-of-radiance/">
+                    <Link to={`/seasons/2025/season-25/blue-bird`}>
+                      <Button size="sm" className="theme-button" ripple={true}>
+                        Pasok
+                      </Button>
+                    </Link>
+
+                    <a href="https://www.thatskygame.com/news/chasing-the-blue-bird-a-new-season-in-sky">
                       <Button size="sm" className="theme-button">
                         Visit Site
                       </Button>
@@ -85,8 +89,8 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    A new type of Dark Plant will be found sprouting in the
-                    kingdom.
+                    In this new Season, you’re called to help the child find the
+                    Blue Bird.
                   </Typography>
                 </div>
               </div>
@@ -104,18 +108,19 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 24 | Season of Radiance
+                    Season 25 | Season of The Blue Bird
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    This Season’s Spirits bring hairstyles, outfits, capes, and
-                    more, not to mention an instrument. Feel free to keep things
-                    in their original color if you enjoy a more minimalist
-                    aesthetic, but the Spirits have designed them especially to
-                    be dyed, and we can’t wait to see the designs you create!
+                    Hope is fragile. Sometimes, it feels just out of
+                    reach—something we chase but never quite grasp. In Season of
+                    the Blue Bird, beloved Spirits return to share more of their
+                    story—one inspired by Maurice Maeterlinck’s timeless play,
+                    The Blue Bird, about the search for happiness and the chance
+                    to mend what is broken.
                   </Typography>
                 </div>
               </div>

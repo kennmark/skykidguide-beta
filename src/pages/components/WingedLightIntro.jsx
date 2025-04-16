@@ -19,7 +19,7 @@ const WingedLightIntro = () => {
         <Typography variant="h1" className="my-10 text-[#fe7f2d]">
           Winged Lights
         </Typography>
-        <Typography className="leading-8 py-5 px-10">
+        <Typography className="leading-8 py-5 px-10 text-white">
           Ang Winged Lights (WL) ay nagbibigay ng kakayahan upang tumaas ang
           Wing Power at Wing Level ng isang Skykid. May dalawang (2) paraan
           upang magkaroon ng mataas na wing power at wing level ng isang Skykid.

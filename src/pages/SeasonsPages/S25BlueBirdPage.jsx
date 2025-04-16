@@ -17,7 +17,7 @@ import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { allSeasons, seasons2025 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
-import SeasonOfRadiance from '../../assets/images/home-carousel/Season-of-Radiance.webp'
+import SeasonOfBlueBird from '../../assets/images/home-carousel/Season-of-The-Blue-Bird.webp'
 import DyeLocations from '../components/DyeLocations'
 import DyeAlertMessage from '../components/DyeAlertMessage'
 
@@ -84,9 +84,9 @@ const S25BlueBirdPage = () => {
               {activeTab === 'info' && (
                 <div className="text-gray-100 pb-5">
                   <LazyLoadImage
-                    src={SeasonOfRadiance}
-                    alt="Season of Radiance"
-                    title="Season of Radiance"
+                    src={SeasonOfBlueBird}
+                    alt="Season of Blue Bird"
+                    title="Season of Blue Bird"
                     placeholderSrc={
                       <Spinner className="h-10 w-10 text-gray-900/50" />
                     }
