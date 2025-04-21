@@ -29,7 +29,7 @@ import {
   TALENTED_BUILDER,
   TINKERING_CHIMESMITH,
 } from '../exports/spiritIcons'
-import { MAP_SHRINE, WINGED_LIGHT } from '../exports/defaultImages'
+import { MAP_SHRINE, WINGED_LIGHT, NON_SPIRIT } from '../exports/defaultImages'
 import {
   MAP3,
   SEASON1,
@@ -161,6 +161,7 @@ import {
   BUILDER_ITEM_2,
   BUILDER_ITEM_3,
 } from '../exports/spiritForestCollectibles'
+
 import ForestConstellation from '../assets/images/maps-constellations/Forest_Constellation.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import ForestDyes from '../pages/components/MapDyeLocations/ForestDyes'
@@ -1556,7 +1557,7 @@ export const hiddenForest = [
         spirit_id: 'blue-bird-1',
         spirit_name: `Divining Wise Grandparent`,
         spirit_img_url: TALENTED_BUILDER,
-        spirit_category: 'emote',
+        spirit_category: 'none',
         spirit_relive_type: 'none',
         difficulty_level: 0,
         difficulty_types: [14],
@@ -1564,36 +1565,18 @@ export const hiddenForest = [
         icon_route: SEASON25,
         spirit_guide_video_url: youtube_embed + '',
         spirit_collectibles: [
-          // {
-          //   label: 'Hair',
-          //   img: RPP_ITEM_1,
-          //   currency: 'Season Candles',
-          //   price: 0,
-          // },
-          // {
-          //   label: 'Pants',
-          //   img: RPP_ITEM_2,
-          //   currency: 'Season Candles',
-          //   price: 24,
-          // },
-          // {
-          //   label: 'Cape',
-          //   img: RPP_ITEM_3,
-          //   currency: 'Season Candles',
-          //   price: 0,
-          // },
-          // {
-          //   label: 'Shoes',
-          //   img: RPP_ITEM_4,
-          //   currency: 'Season Candles',
-          //   price: 38,
-          // },
-          // {
-          //   label: 'Instrument',
-          //   img: RPP_ITEM_5,
-          //   currency: 'Season Candles',
-          //   price: 0,
-          // },
+          {
+            label: 'Hair Accessory',
+            img: 'RPP_ITEM_1',
+            currency: 'Season Candles',
+            price: 14,
+          },
+          {
+            label: 'Cape',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 0,
+          },
         ],
         spirit_tree_cost: [
           // {
