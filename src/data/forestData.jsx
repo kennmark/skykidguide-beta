@@ -60,6 +60,7 @@ import {
   HF_WL17,
   HF_WL18,
   HF_WL19,
+  HF_WL20,
 } from '../exports/forestImgWLUrl'
 import {
   HF_MS1,
@@ -72,6 +73,7 @@ import {
   HF_MS8,
   HF_MS9,
   HF_MS10,
+  HF_MS11,
 } from '../exports/forestMSImgUrl'
 import {
   FOREST_SPIRIT_1,
@@ -2055,12 +2057,24 @@ export const hiddenForest = [
         id: 19,
         wl_label: 'WL19-Wind Paths (Wind Tunnel)',
         wl_group: 'wl-forest',
-        wl_season_group: 'wl-forest-11',
+        wl_season_group: 'wl-forest-19',
         wl_url: HF_WL19 ?? WINGED_LIGHT,
         wl_location: [
           `Pasok sa Map 3 | Hiddden Forest, lumipad ka gawing kanan at pumasok ka sa lagusan.`,
           `Paglabas mo sa Wind Path, ay may malaking isla sa gitna, `,
           `at sa kanang bahagi ng isla lumipad ka pababa at pumasok ka (red circle) at lalabas ka sa lagusan (yellow circle)`,
+        ],
+      },
+      {
+        id: 20,
+        wl_label: 'WL20-Elevated Clearing(Bridge)',
+        wl_group: 'wl-forest',
+        wl_season_group: 'wl-forest-20',
+        wl_url: HF_WL20 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, Dumako patungong Forest Brook-pagkatapos ng 3rd gate`,
+          `Pagdating sa Brook ay dumako sa lagusan sa gawing kanan papuntang Elevated Clearing`,
+          `Pagdating ay magtungo malapit sa tulay, at sa gawing kanan makita ang Sanga papuntang Season Area`,
         ],
       },
     ],
@@ -2200,6 +2214,17 @@ export const hiddenForest = [
           `Pasok sa Map 3 | Hidden Forest, lumipad gawing kanan at pumasok sa Wind Paths.`,
           `Pagdating sa Wind Paths, lumipad patungo sa dulong isla sa ibaba at nasa docking area
           map shrine.`,
+        ],
+      },
+      {
+        id: 10,
+        shrine_group: 'shrine-season-25',
+        shrine_label: 'Map Shrine 11',
+        shrine_url: HF_MS11 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 3 | Hiddden Forest, Dumako patungong Forest Brook-pagkatapos ng 3rd gate`,
+          `Pagdating sa Brook ay dumako sa lagusan sa gawing kanan papuntang Elevated Clearing`,
+          `Pagdating ay magtungo malapit sa tulay, at sa gawing kanan makita ang Sanga papuntang Season Area`,
         ],
       },
     ],

@@ -23,8 +23,8 @@ export const PRAIRIE_NUM_MAP_SHRINES = 9
 
 export const FOREST_NUM_REG_SPIRIT = 8
 export const FOREST_NUM_SEASON_SPIRIT = 14
-export const FOREST_NUM_WL = 19
-export const FOREST_NUM_MAP_SHRINES = 10
+export const FOREST_NUM_WL = 20
+export const FOREST_NUM_MAP_SHRINES = 11
 
 export const VALLEY_NUM_REG_SPIRIT = 7
 export const VALLEY_NUM_SEASON_SPIRIT = 16
@@ -79,7 +79,7 @@ export const MS_HOME = 1
 export const TOTAL_WL_COUNT =
   WL_COUNT + WB_REGULAR_SPIRITS + WB_TRAVELING_SPIRITS + SHARDS_WL + ORBIT_WL
 
-export const TOTAL_MS_COUNT = // February 27, 2025
+export const TOTAL_MS_COUNT = // April 21, 2025 Season of Blue bird
   ISLE_NUM_MAP_SHRINES +
   PRAIRIE_NUM_MAP_SHRINES +
   FOREST_NUM_MAP_SHRINES +
@@ -90,8 +90,8 @@ export const TOTAL_MS_COUNT = // February 27, 2025
   AVIARY_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'February 27, 2025' //TS Mindful Miner
-export const MS_COUNT_DATE_UPDATED = 'October 14, 2024'
+export const WL_COUNT_DATE_UPDATED = 'April 21, 2025' // April 21, 2025 Season of Blue bird
+export const MS_COUNT_DATE_UPDATED = 'April 21, 2025' // April 21, 2025 Season of Blue bird
 
-export const PLAYSTATION_MAX_WL = 243
-export const STEAM_MAX_WL = 209
+export const PLAYSTATION_MAX_WL = 244
+export const STEAM_MAX_WL = 210
