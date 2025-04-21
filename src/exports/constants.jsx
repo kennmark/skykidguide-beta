@@ -6,6 +6,7 @@ import sc from '../assets/images/season-candles/24-season-of-radiance/radiance-s
 export const RC = rc
 export const HEART = heart
 export const AC = ac
+export const SC_24_RADIANCE_ICON = sc
 
 export const ORBIT_WL = 1
 export const SHARDS_WL = 6
@@ -94,5 +95,3 @@ export const MS_COUNT_DATE_UPDATED = 'October 14, 2024'
 
 export const PLAYSTATION_MAX_WL = 243
 export const STEAM_MAX_WL = 209
-
-export const SC_24_RADIANCE_ICON = sc
