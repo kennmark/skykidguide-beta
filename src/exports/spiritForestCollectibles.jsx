@@ -55,6 +55,19 @@ import lively3 from '../assets/images/spirit-collectibles/forest/lively3.webp'
 import builder1 from '../assets/images/spirit-collectibles/forest/builder1.webp'
 import builder2 from '../assets/images/spirit-collectibles/forest/builder2.webp'
 import builder3 from '../assets/images/spirit-collectibles/forest/builder3.webp'
+import divining1 from '../assets/images/spirit-collectibles/forest/divining1.webp'
+import divining2 from '../assets/images/spirit-collectibles/forest/divining2.webp'
+import costumed1 from '../assets/images/spirit-collectibles/forest/Costumed1.webp'
+import costumed2 from '../assets/images/spirit-collectibles/forest/Costumed2.webp'
+import costumed3 from '../assets/images/spirit-collectibles/forest/Costumed3.webp'
+import costumed4 from '../assets/images/spirit-collectibles/forest/Costumed4.webp'
+import royal1 from '../assets/images/spirit-collectibles/forest/royal1.webp'
+import royal2 from '../assets/images/spirit-collectibles/forest/royal2.webp'
+import royal3 from '../assets/images/spirit-collectibles/forest/royal3.webp'
+import nostalgic1 from '../assets/images/spirit-collectibles/forest/nostalgic1.webp'
+import nostalgic2 from '../assets/images/spirit-collectibles/forest/nostalgic2.webp'
+import woodcutting1 from '../assets/images/spirit-collectibles/forest/woodcutting1.webp'
+import woodcutting2 from '../assets/images/spirit-collectibles/forest/woodcutting2.webp'
 
 export const SHIVERING_ITEM_1 = shivering1
 export const SHIVERING_ITEM_2 = shivering2
@@ -114,3 +127,16 @@ export const LIVELY_ITEM_3 = lively3
 export const BUILDER_ITEM_1 = builder1
 export const BUILDER_ITEM_2 = builder2
 export const BUILDER_ITEM_3 = builder3
+export const DIVINING_ITEM_1 = divining1
+export const DIVINING_ITEM_2 = divining2
+export const COSTUMED_ITEM_1 = costumed1
+export const COSTUMED_ITEM_2 = costumed2
+export const COSTUMED_ITEM_3 = costumed3
+export const COSTUMED_ITEM_4 = costumed4
+export const ROYAL_ITEM_1 = royal1
+export const ROYAL_ITEM_2 = royal2
+export const ROYAL_ITEM_3 = royal3
+export const NOSTALGIC_ITEM_1 = nostalgic1
+export const NOSTALGIC_ITEM_2 = nostalgic2
+export const WOODCUTTING_ITEM_1 = woodcutting1
+export const WOODCUTTING_ITEM_2 = woodcutting2

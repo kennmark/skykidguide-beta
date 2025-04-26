@@ -996,35 +996,40 @@ export const isleOfDawn = [
             label: 'Hair',
             img: TUMBLING_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 40,
           },
           {
             label: 'Hair Accessory',
             img: TUMBLING_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 55,
           },
           {
             label: 'Cape',
             img: TUMBLING_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 80,
           },
           {
             label: 'Emote',
             img: TUMBLING_TROUBLEMAKER,
             currency: 'Hearts',
-            price: 0,
+            price: 13,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
-            hearts: 0,
+            candles: 188,
+            hearts: 13,
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Apr 24, 2025',
+            visitNo: 138,
+          },
+        ],
         icon_route: SEASON17,
         spirit_guide_video_url: youtube_embed + 'zv1fVtpaWoY',
         spirit_direction: [

@@ -1,7 +1,7 @@
 import rc from '../assets/images/icons/candle.webp'
 import heart from '../assets/images/icons/heart.webp'
 import ac from '../assets/images/icons/AC.webp'
-import sc from '../assets/images/season-candles/24-season-of-radiance/radiance-sc-icon.webp'
+import sc from '../assets/images/season-candles/25-season-of-the-blue-bird/blue-bird-sc-icon.webp'
 
 export const RC = rc
 export const HEART = heart
@@ -72,14 +72,14 @@ export const WL_COUNT =
 
 export const WB_REGULAR_SPIRITS = 49
 //!!!UPDATE THIS Wing Buff Count every new TS that hasnt arrived yet!!!
-export const WB_TRAVELING_SPIRITS = 76 // updated February 27, 2025 TS Mindful Miner
+export const WB_TRAVELING_SPIRITS = 77 // updated April 24, 2025 TS Tumbling Troublemaker
 
 export const MS_HOME = 1
 
 export const TOTAL_WL_COUNT =
   WL_COUNT + WB_REGULAR_SPIRITS + WB_TRAVELING_SPIRITS + SHARDS_WL + ORBIT_WL
 
-export const TOTAL_MS_COUNT = // April 21, 2025 Season of Blue bird
+export const TOTAL_MS_COUNT = // April 24, 2025 TS Tumbling Troublemaker
   ISLE_NUM_MAP_SHRINES +
   PRAIRIE_NUM_MAP_SHRINES +
   FOREST_NUM_MAP_SHRINES +
@@ -90,8 +90,8 @@ export const TOTAL_MS_COUNT = // April 21, 2025 Season of Blue bird
   AVIARY_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'April 21, 2025' // April 21, 2025 Season of Blue bird
+export const WL_COUNT_DATE_UPDATED = 'April 24, 2025' // April 24, 2025 TS Tumbling Troublemaker
 export const MS_COUNT_DATE_UPDATED = 'April 21, 2025' // April 21, 2025 Season of Blue bird
 
-export const PLAYSTATION_MAX_WL = 244
-export const STEAM_MAX_WL = 210
+export const PLAYSTATION_MAX_WL = 246
+export const STEAM_MAX_WL = 212

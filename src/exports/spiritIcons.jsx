@@ -67,6 +67,11 @@ import lightWhisperer from '../assets/images/emotes/map3/seasons/S11-light-whisp
 import livelyNavigator from '../assets/images/emotes/map3/seasons/S11-lively-navigator.webp'
 import talentedBuilder from '../assets/images/emotes/map3/seasons/S11-talented-builder.webp'
 import tinkeringChimesmith from '../assets/images/emotes/map3/seasons/S11-tinkering-chimesmith.webp'
+import diviningWiseGrandparent from '../assets/images/emotes/map3/seasons/S25-divining-wise-grandparent.webp'
+import costumedConfettiCousin from '../assets/images/emotes/map3/seasons/S25-costumed-confetti-cousin.webp'
+import nostalgicSparklerParent from '../assets/images/emotes/map3/seasons/S25-nostalgic-sparkler-parent.webp'
+import royalHairtousleTeen from '../assets/images/emotes/map3/seasons/S25-royal-hairtousle-teen.webp'
+import woodcuttingPleafulParent from '../assets/images/emotes/map3/seasons/S25-woodcutting-pleaful-parent.webp'
 
 // MAP 3
 
@@ -225,6 +230,11 @@ export const LIGHT_WHISPERER = lightWhisperer
 export const LIVELY_NAVIGATOR = livelyNavigator
 export const TALENTED_BUILDER = talentedBuilder
 export const TINKERING_CHIMESMITH = tinkeringChimesmith
+export const DIVING_WISE_GRANDPARENT = diviningWiseGrandparent
+export const COSTUMED_CONFETTI_COUSIN = costumedConfettiCousin
+export const NOSTALGIC_SPARKLER_PARENT = nostalgicSparklerParent
+export const ROYAL_HAIRTOUSLE_TEEN = royalHairtousleTeen
+export const WOODCUTTING_PLEAFUL_PARENT = woodcuttingPleafulParent
 // MAP 3
 
 // MAP 4
