@@ -41,7 +41,7 @@ const S25BlueBirdPage = () => {
   const isCurrentSeason =
     allSeasons.length === seasons2025[currentSeasonId].id ? true : false
   const dateToday = new Date()
-  // console.log(seasons2025[currentSeasonId].id, 'Current Season')
+  // console.log(seasons2025[1])
   // console.log(allSeasons.length, 'All Season')
   // console.log(isCurrentSeason, 'Current Season?')
 

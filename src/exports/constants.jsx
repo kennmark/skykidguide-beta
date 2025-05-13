@@ -93,5 +93,5 @@ export const TOTAL_MS_COUNT = // April 24, 2025 TS Tumbling Troublemaker
 export const WL_COUNT_DATE_UPDATED = 'April 24, 2025' // April 24, 2025 TS Tumbling Troublemaker
 export const MS_COUNT_DATE_UPDATED = 'April 21, 2025' // April 21, 2025 Season of Blue bird
 
-export const PLAYSTATION_MAX_WL = 246
-export const STEAM_MAX_WL = 212
+export const PLAYSTATION_MAX_WL = 243
+export const STEAM_MAX_WL = 223

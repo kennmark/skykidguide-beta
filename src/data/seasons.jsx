@@ -3765,11 +3765,11 @@ export const seasons2025 = [
     season_type: 1,
     time_duration: 'April 21, 2025 - July 7, 2025',
     spirit_num: 5,
-    wl_num: 0,
-    ms_num: 0,
+    wl_num: 1,
+    ms_num: 1,
     icon_route: SEASON25,
     page_route: 'seasons/2025/season-25/blue-bird',
-    quick_info: `Season of Blue Bird`,
+    quick_info: `Season of The Blue Bird`,
     season_spirits: [
       //Divining Wise Grandparent
       {
@@ -3857,8 +3857,26 @@ export const seasons2025 = [
         spirit_direction: hiddenForest[1].spirits[18].spirit_direction,
       },
     ],
-    winged_lights: [],
-    map_shrines: [],
+
+    winged_lights: [
+      {
+        id: hiddenForest[2].winged_lights[19].id,
+        wl_label: hiddenForest[2].winged_lights[19].wl_label,
+        wl_group: hiddenForest[2].winged_lights[19].wl_group,
+        wl_season_group: hiddenForest[2].winged_lights[19].wl_season_group,
+        wl_url: hiddenForest[2].winged_lights[19].wl_url,
+        wl_location: hiddenForest[2].winged_lights[19].wl_location,
+      },
+    ],
+    map_shrines: [
+      {
+        id: hiddenForest[3].map_shrines[10].id,
+        shrine_group: hiddenForest[3].map_shrines[10].shrine_group,
+        shrine_label: hiddenForest[3].map_shrines[10].shrine_label,
+        shrine_url: hiddenForest[3].map_shrines[10].shrine_url,
+        shrine_location: hiddenForest[3].map_shrines[10].shrine_location,
+      },
+    ],
   },
 ]
 

@@ -285,7 +285,7 @@ const PageSeasonMap = () => {
               </Card>
             </div>
 
-            <div className="flex flex-wrap  justify-center gap-4 py-5">
+            <div className="flex flex-wrap justify-center gap-4 py-5 px-5">
               {seasons2024.map((season) => {
                 return <SeasonDisplayContainer {...season} key={season.id} />
               })}
@@ -300,7 +300,7 @@ const PageSeasonMap = () => {
               </Card>
             </div>
 
-            <div className="flex flex-wrap  justify-center gap-4 py-5">
+            <div className="flex flex-wrap  justify-center gap-4 py-5 px-5">
               {seasons2023.map((season) => {
                 return <SeasonDisplayContainer {...season} key={season.id} />
               })}
@@ -315,7 +315,7 @@ const PageSeasonMap = () => {
               </Card>
             </div>
 
-            <div className="flex flex-wrap  justify-center gap-4 py-5">
+            <div className="flex flex-wrap  justify-center gap-4 py-5 px-5">
               {seasons2022.map((season) => {
                 return <SeasonDisplayContainer {...season} key={season.id} />
               })}
@@ -330,7 +330,7 @@ const PageSeasonMap = () => {
               </Card>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-4 py-5">
+            <div className="flex flex-wrap justify-center gap-4 py-5 px-5">
               {seasons2021.map((season) => {
                 return <SeasonDisplayContainer {...season} key={season.id} />
               })}
@@ -345,7 +345,7 @@ const PageSeasonMap = () => {
               </Card>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-4 py-5">
+            <div className="flex flex-wrap justify-center gap-4 py-5 px-5">
               {seasons2020.map((season) => {
                 return <SeasonDisplayContainer {...season} key={season.id} />
               })}
@@ -360,7 +360,7 @@ const PageSeasonMap = () => {
               </Card>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-4 py-5">
+            <div className="flex flex-wrap justify-center gap-4 py-5 px-5">
               {seasons2019.map((season) => {
                 return <SeasonDisplayContainer {...season} key={season.id} />
               })}
