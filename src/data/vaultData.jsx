@@ -1141,19 +1141,19 @@ export const vault = [
             label: 'Hair',
             img: VETERAN_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 60,
           },
           {
             label: 'Mask',
             img: VETERAN_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 35,
           },
           {
             label: 'Cape',
             img: VETERAN_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 80,
           },
           {
             label: 'Emote',
@@ -1164,12 +1164,17 @@ export const vault = [
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
-            hearts: 0,
+            candles: 188,
+            hearts: 13,
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'May 22, 2025',
+            visitNo: 140,
+          },
+        ],
         icon_route: SEASON16,
         spirit_guide_video_url: youtube_embed + 'feXvYTOGEi4',
         spirit_direction: [
