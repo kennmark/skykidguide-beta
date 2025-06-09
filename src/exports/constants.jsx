@@ -72,14 +72,14 @@ export const WL_COUNT =
 
 export const WB_REGULAR_SPIRITS = 49
 //!!!UPDATE THIS Wing Buff Count every new TS that hasnt arrived yet!!!
-export const WB_TRAVELING_SPIRITS = 78 // updated May 22, 2025 TS Bereft Veteran
+export const WB_TRAVELING_SPIRITS = 80 // updated June 9, 2025 TS Running Wayfarer amd Seed of Hope
 
 export const MS_HOME = 1
 
 export const TOTAL_WL_COUNT =
   WL_COUNT + WB_REGULAR_SPIRITS + WB_TRAVELING_SPIRITS + SHARDS_WL + ORBIT_WL
 
-export const TOTAL_MS_COUNT = // May 22, 2025 TS Bereft Veteran
+export const TOTAL_MS_COUNT = // June 9, 2025 TS Running Wayfarer amd Seed of Hope
   ISLE_NUM_MAP_SHRINES +
   PRAIRIE_NUM_MAP_SHRINES +
   FOREST_NUM_MAP_SHRINES +
@@ -90,8 +90,8 @@ export const TOTAL_MS_COUNT = // May 22, 2025 TS Bereft Veteran
   AVIARY_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'May 22, 2025' // May 22, 2025 TS Bereft Veteran
+export const WL_COUNT_DATE_UPDATED = 'June 9, 2025' // June 9, 2025 TS Running Wayfarer amd Seed of Hope
 export const MS_COUNT_DATE_UPDATED = 'April 21, 2025' // April 21, 2025 Season of Blue bird
 
-export const PLAYSTATION_MAX_WL = 244
-export const STEAM_MAX_WL = 224
+export const PLAYSTATION_MAX_WL = 246
+export const STEAM_MAX_WL = 226
