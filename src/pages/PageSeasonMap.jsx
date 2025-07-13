@@ -266,7 +266,8 @@ const PageSeasonMap = () => {
           <div className="pt-5 w-full px-5">
             <div className="">
               <Card className="flex justify-center text-xl py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
-                Seasons 2025 - [Radiance, Blue Bird]
+                Seasons 2025 - [
+                {seasons2025.map((seasonNames) => seasonNames.name + ', ')}]
               </Card>
             </div>
 
@@ -281,7 +282,8 @@ const PageSeasonMap = () => {
           <div className="pt-5 w-full px-5">
             <div className="">
               <Card className="flex justify-center text-xl  py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
-                Seasons 2024 - [The Nine Colored Deer, Nesting, Duet, Moomin]
+                Seasons 2024 - [
+                {seasons2024.map((seasonNames) => seasonNames.name + ', ')}]
               </Card>
             </div>
 
@@ -296,7 +298,8 @@ const PageSeasonMap = () => {
           <div className="pt-5 w-full px-5">
             <div className="">
               <Card className="flex justify-center text-xl py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
-                Seasons 2023 - [Remembrance, Passage, Moments, Revival]
+                Seasons 2023 - [
+                {seasons2023.map((seasonNames) => seasonNames.name + ', ')}]
               </Card>
             </div>
 
@@ -311,7 +314,8 @@ const PageSeasonMap = () => {
           <div className="pt-5 w-full px-5">
             <div>
               <Card className="flex justify-center text-xl  py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
-                Seasons 2022 - [Abyss, Performance, Shattering, AURORA]
+                Seasons 2022 - [
+                {seasons2022.map((seasonNames) => seasonNames.name + ', ')}]
               </Card>
             </div>
 
@@ -326,7 +330,8 @@ const PageSeasonMap = () => {
           <div className="pt-5 w-full px-5">
             <div>
               <Card className="flex justify-center text-xl py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
-                Seasons 2021 - [Dreams, Assembly, The Little Prince, Flight]
+                Seasons 2021 - [
+                {seasons2021.map((seasonNames) => seasonNames.name + ', ')}]
               </Card>
             </div>
 
@@ -341,7 +346,8 @@ const PageSeasonMap = () => {
           <div className="pt-5 w-full px-5">
             <div>
               <Card className="flex justify-center text-xl py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
-                Seasons 2020 - [Rythm, Enchantment, Sanctuary, Prophecy]
+                Seasons 2020 - [
+                {seasons2020.map((seasonNames) => seasonNames.name + ', ')}]
               </Card>
             </div>
 
@@ -356,7 +362,8 @@ const PageSeasonMap = () => {
           <div className="pt-5 w-full px-5">
             <div>
               <Card className="flex justify-center text-xl py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
-                Seasons 2019 - [Gratitude, Lightseekers, Belonging]
+                Seasons 2019 - [
+                {seasons2019.map((seasonNames) => seasonNames.name + ', ')}]
               </Card>
             </div>
 

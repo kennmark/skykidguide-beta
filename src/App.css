@@ -418,6 +418,16 @@ html {
   background-color: #fe7f2d;
 }
 
+.checkbox-uncollected {
+  position: absolute;
+  top: 1.5rem;
+  right: 0px;
+  padding: 0.1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: #7c4119;
+}
+
 .shadow-md .remove-shadow {
   --tw-shadow: none !important;
 }

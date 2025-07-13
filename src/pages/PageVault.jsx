@@ -6,7 +6,7 @@ import {
   TabPanel,
 } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
 import { vault } from '../data/vaultData'
 import { maps } from '../data/maps'
@@ -23,6 +23,21 @@ const PageVault = () => {
     mapName.id === 7 ? mapName.title : ''
   )
   const mapIntro = maps.map((intro) => (intro.id === 7 ? intro.map_intro : ''))
+
+  const [checkedSpirits, setCheckedSpirits] = useState(() => {
+    const saved = localStorage.getItem('checkedSpirits')
+    const initialValue = JSON.parse(saved) || {} // Default to empty object if no saved data
+    return initialValue
+  })
+
+  useEffect(() => {
+    localStorage.setItem('checkedSpirits', JSON.stringify(checkedSpirits))
+  }, [checkedSpirits])
+
+  const handleCheckboxChange = (event) => {
+    const { name, checked } = event.target
+    setCheckedSpirits((prevState) => ({ ...prevState, [name]: checked }))
+  }
 
   return (
     <div className="flex justify-start">
@@ -69,6 +84,8 @@ const PageVault = () => {
                         <SpiritCardContainer
                           {...spirit}
                           key={spirit.spirit_id}
+                          checkedSpirits={checkedSpirits}
+                          handleCheckboxChange={handleCheckboxChange}
                         />
                       )
                     })}

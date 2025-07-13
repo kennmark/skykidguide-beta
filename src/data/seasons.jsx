@@ -24,6 +24,7 @@ import {
   SEASON23,
   SEASON24,
   SEASON25,
+  SEASON26,
 } from '../exports/seasonIcons'
 
 import {
@@ -196,7 +197,7 @@ const youtube_embed = 'https://www.youtube.com/embed/'
 export const seasons2019 = [
   {
     id: 1,
-    name: 'Season of Gratitude',
+    name: 'Gratitude',
     time_duration: 'July 19 - September 2, 2019',
     spirit_num: 6,
     map_shrine: 0,
@@ -308,7 +309,7 @@ export const seasons2019 = [
   },
   {
     id: 2,
-    name: 'Season of Lightseekers',
+    name: 'Lightseekers',
     time_duration: 'September 3 - November 10, 2019',
     spirit_num: 6,
     map_shrine: 0,
@@ -419,7 +420,7 @@ export const seasons2019 = [
   },
   {
     id: 3,
-    name: 'Season of Belonging',
+    name: 'Belonging',
     time_duration: 'November 18, 2019 - January 12, 2020',
     spirit_num: 6,
     map_shrine: 0,
@@ -534,7 +535,7 @@ export const seasons2019 = [
 export const seasons2020 = [
   {
     id: 4,
-    name: 'Season of Rhythm',
+    name: 'Rhythm',
     time_duration: 'January 24 - April 5, 2020',
     spirit_num: 6,
     map_shrine: 0,
@@ -646,7 +647,7 @@ export const seasons2020 = [
   },
   {
     id: 5,
-    name: 'Season of Enchantment',
+    name: 'Enchantment',
     time_duration: 'April 20 - June 21, 2020',
     spirit_num: 6,
     wl_num: 2,
@@ -793,7 +794,7 @@ export const seasons2020 = [
   },
   {
     id: 6,
-    name: 'Season of Sanctuary',
+    name: 'Sanctuary',
     time_duration: 'July 13 - September 21, 2020',
     spirit_num: 6,
     wl_num: 8,
@@ -1028,7 +1029,7 @@ export const seasons2020 = [
   },
   {
     id: 7,
-    name: 'Season of Prophecy',
+    name: 'Prophecy',
     time_duration: 'October 5 - December 13, 2020',
     spirit_num: 4,
     wl_num: 4,
@@ -1219,7 +1220,7 @@ export const seasons2020 = [
 export const seasons2021 = [
   {
     id: 8,
-    name: 'Season of Dreams',
+    name: 'Dreams',
     time_duration: 'January 4 - March 15, 2021',
     spirit_num: 4,
     wl_num: 5,
@@ -1404,7 +1405,7 @@ export const seasons2021 = [
   },
   {
     id: 9,
-    name: 'Season of Assembly',
+    name: 'Assembly',
     time_duration: 'April 5 - June 13, 2021',
     spirit_num: 6,
     wl_num: 2,
@@ -1566,7 +1567,7 @@ export const seasons2021 = [
   },
   {
     id: 10,
-    name: 'Season of The Little Prince',
+    name: 'The Little Prince',
     time_duration: 'July 6 - September 19, 2021',
     spirit_num: 6,
     wl_num: 3,
@@ -1738,7 +1739,7 @@ export const seasons2021 = [
   },
   {
     id: 11,
-    name: 'Season of Flight',
+    name: 'Flight',
     time_duration: 'October 4 - December 19, 2021',
     spirit_num: 4,
     wl_num: 1,
@@ -1859,7 +1860,7 @@ export const seasons2021 = [
 export const seasons2022 = [
   {
     id: 12,
-    name: 'Season of Abyss',
+    name: 'Abyss',
     time_duration: 'January 17 - March 27, 2022',
     spirit_num: 4,
     wl_num: 2,
@@ -1980,7 +1981,7 @@ export const seasons2022 = [
   },
   {
     id: 13,
-    name: 'Season of Performance',
+    name: 'Performance',
     time_duration: 'April 11 - June 26, 2022',
     spirit_num: 4,
     wl_num: 1,
@@ -2090,7 +2091,7 @@ export const seasons2022 = [
   },
   {
     id: 14,
-    name: 'Season of Shattering',
+    name: 'Shattering',
     season_type: 0,
     time_duration: 'July 11 - September 26, 2022',
     spirit_num: 2,
@@ -2356,7 +2357,7 @@ export const seasons2022 = [
   },
   {
     id: 15,
-    name: 'Season of AURORA',
+    name: 'AURORA',
     time_duration: 'October 17, 2022 - January 2, 2023',
     spirit_num: 4,
     icon_route: SEASON15,
@@ -2439,7 +2440,7 @@ export const seasons2022 = [
 export const seasons2023 = [
   {
     id: 16,
-    name: 'Season of Remembrance',
+    name: 'Remembrance',
     time_duration: 'January 16, April 2, 2023',
     spirit_num: 4,
     wl_num: 1,
@@ -2547,7 +2548,7 @@ export const seasons2023 = [
   },
   {
     id: 17,
-    name: 'Season of Passage',
+    name: 'Passage',
     time_duration: 'April 17 - July 2, 2023',
     spirit_num: 4,
     ms_num: 1,
@@ -2641,7 +2642,7 @@ export const seasons2023 = [
   },
   {
     id: 18,
-    name: 'Season of Moments',
+    name: 'Moments',
     time_duration: 'July 17 - October 1, 2023',
     spirit_num: 4,
     wl_num: 3,
@@ -2779,7 +2780,7 @@ export const seasons2023 = [
   },
   {
     id: 19,
-    name: 'Season of Revival',
+    name: 'Revival',
     season_type: 0,
     time_duration: 'October 16 - December 31, 2023',
     icon_route: SEASON19,
@@ -2793,11 +2794,11 @@ export const seasons2023 = [
     children alike. There are four (4) cosmetic dolls
     available on Aviary Shop that are available.`,
     season_spirits: [
-      //NON_SPIRIT
+      //Vestige of a Deserted Oasis
       {
         spirit_id: 'revival-1',
         spirit_name: 'Vestige of a Deserted Oasis',
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: VDO_ITEM_3,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -2832,11 +2833,11 @@ export const seasons2023 = [
         ],
         number_of_visits: [],
       },
-      //NON_SPIRIT
+      //Memory of a Lost Village
       {
         spirit_id: 'revival-2',
-        spirit_name: 'Memory of a Lost Village ',
-        spirit_img_url: NON_SPIRIT,
+        spirit_name: 'Memory of a Lost Village',
+        spirit_img_url: MLV_ITEM_4,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -2871,11 +2872,11 @@ export const seasons2023 = [
         ],
         number_of_visits: [],
       },
-      //NON_SPIRIT
+      //Echo of an Abandoned Refuge
       {
         spirit_id: 'revival-3',
         spirit_name: 'Echo of an Abandoned Refuge',
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: EAR_ITEM_3,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -2910,11 +2911,11 @@ export const seasons2023 = [
         ],
         number_of_visits: [],
       },
-      //NON_SPIRIT
+      //Remnant of a Forgotten Haven
       {
         spirit_id: 'revival-4',
         spirit_name: 'Remnant of a Forgotten Haven',
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: RFH_ITEM_3,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -2968,7 +2969,7 @@ export const seasons2023 = [
 export const seasons2024 = [
   {
     id: 20,
-    name: 'Season of The Nine Colored Deer',
+    name: 'The Nine Colored Deer',
     time_duration: 'January 15 - March 31, 2024',
     spirit_num: 4,
     wl_num: 3,
@@ -3096,7 +3097,7 @@ export const seasons2024 = [
   },
   {
     id: 21,
-    name: 'Season of Nesting',
+    name: 'Nesting',
     season_type: 0,
     time_duration: 'April 15, 2024 - July 1, 2024',
     wl_num: 0,
@@ -3105,11 +3106,11 @@ export const seasons2024 = [
     page_route: 'seasons/2024/season-21/nesting',
     quick_info: `It's TIME to DECORATE our own HOMESPACE!`,
     season_spirits: [
-      //NON_SPIRIT
+      //Nesting Atrium
       {
         spirit_id: 'nesting-1',
         spirit_name: 'Nesting Atrium',
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: NA_ITEM_4,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -3150,10 +3151,11 @@ export const seasons2024 = [
         ],
         number_of_visits: [],
       },
+      //Nesting Loft
       {
         spirit_id: 'nesting-2',
         spirit_name: 'Nesting Loft',
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: NL_ITEM_2,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -3194,10 +3196,11 @@ export const seasons2024 = [
         ],
         number_of_visits: [],
       },
+      //Nesting Solarium
       {
         spirit_id: 'nesting-3',
         spirit_name: 'Nesting Solarium',
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: NS_ITEM_4,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -3238,10 +3241,11 @@ export const seasons2024 = [
         ],
         number_of_visits: [],
       },
+      //Nesting Nook
       {
         spirit_id: 'nesting-4',
         spirit_name: 'Nesting Nook',
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: NN_ITEM_2,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -3288,7 +3292,7 @@ export const seasons2024 = [
   },
   {
     id: 22,
-    name: 'Season of Duets',
+    name: 'Duets',
     season_type: 0,
     time_duration: 'July 15, 2024 - September 30, 2024',
     wl_num: 0,
@@ -3297,11 +3301,11 @@ export const seasons2024 = [
     page_route: 'seasons/2024/season-22/duets',
     quick_info: `Connect Through Meaningful Harmonies in Season of Duets`,
     season_spirits: [
-      //NON_SPIRIT
+      //The Pianist's Beginning
       {
         spirit_id: 'duets-1',
         spirit_name: `The Pianist's Beginning`,
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: PB_ITEM_2,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -3342,11 +3346,11 @@ export const seasons2024 = [
         ],
         number_of_visits: [],
       },
-      //NON_SPIRIT
+      //The Cellist's Beginning
       {
         spirit_id: 'duets-2',
         spirit_name: `The Cellist's Beginning`,
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: CB_ITEM_2,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -3381,11 +3385,11 @@ export const seasons2024 = [
         ],
         number_of_visits: [],
       },
-      //NON_SPIRIT
+      //The Musicians' Legacy
       {
         spirit_id: 'duets-3',
         spirit_name: `The Musicians' Legacy`,
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: ML_ITEM_2,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -3414,11 +3418,11 @@ export const seasons2024 = [
         ],
         number_of_visits: [],
       },
-      //NON_SPIRIT
+      //The Pianist's Flourishing
       {
         spirit_id: 'duets-4',
         spirit_name: `The Pianist's Flourishing`,
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: PF_ITEM_2,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -3453,11 +3457,11 @@ export const seasons2024 = [
         ],
         number_of_visits: [],
       },
-      //NON_SPIRIT
+      //The Cellist's Flourishing
       {
-        spirit_id: 'duets-4',
+        spirit_id: 'duets-5',
         spirit_name: `The Cellist's Flourishing`,
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: CF_ITEM_2,
         spirit_category: 'non-entity',
         spirit_relive_type: 'none',
         difficulty_level: 0,
@@ -3498,7 +3502,7 @@ export const seasons2024 = [
   },
   {
     id: 23,
-    name: 'Season of Moomin',
+    name: 'Moomin',
     // season_type: 1,
     time_duration: 'October 14, 2024 - March 31, 2025',
     wl_num: 1,
@@ -3604,7 +3608,7 @@ export const seasons2024 = [
 export const seasons2025 = [
   {
     id: 24,
-    name: 'Season of Radiance',
+    name: 'Radiance',
     season_type: 1,
     time_duration: 'Janaury 20, 2025 - April 7, 2025',
     spirit_num: 3,
@@ -3761,7 +3765,7 @@ export const seasons2025 = [
   },
   {
     id: 25,
-    name: 'Season of The Blue Bird',
+    name: 'The Blue Bird',
     season_type: 1,
     time_duration: 'April 21, 2025 - July 7, 2025',
     spirit_num: 5,
@@ -3875,6 +3879,108 @@ export const seasons2025 = [
         shrine_label: hiddenForest[3].map_shrines[10].shrine_label,
         shrine_url: hiddenForest[3].map_shrines[10].shrine_url,
         shrine_location: hiddenForest[3].map_shrines[10].shrine_location,
+      },
+    ],
+  },
+  {
+    id: 26,
+    name: 'The Two Embers I',
+    season_type: 1,
+    time_duration: 'July 21, 2025 - October 6, 2025',
+    spirit_num: 4,
+    wl_num: 0,
+    ms_num: 0,
+    icon_route: SEASON26,
+    page_route: 'seasons/2025/season-26/two-embers-one',
+    quick_info: `Season of The Two Embers I`,
+    season_spirits: [
+      //Scared Sentry
+      {
+        // spirit_id: hiddenForest[1].spirits[14].spirit_id,
+        // spirit_name: hiddenForest[1].spirits[14].spirit_name,
+        // spirit_img_url: hiddenForest[1].spirits[14].spirit_img_url,
+        // spirit_category: hiddenForest[1].spirits[14].spirit_category,
+        // spirit_relive_type: hiddenForest[1].spirits[14].spirit_relive_type,
+        // difficulty_level: hiddenForest[1].spirits[14].difficulty_level,
+        // difficulty_types: hiddenForest[1].spirits[14].difficulty_types,
+        // spirit_image: hiddenForest[1].spirits[14].spirit_image,
+        // spirit_collectibles: hiddenForest[1].spirits[14].spirit_collectibles,
+        // spirit_tree_cost: hiddenForest[1].spirits[14].spirit_tree_cost,
+        // number_of_visits: hiddenForest[1].spirits[14].number_of_visits,
+        // spirit_guide_video_url:
+        //   hiddenForest[1].spirits[14].spirit_guide_video_url,
+        // spirit_direction: hiddenForest[1].spirits[14].spirit_direction,
+      },
+      //Stern Shepherd
+      {
+        // spirit_id: hiddenForest[1].spirits[15].spirit_id,
+        // spirit_name: hiddenForest[1].spirits[15].spirit_name,
+        // spirit_img_url: hiddenForest[1].spirits[15].spirit_img_url,
+        // spirit_category: hiddenForest[1].spirits[15].spirit_category,
+        // spirit_relive_type: hiddenForest[1].spirits[15].spirit_relive_type,
+        // difficulty_level: hiddenForest[1].spirits[15].difficulty_level,
+        // difficulty_types: hiddenForest[1].spirits[15].difficulty_types,
+        // spirit_image: hiddenForest[1].spirits[15].spirit_image,
+        // spirit_collectibles: hiddenForest[1].spirits[15].spirit_collectibles,
+        // spirit_tree_cost: hiddenForest[1].spirits[15].spirit_tree_cost,
+        // number_of_visits: hiddenForest[1].spirits[15].number_of_visits,
+        // spirit_guide_video_url:
+        //   hiddenForest[1].spirits[15].spirit_guide_video_url,
+        // spirit_direction: hiddenForest[1].spirits[15].spirit_direction,
+      },
+      //Resourceful Recluse
+      {
+        // spirit_id: hiddenForest[1].spirits[16].spirit_id,
+        // spirit_name: hiddenForest[1].spirits[16].spirit_name,
+        // spirit_img_url: hiddenForest[1].spirits[16].spirit_img_url,
+        // spirit_category: hiddenForest[1].spirits[16].spirit_category,
+        // spirit_relive_type: hiddenForest[1].spirits[16].spirit_relive_type,
+        // difficulty_level: hiddenForest[1].spirits[16].difficulty_level,
+        // difficulty_types: hiddenForest[1].spirits[16].difficulty_types,
+        // spirit_image: hiddenForest[1].spirits[16].spirit_image,
+        // spirit_collectibles: hiddenForest[1].spirits[16].spirit_collectibles,
+        // spirit_tree_cost: hiddenForest[1].spirits[16].spirit_tree_cost,
+        // number_of_visits: hiddenForest[1].spirits[16].number_of_visits,
+        // spirit_guide_video_url:
+        //   hiddenForest[1].spirits[16].spirit_guide_video_url,
+        // spirit_direction: hiddenForest[1].spirits[16].spirit_direction,
+      },
+      //Tender Toymaker
+      {
+        // spirit_id: hiddenForest[1].spirits[17].spirit_id,
+        // spirit_name: hiddenForest[1].spirits[17].spirit_name,
+        // spirit_img_url: hiddenForest[1].spirits[17].spirit_img_url,
+        // spirit_category: hiddenForest[1].spirits[17].spirit_category,
+        // spirit_relive_type: hiddenForest[1].spirits[17].spirit_relive_type,
+        // difficulty_level: hiddenForest[1].spirits[17].difficulty_level,
+        // difficulty_types: hiddenForest[1].spirits[17].difficulty_types,
+        // spirit_image: hiddenForest[1].spirits[17].spirit_image,
+        // spirit_collectibles: hiddenForest[1].spirits[17].spirit_collectibles,
+        // spirit_tree_cost: hiddenForest[1].spirits[17].spirit_tree_cost,
+        // number_of_visits: hiddenForest[1].spirits[17].number_of_visits,
+        // spirit_guide_video_url:
+        //   hiddenForest[1].spirits[17].spirit_guide_video_url,
+        // spirit_direction: hiddenForest[1].spirits[17].spirit_direction,
+      },
+    ],
+
+    winged_lights: [
+      {
+        // id: hiddenForest[2].winged_lights[19].id,
+        // wl_label: hiddenForest[2].winged_lights[19].wl_label,
+        // wl_group: hiddenForest[2].winged_lights[19].wl_group,
+        // wl_season_group: hiddenForest[2].winged_lights[19].wl_season_group,
+        // wl_url: hiddenForest[2].winged_lights[19].wl_url,
+        // wl_location: hiddenForest[2].winged_lights[19].wl_location,
+      },
+    ],
+    map_shrines: [
+      {
+        // id: hiddenForest[3].map_shrines[10].id,
+        // shrine_group: hiddenForest[3].map_shrines[10].shrine_group,
+        // shrine_label: hiddenForest[3].map_shrines[10].shrine_label,
+        // shrine_url: hiddenForest[3].map_shrines[10].shrine_url,
+        // shrine_location: hiddenForest[3].map_shrines[10].shrine_location,
       },
     ],
   },
@@ -7127,7 +7233,7 @@ export const allSeasons = [
       },
       //NON_SPIRIT
       {
-        spirit_id: 'duets-4',
+        spirit_id: 'duets-5',
         spirit_name: `The Cellist's Flourishing`,
         spirit_img_url: NON_SPIRIT,
         spirit_category: 'non-entity',
@@ -7426,5 +7532,124 @@ export const allSeasons = [
     ],
     winged_lights: [],
     map_shrines: [],
+  },
+  {
+    id: 25,
+    name: 'Season of The Blue Bird',
+    season_type: 1,
+    time_duration: 'April 21, 2025 - July 7, 2025',
+    spirit_num: 5,
+    wl_num: 1,
+    ms_num: 1,
+    icon_route: SEASON25,
+    page_route: 'seasons/2025/season-25/blue-bird',
+    quick_info: `Season of The Blue Bird`,
+    season_spirits: [
+      //Divining Wise Grandparent
+      {
+        spirit_id: hiddenForest[1].spirits[14].spirit_id,
+        spirit_name: hiddenForest[1].spirits[14].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[14].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[14].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[14].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[14].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[14].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[14].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[14].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[14].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[14].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[14].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[14].spirit_direction,
+      },
+      //Costumed Confetti Cousin
+      {
+        spirit_id: hiddenForest[1].spirits[15].spirit_id,
+        spirit_name: hiddenForest[1].spirits[15].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[15].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[15].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[15].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[15].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[15].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[15].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[15].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[15].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[15].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[15].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[15].spirit_direction,
+      },
+      //Royal Hairtousle Teen
+      {
+        spirit_id: hiddenForest[1].spirits[16].spirit_id,
+        spirit_name: hiddenForest[1].spirits[16].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[16].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[16].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[16].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[16].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[16].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[16].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[16].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[16].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[16].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[16].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[16].spirit_direction,
+      },
+      //Nostalgic Sparkler Parent
+      {
+        spirit_id: hiddenForest[1].spirits[17].spirit_id,
+        spirit_name: hiddenForest[1].spirits[17].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[17].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[17].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[17].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[17].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[17].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[17].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[17].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[17].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[17].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[17].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[17].spirit_direction,
+      },
+      //Woodworking Pleaful Parent
+      {
+        spirit_id: hiddenForest[1].spirits[18].spirit_id,
+        spirit_name: hiddenForest[1].spirits[18].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[18].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[18].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[18].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[18].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[18].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[18].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[18].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[18].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[18].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[18].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[18].spirit_direction,
+      },
+    ],
+
+    winged_lights: [
+      {
+        id: hiddenForest[2].winged_lights[19].id,
+        wl_label: hiddenForest[2].winged_lights[19].wl_label,
+        wl_group: hiddenForest[2].winged_lights[19].wl_group,
+        wl_season_group: hiddenForest[2].winged_lights[19].wl_season_group,
+        wl_url: hiddenForest[2].winged_lights[19].wl_url,
+        wl_location: hiddenForest[2].winged_lights[19].wl_location,
+      },
+    ],
+    map_shrines: [
+      {
+        id: hiddenForest[3].map_shrines[10].id,
+        shrine_group: hiddenForest[3].map_shrines[10].shrine_group,
+        shrine_label: hiddenForest[3].map_shrines[10].shrine_label,
+        shrine_url: hiddenForest[3].map_shrines[10].shrine_url,
+        shrine_location: hiddenForest[3].map_shrines[10].shrine_location,
+      },
+    ],
   },
 ]

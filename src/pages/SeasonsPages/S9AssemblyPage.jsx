@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import MapTabHeaderContainer from '../components/MapTabHeaderContainer'
 import {
   Tabs,
@@ -30,6 +30,23 @@ const S9AssemblyPage = () => {
     winged_lights,
     map_shrines,
   } = seasons2021[1]
+
+  const [checkedSpirits, setCheckedSpirits] = useState(() => {
+    const saved = localStorage.getItem('checkedSpirits')
+    const initialValue = JSON.parse(saved) || {} // Default to empty object if no saved data
+    return initialValue
+  })
+  // console.log({ checkedSpirits })
+
+  useEffect(() => {
+    localStorage.setItem('checkedSpirits', JSON.stringify(checkedSpirits))
+  }, [checkedSpirits])
+
+  const handleCheckboxChange = (event) => {
+    const { name, checked } = event.target
+    setCheckedSpirits((prevState) => ({ ...prevState, [name]: checked }))
+  }
+
   return (
     <div className="flex justify-center">
       <div>
@@ -98,6 +115,8 @@ const S9AssemblyPage = () => {
                         icon_route={icon_route}
                         key={spirit.spirit_id}
                         season={name}
+                        checkedSpirits={checkedSpirits}
+                        handleCheckboxChange={handleCheckboxChange}
                       />
                     )
                   })}

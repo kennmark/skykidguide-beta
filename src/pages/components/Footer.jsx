@@ -50,7 +50,7 @@ const Footer = () => {
       items: [
         {
           id: 4,
-          name: 'Balita',
+          name: 'News',
           link: '/balita',
         },
         {

@@ -6,17 +6,20 @@ import {
   TabsBody,
   TabPanel,
   Typography,
+  Spinner,
 } from '@material-tailwind/react'
 import SpiritCardContainer from '../components/SpiritCardContainer'
 import CardContainer from '../components/CardContainer'
 import PageHeaderContainer from '../components/PageHeaderContainer'
 import { SideBarContainer } from '../components/SidebarContainer'
 import DifficultyCriteria from '../components/DifficultyCriteria'
-import { SeasonTabHeader2 } from '../../data/seasonTabHeader'
-import { seasons2023 } from '../../data/seasons'
+import { SeasonTabHeader } from '../../data/seasonTabHeader'
+import { allSeasons, seasons2025 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import SeasonOfTwoEmbersOne from '../../assets/images/home-carousel/Season-26-The-Two-Embers.webp'
 
-const S19RevivalPage = () => {
+const S26TwoEmbersOnePage = () => {
   const [activeTab, setActiveTab] = useState('info')
   const {
     name,
@@ -29,7 +32,13 @@ const S19RevivalPage = () => {
     season_spirits,
     winged_lights,
     map_shrines,
-  } = seasons2023[3]
+    season_type,
+  } = seasons2025[2]
+
+  const currentSeasonId = seasons2025.length - 1
+  const isCurrentSeason =
+    allSeasons.length === seasons2025[currentSeasonId].id ? true : false
+  const dateToday = new Date()
 
   const [checkedSpirits, setCheckedSpirits] = useState(() => {
     const saved = localStorage.getItem('checkedSpirits')
@@ -59,11 +68,11 @@ const S19RevivalPage = () => {
           height={25}
           width={75}
           title={name}
-          mapIntro={'A hidden refuge, lost to time.'}
+          mapIntro={quick_info}
         />
         <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader className="bg-[#233d4d] flex items-center">
-            {SeasonTabHeader2.map((headerTab, index) => {
+            {SeasonTabHeader.map((headerTab, index) => {
               return (
                 <MapTabHeaderContainer
                   {...headerTab}
@@ -85,27 +94,37 @@ const S19RevivalPage = () => {
             <TabPanel key={activeTab} value={activeTab}>
               {activeTab === 'info' && (
                 <div className="text-gray-100 pb-5">
+                  <LazyLoadImage
+                    src={SeasonOfTwoEmbersOne}
+                    alt="Season of Blue Bird"
+                    title="Season of Blue Bird"
+                    placeholderSrc={
+                      <Spinner className="h-10 w-10 text-gray-900/50" />
+                    }
+                    effect="blur"
+                    className="rounded-xl"
+                  />
                   <Typography>
-                    {quick_info} Nagsimula ito noong {time_duration}. May{' '}
-                    {spirit_num} na spirits sa season na ito at{' '}
-                    {wl_num ? 'May ' + wl_num : '(0) o walang winged light '}
+                    {quick_info}{' '}
+                    {time_duration === dateToday
+                      ? 'Nagsimula ito noong '
+                      : 'Magsisimula ito ngayong '}
+                    {time_duration}.{' '}
+                    {spirit_num > 0
+                      ? `May ${spirit_num} na spirits sa season na
+                    ito. `
+                      : `Walang spirit sa season na ito. `}{' '}
+                    At {wl_num ? 'May ' + wl_num : '(0) o walang'}
                     &nbsp; winged light(s). Sa season na ito ay
-                    {ms_num
-                      ? ' may ' + ms_num
-                      : ' (0) o walang map shrine'}{' '}
-                    &nbsp;map shrine(s).
+                    {ms_num ? ' may ' + ms_num : ' (0) o walang'} &nbsp;map
+                    shrine(s).
                   </Typography>{' '}
                   <br />
-                  <Typography>
-                    Ito ay bagong Homespace kung saan gaganapin ang mga susunod
-                    na Events ng Sky, dito makikita ang mga Shop at Merchs ng
-                    Sky.
-                  </Typography>
                 </div>
               )}
 
               <div className="flex flex-wrap justify-center gap-3">
-                {activeTab === 'collectibles' &&
+                {activeTab === 'season_spirits' &&
                   season_spirits?.map((spirit) => {
                     return (
                       <SpiritCardContainer
@@ -113,6 +132,7 @@ const S19RevivalPage = () => {
                         icon_route={icon_route}
                         key={spirit.spirit_id}
                         season={name}
+                        isCurrentSeason={isCurrentSeason}
                         checkedSpirits={checkedSpirits}
                         handleCheckboxChange={handleCheckboxChange}
                       />
@@ -153,4 +173,4 @@ const S19RevivalPage = () => {
   )
 }
 
-export default S19RevivalPage
+export default S26TwoEmbersOnePage

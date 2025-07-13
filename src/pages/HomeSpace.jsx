@@ -38,6 +38,7 @@ import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 import DyeLocations from './components/DyeLocations'
 import TravellingSpirits from './components/TravellingSpirits'
+import TestFile from './components/TestFile'
 // import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const HomeSpace = () => {
@@ -153,6 +154,8 @@ const HomeSpace = () => {
 
   const screenSize = useScreenSize()
 
+  // console.log(getAllInLocalStorage)
+
   return (
     <div className="">
       <AnnouncementModal />
@@ -190,6 +193,9 @@ const HomeSpace = () => {
       <div className="flex flex-wrap justify-center my-5 md:my-20">
         <SkyClock />
       </div>
+      {/* Test */}
+      {/* <TestFile /> */}
+      {/* Test */}
       {/* Map Cards */}
       <div className="flex flex-wrap justify-center my-5 md:my-20">
         <div>

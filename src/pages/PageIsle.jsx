@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Tabs, TabsHeader, TabsBody, TabPanel } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
@@ -18,7 +18,21 @@ const PageIsle = () => {
   )
   const mapIntro = maps.map((intro) => (intro.id === 2 ? intro.map_intro : ''))
 
-  console.log(isleOfDawn[0].spirits.length)
+  const [checkedSpirits, setCheckedSpirits] = useState(() => {
+    const saved = localStorage.getItem('checkedSpirits')
+    const initialValue = JSON.parse(saved) || {} // Default to empty object if no saved data
+    return initialValue
+  })
+  // console.log({ checkedSpirits })
+
+  useEffect(() => {
+    localStorage.setItem('checkedSpirits', JSON.stringify(checkedSpirits))
+  }, [checkedSpirits])
+
+  const handleCheckboxChange = (event) => {
+    const { name, checked } = event.target
+    setCheckedSpirits((prevState) => ({ ...prevState, [name]: checked }))
+  }
 
   return (
     <div className="flex justify-center">
@@ -65,6 +79,8 @@ const PageIsle = () => {
                         <SpiritCardContainer
                           {...spirit}
                           key={spirit.spirit_id}
+                          checkedSpirits={checkedSpirits}
+                          handleCheckboxChange={handleCheckboxChange}
                         />
                       )
                     })}

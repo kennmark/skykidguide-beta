@@ -262,6 +262,15 @@ const S25BlueBird = lazy(() => {
   })
 })
 
+const S26TwoEmbersOne = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S26TwoEmbersOnePage')),
+      300
+    )
+  })
+})
+
 function App() {
   return (
     <div className="mooliMono">
@@ -578,6 +587,15 @@ function App() {
                 element={
                   <Layout>
                     <S25BlueBird />
+                  </Layout>
+                }
+              />
+
+              <Route
+                path="seasons/2025/season-26/two-embers-one"
+                element={
+                  <Layout>
+                    <S26TwoEmbersOne />
                   </Layout>
                 }
               />

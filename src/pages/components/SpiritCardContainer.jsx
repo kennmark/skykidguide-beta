@@ -35,6 +35,8 @@ const SpiritCardContainer = ({
   spirit_tree_cost,
   number_of_visits,
   isCurrentSeason,
+  checkedSpirits,
+  handleCheckboxChange,
 }) => {
   const [openVideoModal, setOpenVideoModal] = useState(false)
   const [openTextModal, setOpenTextModal] = useState(false)
@@ -44,8 +46,6 @@ const SpiritCardContainer = ({
   const handleSpiritImageOpen = () =>
     setOpenSpiritImageModal(!openSpiritImageModal)
 
-  // const [checked, setChecked] = useLocalStorage('checked', false)
-
   const iconUrl = icon_route ?? ''
   const seasonLabel = season ?? ''
   const videoUrl = spirit_guide_video_url ?? ''
@@ -53,7 +53,6 @@ const SpiritCardContainer = ({
   const spiritDirection = spirit_direction ?? ''
   const spiritCategory = spirit_category ?? ''
   const spiritReliveType = spirit_relive_type ?? ''
-  // console.log(checked)
 
   return (
     <Card className="theme-card-bg lg:w-72 w-80 justify-between mb-5">
@@ -80,14 +79,28 @@ const SpiritCardContainer = ({
           effect="blur"
           className="w-auto h-14 m-auto"
         />
-        <span className="checkbox-collected">
-          <Checkbox
-            className="color: #233d4d"
-            id={`ripple-on ${spirit_name}`}
-            // checked={checked}
-            // onChange={(e) => setChecked(e.target.checked)}
-            ripple={true}
-          />
+        <span
+          className={`${
+            checkedSpirits[spirit_name]
+              ? 'checkbox-collected'
+              : 'checkbox-uncollected'
+          }`}
+        >
+          <Tooltip
+            content={
+              checkedSpirits[spirit_name] ? 'Spirit Relived' : 'Not Yet Relived'
+            }
+          >
+            <Checkbox
+              className="color: #233d4d"
+              id={`ripple-on ${spirit_name}`}
+              type="checkbox"
+              name={spirit_name}
+              checked={checkedSpirits[spirit_name] || false}
+              onChange={handleCheckboxChange}
+              ripple={true}
+            />
+          </Tooltip>
         </span>
       </CardHeader>
       <CardBody>

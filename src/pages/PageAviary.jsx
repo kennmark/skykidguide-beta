@@ -1,6 +1,6 @@
 import { Tabs, TabsHeader, TabsBody, TabPanel } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import MapTabHeaderContainer from './components/MapTabHeaderContainer'
 import { aviaryData } from '../data/aviarydata'
 import { maps } from '../data/maps'
@@ -17,6 +17,22 @@ const PageAviary = () => {
     mapName.id === 0 ? mapName.title : ''
   )
   const mapIntro = maps.map((intro) => (intro.id === 0 ? intro.map_intro : ''))
+
+  const [checkedSpirits, setCheckedSpirits] = useState(() => {
+    const saved = localStorage.getItem('checkedSpirits')
+    const initialValue = JSON.parse(saved) || {} // Default to empty object if no saved data
+    return initialValue
+  })
+
+  useEffect(() => {
+    localStorage.setItem('checkedSpirits', JSON.stringify(checkedSpirits))
+  }, [checkedSpirits])
+
+  const handleCheckboxChange = (event) => {
+    const { name, checked } = event.target
+    setCheckedSpirits((prevState) => ({ ...prevState, [name]: checked }))
+  }
+
   return (
     <div className="flex justify-center">
       <div>
@@ -65,6 +81,8 @@ const PageAviary = () => {
                         <SpiritCardContainer
                           {...spirit}
                           key={spirit.spirit_id}
+                          checkedSpirits={checkedSpirits}
+                          handleCheckboxChange={handleCheckboxChange}
                         />
                       )
                     })}

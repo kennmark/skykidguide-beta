@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import MapTabHeaderContainer from '../components/MapTabHeaderContainer'
 import {
   Tabs,
@@ -41,9 +41,22 @@ const S24RadiancePage = () => {
   const isCurrentSeason =
     allSeasons.length === seasons2025[currentSeasonId].id ? true : false
   const dateToday = new Date()
-  // console.log(seasons2025[currentSeasonId].id, 'Current Season')
-  // console.log(allSeasons.length, 'All Season')
-  // console.log(isCurrentSeason, 'Current Season?')
+
+  const [checkedSpirits, setCheckedSpirits] = useState(() => {
+    const saved = localStorage.getItem('checkedSpirits')
+    const initialValue = JSON.parse(saved) || {} // Default to empty object if no saved data
+    return initialValue
+  })
+  // console.log({ checkedSpirits })
+
+  useEffect(() => {
+    localStorage.setItem('checkedSpirits', JSON.stringify(checkedSpirits))
+  }, [checkedSpirits])
+
+  const handleCheckboxChange = (event) => {
+    const { name, checked } = event.target
+    setCheckedSpirits((prevState) => ({ ...prevState, [name]: checked }))
+  }
 
   return (
     <div className="flex justify-center">
@@ -135,6 +148,8 @@ const S24RadiancePage = () => {
                         key={spirit.spirit_id}
                         season={name}
                         isCurrentSeason={isCurrentSeason}
+                        checkedSpirits={checkedSpirits}
+                        handleCheckboxChange={handleCheckboxChange}
                       />
                     )
                   })}

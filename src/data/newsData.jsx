@@ -209,4 +209,11 @@ Contest will be announce ONLY in-game, so it will be surprise. The Game will sta
     newsLink:
       'https://www.facebook.com/photo/?fbid=23943736651894746&set=gm.1736212397306380&idorvanity=481394886121477',
   },
+  {
+    id: 23,
+    newsTitle: `Season of The Two Embers Part I`,
+    newsBody: `The Heart and History of Sky Lore - Season 26 The Two Embers Part I`,
+    newsLink:
+      'https://www.facebook.com/groups/skycotlphofficial/permalink/1673434716917482',
+  },
 ]
