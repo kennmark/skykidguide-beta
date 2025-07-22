@@ -124,6 +124,8 @@ import ceasingCommodore from '../assets/images/emotes/map5/seasons/S12-cesing-co
 import anxiousAngler from '../assets/images/emotes/map5/seasons/S12-anxious-angler.webp'
 import bumblingBoatswain from '../assets/images/emotes/map5/seasons/S12-bumbling-boatswain.webp'
 import cacklingCannoneer from '../assets/images/emotes/map5/seasons/S12-cackling-cannoneer.webp'
+import sternShepherd from '../assets/images/emotes/map5/seasons/S26-stern-shepherd.webp'
+import scaredSentry from '../assets/images/emotes/map5/seasons/S26-scared-sentry.webp'
 // MAP 5
 
 // MAP 6
@@ -286,6 +288,8 @@ export const CEASING_COMMODORE = ceasingCommodore
 export const ANXIOUS_ANGLER = anxiousAngler
 export const BUMBLING_BOATSWAIN = bumblingBoatswain
 export const CACKLING_CANNONEER = cacklingCannoneer
+export const STERN_SHEPHERD = sternShepherd
+export const SCARED_SENTRY = scaredSentry
 // MAP 5
 
 // MAP 6

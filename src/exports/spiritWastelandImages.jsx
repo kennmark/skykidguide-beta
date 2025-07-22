@@ -18,6 +18,10 @@ import commodore from '../assets/images/spirit-images/wasteland/Ceasing Commodor
 import angler from '../assets/images/spirit-images/wasteland/Anxious Angler.png'
 import boatswain from '../assets/images/spirit-images/wasteland/Bumbling Boatswain.png'
 import cackling from '../assets/images/spirit-images/wasteland/Cackling Cannoneer.png'
+import toymaker from '../assets/images/spirit-images/wasteland/Tender-Toymaker.png'
+import shepherd from '../assets/images/spirit-images/wasteland/Stern-Shepherd.png'
+import recluse from '../assets/images/spirit-images/wasteland/Resourceful-Recluse.png'
+import sentry from '../assets/images/spirit-images/wasteland/Scared-Sentry.png'
 
 export const WASTELAND_SPIRIT_1 = warrior
 export const WASTELAND_SPIRIT_2 = refugee
@@ -40,3 +44,7 @@ export const WASTELAND_SEASON_SPIRIT_11 = commodore
 export const WASTELAND_SEASON_SPIRIT_12 = angler
 export const WASTELAND_SEASON_SPIRIT_13 = boatswain
 export const WASTELAND_SEASON_SPIRIT_14 = cackling
+export const WASTELAND_SEASON_SPIRIT_15 = toymaker
+export const WASTELAND_SEASON_SPIRIT_16 = shepherd
+export const WASTELAND_SEASON_SPIRIT_17 = recluse
+export const WASTELAND_SEASON_SPIRIT_18 = sentry

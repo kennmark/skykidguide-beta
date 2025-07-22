@@ -52,6 +52,25 @@ import boatswain3 from '../assets/images/spirit-collectibles/wasteland/boatswain
 import cackling1 from '../assets/images/spirit-collectibles/wasteland/cackling1.webp'
 import cackling2 from '../assets/images/spirit-collectibles/wasteland/cackling2.webp'
 import cackling3 from '../assets/images/spirit-collectibles/wasteland/cackling3.webp'
+import toymaker1 from '../assets/images/spirit-collectibles/wasteland/toymaker1.webp'
+import toymaker2 from '../assets/images/spirit-collectibles/wasteland/toymaker2.webp'
+import toymaker3 from '../assets/images/spirit-collectibles/wasteland/toymaker3.webp'
+import toymaker4 from '../assets/images/spirit-collectibles/wasteland/toymaker4.webp'
+import stern1 from '../assets/images/spirit-collectibles/wasteland/stern1.webp'
+import stern2 from '../assets/images/spirit-collectibles/wasteland/stern2.webp'
+import stern3 from '../assets/images/spirit-collectibles/wasteland/stern3.webp'
+import stern4 from '../assets/images/spirit-collectibles/wasteland/stern4.webp'
+import recluse1 from '../assets/images/spirit-collectibles/wasteland/recluse1.webp'
+import recluse2 from '../assets/images/spirit-collectibles/wasteland/recluse2.webp'
+import recluse3 from '../assets/images/spirit-collectibles/wasteland/recluse3.webp'
+import recluse4 from '../assets/images/spirit-collectibles/wasteland/recluse4.webp'
+import sentry1 from '../assets/images/spirit-collectibles/wasteland/sentry1.webp'
+import sentry2 from '../assets/images/spirit-collectibles/wasteland/sentry2.webp'
+import sentry3 from '../assets/images/spirit-collectibles/wasteland/sentry3.webp'
+import sentry4 from '../assets/images/spirit-collectibles/wasteland/sentry4.webp'
+import sentry5 from '../assets/images/spirit-collectibles/wasteland/sentry5.webp'
+import sentry6 from '../assets/images/spirit-collectibles/wasteland/sentry6.webp'
+import sentry7 from '../assets/images/spirit-collectibles/wasteland/sentry7.webp'
 
 export const WARRIOR_ITEM_1 = warrior1
 export const WARRIOR_ITEM_2 = warrior2
@@ -107,3 +126,22 @@ export const BOATSWAIN_ITEM_3 = boatswain3
 export const CACKLING_ITEM_1 = cackling1
 export const CACKLING_ITEM_2 = cackling2
 export const CACKLING_ITEM_3 = cackling3
+export const TOYMAKER_ITEM_1 = toymaker1
+export const TOYMAKER_ITEM_2 = toymaker2
+export const TOYMAKER_ITEM_3 = toymaker3
+export const TOYMAKER_ITEM_4 = toymaker4
+export const STERN_ITEM_1 = stern1
+export const STERN_ITEM_2 = stern2
+export const STERN_ITEM_3 = stern3
+export const STERN_ITEM_4 = stern4
+export const RECLUSE_ITEM_1 = recluse1
+export const RECLUSE_ITEM_2 = recluse2
+export const RECLUSE_ITEM_3 = recluse3
+export const RECLUSE_ITEM_4 = recluse4
+export const SENTRY_ITEM_1 = sentry1
+export const SENTRY_ITEM_2 = sentry2
+export const SENTRY_ITEM_3 = sentry3
+export const SENTRY_ITEM_4 = sentry4
+export const SENTRY_ITEM_5 = sentry5
+export const SENTRY_ITEM_6 = sentry6
+export const SENTRY_ITEM_7 = sentry7

@@ -17,7 +17,7 @@ import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { allSeasons, seasons2025 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
-import SeasonOfTwoEmbersOne from '../../assets/images/home-carousel/Season-26-The-Two-Embers.webp'
+import SeasonOfTwoEmbersOne from '../../assets/images/home-carousel/Season-of-The-Two-Embers-I.webp'
 
 const S26TwoEmbersOnePage = () => {
   const [activeTab, setActiveTab] = useState('info')

@@ -26,6 +26,8 @@ import {
   ANXIOUS_ANGLER,
   BUMBLING_BOATSWAIN,
   CACKLING_CANNONEER,
+  STERN_SHEPHERD,
+  SCARED_SENTRY,
 } from '../exports/spiritIcons'
 import { MAP_SHRINE, WINGED_LIGHT } from '../exports/defaultImages'
 import {
@@ -57,6 +59,7 @@ import {
   GW_MS6,
   GW_MS7,
   GW_MS8,
+  GW_MS9,
 } from '../exports/wastelandMSImgUrl'
 import {
   MAP5,
@@ -66,6 +69,7 @@ import {
   SEASON4,
   SEASON5,
   SEASON12,
+  SEASON26,
 } from '../exports/seasonIcons'
 import {
   WASTELAND_SPIRIT_1,
@@ -88,6 +92,10 @@ import {
   WASTELAND_SEASON_SPIRIT_12,
   WASTELAND_SEASON_SPIRIT_13,
   WASTELAND_SEASON_SPIRIT_14,
+  WASTELAND_SEASON_SPIRIT_15,
+  WASTELAND_SEASON_SPIRIT_16,
+  WASTELAND_SEASON_SPIRIT_17,
+  WASTELAND_SEASON_SPIRIT_18,
 } from '../exports/spiritWastelandImages'
 import {
   WARRIOR_ITEM_1,
@@ -144,6 +152,25 @@ import {
   CACKLING_ITEM_1,
   CACKLING_ITEM_2,
   CACKLING_ITEM_3,
+  TOYMAKER_ITEM_1,
+  TOYMAKER_ITEM_2,
+  TOYMAKER_ITEM_3,
+  TOYMAKER_ITEM_4,
+  STERN_ITEM_1,
+  STERN_ITEM_2,
+  STERN_ITEM_3,
+  STERN_ITEM_4,
+  RECLUSE_ITEM_1,
+  RECLUSE_ITEM_2,
+  RECLUSE_ITEM_3,
+  RECLUSE_ITEM_4,
+  SENTRY_ITEM_1,
+  SENTRY_ITEM_2,
+  SENTRY_ITEM_3,
+  SENTRY_ITEM_4,
+  SENTRY_ITEM_5,
+  SENTRY_ITEM_6,
+  SENTRY_ITEM_7,
 } from '../exports/spiritWastelandCollectibles'
 import WastelandConstellation from '../assets/images/maps-constellations/Wasteland_Constellation.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
@@ -1440,6 +1467,264 @@ export const wasteland = [
           `Pagkadating sa Treasure Reef, lumipad pataas at dumako sa dulong isla at sa likod nito makita ang spirit.`,
         ],
       },
+      // TENDER_TOYMAKER
+      {
+        id: 21,
+        spirit_id: 'wasteland21',
+        season_id: 26,
+        spirit_type: 'seasonal',
+        season: 'Season 26 - The Two Embers I',
+        spirit_category: 'item',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [0],
+        spirit_name: 'Tender Toymaker',
+        spirit_img_url: TOYMAKER_ITEM_1,
+        spirit_image: WASTELAND_SEASON_SPIRIT_15,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: TOYMAKER_ITEM_3,
+            currency: 'Season Candles',
+            price: 28,
+          },
+          {
+            label: 'Suitpant',
+            img: TOYMAKER_ITEM_4,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: TOYMAKER_ITEM_1,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: TOYMAKER_ITEM_2,
+            currency: 'Season Candles',
+            price: 14,
+          },
+        ],
+        spirit_tree_cost: [
+          // {
+          //   candles: 188,
+          //   hearts: 13,
+          //   ascended_candles: 2,
+          // },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Aug 7, 2023',
+          //   visitNo: 'GV#4',
+          // },
+        ],
+        icon_route: SEASON26,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          // `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
+          // `Pagkadating sa Treasure Reef, lumipad pataas at dumako sa dulong isla at sa likod nito makita ang spirit.`,
+        ],
+      },
+      // STERN_SHEPHERD
+      {
+        id: 22,
+        spirit_id: 'wasteland22',
+        season_id: 26,
+        spirit_type: 'seasonal',
+        season: 'Season 26 - The Two Embers I',
+        spirit_category: 'call',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [0],
+        spirit_name: 'Stern Shepherd',
+        spirit_img_url: STERN_SHEPHERD,
+        spirit_image: WASTELAND_SEASON_SPIRIT_16,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: STERN_ITEM_1,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: STERN_ITEM_2,
+            currency: 'Season Candles',
+            price: 30,
+          },
+          {
+            label: 'Suitpant',
+            img: STERN_ITEM_3,
+            currency: 'Season Candles',
+            price: 18,
+          },
+          {
+            label: 'Prop',
+            img: STERN_ITEM_4,
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          // {
+          //   candles: 188,
+          //   hearts: 13,
+          //   ascended_candles: 2,
+          // },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Aug 7, 2023',
+          //   visitNo: 'GV#4',
+          // },
+        ],
+        icon_route: SEASON26,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          // `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
+          // `Pagkadating sa Treasure Reef, lumipad pataas at dumako sa dulong isla at sa likod nito makita ang spirit.`,
+        ],
+      },
+      // RESOURCEFUL_RECLUSE
+      {
+        id: 23,
+        spirit_id: 'wasteland23',
+        season_id: 26,
+        spirit_type: 'seasonal',
+        season: 'Season 26 - The Two Embers I',
+        spirit_category: 'item',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [0],
+        spirit_name: 'Resourceful Recluse',
+        spirit_img_url: RECLUSE_ITEM_1,
+        spirit_image: WASTELAND_SEASON_SPIRIT_17,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: RECLUSE_ITEM_2,
+            currency: 'Season Candles',
+            price: 12,
+          },
+          {
+            label: 'Suitpant',
+            img: RECLUSE_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: RECLUSE_ITEM_1,
+            currency: 'Season Candles',
+            price: 24,
+          },
+          {
+            label: 'Prop',
+            img: RECLUSE_ITEM_4,
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          // {
+          //   candles: 188,
+          //   hearts: 13,
+          //   ascended_candles: 2,
+          // },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Aug 7, 2023',
+          //   visitNo: 'GV#4',
+          // },
+        ],
+        icon_route: SEASON26,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          // `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
+          // `Pagkadating sa Treasure Reef, lumipad pataas at dumako sa dulong isla at sa likod nito makita ang spirit.`,
+        ],
+      },
+      // SCARED_SENTRY
+      {
+        id: 24,
+        spirit_id: 'wasteland24',
+        season_id: 26,
+        spirit_type: 'seasonal',
+        season: 'Season 26 - The Two Embers I',
+        spirit_category: 'stance',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [0],
+        spirit_name: 'Scared Sentry',
+        spirit_img_url: SCARED_SENTRY,
+        spirit_image: WASTELAND_SEASON_SPIRIT_18,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: SENTRY_ITEM_1,
+            currency: 'Season Candles',
+            price: 10,
+          },
+          {
+            label: 'Hair',
+            img: SENTRY_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: SENTRY_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Suitpant',
+            img: SENTRY_ITEM_4,
+            currency: 'Season Candles',
+            price: 22,
+          },
+          {
+            label: 'Boots',
+            img: SENTRY_ITEM_5,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Prop',
+            img: SENTRY_ITEM_6,
+            currency: 'Season Candles',
+            price: 28,
+          },
+          {
+            label: 'Prop',
+            img: SENTRY_ITEM_7,
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          // {
+          //   candles: 188,
+          //   hearts: 13,
+          //   ascended_candles: 2,
+          // },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Aug 7, 2023',
+          //   visitNo: 'GV#4',
+          // },
+        ],
+        icon_route: SEASON26,
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          // `Pasok ka sa Ika-Limang Mapa - Golden Wasteland, Lumipad gawing kanan, at sa bangka sumakay.`,
+          // `Pagkadating sa Treasure Reef, lumipad pataas at dumako sa dulong isla at sa likod nito makita ang spirit.`,
+        ],
+      },
     ],
   },
   {
@@ -1781,6 +2066,16 @@ export const wasteland = [
           `Pagkalapag, ay lumipad ka gawing kanan at hanapin ang bangka sa dalampasigan at sumakay dito`,
           `Pagkarating sa Forgotten Ark, ay lumipad patungo sa malaking barko at nasa loob nito sa gitna
           ang map shrine.`,
+        ],
+      },
+      {
+        id: 9,
+        shrine_label: 'Map Shrine 9',
+        shrine_url: GW_MS9 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge, magtungo sa Season Collab Room`,
+          `Hanapin ang Memory Cube at gawin ang emote ng Meditating Monastic malapit dito. `,
+          `Pagkarating sa Last City, sa gawing kanan ay makikita mo ang Map Shrine.`,
         ],
       },
     ],
