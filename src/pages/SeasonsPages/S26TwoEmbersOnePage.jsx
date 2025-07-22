@@ -96,8 +96,8 @@ const S26TwoEmbersOnePage = () => {
                 <div className="text-gray-100 pb-5">
                   <LazyLoadImage
                     src={SeasonOfTwoEmbersOne}
-                    alt="Season of Blue Bird"
-                    title="Season of Blue Bird"
+                    alt="Season of The Two Embers Part I"
+                    title="Season of The Two Embers Part I"
                     placeholderSrc={
                       <Spinner className="h-10 w-10 text-gray-900/50" />
                     }

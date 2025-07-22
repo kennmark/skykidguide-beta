@@ -26,7 +26,7 @@ const PageIsle = () => {
   // console.log({ checkedSpirits })
 
   useEffect(() => {
-    localStorage.setItem('checkedSpirits', JSON.stringify(checkedSpirits))
+    localStorage.setItem('checkedSpirits', JSON.stringify({ checkedSpirits }))
   }, [checkedSpirits])
 
   const handleCheckboxChange = (event) => {

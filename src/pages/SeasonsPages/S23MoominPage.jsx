@@ -106,7 +106,7 @@ const S23MoominPage = () => {
                   />
                   <Typography>
                     {quick_info}{' '}
-                    {time_duration === dateToday
+                    {time_duration !== dateToday
                       ? 'Nagsimula ito noong '
                       : 'Magsisimula ito ngayong '}
                     {time_duration}.{' '}

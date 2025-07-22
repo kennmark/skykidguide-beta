@@ -1607,7 +1607,7 @@ export const vault = [
         difficulty_level: 0,
         difficulty_types: [14],
         spirit_name: 'Comfort of Kindness',
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: COF_ITEM_3,
         spirit_image: COF_ITEM_1,
         spirit_collectibles: [
           {
@@ -1663,7 +1663,7 @@ export const vault = [
         difficulty_level: 0,
         difficulty_types: [14],
         spirit_name: 'Sense of Self',
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: SOS_ITEM_3,
         spirit_image: SOS_ITEM_1,
         spirit_collectibles: [
           {
@@ -1713,7 +1713,7 @@ export const vault = [
         difficulty_level: 0,
         difficulty_types: [14],
         spirit_name: 'Spirit of Adventure',
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: SOA_ITEM_3,
         spirit_image: SOA_ITEM_1,
         spirit_collectibles: [
           {
@@ -1769,7 +1769,7 @@ export const vault = [
         difficulty_level: 0,
         difficulty_types: [14],
         spirit_name: 'Inspiration of Inclusion',
-        spirit_img_url: NON_SPIRIT,
+        spirit_img_url: IOI_ITEM_3,
         spirit_image: IOI_ITEM_1,
         spirit_collectibles: [
           {
@@ -1779,7 +1779,7 @@ export const vault = [
             price: 0,
           },
           {
-            label: 'Cape',
+            label: 'Neck Accessory',
             img: IOI_ITEM_3,
             currency: 'Candles',
             price: 0,

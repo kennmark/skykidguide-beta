@@ -165,14 +165,14 @@ html {
 }
 
 .map-9 {
-  background: #2a7b9b;
+  background: #3d9b2a;
   background: linear-gradient(
       0deg,
-      rgba(42, 123, 155, 1) 0%,
-      rgba(6, 144, 199, 0.75) 29%,
-      rgba(31, 179, 237, 0.5) 38%,
-      rgba(46, 196, 255, 0.25) 60%,
-      rgba(120, 217, 255, 0.1) 81%
+      rgb(42, 155, 85) 0%,
+      rgba(6, 199, 80, 0.75) 29%,
+      rgba(31, 237, 82, 0.5) 38%,
+      rgba(46, 255, 140, 0.25) 60%,
+      rgba(120, 255, 176, 0.1) 81%
     ),
     url(./assets/images/map-card-bg/Map-0-Featured-Season.webp);
   color: rgb(8 47 73);

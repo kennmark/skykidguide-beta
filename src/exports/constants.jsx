@@ -56,10 +56,10 @@ export const S19_NUM_SEASON_SPIRIT = 4
 export const S19_NUM_WL = 0
 export const S19_NUM_MAP_SHRINES = 1
 
-export const S25_NUM_REG_SPIRIT = 0
-export const S25_NUM_SEASON_SPIRIT = 5
-export const S25_NUM_WL = 1
-export const S25_NUM_MAP_SHRINES = 1
+export const S26_NUM_REG_SPIRIT = 0
+export const S26_NUM_SEASON_SPIRIT = 5
+export const S26_NUM_WL = 0
+export const S26_NUM_MAP_SHRINES = 1
 
 export const WL_COUNT =
   ISLE_NUM_WL +
@@ -72,14 +72,14 @@ export const WL_COUNT =
 
 export const WB_REGULAR_SPIRITS = 49
 //!!!UPDATE THIS Wing Buff Count every new TS that hasnt arrived yet!!!
-export const WB_TRAVELING_SPIRITS = 80 // updated June 9, 2025 TS Running Wayfarer amd Seed of Hope
+export const WB_TRAVELING_SPIRITS = 81 // updated July 17, 2025 TS Jolly Geologist
 
 export const MS_HOME = 1
 
 export const TOTAL_WL_COUNT =
   WL_COUNT + WB_REGULAR_SPIRITS + WB_TRAVELING_SPIRITS + SHARDS_WL + ORBIT_WL
 
-export const TOTAL_MS_COUNT = // June 9, 2025 TS Running Wayfarer amd Seed of Hope
+export const TOTAL_MS_COUNT = // July 17, 2025 TS Jolly Geologist
   ISLE_NUM_MAP_SHRINES +
   PRAIRIE_NUM_MAP_SHRINES +
   FOREST_NUM_MAP_SHRINES +
@@ -90,8 +90,8 @@ export const TOTAL_MS_COUNT = // June 9, 2025 TS Running Wayfarer amd Seed of Ho
   AVIARY_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'June 9, 2025' // June 9, 2025 TS Running Wayfarer amd Seed of Hope
+export const WL_COUNT_DATE_UPDATED = 'July 17, 2025' // July 17, 2025 TS Jolly Geologist
 export const MS_COUNT_DATE_UPDATED = 'April 21, 2025' // April 21, 2025 Season of Blue bird
 
-export const PLAYSTATION_MAX_WL = 246
-export const STEAM_MAX_WL = 226
+export const PLAYSTATION_MAX_WL = 247
+export const STEAM_MAX_WL = 227

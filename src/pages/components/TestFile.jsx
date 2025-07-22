@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const TestFile = () => {
-  // const TestFile = () => {
-  //   localStorage.clear()
-  // }
-  return <div></div>
+  // localStorage.clear()
+
+  const [checkedSpirits, setCheckedSpirits] = useState([])
+  useEffect(() => {
+    const checkedSpirits = JSON.parse(localStorage.getItem('checkedSpirits'))
+    if (checkedSpirits) {
+      setCheckedSpirits(checkedSpirits)
+    }
+  }, [])
+
+  console.log(checkedSpirits)
+
+  return <div>Relived Spirits: {}</div>
 }
 
 export default TestFile

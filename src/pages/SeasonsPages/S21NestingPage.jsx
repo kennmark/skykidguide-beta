@@ -99,8 +99,8 @@ const S21NestingPage = () => {
                     className="rounded-xl"
                   />
                   <Typography>
-                    {quick_info} Nagsimula ito noong {time_duration}. May{' '}
-                    {spirit_num} na spirits sa season na ito at{' '}
+                    {quick_info} Nagsimula ito noong {time_duration}. May (
+                    {spirit_num}) na spirits sa season na ito at{' '}
                     {wl_num ? 'May ' + wl_num : '(0) o walang winged light '}
                     &nbsp; winged light(s). Sa season na ito ay
                     {ms_num
