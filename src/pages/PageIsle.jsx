@@ -23,16 +23,17 @@ const PageIsle = () => {
     const initialValue = JSON.parse(saved) || {} // Default to empty object if no saved data
     return initialValue
   })
-  // console.log({ checkedSpirits })
 
   useEffect(() => {
-    localStorage.setItem('checkedSpirits', JSON.stringify({ checkedSpirits }))
+    localStorage.setItem('checkedSpirits', JSON.stringify(checkedSpirits))
   }, [checkedSpirits])
 
   const handleCheckboxChange = (event) => {
     const { name, checked } = event.target
     setCheckedSpirits((prevState) => ({ ...prevState, [name]: checked }))
   }
+
+  console.log(checkedSpirits)
 
   return (
     <div className="flex justify-center">
