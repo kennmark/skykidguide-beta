@@ -1,9 +1,9 @@
 import { Carousel, Typography, Button, Card } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
-import carousel1 from '../assets/images/seasonal-banners/S25A.webp'
-import carousel2 from '../assets/images/seasonal-banners/S25B.webp'
-import carousel3 from '../assets/images/seasonal-banners/S25C.webp'
+import carousel1 from '../assets/images/seasonal-banners/S26A.webp'
+import carousel2 from '../assets/images/seasonal-banners/S26B.webp'
+import carousel3 from '../assets/images/seasonal-banners/S26C.webp'
 import SeasonDisplayContainer from './components/SeasonDisplayContainer'
 import {
   seasons2019,
@@ -44,7 +44,7 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 25 | Season of The Blue Bird
+                    Season 26 | The Two Embers I
                   </Typography>
                   <Typography
                     variant="lead"
@@ -60,7 +60,7 @@ const PageSeasonMap = () => {
                       </Button>
                     </Link>
 
-                    <a href="https://www.thatskygame.com/news/chasing-the-blue-bird-a-new-season-in-sky">
+                    <a href="https://www.thatskygame.com/news/experience-sky-s-origin-story-with-season-of-the-two-embers-part-1">
                       <Button size="sm" className="theme-button">
                         Visit Site
                       </Button>
@@ -82,15 +82,16 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    New Season - New Adventure
+                    Don’t Just Watch the Story: Live It!
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    In this new Season, you’re called to help the child find the
-                    Blue Bird.
+                    Dive deeper into the adventure of The Two Embers with each
+                    quest, walking, creating, and standing strong alongside the
+                    people who lived in the final years of the kingdom.
                   </Typography>
                 </div>
               </div>
@@ -108,19 +109,17 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 25 | Season of The Blue Bird
+                    A World Brimming With Story
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    Hope is fragile. Sometimes, it feels just out of
-                    reach—something we chase but never quite grasp. In Season of
-                    the Blue Bird, beloved Spirits return to share more of their
-                    story—one inspired by Maurice Maeterlinck’s timeless play,
-                    The Blue Bird, about the search for happiness and the chance
-                    to mend what is broken.
+                    This Season’s setting is one of Sky’s most dynamic and
+                    expansive environments to date. The bustling market village
+                    you’ll explore is alive with Spirits, vibrant with activity,
+                    and full of hidden moments to discover.
                   </Typography>
                 </div>
               </div>

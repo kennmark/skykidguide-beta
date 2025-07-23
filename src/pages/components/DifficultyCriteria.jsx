@@ -11,6 +11,7 @@ const DifficultyCriteria = () => {
       </Typography>
       <div className="flex flex-row flex-wrap justify-center gap-2 py-3">
         <Chip color="green" value="Follow +5" />
+
         <Chip color="teal" value="Walk +10" />
         <Chip color="cyan" value="Fly +10" />
         <Chip color="amber" value="2 or 4 Player Door +10" />
@@ -25,6 +26,7 @@ const DifficultyCriteria = () => {
         <Chip color="pink" value="Chase +15" />
         <Chip color="red" value="Crabs +15" />
         <Chip color="gray" value="None" />
+        <Chip color="green" value="Quest +5" />
       </div>
     </Card>
   )

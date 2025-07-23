@@ -90,7 +90,13 @@ const Footer = () => {
               </a>{' '}
               for official announcements.
             </Typography>
+            <Typography className="p-1 font-thin text-xs">
+              Checking spirit boxes are saved on your local browser/device. The
+              developer does not and will not have any personal information
+              collected from your devices.
+            </Typography>
           </span>
+
           <div className="grid grid-cols-2 justify-items-center gap-4">
             {LINKS.map(({ title, items }) => (
               <ul key={title}>
