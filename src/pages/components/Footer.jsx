@@ -93,7 +93,8 @@ const Footer = () => {
             <Typography className="p-1 font-thin text-xs">
               Checking spirit boxes are saved on your local browser/device. The
               developer does not and will not have any personal information
-              collected from your devices.
+              collected from your devices. The developer does not keep track any
+              activities happening on your devices.
             </Typography>
           </span>
 

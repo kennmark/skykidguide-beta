@@ -7,6 +7,7 @@ import banjo_avatar from '../assets/images/team/Banjo.jpg'
 import poi_avatar from '../assets/images/team/Poi.png'
 import yzo_avatar from '../assets/images/team/Yzo.jpg'
 import kennAvatar from '../assets/images/team/kenndev.jpg'
+import seffAvatar from '../assets/images/team/Seff.jpg'
 
 export const team = [
   // {
@@ -22,7 +23,7 @@ export const team = [
     facebook: `https://www.facebook.com/amberjan.naval`,
     instagram: `https://www.instagram.com/amber_rain22/`,
     tiktok: `https://www.tiktok.com/@amberrain0612`,
-    title: `Teacher / Moderator SkyPH`,
+    title: `Teacher / Admin SkyPH`,
     avatar_img: amber_avatar,
   },
   {
@@ -80,5 +81,13 @@ export const team = [
     tiktok: `https://www.tiktok.com/@banjojavier339`,
     title: `Teacher /Sky Player`,
     avatar_img: banjo_avatar,
+  },
+  {
+    fullname: `Fezzy Seff`,
+    facebook: `https://www.facebook.com/amaimonpheles8`,
+    instagram: `https://www.instagram.com/fezzy.seff`,
+    tiktok: ``,
+    title: `Graphic Artist / Moderator SkyPH`,
+    avatar_img: seffAvatar,
   },
 ]

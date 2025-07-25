@@ -117,7 +117,7 @@ const Team = () => {
       </div>
       <div className="py-5">
         <Typography variant="h4" color="amber">
-          Contributors Team
+          Contributors
         </Typography>
       </div>
       <div className="flex flex-wrap justify-center pb-5">

@@ -7,6 +7,7 @@ import artAvatar from '../assets/images/team/art.jpg'
 import angelicaAvatar from '../assets/images/team/angelica.jpg'
 import alanisAvatar from '../assets/images/team/Alanis.png'
 import remiAvatar from '../assets/images/team/Remi.jpg'
+import seffAvatar from '../assets/images/team/Seff.jpg'
 
 export const skyPhFbTeam = [
   {
@@ -17,14 +18,14 @@ export const skyPhFbTeam = [
     title: `Entrepreneur / Admin SkyPH`,
     avatar_img: zr_avatar,
   },
-  {
-    fullname: `Poi Pororo`,
-    facebook: `https://www.facebook.com/skyadventures.poipororo`,
-    instagram: ``,
-    tiktok: ``,
-    title: `Admin SkyPH`,
-    avatar_img: poi_avatar,
-  },
+  // {
+  //   fullname: `Poi Pororo`,
+  //   facebook: `https://www.facebook.com/skyadventures.poipororo`,
+  //   instagram: ``,
+  //   tiktok: ``,
+  //   title: `Admin SkyPH`,
+  //   avatar_img: poi_avatar,
+  // },
   {
     fullname: `Art Ator`,
     facebook: ``,
@@ -54,7 +55,7 @@ export const skyPhFbTeam = [
     facebook: `https://www.facebook.com/amberjan.naval`,
     instagram: `https://www.instagram.com/amber_rain22/`,
     tiktok: `https://www.tiktok.com/@amberrain0612`,
-    title: `LPT / Moderator SkyPH`,
+    title: `LPT / Admin SkyPH`,
     avatar_img: amber_avatar,
   },
   {
@@ -62,17 +63,25 @@ export const skyPhFbTeam = [
     facebook: `https://www.facebook.com/dear.alanisreyes`,
     instagram: `https://www.instagram.com/alanisdeary/`,
     tiktok: ``,
-    title: `Graphic Artist / Moderator SkyPH`,
+    title: `Graphic Artist / Admin SkyPH`,
     avatar_img: alanisAvatar,
   },
-  // {
-  //   fullname: `Rémi Rémi`,
-  //   facebook: `https://www.facebook.com/remiremikyut`,
-  //   instagram: ``,
-  //   tiktok: ``,
-  //   title: `Financial Administrator / Moderator SkyPH`,
-  //   avatar_img: remiAvatar,
-  // },
+  {
+    fullname: `Rémi Rémi`,
+    facebook: `https://www.facebook.com/remiremikyut`,
+    instagram: ``,
+    tiktok: ``,
+    title: `Financial Administrator / Moderator SkyPH`,
+    avatar_img: remiAvatar,
+  },
+  {
+    fullname: `Fezzy Seff`,
+    facebook: `https://www.facebook.com/amaimonpheles8`,
+    instagram: `https://www.instagram.com/fezzy.seff`,
+    tiktok: ``,
+    title: `Graphic Artist / Moderator SkyPH`,
+    avatar_img: seffAvatar,
+  },
   // {
   //   fullname: `Nymphis Raffa`,
   //   facebook: `https://www.facebook.com/Vilgarri.Ibanez`,
