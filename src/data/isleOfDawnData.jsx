@@ -531,6 +531,10 @@ export const isleOfDawn = [
             visit_date: 'Mar 2, 2023',
             visitNo: 82,
           },
+          {
+            visit_date: 'Jun 19, 2025',
+            visitNo: 142,
+          },
         ],
         icon_route: SEASON3,
         spirit_guide_video_url: youtube_embed + 'LPVVeJI9kpo',
@@ -744,6 +748,10 @@ export const isleOfDawn = [
         ],
         number_of_visits: [
           {
+            visit_date: 'Jan 6, 2022',
+            visitNo: 'Error',
+          },
+          {
             visit_date: 'Feb 3, 2022',
             visitNo: 54,
           },
@@ -754,6 +762,10 @@ export const isleOfDawn = [
           {
             visit_date: 'Aug 29, 2024',
             visitNo: 121,
+          },
+          {
+            visit_date: 'Jul 31, 2025',
+            visitNo: 145,
           },
         ],
         icon_route: SEASON7,

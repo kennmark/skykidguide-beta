@@ -1371,35 +1371,40 @@ export const prairie = [
             label: 'Hair',
             img: JOLLY_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 48,
           },
           {
             label: 'Face Accessory',
             img: JOLLY_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 42,
           },
           {
             label: 'Prop',
             img: JOLLY_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 36,
           },
           {
             label: 'Emote',
             img: JOLLY_GEOLOGIST,
             currency: 'Hearts',
-            price: 0,
+            price: 13,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
-            hearts: 0,
+            candles: 154,
+            hearts: 13,
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Jul 17, 2025',
+            visitNo: 144,
+          },
+        ],
         icon_route: SEASON18,
         spirit_guide_video_url: youtube_embed + 'tDwp1gBOIv4',
         spirit_direction: [

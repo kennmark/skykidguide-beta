@@ -1339,6 +1339,10 @@ export const wasteland = [
             visit_date: 'Jan 18, 2024',
             visitNo: 105,
           },
+          {
+            visit_date: 'Aug 18, 2025',
+            visitNo: 'GV#10',
+          },
         ],
         icon_route: SEASON12,
         spirit_guide_video_url: youtube_embed + '1NBUcSWFlu8',
@@ -1398,6 +1402,10 @@ export const wasteland = [
           {
             visit_date: 'Oct 10, 2024',
             visitNo: 124,
+          },
+          {
+            visit_date: 'Aug 18, 2025',
+            visitNo: 'GV#10',
           },
         ],
         icon_route: SEASON12,

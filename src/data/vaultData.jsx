@@ -1202,19 +1202,19 @@ export const vault = [
             label: 'Mask',
             img: WARRIOR_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 45,
           },
           {
             label: 'Outfit',
             img: WARRIOR_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 60,
           },
           {
             label: 'Cape',
             img: WARRIOR_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 80,
           },
           {
             label: 'Emote',
@@ -1225,12 +1225,17 @@ export const vault = [
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
-            hearts: 0,
+            candles: 198,
+            hearts: 3,
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Aug 18, 2025',
+            visitNo: 'GV#10',
+          },
+        ],
         icon_route: SEASON16,
         spirit_guide_video_url: youtube_embed + '-Oc-2ftk0OM',
         spirit_direction: [
@@ -1259,35 +1264,40 @@ export const vault = [
             label: 'Hair',
             img: BREWER_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 40,
           },
           {
             label: 'Outfit',
             img: BREWER_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 55,
           },
           {
             label: 'Cape',
             img: BREWER_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 65,
           },
           {
             label: 'Emote',
             img: TIPTOEING_TEABREWER,
             currency: 'Hearts',
-            price: 0,
+            price: 10,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
-            hearts: 0,
+            candles: 173,
+            hearts: 13,
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Aug 18, 2025',
+            visitNo: 'GV#10',
+          },
+        ],
         icon_route: SEASON16,
         spirit_guide_video_url: youtube_embed + 'mwLn70j2Sjs',
         spirit_direction: [
