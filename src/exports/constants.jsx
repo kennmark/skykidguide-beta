@@ -1,12 +1,12 @@
 import rc from '../assets/images/icons/candle.webp'
 import heart from '../assets/images/icons/heart.webp'
 import ac from '../assets/images/icons/AC.webp'
-import sc from '../assets/images/season-candles/25-season-of-the-blue-bird/blue-bird-sc-icon.webp'
+import sc from '../assets/images/season-candles/26-season-of-the-two-embers-1/two-embers-1-icon.webp'
 
 export const RC = rc
 export const HEART = heart
 export const AC = ac
-export const SC_24_RADIANCE_ICON = sc
+export const SC_26_TWO_EMBERS_1_ICON = sc
 
 export const ORBIT_WL = 1
 export const SHARDS_WL = 6
