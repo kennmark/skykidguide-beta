@@ -1,7 +1,7 @@
 import rc from '../assets/images/icons/candle.webp'
 import heart from '../assets/images/icons/heart.webp'
 import ac from '../assets/images/icons/AC.webp'
-import sc from '../assets/images/season-candles/26-season-of-the-two-embers-1/two-embers-1-icon.webp'
+import sc from '../assets/images/season-candles/27-season-of-migration/migration-candle-icon.webp'
 
 export const RC = rc
 export const HEART = heart
@@ -13,7 +13,7 @@ export const SHARDS_WL = 6
 
 export const ISLE_NUM_REG_SPIRIT = 3
 export const ISLE_NUM_SEASON_SPIRIT = 12
-export const ISLE_NUM_WL = 9
+export const ISLE_NUM_WL = 10
 export const ISLE_NUM_MAP_SHRINES = 9
 
 export const PRAIRIE_NUM_REG_SPIRIT = 8
@@ -23,7 +23,7 @@ export const PRAIRIE_NUM_MAP_SHRINES = 9
 
 export const FOREST_NUM_REG_SPIRIT = 8
 export const FOREST_NUM_SEASON_SPIRIT = 14
-export const FOREST_NUM_WL = 20
+export const FOREST_NUM_WL = 21
 export const FOREST_NUM_MAP_SHRINES = 11
 
 export const VALLEY_NUM_REG_SPIRIT = 7
@@ -51,15 +51,10 @@ export const AVIARY_NUM_SEASON_SPIRIT = 16
 export const AVIARY_NUM_WL = 0
 export const AVIARY_NUM_MAP_SHRINES = 1
 
-export const S19_NUM_REG_SPIRIT = 0
-export const S19_NUM_SEASON_SPIRIT = 4
-export const S19_NUM_WL = 0
-export const S19_NUM_MAP_SHRINES = 1
-
-export const S26_NUM_REG_SPIRIT = 0
-export const S26_NUM_SEASON_SPIRIT = 5
-export const S26_NUM_WL = 0
-export const S26_NUM_MAP_SHRINES = 1
+export const S27_NUM_REG_SPIRIT = 0
+export const S27_NUM_SEASON_SPIRIT = 5
+export const S27_NUM_WL = 2
+export const S27_NUM_MAP_SHRINES = 0
 
 export const WL_COUNT =
   ISLE_NUM_WL +
@@ -72,14 +67,14 @@ export const WL_COUNT =
 
 export const WB_REGULAR_SPIRITS = 49
 //!!!UPDATE THIS Wing Buff Count every new TS that hasnt arrived yet!!!
-export const WB_TRAVELING_SPIRITS = 83 // updated August 18, 202 TS Wounded Warrior & Pleaful Parent
+export const WB_TRAVELING_SPIRITS = 84 // updated October 23, 2025 TS Nightbird Whisperer
 
 export const MS_HOME = 1
 
 export const TOTAL_WL_COUNT =
   WL_COUNT + WB_REGULAR_SPIRITS + WB_TRAVELING_SPIRITS + SHARDS_WL + ORBIT_WL
 
-export const TOTAL_MS_COUNT = // August 18, 202 TS Wounded Warrior & Pleaful Parent
+export const TOTAL_MS_COUNT = // October 23, 2025 TS  Nightbird Whisperer
   ISLE_NUM_MAP_SHRINES +
   PRAIRIE_NUM_MAP_SHRINES +
   FOREST_NUM_MAP_SHRINES +
@@ -90,7 +85,7 @@ export const TOTAL_MS_COUNT = // August 18, 202 TS Wounded Warrior & Pleaful Par
   AVIARY_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'August 18, 2025' // August 18, 202 TS Wounded Warrior & Pleaful Parent
+export const WL_COUNT_DATE_UPDATED = 'October 23, 2025' // October 23, 2025 TS  Nightbird Whisperer
 export const MS_COUNT_DATE_UPDATED = 'April 21, 2025' // April 21, 2025 Season of Blue bird
 
 export const PLAYSTATION_MAX_WL = 247

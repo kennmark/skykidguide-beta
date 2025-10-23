@@ -33,6 +33,10 @@ import {
   NOSTALGIC_SPARKLER_PARENT,
   ROYAL_HAIRTOUSLE_TEEN,
   WOODCUTTING_PLEAFUL_PARENT,
+  MIGRATING_MANTA_WHISPERER,
+  MIGRATING_BIRD_WHISPERER,
+  MIGRATING_BUTTERFLY_WHISPERER,
+  MIGRATING_JELLY_WHISPERER,
 } from '../exports/spiritIcons'
 import { MAP_SHRINE, WINGED_LIGHT, NON_SPIRIT } from '../exports/defaultImages'
 import {
@@ -44,6 +48,7 @@ import {
   SEASON9,
   SEASON11,
   SEASON25,
+  SEASON27,
 } from '../exports/seasonIcons'
 import {
   HF_WL1,
@@ -108,6 +113,10 @@ import {
   FOREST_SEASON_SPIRIT_25,
   FOREST_SEASON_SPIRIT_26,
   FOREST_SEASON_SPIRIT_27,
+  FOREST_SEASON_SPIRIT_28,
+  FOREST_SEASON_SPIRIT_29,
+  FOREST_SEASON_SPIRIT_30,
+  FOREST_SEASON_SPIRIT_31,
 } from '../exports/spiritForestImages'
 import {
   SHIVERING_ITEM_1,
@@ -180,6 +189,15 @@ import {
   NOSTALGIC_ITEM_2,
   WOODCUTTING_ITEM_1,
   WOODCUTTING_ITEM_2,
+  MMANTA_ITEM_1,
+  MMANTA_ITEM_2,
+  MMANTA_ITEM_3,
+  MBIRD_ITEM_1,
+  MBIRD_ITEM_2,
+  MBUTTERFLY_ITEM_1,
+  MBUTTERFLY_ITEM_2,
+  MJELLY_ITEM_1,
+  MJELLY_ITEM_2,
 } from '../exports/spiritForestCollectibles'
 
 import ForestConstellation from '../assets/images/maps-constellations/Forest_Constellation.png'
@@ -670,7 +688,7 @@ export const hiddenForest = [
     spirits: [
       // PROVOKING_PERFORMER
       {
-        id: 9,
+        id: 1,
         spirit_id: 'forest9',
         season_id: 1,
         spirit_type: 'seasonal',
@@ -734,7 +752,7 @@ export const hiddenForest = [
       },
       // LAIDBACK_PIONEER
       {
-        id: 10,
+        id: 2,
         spirit_id: 'forest10',
         season_id: 2,
         spirit_type: 'seasonal',
@@ -804,7 +822,7 @@ export const hiddenForest = [
       },
       // HAIRTOUSLE_TEEN
       {
-        id: 11,
+        id: 3,
         spirit_id: 'forest11',
         season_id: 3,
         spirit_type: 'seasonal',
@@ -868,7 +886,7 @@ export const hiddenForest = [
       },
       // ADMIRING_ACTOR
       {
-        id: 12,
+        id: 4,
         spirit_id: 'forest12',
         season_id: 4,
         spirit_type: 'seasonal',
@@ -932,7 +950,7 @@ export const hiddenForest = [
       },
       // BAFFLED_BOTANIST
       {
-        id: 13,
+        id: 5,
         spirit_id: 'forest13',
         season_id: 9,
         spirit_type: 'seasonal',
@@ -1001,7 +1019,7 @@ export const hiddenForest = [
       },
       // SCOLDING_SPIRIT
       {
-        id: 14,
+        id: 6,
         spirit_id: 'forest14',
         season_id: 9,
         spirit_type: 'seasonal',
@@ -1066,7 +1084,7 @@ export const hiddenForest = [
       },
       // MARCHING_ADVENTURER
       {
-        id: 15,
+        id: 7,
         spirit_id: 'forest15',
         season_id: 9,
         spirit_type: 'seasonal',
@@ -1132,7 +1150,7 @@ export const hiddenForest = [
       },
       // SCAREDY_CADET
       {
-        id: 16,
+        id: 8,
         spirit_id: 'forest16',
         season_id: 9,
         spirit_type: 'seasonal',
@@ -1194,7 +1212,7 @@ export const hiddenForest = [
       },
       // CHUCKLING_SCOUT
       {
-        id: 17,
+        id: 9,
         spirit_id: 'forest17',
         season_id: 9,
         spirit_type: 'seasonal',
@@ -1266,7 +1284,7 @@ export const hiddenForest = [
       },
       // DAYDREAM_FORESTER
       {
-        id: 18,
+        id: 10,
         spirit_id: 'forest18',
         season_id: 9,
         spirit_type: 'seasonal',
@@ -1326,7 +1344,7 @@ export const hiddenForest = [
       },
       // TINKERING_CHIMESMITH
       {
-        id: 19,
+        id: 11,
         spirit_id: 'forest19',
         season_id: 11,
         spirit_type: 'seasonal',
@@ -1396,7 +1414,7 @@ export const hiddenForest = [
       },
       // LIGHT_WHISPERER
       {
-        id: 20,
+        id: 12,
         spirit_id: 'forest20',
         season_id: 11,
         spirit_type: 'seasonal',
@@ -1462,7 +1480,7 @@ export const hiddenForest = [
       },
       // LIVELY_NAVIGATOR
       {
-        id: 21,
+        id: 13,
         spirit_id: 'forest21',
         season_id: 11,
         spirit_type: 'seasonal',
@@ -1522,7 +1540,7 @@ export const hiddenForest = [
       },
       // TALENTED_BUILDER
       {
-        id: 22,
+        id: 14,
         spirit_id: 'forest22',
         season_id: 11,
         spirit_type: 'seasonal',
@@ -1582,6 +1600,7 @@ export const hiddenForest = [
       },
       //DIVINING_WISE_GRANDPARENT
       {
+        id: 15,
         spirit_id: 'blue-bird-1',
         spirit_name: `Divining Wise Grandparent`,
         spirit_img_url: DIVING_WISE_GRANDPARENT,
@@ -1617,6 +1636,7 @@ export const hiddenForest = [
       },
       //COSTUMED_CONFETTI_COUNS
       {
+        id: 16,
         spirit_id: 'blue-bird-2',
         spirit_name: `Costumed Confetti Cousin`,
         spirit_img_url: COSTUMED_CONFETTI_COUSIN,
@@ -1664,6 +1684,7 @@ export const hiddenForest = [
       },
       //ROYAL_HAIRTOUSLE_TEEN
       {
+        id: 17,
         spirit_id: 'blue-bird-3',
         spirit_name: `Royal Hairtousle Teen`,
         spirit_img_url: ROYAL_HAIRTOUSLE_TEEN,
@@ -1711,6 +1732,7 @@ export const hiddenForest = [
       },
       //NOSTALGIC_SPARKLER_PARENT
       {
+        id: 18,
         spirit_id: 'blue-bird-4',
         spirit_name: `Nostalgic Sparkler Parent`,
         spirit_img_url: NOSTALGIC_SPARKLER_PARENT,
@@ -1746,6 +1768,7 @@ export const hiddenForest = [
       },
       //WOODWORKING_PLEAFUL_PARENT
       {
+        id: 19,
         spirit_id: 'blue-bird-5',
         spirit_name: `Woodworking Pleaful Parent`,
         spirit_img_url: WOODCUTTING_PLEAFUL_PARENT,
@@ -1778,6 +1801,208 @@ export const hiddenForest = [
           // },
         ],
         number_of_visits: [],
+      },
+      //MIGRATING_MANTA_WHISPERER
+      {
+        id: 20,
+        spirit_id: 'isle16',
+        season_id: 27,
+        spirit_type: 'seasonal',
+        season: 'Season 27 - Season of Migration',
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 30,
+        difficulty_types: [0, 2, 5],
+        spirit_name: 'Migrating Manta Whisperer',
+        spirit_img_url: MIGRATING_MANTA_WHISPERER,
+        spirit_image: FOREST_SEASON_SPIRIT_28,
+        icon_route: SEASON27,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: MMANTA_ITEM_1,
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Suitpants',
+            img: MMANTA_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: MMANTA_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: MIGRATING_MANTA_WHISPERER,
+            currency: 'Season Candles',
+            price: 24,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 74,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
+        spirit_guide_video_url: youtube_embed + 'nTARZnLz3FI',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
+          'Sa first island on your right side, makikita mo ang spirit sa tuktok ng island.',
+        ],
+      },
+      //MIGRATING_BIRD_WHISPERER
+      {
+        id: 21,
+        spirit_id: 'isle18',
+        season_id: 27,
+        spirit_type: 'seasonal',
+        season: 'Season 27 - Season of Migration',
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 35,
+        difficulty_types: [0, 2, 6],
+        spirit_name: 'Migrating Bird Whisperer',
+        spirit_img_url: MIGRATING_BIRD_WHISPERER,
+        spirit_image: FOREST_SEASON_SPIRIT_29,
+        icon_route: SEASON27,
+        spirit_collectibles: [
+          {
+            label: 'Suitpants',
+            img: MBIRD_ITEM_1,
+            currency: 'Season Candles',
+            price: 30,
+          },
+          {
+            label: 'Cape',
+            img: MBIRD_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: MIGRATING_BIRD_WHISPERER,
+            currency: 'Season Candles',
+            price: 24,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 75,
+            hearts: 1,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
+        spirit_guide_video_url: youtube_embed + 'hopjKjGtXHg',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
+          'Sa first island on your left side, makikita mo ang spirit sa bungad ng maliit na kweba.',
+        ],
+      },
+      //MIGRATING_BUTTERFLY_WHISPERER
+      {
+        id: 22,
+        spirit_id: 'isle19',
+        season_id: 27,
+        spirit_type: 'seasonal',
+        season: 'Season 27 - Season of Migration',
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_name: 'Migrating Butterfly Whisperer',
+        spirit_img_url: MIGRATING_BUTTERFLY_WHISPERER,
+        spirit_image: FOREST_SEASON_SPIRIT_30,
+        icon_route: SEASON27,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: MBUTTERFLY_ITEM_1,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: MBUTTERFLY_ITEM_2,
+            currency: 'Season Candles',
+            price: 30,
+          },
+          {
+            label: 'Emote',
+            img: MIGRATING_BUTTERFLY_WHISPERER,
+            currency: 'Season Candles',
+            price: 24,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 73,
+            hearts: 1,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
+        spirit_guide_video_url: youtube_embed + 'pKsSGxVwOYU',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
+          'Sa main island, lumipad ng bahadya papuntang right side ng isla makikita mo itong spirit.',
+        ],
+      },
+      //MIGRATING_JELLY_WHISPERER
+      {
+        id: 23,
+        spirit_id: 'isle20',
+        season_id: 27,
+        spirit_type: 'seasonal',
+        season: 'Season 27 - Season of Migration',
+        spirit_category: 'emote',
+        spirit_relive_type: 'follow-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_name: 'Migrating Jelly Whisperer',
+        spirit_img_url: MIGRATING_JELLY_WHISPERER,
+        spirit_image: FOREST_SEASON_SPIRIT_31,
+        icon_route: SEASON27,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: MJELLY_ITEM_1,
+            currency: 'Season Candles',
+            price: 36,
+          },
+          {
+            label: 'Suitpants',
+            img: MJELLY_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: MIGRATING_JELLY_WHISPERER,
+            currency: 'Season Candles',
+            price: 24,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 78,
+            hearts: 1,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
+        spirit_guide_video_url: youtube_embed + 'DPCfM5SyEWc',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka pakanan at pumasok ka sa lagusan na ulap.',
+          'Sa main island, lumipad ng bahadya papuntang left side ng isla makikita mo itong spirit.',
+        ],
       },
     ],
   },

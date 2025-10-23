@@ -42,6 +42,10 @@ import Mope3 from '../assets/images/spirit-collectibles/isle/Passage-Melancholy-
 import Overactive1 from '../assets/images/spirit-collectibles/isle/Passage-Overactive-Overachiever-Hair.webp'
 import Overactive2 from '../assets/images/spirit-collectibles/isle/Passage-Overactive-Overachiever-Cape.webp'
 import Overactive3 from '../assets/images/spirit-collectibles/isle/Passage-Overactive-Overachiever-Instrument.webp'
+import MBellmaker1 from '../assets/images/spirit-collectibles/isle/MigratingBellmaker-1.webp'
+import MBellmaker2 from '../assets/images/spirit-collectibles/isle/MigratingBellmaker-2.webp'
+import MBellmaker3 from '../assets/images/spirit-collectibles/isle/MigratingBellmaker-3.webp'
+import MBellmaker4 from '../assets/images/spirit-collectibles/isle/MigratingBellmaker-4.webp'
 
 export const CANDLEMAKER_ITEM_1 = candleMakerItem1
 export const CANDLEMAKER_ITEM_2 = candleMakerItem2
@@ -87,3 +91,7 @@ export const MOPE_ITEM_3 = Mope3
 export const OVERACTIVE_ITEM_1 = Overactive1
 export const OVERACTIVE_ITEM_2 = Overactive2
 export const OVERACTIVE_ITEM_3 = Overactive3
+export const MBELLMAKER_ITEM_1 = MBellmaker1
+export const MBELLMAKER_ITEM_2 = MBellmaker2
+export const MBELLMAKER_ITEM_3 = MBellmaker3
+export const MBELLMAKER_ITEM_4 = MBellmaker4

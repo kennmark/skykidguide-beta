@@ -13,6 +13,7 @@ import Outcast from '../assets/images/spirit-images/isle/Oddball Outcast.png'
 import TroubleMaker from '../assets/images/spirit-images/isle/Tumbling Troublemaker.png'
 import Mope from '../assets/images/spirit-images/isle/Melancholy Mope.png'
 import Overachiever from '../assets/images/spirit-images/isle/Overactive Overachiever.png'
+import MigratingBellmaker from '../assets/images/spirit-images/isle/Migrating-Bellmaker.png'
 
 export const ISLE_SPIRIT_1 = PointingCandlemaker
 export const ISLE_SPIRIT_2 = UsheringStargazer
@@ -30,3 +31,4 @@ export const ISLE_SEASON_SPIRIT_9 = Outcast
 export const ISLE_SEASON_SPIRIT_10 = TroubleMaker
 export const ISLE_SEASON_SPIRIT_11 = Mope
 export const ISLE_SEASON_SPIRIT_12 = Overachiever
+export const ISLE_SEASON_SPIRIT_13 = MigratingBellmaker

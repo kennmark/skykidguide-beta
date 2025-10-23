@@ -68,6 +68,15 @@ import nostalgic1 from '../assets/images/spirit-collectibles/forest/nostalgic1.w
 import nostalgic2 from '../assets/images/spirit-collectibles/forest/nostalgic2.webp'
 import woodcutting1 from '../assets/images/spirit-collectibles/forest/woodcutting1.webp'
 import woodcutting2 from '../assets/images/spirit-collectibles/forest/woodcutting2.webp'
+import MManta1 from '../assets/images/spirit-collectibles/forest/MMW1.webp'
+import MManta2 from '../assets/images/spirit-collectibles/forest/MMW2.webp'
+import MManta3 from '../assets/images/spirit-collectibles/forest/MMW3.webp'
+import MBird1 from '../assets/images/spirit-collectibles/forest/MBW1.webp'
+import MBird2 from '../assets/images/spirit-collectibles/forest/MBW2.webp'
+import MButterfly1 from '../assets/images/spirit-collectibles/forest/MBC1.webp'
+import MButterfly2 from '../assets/images/spirit-collectibles/forest/MBC2.webp'
+import MJelly1 from '../assets/images/spirit-collectibles/forest/MJW1.webp'
+import MJelly2 from '../assets/images/spirit-collectibles/forest/MJW2.webp'
 
 export const SHIVERING_ITEM_1 = shivering1
 export const SHIVERING_ITEM_2 = shivering2
@@ -140,3 +149,12 @@ export const NOSTALGIC_ITEM_1 = nostalgic1
 export const NOSTALGIC_ITEM_2 = nostalgic2
 export const WOODCUTTING_ITEM_1 = woodcutting1
 export const WOODCUTTING_ITEM_2 = woodcutting2
+export const MMANTA_ITEM_1 = MManta1
+export const MMANTA_ITEM_2 = MManta2
+export const MMANTA_ITEM_3 = MManta3
+export const MBIRD_ITEM_1 = MBird1
+export const MBIRD_ITEM_2 = MBird2
+export const MBUTTERFLY_ITEM_1 = MButterfly1
+export const MBUTTERFLY_ITEM_2 = MButterfly2
+export const MJELLY_ITEM_1 = MJelly1
+export const MJELLY_ITEM_2 = MJelly2

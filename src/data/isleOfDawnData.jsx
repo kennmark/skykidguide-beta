@@ -22,6 +22,7 @@ import {
   ODDBALL_OUTCAST,
   OVERACTIVE_OVERACHIEVER,
   TUMBLING_TROUBLEMAKER,
+  MIGRATING_BELLMAKER,
 } from '../exports/spiritIcons'
 import { MAP_SHRINE, WINGED_LIGHT } from '../exports/defaultImages'
 import {
@@ -32,6 +33,7 @@ import {
   SEASON4,
   SEASON7,
   SEASON17,
+  SEASON27,
 } from '../exports/seasonIcons'
 import {
   ID_WL1,
@@ -71,6 +73,7 @@ import {
   ISLE_SEASON_SPIRIT_10,
   ISLE_SEASON_SPIRIT_11,
   ISLE_SEASON_SPIRIT_12,
+  ISLE_SEASON_SPIRIT_13,
 } from '../exports/spiritIsleImages'
 import {
   CANDLEMAKER_ITEM_1,
@@ -117,6 +120,10 @@ import {
   OVERACTIVE_ITEM_1,
   OVERACTIVE_ITEM_2,
   OVERACTIVE_ITEM_3,
+  MBELLMAKER_ITEM_1,
+  MBELLMAKER_ITEM_2,
+  MBELLMAKER_ITEM_3,
+  MBELLMAKER_ITEM_4,
 } from '../exports/spiritIsleCollectibles'
 import IsleConstellation from '../assets/images/maps-constellations/Isle_Constellation.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
@@ -1163,6 +1170,63 @@ export const isleOfDawn = [
           'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
           'Lumipad  ka gawing kanan sa likod ng malaking bato umupo ka sa likod ng Passage Stone Shrine.',
           'Lumipad ka pabalik sa San Dunes kung nasaan iyong spirit na Pointing Candlemaker. Sa taas ng kweba malapit na sa dagat makikita mo ang spirit na ito.',
+        ],
+      },
+      //Migrating Bellmaker
+      {
+        id: 16,
+        spirit_id: 'isle17',
+        season_id: 27,
+        spirit_type: 'seasonal',
+        season: 'Season 27 - Season of Migration',
+        spirit_category: 'call',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 15,
+        difficulty_types: [0, 1],
+        spirit_name: 'Migrating Bellmaker',
+        spirit_img_url: MIGRATING_BELLMAKER,
+        spirit_image: ISLE_SEASON_SPIRIT_13,
+        icon_route: SEASON27,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: MBELLMAKER_ITEM_1,
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Cape',
+            img: MBELLMAKER_ITEM_2,
+            currency: 'Season Candles',
+            price: 36,
+          },
+          {
+            label: 'Face Accessory',
+            img: MBELLMAKER_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Sheet',
+            img: MBELLMAKER_ITEM_4,
+            currency: 'Season Candles',
+            price: 17,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 98,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
+          'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
+          'Lumipad  ka gawing kaliwa hanggang makita mo ang campsite/tent ng Migration Spirit Guide',
+          'Sa labas ng tent makikita mo ang spirit na ito.',
         ],
       },
     ],

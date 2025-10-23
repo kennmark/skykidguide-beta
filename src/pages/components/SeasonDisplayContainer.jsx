@@ -32,7 +32,9 @@ const SeasonDisplayContainer = ({
       <Tooltip
         content={
           <div className="block text-center">
-            <Typography>{name}</Typography>
+            <Typography>
+              Season {id}-{name}
+            </Typography>
             <Typography>{time_duration}</Typography>
           </div>
         }

@@ -17,7 +17,7 @@ import {
   VAULT_NUM_MAP_SHRINES,
   EDEN_NUM_MAP_SHRINES,
   MS_HOME,
-  S19_NUM_MAP_SHRINES,
+  AVIARY_NUM_MAP_SHRINES,
 } from '../../exports/constants'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { MAP_SHRINE } from '../../exports/defaultImages'
@@ -71,7 +71,7 @@ const MapShrineIntro = () => {
               <tr>
                 <td className="border border-slate-700 p-3">Aviary Village</td>
                 <td className="border border-slate-700 p-3">
-                  {S19_NUM_MAP_SHRINES}
+                  {AVIARY_NUM_MAP_SHRINES}
                 </td>
               </tr>
               <tr>

@@ -25,6 +25,7 @@ import {
   SEASON24,
   SEASON25,
   SEASON26,
+  SEASON27,
 } from '../exports/seasonIcons'
 
 import {
@@ -3979,6 +3980,126 @@ export const seasons2025 = [
         shrine_label: wasteland[3].map_shrines[8].shrine_label,
         shrine_url: wasteland[3].map_shrines[8].shrine_url,
         shrine_location: wasteland[3].map_shrines[8].shrine_location,
+      },
+    ],
+  },
+  {
+    id: 27,
+    name: 'Migration',
+    season_type: 1,
+    time_duration: 'October 20, 2025 - January 5, 2026 ',
+    spirit_num: 5,
+    wl_num: 2,
+    ms_num: 0,
+    icon_route: SEASON27,
+    page_route: 'seasons/2025/season-27/migration',
+    quick_info: `Mystical Light Creatures Overcome challenges.`,
+    season_spirits: [
+      //LIGHTHORN_WHISPERER
+      {
+        spirit_id: 'migration-2',
+        spirit_name: isleOfDawn[1].spirits[12].spirit_name,
+        spirit_img_url: isleOfDawn[1].spirits[12].spirit_img_url,
+        spirit_category: isleOfDawn[1].spirits[12].spirit_category,
+        spirit_relive_type: isleOfDawn[1].spirits[12].spirit_relive_type,
+        difficulty_level: isleOfDawn[1].spirits[12].difficulty_level,
+        difficulty_types: isleOfDawn[1].spirits[12].difficulty_types,
+        spirit_image: isleOfDawn[1].spirits[12].spirit_image,
+        spirit_collectibles: isleOfDawn[1].spirits[12].spirit_collectibles,
+        spirit_tree_cost: isleOfDawn[1].spirits[12].spirit_tree_cost,
+        number_of_visits: isleOfDawn[1].spirits[12].number_of_visits,
+        spirit_guide_video_url:
+          isleOfDawn[1].spirits[12].spirit_guide_video_url,
+        spirit_direction: isleOfDawn[1].spirits[12].spirit_direction,
+      },
+      //MIGRATING_MANTA_WHISPERER
+      {
+        spirit_id: 'migration-1',
+        spirit_name: hiddenForest[1].spirits[19].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[19].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[19].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[19].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[19].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[19].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[19].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[19].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[19].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[19].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[19].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[19].spirit_direction,
+      },
+
+      //MIGRATING_BIRD_WHISPERER
+      {
+        spirit_id: 'migration-3',
+        spirit_name: hiddenForest[1].spirits[20].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[20].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[20].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[20].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[20].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[20].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[20].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[20].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[20].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[20].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[20].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[20].spirit_direction,
+      },
+      //MIGRATING_BUTTERFLY_WHISPERER
+      {
+        spirit_id: 'migration-4',
+        spirit_name: hiddenForest[1].spirits[21].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[21].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[21].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[21].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[21].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[21].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[21].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[21].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[21].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[21].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[21].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[21].spirit_direction,
+      },
+      //MIGRATING_JELLY_WHISPERER
+      {
+        spirit_id: 'migration-5',
+        spirit_name: hiddenForest[1].spirits[22].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[22].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[22].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[22].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[22].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[22].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[22].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[22].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[22].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[22].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[22].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[22].spirit_direction,
+      },
+    ],
+
+    winged_lights: [
+      // {
+      //   id: hiddenForest[2].winged_lights[19].id,
+      //   wl_label: hiddenForest[2].winged_lights[19].wl_label,
+      //   wl_group: hiddenForest[2].winged_lights[19].wl_group,
+      //   wl_season_group: hiddenForest[2].winged_lights[19].wl_season_group,
+      //   wl_url: hiddenForest[2].winged_lights[19].wl_url,
+      //   wl_location: hiddenForest[2].winged_lights[19].wl_location,
+      // },
+    ],
+    map_shrines: [
+      {
+        // id: wasteland[3].map_shrines[8].id,
+        // shrine_group: wasteland[3].map_shrines[8].shrine_group,
+        // shrine_label: wasteland[3].map_shrines[8].shrine_label,
+        // shrine_url: wasteland[3].map_shrines[8].shrine_url,
+        // shrine_location: wasteland[3].map_shrines[8].shrine_location,
       },
     ],
   },

@@ -271,6 +271,15 @@ const S26TwoEmbersOne = lazy(() => {
   })
 })
 
+const S27Migration = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S27MigrationPage')),
+      300
+    )
+  })
+})
+
 function App() {
   return (
     <div className="mooliMono">
@@ -600,6 +609,14 @@ function App() {
                 }
               />
 
+              <Route
+                path="seasons/2025/season-27/migration"
+                element={
+                  <Layout>
+                    <S27Migration />
+                  </Layout>
+                }
+              />
               <Route
                 path="/balita"
                 element={

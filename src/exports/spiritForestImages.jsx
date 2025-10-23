@@ -25,6 +25,10 @@ import costumed from '../assets/images/spirit-images/forest/Costumed Confetti Co
 import royal from '../assets/images/spirit-images/forest/Royal Hairtousle Teen.webp'
 import nostalgic from '../assets/images/spirit-images/forest/Nostalgic Sparkler Parent.webp'
 import woodworking from '../assets/images/spirit-images/forest/Woodworking Pleaful Parent.webp'
+import mmanta from '../assets/images/spirit-images/forest/Migrating-Manta-Whisperer.png'
+import mbird from '../assets/images/spirit-images/forest/Migrating-Bird-Whisperer.png'
+import mbutterfly from '../assets/images/spirit-images/forest/Migrating-Butterfly-Charmer.png'
+import mjelly from '../assets/images/spirit-images/forest/Migrating-Jelly-Whisperer.png'
 
 export const FOREST_SPIRIT_1 = shivering
 export const FOREST_SPIRIT_2 = blushing
@@ -57,3 +61,8 @@ export const FOREST_SEASON_SPIRIT_24 = costumed
 export const FOREST_SEASON_SPIRIT_25 = royal
 export const FOREST_SEASON_SPIRIT_26 = nostalgic
 export const FOREST_SEASON_SPIRIT_27 = woodworking
+
+export const FOREST_SEASON_SPIRIT_28 = mmanta
+export const FOREST_SEASON_SPIRIT_29 = mbird
+export const FOREST_SEASON_SPIRIT_30 = mbutterfly
+export const FOREST_SEASON_SPIRIT_31 = mjelly

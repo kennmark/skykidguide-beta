@@ -1,9 +1,9 @@
 import { Carousel, Typography, Button, Card } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
-import carousel1 from '../assets/images/seasonal-banners/S26A.webp'
-import carousel2 from '../assets/images/seasonal-banners/S26B.webp'
-import carousel3 from '../assets/images/seasonal-banners/S26C.webp'
+import carousel1 from '../assets/images/seasonal-banners/S27A.webp'
+import carousel2 from '../assets/images/seasonal-banners/S27B.webp'
+import carousel3 from '../assets/images/seasonal-banners/S27C.webp'
 import SeasonDisplayContainer from './components/SeasonDisplayContainer'
 import {
   seasons2019,
@@ -44,7 +44,7 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 26 | The Two Embers I
+                    Season 27 | Season of Migration
                   </Typography>
                   <Typography
                     variant="lead"
@@ -54,13 +54,13 @@ const PageSeasonMap = () => {
                     Bagong Season ang dumating sa Sky: Children of The Light!
                   </Typography>
                   <div className="flex justify-center gap-2">
-                    <Link to={`/seasons/2025/season-25/blue-bird`}>
+                    <Link to={`/seasons/2025/season-27/migration`}>
                       <Button size="sm" className="theme-button" ripple={true}>
                         Pasok
                       </Button>
                     </Link>
 
-                    <a href="https://www.thatskygame.com/news/experience-sky-s-origin-story-with-season-of-the-two-embers-part-1">
+                    <a href="https://www.thatskygame.com/news/the-season-of-migration-is-upon-us">
                       <Button size="sm" className="theme-button">
                         Visit Site
                       </Button>
@@ -82,16 +82,15 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Don’t Just Watch the Story: Live It!
+                    The Season of Migration Is Upon Us
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    Dive deeper into the adventure of The Two Embers with each
-                    quest, walking, creating, and standing strong alongside the
-                    people who lived in the final years of the kingdom.
+                    An ancient rhythm that calls the migrating creatures of
+                    light to rise, gather, and journey together.
                   </Typography>
                 </div>
               </div>
@@ -109,17 +108,16 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    A World Brimming With Story
+                    Take Flight in the Season of Migration
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    This Season’s setting is one of Sky’s most dynamic and
-                    expansive environments to date. The bustling market village
-                    you’ll explore is alive with Spirits, vibrant with activity,
-                    and full of hidden moments to discover.
+                    The migrating herd has begun its journey, but they cannot
+                    complete it alone. Will you rise to the role of shepherd and
+                    guide, helping them find their way home?
                   </Typography>
                 </div>
               </div>

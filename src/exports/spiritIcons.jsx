@@ -15,6 +15,7 @@ import melancholyMope from '../assets/images/emotes/map1/seasons/S17-melancholy-
 import odballOutcast from '../assets/images/emotes/map1/seasons/S17-odball-outcast.webp'
 import overactiveOverachiever from '../assets/images/emotes/map1/seasons/S17-overactive-overachiever.webp'
 import tumblingTroublemaker from '../assets/images/emotes/map1/seasons/S17-tumbling-troublemaker.webp'
+import migratingBellmaker from '../assets/images/emotes/map1/seasons/S27-migrating-bellmaker.webp'
 // MAP 1
 
 // MAP 2
@@ -72,6 +73,10 @@ import costumedConfettiCousin from '../assets/images/emotes/map3/seasons/S25-cos
 import nostalgicSparklerParent from '../assets/images/emotes/map3/seasons/S25-nostalgic-sparkler-parent.webp'
 import royalHairtousleTeen from '../assets/images/emotes/map3/seasons/S25-royal-hairtousle-teen.webp'
 import woodcuttingPleafulParent from '../assets/images/emotes/map3/seasons/S25-woodcutting-pleaful-parent.webp'
+import migratingMantaWhisperer from '../assets/images/emotes/map3/seasons/S27-migrating-manta-whisperer.webp'
+import migratingBirdWhisperer from '../assets/images/emotes/map3/seasons/S27-migrating-bird-whisperer.webp'
+import migratingButterflyWhisperer from '../assets/images/emotes/map3/seasons/S27-migrating-butterfly-charmer.webp'
+import migratingJellyWhisperer from '../assets/images/emotes/map3/seasons/S27-migrating-jelly-whisperer.webp'
 
 // MAP 3
 
@@ -180,6 +185,7 @@ export const MELANCHOLY_MOPE = melancholyMope
 export const ODDBALL_OUTCAST = odballOutcast
 export const OVERACTIVE_OVERACHIEVER = overactiveOverachiever
 export const TUMBLING_TROUBLEMAKER = tumblingTroublemaker
+export const MIGRATING_BELLMAKER = migratingBellmaker
 // MAP 1
 
 // MAP 2
@@ -237,6 +243,10 @@ export const COSTUMED_CONFETTI_COUSIN = costumedConfettiCousin
 export const NOSTALGIC_SPARKLER_PARENT = nostalgicSparklerParent
 export const ROYAL_HAIRTOUSLE_TEEN = royalHairtousleTeen
 export const WOODCUTTING_PLEAFUL_PARENT = woodcuttingPleafulParent
+export const MIGRATING_MANTA_WHISPERER = migratingMantaWhisperer
+export const MIGRATING_BIRD_WHISPERER = migratingBirdWhisperer
+export const MIGRATING_BUTTERFLY_WHISPERER = migratingButterflyWhisperer
+export const MIGRATING_JELLY_WHISPERER = migratingJellyWhisperer
 // MAP 3
 
 // MAP 4
