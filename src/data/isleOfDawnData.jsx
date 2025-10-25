@@ -1221,7 +1221,7 @@ export const isleOfDawn = [
           },
         ],
         number_of_visits: [],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'Bc9Yl-qjkh8',
         spirit_direction: [
           'Pagkapasok mo sa Unang Mapa - Isle of Dawn, lumakad ka o Lumipad papasok sa unang kweba na makita mo.',
           'Pagkapasok mo ay lakarin mo lng ito hanggang sa umabot ka sa dulo kung saan makikita mo ang malawak na tanawin.',
