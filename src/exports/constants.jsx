@@ -86,7 +86,8 @@ export const TOTAL_MS_COUNT = // October 23, 2025 TS  Nightbird Whisperer
   MS_HOME
 
 export const WL_COUNT_DATE_UPDATED = 'October 23, 2025' // October 23, 2025 TS  Nightbird Whisperer
-export const MS_COUNT_DATE_UPDATED = 'April 21, 2025' // April 21, 2025 Season of Blue bird
+export const MS_COUNT_DATE_UPDATED = 'July 21, 2025' // July 21, 2025 Season of The Two Embers I
 
 export const PLAYSTATION_MAX_WL = 247
 export const STEAM_MAX_WL = 227
+export const dtsValue = true //Adjust During Daylight Time Saving Every March and November
