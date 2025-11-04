@@ -18,6 +18,7 @@ import wl17 from '../assets/images/winged-lights/Map 3 - Hidden Forest/HF-WL17.j
 import wl18 from '../assets/images/winged-lights/Map 3 - Hidden Forest/HF-WL18.jpg'
 import wl19 from '../assets/images/winged-lights/Map 3 - Hidden Forest/HF-WL19.jpg'
 import wl20 from '../assets/images/winged-lights/Map 3 - Hidden Forest/HF-WL20.jpg'
+import wl21 from '../assets/images/winged-lights/Map 3 - Hidden Forest/HF-WL21.jpg'
 
 export const HF_WL1 = wl1
 export const HF_WL2 = wl2
@@ -39,3 +40,4 @@ export const HF_WL17 = wl17
 export const HF_WL18 = wl18
 export const HF_WL19 = wl19
 export const HF_WL20 = wl20
+export const HF_WL21 = wl21

@@ -4084,24 +4084,32 @@ export const seasons2025 = [
     ],
 
     winged_lights: [
-      // {
-      //   id: hiddenForest[2].winged_lights[19].id,
-      //   wl_label: hiddenForest[2].winged_lights[19].wl_label,
-      //   wl_group: hiddenForest[2].winged_lights[19].wl_group,
-      //   wl_season_group: hiddenForest[2].winged_lights[19].wl_season_group,
-      //   wl_url: hiddenForest[2].winged_lights[19].wl_url,
-      //   wl_location: hiddenForest[2].winged_lights[19].wl_location,
-      // },
-    ],
-    map_shrines: [
       {
-        // id: wasteland[3].map_shrines[8].id,
-        // shrine_group: wasteland[3].map_shrines[8].shrine_group,
-        // shrine_label: wasteland[3].map_shrines[8].shrine_label,
-        // shrine_url: wasteland[3].map_shrines[8].shrine_url,
-        // shrine_location: wasteland[3].map_shrines[8].shrine_location,
+        id: isleOfDawn[2].winged_lights[9].id,
+        wl_label: isleOfDawn[2].winged_lights[9].wl_label,
+        wl_group: isleOfDawn[2].winged_lights[9].wl_group,
+        wl_season_group: isleOfDawn[2].winged_lights[9].wl_season_group,
+        wl_url: isleOfDawn[2].winged_lights[9].wl_url,
+        wl_location: isleOfDawn[2].winged_lights[9].wl_location,
+      },
+      {
+        id: hiddenForest[2].winged_lights[20].id,
+        wl_label: hiddenForest[2].winged_lights[20].wl_label,
+        wl_group: hiddenForest[2].winged_lights[20].wl_group,
+        wl_season_group: hiddenForest[2].winged_lights[20].wl_season_group,
+        wl_url: hiddenForest[2].winged_lights[20].wl_url,
+        wl_location: hiddenForest[2].winged_lights[20].wl_location,
       },
     ],
+    // map_shrines: [
+    //   {
+    //     id: wasteland[3].map_shrines[8].id,
+    //     shrine_group: wasteland[3].map_shrines[8].shrine_group,
+    //     shrine_label: wasteland[3].map_shrines[8].shrine_label,
+    //     shrine_url: wasteland[3].map_shrines[8].shrine_url,
+    //     shrine_location: wasteland[3].map_shrines[8].shrine_location,
+    //   },
+    // ],
   },
 ]
 

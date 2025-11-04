@@ -27,8 +27,6 @@ import {
   WASTELAND_NUM_MAP_SHRINES,
   VAULT_NUM_MAP_SHRINES,
   EDEN_NUM_MAP_SHRINES,
-  MS_HOME,
-  S19_NUM_MAP_SHRINES,
 } from '../exports/constants'
 import CardContainer from './components/CardContainer'
 import { BarsArrowDownIcon } from '@heroicons/react/24/solid'

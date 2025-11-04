@@ -120,6 +120,35 @@ const S27MigrationPage = () => {
                     shrine(s).
                   </Typography>{' '}
                   <br />
+                  <Typography variant="h2">
+                    Bagong Feature: Friendship Points
+                  </Typography>
+                  <Typography>
+                    Ang bagong feature na ito ay unang ipinalabas sa Season of
+                    Migration. Sa paraan na ito, mas mapapabilis ang pagbukas ng
+                    friendship nodes sa isang season spirit na hindi gumagamit
+                    ng season candles.
+                  </Typography>
+                  <Typography>
+                    Ang isang player ay maari lamang magsama ng isang season
+                    spirit sa isang araw ng hindi hihigit sa 30 minutes. Sa
+                    Constellation ay pipindutin mo lang ung 'inviting emote with
+                    heart' upang lumabas ang spirit na iyong napili at sumunod
+                    sa iyo habang ikaw naglalaro.
+                  </Typography>
+                  <Typography>
+                    Tandaan: kapag sinimulan mo na ang spirit na sumunod sa iyo
+                    at ikaw ay pumasok sa Eye of Eden ay hindi ito mabibilang
+                    ang oras at hindi mo ito makikita na sumusunod.
+                  </Typography>
+                  <Typography>
+                    Pagkatapos ng 30 minutes na kasama mo ang spirit sa laro, ay
+                    makikita mo ang spirit na ito na sumisinag ang heart icon,
+                    indikasyon na nakompleto mo na ang 30 minutes at pwede mo
+                    nang kolektahin ang friendship points na ibibigay nito.
+                    Kailangan mong buksan ulit ang spirit mula sa constellation
+                    upang makita mo ang progress na ito.
+                  </Typography>
                 </div>
               )}
 

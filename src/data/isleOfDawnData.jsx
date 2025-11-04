@@ -45,6 +45,7 @@ import {
   ID_WL7,
   ID_WL8,
   ID_WL9,
+  ID_WL10,
 } from '../exports/isleWLImgUrl'
 import {
   ID_MS1,
@@ -1353,6 +1354,18 @@ export const isleOfDawn = [
           `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
           `lumipad ka gawing kanan at may lagusan papasok sa Cave of Prophecy pumasok ka,`,
           `Pumasok ka sa Fire Trial ng Cave of Prophecy nasa dulo ng trial ang winged light.`,
+        ],
+      },
+      {
+        id: 10,
+        wl_label: 'WL10-Sand Dunes Migration Camp',
+        wl_group: 'wl-isle',
+        wl_season_group: 'wl-isle-season-27',
+        wl_url: ID_WL10 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `Lumipad ka gawing kaliwa at hanapin lamang ang Camp Site ng Migration`,
+          `Sa Likod ng Camp Door Post makikita ang Winged Light.`,
         ],
       },
     ],

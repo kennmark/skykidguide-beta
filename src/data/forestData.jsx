@@ -71,6 +71,7 @@ import {
   HF_WL18,
   HF_WL19,
   HF_WL20,
+  HF_WL21,
 } from '../exports/forestImgWLUrl'
 import {
   HF_MS1,
@@ -2278,6 +2279,18 @@ export const hiddenForest = [
           `Pasok sa Map 3 | Hiddden Forest, Dumako patungong Forest Brook-pagkatapos ng 3rd gate`,
           `Pagdating sa Brook ay dumako sa lagusan sa gawing kanan papuntang Elevated Clearing`,
           `Pagdating ay magtungo malapit sa tulay, at sa gawing kanan makita ang Sanga papuntang Season Area`,
+        ],
+      },
+      {
+        id: 21,
+        wl_label: 'WL21-Wind Paths Main Island',
+        wl_group: 'wl-forest',
+        wl_season_group: 'wl-forest-21',
+        wl_url: HF_WL21 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pasok sa Map 3 | Hiddden Forest, lumipad ka gawing kanan at pumasok ka sa lagusan.`,
+          `Paglabas mo sa Wind Path, ay may malaking isla sa gitna, `,
+          `Lumipad gawing kanan ng malaking isla sa gitna at nasa gilid malapit sa tuktok.`,
         ],
       },
     ],
