@@ -1434,35 +1434,40 @@ export const prairie = [
             label: 'Hair',
             img: MONK_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 32,
           },
           {
             label: 'Mask',
             img: MONK_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 45,
           },
           {
             label: 'Outfit',
             img: MONK_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 75,
           },
           {
             label: 'Emote',
             img: ASCETIC_MONK,
             currency: 'Hearts',
-            price: 0,
+            price: 13,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
-            hearts: 0,
+            candles: 165,
+            hearts: 13,
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Jan 1, 2026',
+            visitNo: 156,
+          },
+        ],
         icon_route: SEASON18,
         spirit_guide_video_url: youtube_embed + 'vQ_Jyh_oink',
         spirit_direction: [
