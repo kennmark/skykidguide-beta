@@ -22,6 +22,7 @@ import SeasonOfDuets from '../../assets/images/home-carousel/Season-of-Duets.web
 const S22DuetPage = () => {
   const [activeTab, setActiveTab] = useState('info')
   const {
+    id,
     name,
     time_duration,
     spirit_num,
@@ -60,6 +61,7 @@ const S22DuetPage = () => {
       </div>
       <div className="justify-start w-full">
         <PageHeaderContainer
+          seasonId={id}
           imgUrl={icon_route}
           alt={name}
           height={25}

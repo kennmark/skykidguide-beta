@@ -19,6 +19,7 @@ import ScrollToTop from 'react-scroll-to-top'
 const S11Flight = () => {
   const [activeTab, setActiveTab] = useState('info')
   const {
+    id,
     name,
     time_duration,
     spirit_num,
@@ -54,6 +55,7 @@ const S11Flight = () => {
       </div>
       <div className="justify-start w-full">
         <PageHeaderContainer
+          seasonId={id}
           imgUrl={icon_route}
           alt={name}
           height={25}

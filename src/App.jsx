@@ -279,6 +279,14 @@ const S27Migration = lazy(() => {
     )
   })
 })
+const S28LightMending = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S28LightMendingPage')),
+      300
+    )
+  })
+})
 
 function App() {
   return (
@@ -614,6 +622,14 @@ function App() {
                 element={
                   <Layout>
                     <S27Migration />
+                  </Layout>
+                }
+              />
+              <Route
+                path="seasons/2026/season-28/lightmending"
+                element={
+                  <Layout>
+                    <S28LightMending />
                   </Layout>
                 }
               />

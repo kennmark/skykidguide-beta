@@ -1,7 +1,7 @@
 import carousel1 from '../assets/images/home-carousel/home-slideshow-1.webp'
 import carousel2 from '../assets/images/home-carousel/home-slideshow-2.webp'
 import carousel3 from '../assets/images/home-carousel/home4.webp'
-import carousel7 from '../assets/images/home-carousel/Season-of-Migration.webp'
+import carousel7 from '../assets/images/home-carousel/Season-of-LightMending.webp'
 import carousel4 from '../assets/images/events/DaysOfFortune2025.webp'
 
 export const announcementCarousel = [
@@ -26,7 +26,7 @@ export const announcementCarousel = [
   {
     id: 4,
     img_url: carousel7,
-    alt: 'Upcoming Season 27 - Season of Migration',
+    alt: 'Upcoming Season 28 - Season of Lightmending',
     url: '',
   },
 ]

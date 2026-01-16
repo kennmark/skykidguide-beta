@@ -24,6 +24,7 @@ import DyeAlertMessage from '../components/DyeAlertMessage'
 const S24RadiancePage = () => {
   const [activeTab, setActiveTab] = useState('info')
   const {
+    id,
     name,
     time_duration,
     spirit_num,
@@ -65,6 +66,7 @@ const S24RadiancePage = () => {
       </div>
       <div className="justify-start w-full">
         <PageHeaderContainer
+          seasonId={id}
           imgUrl={icon_route}
           alt={name}
           height={25}

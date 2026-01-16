@@ -1,9 +1,9 @@
 import { Carousel, Typography, Button, Card } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
-import carousel1 from '../assets/images/seasonal-banners/S27A.webp'
-import carousel2 from '../assets/images/seasonal-banners/S27B.webp'
-import carousel3 from '../assets/images/seasonal-banners/S27C.webp'
+import carousel1 from '../assets/images/seasonal-banners/S28A.webp'
+import carousel2 from '../assets/images/seasonal-banners/S28B.webp'
+import carousel3 from '../assets/images/seasonal-banners/S28C.webp'
 import SeasonDisplayContainer from './components/SeasonDisplayContainer'
 import {
   seasons2019,
@@ -13,6 +13,7 @@ import {
   seasons2023,
   seasons2024,
   seasons2025,
+  seasons2026,
 } from '../data/seasons'
 import { Link } from 'react-router-dom'
 const PageSeasonMap = () => {
@@ -44,7 +45,7 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 27 | Season of Migration
+                    Season 87 | Season of Lightmending
                   </Typography>
                   <Typography
                     variant="lead"
@@ -82,15 +83,14 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    The Season of Migration Is Upon Us
+                    Lightmending Broken Memory Lanterns
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    An ancient rhythm that calls the migrating creatures of
-                    light to rise, gather, and journey together.
+                    Join together, use your light, and fix what has been broken.
                   </Typography>
                 </div>
               </div>
@@ -108,16 +108,19 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Take Flight in the Season of Migration
+                    Team up, follow the clues, and piece the lanterns back
+                    together
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    The migrating herd has begun its journey, but they cannot
-                    complete it alone. Will you rise to the role of shepherd and
-                    guide, helping them find their way home?
+                    Who could have guessed that Memory Lanterns are so fragile?
+                    Answer the call from this season’s Quest Giver, who has
+                    recruited some old friends to show Sky Kids everywhere that
+                    they can work together with their light to mend the Vault’s
+                    precious lanterns.
                   </Typography>
                 </div>
               </div>
@@ -259,6 +262,22 @@ const PageSeasonMap = () => {
               </TimelineItem>
             </Timeline>
           </div> */}
+          {/* Seasons 2026 */}
+          <div className="pt-5 w-full px-5">
+            <div className="">
+              <Card className="flex justify-center text-xl py-2 md:py-5 px-3 bg-[#233d4d] text-[#fe7f2d]">
+                Seasons 2026 - [
+                {seasons2026.map((seasonNames) => seasonNames.name + ', ')}]
+              </Card>
+            </div>
+
+            <div className="flex flex-wrap  justify-center gap-4 py-5">
+              {seasons2026.map((season) => {
+                return <SeasonDisplayContainer {...season} key={season.id} />
+              })}
+            </div>
+          </div>
+          {/* Seasons 2026 */}
           {/* Seasons 2025 */}
           <div className="pt-5 w-full px-5">
             <div className="">

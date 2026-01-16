@@ -49,6 +49,18 @@ const MapShrineIntro = () => {
           </span>{' '}
           sa iOS at Android OS .
         </Typography>
+        <Typography>
+          May panibagong feature ngayon ang Map Locator na kung saan maari mong
+          ma-access ang the same feature ng Map Shrine kahit saan man sa Sky.
+          Maari mo lamang makita ang kabuuan ng Sky kapag nasindihan mo na ang
+          mga Map Shrines na ito.
+        </Typography>
+        <Typography>
+          Sa paraan ding ito, ang Map Locator ay may mga features na kung saan
+          makikita mo kung asan ang mga Past Seasons Guide makikita sa mundo ng
+          Sky. Dito rin makikita kung ilang winged lights pa ang kulang mo at
+          ilang Regular at Seasonal Spirits ang nakuha at na-relive mo na.
+        </Typography>
       </div>
       <div className="flex flex-wrap justify-center items-center">
         <Card className="py-3 px-1">

@@ -22,6 +22,7 @@ import SeasonOf9ColoredDeer from '../../assets/images/home-carousel/Season-of-9-
 const S20TheNineColoredDeerPage = () => {
   const [activeTab, setActiveTab] = useState('info')
   const {
+    id,
     name,
     time_duration,
     spirit_num,
@@ -57,6 +58,7 @@ const S20TheNineColoredDeerPage = () => {
       </div>
       <div className="justify-start w-full">
         <PageHeaderContainer
+          seasonId={id}
           imgUrl={icon_route}
           alt={name}
           height={25}

@@ -55,6 +55,7 @@ const S4RhythmPage = () => {
       </div>
       <div className="justify-start w-full">
         <PageHeaderContainer
+          seasonId={id}
           imgUrl={icon_route}
           alt={name}
           height={25}

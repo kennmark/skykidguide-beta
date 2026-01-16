@@ -9,6 +9,7 @@ import ms8 from '../assets/images/map-shrines/Vault/VK_MS8.jpg'
 import ms9 from '../assets/images/map-shrines/Vault/VK_MS9.jpg'
 import ms10 from '../assets/images/map-shrines/Vault/VK_MS10.jpg'
 import ms11 from '../assets/images/map-shrines/Vault/VK_MS11.jpg'
+import ms12 from '../assets/images/map-shrines/Vault/VK_MS12.jpg'
 
 export const VK_MS1 = ms1
 export const VK_MS2 = ms2
@@ -21,3 +22,4 @@ export const VK_MS8 = ms8
 export const VK_MS9 = ms9
 export const VK_MS10 = ms10
 export const VK_MS11 = ms11
+export const VK_MS12 = ms12

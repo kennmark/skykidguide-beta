@@ -27,6 +27,7 @@ import AccordionSeason2022 from './AccordionSeason2022'
 import AccordionSeason2023 from './AccordionSeason2023'
 import AccordionSeason2024 from './AccordionSeason2024'
 import AccordionSeason2025 from './AccordionSeason2025'
+import AccordionSeason2026 from './AccordionSeason2026'
 import { Link } from 'react-router-dom'
 
 const SideBar = ({ screenSize }) => {
@@ -98,6 +99,7 @@ const SideBar = ({ screenSize }) => {
 
         <hr className="my-2 border-[#fe7f2d]" />
 
+        <AccordionSeason2026 open={open} handleOpen={handleOpen} />
         <AccordionSeason2025 open={open} handleOpen={handleOpen} />
         <AccordionSeason2024 open={open} handleOpen={handleOpen} />
         <AccordionSeason2023 open={open} handleOpen={handleOpen} />

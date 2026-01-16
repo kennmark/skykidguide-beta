@@ -165,16 +165,16 @@ html {
 }
 
 .map-9 {
-  background: #08bddd;
+  background: #dabfff;
   background: linear-gradient(
       0deg,
-      rgb(42, 119, 155) 0%,
-      rgba(6, 106, 199, 0.75) 29%,
-      rgba(31, 144, 237, 0.5) 38%,
-      rgba(46, 112, 255, 0.25) 60%,
-      rgba(120, 179, 255, 0.1) 81%
+      rgb(218, 191, 255) 0%,
+      rgba(144, 122, 214, 0.75) 29%,
+      rgba(79, 81, 140, 0.5) 38%,
+      rgba(44, 42, 74, 0.25) 60%,
+      rgba(48, 20, 102, 0.1) 81%
     ),
-    url(./assets/images/map-card-bg/map-27-bg-card.webp);
+    url(./assets/images/map-card-bg/map-28-bg-card.webp);
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;

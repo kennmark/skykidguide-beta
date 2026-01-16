@@ -51,10 +51,10 @@ export const AVIARY_NUM_SEASON_SPIRIT = 16
 export const AVIARY_NUM_WL = 0
 export const AVIARY_NUM_MAP_SHRINES = 1
 
-export const S27_NUM_REG_SPIRIT = 0
-export const S27_NUM_SEASON_SPIRIT = 5
-export const S27_NUM_WL = 2
-export const S27_NUM_MAP_SHRINES = 0
+export const S28_NUM_REG_SPIRIT = 0
+export const S28_NUM_SEASON_SPIRIT = 4
+export const S28_NUM_WL = 0
+export const S28_NUM_MAP_SHRINES = 1
 
 export const WL_COUNT =
   ISLE_NUM_WL +

@@ -61,6 +61,7 @@ import {
   VK_MS9,
   VK_MS10,
   VK_MS11,
+  VK_MS12,
 } from '../exports/vaultMSImgUrl'
 import {
   MAP6,
@@ -72,6 +73,7 @@ import {
   SEASON16,
   SEASON20,
   SEASON23,
+  SEASON28,
 } from '../exports/seasonIcons'
 import {
   VAULT_SPIRIT_1,
@@ -1829,6 +1831,202 @@ export const vault = [
           `Pagkdating ay magtunog sa grassy area kung saan ang shop ng mga entities.`,
         ],
       },
+      //Lightmending Champion
+      {
+        spirit_id: 'lightmending-1',
+        spirit_name: `Lightmending Champion`,
+        spirit_img_url: 'RADIANCE_PROVOKING_PERFORMER',
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: 'AVIARY_SPIRIT_1',
+        icon_route: SEASON28,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: 'RPP_ITEM_1',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Suitpants',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
+      //Lightmending Pioneer
+      {
+        spirit_id: 'lightmending-2',
+        spirit_name: `Lightmending Pioneer`,
+        spirit_img_url: 'RADIANCE_PROVOKING_PERFORMER',
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: 'AVIARY_SPIRIT_1',
+        icon_route: SEASON28,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: 'RPP_ITEM_1',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Suitpants',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
+      //Lightmending Light Scholar
+      {
+        spirit_id: 'lightmending-3',
+        spirit_name: `Lightmending Light Scholar`,
+        spirit_img_url: 'RADIANCE_PROVOKING_PERFORMER',
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: 'AVIARY_SPIRIT_1',
+        icon_route: SEASON28,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: 'RPP_ITEM_1',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Cape',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Suitpants',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
+      //Lightmending Light Catcher
+      {
+        spirit_id: 'lightmending-4',
+        spirit_name: `Lightmending Light Catcher`,
+        spirit_img_url: 'RADIANCE_PROVOKING_PERFORMER',
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: 'AVIARY_SPIRIT_1',
+        icon_route: SEASON28,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: 'RPP_ITEM_1',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Cape',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Instrument',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
     ],
   },
   {
@@ -2168,6 +2366,17 @@ export const vault = [
         id: 11,
         shrine_label: 'Map Shrine 11',
         shrine_url: VK_MS11 ?? MAP_SHRINE,
+        shrine_location: [
+          `Pasok sa Map 6 | Vault of Knowledge`,
+          `Lumipad gawing kaliwa, at pumasok sa portal papuntang Collaboration Room.`,
+          `Pumasok ka at pagkadating sa collaboration room, umupo sa icon ng deer upang makarating sa Crescent Oasis`,
+          `Pagkadating, ay magtungo sa malapit sa tent na green at malapit dito ang map shrine.`,
+        ],
+      },
+      {
+        id: 12,
+        shrine_label: 'Map Shrine 12',
+        shrine_url: VK_MS12 ?? MAP_SHRINE,
         shrine_location: [
           `Pasok sa Map 6 | Vault of Knowledge`,
           `Lumipad gawing kaliwa, at pumasok sa portal papuntang Collaboration Room.`,

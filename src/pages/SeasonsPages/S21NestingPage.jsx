@@ -22,6 +22,7 @@ import SeasonOfNesting from '../../assets/images/home-carousel/Season-of-Nesting
 const S21NestingPage = () => {
   const [activeTab, setActiveTab] = useState('info')
   const {
+    id,
     name,
     time_duration,
     spirit_num,
@@ -57,6 +58,7 @@ const S21NestingPage = () => {
       </div>
       <div className="justify-start w-full">
         <PageHeaderContainer
+          seasonId={id}
           imgUrl={icon_route}
           alt={name}
           height={25}

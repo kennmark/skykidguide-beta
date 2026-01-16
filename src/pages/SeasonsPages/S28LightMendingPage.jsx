@@ -6,6 +6,7 @@ import {
   TabsBody,
   TabPanel,
   Typography,
+  Spinner,
 } from '@material-tailwind/react'
 import SpiritCardContainer from '../components/SpiritCardContainer'
 import CardContainer from '../components/CardContainer'
@@ -13,10 +14,12 @@ import PageHeaderContainer from '../components/PageHeaderContainer'
 import { SideBarContainer } from '../components/SidebarContainer'
 import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
-import { seasons2020 } from '../../data/seasons'
+import { allSeasons, seasons2026 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import SeasonOfLightMending from '../../assets/images/home-carousel/Season-of-LightMending.webp'
 
-const S6SanctuaryPage = () => {
+const S28LightMendingPage = () => {
   const [activeTab, setActiveTab] = useState('info')
   const {
     id,
@@ -30,7 +33,13 @@ const S6SanctuaryPage = () => {
     season_spirits,
     winged_lights,
     map_shrines,
-  } = seasons2020[2]
+    season_type,
+  } = seasons2026[0]
+
+  const currentSeasonId = seasons2026.length - 1
+  const isCurrentSeason =
+    allSeasons.length === seasons2026[currentSeasonId].id ? true : false
+  const dateToday = new Date()
 
   const [checkedSpirits, setCheckedSpirits] = useState(() => {
     const saved = localStorage.getItem('checkedSpirits')
@@ -61,7 +70,7 @@ const S6SanctuaryPage = () => {
           height={25}
           width={75}
           title={name}
-          mapIntro={'An escape from daily civilization'}
+          mapIntro={quick_info}
         />
         <Tabs id="custom-animation" value={activeTab}>
           <TabsHeader className="bg-[#233d4d] flex items-center">
@@ -87,25 +96,32 @@ const S6SanctuaryPage = () => {
             <TabPanel key={activeTab} value={activeTab}>
               {activeTab === 'info' && (
                 <div className="text-gray-100 pb-5">
+                  <LazyLoadImage
+                    src={SeasonOfLightMending}
+                    alt="Season of Migration"
+                    title="Season of Migration"
+                    placeholderSrc={
+                      <Spinner className="h-10 w-10 text-gray-900/50" />
+                    }
+                    effect="blur"
+                    className="rounded-xl"
+                  />
                   <Typography>
-                    {quick_info} Nagsimula ito noong {time_duration}. May{' '}
-                    {spirit_num} na spirits sa season na ito at{' '}
-                    {wl_num ? 'May ' + wl_num : '(0) o walang winged light '}
-                    &nbsp; winged light(s) dito. Sa season na ito ay
-                    {ms_num
-                      ? ' may ' + ms_num
-                      : ' (0) o walang map shrine'}{' '}
-                    &nbsp;map shrine(s) dito.
-                  </Typography>
+                    {quick_info}{' '}
+                    {time_duration === dateToday
+                      ? 'Nagsimula ito noong '
+                      : 'Magsisimula ito ngayong '}
+                    {time_duration}.{' '}
+                    {spirit_num > 0
+                      ? `May ${spirit_num} na spirits sa season na
+                    ito. `
+                      : `Walang spirit sa season na ito. `}{' '}
+                    At {wl_num ? 'May ' + wl_num : '(0) o walang'}
+                    &nbsp; winged light(s). Sa season na ito ay
+                    {ms_num ? ' may ' + ms_num : ' (0) o walang'} &nbsp;map
+                    shrine(s).
+                  </Typography>{' '}
                   <br />
-                  <Typography>
-                    Ang Sanctuary Islands ay makikita sa Daylight Prairie.
-                    Pumasok lang sa pangalawang mapa at lumipad pababa sa mga
-                    kaulapan. Pagkalapag sa Butterfly Field, may lagusan sa
-                    gawing kanan, pumasok ka. Pagkarating sa Bird's Nest,
-                    lumipad pababa patungo sa may lagusan at makakarating ka sa
-                    Sanctuary Islands.
-                  </Typography>
                 </div>
               )}
 
@@ -118,6 +134,7 @@ const S6SanctuaryPage = () => {
                         icon_route={icon_route}
                         key={spirit.spirit_id}
                         season={name}
+                        isCurrentSeason={isCurrentSeason}
                         checkedSpirits={checkedSpirits}
                         handleCheckboxChange={handleCheckboxChange}
                       />
@@ -158,4 +175,4 @@ const S6SanctuaryPage = () => {
   )
 }
 
-export default S6SanctuaryPage
+export default S28LightMendingPage

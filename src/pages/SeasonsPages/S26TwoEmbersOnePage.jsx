@@ -22,6 +22,7 @@ import SeasonOfTwoEmbersOne from '../../assets/images/home-carousel/Season-of-Th
 const S26TwoEmbersOnePage = () => {
   const [activeTab, setActiveTab] = useState('info')
   const {
+    id,
     name,
     time_duration,
     spirit_num,
@@ -63,6 +64,7 @@ const S26TwoEmbersOnePage = () => {
       </div>
       <div className="justify-start w-full">
         <PageHeaderContainer
+          seasonId={id}
           imgUrl={icon_route}
           alt={name}
           height={25}

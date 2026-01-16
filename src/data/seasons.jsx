@@ -26,6 +26,7 @@ import {
   SEASON25,
   SEASON26,
   SEASON27,
+  SEASON28,
 } from '../exports/seasonIcons'
 
 import {
@@ -4112,6 +4113,224 @@ export const seasons2025 = [
     // ],
   },
 ]
+export const seasons2026 = [
+  {
+    id: 28,
+    name: 'LightMending',
+    season_type: 1,
+    time_duration: 'Janaury 16, 2026 - April 3, 2026',
+    spirit_num: 4,
+    wl_num: 0,
+    ms_num: 1,
+    icon_route: SEASON28,
+    page_route: 'seasons/2026/season-28/lightmending',
+    quick_info: `Season of Lightmending!`,
+    season_spirits: [
+      //Lightmending Champion
+      {
+        spirit_id: 'lightmending-1',
+        spirit_name: `Lightmending Champion`,
+        spirit_img_url: 'RADIANCE_PROVOKING_PERFORMER',
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: 'AVIARY_SPIRIT_1',
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: 'RPP_ITEM_1',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Suitpants',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
+      //Lightmending Pioneer
+      {
+        spirit_id: 'lightmending-2',
+        spirit_name: `Lightmending Pioneer`,
+        spirit_img_url: 'RADIANCE_PROVOKING_PERFORMER',
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: 'AVIARY_SPIRIT_1',
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: 'RPP_ITEM_1',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Suitpants',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
+      //Lightmending Light Scholar
+      {
+        spirit_id: 'lightmending-3',
+        spirit_name: `Lightmending Light Scholar`,
+        spirit_img_url: 'RADIANCE_PROVOKING_PERFORMER',
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: 'AVIARY_SPIRIT_1',
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: 'RPP_ITEM_1',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Cape',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Suitpants',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
+      //Lightmending Light Catcher
+      {
+        spirit_id: 'lightmending-4',
+        spirit_name: `Lightmending Light Catcher`,
+        spirit_img_url: 'RADIANCE_PROVOKING_PERFORMER',
+        spirit_category: 'emote',
+        spirit_relive_type: 'none',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_image: 'AVIARY_SPIRIT_1',
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: 'RPP_ITEM_1',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Mask',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Cape',
+            img: 'RPP_ITEM_2',
+            currency: 'Season Candles',
+            price: 23,
+          },
+          {
+            label: 'Instrument',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: 'RPP_ITEM_3',
+            currency: 'Season Candles',
+            price: 0,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 0,
+            hearts: 0,
+            ascended_candles: 0,
+          },
+        ],
+        number_of_visits: [],
+      },
+    ],
+    winged_lights: [],
+    map_shrines: [
+      {
+        id: vault[3].map_shrines[11].id,
+        shrine_group: vault[3].map_shrines[11].shrine_group,
+        shrine_label: vault[3].map_shrines[11].shrine_label,
+        shrine_url: vault[3].map_shrines[11].shrine_url,
+        shrine_location: vault[3].map_shrines[11].shrine_location,
+      },
+    ],
+  },
+]
 
 export const allSeasons = [
   {
@@ -7778,5 +7997,231 @@ export const allSeasons = [
         shrine_location: hiddenForest[3].map_shrines[10].shrine_location,
       },
     ],
+  },
+  {
+    id: 26,
+    name: 'The Two Embers I',
+    season_type: 1,
+    time_duration: 'July 21, 2025 - October 6, 2025',
+    spirit_num: 5,
+    wl_num: 0,
+    ms_num: 1,
+    icon_route: SEASON26,
+    page_route: 'seasons/2025/season-26/two-embers-one',
+    quick_info: `The heart and history of Sky.`,
+    season_spirits: [
+      //Scared Sentry
+      {
+        spirit_id: wasteland[1].spirits[14].spirit_id,
+        spirit_name: wasteland[1].spirits[14].spirit_name,
+        spirit_img_url: wasteland[1].spirits[14].spirit_img_url,
+        spirit_category: wasteland[1].spirits[14].spirit_category,
+        spirit_relive_type: wasteland[1].spirits[14].spirit_relive_type,
+        difficulty_level: wasteland[1].spirits[14].difficulty_level,
+        difficulty_types: wasteland[1].spirits[14].difficulty_types,
+        spirit_image: wasteland[1].spirits[14].spirit_image,
+        spirit_collectibles: wasteland[1].spirits[14].spirit_collectibles,
+        spirit_tree_cost: wasteland[1].spirits[14].spirit_tree_cost,
+        number_of_visits: wasteland[1].spirits[14].number_of_visits,
+        spirit_guide_video_url: wasteland[1].spirits[14].spirit_guide_video_url,
+        spirit_direction: wasteland[1].spirits[14].spirit_direction,
+      },
+      //Stern Shepherd
+      {
+        spirit_id: wasteland[1].spirits[15].spirit_id,
+        spirit_name: wasteland[1].spirits[15].spirit_name,
+        spirit_img_url: wasteland[1].spirits[15].spirit_img_url,
+        spirit_category: wasteland[1].spirits[15].spirit_category,
+        spirit_relive_type: wasteland[1].spirits[15].spirit_relive_type,
+        difficulty_level: wasteland[1].spirits[15].difficulty_level,
+        difficulty_types: wasteland[1].spirits[15].difficulty_types,
+        spirit_image: wasteland[1].spirits[15].spirit_image,
+        spirit_collectibles: wasteland[1].spirits[15].spirit_collectibles,
+        spirit_tree_cost: wasteland[1].spirits[15].spirit_tree_cost,
+        number_of_visits: wasteland[1].spirits[15].number_of_visits,
+        spirit_guide_video_url: wasteland[1].spirits[15].spirit_guide_video_url,
+        spirit_direction: wasteland[1].spirits[15].spirit_direction,
+      },
+      //Resourceful Recluse
+      {
+        spirit_id: wasteland[1].spirits[16].spirit_id,
+        spirit_name: wasteland[1].spirits[16].spirit_name,
+        spirit_img_url: wasteland[1].spirits[16].spirit_img_url,
+        spirit_category: wasteland[1].spirits[16].spirit_category,
+        spirit_relive_type: wasteland[1].spirits[16].spirit_relive_type,
+        difficulty_level: wasteland[1].spirits[16].difficulty_level,
+        difficulty_types: wasteland[1].spirits[16].difficulty_types,
+        spirit_image: wasteland[1].spirits[16].spirit_image,
+        spirit_collectibles: wasteland[1].spirits[16].spirit_collectibles,
+        spirit_tree_cost: wasteland[1].spirits[16].spirit_tree_cost,
+        number_of_visits: wasteland[1].spirits[16].number_of_visits,
+        spirit_guide_video_url: wasteland[1].spirits[16].spirit_guide_video_url,
+        spirit_direction: wasteland[1].spirits[16].spirit_direction,
+      },
+      //Tender Toymaker
+      {
+        spirit_id: wasteland[1].spirits[17].spirit_id,
+        spirit_name: wasteland[1].spirits[17].spirit_name,
+        spirit_img_url: wasteland[1].spirits[17].spirit_img_url,
+        spirit_category: wasteland[1].spirits[17].spirit_category,
+        spirit_relive_type: wasteland[1].spirits[17].spirit_relive_type,
+        difficulty_level: wasteland[1].spirits[17].difficulty_level,
+        difficulty_types: wasteland[1].spirits[17].difficulty_types,
+        spirit_image: wasteland[1].spirits[17].spirit_image,
+        spirit_collectibles: wasteland[1].spirits[17].spirit_collectibles,
+        spirit_tree_cost: wasteland[1].spirits[17].spirit_tree_cost,
+        number_of_visits: wasteland[1].spirits[17].number_of_visits,
+        spirit_guide_video_url: wasteland[1].spirits[17].spirit_guide_video_url,
+        spirit_direction: wasteland[1].spirits[17].spirit_direction,
+      },
+    ],
+
+    winged_lights: [
+      // {
+      //   id: hiddenForest[2].winged_lights[19].id,
+      //   wl_label: hiddenForest[2].winged_lights[19].wl_label,
+      //   wl_group: hiddenForest[2].winged_lights[19].wl_group,
+      //   wl_season_group: hiddenForest[2].winged_lights[19].wl_season_group,
+      //   wl_url: hiddenForest[2].winged_lights[19].wl_url,
+      //   wl_location: hiddenForest[2].winged_lights[19].wl_location,
+      // },
+    ],
+    map_shrines: [
+      {
+        id: wasteland[3].map_shrines[8].id,
+        shrine_group: wasteland[3].map_shrines[8].shrine_group,
+        shrine_label: wasteland[3].map_shrines[8].shrine_label,
+        shrine_url: wasteland[3].map_shrines[8].shrine_url,
+        shrine_location: wasteland[3].map_shrines[8].shrine_location,
+      },
+    ],
+  },
+  {
+    id: 27,
+    name: 'Migration',
+    season_type: 1,
+    time_duration: 'October 20, 2025 - January 5, 2026 ',
+    spirit_num: 5,
+    wl_num: 2,
+    ms_num: 0,
+    icon_route: SEASON27,
+    page_route: 'seasons/2025/season-27/migration',
+    quick_info: `Mystical Light Creatures Overcome challenges.`,
+    season_spirits: [
+      //LIGHTHORN_WHISPERER
+      {
+        spirit_id: 'migration-2',
+        spirit_name: isleOfDawn[1].spirits[12].spirit_name,
+        spirit_img_url: isleOfDawn[1].spirits[12].spirit_img_url,
+        spirit_category: isleOfDawn[1].spirits[12].spirit_category,
+        spirit_relive_type: isleOfDawn[1].spirits[12].spirit_relive_type,
+        difficulty_level: isleOfDawn[1].spirits[12].difficulty_level,
+        difficulty_types: isleOfDawn[1].spirits[12].difficulty_types,
+        spirit_image: isleOfDawn[1].spirits[12].spirit_image,
+        spirit_collectibles: isleOfDawn[1].spirits[12].spirit_collectibles,
+        spirit_tree_cost: isleOfDawn[1].spirits[12].spirit_tree_cost,
+        number_of_visits: isleOfDawn[1].spirits[12].number_of_visits,
+        spirit_guide_video_url:
+          isleOfDawn[1].spirits[12].spirit_guide_video_url,
+        spirit_direction: isleOfDawn[1].spirits[12].spirit_direction,
+      },
+      //MIGRATING_MANTA_WHISPERER
+      {
+        spirit_id: 'migration-1',
+        spirit_name: hiddenForest[1].spirits[19].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[19].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[19].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[19].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[19].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[19].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[19].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[19].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[19].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[19].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[19].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[19].spirit_direction,
+      },
+
+      //MIGRATING_BIRD_WHISPERER
+      {
+        spirit_id: 'migration-3',
+        spirit_name: hiddenForest[1].spirits[20].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[20].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[20].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[20].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[20].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[20].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[20].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[20].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[20].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[20].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[20].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[20].spirit_direction,
+      },
+      //MIGRATING_BUTTERFLY_WHISPERER
+      {
+        spirit_id: 'migration-4',
+        spirit_name: hiddenForest[1].spirits[21].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[21].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[21].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[21].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[21].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[21].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[21].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[21].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[21].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[21].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[21].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[21].spirit_direction,
+      },
+      //MIGRATING_JELLY_WHISPERER
+      {
+        spirit_id: 'migration-5',
+        spirit_name: hiddenForest[1].spirits[22].spirit_name,
+        spirit_img_url: hiddenForest[1].spirits[22].spirit_img_url,
+        spirit_category: hiddenForest[1].spirits[22].spirit_category,
+        spirit_relive_type: hiddenForest[1].spirits[22].spirit_relive_type,
+        difficulty_level: hiddenForest[1].spirits[22].difficulty_level,
+        difficulty_types: hiddenForest[1].spirits[22].difficulty_types,
+        spirit_image: hiddenForest[1].spirits[22].spirit_image,
+        spirit_collectibles: hiddenForest[1].spirits[22].spirit_collectibles,
+        spirit_tree_cost: hiddenForest[1].spirits[22].spirit_tree_cost,
+        number_of_visits: hiddenForest[1].spirits[22].number_of_visits,
+        spirit_guide_video_url:
+          hiddenForest[1].spirits[22].spirit_guide_video_url,
+        spirit_direction: hiddenForest[1].spirits[22].spirit_direction,
+      },
+    ],
+
+    winged_lights: [
+      {
+        id: isleOfDawn[2].winged_lights[9].id,
+        wl_label: isleOfDawn[2].winged_lights[9].wl_label,
+        wl_group: isleOfDawn[2].winged_lights[9].wl_group,
+        wl_season_group: isleOfDawn[2].winged_lights[9].wl_season_group,
+        wl_url: isleOfDawn[2].winged_lights[9].wl_url,
+        wl_location: isleOfDawn[2].winged_lights[9].wl_location,
+      },
+      {
+        id: hiddenForest[2].winged_lights[20].id,
+        wl_label: hiddenForest[2].winged_lights[20].wl_label,
+        wl_group: hiddenForest[2].winged_lights[20].wl_group,
+        wl_season_group: hiddenForest[2].winged_lights[20].wl_season_group,
+        wl_url: hiddenForest[2].winged_lights[20].wl_url,
+        wl_location: hiddenForest[2].winged_lights[20].wl_location,
+      },
+    ],
+    // map_shrines: [
+    //   {
+    //     id: wasteland[3].map_shrines[8].id,
+    //     shrine_group: wasteland[3].map_shrines[8].shrine_group,
+    //     shrine_label: wasteland[3].map_shrines[8].shrine_label,
+    //     shrine_url: wasteland[3].map_shrines[8].shrine_url,
+    //     shrine_location: wasteland[3].map_shrines[8].shrine_location,
+    //   },
+    // ],
   },
 ]

@@ -20,6 +20,7 @@ import AuroraConcert from '../components/AuroraConcertContainer'
 const S15AuroraPage = () => {
   const [activeTab, setActiveTab] = useState('info')
   const {
+    id,
     name,
     time_duration,
     spirit_num,
@@ -55,6 +56,7 @@ const S15AuroraPage = () => {
       </div>
       <div className="justify-start w-full">
         <PageHeaderContainer
+          seasonId={id}
           imgUrl={icon_route}
           alt={name}
           height={25}

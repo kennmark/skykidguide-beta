@@ -197,6 +197,7 @@ const HomeSpace = () => {
       {/* <TestFile /> */}
       {/* Test */}
       {/* Map Cards */}
+      <div>{/* <TravellingSpirits /> */}</div>
       <div className="flex flex-wrap justify-center my-5 md:my-20">
         <div>
           <Typography variant="h1" className="text-[#fe7f2d]">
