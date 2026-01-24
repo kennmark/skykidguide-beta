@@ -25,6 +25,11 @@ import gatherer from '../assets/images/spirit-images/vault/Herb Gatherer.png'
 import lord from '../assets/images/spirit-images/vault/Feudal Lord.png'
 import princess from '../assets/images/spirit-images/vault/Princess.png'
 
+import lightmendingchampion from '../assets/images/spirit-images/vault/Lightmending-Champion.webp'
+import lightmendingpioneer from '../assets/images/spirit-images/vault/Lightmending-Pioneer.webp'
+import lightmendingscholar from '../assets/images/spirit-images/vault/Lightmending-Light-Scholar.webp'
+import lightmendingcatcher from '../assets/images/spirit-images/vault/Lightmending-Light-Catcher.webp'
+
 export const VAULT_SPIRIT_1 = adept
 export const VAULT_SPIRIT_2 = scholar
 export const VAULT_SPIRIT_3 = memory
@@ -52,3 +57,8 @@ export const VAULT_SEASON_SPIRIT_15 = hunter
 export const VAULT_SEASON_SPIRIT_16 = gatherer
 export const VAULT_SEASON_SPIRIT_17 = lord
 export const VAULT_SEASON_SPIRIT_18 = princess
+
+export const VAULT_SEASON_SPIRIT_19 = lightmendingchampion
+export const VAULT_SEASON_SPIRIT_20 = lightmendingpioneer
+export const VAULT_SEASON_SPIRIT_21 = lightmendingscholar
+export const VAULT_SEASON_SPIRIT_22 = lightmendingcatcher

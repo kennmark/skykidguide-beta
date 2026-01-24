@@ -80,6 +80,21 @@ import ioi4 from '../assets/images/spirit-collectibles/vault/InspirationOfInclus
 import ioi5 from '../assets/images/spirit-collectibles/vault/InspirationOfInclusion5.webp'
 import ioi6 from '../assets/images/spirit-collectibles/vault/InspirationOfInclusion6.webp'
 
+import lc1 from '../assets/images/spirit-collectibles/vault/LightChampion1.webp'
+import lc2 from '../assets/images/spirit-collectibles/vault/LightChampion2.webp'
+import lc3 from '../assets/images/spirit-collectibles/vault/LightChampion3.webp'
+import ls1 from '../assets/images/spirit-collectibles/vault/LightScholar1.webp'
+import ls2 from '../assets/images/spirit-collectibles/vault/LightScholar2.webp'
+import ls3 from '../assets/images/spirit-collectibles/vault/LightScholar3.webp'
+import ls4 from '../assets/images/spirit-collectibles/vault/LightScholar4.webp'
+import llc1 from '../assets/images/spirit-collectibles/vault/LightCatcher1.webp'
+import llc2 from '../assets/images/spirit-collectibles/vault/LightCatcher2.webp'
+import llc3 from '../assets/images/spirit-collectibles/vault/LightCatcher3.webp'
+import llc4 from '../assets/images/spirit-collectibles/vault/LightCatcher4.webp'
+import lp1 from '../assets/images/spirit-collectibles/vault/LightPioneer1.webp'
+import lp2 from '../assets/images/spirit-collectibles/vault/LightPioneer2.webp'
+import lp3 from '../assets/images/spirit-collectibles/vault/LightPioneer3.webp'
+
 export const ADEPT_ITEM_1 = adept1
 export const ADEPT_ITEM_2 = adept2
 export const SCHOLAR_ITEM_1 = scholar1
@@ -162,3 +177,17 @@ export const IOI_ITEM_3 = ioi3
 export const IOI_ITEM_4 = ioi4
 export const IOI_ITEM_5 = ioi5
 export const IOI_ITEM_6 = ioi6
+export const LC_ITEM_1 = lc1
+export const LC_ITEM_2 = lc2
+export const LC_ITEM_3 = lc3
+export const LS_ITEM_1 = ls1
+export const LS_ITEM_2 = ls2
+export const LS_ITEM_3 = ls3
+export const LS_ITEM_4 = ls4
+export const LLC_ITEM_1 = llc1
+export const LLC_ITEM_2 = llc2
+export const LLC_ITEM_3 = llc3
+export const LLC_ITEM_4 = llc4
+export const LP_ITEM_1 = lp1
+export const LP_ITEM_2 = lp2
+export const LP_ITEM_3 = lp3

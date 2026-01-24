@@ -158,6 +158,10 @@ import HerbGatherer from '../assets/images/emotes/map6/seasons/S20-herb-gatherer
 import Hunter from '../assets/images/emotes/map6/seasons/S20-hunter.webp'
 import FeudalLord from '../assets/images/emotes/map6/seasons/S20-feudal-lord.webp'
 import Princess from '../assets/images/emotes/map6/seasons/S20-princess.webp'
+import LightMendingChampion from '../assets/images/emotes/map6/seasons/S28-lightmending-champion.webp'
+import LightMendingPioneer from '../assets/images/emotes/map6/seasons/S28-lightmending-pioneer.webp'
+import LightMendingLightScholar from '../assets/images/emotes/map6/seasons/S28-lightmending-light-scholar.webp'
+import LightMendingLightCatcher from '../assets/images/emotes/map6/seasons/S28-lightmending-light-catcher.webp'
 
 // MAP 6
 
@@ -327,6 +331,10 @@ export const HERB_GATHERER = HerbGatherer
 export const HUNTER = Hunter
 export const FEUDAL_LORD = FeudalLord
 export const PRINCESS = Princess
+export const LIGHTMENDING_CHAMPION = LightMendingChampion
+export const LIGHTMENDING_PIONEER = LightMendingPioneer
+export const LIGHTMENDING_LIGHT_SCHOLAR = LightMendingLightScholar
+export const LIGHTMENDING_LIGHT_CATCHER = LightMendingLightCatcher
 
 // MAP 6
 
