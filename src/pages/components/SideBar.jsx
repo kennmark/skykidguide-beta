@@ -73,12 +73,12 @@ const SideBar = ({ screenSize }) => {
           </ListItem>
           <AccordionBody className="py-1">
             <List className="p-0">
-              {maps.map((map) => {
+              {maps.map((map, index) => {
                 return (
                   <Link
                     to={`/${map.pageRoute}`}
                     className=" flex justify-center"
-                    key={map.id}
+                    key={index}
                   >
                     <ListItem
                       selected={map.id}

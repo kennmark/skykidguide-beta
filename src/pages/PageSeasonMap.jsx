@@ -45,7 +45,7 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 87 | Season of Lightmending
+                    Season 28 | Season of Lightmending
                   </Typography>
                   <Typography
                     variant="lead"

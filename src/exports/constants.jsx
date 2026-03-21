@@ -3,6 +3,9 @@ import heart from '../assets/images/icons/heart.webp'
 import ac from '../assets/images/icons/AC.webp'
 import sc from '../assets/images/season-candles/28-season-of-lightmending/Lightmending-Candle.webp'
 
+// console.log(aviaryData[1].spirits.length)
+// const aviarySeasonSpiritCount = aviaryData[1].spirits.length
+
 export const RC = rc
 export const HEART = heart
 export const AC = ac
@@ -12,7 +15,7 @@ export const ORBIT_WL = 1
 export const SHARDS_WL = 6
 
 export const ISLE_NUM_REG_SPIRIT = 3
-export const ISLE_NUM_SEASON_SPIRIT = 12
+export const ISLE_NUM_SEASON_SPIRIT = 13
 export const ISLE_NUM_WL = 10
 export const ISLE_NUM_MAP_SHRINES = 9
 
@@ -22,7 +25,7 @@ export const PRAIRIE_NUM_WL = 24
 export const PRAIRIE_NUM_MAP_SHRINES = 9
 
 export const FOREST_NUM_REG_SPIRIT = 8
-export const FOREST_NUM_SEASON_SPIRIT = 14
+export const FOREST_NUM_SEASON_SPIRIT = 23
 export const FOREST_NUM_WL = 21
 export const FOREST_NUM_MAP_SHRINES = 11
 
@@ -32,12 +35,12 @@ export const VALLEY_NUM_WL = 17
 export const VALLEY_NUM_MAP_SHRINES = 11
 
 export const WASTELAND_NUM_REG_SPIRIT = 6
-export const WASTELAND_NUM_SEASON_SPIRIT = 14
+export const WASTELAND_NUM_SEASON_SPIRIT = 18
 export const WASTELAND_NUM_WL = 18
 export const WASTELAND_NUM_MAP_SHRINES = 8
 
 export const VAULT_NUM_REG_SPIRIT = 5
-export const VAULT_NUM_SEASON_SPIRIT = 18
+export const VAULT_NUM_SEASON_SPIRIT = 26
 export const VAULT_NUM_WL = 16
 export const VAULT_NUM_MAP_SHRINES = 11
 
@@ -90,4 +93,4 @@ export const MS_COUNT_DATE_UPDATED = 'July 21, 2025' // July 21, 2025 Season of 
 
 export const PLAYSTATION_MAX_WL = 247
 export const STEAM_MAX_WL = 227
-export const dtsValue = true //Adjust During Daylight Time Saving Every March and November
+export const dtsValue = false //Adjust During Daylight Time Saving Every March and November

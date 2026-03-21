@@ -8,19 +8,48 @@ import {
 } from '../exports/constants'
 import { NON_SPIRIT, MAP_SHRINE, WINGED_LIGHT } from '../exports/defaultImages'
 import { seasons2023, seasons2024, seasons2025 } from './seasons'
+import { Link } from 'react-router-dom'
+import { SEASON19, SEASON21, SEASON22, SEASON24 } from '../exports/seasonIcons'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export const aviaryData = [
   {
-    label: 'Regular Spirits',
-    value: 'regular_spirits',
+    label: 'Info',
+    value: 'info',
     desc: (
-      <Typography className="antialiased font-sans">
-        Ito ang pang-walong mapa - Aviary Village. May{' '}
-        <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
-          {AVIARY_NUM_REG_SPIRIT}
-        </span>{' '}
-        regular spirits na makikita mo dito.
-      </Typography>
+      <div className="">
+        <Typography className="antialiased font-sans inline-flex ">
+          Narito ang Seasons of:
+          <Link to="/seasons/2023/season-19/revival" className="inline-flex">
+            <div className="">
+              <LazyLoadImage src={SEASON19} style={{ width: 25 }} />
+            </div>
+            Revival
+          </Link>
+          ,
+          <Link to="/seasons/2024/season-21/nesting" className="inline-flex">
+            <div className="">
+              <LazyLoadImage src={SEASON21} style={{ width: 25 }} />
+            </div>
+            Nesting
+          </Link>
+          ,
+          <Link to="/seasons/2024/season-22/duets" className="inline-flex">
+            <div className="">
+              <LazyLoadImage src={SEASON22} style={{ width: 25 }} />
+            </div>
+            Duets
+          </Link>
+          ,
+          <Link to="/seasons/2025/season-24/radiance" className="inline-flex">
+            <div className="">
+              <LazyLoadImage src={SEASON24} style={{ width: 25 }} />
+            </div>
+            Radiance
+          </Link>
+          .
+        </Typography>
+      </div>
     ),
     spirits: [],
   },

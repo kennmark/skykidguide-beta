@@ -25,7 +25,7 @@ const PageHeaderContainer = ({
         <Typography className="p-5 mb-4 text-xl md:text-3xl text-[#fe7f2d]">
           {title}
           <br />
-          <Chip color="amber" value={`Season ${seasonId}`} />
+          {seasonId ? <Chip color="amber" value={`Season ${seasonId}`} /> : ''}
         </Typography>
       </div>
       <div className="flex items-center justify-center pb-5">

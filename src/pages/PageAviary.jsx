@@ -12,9 +12,9 @@ import DifficultyCriteria from './components/DifficultyCriteria'
 import ScrollToTop from 'react-scroll-to-top'
 
 const PageAviary = () => {
-  const [activeTab, setActiveTab] = useState('regular_spirits')
+  const [activeTab, setActiveTab] = useState('info')
   const mapTitle = maps.map((mapName) =>
-    mapName.id === 0 ? mapName.title : ''
+    mapName.id === 0 ? mapName.title : '',
   )
   const mapIntro = maps.map((intro) => (intro.id === 0 ? intro.map_intro : ''))
 

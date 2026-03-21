@@ -206,7 +206,7 @@ const HomeSpace = () => {
         </div>
         {screenSize < 1440 ? (
           maps.map((map) => {
-            return <MapCardContainer {...map} key={map.id} />
+            return <MapCardContainer {...map} />
           })
         ) : (
           <Swiper
@@ -216,15 +216,15 @@ const HomeSpace = () => {
             navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
-            slideshadows
+            // slideshadows
             loop={true}
             effect="coverflow"
             className="py-5"
           >
-            {maps.map((map) => {
+            {maps.map((map, index) => {
               return (
-                <SwiperSlide zoom={true}>
-                  <MapCardContainer {...map} key={map.id} />
+                <SwiperSlide zoom={true} key={index}>
+                  <MapCardContainer {...map} />
                 </SwiperSlide>
               )
             })}
