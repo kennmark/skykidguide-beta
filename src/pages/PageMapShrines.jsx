@@ -17,6 +17,7 @@ import { valley } from '../data/valleyData'
 import { wasteland } from '../data/wastelandData'
 import { vault } from '../data/vaultData'
 import { eden } from '../data/edenData'
+import { aviaryData } from '../data/aviarydata'
 import {
   MS_COUNT_DATE_UPDATED,
   TOTAL_MS_COUNT,
@@ -27,6 +28,7 @@ import {
   WASTELAND_NUM_MAP_SHRINES,
   VAULT_NUM_MAP_SHRINES,
   EDEN_NUM_MAP_SHRINES,
+  AVIARY_NUM_MAP_SHRINES,
 } from '../exports/constants'
 import CardContainer from './components/CardContainer'
 import { BarsArrowDownIcon } from '@heroicons/react/24/solid'
@@ -42,6 +44,7 @@ const PageMapShrines = () => {
   const wasteland_ms = wasteland[3].map_shrines
   const vault_ms = vault[3].map_shrines
   const eden_ms = eden[3].map_shrines
+  const aviary_ms = aviaryData[3].map_shrines
 
   // console.log(isle_wl)
   const handleOpen = (value) => setOpen(open === value ? 0 : value)
@@ -267,6 +270,38 @@ const PageMapShrines = () => {
             <AccordionBody className="pt-0 text-base font-normal">
               <div className="flex flex-wrap justify-center gap-3">
                 {eden_ms?.map((mapShrine) => {
+                  return (
+                    <CardContainer
+                      label={mapShrine.shrine_label}
+                      location={mapShrine.shrine_location}
+                      url={mapShrine.shrine_url}
+                      key={mapShrine.shrine_label}
+                    />
+                  )
+                })}
+              </div>
+            </AccordionBody>
+          </Accordion>
+          <Accordion
+            open={open === 8}
+            className="mb-2 rounded-lg bg-[#233d4d] text-[#fe7f2d] px-4"
+          >
+            <AccordionHeader
+              onClick={() => handleOpen(8)}
+              className={`border-b-0 transition-colors ${
+                open === 8
+                  ? 'text-[#fe7f2d] hover:!text-[#ff9854]'
+                  : 'text-[#fe7f2d] hover:text-[#c56646]'
+              }`}
+            >
+              <span className="flex">
+                Aviary Village - {AVIARY_NUM_MAP_SHRINES} Map Shrines &nbsp;
+                <BarsArrowDownIcon className="h-6 w-6 text-[#fe7f2d]" />
+              </span>
+            </AccordionHeader>
+            <AccordionBody className="pt-0 text-base font-normal">
+              <div className="flex flex-wrap justify-center gap-3">
+                {aviary_ms?.map((mapShrine) => {
                   return (
                     <CardContainer
                       label={mapShrine.shrine_label}

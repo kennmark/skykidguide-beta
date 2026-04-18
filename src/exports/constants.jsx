@@ -38,12 +38,12 @@ export const VALLEY_NUM_MAP_SHRINES = 11
 export const WASTELAND_NUM_REG_SPIRIT = 6
 export const WASTELAND_NUM_SEASON_SPIRIT = 18
 export const WASTELAND_NUM_WL = 18
-export const WASTELAND_NUM_MAP_SHRINES = 8
+export const WASTELAND_NUM_MAP_SHRINES = 9
 
 export const VAULT_NUM_REG_SPIRIT = 5
 export const VAULT_NUM_SEASON_SPIRIT = 26
 export const VAULT_NUM_WL = 16
-export const VAULT_NUM_MAP_SHRINES = 11
+export const VAULT_NUM_MAP_SHRINES = 12
 
 export const EDEN_NUM_REG_SPIRIT = 0
 export const EDEN_NUM_SEASON_SPIRIT = 0
@@ -90,8 +90,8 @@ export const TOTAL_MS_COUNT = // January 29, 2026 TS Melancholy Mope
   AVIARY_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'January 29, 2026' // January 29, 2026 TS Melancholy Mope
-export const MS_COUNT_DATE_UPDATED = 'July 21, 2025' // July 21, 2025 Season of The Two Embers I
+export const WL_COUNT_DATE_UPDATED = 'April 17, 2026' // April 17, 2026 Season of Carnival
+export const MS_COUNT_DATE_UPDATED = 'July 21, 2025' // April 17, 2026 Season of Carnival
 
 export const PLAYSTATION_MAX_WL = 247
 export const STEAM_MAX_WL = 227

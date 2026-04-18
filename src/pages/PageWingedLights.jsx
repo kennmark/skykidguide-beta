@@ -17,6 +17,7 @@ import { valley } from '../data/valleyData'
 import { wasteland } from '../data/wastelandData'
 import { vault } from '../data/vaultData'
 import { eden } from '../data/edenData'
+import { aviaryData } from '../data/aviarydata'
 import { seasons2022 } from '../data/seasons'
 import {
   WL_COUNT_DATE_UPDATED,
@@ -33,6 +34,7 @@ import {
   EDEN_NUM_WL,
   SHARDS_WL,
   ORBIT_WL,
+  AVIARY_NUM_WL,
 } from '../exports/constants'
 import CardContainer from './components/CardContainer'
 import { BarsArrowDownIcon } from '@heroicons/react/24/solid'
@@ -49,6 +51,7 @@ const PageWingedLights = () => {
   const vault_wl = vault[2].winged_lights
   const eden_wl = eden[2].winged_lights
   const shards_wl = seasons2022[2].winged_lights
+  const aviary_wl = aviaryData[2].winged_lights
 
   // console.log(isle_wl)
   const handleOpen = (value) => setOpen(open === value ? 0 : value)
@@ -305,6 +308,38 @@ const PageWingedLights = () => {
             <AccordionBody className="pt-0 text-base font-normal">
               <div className="flex flex-wrap justify-center gap-3">
                 {shards_wl?.map((wingedLight) => {
+                  return (
+                    <CardContainer
+                      label={wingedLight.wl_label}
+                      location={wingedLight.wl_location}
+                      url={wingedLight.wl_url}
+                      key={wingedLight.wl_label}
+                    />
+                  )
+                })}
+              </div>
+            </AccordionBody>
+          </Accordion>
+          <Accordion
+            open={open === 9}
+            className="mb-2 rounded-lg bg-[#233d4d] text-[#fe7f2d] px-4"
+          >
+            <AccordionHeader
+              onClick={() => handleOpen(9)}
+              className={`border-b-0 transition-colors ${
+                open === 9
+                  ? 'text-[#fe7f2d] hover:!text-[#ff9854]'
+                  : 'text-[#fe7f2d] hover:text-[#c56646]'
+              }`}
+            >
+              <span className="flex">
+                Aviary Village - {AVIARY_NUM_WL} WL &nbsp;
+                <BarsArrowDownIcon className="h-6 w-6 text-[#fe7f2d]" />
+              </span>
+            </AccordionHeader>
+            <AccordionBody className="pt-0 text-base font-normal">
+              <div className="flex flex-wrap justify-center gap-3">
+                {aviary_wl?.map((wingedLight) => {
                   return (
                     <CardContainer
                       label={wingedLight.wl_label}
