@@ -9,8 +9,16 @@ import {
 import { NON_SPIRIT, MAP_SHRINE, WINGED_LIGHT } from '../exports/defaultImages'
 import { seasons2023, seasons2024, seasons2025 } from './seasons'
 import { Link } from 'react-router-dom'
-import { SEASON19, SEASON21, SEASON22, SEASON24 } from '../exports/seasonIcons'
+import {
+  SEASON19,
+  SEASON21,
+  SEASON22,
+  SEASON24,
+  SEASON29,
+} from '../exports/seasonIcons'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
+
+const youtube_embed = 'https://www.youtube.com/embed/'
 
 export const aviaryData = [
   {
@@ -24,28 +32,35 @@ export const aviaryData = [
             <div className="">
               <LazyLoadImage src={SEASON19} style={{ width: 25 }} />
             </div>
-            Revival
+            &nbsp;Revival
           </Link>
-          ,
+          ,&nbsp;
           <Link to="/seasons/2024/season-21/nesting" className="inline-flex">
             <div className="">
               <LazyLoadImage src={SEASON21} style={{ width: 25 }} />
             </div>
-            Nesting
+            &nbsp;Nesting
           </Link>
-          ,
+          ,&nbsp;
           <Link to="/seasons/2024/season-22/duets" className="inline-flex">
             <div className="">
               <LazyLoadImage src={SEASON22} style={{ width: 25 }} />
             </div>
-            Duets
+            &nbsp;Duets
           </Link>
-          ,
+          ,&nbsp;
           <Link to="/seasons/2025/season-24/radiance" className="inline-flex">
             <div className="">
               <LazyLoadImage src={SEASON24} style={{ width: 25 }} />
             </div>
-            Radiance
+            &nbsp;Radiance
+          </Link>
+          ,&nbsp;
+          <Link to="/seasons/2025/season-24/radiance" className="inline-flex">
+            <div className="">
+              <LazyLoadImage src={SEASON29} style={{ width: 25 }} />
+            </div>
+            &nbsp;Carnival
           </Link>
           .
         </Typography>
@@ -358,6 +373,189 @@ export const aviaryData = [
           seasons2025[0].season_spirits[2].spirit_guide_video_url,
         spirit_direction: seasons2025[0].season_spirits[2].spirit_direction,
         icon_route: seasons2025[0].icon_route,
+      },
+      {
+        id: 18,
+        spirit_id: 'aviary18',
+        season_id: 29,
+        spirit_type: 'seasonal',
+        season: 'Season 29 - Season of Carnival',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 20,
+        difficulty_types: [1, 4],
+        spirit_name: 'Carnival Juggler',
+        spirit_img_url: 'PROVOKING_PERFORMER',
+        spirit_image: 'FOREST_SEASON_SPIRIT_9',
+        icon_route: SEASON29,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: 'PERFORMER_ITEM_1',
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Pants',
+            img: 'PERFORMER_ITEM_2',
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Accessory',
+            img: 'PROVOKING_PERFORMER',
+            currency: 'Candles',
+            price: 13,
+          },
+          {
+            label: 'Emote',
+            img: 'PROVOKING_PERFORMER',
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 104,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, lumipad ka patungo bago sa batong tulay.',
+          'At sa iyong kaliwa ay nasa bunganga ng tunnel ang spirit na ito.',
+        ],
+      },
+      {
+        id: 19,
+        spirit_id: 'aviary18',
+        season_id: 29,
+        spirit_type: 'seasonal',
+        season: 'Season 29 - Season of Carnival',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 20,
+        difficulty_types: [1, 4],
+        spirit_name: 'Carnival Puzzle Director',
+        spirit_img_url: 'PROVOKING_PERFORMER',
+        spirit_image: 'FOREST_SEASON_SPIRIT_9',
+        icon_route: SEASON29,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: 'PERFORMER_ITEM_1',
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Hair Accessory',
+            img: 'PERFORMER_ITEM_2',
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Pants',
+            img: 'PROVOKING_PERFORMER',
+            currency: 'Candles',
+            price: 13,
+          },
+          {
+            label: 'Emote',
+            img: 'PROVOKING_PERFORMER',
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 104,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, lumipad ka patungo bago sa batong tulay.',
+          'At sa iyong kaliwa ay nasa bunganga ng tunnel ang spirit na ito.',
+        ],
+      },
+      {
+        id: 20,
+        spirit_id: 'aviary18',
+        season_id: 29,
+        spirit_type: 'seasonal',
+        season: 'Season 29 - Season of Carnival',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 20,
+        difficulty_types: [1, 4],
+        spirit_name: 'Carnival Stunt Actor',
+        spirit_img_url: 'PROVOKING_PERFORMER',
+        spirit_image: 'FOREST_SEASON_SPIRIT_9',
+        icon_route: SEASON29,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: 'PERFORMER_ITEM_1',
+            currency: 'Candles',
+            price: 34,
+          },
+          {
+            label: 'Hair Accessory',
+            img: 'PERFORMER_ITEM_2',
+            currency: 'Candles',
+            price: 42,
+          },
+          {
+            label: 'Pants',
+            img: 'PROVOKING_PERFORMER',
+            currency: 'Candles',
+            price: 13,
+          },
+          {
+            label: 'Emote',
+            img: 'PROVOKING_PERFORMER',
+            currency: 'Hearts',
+            price: 13,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 104,
+            hearts: 13,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
+          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
+          'Pagkabukas, lumipad ka patungo bago sa batong tulay.',
+          'At sa iyong kaliwa ay nasa bunganga ng tunnel ang spirit na ito.',
+        ],
       },
     ],
   },

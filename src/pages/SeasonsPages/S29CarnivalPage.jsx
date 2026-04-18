@@ -17,9 +17,9 @@ import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { allSeasons, seasons2026 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
-import SeasonOfLightMending from '../../assets/images/home-carousel/Season-of-LightMending.webp'
+import CarnivalBanner from '../../assets/images/home-carousel/Season-of-Carnival.webp'
 
-const S28LightMendingPage = () => {
+const S29CarnivalPage = () => {
   const [activeTab, setActiveTab] = useState('info')
   const {
     id,
@@ -34,7 +34,7 @@ const S28LightMendingPage = () => {
     winged_lights,
     map_shrines,
     season_type,
-  } = seasons2026[0]
+  } = seasons2026[1]
 
   const currentSeasonId = seasons2026.length - 1
   const isCurrentSeason =
@@ -97,9 +97,9 @@ const S28LightMendingPage = () => {
               {activeTab === 'info' && (
                 <div className="text-gray-100 pb-5">
                   <LazyLoadImage
-                    src={SeasonOfLightMending}
-                    alt="Season of LightMending"
-                    title="Season of LightMending"
+                    src={CarnivalBanner}
+                    alt="Season of Carnival"
+                    title="Season of Carnival"
                     placeholderSrc={
                       <Spinner className="h-10 w-10 text-gray-900/50" />
                     }
@@ -175,4 +175,4 @@ const S28LightMendingPage = () => {
   )
 }
 
-export default S28LightMendingPage
+export default S29CarnivalPage

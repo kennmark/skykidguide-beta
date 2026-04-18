@@ -27,7 +27,8 @@ html {
 
 .map-1 {
   background: rgb(255, 205, 178);
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180deg,
       rgba(255, 205, 178, 0.1) 0%,
       rgba(255, 180, 162, 0.25) 25%,
@@ -44,7 +45,8 @@ html {
 
 .map-2 {
   background: rgb(34, 87, 122);
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(34, 87, 122, 1) 0%,
       rgba(56, 163, 165, 0.75) 25%,
@@ -61,7 +63,8 @@ html {
 
 .map-3 {
   background: rgb(219, 227, 229);
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180deg,
       rgba(219, 227, 229, 0.1) 0%,
       rgba(101, 160, 178, 0.25) 25%,
@@ -78,7 +81,8 @@ html {
 
 .map-4 {
   background: rgb(67, 35, 113);
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(67, 35, 113, 1) 0%,
       rgba(113, 70, 116, 0.75) 23%,
@@ -95,7 +99,8 @@ html {
 
 .map-5 {
   background: rgb(19, 42, 19);
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(19, 42, 19, 1) 0%,
       rgba(49, 87, 44, 0.75) 25%,
@@ -112,7 +117,8 @@ html {
 
 .map-6 {
   background: rgb(120, 192, 224);
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180deg,
       rgba(120, 192, 224, 0.1) 0%,
       rgba(68, 157, 209, 0.25) 25%,
@@ -129,7 +135,8 @@ html {
 
 .map-7 {
   background: rgb(183, 9, 76);
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(183, 9, 76, 1) 0%,
       rgba(160, 26, 88, 1) 12%,
@@ -149,7 +156,8 @@ html {
 }
 .map-8 {
   background: rgb(34, 87, 122);
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgba(34, 87, 122, 1) 0%,
       rgba(56, 163, 165, 0.75) 25%,
@@ -166,7 +174,8 @@ html {
 
 .map-9 {
   background: #dabfff;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       0deg,
       rgb(218, 191, 255) 0%,
       rgba(144, 122, 214, 0.75) 29%,
@@ -174,7 +183,7 @@ html {
       rgba(44, 42, 74, 0.25) 60%,
       rgba(48, 20, 102, 0.1) 81%
     ),
-    url(./assets/images/map-card-bg/map-28-bg-card.webp);
+    url(./assets/images/map-card-bg/map-29-bg-card.webp);
   color: rgb(8 47 73);
   height: 514px;
   background-size: cover;

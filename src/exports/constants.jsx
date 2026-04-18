@@ -51,13 +51,13 @@ export const EDEN_NUM_MAP_SHRINES = 4
 
 export const AVIARY_NUM_REG_SPIRIT = 0
 export const AVIARY_NUM_SEASON_SPIRIT = 16
-export const AVIARY_NUM_WL = 0
+export const AVIARY_NUM_WL = 2
 export const AVIARY_NUM_MAP_SHRINES = 1
 
-export const S28_NUM_REG_SPIRIT = 0
-export const S28_NUM_SEASON_SPIRIT = 4
-export const S28_NUM_WL = 0
-export const S28_NUM_MAP_SHRINES = 1
+export const S29_NUM_REG_SPIRIT = 0
+export const S29_NUM_SEASON_SPIRIT = 4
+export const S29_NUM_WL = 2
+export const S29_NUM_MAP_SHRINES = 1
 
 export const WL_COUNT =
   ISLE_NUM_WL +
@@ -66,7 +66,8 @@ export const WL_COUNT =
   VALLEY_NUM_WL +
   WASTELAND_NUM_WL +
   VAULT_NUM_WL +
-  EDEN_NUM_WL
+  EDEN_NUM_WL +
+  AVIARY_NUM_WL
 
 export const WB_REGULAR_SPIRITS = 49
 //!!!UPDATE THIS Wing Buff Count every new TS that hasnt arrived yet!!!

@@ -81,7 +81,7 @@ const S1Gratitude = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S1GratitudePage')),
-      300
+      300,
     )
   })
 })
@@ -90,7 +90,7 @@ const S2LightSeeker = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S2LightSeekerPage')),
-      300
+      300,
     )
   })
 })
@@ -99,7 +99,7 @@ const S3Belonging = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S3BelongingPage')),
-      300
+      300,
     )
   })
 })
@@ -112,7 +112,7 @@ const S5Enchantment = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S5EnchantmentPage')),
-      300
+      300,
     )
   })
 })
@@ -120,7 +120,7 @@ const S6Sanctuary = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S6SanctuaryPage')),
-      300
+      300,
     )
   })
 })
@@ -128,7 +128,7 @@ const S7Prophecy = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S7ProphecyPage')),
-      300
+      300,
     )
   })
 })
@@ -141,7 +141,7 @@ const S9Assembly = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S9AssemblyPage')),
-      300
+      300,
     )
   })
 })
@@ -149,7 +149,7 @@ const S10TheLittlePrince = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S10TheLittlePrincePage')),
-      300
+      300,
     )
   })
 })
@@ -167,7 +167,7 @@ const S13Performance = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S13PerformancePage')),
-      300
+      300,
     )
   })
 })
@@ -175,7 +175,7 @@ const S14Shattering = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S14ShatteringPage')),
-      300
+      300,
     )
   })
 })
@@ -188,7 +188,7 @@ const S16Remembrance = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S16RemembrancePage')),
-      300
+      300,
     )
   })
 })
@@ -196,7 +196,7 @@ const S17Passage = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S17PassagePage')),
-      300
+      300,
     )
   })
 })
@@ -204,7 +204,7 @@ const S18Moments = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S18MomentsPage')),
-      300
+      300,
     )
   })
 })
@@ -212,7 +212,7 @@ const S19Revival = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S19RevivalPage')),
-      300
+      300,
     )
   })
 })
@@ -221,7 +221,7 @@ const S20TheNineColoredDeer = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S20TheNineColoredDeerPage')),
-      300
+      300,
     )
   })
 })
@@ -230,7 +230,7 @@ const S21Nesting = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S21NestingPage')),
-      300
+      300,
     )
   })
 })
@@ -248,7 +248,7 @@ const S24Radiance = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S24RadiancePage')),
-      300
+      300,
     )
   })
 })
@@ -257,7 +257,7 @@ const S25BlueBird = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S25BlueBirdPage')),
-      300
+      300,
     )
   })
 })
@@ -266,7 +266,7 @@ const S26TwoEmbersOne = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S26TwoEmbersOnePage')),
-      300
+      300,
     )
   })
 })
@@ -275,7 +275,7 @@ const S27Migration = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S27MigrationPage')),
-      300
+      300,
     )
   })
 })
@@ -283,7 +283,15 @@ const S28LightMending = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(
       () => resolve(import('./pages/SeasonsPages/S28LightMendingPage')),
-      300
+      300,
+    )
+  })
+})
+const S29Carnival = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S29CarnivalPage')),
+      300,
     )
   })
 })
@@ -630,6 +638,14 @@ function App() {
                 element={
                   <Layout>
                     <S28LightMending />
+                  </Layout>
+                }
+              />
+              <Route
+                path="seasons/2026/season-29/carnival"
+                element={
+                  <Layout>
+                    <S29Carnival />
                   </Layout>
                 }
               />
