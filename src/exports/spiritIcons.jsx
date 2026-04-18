@@ -169,6 +169,10 @@ import LightMendingLightCatcher from '../assets/images/emotes/map6/seasons/S28-l
 import RadianceProvokingPerformer from '../assets/images/emotes/map7/Map7-radiance-provoking.webp'
 import RadianceGreetingShaman from '../assets/images/emotes/map7/Map7-radiance-greeting-shaman.webp'
 import RadianceLeapingDancer from '../assets/images/emotes/map7/Map7-radiance-leaping-dancer.webp'
+import CarnivalAthleticDancer from '../assets/images/emotes/map7/Map7-carnival-athletic-dancer.webp'
+import CarnivalJuggler from '../assets/images/emotes/map7/Map7-carnival-juggler.webp'
+import CarnivalPuzzleDirector from '../assets/images/emotes/map7/Map7-carnival-puzzle-director.webp'
+import CarnivalStuntActor from '../assets/images/emotes/map7/Map7-carnival-stunt-actor.webp'
 
 // MAP 7
 
@@ -342,5 +346,9 @@ export const LIGHTMENDING_LIGHT_CATCHER = LightMendingLightCatcher
 export const RADIANCE_PROVOKING_PERFORMER = RadianceProvokingPerformer
 export const RADIANCE_GREETING_SHAMAN = RadianceGreetingShaman
 export const RADIANCE_LEAPING_DANCER = RadianceLeapingDancer
+export const CARNIVAL_ATHLETIC_DANCER = CarnivalAthleticDancer
+export const CARNIVAL_JUGGLER = CarnivalJuggler
+export const CARNIVAL_PUZZLE_DIRECTOR = CarnivalPuzzleDirector
+export const CARNIVAL_STUNT_ACTOR = CarnivalStuntActor
 
 // MAP 7

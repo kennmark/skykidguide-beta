@@ -78,11 +78,12 @@ import {
   VOID_WL5,
   VOID_WL6,
 } from '../exports/voidWLImgUrl'
+import { AV_WL1, AV_WL2 } from '../exports/aviaryWLImgUrl'
 import { VK_MS2, VK_MS4, VK_MS10, VK_MS11 } from '../exports/vaultMSImgUrl'
 import { GW_MS7, GW_MS8 } from '../exports/wastelandMSImgUrl'
 import { DP_MS7, DP_MS9 } from '../exports/prairieMSImgUrl'
 import { HF_MS9, HF_MS10 } from '../exports/forestMSImgUrl'
-import { AV_MS1 } from '../exports/aviaryMSImgUrl'
+import { AV_MS1, AV_MS2 } from '../exports/aviaryMSImgUrl'
 import {
   ID_MS5,
   ID_MS6,
@@ -182,16 +183,37 @@ import {
   RPP_ITEM_3,
   RPP_ITEM_4,
   RPP_ITEM_5,
+  CAD_ITEM_1,
+  CAD_ITEM_2,
+  CAD_ITEM_3,
+  CJ_ITEM_1,
+  CJ_ITEM_2,
+  CJ_ITEM_3,
+  CPD_ITEM_1,
+  CPD_ITEM_2,
+  CPD_ITEM_3,
+  CSA_ITEM_1,
+  CSA_ITEM_2,
+  CSA_ITEM_3,
+  CSA_ITEM_4,
 } from '../exports/aviaryCollectibles'
 import {
   RADIANCE_LEAPING_DANCER,
   RADIANCE_GREETING_SHAMAN,
   RADIANCE_PROVOKING_PERFORMER,
+  CARNIVAL_ATHLETIC_DANCER,
+  CARNIVAL_JUGGLER,
+  CARNIVAL_PUZZLE_DIRECTOR,
+  CARNIVAL_STUNT_ACTOR,
 } from '../exports/spiritIcons'
 import {
   AVIARY_SPIRIT_1,
   AVIARY_SPIRIT_2,
   AVIARY_SPIRIT_3,
+  AVIARY_SPIRIT_4,
+  AVIARY_SPIRIT_5,
+  AVIARY_SPIRIT_6,
+  AVIARY_SPIRIT_7,
 } from '../exports/spiritAviaryImages'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
@@ -4215,80 +4237,293 @@ export const seasons2026 = [
     page_route: 'seasons/2026/season-29/carnival',
     quick_info: `The Wandering Carnival is arriving!`,
     season_spirits: [
-      //Carnival Juggler
-      // {
-      //   spirit_id: vault[1].spirits[22].spirit_id,
-      //   spirit_name: vault[1].spirits[22].spirit_name,
-      //   spirit_img_url: vault[1].spirits[22].spirit_img_url,
-      //   spirit_category: vault[1].spirits[22].spirit_category,
-      //   spirit_relive_type: vault[1].spirits[22].spirit_relive_type,
-      //   difficulty_level: vault[1].spirits[22].difficulty_level,
-      //   difficulty_types: vault[1].spirits[22].difficulty_types,
-      //   spirit_image: vault[1].spirits[22].spirit_image,
-      //   spirit_collectibles: vault[1].spirits[22].spirit_collectibles,
-      //   spirit_tree_cost: vault[1].spirits[22].spirit_tree_cost,
-      //   number_of_visits: vault[1].spirits[22].number_of_visits,
-      //   spirit_guide_video_url: vault[1].spirits[22].spirit_guide_video_url,
-      //   spirit_direction: vault[1].spirits[22].spirit_direction,
-      // },
-      //Carnival Puzzle Director
-      // {
-      //   spirit_id: vault[1].spirits[23].spirit_id,
-      //   spirit_name: vault[1].spirits[23].spirit_name,
-      //   spirit_img_url: vault[1].spirits[23].spirit_img_url,
-      //   spirit_category: vault[1].spirits[23].spirit_category,
-      //   spirit_relive_type: vault[1].spirits[23].spirit_relive_type,
-      //   difficulty_level: vault[1].spirits[23].difficulty_level,
-      //   difficulty_types: vault[1].spirits[23].difficulty_types,
-      //   spirit_image: vault[1].spirits[23].spirit_image,
-      //   spirit_collectibles: vault[1].spirits[23].spirit_collectibles,
-      //   spirit_tree_cost: vault[1].spirits[23].spirit_tree_cost,
-      //   number_of_visits: vault[1].spirits[23].number_of_visits,
-      //   spirit_guide_video_url: vault[1].spirits[23].spirit_guide_video_url,
-      //   spirit_direction: vault[1].spirits[23].spirit_direction,
-      // },
-      //Carnival Stunt Actor
-      // {
-      //   spirit_id: vault[1].spirits[24].spirit_id,
-      //   spirit_name: vault[1].spirits[24].spirit_name,
-      //   spirit_img_url: vault[1].spirits[24].spirit_img_url,
-      //   spirit_category: vault[1].spirits[24].spirit_category,
-      //   spirit_relive_type: vault[1].spirits[24].spirit_relive_type,
-      //   difficulty_level: vault[1].spirits[24].difficulty_level,
-      //   difficulty_types: vault[1].spirits[24].difficulty_types,
-      //   spirit_image: vault[1].spirits[24].spirit_image,
-      //   spirit_collectibles: vault[1].spirits[24].spirit_collectibles,
-      //   spirit_tree_cost: vault[1].spirits[24].spirit_tree_cost,
-      //   number_of_visits: vault[1].spirits[24].number_of_visits,
-      //   spirit_guide_video_url: vault[1].spirits[24].spirit_guide_video_url,
-      //   spirit_direction: vault[1].spirits[24].spirit_direction,
-      // },
-      //Carnival Athletic Dancer
-      // {
-      //   spirit_id: vault[1].spirits[25].spirit_id,
-      //   spirit_name: vault[1].spirits[25].spirit_name,
-      //   spirit_img_url: vault[1].spirits[25].spirit_img_url,
-      //   spirit_category: vault[1].spirits[25].spirit_category,
-      //   spirit_relive_type: vault[1].spirits[25].spirit_relive_type,
-      //   difficulty_level: vault[1].spirits[25].difficulty_level,
-      //   difficulty_types: vault[1].spirits[25].difficulty_types,
-      //   spirit_image: vault[1].spirits[25].spirit_image,
-      //   spirit_collectibles: vault[1].spirits[25].spirit_collectibles,
-      //   spirit_tree_cost: vault[1].spirits[25].spirit_tree_cost,
-      //   number_of_visits: vault[1].spirits[25].number_of_visits,
-      //   spirit_guide_video_url: vault[1].spirits[25].spirit_guide_video_url,
-      //   spirit_direction: vault[1].spirits[25].spirit_direction,
-      // },
+      //CARNIVAL_ATHLETIC_DANCER
+      {
+        id: 18,
+        spirit_id: 'aviary18',
+        season_id: 29,
+        spirit_type: 'seasonal',
+        season: 'Season 29 - Season of Carnival',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 15,
+        difficulty_types: [1, 15],
+        spirit_name: 'Carnival Athletic Dancer',
+        spirit_img_url: CARNIVAL_ATHLETIC_DANCER,
+        spirit_image: AVIARY_SPIRIT_4,
+        icon_route: SEASON29,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: CAD_ITEM_2,
+            currency: 'Season Candles',
+            price: 19,
+          },
+          {
+            label: 'Pants',
+            img: CAD_ITEM_1,
+            currency: 'Season Candles',
+            price: 28,
+          },
+          {
+            label: 'Cape',
+            img: CAD_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: CARNIVAL_ATHLETIC_DANCER,
+            currency: 'Season Candles',
+            price: 24,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 94,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, ay umakyat sa barko at sa gawing kanan makikita kaagad ang spirit na ito.',
+        ],
+      },
+      //CARNIVAL_JUGGLER
+      {
+        id: 19,
+        spirit_id: 'aviary19',
+        season_id: 29,
+        spirit_type: 'seasonal',
+        season: 'Season 29 - Season of Carnival',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 15,
+        difficulty_types: [1, 15],
+        spirit_name: 'Carnival Juggler',
+        spirit_img_url: CARNIVAL_JUGGLER,
+        spirit_image: AVIARY_SPIRIT_5,
+        icon_route: SEASON29,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: CJ_ITEM_1,
+            currency: 'Season Candles',
+            price: 19,
+          },
+          {
+            label: 'Neck Accessory',
+            img: CJ_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Pants',
+            img: CJ_ITEM_3,
+            currency: 'Season Candles',
+            price: 28,
+          },
+          {
+            label: 'Emote',
+            img: CARNIVAL_JUGGLER,
+            currency: 'Season Candles',
+            price: 24,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 95,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, ay umakyat sa barko at sa gawing kaliwa makikita kaagad ang spirit na ito.',
+        ],
+      },
+      //CARNIVAL_PUZZLE_DIRECTOR
+      {
+        id: 20,
+        spirit_id: 'aviary20',
+        season_id: 29,
+        spirit_type: 'seasonal',
+        season: 'Season 29 - Season of Carnival',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 15,
+        difficulty_types: [1, 15],
+        spirit_name: 'Carnival Puzzle Director',
+        spirit_img_url: CARNIVAL_PUZZLE_DIRECTOR,
+        spirit_image: AVIARY_SPIRIT_6,
+        icon_route: SEASON29,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: CPD_ITEM_1,
+            currency: 'Season Candles',
+            price: 28,
+          },
+          {
+            label: 'Hair',
+            img: CPD_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Pants',
+            img: CPD_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: CARNIVAL_PUZZLE_DIRECTOR,
+            currency: 'Season Candles',
+            price: 24,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 95,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, ay umakyat sa barko at sa gawing kanan ay may lagusan pababa, pumasok ka,',
+          'Tapos sa looban ay kumaliwa ka at diretso lamang hanggang sa makita mo na ang spirit sa gilid ng hagdanan',
+        ],
+      },
+      //CARNIVAL_PUZZLE_DIRECTOR
+      {
+        id: 20,
+        spirit_id: 'aviary20',
+        season_id: 29,
+        spirit_type: 'seasonal',
+        season: 'Season 29 - Season of Carnival',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 15,
+        difficulty_types: [1, 15],
+        spirit_name: 'Carnival Stunt Actor',
+        spirit_img_url: CARNIVAL_STUNT_ACTOR,
+        spirit_image: AVIARY_SPIRIT_7,
+        icon_route: SEASON29,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: CSA_ITEM_1,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Hair',
+            img: CSA_ITEM_2,
+            currency: 'Season Candles',
+            price: 28,
+          },
+          {
+            label: 'Pants',
+            img: CSA_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: CSA_ITEM_4,
+            currency: 'Season Candles',
+            price: 19,
+          },
+          {
+            label: 'Emote',
+            img: CARNIVAL_STUNT_ACTOR,
+            currency: 'Season Candles',
+            price: 24,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 95,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, ay umakyat sa barko at sa gawing kanan ay may lagusan pababa, pumasok ka,',
+          'Tapos sa looban ay kumaliwa ka at diretso lamang hanggang sa makita mo na ang spirit sa gilid ng hagdanan',
+        ],
+      },
     ],
-    winged_lights: [],
+    winged_lights: [
+      {
+        id: 1,
+        wl_label: 'WL1 - 2nd Ship Bowsprit',
+        wl_group: 'wl-aviary',
+        wl_season_group: 'wl-aviary-1',
+        wl_url: AV_WL1 ?? WINGED_LIGHT,
+        wl_location: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, Lumipad patungo sa ikalawang barko, at sa Bowsprit nito makikita ang winged light.',
+        ],
+      },
+      {
+        id: 2,
+        wl_label: 'WL2 - Wandering Carnival Boat Main Deck',
+        wl_group: 'wl-aviary',
+        wl_season_group: 'wl-aviary-2',
+        wl_url: AV_WL2 ?? WINGED_LIGHT,
+        wl_location: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, Umakyat sa Barko at pumasok sa lagusan sa gawing kanan at bumaba,',
+          'Pagkababa ay kumaliwa at diretso papasok sa mga lagusan hanggang sa makita ang Puzzle Director',
+          'Sa likod nito ay may mga kwarto, pumasok at sindihan ang lampara sa loob',
+          'Gagalaw ang cabinet at makikita ang sekretong lagusan sa gawing kanan sa isa pang kwarto, dito ang winged light.',
+        ],
+      },
+    ],
     map_shrines: [
-      // {
-      //   id: vault[3].map_shrines[11].id,
-      //   shrine_group: vault[3].map_shrines[11].shrine_group,
-      //   shrine_label: vault[3].map_shrines[11].shrine_label,
-      //   shrine_url: vault[3].map_shrines[11].shrine_url,
-      //   shrine_location: vault[3].map_shrines[11].shrine_location,
-      // },
+      {
+        id: 2,
+        shrine_group: 'shrine-season-29',
+        shrine_label: 'Map Shrine 1',
+        shrine_url: AV_MS2 ?? MAP_SHRINE,
+        shrine_location: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, umakyat sa barko ng Wandering Carnival at sa likod ng Athletic Dancer makikita ang map shrine.',
+        ],
+      },
     ],
   },
 ]

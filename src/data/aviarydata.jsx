@@ -1,5 +1,5 @@
 import { Typography } from '@material-tailwind/react'
-import { AV_MS1 } from '../exports/aviaryMSImgUrl'
+import { AV_MS1, AV_MS2 } from '../exports/aviaryMSImgUrl'
 import {
   AVIARY_NUM_SEASON_SPIRIT,
   AVIARY_NUM_REG_SPIRIT,
@@ -7,7 +7,7 @@ import {
   AVIARY_NUM_MAP_SHRINES,
 } from '../exports/constants'
 import { NON_SPIRIT, MAP_SHRINE, WINGED_LIGHT } from '../exports/defaultImages'
-import { seasons2023, seasons2024, seasons2025 } from './seasons'
+import { seasons2023, seasons2024, seasons2025, seasons2026 } from './seasons'
 import { Link } from 'react-router-dom'
 import {
   SEASON19,
@@ -16,6 +16,7 @@ import {
   SEASON24,
   SEASON29,
 } from '../exports/seasonIcons'
+
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
@@ -375,187 +376,76 @@ export const aviaryData = [
         icon_route: seasons2025[0].icon_route,
       },
       {
-        id: 18,
-        spirit_id: 'aviary18',
-        season_id: 29,
-        spirit_type: 'seasonal',
-        season: 'Season 29 - Season of Carnival',
-        spirit_category: 'emote',
-        spirit_relive_type: 'quest-memory',
-        difficulty_level: 20,
-        difficulty_types: [1, 4],
-        spirit_name: 'Carnival Juggler',
-        spirit_img_url: 'PROVOKING_PERFORMER',
-        spirit_image: 'FOREST_SEASON_SPIRIT_9',
-        icon_route: SEASON29,
-        spirit_collectibles: [
-          {
-            label: 'Mask',
-            img: 'PERFORMER_ITEM_1',
-            currency: 'Candles',
-            price: 34,
-          },
-          {
-            label: 'Pants',
-            img: 'PERFORMER_ITEM_2',
-            currency: 'Candles',
-            price: 42,
-          },
-          {
-            label: 'Accessory',
-            img: 'PROVOKING_PERFORMER',
-            currency: 'Candles',
-            price: 13,
-          },
-          {
-            label: 'Emote',
-            img: 'PROVOKING_PERFORMER',
-            currency: 'Hearts',
-            price: 13,
-          },
-        ],
-        spirit_tree_cost: [
-          {
-            candles: 104,
-            hearts: 13,
-            ascended_candles: 2,
-          },
-        ],
-        number_of_visits: [
-          // {
-          //   visit_date: 'Mar 12, 2020',
-          //   visitNo: 4,
-          // },
-        ],
-        spirit_guide_video_url: youtube_embed + '',
-        spirit_direction: [
-          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
-          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
-          'Pagkabukas, lumipad ka patungo bago sa batong tulay.',
-          'At sa iyong kaliwa ay nasa bunganga ng tunnel ang spirit na ito.',
-        ],
+        spirit_id: seasons2026[1].season_spirits[0].spirit_id,
+        spirit_name: seasons2026[1].season_spirits[0].spirit_name,
+        spirit_img_url: seasons2026[1].season_spirits[0].spirit_img_url,
+        spirit_category: seasons2026[1].season_spirits[0].spirit_category,
+        spirit_relive_type: seasons2026[1].season_spirits[0].spirit_relive_type,
+        difficulty_level: seasons2026[1].season_spirits[0].difficulty_level,
+        difficulty_types: seasons2026[1].season_spirits[0].difficulty_types,
+        spirit_image: seasons2026[1].season_spirits[0].spirit_image,
+        spirit_collectibles:
+          seasons2026[1].season_spirits[0].spirit_collectibles,
+        spirit_tree_cost: seasons2026[1].season_spirits[0].spirit_tree_cost,
+        number_of_visits: seasons2026[1].season_spirits[0].number_of_visits,
+        spirit_guide_video_url:
+          seasons2026[1].season_spirits[0].spirit_guide_video_url,
+        spirit_direction: seasons2026[1].season_spirits[0].spirit_direction,
+        icon_route: seasons2026[1].icon_route,
       },
       {
-        id: 19,
-        spirit_id: 'aviary18',
-        season_id: 29,
-        spirit_type: 'seasonal',
-        season: 'Season 29 - Season of Carnival',
-        spirit_category: 'emote',
-        spirit_relive_type: 'quest-memory',
-        difficulty_level: 20,
-        difficulty_types: [1, 4],
-        spirit_name: 'Carnival Puzzle Director',
-        spirit_img_url: 'PROVOKING_PERFORMER',
-        spirit_image: 'FOREST_SEASON_SPIRIT_9',
-        icon_route: SEASON29,
-        spirit_collectibles: [
-          {
-            label: 'Hair',
-            img: 'PERFORMER_ITEM_1',
-            currency: 'Candles',
-            price: 34,
-          },
-          {
-            label: 'Hair Accessory',
-            img: 'PERFORMER_ITEM_2',
-            currency: 'Candles',
-            price: 42,
-          },
-          {
-            label: 'Pants',
-            img: 'PROVOKING_PERFORMER',
-            currency: 'Candles',
-            price: 13,
-          },
-          {
-            label: 'Emote',
-            img: 'PROVOKING_PERFORMER',
-            currency: 'Hearts',
-            price: 13,
-          },
-        ],
-        spirit_tree_cost: [
-          {
-            candles: 104,
-            hearts: 13,
-            ascended_candles: 2,
-          },
-        ],
-        number_of_visits: [
-          // {
-          //   visit_date: 'Mar 12, 2020',
-          //   visitNo: 4,
-          // },
-        ],
-        spirit_guide_video_url: youtube_embed + '',
-        spirit_direction: [
-          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
-          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
-          'Pagkabukas, lumipad ka patungo bago sa batong tulay.',
-          'At sa iyong kaliwa ay nasa bunganga ng tunnel ang spirit na ito.',
-        ],
+        spirit_id: seasons2026[1].season_spirits[1].spirit_id,
+        spirit_name: seasons2026[1].season_spirits[1].spirit_name,
+        spirit_img_url: seasons2026[1].season_spirits[1].spirit_img_url,
+        spirit_category: seasons2026[1].season_spirits[1].spirit_category,
+        spirit_relive_type: seasons2026[1].season_spirits[1].spirit_relive_type,
+        difficulty_level: seasons2026[1].season_spirits[1].difficulty_level,
+        difficulty_types: seasons2026[1].season_spirits[1].difficulty_types,
+        spirit_image: seasons2026[1].season_spirits[1].spirit_image,
+        spirit_collectibles:
+          seasons2026[1].season_spirits[1].spirit_collectibles,
+        spirit_tree_cost: seasons2026[1].season_spirits[1].spirit_tree_cost,
+        number_of_visits: seasons2026[1].season_spirits[1].number_of_visits,
+        spirit_guide_video_url:
+          seasons2026[1].season_spirits[1].spirit_guide_video_url,
+        spirit_direction: seasons2026[1].season_spirits[1].spirit_direction,
+        icon_route: seasons2026[1].icon_route,
       },
       {
-        id: 20,
-        spirit_id: 'aviary18',
-        season_id: 29,
-        spirit_type: 'seasonal',
-        season: 'Season 29 - Season of Carnival',
-        spirit_category: 'emote',
-        spirit_relive_type: 'quest-memory',
-        difficulty_level: 20,
-        difficulty_types: [1, 4],
-        spirit_name: 'Carnival Stunt Actor',
-        spirit_img_url: 'PROVOKING_PERFORMER',
-        spirit_image: 'FOREST_SEASON_SPIRIT_9',
-        icon_route: SEASON29,
-        spirit_collectibles: [
-          {
-            label: 'Hair',
-            img: 'PERFORMER_ITEM_1',
-            currency: 'Candles',
-            price: 34,
-          },
-          {
-            label: 'Hair Accessory',
-            img: 'PERFORMER_ITEM_2',
-            currency: 'Candles',
-            price: 42,
-          },
-          {
-            label: 'Pants',
-            img: 'PROVOKING_PERFORMER',
-            currency: 'Candles',
-            price: 13,
-          },
-          {
-            label: 'Emote',
-            img: 'PROVOKING_PERFORMER',
-            currency: 'Hearts',
-            price: 13,
-          },
-        ],
-        spirit_tree_cost: [
-          {
-            candles: 104,
-            hearts: 13,
-            ascended_candles: 2,
-          },
-        ],
-        number_of_visits: [
-          // {
-          //   visit_date: 'Mar 12, 2020',
-          //   visitNo: 4,
-          // },
-        ],
-        spirit_guide_video_url: youtube_embed + '',
-        spirit_direction: [
-          'Pasok ka Pangatlong Mapa - Hidden Forest, lumipad ka paibaba sa mga kaulapan hanggang sa umabot ka sa gate.',
-          'Pagkabukas, dumako ka sa sunod na gate, at sindihan mo ang lumabas na fire icon',
-          'Pagkabukas, lumipad ka patungo bago sa batong tulay.',
-          'At sa iyong kaliwa ay nasa bunganga ng tunnel ang spirit na ito.',
-        ],
+        spirit_id: seasons2026[1].season_spirits[2].spirit_id,
+        spirit_name: seasons2026[1].season_spirits[2].spirit_name,
+        spirit_img_url: seasons2026[1].season_spirits[2].spirit_img_url,
+        spirit_category: seasons2026[1].season_spirits[2].spirit_category,
+        spirit_relive_type: seasons2026[1].season_spirits[2].spirit_relive_type,
+        difficulty_level: seasons2026[1].season_spirits[2].difficulty_level,
+        difficulty_types: seasons2026[1].season_spirits[2].difficulty_types,
+        spirit_image: seasons2026[1].season_spirits[2].spirit_image,
+        spirit_collectibles:
+          seasons2026[1].season_spirits[2].spirit_collectibles,
+        spirit_tree_cost: seasons2026[1].season_spirits[2].spirit_tree_cost,
+        number_of_visits: seasons2026[1].season_spirits[2].number_of_visits,
+        spirit_guide_video_url:
+          seasons2026[1].season_spirits[2].spirit_guide_video_url,
+        spirit_direction: seasons2026[1].season_spirits[2].spirit_direction,
+        icon_route: seasons2026[1].icon_route,
+      },
+      {
+        spirit_id: seasons2026[1].season_spirits[3].spirit_id,
+        spirit_name: seasons2026[1].season_spirits[3].spirit_name,
+        spirit_img_url: seasons2026[1].season_spirits[3].spirit_img_url,
+        spirit_category: seasons2026[1].season_spirits[3].spirit_category,
+        spirit_relive_type: seasons2026[1].season_spirits[3].spirit_relive_type,
+        difficulty_level: seasons2026[1].season_spirits[3].difficulty_level,
+        difficulty_types: seasons2026[1].season_spirits[3].difficulty_types,
+        spirit_image: seasons2026[1].season_spirits[3].spirit_image,
+        spirit_collectibles:
+          seasons2026[1].season_spirits[3].spirit_collectibles,
+        spirit_tree_cost: seasons2026[1].season_spirits[3].spirit_tree_cost,
+        number_of_visits: seasons2026[1].season_spirits[3].number_of_visits,
+        spirit_guide_video_url:
+          seasons2026[1].season_spirits[3].spirit_guide_video_url,
+        spirit_direction: seasons2026[1].season_spirits[3].spirit_direction,
+        icon_route: seasons2026[1].icon_route,
       },
     ],
   },
@@ -572,7 +462,24 @@ export const aviaryData = [
         na winged lights ang pwede mong makuha dito sa Hidden Forest.
       </Typography>
     ),
-    winged_lights: [],
+    winged_lights: [
+      {
+        id: seasons2026[1].winged_lights[0].id,
+        wl_label: seasons2026[1].winged_lights[0].wl_label,
+        wl_group: seasons2026[1].winged_lights[0].wl_group,
+        wl_season_group: seasons2026[1].winged_lights[0].wl_season_group,
+        wl_url: seasons2026[1].winged_lights[0].wl_url,
+        wl_location: seasons2026[1].winged_lights[0].wl_location,
+      },
+      {
+        id: seasons2026[1].winged_lights[1].id,
+        wl_label: seasons2026[1].winged_lights[1].wl_label,
+        wl_group: seasons2026[1].winged_lights[1].wl_group,
+        wl_season_group: seasons2026[1].winged_lights[1].wl_season_group,
+        wl_url: seasons2026[1].winged_lights[1].wl_url,
+        wl_location: seasons2026[1].winged_lights[1].wl_location,
+      },
+    ],
   },
   {
     label: 'Map Shrines',
@@ -596,6 +503,16 @@ export const aviaryData = [
           `Pasok sa Aviary Village, ang nasa gitnang portal sa Old Home.`,
           `Or kung nasa Aviary Village ka na,`,
           `Pagkapasok sa portal, dumako sa dulo ng village at malapit sa wardrobe, makikita ang map shrine`,
+        ],
+      },
+      {
+        id: 2,
+        shrine_group: 'shrine-season-29',
+        shrine_label: 'Map Shrine 2',
+        shrine_url: AV_MS2 ?? MAP_SHRINE,
+        shrine_location: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, umakyat sa barko ng Wandering Carnival at sa likod ng Athletic Dancer makikita ang map shrine.',
         ],
       },
     ],

@@ -13,7 +13,7 @@ import {
   DialogFooter,
   Badge,
 } from '@material-tailwind/react'
-import { RC, HEART, AC, SC_28_LIGHTMENDING_ICON } from '../../exports/constants'
+import { RC, HEART, AC, SC_29_CARNIVAL_ICON } from '../../exports/constants'
 
 const SpiritImageDetails = ({
   label,
@@ -42,7 +42,7 @@ const SpiritImageDetails = ({
               {cost.candles}&nbsp;
               {isCurrentSeason === true ? (
                 <img
-                  src={SC_28_LIGHTMENDING_ICON}
+                  src={SC_29_CARNIVAL_ICON}
                   alt="season candles"
                   title="season candles"
                   className="h-5"
@@ -166,7 +166,7 @@ const SpiritImageDetails = ({
                     ) : (
                       <span className="inline-flex flex-wrap justify-center">
                         <img
-                          src={SC_28_LIGHTMENDING_ICON}
+                          src={SC_29_CARNIVAL_ICON}
                           alt="Season Candles"
                           title="Season Candles"
                           className="h-4 md:h-5"

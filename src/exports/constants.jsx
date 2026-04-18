@@ -1,7 +1,7 @@
 import rc from '../assets/images/icons/candle.webp'
 import heart from '../assets/images/icons/heart.webp'
 import ac from '../assets/images/icons/AC.webp'
-import sc from '../assets/images/season-candles/28-season-of-lightmending/Lightmending-Candle.webp'
+import sc from '../assets/images/season-candles/29-season-of-carnival/Carnival-Candle.webp'
 
 // console.log(aviaryData[1].spirits.length)
 // const aviarySeasonSpiritCount = aviaryData[1].spirits.length
@@ -10,6 +10,7 @@ export const RC = rc
 export const HEART = heart
 export const AC = ac
 export const SC_28_LIGHTMENDING_ICON = sc
+export const SC_29_CARNIVAL_ICON = sc
 
 export const ORBIT_WL = 1
 export const SHARDS_WL = 6
@@ -50,9 +51,9 @@ export const EDEN_NUM_WL = 10
 export const EDEN_NUM_MAP_SHRINES = 4
 
 export const AVIARY_NUM_REG_SPIRIT = 0
-export const AVIARY_NUM_SEASON_SPIRIT = 16
+export const AVIARY_NUM_SEASON_SPIRIT = 20
 export const AVIARY_NUM_WL = 2
-export const AVIARY_NUM_MAP_SHRINES = 1
+export const AVIARY_NUM_MAP_SHRINES = 2
 
 export const S29_NUM_REG_SPIRIT = 0
 export const S29_NUM_SEASON_SPIRIT = 4

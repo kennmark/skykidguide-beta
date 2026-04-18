@@ -1,9 +1,9 @@
 import { Carousel, Typography, Button, Card } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
-import carousel1 from '../assets/images/seasonal-banners/S28A.webp'
-import carousel2 from '../assets/images/seasonal-banners/S28B.webp'
-import carousel3 from '../assets/images/seasonal-banners/S28C.webp'
+import carousel1 from '../assets/images/seasonal-banners/S29A.webp'
+import carousel2 from '../assets/images/seasonal-banners/S29B.webp'
+import carousel3 from '../assets/images/seasonal-banners/S29C.webp'
 import SeasonDisplayContainer from './components/SeasonDisplayContainer'
 import {
   seasons2019,
@@ -45,7 +45,7 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 28 | Season of Lightmending
+                    Season 29 | Season of Carnival
                   </Typography>
                   <Typography
                     variant="lead"
@@ -55,13 +55,13 @@ const PageSeasonMap = () => {
                     Bagong Season ang dumating sa Sky: Children of The Light!
                   </Typography>
                   <div className="flex justify-center gap-2">
-                    <Link to={`/seasons/2025/season-27/migration`}>
+                    <Link to={`/seasons/2026/season-29/carnival`}>
                       <Button size="sm" className="theme-button" ripple={true}>
                         Pasok
                       </Button>
                     </Link>
 
-                    <a href="https://www.thatskygame.com/news/the-season-of-migration-is-upon-us">
+                    <a href="https://www.thatskygame.com/news/this-month-in-sky-april-2026-edition">
                       <Button size="sm" className="theme-button">
                         Visit Site
                       </Button>
@@ -83,14 +83,15 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Lightmending Broken Memory Lanterns
+                    The Wandering Carnival is arriving!
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    Join together, use your light, and fix what has been broken.
+                    Full of revelry and delight, this group of spirits is
+                    bringing a new set of Shared Space challenges
                   </Typography>
                 </div>
               </div>
@@ -108,19 +109,16 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Team up, follow the clues, and piece the lanterns back
-                    together
+                    These new challenges bring their own rewards
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    Who could have guessed that Memory Lanterns are so fragile?
-                    Answer the call from this season’s Quest Giver, who has
-                    recruited some old friends to show Sky Kids everywhere that
-                    they can work together with their light to mend the Vault’s
-                    precious lanterns.
+                    completing other players’ Shared Space Challenges grants
+                    different amounts of Light based on how complex the creation
+                    is!
                   </Typography>
                 </div>
               </div>

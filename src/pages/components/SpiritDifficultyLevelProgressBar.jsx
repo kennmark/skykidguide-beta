@@ -22,6 +22,7 @@ const SpiritDifficultyLevelProgressBar = ({
     <Chip color="pink" value="Chase +15" key={13} />, // 12
     <Chip color="red" value="Crabs +15" key={14} />, // 13
     <Chip color="gray" value="None" key={15} />, // 14
+    <Chip color="light-green" value="Quest +5" key={16} />, // 14
   ]
 
   const difficultyType = difficultyTypes?.map((type) => typeValue[type])
@@ -37,10 +38,10 @@ const SpiritDifficultyLevelProgressBar = ({
             difficulty_level <= 25
               ? 'green'
               : difficulty_level <= 50
-              ? 'amber'
-              : difficulty_level <= 90
-              ? 'pink'
-              : 'red'
+                ? 'amber'
+                : difficulty_level <= 90
+                  ? 'pink'
+                  : 'red'
           }
           variant="h6"
         >
@@ -61,10 +62,10 @@ const SpiritDifficultyLevelProgressBar = ({
                   difficulty_level <= 25
                     ? 'text-green-500'
                     : difficulty_level <= 50
-                    ? 'text-amber-500'
-                    : difficulty_level <= 90
-                    ? 'text-pink-500'
-                    : 'text-red-500'
+                      ? 'text-amber-500'
+                      : difficulty_level <= 90
+                        ? 'text-pink-500'
+                        : 'text-red-500'
                 }
               >
                 {difficulty_label}
@@ -83,10 +84,10 @@ const SpiritDifficultyLevelProgressBar = ({
             difficulty_level <= 25
               ? 'green'
               : difficulty_level <= 50
-              ? 'amber'
-              : difficulty_level <= 90
-              ? 'pink'
-              : 'red'
+                ? 'amber'
+                : difficulty_level <= 90
+                  ? 'pink'
+                  : 'red'
           }
           size="lg"
           label={' '}
