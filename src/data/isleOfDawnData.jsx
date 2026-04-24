@@ -1140,35 +1140,40 @@ export const isleOfDawn = [
             label: 'Hair',
             img: OVERACTIVE_ITEM_1,
             currency: 'Candles',
-            price: 0,
+            price: 45,
           },
           {
             label: 'Cape',
             img: OVERACTIVE_ITEM_2,
             currency: 'Candles',
-            price: 0,
+            price: 80,
           },
           {
             label: 'Instrument',
             img: OVERACTIVE_ITEM_3,
             currency: 'Candles',
-            price: 0,
+            price: 55,
           },
           {
             label: 'Emote',
             img: OVERACTIVE_OVERACHIEVER,
             currency: 'Hearts',
-            price: 0,
+            price: 13,
           },
         ],
         spirit_tree_cost: [
           {
-            candles: 0,
-            hearts: 0,
+            candles: 193,
+            hearts: 13,
             ascended_candles: 2,
           },
         ],
-        number_of_visits: [],
+        number_of_visits: [
+          {
+            visit_date: 'Apr 23, 2026',
+            visitNo: 164,
+          },
+        ],
         icon_route: SEASON17,
         spirit_guide_video_url: youtube_embed + 'vkO4ujp0JNc',
         spirit_direction: [
