@@ -72,14 +72,14 @@ export const WL_COUNT =
 
 export const WB_REGULAR_SPIRITS = 49
 //!!!UPDATE THIS Wing Buff Count every new TS that hasnt arrived yet!!!
-export const WB_TRAVELING_SPIRITS = 87 // updated April 23, 2026 TS Melancholy Mope
+export const WB_TRAVELING_SPIRITS = 88 // updated May 21, 2026 Reassuring Ranger
 
 export const MS_HOME = 1
 
 export const TOTAL_WL_COUNT =
   WL_COUNT + WB_REGULAR_SPIRITS + WB_TRAVELING_SPIRITS + SHARDS_WL + ORBIT_WL
 
-export const TOTAL_MS_COUNT = // April 23, 2026 TS Melancholy Mope
+export const TOTAL_MS_COUNT = // May 21, 2026 Reassuring Ranger
   ISLE_NUM_MAP_SHRINES +
   PRAIRIE_NUM_MAP_SHRINES +
   FOREST_NUM_MAP_SHRINES +
@@ -90,7 +90,7 @@ export const TOTAL_MS_COUNT = // April 23, 2026 TS Melancholy Mope
   AVIARY_NUM_MAP_SHRINES +
   MS_HOME
 
-export const WL_COUNT_DATE_UPDATED = 'April 23, 2026' // April 23, 2026 TS Overactive Overachiever
+export const WL_COUNT_DATE_UPDATED = 'May 21, 2026' // May 21, 2026 TS Reassuring Ranger
 export const MS_COUNT_DATE_UPDATED = 'July 21, 2025' // April 17, 2026 Season of Carnival
 
 export const PLAYSTATION_MAX_WL = 248
