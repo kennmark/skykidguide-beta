@@ -120,11 +120,11 @@ const SeasonDisplayContainer = ({
               key={id}
             >
               <Button size="lg" fullWidth className="theme-button">
-                Pasok
+                Enter
               </Button>
             </Link>
             <div className="flex justify-center items-center align-middle text-xs mt-2">
-              <span className="text-blue-gray-100">Bisitahin ang page ng</span>
+              <span className="text-blue-gray-100">Visit the page of</span>
               <span className="ml-2 text-[#fe7f2d]">{name}</span>
             </div>
           </CardFooter>

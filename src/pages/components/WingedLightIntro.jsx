@@ -22,44 +22,31 @@ const WingedLightIntro = () => {
           Winged Lights
         </Typography>
         <Typography className="leading-8 py-5 px-10 text-white">
-          Ang Winged Lights (WL) ay nagbibigay ng kakayahan upang tumaas ang
-          Wing Power at Wing Level ng isang Skykid. May dalawang (2) paraan
-          upang magkaroon ng mataas na wing power at wing level ng isang Skykid.
-          Unang (1st) paraan, ay kolektahin ang lahat ng winged lights na
-          makikita sa buong Sky Kingdom. May{' '}
+Winged Lights (WL) provide the ability to increase a Skykid's Wing Power and Wing Level. There are two (2) ways for a Skykid to achieve higher Wing Power and Wing Level. The first (1st) way is to collect all the Winged Lights that can be found throughout the Sky Kingdom.
+ There are {' '}
           <span className="font-extrabold text-[#fe7f2d]">{WL_COUNT} WL</span>{' '}
-          na makukuha sa buong Pitong (7) Realms kasama ang mga Season Maps as
-          of{' '}
+          that you'll get on all (7) Realms including the Season Maps and as of{' '}
           <span className="font-extrabold text-[#fe7f2d]">
             {WL_COUNT_DATE_UPDATED}
           </span>{' '}
-          sa iOS, Android OS at Nintendo Switch. Pangalawang (2nd) paraan, ay
-          bilhin ang mga Wing Buffs na nasa mga Regular Spirits at Traveling
-          Spirits. Mayroong{' '}
+          on iOS, Android OS and Nintendo Switch. The second (2nd) way is to purchase the Wing Buffs available from Regular Spirits and Traveling Spirits. The second way is to buy Wing Buffs from Regular Spirits and Traveling Spirits.
+ There are{' '}
           <span className="font-extrabold text-[#fe7f2d]">
-            {WB_REGULAR_SPIRITS} Wing Buffs sa Regular Spirits
+            {WB_REGULAR_SPIRITS} Wing Buffs on Regular Spirits
           </span>{' '}
-          at{' '}
+          and{' '}
           <span className="font-extrabold text-[#fe7f2d]">
-            {WB_TRAVELING_SPIRITS} ng Wing Buffs sa Traveling Spirits
+            {WB_TRAVELING_SPIRITS} Wing Buffs on Traveling Spirits
           </span>{' '}
-          naman. Ang Wing Buffs ay permanenteng Wing Level pagkatapos mong
-          mareborn galing sa Eden.
+          as well. The Wing Buffs are permanent Wing Levels after you
+          are reborn from Eden.
         </Typography>
         <Typography className="leading-8 pb-5 px-10 text-white">
-          Sa iOS, Android at Nintendo Switch ay mayroon nang{' '}
+          On iOS, Android and Nintendo Switch there are{' '}
           <span className="font-extrabold text-[#fe7f2d]">
             {TOTAL_WL_COUNT} WL
           </span>{' '}
-          Max Winged Light . At sa Playstation ay may{' '}
-          <span className="font-extrabold text-[#fe7f2d]">
-            {PLAYSTATION_MAX_WL} WL
-          </span>{' '}
-          at sa Steam ay may{' '}
-          <span className="font-extrabold text-[#fe7f2d]">
-            {STEAM_MAX_WL} WL
-          </span>{' '}
-          Maximum Winged Light Count.
+          Max Winged Light .
         </Typography>
       </div>
       <div className="flex flex-wrap justify-center">

@@ -1,29 +1,29 @@
 export const faqdetails = [
   {
     id: 1,
-    headerTitle: ' Paano ako makikipag ugnayan sa ibang mga manlalaro sa laro?',
-    body: 'Ang mga manlalaro ay makikipagugnayan sa iba gamit ang mga emote,pakikipagchat at pagbuo ng mga grupo. Maaari mo rin hawakan ang kamay ng ibang mga manlalaro upang magbahagi ng liwanag at magnavigate sa mga challenging na lugar nang magkasama. - ZR Sarmiento (SKY-PH: Admin)',
+    headerTitle: 'How do I communicate and interact with other players in the game?',
+    body: 'Players can communicate and interact with each other using emotes, chat, and forming groups. You can also hold hands with other players to share light and navigate challenging areas together. - ZR Sarmiento (SKY-PH: Admin)',
   },
   {
     id: 2,
-    headerTitle: 'Ano ang gamit ng mga kandila sa laro?',
-    body: 'Ang mga kandila ay isang uri ng pera sa laro. Ang mga manlalaro ay maaaring mag-ipon ng mga kandila upang makabili ng mga kosmetiko, emote, at iba pang mga bagay na mag papaganda sa itsura at kakayahan ng kanilang karakter.- ZR Sarmiento (SKY-PH: Admin)',
+    headerTitle: 'What is the purpose of candles in the game?',
+    body: 'Candles are a type of currency in the game. Players can collect candles to purchase cosmetics, emotes, and other items that enhance their character\'s appearance and abilities.- ZR Sarmiento (SKY-PH: Admin)',
   },
   {
     id: 3,
-    headerTitle: 'Ano ang layunin ng mga espiritu sa laro?',
-    body: ' Ang mga ispirito ay mga karakter na maaaring tulungan ng mga manlalaro at gabayan pabalik sa kanilang mga konstelasyon. Sa pamamagitan nito, kumikita ang mga manlalaro ng mga gantimpala, kosmetiko, at pagunlad sa kuwento ng laro.- ZR Sarmiento (SKY-PH: Admin)',
+    headerTitle: 'What is the purpose of spirits in the game?',
+    body: 'Spirits are characters that players can help and guide back to their constellations. Through this, players can earn rewards, cosmetics, and progress in the game story.- ZR Sarmiento (SKY-PH: Admin)',
   },
   {
     id: 4,
     headerTitle:
-      'Paano ako makakakuha ng mga pakpak sa “Sky: Children of the Light”?',
-    body: 'Ang mga pakpak o Wing Light (WL) ay makukuha sa pamamagitan ng paghanap ng mga WL sa buong laro. mga piraso ng liwanag na ito ay nakatago sa iba’t ibang mga lugar at maaaring kolektahin upang unti-unting mapabuti ang kakayahan ng iyong karakter na lumipad at mag-glide.- ZR Sarmiento (SKY-PH: Admin)',
+      'How do I obtain wings in Sky: Children of the Light?',
+    body: 'Wings, also known as Winged Lights (WL), are obtained by finding Winged Lights scattered throughout the game. These fragments of light are hidden in various locations and can be collected to gradually enhance your character’s ability to fly and glide.- ZR Sarmiento (SKY-PH: Admin)',
   },
   {
     id: 5,
     headerTitle:
-      'Available ba ang “Sky: Children of the Light” sa iba’t ibang platform?',
-    body: ' Yepp ang laro ay available sa iba’t ibang platform, nauna ito sa iOS, sumunod naman sa Android, at available na din sa Nintendo Switch, PlayStation, at ang bago ngayon sa PC. Maaaring gamitin ng mga manlalaro ang mapayapang laro at pagsasamang gameplay ng laro sa kanilang napiling platform.- ZR Sarmiento (SKY-PH: Admin)',
+      'Is “Sky: Children of the Light” available on different platforms?',
+    body: ' Yes, the game is available on different platforms, starting with iOS, followed by Android, and now also available on Nintendo Switch, PlayStation, and PC. Players can enjoy the peaceful gameplay and cooperative mechanics of the game on their preferred platform.- ZR Sarmiento (SKY-PH: Admin)',
   },
 ]

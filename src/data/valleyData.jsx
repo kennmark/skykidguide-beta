@@ -192,7 +192,7 @@ export const valley = [
           <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
             {VALLEY_NUM_REG_SPIRIT}
           </span>{' '}
-          regular spirits na makikita mo dito.
+          regular spirits you will see here.
         </Typography>
       </>
     ),

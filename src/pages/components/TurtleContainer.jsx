@@ -9,11 +9,11 @@ const Turtle = ({ dtsValue }) => {
       {!daylightTimeSaving && (
         <div className="my-16">
           <Typography>
-            Nagsisimula ang Turtle sa{' '}
-            <span className="text-red-400">ODD Numbers na Oras </span>na
-            may&nbsp;
+            Turtle starts at{' '}
+            <span className="text-red-400">ODD Numbers Time</span> at
+            &nbsp;
             <span className="text-amber-700 font-extrabold">:50</span>
-            &nbsp;minuto, Halimbawa&nbsp;
+            &nbsp;minutes, Example&nbsp;
             <span className="text-red-400">1</span>
             <span className="text-amber-700 font-extrabold">:50</span>, &nbsp;
             <span className="text-red-400">3</span>
@@ -26,21 +26,21 @@ const Turtle = ({ dtsValue }) => {
             <span className="text-amber-700 font-extrabold">:50</span>, &nbsp;
             <span className="text-red-400">11</span>
             <span className="text-amber-700 font-extrabold">:50</span>, &nbsp;
-            At tumatagal lamang ito ng{' '}
+            At only lasts within{' '}
             <span className="text-amber-700 font-extrabold">
-              sampung (10) minuto
+              ten (10) minutes
             </span>
-            . Mahahanap mo ito sa Sanctuary Islands, dako sa mga maliliit na
-            isla, ng Daylight Prairie | Ikalawang Mapa.
+            . You'll find it in the Sanctuary Islands, large among the small
+            islands, of Daylight Prairie | Second Map.
           </Typography>
         </div>
       )}
       {daylightTimeSaving && (
         <div className="my-16">
           <Typography>
-            Nagsisimula ang Turtle sa{' '}
-            <span className="text-red-400">EVEN Numbers na Oras </span>na
-            may&nbsp;
+            Turtle starts at{' '}
+            <span className="text-red-400">EVEN Numbers Time</span> at
+            &nbsp;
             <span className="text-red-400">2</span>
             <span className="text-amber-700 font-extrabold">:50</span>, &nbsp;
             <span className="text-red-400">4</span>
@@ -53,12 +53,12 @@ const Turtle = ({ dtsValue }) => {
             <span className="text-amber-700 font-extrabold">:50</span>, &nbsp;
             <span className="text-red-400">12</span>
             <span className="text-amber-700 font-extrabold">:50</span>. At
-            tumatagal lamang ito ng{' '}
+            only lasts within{' '}
             <span className="text-amber-700 font-extrabold">
-              sampung (10) minuto
+              ten (10) minutes
             </span>
-            . Mahahanap mo ito sa Sanctuary Islands, dako sa mga maliliit na
-            isla, ng Daylight Prairie | Ikalawang Mapa.
+            . You'll find it in the Sanctuary Islands, large among the small
+            islands, of Daylight Prairie | Second Map.
           </Typography>
         </div>
       )}

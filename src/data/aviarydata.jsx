@@ -28,7 +28,7 @@ export const aviaryData = [
     desc: (
       <div className="">
         <Typography className="antialiased font-sans inline-flex ">
-          Narito ang Seasons of:
+          Here is the Seasons of:
           <Link to="/seasons/2023/season-19/revival" className="inline-flex">
             <div className="">
               <LazyLoadImage src={SEASON19} style={{ width: 25 }} />
@@ -74,12 +74,12 @@ export const aviaryData = [
     value: 'collectibles',
     desc: (
       <Typography className="antialiased font-sans">
-        Nandito ang mga collectibles na dumaan noong nakaraang Seasonal Events
-        na maari mong makuha kapag ito ay bumalik bilang TS. May{' '}
+        Here are the collectibles that appeared in previous Seasonal Events
+        that you can obtain when they return as TS. There are{' '}
         <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
           {AVIARY_NUM_SEASON_SPIRIT}
         </span>{' '}
-        collectibles makukuha dito.
+        collectibles you can get here.
       </Typography>
     ),
     spirits: [
@@ -454,12 +454,11 @@ export const aviaryData = [
     value: 'winged_lights',
     desc: (
       <Typography className="antialiased font-sans">
-        Sa mapang ito mo rin makikita ang mga Winged Lights kung tawagin. Ito ay
-        nagpapataas ng lebel para ikaw ay makalipad ng mas mataas. May{' '}
+        Here are the Winged Lights you can find in this map. They increase your flight level, allowing you to fly higher. There are{' '}
         <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
           {AVIARY_NUM_WL}
         </span>{' '}
-        na winged lights ang pwede mong makuha dito sa Hidden Forest.
+        winged lights available here in the Hidden Forest.
       </Typography>
     ),
     winged_lights: [
@@ -486,12 +485,11 @@ export const aviaryData = [
     value: 'map_shrines',
     desc: (
       <Typography className="antialiased font-sans">
-        Ang Map Shrines ay nagsisilbing gabay upang magtukoy kung ilan at saan
-        pa ang kailangan mong kunin na winged lights sa loob ng mapa. May{' '}
+        Here are the Map Shrines you can find in this map. They help you identify where to find Winged Lights within the map. There are{' '}
         <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
           {AVIARY_NUM_MAP_SHRINES}
         </span>{' '}
-        na Map Shrines ang pwede mong mabuksan sa loob ng Hidden Forest.
+        Map Shrines available.
       </Typography>
     ),
     map_shrines: [
@@ -500,9 +498,9 @@ export const aviaryData = [
         shrine_label: 'Map Shrine 1',
         shrine_url: AV_MS1 ?? MAP_SHRINE,
         shrine_location: [
-          `Pasok sa Aviary Village, ang nasa gitnang portal sa Old Home.`,
-          `Or kung nasa Aviary Village ka na,`,
-          `Pagkapasok sa portal, dumako sa dulo ng village at malapit sa wardrobe, makikita ang map shrine`,
+          `Enter the Aviary Village, found in the center portal if you are in the Old Home.`,
+          `Or if you're already in the village,`,
+          `Go straight towards the end of the village, before passing the tunneland on the left side, you will find the map shrine.`,
         ],
       },
       {
@@ -511,8 +509,8 @@ export const aviaryData = [
         shrine_label: 'Map Shrine 2',
         shrine_url: AV_MS2 ?? MAP_SHRINE,
         shrine_location: [
-          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
-          'Pagkadating, umakyat sa barko ng Wandering Carnival at sa likod ng Athletic Dancer makikita ang map shrine.',
+          `In the Aviary Village, head towards the end of the village, after passing the tunnel and on the left side, you will find a boat leading to the Wandering Carnival Boat.`,
+          `Upon arriving, board the Wandering Carnival boat and look behind the Athletic Dancer to find the map shrine.`,
         ],
       },
     ],

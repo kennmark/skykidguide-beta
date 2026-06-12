@@ -8,11 +8,11 @@ const GeyserContainer = ({ dtsValue }) => {
       {!daylightTimeSaving && (
         <div className="my-16">
           <Typography>
-            Nagsisimula ang Geyser sa{' '}
-            <span className="text-red-400">ODD Numbers na Oras</span> at may
+            Geyser starts at{' '}
+            <span className="text-red-400">ODD Numbers Time</span> at
             &nbsp;
-            <span className="text-amber-700 font-extrabold">:05</span> minuto,
-            Halimbawa&nbsp;
+            <span className="text-amber-700 font-extrabold">:05</span> minutes,
+            Example&nbsp;
             <span className="text-red-400">1</span>
             <span className="text-amber-700 font-extrabold">:05</span>, &nbsp;
             <span className="text-red-400">3</span>
@@ -25,20 +25,19 @@ const GeyserContainer = ({ dtsValue }) => {
             <span className="text-amber-700 font-extrabold">:05</span>, &nbsp;
             <span className="text-red-400">11</span>
             <span className="text-amber-700 font-extrabold">:05</span>, &nbsp;
-            At tumatagal lamang ito ng{' '}
+            and only lasts within{' '}
             <span className="text-amber-700 font-extrabold">
-              sampung (10) minuto
+              ten (10) minutes
             </span>
-            . Mahahanap mo ito sa Sanctuary Islands ng Daylight Prairie |
-            Ikalawang Mapa.
+            . You'll find it in the Sanctuary Islands of Daylight Prairie | Second Map.
           </Typography>
         </div>
       )}
       {daylightTimeSaving && (
         <div className="my-16">
           <Typography>
-            Nagsisimula ang Geyser sa{' '}
-            <span className="text-red-400">EVEN Numbers na Oras</span> at may
+            Geyser starts at{' '}
+            <span className="text-red-400">EVEN Numbers Time</span> at
             &nbsp;
             <span className="text-red-400">2</span>
             <span className="text-amber-700 font-extrabold">:05</span>, &nbsp;
@@ -52,12 +51,12 @@ const GeyserContainer = ({ dtsValue }) => {
             <span className="text-amber-700 font-extrabold">:05</span>, &nbsp;
             <span className="text-red-400">12</span>
             <span className="text-amber-700 font-extrabold">:05</span>. At
-            tumatagal lamang ito ng{' '}
+            only lasts within{' '}
             <span className="text-amber-700 font-extrabold">
-              sampung (10) minuto
+              ten (10) minutes
             </span>
-            . Mahahanap mo ito sa Sanctuary Islands ng Daylight Prairie |
-            Ikalawang Mapa.
+            . You'll find it in the Sanctuary Islands of Daylight Prairie |
+            Second Map.
           </Typography>
         </div>
       )}

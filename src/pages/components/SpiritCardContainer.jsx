@@ -154,8 +154,7 @@ const SpiritCardContainer = ({
           />
         </span>
         <span className="text-blue-gray-300 text-xs leading-relaxed">
-          Tap / Click ang progress bar upang makita pa tungkol sa difficulty ng
-          spirit.
+          Tap / Click the progress bar to see more about the spirit's difficulty.
         </span>
         <ButtonGroup size="sm" ripple={true} className="mt-2" role="group">
           <Button onClick={handleVideoGuideOpen} className="theme-button">

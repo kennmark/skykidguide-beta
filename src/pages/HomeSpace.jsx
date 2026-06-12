@@ -93,11 +93,10 @@ const HomeSpace = () => {
               color="white"
               className="flex text-center font-normal opacity-80"
             >
-              sa pinakahuling tala{' '}
+              On latest record{' '}
               {WL_COUNT_DATE_UPDATED === dateFormat ? 'ngayong' : 'noong'}{' '}
-              {WL_COUNT_DATE_UPDATED} may &nbsp;
-              {TOTAL_WL_COUNT} WL na sa iOS at Android. Sa Playstation ay may{' '}
-              {PLAYSTATION_MAX_WL} at sa Steam ay may {STEAM_MAX_WL}
+              {WL_COUNT_DATE_UPDATED} there is &nbsp;
+              {TOTAL_WL_COUNT} winged lights total for Android and iOS.
             </Typography>
           </div>
         }
@@ -167,7 +166,7 @@ const HomeSpace = () => {
               color="white"
               className="font-light lg:font-bold text-xs lg:text-lg"
             >
-              Maligayang Paglipad Skykid!
+              Welcome Skykids!
             </Typography>
             <Typography className="mt-1 font-light text-[#fe7f2d] lg:font-bold text-xs lg:text-lg ">
               {formattedToday}

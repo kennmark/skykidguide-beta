@@ -48,7 +48,7 @@ export const Countdown = ({ tgt = timeInSeconds }) => {
     <div className="clock">
       <Link to="seasons/2024/season-20/the-nine-colored-deer">
         <h1>Countdown</h1>
-        <h1>Season of Nine-Colored Deer</h1>
+        <h1>Season of the Dear Van Gogh</h1>
       </Link>
       <div className="countdown">
         <Number value={hours} />

@@ -9,12 +9,11 @@ const AuroraConcert = ({ dtsValue }) => {
       {!daylightTimeSaving && (
         <div className="my-16">
           <Typography>
-            Nagsisimula ang Aurora Concert sa{' '}
-            <span className="text-red-400">ODD Numbers na Oras </span>na
-            may&nbsp;
+            Aurora Concert starts at{' '}
+            <span className="text-red-400">ODD Numbers Time</span> at
+            &nbsp;
             <span className="text-amber-700 font-extrabold">:00</span>
-            &nbsp;at minuto,10 (Sampung Minuto) upang maghanap ng mauupuan sa
-            concert. Halimbawa&nbsp;
+            &nbsp;minutes, Example&nbsp;
             <span className="text-red-400">1</span>
             <span className="text-amber-700 font-extrabold">:00</span>, &nbsp;
             <span className="text-red-400">3</span>
@@ -27,33 +26,32 @@ const AuroraConcert = ({ dtsValue }) => {
             <span className="text-amber-700 font-extrabold">:00</span>&nbsp;
             <span className="text-red-400">11</span>
             <span className="text-amber-700 font-extrabold">:00</span>, &nbsp;
-            At tumatagal lamang ito ng{' '}
+            At only lasts within{' '}
             <span className="text-amber-700 font-extrabold">
-              Limangpong (50) minuto
+              50 minutes (50) minutes
             </span>
-            . Makakapunta ka lamang dito kapag ikaw ay may Wings of Aurora o may
-            kaibigan kang mayroong Wings of Aurora.
+            . You'll find it in the Sanctuary Islands, large among the small
+            islands, of Daylight Prairie | Second Map.
           </Typography>
         </div>
       )}
       {daylightTimeSaving && (
         <div className="my-16">
           <Typography>
-            Nagsisimula ang Aurora Concert sa{' '}
-            <span className="text-red-400">EVEN Numbers na Oras </span>na
-            may&nbsp;
+            Aurora Concert starts at{' '}
+            <span className="text-red-400">EVEN Numbers Time</span> at
+            &nbsp;
             <span className="text-red-400">4</span>
             <span className="text-amber-700 font-extrabold">:00</span>, &nbsp;
             <span className="text-red-400">8</span>
             <span className="text-amber-700 font-extrabold">:00</span>, &nbsp;
             <span className="text-red-400">12</span>
             <span className="text-amber-700 font-extrabold">:00</span>. At
-            tumatagal lamang ito ng{' '}
+            only lasts within{' '}
             <span className="text-amber-700 font-extrabold">
-              Limangpong (50) minuto
+              50 minutes (50) minutes
             </span>
-            . Makakapunta ka lamang dito kapag ikaw ay may Wings of Aurora o may
-            kaibigan kang mayroong Wings of Aurora.
+            . You will need Aurora Wings for you to be able to join the concernt.
           </Typography>
         </div>
       )}

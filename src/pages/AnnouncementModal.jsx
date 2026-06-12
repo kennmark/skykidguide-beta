@@ -59,7 +59,7 @@ const AnnouncementModal = () => {
           />
         </svg>
         <Typography variant="h6" className="text-[#fe7f2d]">
-          Pagbati SkyKid!
+          Greetings SkyKid!
           <br /> {formattedToday}
         </Typography>
       </DialogHeader>
@@ -69,23 +69,15 @@ const AnnouncementModal = () => {
         </Typography>
 
         <Typography color="white" className="text-center text-sm lg:text-lg ">
-          Ang website na ito ay binuo upang magamit bilang gabay sa paglalaro ng
+          This website was created to serve as a guide for the game{' '}
           <a href="https://www.thatskygame.com/">
             {' '}
             Sky: Children of the Light
           </a>{' '}
-          . Layunin nito na matulungan ang mga baguhan o "moth" na nakagiliwang
-          laruin ang nasabing laro pagdating sa mga aspektong tulad ng mga
-          lokasyon kung saan makikita at kung paano makukuha ang bawat isang
-          "spirit" (regular spirit at seasonal spirit), mga "winged light"
-          (Children of the Light), mga takdang oras at lokasyon ng "geyser",
-          "Grandma", at ng "turtle" at Kabilang din ang mga gabay para sa mga
-          bagong event na kasalukuyang isinagawa sa loob ng laro.
+          . The purpose of this website is to help new players or "moths" who have chosen to play the game navigate its various aspects, such as the locations where spirits can be found and how to obtain each one, including both regular and seasonal spirits, winged lights (Children of the Light), geyser locations, Grandma locations, and turtle locations. Additionally, it provides guidance for upcoming events currently happening within the game.
         </Typography>
         <Typography color="white" className="text-center text-sm lg:text-lg ">
-          Upang mas maging user-friendly at interaktibo ang paggamit, ang mga
-          bahagi ng website na ito ay nakasulat sa wikang Filipino upang mas
-          madaling maunawaan ng mga Pilipinong gagamit nito.
+          So that's it for now, I hope you find this website useful and that it helps you in your journey as a SkyKid. If you have any suggestions or feedback, please feel free to reach out to me. Happy flying!
         </Typography>
       </DialogBody>
       <DialogFooter className="space-x-2 m-2">
@@ -93,7 +85,7 @@ const AnnouncementModal = () => {
           onClick={handleOpen}
           className="bg-[#fe7f2d] text-[#233d4d] border-2 border-[#233d4d] hover:bg-[#233d4d] hover:text-[#fe7f2d] hover:border-2 hover:border-[#fe7f2d]"
         >
-          Magpatuloy
+          Continue
         </Button>
       </DialogFooter>
     </Dialog>

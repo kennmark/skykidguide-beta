@@ -18,14 +18,14 @@ export const skyPhFbTeam = [
     title: `Entrepreneur / Admin SkyPH`,
     avatar_img: zr_avatar,
   },
-  // {
-  //   fullname: `Poi Pororo`,
-  //   facebook: `https://www.facebook.com/skyadventures.poipororo`,
-  //   instagram: ``,
-  //   tiktok: ``,
-  //   title: `Admin SkyPH`,
-  //   avatar_img: poi_avatar,
-  // },
+  {
+    fullname: `Poi Pororo`,
+    facebook: `https://www.facebook.com/skyadventures.poipororo`,
+    instagram: ``,
+    tiktok: ``,
+    title: `Admin SkyPH`,
+    avatar_img: poi_avatar,
+  },
   {
     fullname: `Art Ator`,
     facebook: ``,

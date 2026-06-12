@@ -7,7 +7,7 @@ const DifficultyCriteria = () => {
         Information on Spirit's Difficulty Factors:
       </Typography>
       <Typography>
-        Ang criteria na ito ay base sa "moth" o "new player" experience.
+        This criteria is based on the "moth" or "new player" experience.
       </Typography>
       <div className="flex flex-row flex-wrap justify-center gap-2 py-3">
         <Chip color="green" value="Follow +5" />

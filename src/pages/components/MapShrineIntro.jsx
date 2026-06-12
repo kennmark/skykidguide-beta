@@ -30,36 +30,27 @@ const MapShrineIntro = () => {
           Map Shrines
         </Typography>
         <Typography className="leading-8 py-5 px-10">
-          Ang Map Shrines (MS) ay nagsisilbing gabay upang makita sa mapa ng
-          buong Sky ang mga{' '}
+          Map Shrines serves as literally the map for entire Sky Kingdom, showing the locations of all{' '}
           <span className="font-extrabold text-[#fe7f2d]">
-            lokasyon ng mga Winged Lights
+            Winged Lights
           </span>{' '}
-          na hindi pa nakukuha at ang{' '}
-          <span className="font-extrabold text-[#fe7f2d]">Daily Quests</span> na
-          bagong feature ngayon na nakatakda sa araw na ito ay maari mo na din
-          dito makita. May{' '}
+          that have not been collected yet, as well as the{' '}
+          <span className="font-extrabold text-[#fe7f2d]">Daily Quests</span> new feature where you can track your daily quests and their locations. There are{' '}
           <span className="font-extrabold text-[#fe7f2d]">
             {TOTAL_MS_COUNT} Map Shrines
           </span>{' '}
-          na makukuha sa buong Pitong (7) Realms kasama ang mga Season Maps as
+          that can be found throughout the Sky Kingdom, including the Season Maps as
           of{' '}
           <span className="font-extrabold text-[#fe7f2d]">
             {MS_COUNT_DATE_UPDATED}
           </span>{' '}
-          sa iOS at Android OS .
+          on iOS and Android OS.
         </Typography>
         <Typography>
-          May panibagong feature ngayon ang Map Locator na kung saan maari mong
-          ma-access ang the same feature ng Map Shrine kahit saan man sa Sky.
-          Maari mo lamang makita ang kabuuan ng Sky kapag nasindihan mo na ang
-          mga Map Shrines na ito.
+          The Map Locator now includes a new feature that lets you access the same functions as a Map Shrine from anywhere in Sky. You can only see the complete Sky map once you have lit (activated) all of the Map Shrines.
         </Typography>
         <Typography>
-          Sa paraan ding ito, ang Map Locator ay may mga features na kung saan
-          makikita mo kung asan ang mga Past Seasons Guide makikita sa mundo ng
-          Sky. Dito rin makikita kung ilang winged lights pa ang kulang mo at
-          ilang Regular at Seasonal Spirits ang nakuha at na-relive mo na.
+          The Map Locator also includes features that let you locate Past Season Guides throughout the world of Sky. It can also display how many Winged Lights you have yet to collect and how many Regular and Seasonal Spirits you have already discovered and relived.
         </Typography>
       </div>
       <div className="flex flex-wrap justify-center items-center">

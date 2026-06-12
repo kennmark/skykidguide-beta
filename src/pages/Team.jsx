@@ -28,9 +28,7 @@ const Team = () => {
           The Team
         </Typography>
         <Typography className="mt-4">
-          Ang Skykid: Tuloy & Gabay ay binubuo ng isang grupo na mula sa SKY:
-          Children of The Light (Philippines). Ako naman ay si Kenn ang gumawa
-          ng website na ito.
+          SkykidHero This website was developed with the support of the *Sky: Children of the Light Philippines community.
         </Typography>
       </div>
       <div className="flex justify-center py-5 ">

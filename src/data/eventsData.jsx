@@ -18,15 +18,12 @@ export const eventsData = [
     sub_title: 'March 25 - April 14, 2023 Dont forget the 5 tix daily!',
     img: DOB,
     type: 'regular',
-    description: `1st week - 3 tix kelangan tumayo ka kung saan tumatama ang kidlat ⚡️,
-          1 sa Days of Event Guide after interacting, 1 nasa area ng event.
-          2nd-3rd week - 4 nasa area ng event at 1 sa Event Guide after
-          interacting. Magmasid sa mga little creatures sa ulan dahil pagdating
-          ng 2nd week, pwede kang magtransform bilang 🪼 jellyfish. Lumapit ka
-          lng sa event guide at may meditation circle kang makikita. At sa
-          forgotten Ark naman ay may meditation circle din upang magtransform ka
-          into butterfly!🦋 Days of Bloom Capes can be bought sa Aviary Event
-          Room is as always.`,
+    description: `Week 1 – There are 3 Event Tickets available: 1 ticket can be obtained by standing where the lightning strikes ⚡️. 
+    1 ticket is given by the Days of Event Guide after interacting with them.
+    1 ticket can be found within the event area. Weeks 2–3 – There are 5 Event Tickets available: 4 tickets can be found throughout the event area.
+    1 ticket is obtained from the Event Guide after interacting with them.
+    Keep an eye on the small creatures in the rain! Starting in Week 2, you can transform into a 🪼 jellyfish. Simply approach the Event Guide and use the nearby meditation circle. You can also transform into a 🦋 butterfly by using the meditation circle located at the Forgotten Ark.
+    As always, the Days of Bloom Capes can be purchased in the Aviary Event Room.`,
   },
   {
     id: 2,

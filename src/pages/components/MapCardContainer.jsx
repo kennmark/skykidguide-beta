@@ -132,7 +132,7 @@ const MapCardContainer = ({
             >
               <div className="flex justify-center items-center">
                 <ArrowRightOnRectangleIcon className="h-6 w-6" />
-                &nbsp;Pasok
+                &nbsp;Enter
               </div>
             </Button>
           </Link>
