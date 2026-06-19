@@ -27,6 +27,7 @@ import season26 from '../assets/images/season-icons/Season-26.png'
 import season27 from '../assets/images/season-icons/Season-27.png'
 import season28 from '../assets/images/season-icons/Season-28.png'
 import season29 from '../assets/images/season-icons/Season-29.png'
+import season30 from '../assets/images/season-icons/Season-30.png'
 
 import map1 from '../assets/images/icons/Map1-Isle-Icon.webp'
 import map2 from '../assets/images/icons/Map2-Prairie-Icon.webp'
@@ -65,6 +66,7 @@ export const SEASON26 = season26
 export const SEASON27 = season27
 export const SEASON28 = season28
 export const SEASON29 = season29
+export const SEASON30 = season30
 
 export const MAP1 = map1
 export const MAP2 = map2
