@@ -98,8 +98,8 @@ const S30VanGoghPage = () => {
                 <div className="text-gray-100 pb-5">
                   <LazyLoadImage
                     src={Banner}
-                    alt="Season of Dear Van Gogh"
-                    title="Season of Dear Van Gogh"
+                    alt={name}
+                    title={name}
                     placeholderSrc={
                       <Spinner className="h-10 w-10 text-gray-900/50" />
                     }
