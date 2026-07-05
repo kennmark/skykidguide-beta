@@ -137,7 +137,7 @@ const SideBar = ({ screenSize }) => {
           </Link>
         </ListItem>
 
-        {/* <ListItem>
+        <ListItem>
           <Link to={'/veterans'}>
             <div className="flex flex-wrap text-blue-gray-700">
               <ListItemPrefix>
@@ -149,7 +149,7 @@ const SideBar = ({ screenSize }) => {
               </ListItemSuffix>
             </div>
           </Link>
-        </ListItem> */}
+        </ListItem>
       </List>
     </div>
   )

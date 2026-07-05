@@ -146,12 +146,12 @@ export const isleOfDawn = [
           className="rounded-xl"
         />
         <Typography className="antialiased font-sans pt-4">
-          May{' '}
+          There are{' '}
           <span className="font-sans font-bold text-lg text-black bg-[#fe7f2d] rounded-3xl px-2">
             {ISLE_NUM_REG_SPIRIT}
           </span>{' '}
-          regular spirits na makikita mo dito. Andito ang mga spirits ng
-          Pointing Candlemaker, Rejecting Voyager at ang Ushering Stargazer.
+          regular spirits that is on this map. Spirits that you can find here are
+          Pointing Candlemaker, Rejecting Voyager and Ushering Stargazer.
         </Typography>
       </div>
     ),
@@ -1306,7 +1306,19 @@ export const isleOfDawn = [
       },
       {
         id: 5,
-        wl_label: 'WL5-Butterfly Cave',
+        wl_label: 'WL5-Sand Dunes Migration Camp',
+        wl_group: 'wl-isle',
+        wl_season_group: 'wl-isle-season-27',
+        wl_url: ID_WL10 ?? WINGED_LIGHT,
+        wl_location: [
+          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
+          `Lumipad ka gawing kaliwa at hanapin lamang ang Camp Site ng Migration`,
+          `Sa Likod ng Camp Door Post makikita ang Winged Light.`,
+        ],
+      },
+      {
+        id: 6,
+        wl_label: 'WL6-Butterfly Cave',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-0',
         wl_url: ID_WL5 ?? WINGED_LIGHT,
@@ -1319,8 +1331,8 @@ export const isleOfDawn = [
         ],
       },
       {
-        id: 6,
-        wl_label: 'WL6-Trial of Water',
+        id: 7,
+        wl_label: 'WL7-Trial of Water',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
         wl_url: ID_WL6 ?? WINGED_LIGHT,
@@ -1331,8 +1343,8 @@ export const isleOfDawn = [
         ],
       },
       {
-        id: 7,
-        wl_label: 'WL7-Trial of Earth',
+        id: 8,
+        wl_label: 'WL8-Trial of Earth',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
         wl_url: ID_WL7 ?? WINGED_LIGHT,
@@ -1343,8 +1355,8 @@ export const isleOfDawn = [
         ],
       },
       {
-        id: 8,
-        wl_label: 'WL8-Trial of Air',
+        id: 9,
+        wl_label: 'WL9-Trial of Air',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
         wl_url: ID_WL8 ?? WINGED_LIGHT,
@@ -1355,8 +1367,8 @@ export const isleOfDawn = [
         ],
       },
       {
-        id: 9,
-        wl_label: 'WL9-Trial of Fire',
+        id: 10,
+        wl_label: 'WL10-Trial of Fire',
         wl_group: 'wl-isle',
         wl_season_group: 'wl-isle-season-7',
         wl_url: ID_WL9 ?? WINGED_LIGHT,
@@ -1364,18 +1376,6 @@ export const isleOfDawn = [
           `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
           `lumipad ka gawing kanan at may lagusan papasok sa Cave of Prophecy pumasok ka,`,
           `Pumasok ka sa Fire Trial ng Cave of Prophecy nasa dulo ng trial ang winged light.`,
-        ],
-      },
-      {
-        id: 10,
-        wl_label: 'WL10-Sand Dunes Migration Camp',
-        wl_group: 'wl-isle',
-        wl_season_group: 'wl-isle-season-27',
-        wl_url: ID_WL10 ?? WINGED_LIGHT,
-        wl_location: [
-          `Pagkapasok mo sa Map 1 | Isle of Dawn, ay pumasok ka sa kweba na may lagusan.`,
-          `Lumipad ka gawing kaliwa at hanapin lamang ang Camp Site ng Migration`,
-          `Sa Likod ng Camp Door Post makikita ang Winged Light.`,
         ],
       },
     ],

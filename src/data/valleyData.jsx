@@ -2019,13 +2019,13 @@ export const valley = [
     ],
   },
   {
-    label: 'Dye Locations',
+    label: 'Dye Ratio',
     value: 'dye_locations',
     desc: (
-      <>
+      <div className="flex flex-col justify-center items-center">
         <DyeAlertMessage />
         <ValleyDyes />
-      </>
+      </div>
     ),
   },
 ]

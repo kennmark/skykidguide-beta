@@ -29,7 +29,7 @@ Winged Lights (WL) provide the ability to increase a Skykid's Wing Power and Win
           <span className="font-extrabold text-[#fe7f2d]">
             {WL_COUNT_DATE_UPDATED}
           </span>{' '}
-          on iOS, Android OS and Nintendo Switch. The second (2nd) way is to purchase the Wing Buffs available from Regular Spirits and Traveling Spirits. The second way is to buy Wing Buffs from Regular Spirits and Traveling Spirits.
+          on iOS, Android OS and Nintendo Switch. The second (2nd) way is to purchase the Wing Buffs available from Regular Spirits and Traveling Spirits.
  There are{' '}
           <span className="font-extrabold text-[#fe7f2d]">
             {WB_REGULAR_SPIRITS} Wing Buffs on Regular Spirits

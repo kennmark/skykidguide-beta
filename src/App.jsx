@@ -295,6 +295,14 @@ const S29Carnival = lazy(() => {
     )
   })
 })
+const S30DearVanGogh = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(
+      () => resolve(import('./pages/SeasonsPages/S30VanGoghPage')),
+      300,
+    )
+  })
+})
 
 function App() {
   return (
@@ -646,6 +654,14 @@ function App() {
                 element={
                   <Layout>
                     <S29Carnival />
+                  </Layout>
+                }
+              />
+              <Route
+                path="seasons/2026/season-30/dear-van-gogh"
+                element={
+                  <Layout>
+                    <S30DearVanGogh />
                   </Layout>
                 }
               />

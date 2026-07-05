@@ -22,8 +22,8 @@ const DyeAlertMessage = () => {
   }
 
   return (
-    <div className="flex w-full flex-col gap-2 mt-2">
-      <Alert color="amber" icon={<Icon />}>
+    <div className="flex w-full flex-col mt-2">
+      <Alert color="amber" icon={<Icon />} className="p-1">
         <Typography variant="h3">REMINDER</Typography>
         Burning Dye Plants releases butterflies that match the plants' corresponding colors. Use the Butterfly Expression or a Deep Honk to collect and fill containers with Colored Light, similar to gathering wax for regular candles.
 When the group leader performs the expression or Deep Honk, nearby companions can also receive the corresponding color. Dye Plant locations rotate regularly, changing every hour based on whether the current time falls on an even-numbered or odd-numbered hour.

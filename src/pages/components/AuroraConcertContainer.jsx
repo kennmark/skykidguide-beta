@@ -30,8 +30,7 @@ const AuroraConcert = ({ dtsValue }) => {
             <span className="text-amber-700 font-extrabold">
               50 minutes (50) minutes
             </span>
-            . You'll find it in the Sanctuary Islands, large among the small
-            islands, of Daylight Prairie | Second Map.
+            . You will need Aurora Wings for you to be able to join the concert.
           </Typography>
         </div>
       )}
@@ -51,7 +50,7 @@ const AuroraConcert = ({ dtsValue }) => {
             <span className="text-amber-700 font-extrabold">
               50 minutes (50) minutes
             </span>
-            . You will need Aurora Wings for you to be able to join the concernt.
+            . You will need Aurora Wings for you to be able to join the concert.
           </Typography>
         </div>
       )}

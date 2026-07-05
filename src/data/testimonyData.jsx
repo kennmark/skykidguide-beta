@@ -140,4 +140,18 @@ export const testimonies = [
     group: 'SkyPH-Member',
     testimonial: `super helpful. solid website nyo!!!! Recommended`,
   },
+  {
+    id: 19,
+    testimonee: 'Sarah Letrero',
+    testimonee_avatar: avatarLady,
+    group: 'SkyPH-Member',
+    testimonial: `Ang ganda ng website ❤️❤️❤️`,
+  },
+  {
+    id: 20,
+    testimonee: 'Lui Laurent',
+    testimonee_avatar: avatarLady,
+    group: 'SkyPH-Member',
+    testimonial: `AYONNNNN! THANK YOUU SA WEBSITEE ^^`,
+  },
 ]

@@ -94,7 +94,7 @@ const Footer = () => {
               Checking spirit boxes are saved on your local browser/device. The
               developer does not and will not have any personal information from
               your device(s). The developer does not keep track any activities
-              happening on your device(s).
+              happening on your device(s). Clearing cache and cookies will reset your progress you checked on the spirit boxes.
             </Typography>
           </span>
 

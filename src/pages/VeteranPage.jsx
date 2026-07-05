@@ -25,13 +25,12 @@ const VeteranPage = () => {
         <div className="flex justify-center">
           {SkykidHero.map((hero, index) => (
             <div key={index}>
-              {hero.fullname}
-              <LazyLoadImage src={hero.avatar_img} width={220} />
+              <LazyLoadImage src={hero.avatar_img} width={120} />
+              {hero.ign}
             </div>
           ))}
         </div>
       </div>
-
       <ScrollToTop smooth className="scrollToTop" />
     </div>
   )
