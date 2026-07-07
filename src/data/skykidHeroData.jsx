@@ -1,5 +1,5 @@
 import kenn from '../assets/images/veterans/skykidhero-kenn.png'
-import an from '../assets/images/veterans/ign-an.png'
+import an from '../assets/images/veterans/IGN-An.png'
 import aleph from '../assets/images/veterans/IGN-Aleph-Null.png'
 import fritz from '../assets/images/veterans/IGN-Fritz.png'
 import klaus from '../assets/images/veterans/IGN-Klaus.png'
