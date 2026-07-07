@@ -21,13 +21,15 @@ const VeteranFeatured = () => {
             </div>
         )
     }
-
+    const vetTotal = SkykidHero.length
+    console.log(vetTotal);
+    
     useEffect(()=> {
         const shuffledId = [...SkykidHero].sort(()=> 0.5 - Math.random())
         const slicedId = shuffledId.slice(0, 3)
 
         setRandomsubset(slicedId)
-    }, [SkykidHero, 12])
+    }, [SkykidHero, vetTotal])
     
   return (
     <div className="my-10">
