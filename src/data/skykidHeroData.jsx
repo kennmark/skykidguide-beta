@@ -132,7 +132,7 @@ export const SkykidHero = [
       rule_abider: {value:10, description: "Follows the rules and guidelines of the game.", color: "indigo"},
       eden_master: {value:10, description: "Master of the Eye Eden.", color: "purple"},
       sky_navigator: {value:10, description: "Skilled at navigating the skies.", color: "pink"},
-      windpath_diver: {value:5, description: "Expert in exploring wind paths.", color: "teal"},
+      windpath_diver: {value:10, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
       onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
