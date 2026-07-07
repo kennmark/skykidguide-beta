@@ -39,6 +39,7 @@ import 'swiper/css/scrollbar'
 import DyeLocations from './components/DyeLocations'
 import TravellingSpirits from './components/TravellingSpirits'
 import TestFile from './components/TestFile'
+import VeteranFeatured from './components/VeteranFeatured'
 // import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const HomeSpace = () => {
@@ -255,7 +256,6 @@ const HomeSpace = () => {
         <Link to={`/map-shrines`}>
           <Button
             size="lg"
-            color="gray"
             className="theme-button my-20"
             ripple={true}
             fullWidth={false}
@@ -278,7 +278,7 @@ const HomeSpace = () => {
 
       {/* Veterans */}
       <Typography variant="h1" className="text-[#fe7f2d]">
-        Veterans Coming Soon...
+        <VeteranFeatured />
       </Typography>
       {/* Veterans */}
 
