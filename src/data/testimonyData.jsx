@@ -154,4 +154,11 @@ export const testimonies = [
     group: 'SkyPH-Member',
     testimonial: `AYONNNNN! THANK YOUU SA WEBSITEE ^^`,
   },
+    {
+    id: 21,
+    testimonee: 'Chelsea',
+    testimonee_avatar: avatarLady,
+    group: 'SkyPH-Veteran',
+    testimonial: `Very informative ng website na to! Lahat ng basic FAQs ng mga moths and returning players, nandito na. From winged lights to spirit locations including seasonal spirits. Looking forward for more infos like shards schedule and location. ✨`,
+  },
 ]
