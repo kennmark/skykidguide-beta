@@ -39,7 +39,7 @@ const LatestTSVisit = () => {
   return (
     <div className="border-t border-blue-gray-50">
       <div className="py-6">
-        <Typography variant="h2">Latest Traveling Spirit Visit (TS)</Typography>
+        <Typography variant="h1" className="my-10 text-[#fe7f2d]">Latest Traveling Spirit Visit (TS)</Typography>
       </div>
       {travelingSpirit ? 
         <>
