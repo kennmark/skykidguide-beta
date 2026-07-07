@@ -179,7 +179,7 @@ const FlipCard = ({
                                 </Typography><br/>
                                 {Object.entries(mastery).map(([key, value]) => (
                                     <Tooltip content={value.description} key={key}>
-                                        <Chip color={value.color} className="text-[7px] font-semibold" value={`${key.replace(/_/g, ' ')}: ${value.value}`} />
+                                        <Chip color={value.color} className="text-[8px] font-semibold" value={`${key.replace(/_/g, ' ')}: ${value.value}`} />
                                     </Tooltip>
                                 ))}
                             </div>

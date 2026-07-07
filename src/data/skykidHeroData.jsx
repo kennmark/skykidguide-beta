@@ -242,7 +242,7 @@ export const SkykidHero = [
     current_no_of_winged_lights: 218,
     season_started: "Season of Assembly",
     seasonIconUrl: SEASON9,
-    season_bg: 'linear-gradient(#145277, #83d0cb)',
+    season_bg: 'linear-gradient(#007e5d, #f8c828)',
     socials: {
      facebook:{fburl: ``},
       instagram: {igurl:``},
