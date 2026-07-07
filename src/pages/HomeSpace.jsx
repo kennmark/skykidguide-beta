@@ -233,6 +233,10 @@ const HomeSpace = () => {
       </div>
       {/* Map Cards */}
 
+      <div className="my-6 w-96 md:w-full">
+        <LatestTSVisit />
+      </div>
+
       {/* Winged Lights */}
       <div className="md:w-full bg-[#233d4d] text-[#fe7f2d] my-5 md:my-20 pt-10 rounded-3xl border-b-2 border-[#fe7f2d]">
         <WingedLightIntro />
@@ -282,9 +286,6 @@ const HomeSpace = () => {
       </Typography>
       {/* Veterans */}
 
-      {/* <div className="my-6 w-96 md:w-full">
-        <LatestTSVisit />
-      </div> */}
       <div className="my-5 md:my-20 w-96 md:w-full text-[#fe7f2d]">
         <Testimonials />
       </div>

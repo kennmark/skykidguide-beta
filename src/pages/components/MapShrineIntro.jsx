@@ -53,7 +53,7 @@ const MapShrineIntro = () => {
           The Map Locator also includes features that let you locate Past Season Guides throughout the world of Sky. It can also display how many Winged Lights you have yet to collect and how many Regular and Seasonal Spirits you have already discovered and relived.
         </Typography>
       </div>
-      <div className="flex flex-wrap justify-center items-center">
+      <div className="flex flex-wrap justify-center items-center pt-10">
         <Card className="py-3 px-1">
           <table className="w-full min-w-max table-auto text-left">
             <thead>

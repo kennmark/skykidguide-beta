@@ -46,7 +46,7 @@ const VeteranFeatured = () => {
             <div className='flex items-center justify-center'>
                 <div className="flex  flex-col md:flex-row items-center justify-center gap-2 md:gap-10">
                     {randomSubset.map(({ avatar_img, ign, current_no_of_winged_lights }, index) => (
-                        <div key={index} className='border-2 rounded-xl flex flex-col items-center justify-center pb-2'>
+                        <div key={index} className='border-2 border-amber-500 rounded-xl flex flex-col items-center justify-center pb-2'>
                             <img
                             onClick={() => {
                                 setActive(avatar_img)
