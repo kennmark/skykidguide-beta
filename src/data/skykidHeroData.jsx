@@ -125,19 +125,19 @@ export const SkykidHero = [
       tiktok: {tturl:``},
     },
     mastery: {
-      seasoned_player: {value:5, description: "Has played Sky: Children of the Light for a long time and has a deep understanding of the game mechanics.", color: "blue"},
+      seasoned_player: {value:10, description: "Has played Sky: Children of the Light for a long time and has a deep understanding of the game mechanics.", color: "blue"},
       spirit_hobbyist: {value:10, description: "Knows every location of regular and seasonal spirits.", color: "red"},
       wl_collector: {value:10, description: "Winged Light is above level 150.", color: "green"},
       genuine_honest_player: {value:10, description: "Maintains integrity and honesty in all interactions.", color: "amber"},
       rule_abider: {value:10, description: "Follows the rules and guidelines of the game.", color: "indigo"},
       eden_master: {value:10, description: "Master of the Eye Eden.", color: "purple"},
-      sky_navigator: {value:5, description: "Skilled at navigating the skies.", color: "pink"},
+      sky_navigator: {value:10, description: "Skilled at navigating the skies.", color: "pink"},
       windpath_diver: {value:5, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
-      map_shrine_locator: {value:5, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
+      map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
       onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
     },
-    masteryPoints: 80
+    masteryPoints: 100
   },
   {
     id: 5,
@@ -354,7 +354,7 @@ export const SkykidHero = [
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
       onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
     },
-    masteryPoints: 100
+    masteryPoints: 95
   },
   {
     id: 12,
@@ -385,6 +385,6 @@ export const SkykidHero = [
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
       onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
     },
-    masteryPoints: 95
+    masteryPoints: 90
   },
 ]
