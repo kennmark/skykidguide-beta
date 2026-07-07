@@ -42,7 +42,7 @@ export const SkykidHero = [
       windpath_diver: {value:10, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
-      onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
+      onerous_reliver: {value:10, description: "Able to relive difficult spirits.", color: "lime"},
     },
     masteryPoints: 100,
   },
@@ -73,7 +73,7 @@ export const SkykidHero = [
       windpath_diver: {value:10, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
-      onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
+      onerous_reliver: {value:10, description: "Able to relive difficult spirits.", color: "lime"},
     },
     masteryPoints: 95
   },
@@ -104,7 +104,7 @@ export const SkykidHero = [
       windpath_diver: {value:10, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
-      onerous_reliver: {value:10, description: "Able to relieve difficult & dangerous spirits.", color: "lime"},
+      onerous_reliver: {value:10, description: "Able to relive difficult & dangerous spirits.", color: "lime"},
     },
     masteryPoints: 100
   },
@@ -135,7 +135,7 @@ export const SkykidHero = [
       windpath_diver: {value:10, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
-      onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
+      onerous_reliver: {value:10, description: "Able to relive difficult spirits.", color: "lime"},
     },
     masteryPoints: 100
   },
@@ -166,7 +166,7 @@ export const SkykidHero = [
       windpath_diver: {value:5, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:5, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
-      onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
+      onerous_reliver: {value:10, description: "Able to relive difficult spirits.", color: "lime"},
     },
     masteryPoints: 80
   },
@@ -197,7 +197,7 @@ export const SkykidHero = [
       windpath_diver: {value:10, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:5, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
-      onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
+      onerous_reliver: {value:10, description: "Able to relive difficult spirits.", color: "lime"},
     },
     masteryPoints: 90
   },
@@ -228,7 +228,7 @@ export const SkykidHero = [
       windpath_diver: {value:10, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
-      onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
+      onerous_reliver: {value:10, description: "Able to relive difficult spirits.", color: "lime"},
     },
     masteryPoints: 95
   },
@@ -259,7 +259,7 @@ export const SkykidHero = [
       windpath_diver: {value:5, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
-      onerous_reliver: {value:5, description: "Able to relieve difficult spirits.", color: "lime"},
+      onerous_reliver: {value:5, description: "Able to relive difficult spirits.", color: "lime"},
     },
     masteryPoints: 90
   },
@@ -290,7 +290,7 @@ export const SkykidHero = [
       windpath_diver: {value:10, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
-      onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
+      onerous_reliver: {value:10, description: "Able to relive difficult spirits.", color: "lime"},
     },
     masteryPoints: 100
   },
@@ -321,7 +321,7 @@ export const SkykidHero = [
       windpath_diver: {value:10, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:5, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
-      onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
+      onerous_reliver: {value:10, description: "Able to relive difficult spirits.", color: "lime"},
     },
     masteryPoints: 90
   },
@@ -352,7 +352,7 @@ export const SkykidHero = [
       windpath_diver: {value:10, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
-      onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
+      onerous_reliver: {value:10, description: "Able to relive difficult spirits.", color: "lime"},
     },
     masteryPoints: 95
   },
@@ -383,7 +383,7 @@ export const SkykidHero = [
       windpath_diver: {value:5, description: "Expert in exploring wind paths.", color: "teal"},
       winglight_hunter: {value:10, description: "Knows all location of Winged Lights.", color: "cyan"},
       map_shrine_locator: {value:10, description: "Skilled at finding shrines on the map.", color: "deep-purple"},
-      onerous_reliver: {value:10, description: "Able to relieve difficult spirits.", color: "lime"},
+      onerous_reliver: {value:10, description: "Able to relive difficult spirits.", color: "lime"},
     },
     masteryPoints: 90
   },

@@ -46,7 +46,7 @@ const LatestTSVisit = () => {
           {groupTs ?
             <>
               <div className='pb-5'>
-                <Typography>A Group of Traveling Spirits has returned in Sky. Starting {travelingSpiritDate}.</Typography>
+                <Typography>A Group of Traveling Spirits has returned in Sky. Starting <span className='font-bold'>{travelingSpiritDate}</span>.</Typography>
               </div>
               <div className="flex flex-wrap justify-center gap-3">
                 {
@@ -68,7 +68,7 @@ const LatestTSVisit = () => {
             :
             <>
               <div className='pb-5'>
-                <Typography>A Traveling Spirits has returned in Sky. Starting {travelingSpiritDate}.</Typography>
+                <Typography>A Traveling Spirits has returned in Sky. Starting <span className='font-bold'>{travelingSpiritDate}</span>.</Typography>
               </div>
               <div className="flex flex-wrap justify-center gap-3">
                 {
@@ -91,7 +91,7 @@ const LatestTSVisit = () => {
         </>
        : 
         <div className='pb-5 px-60'>
-          <Alert color='amber' className='flex items-center justify-center'>A Traveling Spirit will return this {travelingSpiritDate}</Alert>
+          <Alert color='amber' className='flex items-center justify-center'>A Traveling Spirit will return this <span className='font-bold'>{travelingSpiritDate}</span>.</Alert>
           {travelingSpiritHint ?
             <LazyLoadImage
               src={travelingSpiritHintImage}
