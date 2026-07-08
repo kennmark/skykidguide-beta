@@ -28,7 +28,7 @@ export const SkykidHero = [
     season_bg: 'linear-gradient(#007e5d, #f8c828)',
     socials: {
       facebook: {fburl: `https://www.facebook.com/KennMDev/`},
-      instagram: {igurl:`https://www.instagram.com/skyhex27/`},
+      instagram: {igurl:``},
       tiktok: {ttiurl:``},
     },
     mastery: {
