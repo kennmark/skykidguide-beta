@@ -1,8 +1,7 @@
-import carousel1 from '../assets/images/home-carousel/home-slideshow-1.webp'
-import carousel2 from '../assets/images/home-carousel/home-slideshow-2.webp'
-import carousel3 from '../assets/images/home-carousel/home4.webp'
-import carousel7 from '../assets/images/home-carousel/Season-of-Carnival.webp'
-import carousel4 from '../assets/images/events/DaysOfFortune2025.webp'
+import carousel1 from '../assets/images/home-carousel/Skykidhero-welcome-banner.jpg'
+import carousel2 from '../assets/images/home-carousel/JoinFBGroup.png'
+import carousel3 from '../assets/images/home-carousel/skykidhero-yt.png'
+import carousel7 from '../assets/images/home-carousel/S30-DearVanGogh.webp'
 
 export const announcementCarousel = [
   {
@@ -14,8 +13,8 @@ export const announcementCarousel = [
   {
     id: 2,
     img_url: carousel2,
-    alt: 'Youtube Channel',
-    url: 'https://www.youtube.com/@SKYKIDHero',
+    alt: 'SKY: Children of the Light (Philippines) Official',
+    url: 'https://www.facebook.com/groups/skycotlphofficial',
   },
   {
     id: 3,
@@ -26,7 +25,7 @@ export const announcementCarousel = [
   {
     id: 4,
     img_url: carousel7,
-    alt: 'Upcoming Season 29 - Season of Carnival',
-    url: '',
+    alt: 'Upcoming Season 30 - Season of Dear Van Gogh',
+    url: 'https://skykidguide.onrender.com/seasons/2026/season-30/dear-van-gogh',
   },
 ]
