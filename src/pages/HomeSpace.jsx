@@ -40,6 +40,7 @@ import DyeLocations from './components/DyeLocations'
 import TravellingSpirits from './components/TravellingSpirits'
 import TestFile from './components/TestFile'
 import VeteranFeatured from './components/VeteranFeatured'
+import ShardPrediction from '../components/ShardPrediction'
 // import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const HomeSpace = () => {
@@ -196,13 +197,14 @@ const HomeSpace = () => {
       {/* Test */}
       {/* <TestFile /> */}
       {/* Test */}
+
       {/* Map Cards */}
       <div>{/* <TravellingSpirits /> */}</div>
       <div className="flex flex-cols justify-center">
           <Typography variant="h1" className="text-[#fe7f2d]">
             Maps
           </Typography>
-        </div>
+      </div>
       <div className="flex flex-wrap justify-center my-5 md:my-10">
         {screenSize < 1440 ? (
           maps.map((map) => {
@@ -233,9 +235,13 @@ const HomeSpace = () => {
       </div>
       {/* Map Cards */}
 
-      <div className="my-6 w-96 md:w-full">
+      <div className="my-6 w-96 md:w-full flex justify-center">
         <LatestTSVisit />
       </div>
+
+      {/* <div className="my-6 w-96 md:w-full flex justify-center">
+        <ShardPrediction />
+      </div> */}
 
       {/* Winged Lights */}
       <div className="md:w-full bg-[#233d4d] text-[#fe7f2d] my-5 md:my-20 pt-10 rounded-3xl border-b-2 border-[#fe7f2d]">

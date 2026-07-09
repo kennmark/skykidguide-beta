@@ -22,7 +22,6 @@ const VeteranFeatured = () => {
         )
     }
     const vetTotal = SkykidHero.length
-    console.log(vetTotal);
     
     useEffect(()=> {
         const shuffledId = [...SkykidHero].sort(()=> 0.5 - Math.random())
