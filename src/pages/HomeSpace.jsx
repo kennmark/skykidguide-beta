@@ -162,7 +162,7 @@ const HomeSpace = () => {
       <AnnouncementModal />
       <figure className="relative carousel-image w-full h-full my-6 px-1">
         <AnnouncementCarousel />
-        <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border-none bg-[#233d4d]/80 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
+        <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border-none bg-[#233d4d]/10 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
           <div>
             <Typography
               color="white"
@@ -199,7 +199,6 @@ const HomeSpace = () => {
       {/* Test */}
 
       {/* Map Cards */}
-      <div>{/* <TravellingSpirits /> */}</div>
       <div className="flex flex-cols justify-center">
           <Typography variant="h1" className="text-[#fe7f2d]">
             Maps
@@ -235,10 +234,12 @@ const HomeSpace = () => {
       </div>
       {/* Map Cards */}
 
+      {/* Traveling Spirits */}
       <div className="my-6 w-96 md:w-full flex justify-center">
         <LatestTSVisit />
       </div>
-
+      {/* Traveling Spirits */}
+      
       {/* <div className="my-6 w-96 md:w-full flex justify-center">
         <ShardPrediction />
       </div> */}
@@ -281,10 +282,6 @@ const HomeSpace = () => {
         <DyeLocations />
       </div>
       {/* Dye Locations */}
-
-      {/* Traveling Spirits */}
-      {/* <TravellingSpirits /> */}
-      {/* Traveling Spirits */}
 
       {/* Veterans */}
       <Typography variant="h1" className="text-[#fe7f2d]">

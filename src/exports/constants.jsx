@@ -2,7 +2,7 @@ import rc from '../assets/images/icons/candle.webp'
 import heart from '../assets/images/icons/heart.webp'
 import ac from '../assets/images/icons/AC.webp'
 import sc from '../assets/images/season-candles/29-season-of-carnival/Carnival-Candle.webp'
-import tsHintImage from '../assets/images/home-carousel/home-slideshow-1.webp'
+import tsHintImage from '../assets/images/ts-hints/TS-hint-071626-071926.jpg'
 
 export const RC = rc
 export const HEART = heart
@@ -98,6 +98,6 @@ export const dtsValue = false //Adjust During Daylight Time Saving Every March a
 
 export const groupTs = false //Group TS arrived
 export const travelingSpirit = false //Ongoing Traveling Spirit
-export const travelingSpiritHint = false //Hint Traveling Spirit
+export const travelingSpiritHint = true //Hint Traveling Spirit
 export const travelingSpiritHintImage = tsHintImage //Hint Image Traveling Spirit
 export const travelingSpiritDate = 'July 16 - July 20, 2026' //Ongoing Traveling Spirit

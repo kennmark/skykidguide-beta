@@ -69,7 +69,7 @@ const Header = () => {
           <div className="flex items-center text-[#fe7f2d] transition ease-in-out duration-500 hover:text-[#233d4d] hover:bg-[#fe7f2d] py-1 px-3 rounded-2xl">
             <LazyLoadImage src={skykidlogo} style={{ width: 50 }} />
             <Typography className="p-1 text-md font-bold hidden lg:flex">
-              Skykid Hero
+              SkykidHero
             </Typography>
           </div>
         </Link>
