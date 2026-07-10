@@ -363,7 +363,7 @@ export const SkykidHero = [
     title: `Veteran/Pro`,
     level: 1,
     avatar_img: rhi,
-    no_of_moth_helped: 1,
+    no_of_moth_helped: 0,
     current_no_of_winged_lights: 202,
     season_started: "Season of Moments",
     seasonIconUrl: SEASON18,
