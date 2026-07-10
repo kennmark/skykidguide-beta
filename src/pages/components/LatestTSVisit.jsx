@@ -92,17 +92,17 @@ const LatestTSVisit = () => {
         </>
        : 
         <div className='pb-5'>
-          <Alert color='amber' className='flex items-center justify-center'>A Traveling Spirit will return this <span className='font-bold'>{travelingSpiritDate}</span>.</Alert>
+          <Alert color='amber' className='flex items-center justify-center mb-5'>A Traveling Spirit will return this <span className='font-bold'>{travelingSpiritDate}</span>.</Alert>
           {travelingSpiritHint ?
             <Link to={'https://www.facebook.com/photo.php?fbid=1433003992205632&set=a.606494871523219&type=3&mibextid=wwXIfr&rdid=kOrBSq1SaYJAqyus&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1EhC1Ew7xz%2F%3Fmibextid%3DwwXIfr#'}>
               <LazyLoadImage
               src={travelingSpiritHintImage}
               effect="blur"
-              className="h-96 w-full object-cover rounded-xl pt-5"
+              className="h-96 w-full rounded-xl"
             />
             </Link>
              :
-            <Typography className='pt-5'>NO HINT YET!</Typography>
+            <Typography className=''>NO HINT YET!</Typography>
           }
           
         </div>
