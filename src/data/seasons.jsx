@@ -4304,7 +4304,7 @@ export const seasons2026 = [
           //   visitNo: 4,
           // },
         ],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'yMhxKqyvj2A',
         spirit_direction: [
           'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
           'Pagkadating, ay umakyat sa barko at sa gawing kanan makikita kaagad ang spirit na ito.',
@@ -4364,7 +4364,7 @@ export const seasons2026 = [
           //   visitNo: 4,
           // },
         ],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'jSmrfkOviiE',
         spirit_direction: [
           'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
           'Pagkadating, ay umakyat sa barko at sa gawing kaliwa makikita kaagad ang spirit na ito.',
@@ -4424,14 +4424,14 @@ export const seasons2026 = [
           //   visitNo: 4,
           // },
         ],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'z1UA98BC2NQ',
         spirit_direction: [
           'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
           'Pagkadating, ay umakyat sa barko at sa gawing kanan ay may lagusan pababa, pumasok ka,',
           'Tapos sa looban ay kumaliwa ka at diretso lamang hanggang sa makita mo na ang spirit sa gilid ng hagdanan',
         ],
       },
-      //CARNIVAL_PUZZLE_DIRECTOR
+      //CARNIVAL_STUNT_ACTOR
       {
         id: 20,
         spirit_id: 'aviary20',
@@ -4491,7 +4491,7 @@ export const seasons2026 = [
           //   visitNo: 4,
           // },
         ],
-        spirit_guide_video_url: youtube_embed + '',
+        spirit_guide_video_url: youtube_embed + 'F69Ty9NQUwI',
         spirit_direction: [
           'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
           'Pagkadating, ay umakyat sa barko at sa gawing kanan ay may lagusan pababa, pumasok ka,',
