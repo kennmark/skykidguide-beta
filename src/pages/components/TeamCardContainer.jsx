@@ -23,7 +23,11 @@ const TeamCardContainer = ({
   tiktok,
   title,
   avatar_img,
+  ign,
+  
 }) => {
+  // console.log(socials.facebook);
+  
   return (
     <Card className="sm:w-56 bg-transparent team-avatar-card text-white hover:text-[#fe7f2d]">
       <CardHeader
@@ -39,26 +43,44 @@ const TeamCardContainer = ({
       </CardHeader>
       <CardBody className="text-center ">
         <Typography variant="h6" className="mb-2">
-          {fullname}
+          {fullname || ign}
         </Typography>
         <Typography color="white" className="text-xs">
           {title}
         </Typography>
       </CardBody>
       <CardFooter className="flex justify-center gap-7 pt-2">
-        <Tooltip content="Like">
-          <Typography
-            as="a"
-            href={facebook}
-            className="opacity-80 transition-opacity hover:opacity-100 "
-          >
-            <FontAwesomeIcon
-              icon={faFacebook}
-              className="h-7 text-white hover:text-[#fe7f2d]"
-              cursor="pointer"
-            />
-          </Typography>
-        </Tooltip>
+        {facebook && (
+          <Tooltip content="Like">
+            <Typography
+              as="a"
+              href={facebook}
+              className="opacity-80 transition-opacity hover:opacity-100 "
+            >
+              <FontAwesomeIcon
+                icon={faFacebook}
+                className="h-7 text-white hover:text-[#fe7f2d]"
+                cursor="pointer"
+              />
+            </Typography>
+          </Tooltip>
+        )}
+        {/* {socials?.facebook && (
+          <Tooltip content="Like">
+            <Typography
+              as="a"
+              href={socials?.facebook}
+              className="opacity-80 transition-opacity hover:opacity-100 "
+            >
+              <FontAwesomeIcon
+                icon={faFacebook}
+                className="h-7 text-white hover:text-[#fe7f2d]"
+                cursor="pointer"
+              />
+            </Typography>
+          </Tooltip>
+        )} */}
+          
         {instagram && (
           <Tooltip content="Follow">
             <Typography

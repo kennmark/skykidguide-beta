@@ -6,6 +6,7 @@ import {
   Typography,
   Tooltip,
   Spinner,
+  Button,
 } from '@material-tailwind/react'
 import FaQ from './FaQ'
 import kennAvatar from '../assets/images/team/kenndev.jpg'
@@ -19,6 +20,8 @@ import {
 import { team } from '../data/team'
 import { skyPhFbTeam } from '../data/skyPhFbTeam'
 import TeamCardContainer from '../pages/components/TeamCardContainer'
+import { SkykidHero } from './../data/skykidHeroData';
+import { Link } from 'react-router-dom'
 
 const Team = () => {
   return (
@@ -127,6 +130,34 @@ const Team = () => {
           )
         })}
       </div>
+      <div>
+        <div className="py-5">
+          <Typography variant="h4" color="amber">
+            Group's Game Veterans
+          </Typography>
+        </div>
+        <div className="flex flex-wrap justify-center pb-5">
+          {SkykidHero.map((sykidhero, index) => {
+            return (
+              <div className="px-5">
+                <TeamCardContainer {...sykidhero} key={index} />
+              </div>
+            )
+          })}
+        </div>
+        <div>
+          <Link to={`/veterans`}>
+            <Button  
+                size="lg"
+                className="theme-button mb-5"
+                ripple={true}
+                fullWidth={false}>
+                    See All SkykidHeroes
+            </Button>
+          </Link>
+        </div>
+      </div>
+     
       <div>
         Special Credits: for the GIFs{' '}
         <a href="https://www.behance.net/hongximing40a5">Joerdan Carney</a> and
