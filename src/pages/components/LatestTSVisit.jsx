@@ -8,8 +8,8 @@ import { valley } from '../../data/valleyData'
 import { wasteland } from '../../data/wastelandData'
 import { vault } from '../../data/vaultData'
 import SpiritCardContainer from './SpiritCardContainer'
-import { seasons2023 } from '../../data/seasons'
-import { travelingSpirit, groupTs, travelingSpiritDate, travelingSpiritHint,travelingSpiritHintImage } from '../../exports/constants'
+import { allSeasons } from '../../data/seasons'
+import { travelingSpirit, groupTs, travelingSpiritDate, travelingSpiritHint,travelingSpiritHintImage, travellingSpiritSeasonId, travellingSpiritId } from '../../exports/constants'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Link } from 'react-router-dom'
 
@@ -19,24 +19,25 @@ const LatestTSVisit = () => {
       name,
       icon_route,
       season_spirits,
-    } = seasons2023[3]
-
+    } = allSeasons[travellingSpiritSeasonId-1]
+    
     const [checkedSpirits, setCheckedSpirits] = useState(() => {
         const saved = localStorage.getItem('checkedSpirits')
         const initialValue = JSON.parse(saved) || {} // Default to empty object if no saved data
         return initialValue
       })
-      // console.log({ checkedSpirits })
     
       useEffect(() => {
         localStorage.setItem('checkedSpirits', JSON.stringify(checkedSpirits))
-      }, [checkedSpirits])
-    
-      const handleCheckboxChange = (event) => {
-        const { name, checked } = event.target
-        setCheckedSpirits((prevState) => ({ ...prevState, [name]: checked }))
+        }, [checkedSpirits])
+      
+        const handleCheckboxChange = (event) => {
+          const { name, checked } = event.target
+          setCheckedSpirits((prevState) => ({ ...prevState, [name]: checked }))
       }
-
+    
+    const tsId = season_spirits.find((element)=> element = travellingSpiritId)
+    console.log(travellingSpiritId);
   return (
     <div className="border-t border-blue-gray-50">
       <div className="py-6">
@@ -73,7 +74,7 @@ const LatestTSVisit = () => {
               </div>
               <div className="flex flex-wrap justify-center gap-3">
                 {
-                  season_spirits.slice(0,1).map((spirit) => {
+                  season_spirits.slice(travellingSpiritId,2).map((spirit) => {
                     return (
                       <SpiritCardContainer
                         {...spirit}

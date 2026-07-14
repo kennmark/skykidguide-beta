@@ -97,7 +97,9 @@ export const STEAM_MAX_WL = 228
 export const dtsValue = false //Adjust During Daylight Time Saving Every March and November
 
 export const groupTs = false //Group TS arrived
-export const travelingSpirit = false //Ongoing Traveling Spirit
+export const travelingSpirit = true //Ongoing Traveling Spirit
 export const travelingSpiritHint = true //Hint Traveling Spirit
 export const travelingSpiritHintImage = tsHintImage //Hint Image Traveling Spirit
 export const travelingSpiritDate = 'July 16 - July 20, 2026' //Ongoing Traveling Spirit
+export const travellingSpiritSeasonId = 11
+export const travellingSpiritId = 1
