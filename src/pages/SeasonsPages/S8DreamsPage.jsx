@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2021 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S8DreamsPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -103,6 +105,10 @@ const S8DreamsPage = () => {
                     Pagkapasok sa mapa, ay nasa kanang bahagi ay may lagusan
                     papasok papuntang village of dreams.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[5]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader2 } from '../../data/seasonTabHeader'
 import { seasons2022 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S14ShatteringPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -115,6 +117,10 @@ const S14ShatteringPage = () => {
                     Quest Giver, upang ma-unlock mo at macomplete mo ang quest
                     at balik ka nanaman sa location ng Shard Eruption that day.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[11]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

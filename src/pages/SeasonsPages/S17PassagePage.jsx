@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2023 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S17PassagePage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -103,6 +105,10 @@ const S17PassagePage = () => {
                     kailangan mag meditate upang makapasok sa lugar ng Passage
                     Quest.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[14]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

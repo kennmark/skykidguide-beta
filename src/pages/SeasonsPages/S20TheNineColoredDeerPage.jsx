@@ -18,6 +18,8 @@ import { seasons2024 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import SeasonOf9ColoredDeer from '../../assets/images/home-carousel/Season-of-9-Colored-Deer.webp'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S20TheNineColoredDeerPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -110,6 +112,10 @@ const S20TheNineColoredDeerPage = () => {
                       : ' (0) o walang map shrine'}{' '}
                     &nbsp;map shrine(s).
                   </Typography>{' '}
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[17]}
+                    icon_route={icon_route}
+                  />
                   <br />
                 </div>
               )}

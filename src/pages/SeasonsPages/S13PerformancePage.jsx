@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2022 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S13PerformancePage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -103,6 +105,10 @@ const S13PerformancePage = () => {
                     Village of Dreams, may papasok na daanan sa kanan bahagi
                     bago sa plaza ng Village od Dreams.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[10]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

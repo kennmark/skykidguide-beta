@@ -20,6 +20,8 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 import SeasonOfRadiance from '../../assets/images/home-carousel/Season-of-Radiance.webp'
 import DyeLocations from '../components/DyeLocations'
 import DyeAlertMessage from '../components/DyeAlertMessage'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S24RadiancePage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -137,6 +139,10 @@ const S24RadiancePage = () => {
                   </div>
                   <DyeAlertMessage />
                   <DyeLocations />
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[21]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

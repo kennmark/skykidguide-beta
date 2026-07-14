@@ -18,6 +18,8 @@ import { allSeasons, seasons2025 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import SeasonOfBlueBird from '../../assets/images/home-carousel/Season-of-The-Blue-Bird.webp'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S25BlueBirdPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -121,6 +123,10 @@ const S25BlueBirdPage = () => {
                     {ms_num ? ' may ' + ms_num : ' (0) o walang'} &nbsp;map
                     shrine(s).
                   </Typography>{' '}
+                   <SeasonQuestGiver 
+                    {...SeasonGuidesData[22]}
+                    icon_route={icon_route}
+                  />
                   <br />
                 </div>
               )}

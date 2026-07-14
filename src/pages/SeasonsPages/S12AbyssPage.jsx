@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2022 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S12Abyss = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -104,6 +106,10 @@ const S12Abyss = () => {
                     banda ng Social Space ay may Docking Area, at sumakay sa
                     bangka papunta Treasure Reef.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[9]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

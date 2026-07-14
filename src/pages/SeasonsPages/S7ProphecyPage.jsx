@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2020 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S7ProphecyPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -105,6 +107,10 @@ const S7ProphecyPage = () => {
                     Lumipad patungo sa gawing kanan at pumasok sa mga kaulapan
                     na lagusan. At makakarating ka sa Prophecy Cave.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[4]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

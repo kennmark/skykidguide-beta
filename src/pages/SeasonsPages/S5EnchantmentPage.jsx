@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2020 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S5EnchantmentPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -105,6 +107,10 @@ const S5EnchantmentPage = () => {
                     mapang ito at pagkalapag sa Broken Temple Area ay lumipad
                     gawing kanan patungo sa docking area at sumakay sa bangka.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[2]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

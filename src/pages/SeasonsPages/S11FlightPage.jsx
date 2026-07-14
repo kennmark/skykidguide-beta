@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2021 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S11Flight = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -103,6 +105,10 @@ const S11Flight = () => {
                     Mula sa Social Space Area ay lumipad pataas sa gawing kanan
                     at sa lagusan papuntang Wind Paths ng Season of Flight.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[8]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

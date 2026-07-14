@@ -18,6 +18,8 @@ import { allSeasons, seasons2025 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import SeasonOfMigration from '../../assets/images/home-carousel/Season-of-Migration.webp'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S27MigrationPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -151,6 +153,10 @@ const S27MigrationPage = () => {
                     Kailangan mong buksan ulit ang spirit mula sa constellation
                     upang makita mo ang progress na ito.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[24]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

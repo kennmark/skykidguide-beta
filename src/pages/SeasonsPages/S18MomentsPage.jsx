@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2023 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S18MomentsPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -104,6 +106,10 @@ const S18MomentsPage = () => {
                     lumipad sa mga kaulapan at pagdating sa Butterfly Field ay
                     may lagusan sa kaliwa papuntang Prairie Peaks.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[15]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

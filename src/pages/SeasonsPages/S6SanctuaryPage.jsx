@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2020 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S6SanctuaryPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -106,6 +108,10 @@ const S6SanctuaryPage = () => {
                     lumipad pababa patungo sa may lagusan at makakarating ka sa
                     Sanctuary Islands.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[3]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

@@ -18,6 +18,8 @@ import { allSeasons, seasons2026 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import CarnivalBanner from '../../assets/images/home-carousel/Season-of-Carnival.webp'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S29CarnivalPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -121,6 +123,10 @@ const S29CarnivalPage = () => {
                     {ms_num ? ' may ' + ms_num : ' (0) o walang'} &nbsp;map
                     shrine(s).
                   </Typography>{' '}
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[26]}
+                    icon_route={icon_route}
+                  />
                   <br />
                 </div>
               )}

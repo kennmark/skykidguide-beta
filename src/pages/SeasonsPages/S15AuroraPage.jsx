@@ -16,6 +16,8 @@ import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2022 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import AuroraConcert from '../components/AuroraConcertContainer'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S15AuroraPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -100,6 +102,10 @@ const S15AuroraPage = () => {
                   </Typography>{' '}
                   <br />
                   <AuroraConcert />
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[12]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

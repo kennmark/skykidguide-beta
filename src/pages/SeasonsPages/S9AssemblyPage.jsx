@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2021 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S9AssemblyPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -105,6 +107,10 @@ const S9AssemblyPage = () => {
                     kanan na maliit at makarating ka sa Treehouse ng Season of
                     Assembly.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[6]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

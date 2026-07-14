@@ -44,7 +44,7 @@ const RED_LOCATIONS = {
   ],
 };
 // Timing pattern repeats every 12 days.
-const TIMING_PATTERN = [2, 1, 3, 0, 4, 1, 2, 0, 3, 1, 4, 0];
+const TIMING_PATTERN = [2, 1, 3, 5, 0, 4, 1, 2, 0, 5, 3, 1, 4, 0, 5]; //[2, 1, 3, 0, 4, 1, 2, 0, 3, 1, 4, 0];
 
 // Example UTC schedule.
 // Replace these with your preferred timezone or convert later.
@@ -68,9 +68,9 @@ const TIME_INTERVALS = [
   {
     id: 2,
     windows: [
-      { start: "18:58:40", end: "22:50:00" },
-      { start: "2:58:40", end: "6:50:00" },
-      { start: "10:58:40", end: "14:50:00" },
+      { start: "18:38:40", end: "22:30:00" },
+      { start: "00:38:40", end: "4:30:00" },
+      { start: "6:38:40", end: "10:30:00" },
     ],
   },
   {
@@ -87,6 +87,12 @@ const TIME_INTERVALS = [
       { start: "20:58:40", end: "00:50:00" },
       { start: "4:58:40", end: "8:50:00" },
       { start: "12:58:40", end: "16:50:00" },
+    ],
+  },
+  {
+    id: 5,
+    windows: [
+      { start: "0", end: "0" },
     ],
   },
 ];

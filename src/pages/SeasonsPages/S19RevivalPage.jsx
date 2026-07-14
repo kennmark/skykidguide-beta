@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader2 } from '../../data/seasonTabHeader'
 import { seasons2023 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S19RevivalPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -103,6 +105,10 @@ const S19RevivalPage = () => {
                     na Events ng Sky, dito makikita ang mga Shop at Merchs ng
                     Sky.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[16]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

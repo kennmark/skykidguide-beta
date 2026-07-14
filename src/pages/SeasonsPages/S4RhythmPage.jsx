@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2020 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S4RhythmPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -99,6 +101,10 @@ const S4RhythmPage = () => {
                       : ' (0) o walang map shrine'}{' '}
                     dito.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[1]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 

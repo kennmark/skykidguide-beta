@@ -18,6 +18,8 @@ import { allSeasons, seasons2025 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import SeasonOfTwoEmbersOne from '../../assets/images/home-carousel/Season-of-The-Two-Embers-I.webp'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S26TwoEmbersOnePage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -121,6 +123,10 @@ const S26TwoEmbersOnePage = () => {
                     {ms_num ? ' may ' + ms_num : ' (0) o walang'} &nbsp;map
                     shrine(s).
                   </Typography>{' '}
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[23]}
+                    icon_route={icon_route}
+                  />
                   <br />
                 </div>
               )}

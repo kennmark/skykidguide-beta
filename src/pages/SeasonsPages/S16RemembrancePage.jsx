@@ -15,6 +15,8 @@ import DifficultyCriteria from '../components/DifficultyCriteria'
 import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { seasons2023 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S16RemembrancePage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -103,6 +105,10 @@ const S16RemembrancePage = () => {
                     platform at sa gawing kaliwa nito ay may hagdanan pababa
                     papasok sa Repository Refuge ng Season of Remembrance.
                   </Typography>
+                  <SeasonQuestGiver 
+                    {...SeasonGuidesData[13]}
+                    icon_route={icon_route}
+                  />
                 </div>
               )}
 
