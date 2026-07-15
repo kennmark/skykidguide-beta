@@ -10,7 +10,7 @@ const MapTabHeaderContainer = ({ label, value, activeTab, setActiveTab }) => {
       <Tab
         as={Link} // 1. Transforms the Tab component into a true React Router Link
         to={`${pathname}#${value}`} // 2. Appends the hash destination securely
-        id={`tab-header-${value}`} // 3. Attaches an explicit identifier to the DOM node element
+        id={`${value}`} // 3. Attaches an explicit identifier to the DOM node element
         key={value}
         value={value}
         onClick={() => setActiveTab(value)}
@@ -19,12 +19,12 @@ const MapTabHeaderContainer = ({ label, value, activeTab, setActiveTab }) => {
         `}
       >
         {/* 2. Optimized SPA Hash Link handling */}
-        <Link 
+        {/* <Link 
           to={`${pathname}#${value}`} 
           className="w-full h-full block text-center capitalize"
-        >
+        > */}
           {label}
-        </Link>
+        {/* </Link> */}
       </Tab> 
   )
 }

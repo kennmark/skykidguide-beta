@@ -27,7 +27,7 @@ const SpiritImageDetails = ({
   isCurrentSeason,
 }) => {
   const [activeTab, setActiveTab] = React.useState('tree-cost')
-  console.log(isCurrentSeason)
+
   const data = [
     {
       label: 'Tree Cost',

@@ -24,8 +24,8 @@ const PageSeasonMap = () => {
     { year: "'24", label: "Seasons - [The Nine Colored Deer, Nesting, Duet, Moomin]", data: seasons2024, color: "bg-amber-600" },
     { year: "'23", label: "Seasons - [Remembrance, Passage, Moments, Revival]", data: seasons2023, color: "bg-orange-700" },
     { year: "'22", label: "Seasons - [Abyss, Performance, Shattering, AURORA]", data: seasons2022, color: "bg-red-700" },
-    { year: "'21", label: "Seasons - [Assembly, The Little Prince, Flight]", data: seasons2021, color: "bg-pink-700" },
-    { year: "'20", label: "Seasons - [Rhythm, Enchantment, Sanctuary, Prophecy, Dreams]", data: seasons2020, color: "bg-purple-700" },
+    { year: "'21", label: "Seasons - [Dreams, Assembly, The Little Prince, Flight]", data: seasons2021, color: "bg-pink-700" },
+    { year: "'20", label: "Seasons - [Rhythm, Enchantment, Sanctuary, Prophecy]", data: seasons2020, color: "bg-purple-700" },
     { year: "'19", label: "Seasons - [Gratitude, Lightseekers, Belonging]", data: seasons2019, color: "bg-blue-700" },
   ]
 

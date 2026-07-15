@@ -8,6 +8,7 @@ import {
   Accordion,
   AccordionHeader,
   AccordionBody,
+  Input,
 } from '@material-tailwind/react'
 import {
   GlobeAsiaAustraliaIcon,
@@ -29,6 +30,8 @@ import AccordionSeason2024 from './AccordionSeason2024'
 import AccordionSeason2025 from './AccordionSeason2025'
 import AccordionSeason2026 from './AccordionSeason2026'
 import { Link } from 'react-router-dom'
+import { MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { allSeasons } from './../../data/seasons';
 
 const SideBar = ({ screenSize }) => {
   const [open, setOpen] = useState(0)
@@ -36,14 +39,76 @@ const SideBar = ({ screenSize }) => {
     setOpen(open === value ? 0 : value)
   }
 
-  const [curUrl, setCurUrl] = useState('')
+   // 1. Manage state for the search input text string
+  const [searchTerm, setSearchTerm] = useState('')
+
+  // 2. Automate filtering logic (Completely case-insensitive)
+  const filteredSeasons = searchTerm.trim()
+    ? allSeasons.filter((season) =>
+        season.name.toLowerCase().includes(searchTerm.toLowerCase())
+      ).slice(0, 3)
+    : [];
 
   return (
     <div className="sticky top-24 h-fit w-full max-w-[20rem] p-4 pb-16 shadow-xl shadow-blue-gray-900/5 bg-blue-gray-50">
-      <div className="mb-2 gap-4 p-4">
+      <div className="mb-1 gap-4 px-4 pt-4 pb-1">
         <Typography variant="h5" className="text-[#233d4d]">
           Dashboard
         </Typography>
+        {/* 3. The Search Input Box Field */}
+        <div className="relative w-full mt-2">
+          <Input
+            type="text"
+            label="Search Seasons..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            color="amber"
+            className="pr-10 text-blue-gray-900"
+            icon={
+              searchTerm ? (
+                <XMarkIcon 
+                  className="h-5 w-5 text-gray-400 hover:text-[#fe7f2d] cursor-pointer transition-colors" 
+                  onClick={() => setSearchTerm('')}
+                />
+              ) : (
+                <MagnifyingGlassIcon className="h-5 w-5 text-gray-400" />
+              )
+            }
+          />
+        </div>
+         {/* 4. Scrollable Container List Area */}
+        <div className="flex-1 overflow-y-auto pr-1 space-y-1 scrollbar-thin scrollbar-thumb-amber-700">
+          {!searchTerm && (
+            <Typography
+              variant="small"
+              className="text-gray-400 font-mono uppercase px-3 py-1 block"
+            >
+              Seasons Record ({allSeasons.length})
+            </Typography>
+          )}
+          {filteredSeasons.length > 0 ? (
+            filteredSeasons.map((season) => (
+              <Link
+                key={season.id}
+                to={`/${season.page_route}`}
+                className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-[#233d4d] hover:bg-[#fe7f2d] hover:text-[#233d4d] transition-all duration-200 group font-sans text-sm font-medium"
+              >
+                <span className="font-mono text-xs text-[#fe7f2d] group-hover:text-[#233d4d] bg-[#233d4d] group-hover:bg-white/20 px-1.5 py-0.5 rounded">
+                  {String(season.id).padStart(2, "0")}
+                </span>
+                <span className="truncate">{season.name}</span>
+              </Link>
+            ))
+          ) : (
+            searchTerm && (
+              <div className="text-center py-8 px-2">
+                <Typography variant="small" className="text-gray-500 italic">
+                  Walang nahanap na season para sa "{searchTerm}"
+                </Typography>
+              </div>
+            )
+          )}
+        </div>
       </div>
       <List className="pb-40">
         <Accordion
