@@ -8,6 +8,9 @@ const MapTabHeaderContainer = ({ label, value, activeTab, setActiveTab }) => {
   return (
     
       <Tab
+        as={Link} // 1. Transforms the Tab component into a true React Router Link
+        to={`${pathname}#${value}`} // 2. Appends the hash destination securely
+        id={`tab-header-${value}`} // 3. Attaches an explicit identifier to the DOM node element
         key={value}
         value={value}
         onClick={() => setActiveTab(value)}
