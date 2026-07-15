@@ -23,27 +23,10 @@ const PageIsle = () => {
     const initialValue = JSON.parse(saved) || {} // Default to empty object if no saved data
     return initialValue
   })
-
-  const { hash } = useLocation() // 1. Grabs the hash string directly from the URL bar (e.g., "#spirits")
-
+  
   useEffect(() => {
     localStorage.setItem('checkedSpirits', JSON.stringify(checkedSpirits))
-    if (hash) {
-      // Remove the leading '#' symbol to match your component values
-      const cleanHashValue = hash.replace('#', '')
-      
-      // Update state dynamically to match the deep-linked path hash
-      setActiveTab(cleanHashValue)
-
-      // 3. OPTIONAL: Automatically scrolls smoothly down to the target section element
-      const targetElement = document.getElementById(cleanHashValue)
-      if (targetElement) {
-        setTimeout(() => {
-          targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' })
-        }, 100) // Small delay ensures content chunks have fully loaded first
-      }
-    }
-  }, [checkedSpirits, hash])
+  }, [checkedSpirits])
 
   const handleCheckboxChange = (event) => {
     const { name, checked } = event.target
@@ -70,8 +53,6 @@ const PageIsle = () => {
               return (
                 <MapTabHeaderContainer
                   {...headerTab}
-                  label={activeTab}
-                  value={activeTab} 
                   activeTab={activeTab}
                   setActiveTab={setActiveTab}
                   key={index}
@@ -97,7 +78,6 @@ const PageIsle = () => {
                         <SpiritCardContainer
                           {...spirit}
                           key={spirit.spirit_id}
-                          id={spirit.spirit_name}
                           checkedSpirits={checkedSpirits}
                           handleCheckboxChange={handleCheckboxChange}
                         />
@@ -106,7 +86,6 @@ const PageIsle = () => {
                     {body.winged_lights?.map((wingedLight) => {
                       return (
                         <CardContainer
-                          id={wingedLight.wl_label}
                           label={wingedLight.wl_label}
                           location={wingedLight.wl_location}
                           url={wingedLight.wl_url}
@@ -117,7 +96,6 @@ const PageIsle = () => {
                     {body.map_shrines?.map((mapShrine) => {
                       return (
                         <CardContainer
-                          id={mapShrine.shrine_label}
                           label={mapShrine.shrine_label}
                           location={mapShrine.shrine_location}
                           url={mapShrine.shrine_url}
