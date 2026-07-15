@@ -26,46 +26,49 @@ export const aviaryData = [
     label: 'Info',
     value: 'info',
     desc: (
-      <div className="">
-        <Typography className="antialiased font-sans inline-flex ">
-          Here is the Seasons of:
-          <Link to="/seasons/2023/season-19/revival" className="inline-flex">
-            <div className="">
-              <LazyLoadImage src={SEASON19} style={{ width: 25 }} />
-            </div>
-            &nbsp;Revival
+      <div className="w-full max-w-4xl mx-auto px-4 flex items-center justify-center">
+        {/* flex-wrap allows items to drop to the next line smoothly on mobile */}
+        {/* items-center aligns everything vertically, and gap-x-1 handles text spacing without using &nbsp; */}
+        <Typography className="antialiased font-sans flex flex-wrap items-center gap-x-1 gap-y-2 text-white">
+          <span>Here is the Seasons of:</span>
+          
+          {/* Link 1 */}
+          <Link to="/seasons/s19-revival" className="inline-flex items-center gap-x-1 hover:text-[#fe7f2d] transition-colors">
+            <LazyLoadImage src={SEASON19} style={{ width: 25, height: 25 }} className="object-contain" />
+            <span>Revival</span>
           </Link>
-          ,&nbsp;
-          <Link to="/seasons/2024/season-21/nesting" className="inline-flex">
-            <div className="">
-              <LazyLoadImage src={SEASON21} style={{ width: 25 }} />
-            </div>
-            &nbsp;Nesting
+          <span>,</span>
+
+          {/* Link 2 */}
+          <Link to="/seasons/s21-nesting" className="inline-flex items-center gap-x-1 hover:text-[#fe7f2d] transition-colors">
+            <LazyLoadImage src={SEASON21} style={{ width: 25, height: 25 }} className="object-contain" />
+            <span>Nesting</span>
           </Link>
-          ,&nbsp;
-          <Link to="/seasons/2024/season-22/duets" className="inline-flex">
-            <div className="">
-              <LazyLoadImage src={SEASON22} style={{ width: 25 }} />
-            </div>
-            &nbsp;Duets
+          <span>,</span>
+
+          {/* Link 3 */}
+          <Link to="/seasons/s22-duet" className="inline-flex items-center gap-x-1 hover:text-[#fe7f2d] transition-colors">
+            <LazyLoadImage src={SEASON22} style={{ width: 25, height: 25 }} className="object-contain" />
+            <span>Duets</span>
           </Link>
-          ,&nbsp;
-          <Link to="/seasons/2025/season-24/radiance" className="inline-flex">
-            <div className="">
-              <LazyLoadImage src={SEASON24} style={{ width: 25 }} />
-            </div>
-            &nbsp;Radiance
+          <span>,</span>
+
+          {/* Link 4 */}
+          <Link to="/seasons/s24-radiance" className="inline-flex items-center gap-x-1 hover:text-[#fe7f2d] transition-colors">
+            <LazyLoadImage src={SEASON24} style={{ width: 25, height: 25 }} className="object-contain" />
+            <span>Radiance</span>
           </Link>
-          ,&nbsp;
-          <Link to="/seasons/2025/season-24/radiance" className="inline-flex">
-            <div className="">
-              <LazyLoadImage src={SEASON29} style={{ width: 25 }} />
-            </div>
-            &nbsp;Carnival
+          <span>,</span>
+
+          {/* Link 5 */}
+          <Link to="/seasons/s29-carnival" className="inline-flex items-center gap-x-1 hover:text-[#fe7f2d] transition-colors">
+            <LazyLoadImage src={SEASON29} style={{ width: 25, height: 25 }} className="object-contain" />
+            <span>Carnival</span>
           </Link>
-          .
+          <span>.</span>
         </Typography>
       </div>
+
     ),
     spirits: [],
   },

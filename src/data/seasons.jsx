@@ -229,7 +229,7 @@ export const seasons2019 = [
     map_shrine: 0,
     wl_num: 0,
     icon_route: SEASON1,
-    page_route: 'seasons/2019/season-1/gratitude',
+    page_route: 'seasons/s1-gratitude',
     quick_info: `Ito ang unang season na ginanap. Ang mga
         Spirits ay magkakahiwalay at makikita sa 6 na mapa.`,
 
@@ -340,7 +340,7 @@ export const seasons2019 = [
     spirit_num: 6,
     map_shrine: 0,
     icon_route: SEASON2,
-    page_route: 'seasons/2019/season-2/lightseekers',
+    page_route: 'seasons/s2-lightseeker',
     quick_info: `Ito ang season na sumunod sa Season of
     Gratitude. Ang mga spirit ng season na ito ay magkakahiwalay
     sa buong kingdom ng Sky.`,
@@ -451,7 +451,7 @@ export const seasons2019 = [
     spirit_num: 6,
     map_shrine: 0,
     icon_route: SEASON3,
-    page_route: 'seasons/2019/season-3/belonging',
+    page_route: 'seasons/s3-belonging',
     quick_info: `A family of six Spirits will make 
     their way to the kingdom of Sky! The Spirits have 
     been scattered across the Kingdoms of Sky, but now they 
@@ -566,7 +566,7 @@ export const seasons2020 = [
     spirit_num: 6,
     map_shrine: 0,
     icon_route: SEASON4,
-    page_route: 'seasons/2020/season-4/rhythm',
+    page_route: 'seasons/s4-rhythm',
     quick_info: `This winter-themed season follows 
     a troupe of traveling performers who have been 
     scattered across the kingdoms of Sky and need 
@@ -679,7 +679,7 @@ export const seasons2020 = [
     wl_num: 2,
     map_shrine: 1,
     icon_route: SEASON5,
-    page_route: 'seasons/2020/season-5/enchantment',
+    page_route: 'seasons/s5-enchantment',
     quick_info: `A group of Spirits started their voyage towards prosperity. Take the boat and set sail. Follow their path, a new land awaits…`,
     season_spirits: [
       //SNOOZING_CARPENTER
@@ -826,7 +826,7 @@ export const seasons2020 = [
     wl_num: 8,
     ms_num: 1,
     icon_route: SEASON6,
-    page_route: 'seasons/2020/season-6/sanctuary',
+    page_route: 'seasons/s6-sanctuary',
     quick_info: `Spirits are seeking an island retreat in Daylight Prairie.
     Join them for some relaxation and sightseeing. This special Season looks to bring 
     a retreat-like experience for everyone playing and staying safe at home.`,
@@ -1061,7 +1061,7 @@ export const seasons2020 = [
     wl_num: 4,
     ms_num: 5,
     icon_route: SEASON7,
-    page_route: 'seasons/2020/season-7/prophecy',
+    page_route: 'seasons/s7-prophecy',
     quick_info: `The Season of Prophecy will take 
     adventurers on an origin story to expand the 
     lore behind the kingdom of Sky. Venture forth 
@@ -1252,7 +1252,7 @@ export const seasons2021 = [
     wl_num: 5,
     ms_num: 3,
     icon_route: SEASON8,
-    page_route: 'seasons/2021/season-8/dreams',
+    page_route: 'seasons/s8-dreams',
     quick_info: `The Season of Dreams took players 
     through the journey of a young spirit who dreams 
     of performing in the Valley of Triumph’s Coliseum. 
@@ -1437,7 +1437,7 @@ export const seasons2021 = [
     wl_num: 2,
     ms_num: 1,
     icon_route: SEASON9,
-    page_route: 'seasons/2021/season-9/assembly',
+    page_route: 'seasons/s9-assembly',
     quick_info: `Set in the rainy Hidden Forest, 
     this story follows a lone Scout spirit who 
     invites players to help build and then adorn 
@@ -1599,7 +1599,7 @@ export const seasons2021 = [
     wl_num: 3,
     ms_num: 1,
     icon_route: SEASON10,
-    page_route: 'seasons/2021/season-10/the-little-prince',
+    page_route: 'seasons/s10-the-little-prince',
     quick_info: `This season was the first collaborative 
     season released by thatgamecompany, collaborating with
      the titular story of Antoine de Saint-Exupéry's The 
@@ -1771,7 +1771,7 @@ export const seasons2021 = [
     wl_num: 1,
     ms_num: 1,
     icon_route: SEASON11,
-    page_route: 'seasons/2021/season-11/flight',
+    page_route: 'seasons/s11-flight',
     quick_info: `A brand new area to discover has 
     been added to the game in the clouds of Hidden 
     Forest. The Season of Flight features five 
@@ -1891,7 +1891,7 @@ export const seasons2022 = [
     spirit_num: 4,
     wl_num: 2,
     icon_route: SEASON12,
-    page_route: 'seasons/2022/season-12/abyss',
+    page_route: 'seasons/s12-abyss',
     quick_info: `Season of Abyss follows the 
     adventures of four scrappy spirits who 
     scavenge the realm for resources. Throughout 
@@ -2012,7 +2012,7 @@ export const seasons2022 = [
     spirit_num: 4,
     wl_num: 1,
     icon_route: SEASON13,
-    page_route: 'seasons/2022/season-13/performance',
+    page_route: 'seasons/s13-performance',
     quick_info: `The Season of Performance takes place 
     in a new area in Valley of Triumph. Visit the stage 
     tucked away in a sleepy mountain village. Meet the 
@@ -2123,7 +2123,7 @@ export const seasons2022 = [
     spirit_num: 2,
     wl_num: 6,
     icon_route: SEASON14,
-    page_route: 'seasons/2022/season-14/shattering',
+    page_route: 'seasons/s14-shattering',
     quick_info: `This Season takes a different approach 
     to telling a new facet of the story of Sky. There is
     no spirits to relive but memories of light and darkness
@@ -2387,7 +2387,7 @@ export const seasons2022 = [
     time_duration: 'October 17, 2022 - January 2, 2023',
     spirit_num: 4,
     icon_route: SEASON15,
-    page_route: 'seasons/2022/season-15/aurora',
+    page_route: 'seasons/s15-aurora',
     quick_info: `The Coliseum in Valley of Triumph got yet 
     another makeover as the Season of AURORA prepared to 
     house the 4 Spirits of the Season and AURORA themselves. 
@@ -2472,7 +2472,7 @@ export const seasons2023 = [
     wl_num: 1,
     ms_num: 1,
     icon_route: SEASON16,
-    page_route: 'seasons/2023/season-16/remembrance',
+    page_route: 'seasons/s16-remembrance',
     quick_info: `Journey alongside Spirits who lived 
     through eras of turmoil to press on and rebuild together.`,
     season_spirits: [
@@ -2579,7 +2579,7 @@ export const seasons2023 = [
     spirit_num: 4,
     ms_num: 1,
     icon_route: SEASON17,
-    page_route: 'seasons/2023/season-17/passage',
+    page_route: 'seasons/s17-passage',
     quick_info: `Venture into the twilight and 
     meet four young Spirits in Isle of Dawn. 
     Experience their memories as each one learned 
@@ -2674,7 +2674,7 @@ export const seasons2023 = [
     wl_num: 3,
     ms_num: 1,
     icon_route: SEASON18,
-    page_route: 'seasons/2023/season-18/moments',
+    page_route: 'seasons/s18-moments',
     quick_info: `A new area called Prairie Peaks 
     opens itself to Sky children in this latest 
     Season. Snow-capped mountains tower over a lush, 
@@ -2810,7 +2810,7 @@ export const seasons2023 = [
     season_type: 0,
     time_duration: 'October 16 - December 31, 2023',
     icon_route: SEASON19,
-    page_route: 'seasons/2023/season-19/revival',
+    page_route: 'seasons/s19-revival',
     quick_info: `In a forgotten corner of the kingdom 
     stand the ruins of Aviary Village, a town that once 
     flourished. Now, the time has come to bring it back 
@@ -3013,7 +3013,7 @@ export const seasons2024 = [
     wl_num: 3,
     ms_num: 1,
     icon_route: SEASON20,
-    page_route: 'seasons/2024/season-20/the-nine-colored-deer',
+    page_route: 'seasons/s20-the-nine-colored-deer',
     quick_info: `It is the third collaborative Seasonal Event in the world of Sky.`,
     season_spirits: [
       //HUNTER
@@ -3142,7 +3142,7 @@ export const seasons2024 = [
     wl_num: 0,
     ms_num: 0,
     icon_route: SEASON21,
-    page_route: 'seasons/2024/season-21/nesting',
+    page_route: 'seasons/s21-nesting',
     quick_info: `It's TIME to DECORATE our own HOMESPACE!`,
     season_spirits: [
       //Nesting Atrium
@@ -3338,7 +3338,7 @@ export const seasons2024 = [
     ms_num: 0,
     spirit_num: 0,
     icon_route: SEASON22,
-    page_route: 'seasons/2024/season-22/duets',
+    page_route: 'seasons/s22-duet',
     quick_info: `Connect Through Meaningful Harmonies in Season of Duets`,
     season_spirits: [
       //The Pianist's Beginning
@@ -3548,7 +3548,7 @@ export const seasons2024 = [
     wl_num: 1,
     ms_num: 1,
     icon_route: SEASON23,
-    page_route: 'seasons/2024/season-23/moomin',
+    page_route: 'seasons/s23-moomin',
     quick_info: `Revisit a classic tale about friendship.`,
     season_spirits: [
       //Comfort of Kindness
@@ -3655,7 +3655,7 @@ export const seasons2025 = [
     wl_num: 0,
     ms_num: 0,
     icon_route: SEASON24,
-    page_route: 'seasons/2025/season-24/radiance',
+    page_route: 'seasons/s24-radiance',
     quick_info: `The Light in Sky bursts into a spectrum of color when Season of Radiance arrives!`,
     season_spirits: [
       //Radiance Provoking Perfomer
@@ -3812,7 +3812,7 @@ export const seasons2025 = [
     wl_num: 1,
     ms_num: 1,
     icon_route: SEASON25,
-    page_route: 'seasons/2025/season-25/blue-bird',
+    page_route: 'seasons/s25-bluebird',
     quick_info: `Season of The Blue Bird`,
     season_spirits: [
       //Divining Wise Grandparent
@@ -3931,7 +3931,7 @@ export const seasons2025 = [
     wl_num: 0,
     ms_num: 1,
     icon_route: SEASON26,
-    page_route: 'seasons/2025/season-26/two-embers-one',
+    page_route: 'seasons/s26-two-embers-one',
     quick_info: `The heart and history of Sky.`,
     season_spirits: [
       //Scared Sentry
@@ -4029,7 +4029,7 @@ export const seasons2025 = [
     wl_num: 2,
     ms_num: 0,
     icon_route: SEASON27,
-    page_route: 'seasons/2025/season-27/migration',
+    page_route: 'seasons/s27-migration',
     quick_info: `Mystical Light Creatures Overcome challenges.`,
     season_spirits: [
       //LIGHTHORN_WHISPERER
@@ -4159,7 +4159,7 @@ export const seasons2026 = [
     wl_num: 0,
     ms_num: 1,
     icon_route: SEASON28,
-    page_route: 'seasons/2026/season-28/lightmending',
+    page_route: 'seasons/s28-light-mending',
     quick_info: `Season of Lightmending!`,
     season_spirits: [
       //Lightmending Champion
@@ -4247,7 +4247,7 @@ export const seasons2026 = [
     wl_num: 2,
     ms_num: 1,
     icon_route: SEASON29,
-    page_route: 'seasons/2026/season-29/carnival',
+    page_route: 'seasons/s29-carnival',
     quick_info: `The Wandering Carnival is arriving!`,
     season_spirits: [
       //CARNIVAL_ATHLETIC_DANCER
@@ -4548,7 +4548,7 @@ export const seasons2026 = [
     wl_num: 0,
     ms_num: 0,
     icon_route: SEASON30,
-    page_route: 'seasons/2026/season-30/dear-van-gogh',
+    page_route: 'seasons/s30-dear-van-gogh',
     quick_info: `The Wandering Carnival is arriving!`,
     season_spirits: [
       // //CARNIVAL_ATHLETIC_DANCER
@@ -4851,7 +4851,7 @@ export const allSeasons = [
     map_shrine: 0,
     wl_num: 0,
     icon_route: SEASON1,
-    page_route: 'seasons/2019/season-1/gratitude',
+    page_route: 'seasons/s1-gratitude',
     quick_info: `Ito ang unang season na ginanap. Ang mga
         Spirits ay magkakahiwalay at makikita sa 6 na mapa.`,
 
@@ -4962,7 +4962,7 @@ export const allSeasons = [
     spirit_num: 6,
     map_shrine: 0,
     icon_route: SEASON2,
-    page_route: 'seasons/2019/season-2/lightseekers',
+    page_route: 'seasons/s2-lightseeker',
     quick_info: `Ito ang season na sumunod sa Season of
     Gratitude. Ang mga spirit ng season na ito ay magkakahiwalay
     sa buong kingdom ng Sky.`,
@@ -5073,7 +5073,7 @@ export const allSeasons = [
     spirit_num: 6,
     map_shrine: 0,
     icon_route: SEASON3,
-    page_route: 'seasons/2019/season-3/belonging',
+    page_route: 'seasons/s3-belonging',
     quick_info: `A family of six Spirits will make 
     their way to the kingdom of Sky! The Spirits have 
     been scattered across the Kingdoms of Sky, but now they 
@@ -5185,7 +5185,7 @@ export const allSeasons = [
     spirit_num: 6,
     map_shrine: 0,
     icon_route: SEASON4,
-    page_route: 'seasons/2020/season-4/rhythm',
+    page_route: 'seasons/s4-rhythm',
     quick_info: `This winter-themed season follows 
     a troupe of traveling performers who have been 
     scattered across the kingdoms of Sky and need 
@@ -5298,7 +5298,7 @@ export const allSeasons = [
     wl_num: 2,
     map_shrine: 1,
     icon_route: SEASON5,
-    page_route: 'seasons/2020/season-5/enchantment',
+    page_route: 'seasons/s5-enchantment',
     quick_info: `A group of Spirits started their voyage towards prosperity. Take the boat and set sail. Follow their path, a new land awaits…`,
     season_spirits: [
       //SNOOZING_CARPENTER
@@ -5445,7 +5445,7 @@ export const allSeasons = [
     wl_num: 8,
     ms_num: 1,
     icon_route: SEASON6,
-    page_route: 'seasons/2020/season-6/sanctuary',
+    page_route: 'seasons/s6-sanctuary',
     quick_info: `Spirits are seeking an island retreat in Daylight Prairie.
     Join them for some relaxation and sightseeing. This special Season looks to bring 
     a retreat-like experience for everyone playing and staying safe at home.`,
@@ -5680,7 +5680,7 @@ export const allSeasons = [
     wl_num: 4,
     ms_num: 5,
     icon_route: SEASON7,
-    page_route: 'seasons/2020/season-7/prophecy',
+    page_route: 'seasons/s7-prophecy',
     quick_info: `The Season of Prophecy will take 
     adventurers on an origin story to expand the 
     lore behind the kingdom of Sky. Venture forth 
@@ -5868,7 +5868,7 @@ export const allSeasons = [
     wl_num: 5,
     ms_num: 3,
     icon_route: SEASON8,
-    page_route: 'seasons/2021/season-8/dreams',
+    page_route: 'seasons/s8-dreams',
     quick_info: `The Season of Dreams took players 
     through the journey of a young spirit who dreams 
     of performing in the Valley of Triumph’s Coliseum. 
@@ -6053,7 +6053,7 @@ export const allSeasons = [
     wl_num: 2,
     ms_num: 1,
     icon_route: SEASON9,
-    page_route: 'seasons/2021/season-9/assembly',
+    page_route: 'seasons/s9-assembly',
     quick_info: `Set in the rainy Hidden Forest, 
     this story follows a lone Scout spirit who 
     invites players to help build and then adorn 
@@ -6215,7 +6215,7 @@ export const allSeasons = [
     wl_num: 3,
     ms_num: 1,
     icon_route: SEASON10,
-    page_route: 'seasons/2021/season-10/the-little-prince',
+    page_route: 'seasons/s10-the-little-prince',
     quick_info: `This season was the first collaborative 
     season released by thatgamecompany, collaborating with
      the titular story of Antoine de Saint-Exupéry's The 
@@ -6387,7 +6387,7 @@ export const allSeasons = [
     wl_num: 1,
     ms_num: 1,
     icon_route: SEASON11,
-    page_route: 'seasons/2021/season-11/flight',
+    page_route: 'seasons/s11-flight',
     quick_info: `A brand new area to discover has 
     been added to the game in the clouds of Hidden 
     Forest. The Season of Flight features five 
@@ -6504,7 +6504,7 @@ export const allSeasons = [
     spirit_num: 4,
     wl_num: 2,
     icon_route: SEASON12,
-    page_route: 'seasons/2022/season-12/abyss',
+    page_route: 'seasons/s12-abyss',
     quick_info: `Season of Abyss follows the 
     adventures of four scrappy spirits who 
     scavenge the realm for resources. Throughout 
@@ -6625,7 +6625,7 @@ export const allSeasons = [
     spirit_num: 4,
     wl_num: 1,
     icon_route: SEASON13,
-    page_route: 'seasons/2022/season-13/performance',
+    page_route: 'seasons/s13-performance',
     quick_info: `The Season of Performance takes place 
     in a new area in Valley of Triumph. Visit the stage 
     tucked away in a sleepy mountain village. Meet the 
@@ -6736,7 +6736,7 @@ export const allSeasons = [
     spirit_num: 2,
     wl_num: 6,
     icon_route: SEASON14,
-    page_route: 'seasons/2022/season-14/shattering',
+    page_route: 'seasons/s14-shattering',
     quick_info: `This Season takes a different approach 
     to telling a new facet of the story of Sky. There is
     no spirits to relive but memories of light and darkness
@@ -7000,7 +7000,7 @@ export const allSeasons = [
     time_duration: 'October 17, 2022 - January 2, 2023',
     spirit_num: 4,
     icon_route: SEASON15,
-    page_route: 'seasons/2022/season-15/aurora',
+    page_route: 'seasons/s15-aurora',
     quick_info: `The Coliseum in Valley of Triumph got yet 
     another makeover as the Season of AURORA prepared to 
     house the 4 Spirits of the Season and AURORA themselves. 
@@ -7082,7 +7082,7 @@ export const allSeasons = [
     wl_num: 1,
     ms_num: 1,
     icon_route: SEASON16,
-    page_route: 'seasons/2023/season-16/remembrance',
+    page_route: 'seasons/s16-remembrance',
     quick_info: `Journey alongside Spirits who lived 
     through eras of turmoil to press on and rebuild together.`,
     season_spirits: [
@@ -7189,7 +7189,7 @@ export const allSeasons = [
     spirit_num: 4,
     ms_num: 1,
     icon_route: SEASON17,
-    page_route: 'seasons/2023/season-17/passage',
+    page_route: 'seasons/s17-passage',
     quick_info: `Venture into the twilight and 
     meet four young Spirits in Isle of Dawn. 
     Experience their memories as each one learned 
@@ -7284,7 +7284,7 @@ export const allSeasons = [
     wl_num: 3,
     ms_num: 1,
     icon_route: SEASON18,
-    page_route: 'seasons/2023/season-18/moments',
+    page_route: 'seasons/s18-moments',
     quick_info: `A new area called Prairie Peaks 
     opens itself to Sky children in this latest 
     Season. Snow-capped mountains tower over a lush, 
@@ -7420,7 +7420,7 @@ export const allSeasons = [
     season_type: 0,
     time_duration: 'October 16 - December 31, 2023',
     icon_route: SEASON19,
-    page_route: 'seasons/2023/season-19/revival',
+    page_route: 'seasons/s19-revival',
     quick_info: `In a forgotten corner of the kingdom 
     stand the ruins of Aviary Village, a town that once 
     flourished. Now, the time has come to bring it back 
@@ -7608,7 +7608,7 @@ export const allSeasons = [
     wl_num: 3,
     ms_num: 1,
     icon_route: SEASON20,
-    page_route: 'seasons/2024/season-20/the-nine-colored-deer',
+    page_route: 'seasons/s20-the-nine-colored-deer',
     quick_info: `It is the third collaborative Seasonal Event in the world of Sky.`,
     season_spirits: [
       //HUNTER
@@ -7736,7 +7736,7 @@ export const allSeasons = [
     wl_num: 0,
     ms_num: 0,
     icon_route: SEASON21,
-    page_route: 'seasons/2024/season-21/nesting',
+    page_route: 'seasons/s21-nesting',
     quick_info: `It's TIME to DECORATE our own HOMESPACE!`,
     season_spirits: [
       //NON_SPIRIT
@@ -7928,7 +7928,7 @@ export const allSeasons = [
     wl_num: 0,
     ms_num: 0,
     icon_route: SEASON22,
-    page_route: 'seasons/2024/season-22/duets',
+    page_route: 'seasons/s22-duet',
     quick_info: `Connect Through Meaningful Harmonies in Season of Duets`,
     season_spirits: [
       //NON_SPIRIT
@@ -8138,7 +8138,7 @@ export const allSeasons = [
     wl_num: 1,
     ms_num: 1,
     icon_route: SEASON23,
-    page_route: 'seasons/2024/season-23/moomin',
+    page_route: 'seasons/s23-moomin',
     quick_info: `Revisit a classic tale about friendship.`,
     season_spirits: [
       //Comfort of Kindness
@@ -8241,7 +8241,7 @@ export const allSeasons = [
     wl_num: 0,
     ms_num: 0,
     icon_route: SEASON24,
-    page_route: 'seasons/2025/season-24/radiance',
+    page_route: 'seasons/s24-radiance',
     quick_info: `Season 24`,
     season_spirits: [
       //Radiance Provoking Perfomer
@@ -8398,7 +8398,7 @@ export const allSeasons = [
     wl_num: 1,
     ms_num: 1,
     icon_route: SEASON25,
-    page_route: 'seasons/2025/season-25/blue-bird',
+    page_route: 'seasons/s25-bluebird',
     quick_info: `Season of The Blue Bird`,
     season_spirits: [
       //Divining Wise Grandparent
@@ -8517,7 +8517,7 @@ export const allSeasons = [
     wl_num: 0,
     ms_num: 1,
     icon_route: SEASON26,
-    page_route: 'seasons/2025/season-26/two-embers-one',
+    page_route: 'seasons/s26-two-embers-one',
     quick_info: `The heart and history of Sky.`,
     season_spirits: [
       //Scared Sentry
@@ -8615,7 +8615,7 @@ export const allSeasons = [
     wl_num: 2,
     ms_num: 0,
     icon_route: SEASON27,
-    page_route: 'seasons/2025/season-27/migration',
+    page_route: 'seasons/s27-migration',
     quick_info: `Mystical Light Creatures Overcome challenges.`,
     season_spirits: [
       //LIGHTHORN_WHISPERER
@@ -8733,5 +8733,695 @@ export const allSeasons = [
     //     shrine_location: wasteland[3].map_shrines[8].shrine_location,
     //   },
     // ],
+  },
+  {
+    id: 28,
+    name: 'LightMending',
+    season_type: 1,
+    time_duration: 'Janaury 16, 2026 - April 3, 2026',
+    spirit_num: 4,
+    wl_num: 0,
+    ms_num: 1,
+    icon_route: SEASON28,
+    page_route: 'seasons/s28-light-mending',
+    quick_info: `Season of Lightmending!`,
+    season_spirits: [
+      //Lightmending Champion
+      {
+        spirit_id: vault[1].spirits[22].spirit_id,
+        spirit_name: vault[1].spirits[22].spirit_name,
+        spirit_img_url: vault[1].spirits[22].spirit_img_url,
+        spirit_category: vault[1].spirits[22].spirit_category,
+        spirit_relive_type: vault[1].spirits[22].spirit_relive_type,
+        difficulty_level: vault[1].spirits[22].difficulty_level,
+        difficulty_types: vault[1].spirits[22].difficulty_types,
+        spirit_image: vault[1].spirits[22].spirit_image,
+        spirit_collectibles: vault[1].spirits[22].spirit_collectibles,
+        spirit_tree_cost: vault[1].spirits[22].spirit_tree_cost,
+        number_of_visits: vault[1].spirits[22].number_of_visits,
+        spirit_guide_video_url: vault[1].spirits[22].spirit_guide_video_url,
+        spirit_direction: vault[1].spirits[22].spirit_direction,
+      },
+      //Lightmending Pioneer
+      {
+        spirit_id: vault[1].spirits[23].spirit_id,
+        spirit_name: vault[1].spirits[23].spirit_name,
+        spirit_img_url: vault[1].spirits[23].spirit_img_url,
+        spirit_category: vault[1].spirits[23].spirit_category,
+        spirit_relive_type: vault[1].spirits[23].spirit_relive_type,
+        difficulty_level: vault[1].spirits[23].difficulty_level,
+        difficulty_types: vault[1].spirits[23].difficulty_types,
+        spirit_image: vault[1].spirits[23].spirit_image,
+        spirit_collectibles: vault[1].spirits[23].spirit_collectibles,
+        spirit_tree_cost: vault[1].spirits[23].spirit_tree_cost,
+        number_of_visits: vault[1].spirits[23].number_of_visits,
+        spirit_guide_video_url: vault[1].spirits[23].spirit_guide_video_url,
+        spirit_direction: vault[1].spirits[23].spirit_direction,
+      },
+      //Lightmending Light Scholar
+      {
+        spirit_id: vault[1].spirits[24].spirit_id,
+        spirit_name: vault[1].spirits[24].spirit_name,
+        spirit_img_url: vault[1].spirits[24].spirit_img_url,
+        spirit_category: vault[1].spirits[24].spirit_category,
+        spirit_relive_type: vault[1].spirits[24].spirit_relive_type,
+        difficulty_level: vault[1].spirits[24].difficulty_level,
+        difficulty_types: vault[1].spirits[24].difficulty_types,
+        spirit_image: vault[1].spirits[24].spirit_image,
+        spirit_collectibles: vault[1].spirits[24].spirit_collectibles,
+        spirit_tree_cost: vault[1].spirits[24].spirit_tree_cost,
+        number_of_visits: vault[1].spirits[24].number_of_visits,
+        spirit_guide_video_url: vault[1].spirits[24].spirit_guide_video_url,
+        spirit_direction: vault[1].spirits[24].spirit_direction,
+      },
+      //Lightmending Light Catcher
+      {
+        spirit_id: vault[1].spirits[25].spirit_id,
+        spirit_name: vault[1].spirits[25].spirit_name,
+        spirit_img_url: vault[1].spirits[25].spirit_img_url,
+        spirit_category: vault[1].spirits[25].spirit_category,
+        spirit_relive_type: vault[1].spirits[25].spirit_relive_type,
+        difficulty_level: vault[1].spirits[25].difficulty_level,
+        difficulty_types: vault[1].spirits[25].difficulty_types,
+        spirit_image: vault[1].spirits[25].spirit_image,
+        spirit_collectibles: vault[1].spirits[25].spirit_collectibles,
+        spirit_tree_cost: vault[1].spirits[25].spirit_tree_cost,
+        number_of_visits: vault[1].spirits[25].number_of_visits,
+        spirit_guide_video_url: vault[1].spirits[25].spirit_guide_video_url,
+        spirit_direction: vault[1].spirits[25].spirit_direction,
+      },
+    ],
+    winged_lights: [],
+    map_shrines: [
+      {
+        id: vault[3].map_shrines[11].id,
+        shrine_group: vault[3].map_shrines[11].shrine_group,
+        shrine_label: vault[3].map_shrines[11].shrine_label,
+        shrine_url: vault[3].map_shrines[11].shrine_url,
+        shrine_location: vault[3].map_shrines[11].shrine_location,
+      },
+    ],
+  },
+  {
+    id: 29,
+    name: 'Carnival',
+    season_type: 1,
+    time_duration: 'April 17, 2026 - July 2, 2026',
+    spirit_num: 4,
+    wl_num: 2,
+    ms_num: 1,
+    icon_route: SEASON29,
+    page_route: 'seasons/s29-carnival',
+    quick_info: `The Wandering Carnival is arriving!`,
+    season_spirits: [
+      //CARNIVAL_ATHLETIC_DANCER
+      {
+        id: 18,
+        spirit_id: 'aviary18',
+        season_id: 29,
+        spirit_type: 'seasonal',
+        season: 'Season 29 - Season of Carnival',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 15,
+        difficulty_types: [1, 15],
+        spirit_name: 'Carnival Athletic Dancer',
+        spirit_img_url: CARNIVAL_ATHLETIC_DANCER,
+        spirit_image: AVIARY_SPIRIT_4,
+        icon_route: SEASON29,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: CAD_ITEM_2,
+            currency: 'Season Candles',
+            price: 19,
+          },
+          {
+            label: 'Pants',
+            img: CAD_ITEM_1,
+            currency: 'Season Candles',
+            price: 28,
+          },
+          {
+            label: 'Cape',
+            img: CAD_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: CARNIVAL_ATHLETIC_DANCER,
+            currency: 'Season Candles',
+            price: 24,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 94,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + 'yMhxKqyvj2A',
+        spirit_direction: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, ay umakyat sa barko at sa gawing kanan makikita kaagad ang spirit na ito.',
+        ],
+      },
+      //CARNIVAL_JUGGLER
+      {
+        id: 19,
+        spirit_id: 'aviary19',
+        season_id: 29,
+        spirit_type: 'seasonal',
+        season: 'Season 29 - Season of Carnival',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 15,
+        difficulty_types: [1, 15],
+        spirit_name: 'Carnival Juggler',
+        spirit_img_url: CARNIVAL_JUGGLER,
+        spirit_image: AVIARY_SPIRIT_5,
+        icon_route: SEASON29,
+        spirit_collectibles: [
+          {
+            label: 'Mask',
+            img: CJ_ITEM_1,
+            currency: 'Season Candles',
+            price: 19,
+          },
+          {
+            label: 'Neck Accessory',
+            img: CJ_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Pants',
+            img: CJ_ITEM_3,
+            currency: 'Season Candles',
+            price: 28,
+          },
+          {
+            label: 'Emote',
+            img: CARNIVAL_JUGGLER,
+            currency: 'Season Candles',
+            price: 24,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 95,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + 'jSmrfkOviiE',
+        spirit_direction: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, ay umakyat sa barko at sa gawing kaliwa makikita kaagad ang spirit na ito.',
+        ],
+      },
+      //CARNIVAL_PUZZLE_DIRECTOR
+      {
+        id: 20,
+        spirit_id: 'aviary20',
+        season_id: 29,
+        spirit_type: 'seasonal',
+        season: 'Season 29 - Season of Carnival',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 15,
+        difficulty_types: [1, 15],
+        spirit_name: 'Carnival Puzzle Director',
+        spirit_img_url: CARNIVAL_PUZZLE_DIRECTOR,
+        spirit_image: AVIARY_SPIRIT_6,
+        icon_route: SEASON29,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: CPD_ITEM_1,
+            currency: 'Season Candles',
+            price: 28,
+          },
+          {
+            label: 'Hair',
+            img: CPD_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Pants',
+            img: CPD_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Emote',
+            img: CARNIVAL_PUZZLE_DIRECTOR,
+            currency: 'Season Candles',
+            price: 24,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 95,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + 'z1UA98BC2NQ',
+        spirit_direction: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, ay umakyat sa barko at sa gawing kanan ay may lagusan pababa, pumasok ka,',
+          'Tapos sa looban ay kumaliwa ka at diretso lamang hanggang sa makita mo na ang spirit sa gilid ng hagdanan',
+        ],
+      },
+      //CARNIVAL_STUNT_ACTOR
+      {
+        id: 20,
+        spirit_id: 'aviary20',
+        season_id: 29,
+        spirit_type: 'seasonal',
+        season: 'Season 29 - Season of Carnival',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 15,
+        difficulty_types: [1, 15],
+        spirit_name: 'Carnival Stunt Actor',
+        spirit_img_url: CARNIVAL_STUNT_ACTOR,
+        spirit_image: AVIARY_SPIRIT_7,
+        icon_route: SEASON29,
+        spirit_collectibles: [
+          {
+            label: 'Hair Accessory',
+            img: CSA_ITEM_1,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Hair',
+            img: CSA_ITEM_2,
+            currency: 'Season Candles',
+            price: 28,
+          },
+          {
+            label: 'Pants',
+            img: CSA_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: CSA_ITEM_4,
+            currency: 'Season Candles',
+            price: 19,
+          },
+          {
+            label: 'Emote',
+            img: CARNIVAL_STUNT_ACTOR,
+            currency: 'Season Candles',
+            price: 24,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 95,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + 'F69Ty9NQUwI',
+        spirit_direction: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, ay umakyat sa barko at sa gawing kanan ay may lagusan pababa, pumasok ka,',
+          'Tapos sa looban ay kumaliwa ka at diretso lamang hanggang sa makita mo na ang spirit sa gilid ng hagdanan',
+        ],
+      },
+    ],
+    winged_lights: [
+      {
+        id: 1,
+        wl_label: 'WL1 - 2nd Ship Bowsprit',
+        wl_group: 'wl-aviary',
+        wl_season_group: 'wl-aviary-1',
+        wl_url: AV_WL1 ?? WINGED_LIGHT,
+        wl_location: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, Lumipad patungo sa ikalawang barko, at sa Bowsprit nito makikita ang winged light.',
+        ],
+      },
+      {
+        id: 2,
+        wl_label: 'WL2 - Wandering Carnival Boat Main Deck',
+        wl_group: 'wl-aviary',
+        wl_season_group: 'wl-aviary-2',
+        wl_url: AV_WL2 ?? WINGED_LIGHT,
+        wl_location: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, Umakyat sa Barko at pumasok sa lagusan sa gawing kanan at bumaba,',
+          'Pagkababa ay kumaliwa at diretso papasok sa mga lagusan hanggang sa makita ang Puzzle Director',
+          'Sa likod nito ay may mga kwarto, pumasok at sindihan ang lampara sa loob',
+          'Gagalaw ang cabinet at makikita ang sekretong lagusan sa gawing kanan sa isa pang kwarto, dito ang winged light.',
+        ],
+      },
+    ],
+    map_shrines: [
+      {
+        id: 2,
+        shrine_group: 'shrine-season-29',
+        shrine_label: 'Map Shrine 1',
+        shrine_url: AV_MS2 ?? MAP_SHRINE,
+        shrine_location: [
+          'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+          'Pagkadating, umakyat sa barko ng Wandering Carnival at sa likod ng Athletic Dancer makikita ang map shrine.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 30,
+    name: 'Dear Van Gogh',
+    season_type: 2,
+    time_duration: 'July 17, 2026 - October 3, 2026',
+    spirit_num: 0,
+    wl_num: 0,
+    ms_num: 0,
+    icon_route: SEASON30,
+    page_route: 'seasons/s30-dear-van-gogh',
+    quick_info: `The Wandering Carnival is arriving!`,
+    season_spirits: [
+      // //CARNIVAL_ATHLETIC_DANCER
+      // {
+      //   id: 18,
+      //   spirit_id: 'aviary18',
+      //   season_id: 29,
+      //   spirit_type: 'seasonal',
+      //   season: 'Season 29 - Season of Carnival',
+      //   spirit_category: 'emote',
+      //   spirit_relive_type: 'quest-memory',
+      //   difficulty_level: 15,
+      //   difficulty_types: [1, 15],
+      //   spirit_name: 'Carnival Athletic Dancer',
+      //   spirit_img_url: CARNIVAL_ATHLETIC_DANCER,
+      //   spirit_image: AVIARY_SPIRIT_4,
+      //   icon_route: SEASON30,
+      //   spirit_collectibles: [
+      //     {
+      //       label: 'Mask',
+      //       img: CAD_ITEM_2,
+      //       currency: 'Season Candles',
+      //       price: 19,
+      //     },
+      //     {
+      //       label: 'Pants',
+      //       img: CAD_ITEM_1,
+      //       currency: 'Season Candles',
+      //       price: 28,
+      //     },
+      //     {
+      //       label: 'Cape',
+      //       img: CAD_ITEM_3,
+      //       currency: 'Season Candles',
+      //       price: 0,
+      //     },
+      //     {
+      //       label: 'Emote',
+      //       img: CARNIVAL_ATHLETIC_DANCER,
+      //       currency: 'Season Candles',
+      //       price: 24,
+      //     },
+      //   ],
+      //   spirit_tree_cost: [
+      //     {
+      //       candles: 94,
+      //       hearts: 0,
+      //       ascended_candles: 2,
+      //     },
+      //   ],
+      //   number_of_visits: [
+      //     // {
+      //     //   visit_date: 'Mar 12, 2020',
+      //     //   visitNo: 4,
+      //     // },
+      //   ],
+      //   spirit_guide_video_url: youtube_embed + '',
+      //   spirit_direction: [
+      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+      //     'Pagkadating, ay umakyat sa barko at sa gawing kanan makikita kaagad ang spirit na ito.',
+      //   ],
+      // },
+      // //CARNIVAL_JUGGLER
+      // {
+      //   id: 19,
+      //   spirit_id: 'aviary19',
+      //   season_id: 29,
+      //   spirit_type: 'seasonal',
+      //   season: 'Season 29 - Season of Carnival',
+      //   spirit_category: 'emote',
+      //   spirit_relive_type: 'quest-memory',
+      //   difficulty_level: 15,
+      //   difficulty_types: [1, 15],
+      //   spirit_name: 'Carnival Juggler',
+      //   spirit_img_url: CARNIVAL_JUGGLER,
+      //   spirit_image: AVIARY_SPIRIT_5,
+      //   icon_route: SEASON30,
+      //   spirit_collectibles: [
+      //     {
+      //       label: 'Mask',
+      //       img: CJ_ITEM_1,
+      //       currency: 'Season Candles',
+      //       price: 19,
+      //     },
+      //     {
+      //       label: 'Neck Accessory',
+      //       img: CJ_ITEM_2,
+      //       currency: 'Season Candles',
+      //       price: 0,
+      //     },
+      //     {
+      //       label: 'Pants',
+      //       img: CJ_ITEM_3,
+      //       currency: 'Season Candles',
+      //       price: 28,
+      //     },
+      //     {
+      //       label: 'Emote',
+      //       img: CARNIVAL_JUGGLER,
+      //       currency: 'Season Candles',
+      //       price: 24,
+      //     },
+      //   ],
+      //   spirit_tree_cost: [
+      //     {
+      //       candles: 95,
+      //       hearts: 0,
+      //       ascended_candles: 2,
+      //     },
+      //   ],
+      //   number_of_visits: [
+      //     // {
+      //     //   visit_date: 'Mar 12, 2020',
+      //     //   visitNo: 4,
+      //     // },
+      //   ],
+      //   spirit_guide_video_url: youtube_embed + '',
+      //   spirit_direction: [
+      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+      //     'Pagkadating, ay umakyat sa barko at sa gawing kaliwa makikita kaagad ang spirit na ito.',
+      //   ],
+      // },
+      // //CARNIVAL_PUZZLE_DIRECTOR
+      // {
+      //   id: 20,
+      //   spirit_id: 'aviary20',
+      //   season_id: 29,
+      //   spirit_type: 'seasonal',
+      //   season: 'Season 29 - Season of Carnival',
+      //   spirit_category: 'emote',
+      //   spirit_relive_type: 'quest-memory',
+      //   difficulty_level: 15,
+      //   difficulty_types: [1, 15],
+      //   spirit_name: 'Carnival Puzzle Director',
+      //   spirit_img_url: CARNIVAL_PUZZLE_DIRECTOR,
+      //   spirit_image: AVIARY_SPIRIT_6,
+      //   icon_route: SEASON30,
+      //   spirit_collectibles: [
+      //     {
+      //       label: 'Hair Accessory',
+      //       img: CPD_ITEM_1,
+      //       currency: 'Season Candles',
+      //       price: 28,
+      //     },
+      //     {
+      //       label: 'Hair',
+      //       img: CPD_ITEM_2,
+      //       currency: 'Season Candles',
+      //       price: 0,
+      //     },
+      //     {
+      //       label: 'Pants',
+      //       img: CPD_ITEM_3,
+      //       currency: 'Season Candles',
+      //       price: 0,
+      //     },
+      //     {
+      //       label: 'Emote',
+      //       img: CARNIVAL_PUZZLE_DIRECTOR,
+      //       currency: 'Season Candles',
+      //       price: 24,
+      //     },
+      //   ],
+      //   spirit_tree_cost: [
+      //     {
+      //       candles: 95,
+      //       hearts: 0,
+      //       ascended_candles: 2,
+      //     },
+      //   ],
+      //   number_of_visits: [
+      //     // {
+      //     //   visit_date: 'Mar 12, 2020',
+      //     //   visitNo: 4,
+      //     // },
+      //   ],
+      //   spirit_guide_video_url: youtube_embed + '',
+      //   spirit_direction: [
+      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+      //     'Pagkadating, ay umakyat sa barko at sa gawing kanan ay may lagusan pababa, pumasok ka,',
+      //     'Tapos sa looban ay kumaliwa ka at diretso lamang hanggang sa makita mo na ang spirit sa gilid ng hagdanan',
+      //   ],
+      // },
+      // //CARNIVAL_PUZZLE_DIRECTOR
+      // {
+      //   id: 20,
+      //   spirit_id: 'aviary20',
+      //   season_id: 29,
+      //   spirit_type: 'seasonal',
+      //   season: 'Season 29 - Season of Carnival',
+      //   spirit_category: 'emote',
+      //   spirit_relive_type: 'quest-memory',
+      //   difficulty_level: 15,
+      //   difficulty_types: [1, 15],
+      //   spirit_name: 'Carnival Stunt Actor',
+      //   spirit_img_url: CARNIVAL_STUNT_ACTOR,
+      //   spirit_image: AVIARY_SPIRIT_7,
+      //   icon_route: SEASON30,
+      //   spirit_collectibles: [
+      //     {
+      //       label: 'Hair Accessory',
+      //       img: CSA_ITEM_1,
+      //       currency: 'Season Candles',
+      //       price: 0,
+      //     },
+      //     {
+      //       label: 'Hair',
+      //       img: CSA_ITEM_2,
+      //       currency: 'Season Candles',
+      //       price: 28,
+      //     },
+      //     {
+      //       label: 'Pants',
+      //       img: CSA_ITEM_3,
+      //       currency: 'Season Candles',
+      //       price: 0,
+      //     },
+      //     {
+      //       label: 'Cape',
+      //       img: CSA_ITEM_4,
+      //       currency: 'Season Candles',
+      //       price: 19,
+      //     },
+      //     {
+      //       label: 'Emote',
+      //       img: CARNIVAL_STUNT_ACTOR,
+      //       currency: 'Season Candles',
+      //       price: 24,
+      //     },
+      //   ],
+      //   spirit_tree_cost: [
+      //     {
+      //       candles: 95,
+      //       hearts: 0,
+      //       ascended_candles: 2,
+      //     },
+      //   ],
+      //   number_of_visits: [
+      //     // {
+      //     //   visit_date: 'Mar 12, 2020',
+      //     //   visitNo: 4,
+      //     // },
+      //   ],
+      //   spirit_guide_video_url: youtube_embed + '',
+      //   spirit_direction: [
+      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+      //     'Pagkadating, ay umakyat sa barko at sa gawing kanan ay may lagusan pababa, pumasok ka,',
+      //     'Tapos sa looban ay kumaliwa ka at diretso lamang hanggang sa makita mo na ang spirit sa gilid ng hagdanan',
+      //   ],
+      // },
+    ],
+    winged_lights: [
+      // {
+      //   id: 1,
+      //   wl_label: 'WL1 - 2nd Ship Bowsprit',
+      //   wl_group: 'wl-aviary',
+      //   wl_season_group: 'wl-aviary-1',
+      //   wl_url: AV_WL1 ?? WINGED_LIGHT,
+      //   wl_location: [
+      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+      //     'Pagkadating, Lumipad patungo sa ikalawang barko, at sa Bowsprit nito makikita ang winged light.',
+      //   ],
+      // },
+      // {
+      //   id: 2,
+      //   wl_label: 'WL2 - Wandering Carnival Boat Main Deck',
+      //   wl_group: 'wl-aviary',
+      //   wl_season_group: 'wl-aviary-2',
+      //   wl_url: AV_WL2 ?? WINGED_LIGHT,
+      //   wl_location: [
+      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+      //     'Pagkadating, Umakyat sa Barko at pumasok sa lagusan sa gawing kanan at bumaba,',
+      //     'Pagkababa ay kumaliwa at diretso papasok sa mga lagusan hanggang sa makita ang Puzzle Director',
+      //     'Sa likod nito ay may mga kwarto, pumasok at sindihan ang lampara sa loob',
+      //     'Gagalaw ang cabinet at makikita ang sekretong lagusan sa gawing kanan sa isa pang kwarto, dito ang winged light.',
+      //   ],
+      // },
+    ],
+    map_shrines: [
+      // {
+      //   id: 2,
+      //   shrine_group: 'shrine-season-29',
+      //   shrine_label: 'Map Shrine 1',
+      //   shrine_url: AV_MS2 ?? MAP_SHRINE,
+      //   shrine_location: [
+      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
+      //     'Pagkadating, umakyat sa barko ng Wandering Carnival at sa likod ng Athletic Dancer makikita ang map shrine.',
+      //   ],
+      // },
+    ],
   },
 ]

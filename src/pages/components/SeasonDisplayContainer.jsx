@@ -118,6 +118,7 @@ const SeasonDisplayContainer = ({
               to={`/${page_route}`}
               className=" text-blue-gray-900"
               key={id}
+              onClick={handleOpen}
             >
               <Button size="lg" fullWidth className="theme-button">
                 Enter

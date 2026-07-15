@@ -22,7 +22,7 @@ const Header = () => {
 
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <Link to="/balita" className="flex items-center">
+      <Link to="/news" className="flex items-center">
         <div className="font-normal uppercase text-[#fe7f2d] transition ease-in-out duration-500 hover:text-[#233d4d] hover:bg-[#fe7f2d]  py-2 px-4 rounded-lg">
           <Typography as="li" variant="small">
             News
