@@ -19,14 +19,14 @@ import { Link } from 'react-router-dom'
 const PageSeasonMap = () => {
   // OPTIMIZATION: Combine historical datasets into a single timeline array object
   const timelineData = [
-    { year: "'26", label: "Seasons - [Lightmending, Carnival, Dear Van Gogh]", data: seasons2026, color: "bg-amber-800" },
-    { year: "'25", label: "Seasons - [Radiance, Blue Bird, Two Embers One, Migration]", data: seasons2025, color: "bg-yellow-700" },
-    { year: "'24", label: "Seasons - [The Nine Colored Deer, Nesting, Duet, Moomin]", data: seasons2024, color: "bg-amber-600" },
-    { year: "'23", label: "Seasons - [Remembrance, Passage, Moments, Revival]", data: seasons2023, color: "bg-orange-700" },
-    { year: "'22", label: "Seasons - [Abyss, Performance, Shattering, AURORA]", data: seasons2022, color: "bg-red-700" },
-    { year: "'21", label: "Seasons - [Dreams, Assembly, The Little Prince, Flight]", data: seasons2021, color: "bg-pink-700" },
-    { year: "'20", label: "Seasons - [Rhythm, Enchantment, Sanctuary, Prophecy]", data: seasons2020, color: "bg-purple-700" },
-    { year: "'19", label: "Seasons - [Gratitude, Lightseekers, Belonging]", data: seasons2019, color: "bg-blue-700" },
+    { year: "2026", label: "Seasons - [Lightmending, Carnival, Dear Van Gogh]", data: seasons2026, color: "bg-amber-800" },
+    { year: "2025", label: "Seasons - [Radiance, Blue Bird, Two Embers One, Migration]", data: seasons2025, color: "bg-yellow-700" },
+    { year: "2024", label: "Seasons - [The Nine Colored Deer, Nesting, Duet, Moomin]", data: seasons2024, color: "bg-amber-600" },
+    { year: "2023", label: "Seasons - [Remembrance, Passage, Moments, Revival]", data: seasons2023, color: "bg-orange-700" },
+    { year: "2022", label: "Seasons - [Abyss, Performance, Shattering, AURORA]", data: seasons2022, color: "bg-red-700" },
+    { year: "2021", label: "Seasons - [Dreams, Assembly, The Little Prince, Flight]", data: seasons2021, color: "bg-pink-700" },
+    { year: "2020", label: "Seasons - [Rhythm, Enchantment, Sanctuary, Prophecy]", data: seasons2020, color: "bg-purple-700" },
+    { year: "2019", label: "Seasons - [Gratitude, Lightseekers, Belonging]", data: seasons2019, color: "bg-blue-700" },
   ]
 
   return (
@@ -498,7 +498,7 @@ const PageSeasonMap = () => {
               {timelineData.map((timeline, index) => (
                 <div key={index} className="relative">
                   {/* Timeline Indicator Badge */}
-                  <span className="absolute -left-[39px] top-0 flex h-7 w-7 items-center justify-center rounded-full text-xs font-bold text-white shadow-sm overflow-hidden">
+                  <span className="absolute -left-[39px] top-0 flex h-7 w-7 items-center justify-center rounded-full text-[9px] font-bold text-white shadow-sm overflow-hidden">
                     <span className={`w-full h-full ${timeline.color} flex items-center justify-center`}>
                       {timeline.year}
                     </span>
@@ -510,7 +510,7 @@ const PageSeasonMap = () => {
                   </Typography>
                   
                   {/* Flexible Inner Cards Grid mapping individual components */}
-                  <div className="flex flex-wrap gap-4 py-3">
+                  <div className="flex flex-wrap items-center justify-center gap-4 py-3">
                     {timeline.data && timeline.data.map((season) => (
                       <SeasonDisplayContainer {...season} key={season.id} />
                     ))}
