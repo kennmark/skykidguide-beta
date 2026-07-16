@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation  } from 'react-router-dom'
 import {
   Navbar,
   Collapse,
@@ -10,55 +10,66 @@ import { Bars3Icon, ChevronDoubleUpIcon } from '@heroicons/react/24/solid'
 import skykidlogo from '../../assets/images/logo/T_G Logo white.png'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
+const NavItem = ({ to, children }) => (
+  <Link
+    to={to}
+    className={`
+      block rounded-lg px-4 py-3 text-sm font-semibold uppercase
+      transition-all duration-200
+      ${
+        location.pathname === to
+          ? "bg-[#fe7f2d] text-[#233d4d]"
+          : "text-[#fe7f2d] hover:bg-[#fe7f2d] hover:text-[#233d4d]"
+      }
+    `}
+  >
+    {children}
+  </Link>
+);
+
+const navList = (
+  <ul className="flex flex-col gap-2 lg:flex-row lg:items-center lg:gap-4">
+    <li><NavItem to="/news">News</NavItem></li>
+    <li><NavItem to="/seasons">Seasons</NavItem></li>
+    <li><NavItem to="/team">Team</NavItem></li>
+    <li><NavItem to="/events">Events</NavItem></li>
+    <li><NavItem to="/support">Support</NavItem></li>
+  </ul>
+);
+
 const Header = () => {
   const [openNav, setOpenNav] = useState(false)
+  const location = useLocation();
 
   useEffect(() => {
-    window.addEventListener(
-      'resize',
-      () => window.innerWidth >= 960 && setOpenNav(false),
-    )
-  }, [])
+    setOpenNav(false);
+  }, [location.pathname]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 960) {
+        setOpenNav(false);
+      }
+  };
+
+  window.addEventListener("resize", handleResize);
+
+  return () => window.removeEventListener("resize", handleResize);
+}, []);
+  const handleNavClick = () => {
+    setOpenNav(false)
+  }
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <Link to="/news" className="flex items-center">
-        <div className="font-normal uppercase text-[#fe7f2d] transition ease-in-out duration-500 hover:text-[#233d4d] hover:bg-[#fe7f2d]  py-2 px-4 rounded-lg">
-          <Typography as="li" variant="small">
-            News
-          </Typography>
-        </div>
-      </Link>
-      <Link to="/seasons" className="flex items-center">
-        <div className="font-normal uppercase text-[#fe7f2d] transition ease-in-out duration-500 hover:text-[#233d4d] hover:bg-[#fe7f2d]  py-2 px-4 rounded-lg">
-          <Typography as="li" variant="small">
-            Seasons
-          </Typography>
-        </div>
-      </Link>
-      <Link to="/team" className="flex items-center">
-        <div className="font-normal uppercase text-[#fe7f2d] transition ease-in-out duration-500 hover:text-[#233d4d] hover:bg-[#fe7f2d]  py-2 px-4 rounded-lg">
-          <Typography as="li" variant="small">
-            Team
-          </Typography>
-        </div>
-      </Link>
-      <Link to="/events" className="flex items-center">
-        <div className="font-normal uppercase text-[#fe7f2d] transition ease-in-out duration-500 hover:text-[#233d4d] hover:bg-[#fe7f2d]  py-2 px-4 rounded-lg">
-          <Typography as="li" variant="small">
-            Events
-          </Typography>
-        </div>
-      </Link>
-      <Link to="/support" className="flex items-center">
-        <div className="font-normal uppercase text-[#fe7f2d] transition ease-in-out duration-500 hover:text-[#233d4d] hover:bg-[#fe7f2d]  py-2 px-4 rounded-lg">
-          <Typography as="li" variant="small">
-            Support
-          </Typography>
-        </div>
-      </Link>
+    <ul className="flex flex-col gap-2 lg:flex-row lg:items-center lg:gap-4">
+      <li><NavItem to="/news">News</NavItem></li>
+      <li><NavItem to="/seasons">Seasons</NavItem></li>
+      <li><NavItem to="/team">Team</NavItem></li>
+      <li><NavItem to="/events">Events</NavItem></li>
+      <li><NavItem to="/support">Support</NavItem></li>
     </ul>
   )
+
   return (
     <Navbar
       className="bg-[#233d4d] border-0 border-b-2 border-[#fe7f2d] sticky top-0 z-50 h-max mx-auto w-full rounded-br-lg rounded-bl-lg py-2 px-4 lg:px-8 lg:py-4"
@@ -77,21 +88,25 @@ const Header = () => {
         <div className="flex items-center  gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>
 
-          <IconButton
+         <IconButton
             variant="text"
-            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
             ripple={false}
-            onClick={() => setOpenNav(!openNav)}
+            onClick={() => setOpenNav((prev) => !prev)}
+            className="lg:hidden text-white hover:bg-white/10"
           >
             {openNav ? (
-              <ChevronDoubleUpIcon className="h-6 w-6 text-gray-50" />
-            ) : (
-              <Bars3Icon className="h-6 w-6 text-gray-50" />
+              <ChevronDoubleUpIcon className="h-6 w-6" />
+              ) : (
+                <Bars3Icon className="h-6 w-6" />
             )}
-          </IconButton>
+        </IconButton>
         </div>
       </div>
-      <Collapse open={openNav}>{navList}</Collapse>
+      <Collapse open={openNav}>
+        <div className="mt-4 border-t border-[#fe7f2d]/30 pt-4 lg:hidden">
+          {navList}
+        </div>
+      </Collapse>
     </Navbar>
   )
 }

@@ -32,8 +32,9 @@ import AccordionSeason2026 from './AccordionSeason2026'
 import { Link } from 'react-router-dom'
 import { MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { allSeasons } from './../../data/seasons';
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
-const SideBar = ({ screenSize }) => {
+const SideBar = ({ closeDrawer }) => {
   const [open, setOpen] = useState(0)
   const handleOpen = (value) => {
     setOpen(open === value ? 0 : value)
@@ -50,8 +51,19 @@ const SideBar = ({ screenSize }) => {
     : [];
 
   return (
-    <div className="sticky top-24 h-fit w-full max-w-[20rem] p-4 pb-16 shadow-xl shadow-blue-gray-900/5 bg-blue-gray-50">
-      <div className="mb-1 gap-4 px-4 pt-4 pb-1">
+    <div className="
+      w-full
+      lg:max-w-[20rem]
+      h-screen
+      lg:h-fit
+      flex
+      flex-col
+      bg-blue-gray-50
+      shadow-xl
+      shadow-blue-gray-900/5
+      lg:sticky
+      lg:top-24">
+      <div className="p-4 border-b border-blue-gray-100">
         <Typography variant="h5" className="text-[#233d4d]">
           Dashboard
         </Typography>
@@ -91,10 +103,18 @@ const SideBar = ({ screenSize }) => {
               <Link
                 key={season.id}
                 to={`/${season.page_route}`}
-                className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-[#233d4d] hover:bg-[#fe7f2d] hover:text-[#233d4d] transition-all duration-200 group font-sans text-sm font-medium"
+                onClick={closeDrawer}
+                className="flex items-center gap-2 px-3 py-2.5 rounded-lg text-[#233d4d] hover:bg-[#fe7f2d] hover:text-[#233d4d] transition-all duration-200 group font-sans text-sm font-medium"
               >
                 <span className="font-mono text-xs text-[#fe7f2d] group-hover:text-[#233d4d] bg-[#233d4d] group-hover:bg-white/20 px-1.5 py-0.5 rounded">
                   {String(season.id).padStart(2, "0")}
+                </span>
+                <span>
+                  <LazyLoadImage 
+                    src={season.icon_route}
+                    alt={season.name}
+                    width={20}
+                    effect="blur"/>
                 </span>
                 <span className="truncate">{season.name}</span>
               </Link>
@@ -110,112 +130,115 @@ const SideBar = ({ screenSize }) => {
           )}
         </div>
       </div>
-      <List className="pb-40">
-        <Accordion
-          className="text-[#233d4d]"
-          open={open === 1}
-          icon={
-            <ChevronDownIcon
-              strokeWidth={2.5}
-              className={`mx-auto h-4 w-4 transition-transform  ${
-                open === 1 ? 'rotate-180' : ''
-              }`}
-            />
-          }
-        >
-          <ListItem className="p-0" selected={open === 1}>
-            <AccordionHeader
-              onClick={() => handleOpen(1)}
-              className={`border-b-0 p-3 hover:text-[#fe7f2d] transition-colors ${
-                open === 1 ? 'text-[#fe7f2d]' : ''
-              }`}
-            >
-              <ListItemPrefix className="">
-                <GlobeAsiaAustraliaIcon className="h-5 w-5" />
-              </ListItemPrefix>
-              <Typography className={`mr-auto`}>Maps</Typography>
-            </AccordionHeader>
-          </ListItem>
-          <AccordionBody className="py-1">
-            <List className="p-0">
-              {maps.map((map, index) => {
-                return (
-                  <Link
-                    to={`/${map.pageRoute}`}
-                    className=" flex justify-center"
-                    key={index}
-                  >
-                    <ListItem
-                      selected={map.id}
-                      className={`text-[#233d4d] hover:text-[#fe7f2d] `}
+      <div className="flex-1 overflow-y-auto">
+        <List className="pb-20">
+          <Accordion
+            className="text-[#233d4d]"
+            open={open === 1}
+            icon={
+              <ChevronDownIcon
+                strokeWidth={2.5}
+                className={`mx-auto h-4 w-4 transition-transform  ${
+                  open === 1 ? 'rotate-180' : ''
+                }`}
+              />
+            }
+          >
+            <ListItem className="p-0" selected={open === 1}>
+              <AccordionHeader
+                onClick={() => handleOpen(1)}
+                className={`border-b-0 p-3 hover:text-[#fe7f2d] transition-colors ${
+                  open === 1 ? 'text-[#fe7f2d]' : ''
+                }`}
+              >
+                <ListItemPrefix className="">
+                  <GlobeAsiaAustraliaIcon className="h-5 w-5" />
+                </ListItemPrefix>
+                <Typography className={`mr-auto`}>Maps</Typography>
+              </AccordionHeader>
+            </ListItem>
+            <AccordionBody className="py-1">
+              <List className="p-0">
+                {maps.map((map, index) => {
+                  return (
+                    <Link
+                      to={`/${map.pageRoute}`}
+                      onClick={closeDrawer}
+                      className=" flex justify-center"
+                      key={index}
                     >
-                      <Typography>{map.title}&nbsp;</Typography>
+                      <ListItem
+                        selected={map.id}
+                        className={`text-[#233d4d] hover:text-[#fe7f2d] `}
+                      >
+                        <Typography>{map.title}&nbsp;</Typography>
 
-                      <ListItemSuffix>
-                        <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
-                      </ListItemSuffix>
-                    </ListItem>
-                  </Link>
-                )
-              })}
-            </List>
-          </AccordionBody>
-        </Accordion>
+                        <ListItemSuffix>
+                          <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
+                        </ListItemSuffix>
+                      </ListItem>
+                    </Link>
+                  )
+                })}
+              </List>
+            </AccordionBody>
+          </Accordion>
 
-        <hr className="my-2 border-[#fe7f2d]" />
+          <hr className="my-2 border-[#fe7f2d]" />
 
-        <AccordionSeason2026 open={open} handleOpen={handleOpen} />
-        <AccordionSeason2025 open={open} handleOpen={handleOpen} />
-        <AccordionSeason2024 open={open} handleOpen={handleOpen} />
-        <AccordionSeason2023 open={open} handleOpen={handleOpen} />
-        <AccordionSeason2022 open={open} handleOpen={handleOpen} />
-        <AccordionSeason2021 open={open} handleOpen={handleOpen} />
-        <AccordionSeason2020 open={open} handleOpen={handleOpen} />
-        <AccordionSeason2019 open={open} handleOpen={handleOpen} />
+          <AccordionSeason2026 open={open} handleOpen={handleOpen} />
+          <AccordionSeason2025 open={open} handleOpen={handleOpen} />
+          <AccordionSeason2024 open={open} handleOpen={handleOpen} />
+          <AccordionSeason2023 open={open} handleOpen={handleOpen} />
+          <AccordionSeason2022 open={open} handleOpen={handleOpen} />
+          <AccordionSeason2021 open={open} handleOpen={handleOpen} />
+          <AccordionSeason2020 open={open} handleOpen={handleOpen} />
+          <AccordionSeason2019 open={open} handleOpen={handleOpen} />
 
-        <hr className="my-2 border-[#fe7f2d]" />
+          <hr className="my-2 border-[#fe7f2d]" />
 
-        <ListItem className="">
-          <Link to={'/winged-lights'}>
-            <div className="flex flex-wrap ">
-              <ListItemPrefix>
-                <UserGroupIcon className="h-5 w-5" />
-              </ListItemPrefix>
-              <div>Winged Lights</div>
-              <ListItemSuffix>
-                <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
-              </ListItemSuffix>
-            </div>
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Link to={'/map-shrines'}>
-            <div className="flex flex-wrap">
-              <ListItemPrefix>
-                <InboxIcon className="h-5 w-5" />
-              </ListItemPrefix>
-              Map Shrines
-              <ListItemSuffix>
-                <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
-              </ListItemSuffix>
-            </div>
-          </Link>
-        </ListItem>
+          <ListItem className="">
+            <Link to={'/winged-lights'} onClick={closeDrawer}>
+              <div className="flex flex-wrap ">
+                <ListItemPrefix>
+                  <UserGroupIcon className="h-5 w-5" />
+                </ListItemPrefix>
+                <div>Winged Lights</div>
+                <ListItemSuffix>
+                  <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
+                </ListItemSuffix>
+              </div>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link to={'/map-shrines'} onClick={closeDrawer}>
+              <div className="flex flex-wrap">
+                <ListItemPrefix>
+                  <InboxIcon className="h-5 w-5" />
+                </ListItemPrefix>
+                Map Shrines
+                <ListItemSuffix>
+                  <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
+                </ListItemSuffix>
+              </div>
+            </Link>
+          </ListItem>
 
-        <ListItem>
-          <Link to={'/veterans'}>
-            <div className="flex flex-wrap text-blue-gray-700">
-              <ListItemPrefix>
-                <CheckBadgeIcon className="h-5 w-5" />
-              </ListItemPrefix>
-              Veterans
-              <ListItemSuffix>
-                <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
-              </ListItemSuffix>
-            </div>
-          </Link>
-        </ListItem>
-      </List>
+          <ListItem>
+            <Link to={'/veterans'} onClick={closeDrawer}>
+              <div className="flex flex-wrap text-blue-gray-700">
+                <ListItemPrefix>
+                  <CheckBadgeIcon className="h-5 w-5" />
+                </ListItemPrefix>
+                Veterans
+                <ListItemSuffix>
+                  <ArrowRightStartOnRectangleIcon className="h-5 w-5" />
+                </ListItemSuffix>
+              </div>
+            </Link>
+          </ListItem>
+        </List>
+      </div>   
     </div>
   )
 }

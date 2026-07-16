@@ -8510,7 +8510,7 @@ export const allSeasons = [
   },
   {
     id: 26,
-    name: 'The Two Embers I',
+    name: 'Season of The Two Embers I',
     season_type: 1,
     time_duration: 'July 21, 2025 - October 6, 2025',
     spirit_num: 5,
@@ -8608,7 +8608,7 @@ export const allSeasons = [
   },
   {
     id: 27,
-    name: 'Migration',
+    name: 'Season of Migration',
     season_type: 1,
     time_duration: 'October 20, 2025 - January 5, 2026 ',
     spirit_num: 5,
@@ -8736,7 +8736,7 @@ export const allSeasons = [
   },
   {
     id: 28,
-    name: 'LightMending',
+    name: 'Season of LightMending',
     season_type: 1,
     time_duration: 'Janaury 16, 2026 - April 3, 2026',
     spirit_num: 4,
@@ -8824,7 +8824,7 @@ export const allSeasons = [
   },
   {
     id: 29,
-    name: 'Carnival',
+    name: 'Season of Carnival',
     season_type: 1,
     time_duration: 'April 17, 2026 - July 2, 2026',
     spirit_num: 4,
@@ -9125,7 +9125,7 @@ export const allSeasons = [
   },
   {
     id: 30,
-    name: 'Dear Van Gogh',
+    name: 'Season of Dear Van Gogh',
     season_type: 2,
     time_duration: 'July 17, 2026 - October 3, 2026',
     spirit_num: 0,

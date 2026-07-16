@@ -1,44 +1,64 @@
-import React, { useState } from 'react'
-import { IconButton, Drawer } from '@material-tailwind/react'
-import { ChevronDoubleRightIcon } from '@heroicons/react/24/solid'
-import SideBar from './SideBar'
-import { height } from '@fortawesome/free-brands-svg-icons/fa42Group'
+import React, { useEffect, useState } from "react";
+import { IconButton, Drawer } from "@material-tailwind/react";
+import { ChevronDoubleRightIcon } from "@heroicons/react/24/solid";
+import SideBar from "./SideBar";
 
 export function SideBarContainer() {
-  const [draw, setDraw] = useState(false)
-  const [screenSize, setScreenSize] = useState(960)
-  const openDrawer = () => {
-    setDraw(true)
-    if (typeof window !== 'undefined' && window.document) {
-      document.body.style.overflow = 'hidden'
-    }
-  }
-  const closeDrawer = () => {
-    setDraw(false)
-    document.body.style.overflow = 'unset'
-  }
+  console.log("SideBarContainer rendered");
+  const [open, setOpen] = useState(false);
+  const openDrawer = () => setOpen(true);
+  const closeDrawer = () => setOpen(false);
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
 
+  useEffect(() => {
+    const handleResize = () => {
+      const desktop = window.innerWidth >= 1024;
+      setIsDesktop(desktop);
+
+      if (desktop) {
+        setOpen(false);
+      }
+    };
+
+     window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "unset";
+
+      return () => {
+        document.body.style.overflow = "unset";
+      };
+  }, [open]);
+
+    if (isDesktop) {
+      return <SideBar />;
+    }
+
+  // Mobile Drawer
   return (
     <>
-      {screenSize <= window.innerWidth ? (
-        <SideBar />
-      ) : (
-        <>
-          <span onClick={openDrawer} className="fixed bottom-20 z-50">
-            <IconButton
-              size="lg"
-              className="rounded-tr-full rounded-br-full -left-3 opacity-50 transition ease-in-out hover:opacity-100 duration-500"
-              color="amber"
-            >
-              <ChevronDoubleRightIcon className="h-7 w-7" />
-            </IconButton>
-          </span>
-
-          <Drawer open={draw} onClose={closeDrawer}>
-            <SideBar />
-          </Drawer>
-        </>
+      {!open && (
+        <IconButton
+          onClick={() => setOpen(true)}
+          color="amber"
+          size="lg"
+          className="fixed bottom-6 left-0 z-50 rounded-r-full"
+        >
+          <ChevronDoubleRightIcon className="h-6 w-6" />
+        </IconButton>
       )}
+
+      <Drawer
+        open={open}
+        onClose={closeDrawer}
+        size={320}
+        className="p-0 overflow-hidden"
+      >
+        <SideBar closeDrawer={closeDrawer} />
+      </Drawer>
     </>
-  )
+  );
 }
