@@ -209,6 +209,7 @@ import VaultConstellation from '../assets/images/maps-constellations/Vault_Const
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import DyeAlertMessage from '../pages/components/DyeAlertMessage'
 import VaultDyes from '../pages/components/MapDyeLocations/VaultDyes'
+import { MapPinIcon, SparklesIcon, SwatchIcon, UserGroupIcon, UserIcon } from '@heroicons/react/24/solid'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -216,6 +217,7 @@ export const vault = [
   {
     label: 'Regular Spirits',
     value: 'regular_spirits',
+    icon: UserIcon,
     desc: (
       <>
         <LazyLoadImage
@@ -528,6 +530,7 @@ export const vault = [
   {
     label: 'Seasonal Spirits',
     value: 'seasonal_spirits',
+    icon: UserGroupIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Nandito ang mga spirits na dumaan noong nakaraang Seasonal Events na
@@ -2054,6 +2057,7 @@ export const vault = [
   {
     label: 'Winged Lights',
     value: 'winged_lights',
+    icon: SparklesIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Sa mapang ito mo rin makikita ang mga Winged Lights kung tawagin. Ito ay
@@ -2263,6 +2267,7 @@ export const vault = [
   {
     label: 'Map Shrines',
     value: 'map_shrines',
+    icon: MapPinIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Ang Map Shrines ay nagsisilbing gabay upang magtukoy kung ilan at saan
@@ -2411,6 +2416,7 @@ export const vault = [
   {
     label: 'Dye Ratio',
     value: 'dye_locations',
+    icon: SwatchIcon,
     desc: (
       <div className="flex flex-col justify-center items-center">
         <DyeAlertMessage />

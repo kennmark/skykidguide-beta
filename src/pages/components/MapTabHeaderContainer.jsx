@@ -1,8 +1,8 @@
 import React from 'react'
-import { Tab } from '@material-tailwind/react'
+import {  Tab } from '@material-tailwind/react'
 import { Link, useLocation } from 'react-router-dom'
 
-const MapTabHeaderContainer = ({ label, value, activeTab, setActiveTab }) => {
+const MapTabHeaderContainer = ({ label, value, icon: Icon, activeTab, setActiveTab }) => {
   const { pathname } = useLocation();
 
   return (
@@ -18,13 +18,10 @@ const MapTabHeaderContainer = ({ label, value, activeTab, setActiveTab }) => {
                   ${activeTab === value ? 'text-[#233d4d] bg-[#fe7f2d] rounded-lg' : 'text-[#fe7f2d]'}
         `}
       >
-        {/* 2. Optimized SPA Hash Link handling */}
-        {/* <Link 
-          to={`${pathname}#${value}`} 
-          className="w-full h-full block text-center capitalize"
-        > */}
-          {label}
-        {/* </Link> */}
+        <div className="flex items-center justify-center gap-2">
+          <Icon className="h-7 w-7" />
+          <span className="hidden lg:inline">{label}</span>
+        </div>
       </Tab> 
   )
 }

@@ -35,6 +35,7 @@ import { allSeasons } from './../../data/seasons';
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const SideBar = ({ closeDrawer }) => {
+  //  console.log("SideBar mounted");
   const [open, setOpen] = useState(0)
   const handleOpen = (value) => {
     setOpen(open === value ? 0 : value)
@@ -54,15 +55,10 @@ const SideBar = ({ closeDrawer }) => {
     <div className="
       w-full
       lg:max-w-[20rem]
-      h-screen
-      lg:h-fit
-      flex
-      flex-col
+      h-full
       bg-blue-gray-50
-      shadow-xl
-      shadow-blue-gray-900/5
-      lg:sticky
-      lg:top-24">
+      flex flex-col
+      shadow-blue-gray-900/5">
       <div className="p-4 border-b border-blue-gray-100">
         <Typography variant="h5" className="text-[#233d4d]">
           Dashboard
@@ -123,7 +119,7 @@ const SideBar = ({ closeDrawer }) => {
             searchTerm && (
               <div className="text-center py-8 px-2">
                 <Typography variant="small" className="text-gray-500 italic">
-                  Walang nahanap na season para sa "{searchTerm}"
+                  No Season matched your search "{searchTerm}"
                 </Typography>
               </div>
             )
@@ -185,7 +181,7 @@ const SideBar = ({ closeDrawer }) => {
           </Accordion>
 
           <hr className="my-2 border-[#fe7f2d]" />
-
+          
           <AccordionSeason2026 open={open} handleOpen={handleOpen} />
           <AccordionSeason2025 open={open} handleOpen={handleOpen} />
           <AccordionSeason2024 open={open} handleOpen={handleOpen} />

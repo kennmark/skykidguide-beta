@@ -170,6 +170,7 @@ import ValleyConstellation from '../assets/images/maps-constellations/Valley_Con
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import DyeAlertMessage from '../pages/components/DyeAlertMessage'
 import ValleyDyes from '../pages/components/MapDyeLocations/ValleyDyes'
+import { MapPinIcon, SparklesIcon, SwatchIcon, UserGroupIcon, UserIcon } from '@heroicons/react/24/solid'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -177,6 +178,7 @@ export const valley = [
   {
     label: 'Regular Spirits',
     value: 'regular_spirits',
+    icon: UserIcon,
     desc: (
       <>
         <LazyLoadImage
@@ -576,6 +578,7 @@ export const valley = [
   {
     label: 'Seasonal Spirits',
     value: 'seasonal_spirits',
+    icon: UserGroupIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Nandito ang mga spirits na dumaan noong nakaraang Seasonal Events na
@@ -1653,6 +1656,7 @@ export const valley = [
   {
     label: 'Winged Lights',
     value: 'winged_lights',
+    icon: SparklesIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Sa mapang ito mo rin makikita ang mga Winged Lights kung tawagin. Ito ay
@@ -1883,6 +1887,7 @@ export const valley = [
   {
     label: 'Map Shrines',
     value: 'map_shrines',
+    icon: MapPinIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Ang Map Shrines ay nagsisilbing gabay upang magtukoy kung ilan at saan
@@ -2021,6 +2026,7 @@ export const valley = [
   {
     label: 'Dye Ratio',
     value: 'dye_locations',
+    icon: SwatchIcon,
     desc: (
       <div className="flex flex-col justify-center items-center">
         <DyeAlertMessage />

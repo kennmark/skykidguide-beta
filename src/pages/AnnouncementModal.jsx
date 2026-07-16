@@ -9,7 +9,6 @@ import {
 import { useState, useEffect } from 'react'
 
 const AnnouncementModal = () => {
-  const [open, setOpen] = useState(true)
   const handleOpen = () => setOpen(!open)
   const monthName = [
     'January',
@@ -25,24 +24,40 @@ const AnnouncementModal = () => {
     'November',
     'December',
   ]
-
-  const today = new Date()
+  const ONE_DAY = 24 * 60 * 60 * 1000;
+  const today = new Date();
   const year = today.getFullYear()
   let mm = monthName[today.getMonth()]
   let dd = today.getDate()
   if (dd < 10) dd = '0' + dd
   const formattedToday = mm + ' ' + dd + ', ' + year
 
-  useEffect(() => {
-    setTimeout(() => {
-      setOpen(false)
-    }, 25000)
-  })
+ const [open, setOpen] = useState(() => {
+  const lastShown = Number(localStorage.getItem("announcement-time") || 0);
+  return Date.now() - lastShown > ONE_DAY;
+});
 
+  useEffect(() => {
+    if (!open) return;
+
+    // Mark as shown today
+    localStorage.setItem("announcement-last-shown", today);
+
+    const timer = setTimeout(() => {
+      setOpen(false);
+    }, 25000);
+
+    return () => clearTimeout(timer);
+  }, [open, today]);
+
+  if (!open) return null;
+
+  localStorage.setItem("announcement-time", Date.now().toString());
+  
   return (
     <Dialog
       open={open}
-      handler={handleOpen}
+      handler={setOpen}
       className="bg-[#233d4d] h-auto -top-14 md:top-0 overflow-hidden"
     >
       <DialogHeader className="flex justify-center">
@@ -82,7 +97,7 @@ const AnnouncementModal = () => {
       </DialogBody>
       <DialogFooter className="space-x-2 m-2">
         <Button
-          onClick={handleOpen}
+          onClick={() => setOpen(false)}
           className="bg-[#fe7f2d] text-[#233d4d] border-2 border-[#233d4d] hover:bg-[#233d4d] hover:text-[#fe7f2d] hover:border-2 hover:border-[#fe7f2d]"
         >
           Continue

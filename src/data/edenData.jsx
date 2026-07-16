@@ -21,11 +21,13 @@ import {
 import { EE_MS1, EE_MS2, EE_MS3, EE_MS4 } from '../exports/edenMSImgUrl'
 import DyeAlertMessage from '../pages/components/DyeAlertMessage'
 import EdenDyes from '../pages/components/MapDyeLocations/EdenDyes'
+import { MapPinIcon, SparklesIcon, SwatchIcon, UserGroupIcon, UserIcon } from '@heroicons/react/24/solid'
 
 export const eden = [
   {
     label: 'Regular Spirits',
     value: 'regular_spirits',
+    icon: UserIcon,
     desc: (
       <Typography className="antialiased font-sans">
         No Regular Spirit here.
@@ -36,6 +38,7 @@ export const eden = [
   {
     label: 'Seasonal Spirits',
     value: 'seasonal_spirits',
+    icon: UserGroupIcon,
     desc: (
       <Typography className="antialiased font-sans">
         No Seasonal Spirit here.
@@ -46,6 +49,7 @@ export const eden = [
   {
     label: 'Winged Lights',
     value: 'winged_lights',
+    icon: SparklesIcon,
     desc: (
       <Typography className="antialiased font-sans">
        On this map, you can also find Winged Lights. Collecting them increases your Wing Level, allowing you to fly higher and travel farther through the skies. There are{' '}
@@ -181,6 +185,7 @@ export const eden = [
   {
     label: 'Map Shrines',
     value: 'map_shrines',
+    icon: MapPinIcon,
     desc: (
       <Typography className="antialiased font-sans">
        Map Shrines serves as literally the map for entire Sky Kingdom, showing the locations of all. There are{' '}
@@ -238,6 +243,7 @@ export const eden = [
   {
     label: 'Dye Ratio',
     value: 'dye_locations',
+    icon: SwatchIcon,
     desc: (
       <div className="flex flex-col justify-center items-center">
         <DyeAlertMessage />

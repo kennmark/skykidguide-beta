@@ -18,6 +18,7 @@ import {
 } from '../exports/seasonIcons'
 
 import { LazyLoadImage } from 'react-lazy-load-image-component'
+import { GiftIcon, InformationCircleIcon, MapPinIcon, SparklesIcon } from '@heroicons/react/24/solid'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -25,56 +26,93 @@ export const aviaryData = [
   {
     label: 'Info',
     value: 'info',
+    icon: InformationCircleIcon,
     desc: (
-      <div className="w-full max-w-4xl mx-auto px-4 flex items-center justify-center">
-        {/* flex-wrap allows items to drop to the next line smoothly on mobile */}
-        {/* items-center aligns everything vertically, and gap-x-1 handles text spacing without using &nbsp; */}
-        <Typography className="antialiased font-sans flex flex-wrap items-center gap-x-1 gap-y-2 text-white">
+      <div className="w-full max-w-4xl mx-auto px-4">
+        <Typography
+          className="
+            antialiased
+            font-sans
+            flex
+            flex-wrap
+            justify-center
+            items-center
+            text-center
+            gap-x-1
+            gap-y-2
+            text-white
+          "
+        >
           <span>Here is the Seasons of:</span>
-          
-          {/* Link 1 */}
-          <Link to="/seasons/s19-revival" className="inline-flex items-center gap-x-1 hover:text-[#fe7f2d] transition-colors">
-            <LazyLoadImage src={SEASON19} style={{ width: 25, height: 25 }} className="object-contain" />
+
+          <Link
+            to="/seasons/s19-revival"
+            className="inline-flex items-center gap-1 hover:text-[#fe7f2d] transition-colors"
+          >
+            <LazyLoadImage
+              src={SEASON19}
+              className="w-6 h-6 object-contain"
+            />
             <span>Revival</span>
           </Link>
           <span>,</span>
 
-          {/* Link 2 */}
-          <Link to="/seasons/s21-nesting" className="inline-flex items-center gap-x-1 hover:text-[#fe7f2d] transition-colors">
-            <LazyLoadImage src={SEASON21} style={{ width: 25, height: 25 }} className="object-contain" />
+          <Link
+            to="/seasons/s21-nesting"
+            className="inline-flex items-center gap-1 hover:text-[#fe7f2d] transition-colors"
+          >
+            <LazyLoadImage
+              src={SEASON21}
+              className="w-6 h-6 object-contain"
+            />
             <span>Nesting</span>
           </Link>
           <span>,</span>
 
-          {/* Link 3 */}
-          <Link to="/seasons/s22-duet" className="inline-flex items-center gap-x-1 hover:text-[#fe7f2d] transition-colors">
-            <LazyLoadImage src={SEASON22} style={{ width: 25, height: 25 }} className="object-contain" />
+          <Link
+            to="/seasons/s22-duet"
+            className="inline-flex items-center gap-1 hover:text-[#fe7f2d] transition-colors"
+          >
+            <LazyLoadImage
+              src={SEASON22}
+              className="w-6 h-6 object-contain"
+            />
             <span>Duets</span>
           </Link>
           <span>,</span>
 
-          {/* Link 4 */}
-          <Link to="/seasons/s24-radiance" className="inline-flex items-center gap-x-1 hover:text-[#fe7f2d] transition-colors">
-            <LazyLoadImage src={SEASON24} style={{ width: 25, height: 25 }} className="object-contain" />
+          <Link
+            to="/seasons/s24-radiance"
+            className="inline-flex items-center gap-1 hover:text-[#fe7f2d] transition-colors"
+          >
+            <LazyLoadImage
+              src={SEASON24}
+              className="w-6 h-6 object-contain"
+            />
             <span>Radiance</span>
           </Link>
           <span>,</span>
 
-          {/* Link 5 */}
-          <Link to="/seasons/s29-carnival" className="inline-flex items-center gap-x-1 hover:text-[#fe7f2d] transition-colors">
-            <LazyLoadImage src={SEASON29} style={{ width: 25, height: 25 }} className="object-contain" />
+          <Link
+            to="/seasons/s29-carnival"
+            className="inline-flex items-center gap-1 hover:text-[#fe7f2d] transition-colors"
+          >
+            <LazyLoadImage
+              src={SEASON29}
+              className="w-6 h-6 object-contain"
+            />
             <span>Carnival</span>
           </Link>
           <span>.</span>
         </Typography>
       </div>
-
     ),
     spirits: [],
   },
   {
     label: 'Collectibles',
     value: 'collectibles',
+    icon: GiftIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Here are the collectibles that appeared in previous Seasonal Events
@@ -455,6 +493,7 @@ export const aviaryData = [
   {
     label: 'Winged Lights',
     value: 'winged_lights',
+    icon: SparklesIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Here are the Winged Lights you can find in this map. They increase your flight level, allowing you to fly higher. There are{' '}
@@ -486,6 +525,7 @@ export const aviaryData = [
   {
     label: 'Map Shrines',
     value: 'map_shrines',
+    icon: MapPinIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Here are the Map Shrines you can find in this map. They help you identify where to find Winged Lights within the map. There are{' '}

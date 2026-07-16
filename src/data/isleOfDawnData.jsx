@@ -1,5 +1,5 @@
 import { Typography, Spinner } from '@material-tailwind/react'
-import { ArrowRightCircleIcon } from '@heroicons/react/24/solid'
+import { MapPinIcon, SparklesIcon, UserGroupIcon, UserIcon } from '@heroicons/react/24/solid'
 import {
   ISLE_NUM_REG_SPIRIT,
   ISLE_NUM_SEASON_SPIRIT,
@@ -135,6 +135,7 @@ export const isleOfDawn = [
   {
     label: 'Regular Spirits',
     value: 'regular_spirits',
+    icon: UserIcon,
     desc: (
       <div className="flex justify-center flex-wrap gap-2">
         <LazyLoadImage
@@ -329,6 +330,7 @@ export const isleOfDawn = [
   {
     label: 'Seasonal Spirits',
     value: 'seasonal_spirits',
+    icon: UserGroupIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Nandito ang mga spirits na dumaan noong nakaraang Seasonal Events na
@@ -1246,6 +1248,7 @@ export const isleOfDawn = [
   {
     label: 'Winged Lights',
     value: 'winged_lights',
+    icon: SparklesIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Sa mapang ito mo rin makikita ang mga Winged Lights kung tawagin. Ito ay
@@ -1384,6 +1387,7 @@ export const isleOfDawn = [
   {
     label: 'Map Shrines',
     value: 'map_shrines',
+    icon: MapPinIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Ang Map Shrines ay nagsisilbing gabay upang magtukoy kung ilan at saan

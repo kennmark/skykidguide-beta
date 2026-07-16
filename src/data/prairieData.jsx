@@ -159,6 +159,7 @@ import PrairieConstellation from '../assets/images/maps-constellations/Prairie_C
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import PrairieDyes from '../pages/components/MapDyeLocations/PrairieDyes'
 import DyeAlertMessage from '../pages/components/DyeAlertMessage'
+import { MapPinIcon, SparklesIcon, SwatchIcon, UserGroupIcon, UserIcon } from '@heroicons/react/24/solid'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
 
@@ -166,6 +167,7 @@ export const prairie = [
   {
     label: 'Regular Spirits',
     value: 'regular_spirits',
+    icon: UserIcon,
     desc: (
       <>
         <LazyLoadImage
@@ -604,6 +606,7 @@ export const prairie = [
   {
     label: 'Seasonal Spirits',
     value: 'seasonal_spirits',
+    icon: UserGroupIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Nandito ang mga spirits na dumaan noong nakaraang Seasonal Events na
@@ -1552,6 +1555,7 @@ export const prairie = [
   {
     label: 'Winged Lights',
     value: 'winged_lights',
+    icon: SparklesIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Sa mapang ito mo rin makikita ang mga Winged Lights kung tawagin. Ito ay
@@ -1873,6 +1877,7 @@ export const prairie = [
   {
     label: 'Map Shrines',
     value: 'map_shrines',
+    icon: MapPinIcon,
     desc: (
       <Typography className="antialiased font-sans">
         Ang Map Shrines ay nagsisilbing gabay upang magtukoy kung ilan at saan
@@ -1982,6 +1987,7 @@ export const prairie = [
   {
     label: 'Dye Ratio',
     value: 'dye_locations',
+    icon: SwatchIcon,
     desc: (
       <div className="flex flex-col justify-center items-center">
         <DyeAlertMessage />
