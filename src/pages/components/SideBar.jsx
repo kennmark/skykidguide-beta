@@ -41,6 +41,14 @@ const SideBar = ({ closeDrawer }) => {
     setOpen(open === value ? 0 : value)
   }
 
+  const handleSearchClick = () => {
+    if (document.activeElement instanceof HTMLElement) {
+      document.activeElement.blur()
+    }
+    document.activeElement?.blur()
+    closeDrawer()
+  }
+
    // 1. Manage state for the search input text string
   const [searchTerm, setSearchTerm] = useState('')
 
@@ -49,7 +57,7 @@ const SideBar = ({ closeDrawer }) => {
     ? allSeasons.filter((season) =>
         season.name.toLowerCase().includes(searchTerm.toLowerCase())
       ).slice(0, 3)
-    : [];
+    : []
 
   return (
     <div className="
@@ -71,12 +79,14 @@ const SideBar = ({ closeDrawer }) => {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             color="amber"
-            className="pr-10 text-blue-gray-900"
+            className="text-[16px] pr-10 text-blue-gray-900"
             icon={
               searchTerm ? (
                 <XMarkIcon 
                   className="h-5 w-5 text-gray-400 hover:text-[#fe7f2d] cursor-pointer transition-colors" 
-                  onClick={() => setSearchTerm('')}
+                  onClick={() => {
+                    setSearchTerm('')
+                    document.activeElement?.blur()}}
                 />
               ) : (
                 <MagnifyingGlassIcon className="h-5 w-5 text-gray-400" />
@@ -99,8 +109,8 @@ const SideBar = ({ closeDrawer }) => {
               <Link
                 key={season.id}
                 to={`/${season.page_route}`}
-                onClick={closeDrawer}
-                className="flex items-center gap-2 px-3 py-2.5 rounded-lg text-[#233d4d] hover:bg-[#fe7f2d] hover:text-[#233d4d] transition-all duration-200 group font-sans text-sm font-medium"
+                onClick={handleSearchClick}
+                className="flex items-center gap-2 px-3 py-2.5 cursor-pointer rounded-lg text-[#233d4d] hover:bg-[#fe7f2d] hover:text-[#233d4d] transition-all duration-200 group font-sans text-sm font-medium"
               >
                 <span className="font-mono text-xs text-[#fe7f2d] group-hover:text-[#233d4d] bg-[#233d4d] group-hover:bg-white/20 px-1.5 py-0.5 rounded">
                   {String(season.id).padStart(2, "0")}
@@ -159,7 +169,7 @@ const SideBar = ({ closeDrawer }) => {
                   return (
                     <Link
                       to={`/${map.pageRoute}`}
-                      onClick={closeDrawer}
+                      onClick={handleSearchClick}
                       className=" flex justify-center"
                       key={index}
                     >
@@ -194,7 +204,7 @@ const SideBar = ({ closeDrawer }) => {
           <hr className="my-2 border-[#fe7f2d]" />
 
           <ListItem className="">
-            <Link to={'/winged-lights'} onClick={closeDrawer}>
+            <Link to={'/winged-lights'} onClick={handleSearchClick}>
               <div className="flex flex-wrap ">
                 <ListItemPrefix>
                   <UserGroupIcon className="h-5 w-5" />
@@ -207,7 +217,7 @@ const SideBar = ({ closeDrawer }) => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link to={'/map-shrines'} onClick={closeDrawer}>
+            <Link to={'/map-shrines'} onClick={handleSearchClick}>
               <div className="flex flex-wrap">
                 <ListItemPrefix>
                   <InboxIcon className="h-5 w-5" />
@@ -221,7 +231,7 @@ const SideBar = ({ closeDrawer }) => {
           </ListItem>
 
           <ListItem>
-            <Link to={'/veterans'} onClick={closeDrawer}>
+            <Link to={'/veterans'} onClick={handleSearchClick}>
               <div className="flex flex-wrap text-blue-gray-700">
                 <ListItemPrefix>
                   <CheckBadgeIcon className="h-5 w-5" />
