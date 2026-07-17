@@ -29,24 +29,28 @@ import AccordionSeason2023 from './AccordionSeason2023'
 import AccordionSeason2024 from './AccordionSeason2024'
 import AccordionSeason2025 from './AccordionSeason2025'
 import AccordionSeason2026 from './AccordionSeason2026'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { allSeasons } from './../../data/seasons';
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const SideBar = ({ closeDrawer }) => {
-  //  console.log("SideBar mounted");
   const [open, setOpen] = useState(0)
+  const navigate = useNavigate()
   const handleOpen = (value) => {
     setOpen(open === value ? 0 : value)
   }
 
-  const handleSearchClick = () => {
+  const handleSearchClick = (route) => {
     if (document.activeElement instanceof HTMLElement) {
-      document.activeElement.blur()
+      document.activeElement.blur();
     }
-    document.activeElement?.blur()
-    closeDrawer()
+
+    closeDrawer();
+
+    setTimeout(() => {
+      navigate(route);
+    }, 200);
   }
 
    // 1. Manage state for the search input text string

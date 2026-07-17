@@ -26,7 +26,7 @@ import {
     S27GUIDE,
     S28GUIDE,
     S29GUIDE,
-    // S30GUIDE,
+    S30GUIDE,
  } from './../exports/seasonGuideImages';
 import { 
     S3HEART,
@@ -56,6 +56,7 @@ import {
     S27HEART,
     S28HEART,
     S29HEART,
+    S30HEART,
 } from '../exports/seasonHearts';
 import { 
     S3ULTIGIFT1,
@@ -123,6 +124,9 @@ import {
     S28ULTIGIFT3,
     S29ULTIGIFT1,
     S29ULTIGIFT2,
+    S30ULTIGIFT1,
+    S30ULTIGIFT2,
+    S30ULTIGIFT3,
 } from '../exports/seasonUltiGiftsImages';
 import { 
     S9PROP1,
@@ -164,6 +168,12 @@ import {
     S29PROP4,
     S29PROP5,
     S29PROP6,
+    S30PROP1,
+    S30PROP2,
+    S30PROP3,
+    S30PROP4,
+    S30PROP5,
+    S30PROP6,
 } from './../exports/seasonPropGiftsImages';
 import { 
     S10LIMITEDITEM1,
@@ -1653,6 +1663,89 @@ export const SeasonGuidesData = [
                 propGiftName: 'Prop',
                 propGiftImg: S29PROP6,
                 propGiftPrice: 26,
+                propGiftCandleIco: whiteCandle
+            },
+        ],
+        isAvailable: false,
+        iapItems: [
+            // {
+            //     iapName: `Moominmamma's Masterpiece Cape`,
+            //     iapImg: S29LIMITEDITEM1,
+            //     iapPrice: 1499,
+            // },
+        ],
+        isLimitedItems: false,
+        limitedItems: [
+            // {
+            //     limitedItemName: 'Mask',
+            //     limitedItemImg: S29LIMITEDITEM1,
+            //     limitedItemPrice: 'X',
+            //     limitedItemCandleIco: whiteCandle
+            // },
+        ]
+    },
+    {
+        seasonNo: 30,
+        seasonName: 'Dear Van Gogh',
+        seasonGuideName: `Vase with Fifteen Sunflowers`,
+        seasonGuideImg: S30GUIDE,
+        guideDescription: 'Season Quest is available for all players to complete and relive. Guide is at Story Space - Starry Gallery.',
+        ultiGifts: [
+            {
+                ultGiftName: 'Hair',
+                ultGiftImg: S30ULTIGIFT1,
+                ultGiftPrice: 1,
+                ultGiftHeartIco: S30HEART
+            },
+            {
+                ultGiftName: 'Cape',
+                ultGiftImg: S30ULTIGIFT2,
+                ultGiftPrice: 2,
+                ultGiftHeartIco: S30HEART
+            },
+            {
+                ultGiftName: 'Prop',
+                ultGiftImg: S30ULTIGIFT3,
+                ultGiftPrice: 1,
+                ultGiftHeartIco: S30HEART
+            },
+        ],
+        propObtainable: true,
+        seasonGuideGifts: [
+            {
+                propGiftName: 'Prop',
+                propGiftImg: S30PROP1,
+                propGiftPrice: 0,
+                propGiftCandleIco: whiteCandle
+            },
+            {
+                propGiftName: 'Prop',
+                propGiftImg: S30PROP2,
+                propGiftPrice: 0,
+                propGiftCandleIco: whiteCandle
+            },
+            {
+                propGiftName: 'Prop',
+                propGiftImg: S30PROP3,
+                propGiftPrice: 0,
+                propGiftCandleIco: whiteCandle
+            },
+            {
+                propGiftName: 'Prop',
+                propGiftImg: S30PROP4,
+                propGiftPrice: 0,
+                propGiftCandleIco: whiteCandle
+            },
+            {
+                propGiftName: 'Prop',
+                propGiftImg: S30PROP5,
+                propGiftPrice: 0,
+                propGiftCandleIco: whiteCandle
+            },
+            {
+                propGiftName: 'Prop',
+                propGiftImg: S30PROP6,
+                propGiftPrice: 0,
                 propGiftCandleIco: whiteCandle
             },
         ],

@@ -83,6 +83,22 @@ import CSA2 from '../assets/images/spirit-collectibles/aviary/CSA2.webp'
 import CSA3 from '../assets/images/spirit-collectibles/aviary/CSA3.webp'
 import CSA4 from '../assets/images/spirit-collectibles/aviary/CSA4.webp'
 
+import DM1 from '../assets/images/spirit-collectibles/aviary/DM1.webp'
+import DM2 from '../assets/images/spirit-collectibles/aviary/DM2.webp'
+import DM3 from '../assets/images/spirit-collectibles/aviary/DM3.webp'
+import RM1 from '../assets/images/spirit-collectibles/aviary/RM1.webp'
+import RM2 from '../assets/images/spirit-collectibles/aviary/RM2.webp'
+import RM3 from '../assets/images/spirit-collectibles/aviary/RM3.webp'
+import RM4 from '../assets/images/spirit-collectibles/aviary/RM4.webp'
+import AM1 from '../assets/images/spirit-collectibles/aviary/AM1.webp'
+import AM2 from '../assets/images/spirit-collectibles/aviary/AM2.webp'
+import AM3 from '../assets/images/spirit-collectibles/aviary/AM3.webp'
+import AM4 from '../assets/images/spirit-collectibles/aviary/AM4.webp'
+import JM1 from '../assets/images/spirit-collectibles/aviary/JM1.webp'
+import JM2 from '../assets/images/spirit-collectibles/aviary/JM2.webp'
+import JM3 from '../assets/images/spirit-collectibles/aviary/JM3.webp'
+
+
 export const VDO_ITEM_1 = VDO1
 export const VDO_ITEM_2 = VDO2
 export const VDO_ITEM_3 = VDO3
@@ -184,3 +200,18 @@ export const CSA_ITEM_1 = CSA1
 export const CSA_ITEM_2 = CSA2
 export const CSA_ITEM_3 = CSA3
 export const CSA_ITEM_4 = CSA4
+
+export const DM_ITEM_1 = DM1
+export const DM_ITEM_2 = DM2
+export const DM_ITEM_3 = DM3
+export const RM_ITEM_1 = RM1
+export const RM_ITEM_2 = RM2
+export const RM_ITEM_3 = RM3
+export const RM_ITEM_4 = RM4
+export const AM_ITEM_1 = AM1
+export const AM_ITEM_2 = AM2
+export const AM_ITEM_3 = AM3
+export const AM_ITEM_4 = AM4
+export const JM_ITEM_1 = JM1
+export const JM_ITEM_2 = JM2
+export const JM_ITEM_3 = JM3

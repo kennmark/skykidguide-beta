@@ -63,6 +63,9 @@ import s28ultigift2 from '../assets/images/season-ulti-gifts/S28Ult2.webp'
 import s28ultigift3 from '../assets/images/season-ulti-gifts/S28Ult3.webp'
 import s29ultigift1 from '../assets/images/season-ulti-gifts/S29Ult1.webp'
 import s29ultigift2 from '../assets/images/season-ulti-gifts/S29Ult2.webp'
+import s30ultigift1 from '../assets/images/season-ulti-gifts/S30Ult1.webp'
+import s30ultigift2 from '../assets/images/season-ulti-gifts/S30Ult2.webp'
+import s30ultigift3 from '../assets/images/season-ulti-gifts/S30Ult3.webp'
 
 export const S3ULTIGIFT1 = s3ultigift1
 export const S4ULTIGIFT1 = s4ultigift1
@@ -129,3 +132,6 @@ export const S28ULTIGIFT2 = s28ultigift2
 export const S28ULTIGIFT3 = s28ultigift3
 export const S29ULTIGIFT1 = s29ultigift1
 export const S29ULTIGIFT2 = s29ultigift2
+export const S30ULTIGIFT1 = s30ultigift1
+export const S30ULTIGIFT2 = s30ultigift2
+export const S30ULTIGIFT3 = s30ultigift3

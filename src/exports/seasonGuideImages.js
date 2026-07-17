@@ -25,7 +25,7 @@ import s26Guide from '../assets/images/season-guide-images/S26-2Embers1-Guide-Sp
 import s27Guide from '../assets/images/season-guide-images/S27-Migration-Guide-Spirit.webp'
 import s28Guide from '../assets/images/season-guide-images/S28-Lightmending-Guide-Spirit.webp'
 import s29Guide from '../assets/images/season-guide-images/S29-Carnival-Guide-Spirit.webp'
-// import s30Guide from '../assets/images/season-guide-images/S30-VanGogh-Guide-Spirit.webp'
+import s30Guide from '../assets/images/season-guide-images/S30-Dear-Van-Gogh-Guide-Spirit.webp'
 
 export const S3GUIDE = s3Guide
 export const S4GUIDE = s4Guide
@@ -54,4 +54,4 @@ export const S26GUIDE = s26Guide
 export const S27GUIDE = s27Guide
 export const S28GUIDE = s28Guide
 export const S29GUIDE = s29Guide
-// export const S30GUIDE = s30Guide
+export const S30GUIDE = s30Guide

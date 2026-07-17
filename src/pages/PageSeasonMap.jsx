@@ -1,9 +1,9 @@
 import { Carousel, Typography, Button, Card } from '@material-tailwind/react'
 import { SideBarContainer } from './components/SidebarContainer'
 import ScrollToTop from 'react-scroll-to-top'
-import carousel1 from '../assets/images/seasonal-banners/S29A.webp'
-import carousel2 from '../assets/images/seasonal-banners/S29B.webp'
-import carousel3 from '../assets/images/seasonal-banners/S29C.webp'
+import carousel1 from '../assets/images/seasonal-banners/DVG1.webp'
+import carousel2 from '../assets/images/seasonal-banners/DVG2.webp'
+import carousel3 from '../assets/images/seasonal-banners/DVG3.webp'
 import SeasonDisplayContainer from './components/SeasonDisplayContainer'
 import {
   seasons2019,
@@ -59,24 +59,24 @@ const PageSeasonMap = () => {
                     color="white"
                     className="mb-4 md:text-3xl text-xl"
                   >
-                    Season 29 | Season of Carnival
+                    Season 30 | Season of Dear Van Gogh
                   </Typography>
                   <Typography
                     variant="lead"
                     color="white"
                     className="mb-12 opacity-80 md:text-xl text-sm"
                   >
-                    Bagong Season ang dumating sa Sky: Children of The Light!
+                    A New has Season Arrived in Sky: Children of The Light!
                   </Typography>
                   <div className="flex justify-center gap-2">
                     {/* OPTIMIZED ROUTE: Maps flawlessly to our new consolidated path */}
-                    <Link to="/seasons/s29-carnival">
+                    <Link to="/seasons/s30-dear-van-gogh">
                       <Button size="sm" className="theme-button" ripple={true}>
-                        Pasok
+                        Enter
                       </Button>
                     </Link>
 
-                    <a href="https://www.thatskygame.com/news/this-month-in-sky-april-2026-edition" target="_blank" rel="noreferrer">
+                    <a href="https://www.thatskygame.com/news/-dear-van-gogh-a-new-interactive-experience-in-sky" target="_blank" rel="noreferrer">
                       <Button size="sm" className="theme-button">
                         Visit Site
                       </Button>
@@ -92,10 +92,10 @@ const PageSeasonMap = () => {
               <div className="absolute inset-0 grid h-full w-full items-center bg-black/75">
                 <div className="w-3/4 pl-12 md:w-2/4 md:pl-20 lg:pl-32">
                   <Typography variant="h5" color="white" className="mb-4 md:text-3xl text-xl">
-                    The Wandering Carnival is arriving!
+                    A New Interactive Experience in Sky
                   </Typography>
                   <Typography variant="lead" color="white" className="mb-12 opacity-80 md:text-xl text-sm">
-                    Full of revelry and delight, this group of spirits is bringing a new set of Shared Space challenges
+                    Dear Van Gogh brings you into the life of Vincent van Gogh through an interactive journey shaped by his paintings, his struggles, and the people closest to him.
                   </Typography>
                 </div>
               </div>
@@ -107,10 +107,10 @@ const PageSeasonMap = () => {
               <div className="absolute inset-0 grid h-full w-full items-end bg-black/75">
                 <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
                   <Typography variant="h5" color="white" className="mb-4 md:text-3xl text-xl">
-                    These new challenges bring their own rewards
+                    Blending exploration and emotional storytelling
                   </Typography>
                   <Typography variant="lead" color="white" className="mb-12 opacity-80 md:text-xl text-sm">
-                    completing other players’ Shared Space Challenges grants different amounts of Light based on how complex the creation is!
+                    Dear Van Gogh invites players to feel the weight and warmth of that family bond, to discover that art, at its most basic, rarely endures alone. 
                   </Typography>
                 </div>
               </div>

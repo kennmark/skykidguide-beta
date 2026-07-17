@@ -25,7 +25,7 @@ import S26heart from '../assets/images/season-ulti-gifts/S26-heart.webp'
 import S27heart from '../assets/images/season-ulti-gifts/S27-heart.webp'
 import S28heart from '../assets/images/season-ulti-gifts/S28-heart.webp'
 import S29heart from '../assets/images/season-ulti-gifts/S29-heart.webp'
-// import S30heart from '../assets/images/season-ulti-gifts/S30-heart.webp'
+import S30heart from '../assets/images/season-ulti-gifts/S30-heart.webp'
 
 export const S3HEART = S3heart
 export const S4HEART = S4heart
@@ -54,4 +54,4 @@ export const S26HEART = S26heart
 export const S27HEART = S27heart
 export const S28HEART = S28heart
 export const S29HEART = S29heart
-// export const S30HEART = S30heart
+export const S30HEART = S30heart

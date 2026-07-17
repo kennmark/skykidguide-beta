@@ -37,6 +37,12 @@ import s29prop3 from '../assets/images/season-prop-gifts/S29Prop3.webp'
 import s29prop4 from '../assets/images/season-prop-gifts/S29Prop4.webp'
 import s29prop5 from '../assets/images/season-prop-gifts/S29Prop5.webp'
 import s29prop6 from '../assets/images/season-prop-gifts/S29Prop6.webp'
+import s30prop1 from '../assets/images/season-prop-gifts/S30Prop1.webp'
+import s30prop2 from '../assets/images/season-prop-gifts/S30Prop2.webp'
+import s30prop3 from '../assets/images/season-prop-gifts/S30Prop3.webp'
+import s30prop4 from '../assets/images/season-prop-gifts/S30Prop4.webp'
+import s30prop5 from '../assets/images/season-prop-gifts/S30Prop5.webp'
+import s30prop6 from '../assets/images/season-prop-gifts/S30Prop6.webp'
 
 export const S9PROP1 = s9prop1
 export const S9PROP2 = s9prop2
@@ -77,3 +83,9 @@ export const S29PROP3 = s29prop3
 export const S29PROP4 = s29prop4
 export const S29PROP5 = s29prop5
 export const S29PROP6 = s29prop6
+export const S30PROP1 = s30prop1
+export const S30PROP2 = s30prop2
+export const S30PROP3 = s30prop3
+export const S30PROP4 = s30prop4
+export const S30PROP5 = s30prop5
+export const S30PROP6 = s30prop6

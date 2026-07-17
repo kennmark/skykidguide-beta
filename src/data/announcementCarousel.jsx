@@ -1,7 +1,7 @@
 import carousel1 from '../assets/images/home-carousel/Skykidhero-welcome-banner.jpg'
 import carousel2 from '../assets/images/home-carousel/JoinFBGroup.png'
 import carousel3 from '../assets/images/home-carousel/skykidhero-yt.png'
-import carousel7 from '../assets/images/home-carousel/S30-DearVanGogh.webp'
+import carousel7 from '../assets/images/home-carousel/S30DVG-Banner.jpg'
 
 export const announcementCarousel = [
   {

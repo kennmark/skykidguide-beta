@@ -17,7 +17,9 @@ import { SeasonTabHeader } from '../../data/seasonTabHeader'
 import { allSeasons, seasons2026 } from '../../data/seasons'
 import ScrollToTop from 'react-scroll-to-top'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
-import Banner from '../../assets/images/home-carousel/S30-DearVanGogh.webp'
+import Banner from '../../assets/images/home-carousel/S30DVG-Banner.jpg'
+import SeasonQuestGiver from '../components/SeasonQuestGiver'
+import { SeasonGuidesData } from '../../data/seasonGuidesData'
 
 const S30VanGoghPage = () => {
   const [activeTab, setActiveTab] = useState('info')
@@ -121,6 +123,10 @@ const S30VanGoghPage = () => {
                     {ms_num ? ' may ' + ms_num : ' (0) o walang'} &nbsp;map
                     shrine(s).
                   </Typography>{' '}
+                   <SeasonQuestGiver 
+                    {...SeasonGuidesData[27]}
+                    icon_route={icon_route}
+                  />
                   <br />
                 </div>
               )}

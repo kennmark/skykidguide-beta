@@ -1,5 +1,5 @@
 import { Typography } from '@material-tailwind/react'
-import { AV_MS1, AV_MS2 } from '../exports/aviaryMSImgUrl'
+import { AV_MS1, AV_MS2, AV_MS3 } from '../exports/aviaryMSImgUrl'
 import {
   AVIARY_NUM_SEASON_SPIRIT,
   AVIARY_NUM_REG_SPIRIT,
@@ -15,6 +15,7 @@ import {
   SEASON22,
   SEASON24,
   SEASON29,
+  SEASON30,
 } from '../exports/seasonIcons'
 
 import { LazyLoadImage } from 'react-lazy-load-image-component'
@@ -102,6 +103,17 @@ export const aviaryData = [
               className="w-6 h-6 object-contain"
             />
             <span>Carnival</span>
+          </Link>
+          <span>,</span>
+          <Link
+            to="/seasons/s30-dear-van-gogh"
+            className="inline-flex items-center gap-1 hover:text-[#fe7f2d] transition-colors"
+          >
+            <LazyLoadImage
+              src={SEASON30}
+              className="w-6 h-6 object-contain"
+            />
+            <span>Dear Van Gogh</span>
           </Link>
           <span>.</span>
         </Typography>
@@ -488,6 +500,78 @@ export const aviaryData = [
         spirit_direction: seasons2026[1].season_spirits[3].spirit_direction,
         icon_route: seasons2026[1].icon_route,
       },
+      {
+        spirit_id: seasons2026[2].season_spirits[0].spirit_id,
+        spirit_name: seasons2026[2].season_spirits[0].spirit_name,
+        spirit_img_url: seasons2026[2].season_spirits[0].spirit_img_url,
+        spirit_category: seasons2026[2].season_spirits[0].spirit_category,
+        spirit_relive_type: seasons2026[2].season_spirits[0].spirit_relive_type,
+        difficulty_level: seasons2026[2].season_spirits[0].difficulty_level,
+        difficulty_types: seasons2026[2].season_spirits[0].difficulty_types,
+        spirit_image: seasons2026[2].season_spirits[0].spirit_image,
+        spirit_collectibles:
+          seasons2026[2].season_spirits[0].spirit_collectibles,
+        spirit_tree_cost: seasons2026[2].season_spirits[0].spirit_tree_cost,
+        number_of_visits: seasons2026[2].season_spirits[0].number_of_visits,
+        spirit_guide_video_url:
+          seasons2026[2].season_spirits[0].spirit_guide_video_url,
+        spirit_direction: seasons2026[2].season_spirits[0].spirit_direction,
+        icon_route: seasons2026[2].icon_route,
+      },
+      {
+        spirit_id: seasons2026[2].season_spirits[1].spirit_id,
+        spirit_name: seasons2026[2].season_spirits[1].spirit_name,
+        spirit_img_url: seasons2026[2].season_spirits[1].spirit_img_url,
+        spirit_category: seasons2026[2].season_spirits[1].spirit_category,
+        spirit_relive_type: seasons2026[2].season_spirits[1].spirit_relive_type,
+        difficulty_level: seasons2026[2].season_spirits[1].difficulty_level,
+        difficulty_types: seasons2026[2].season_spirits[1].difficulty_types,
+        spirit_image: seasons2026[2].season_spirits[1].spirit_image,
+        spirit_collectibles:
+          seasons2026[2].season_spirits[1].spirit_collectibles,
+        spirit_tree_cost: seasons2026[2].season_spirits[1].spirit_tree_cost,
+        number_of_visits: seasons2026[2].season_spirits[1].number_of_visits,
+        spirit_guide_video_url:
+          seasons2026[2].season_spirits[1].spirit_guide_video_url,
+        spirit_direction: seasons2026[2].season_spirits[1].spirit_direction,
+        icon_route: seasons2026[2].icon_route,
+      },
+      {
+        spirit_id: seasons2026[2].season_spirits[2].spirit_id,
+        spirit_name: seasons2026[2].season_spirits[2].spirit_name,
+        spirit_img_url: seasons2026[2].season_spirits[2].spirit_img_url,
+        spirit_category: seasons2026[2].season_spirits[2].spirit_category,
+        spirit_relive_type: seasons2026[2].season_spirits[2].spirit_relive_type,
+        difficulty_level: seasons2026[2].season_spirits[2].difficulty_level,
+        difficulty_types: seasons2026[2].season_spirits[2].difficulty_types,
+        spirit_image: seasons2026[2].season_spirits[2].spirit_image,
+        spirit_collectibles:
+          seasons2026[2].season_spirits[2].spirit_collectibles,
+        spirit_tree_cost: seasons2026[2].season_spirits[2].spirit_tree_cost,
+        number_of_visits: seasons2026[2].season_spirits[2].number_of_visits,
+        spirit_guide_video_url:
+          seasons2026[2].season_spirits[2].spirit_guide_video_url,
+        spirit_direction: seasons2026[2].season_spirits[2].spirit_direction,
+        icon_route: seasons2026[2].icon_route,
+      },
+      {
+        spirit_id: seasons2026[2].season_spirits[3].spirit_id,
+        spirit_name: seasons2026[2].season_spirits[3].spirit_name,
+        spirit_img_url: seasons2026[2].season_spirits[3].spirit_img_url,
+        spirit_category: seasons2026[2].season_spirits[3].spirit_category,
+        spirit_relive_type: seasons2026[2].season_spirits[3].spirit_relive_type,
+        difficulty_level: seasons2026[2].season_spirits[3].difficulty_level,
+        difficulty_types: seasons2026[2].season_spirits[3].difficulty_types,
+        spirit_image: seasons2026[2].season_spirits[3].spirit_image,
+        spirit_collectibles:
+          seasons2026[2].season_spirits[3].spirit_collectibles,
+        spirit_tree_cost: seasons2026[2].season_spirits[3].spirit_tree_cost,
+        number_of_visits: seasons2026[2].season_spirits[3].number_of_visits,
+        spirit_guide_video_url:
+          seasons2026[2].season_spirits[3].spirit_guide_video_url,
+        spirit_direction: seasons2026[2].season_spirits[3].spirit_direction,
+        icon_route: seasons2026[2].icon_route,
+      },
     ],
   },
   {
@@ -554,6 +638,16 @@ export const aviaryData = [
         shrine_location: [
           `In the Aviary Village, head towards the end of the village, after passing the tunnel and on the left side, you will find a boat leading to the Wandering Carnival Boat.`,
           `Upon arriving, board the Wandering Carnival boat and look behind the Athletic Dancer to find the map shrine.`,
+        ],
+      },
+      {
+        id: 3,
+        shrine_group: 'shrine-season-30',
+        shrine_label: 'Map Shrine 3',
+        shrine_url: AV_MS3 ?? MAP_SHRINE,
+        shrine_location: [
+          'At Aviary Village, just across the portals, go inside a cave to Story Space for Starry Galley.',
+          'As you enter, find the portal to Season of Dear Van Gogh at the right side of the room.',
         ],
       },
     ],

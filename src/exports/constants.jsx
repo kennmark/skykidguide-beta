@@ -1,7 +1,7 @@
 import rc from '../assets/images/icons/candle.webp'
 import heart from '../assets/images/icons/heart.webp'
 import ac from '../assets/images/icons/AC.webp'
-import sc from '../assets/images/season-candles/29-season-of-carnival/Carnival-Candle.webp'
+import sc from '../assets/images/season-candles/30-season-of-dear-van-gogh/DearVanGogh-Candle.webp'
 import tsHintImage from '../assets/images/ts-hints/TS-hint-071626-071926.jpg'
 
 export const RC = rc
@@ -53,10 +53,10 @@ export const AVIARY_NUM_SEASON_SPIRIT = 20
 export const AVIARY_NUM_WL = 2
 export const AVIARY_NUM_MAP_SHRINES = 2
 
-export const S29_NUM_REG_SPIRIT = 0
-export const S29_NUM_SEASON_SPIRIT = 4
-export const S29_NUM_WL = 2
-export const S29_NUM_MAP_SHRINES = 1
+export const S30_NUM_REG_SPIRIT = 0
+export const S30_NUM_SEASON_SPIRIT = 4
+export const S30_NUM_WL = 0
+export const S30_NUM_MAP_SHRINES = 1
 
 export const WL_COUNT =
   ISLE_NUM_WL +

@@ -173,6 +173,10 @@ import CarnivalAthleticDancer from '../assets/images/emotes/map7/Map7-carnival-a
 import CarnivalJuggler from '../assets/images/emotes/map7/Map7-carnival-juggler.webp'
 import CarnivalPuzzleDirector from '../assets/images/emotes/map7/Map7-carnival-puzzle-director.webp'
 import CarnivalStuntActor from '../assets/images/emotes/map7/Map7-carnival-stunt-actor.webp'
+import DutchMemory from '../assets/images/emotes/map7/Map7-dutch-memory.webp'
+import RusticMemory from '../assets/images/emotes/map7/Map7-rustic-memory.webp'
+import ArtisticMemory from '../assets/images/emotes/map7/Map7-artistic-memory.webp'
+import JoyfulMemory from '../assets/images/emotes/map7/Map7-joyful-memory.webp'
 
 // MAP 7
 
@@ -350,5 +354,9 @@ export const CARNIVAL_ATHLETIC_DANCER = CarnivalAthleticDancer
 export const CARNIVAL_JUGGLER = CarnivalJuggler
 export const CARNIVAL_PUZZLE_DIRECTOR = CarnivalPuzzleDirector
 export const CARNIVAL_STUNT_ACTOR = CarnivalStuntActor
+export const DUTCH_MEMORY = DutchMemory
+export const RUSTIC_MEMORY = RusticMemory
+export const ARTISTIC_MEMORY = ArtisticMemory
+export const JOYFUL_MEMORY = JoyfulMemory
 
 // MAP 7

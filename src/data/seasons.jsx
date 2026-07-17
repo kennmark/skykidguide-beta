@@ -84,7 +84,7 @@ import { VK_MS2, VK_MS4, VK_MS10, VK_MS11 } from '../exports/vaultMSImgUrl'
 import { GW_MS7, GW_MS8 } from '../exports/wastelandMSImgUrl'
 import { DP_MS7, DP_MS9 } from '../exports/prairieMSImgUrl'
 import { HF_MS9, HF_MS10 } from '../exports/forestMSImgUrl'
-import { AV_MS1, AV_MS2 } from '../exports/aviaryMSImgUrl'
+import { AV_MS1, AV_MS2, AV_MS3 } from '../exports/aviaryMSImgUrl'
 import {
   ID_MS5,
   ID_MS6,
@@ -197,6 +197,20 @@ import {
   CSA_ITEM_2,
   CSA_ITEM_3,
   CSA_ITEM_4,
+  DM_ITEM_1,
+  DM_ITEM_2,
+  DM_ITEM_3,
+  RM_ITEM_1,
+  RM_ITEM_2,
+  RM_ITEM_3,
+  RM_ITEM_4,
+  AM_ITEM_1,
+  AM_ITEM_2,
+  AM_ITEM_3,
+  AM_ITEM_4,
+  JM_ITEM_1,
+  JM_ITEM_2,
+  JM_ITEM_3,
 } from '../exports/aviaryCollectibles'
 import {
   RADIANCE_LEAPING_DANCER,
@@ -206,6 +220,10 @@ import {
   CARNIVAL_JUGGLER,
   CARNIVAL_PUZZLE_DIRECTOR,
   CARNIVAL_STUNT_ACTOR,
+  DUTCH_MEMORY,
+  RUSTIC_MEMORY,
+  ARTISTIC_MEMORY,
+  JOYFUL_MEMORY,
 } from '../exports/spiritIcons'
 import {
   AVIARY_SPIRIT_1,
@@ -215,6 +233,10 @@ import {
   AVIARY_SPIRIT_5,
   AVIARY_SPIRIT_6,
   AVIARY_SPIRIT_7,
+  AVIARY_SPIRIT_8,
+  AVIARY_SPIRIT_9,
+  AVIARY_SPIRIT_10,
+  AVIARY_SPIRIT_11,
 } from '../exports/spiritAviaryImages'
 
 const youtube_embed = 'https://www.youtube.com/embed/'
@@ -4269,25 +4291,25 @@ export const seasons2026 = [
           {
             label: 'Mask',
             img: CAD_ITEM_2,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 19,
           },
           {
             label: 'Pants',
             img: CAD_ITEM_1,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 28,
           },
           {
             label: 'Cape',
             img: CAD_ITEM_3,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 0,
           },
           {
             label: 'Emote',
             img: CARNIVAL_ATHLETIC_DANCER,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 24,
           },
         ],
@@ -4329,25 +4351,25 @@ export const seasons2026 = [
           {
             label: 'Mask',
             img: CJ_ITEM_1,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 19,
           },
           {
             label: 'Neck Accessory',
             img: CJ_ITEM_2,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 0,
           },
           {
             label: 'Pants',
             img: CJ_ITEM_3,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 28,
           },
           {
             label: 'Emote',
             img: CARNIVAL_JUGGLER,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 24,
           },
         ],
@@ -4389,25 +4411,25 @@ export const seasons2026 = [
           {
             label: 'Hair Accessory',
             img: CPD_ITEM_1,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 28,
           },
           {
             label: 'Hair',
             img: CPD_ITEM_2,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 0,
           },
           {
             label: 'Pants',
             img: CPD_ITEM_3,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 0,
           },
           {
             label: 'Emote',
             img: CARNIVAL_PUZZLE_DIRECTOR,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 24,
           },
         ],
@@ -4450,31 +4472,31 @@ export const seasons2026 = [
           {
             label: 'Hair Accessory',
             img: CSA_ITEM_1,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 0,
           },
           {
             label: 'Hair',
             img: CSA_ITEM_2,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 28,
           },
           {
             label: 'Pants',
             img: CSA_ITEM_3,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 0,
           },
           {
             label: 'Cape',
             img: CSA_ITEM_4,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 19,
           },
           {
             label: 'Emote',
             img: CARNIVAL_STUNT_ACTOR,
-            currency: 'Season Candles',
+            currency: 'Regular Candles',
             price: 24,
           },
         ],
@@ -4551,254 +4573,258 @@ export const seasons2026 = [
     page_route: 'seasons/s30-dear-van-gogh',
     quick_info: `The Wandering Carnival is arriving!`,
     season_spirits: [
-      // //CARNIVAL_ATHLETIC_DANCER
-      // {
-      //   id: 18,
-      //   spirit_id: 'aviary18',
-      //   season_id: 29,
-      //   spirit_type: 'seasonal',
-      //   season: 'Season 29 - Season of Carnival',
-      //   spirit_category: 'emote',
-      //   spirit_relive_type: 'quest-memory',
-      //   difficulty_level: 15,
-      //   difficulty_types: [1, 15],
-      //   spirit_name: 'Carnival Athletic Dancer',
-      //   spirit_img_url: CARNIVAL_ATHLETIC_DANCER,
-      //   spirit_image: AVIARY_SPIRIT_4,
-      //   icon_route: SEASON30,
-      //   spirit_collectibles: [
-      //     {
-      //       label: 'Mask',
-      //       img: CAD_ITEM_2,
-      //       currency: 'Season Candles',
-      //       price: 19,
-      //     },
-      //     {
-      //       label: 'Pants',
-      //       img: CAD_ITEM_1,
-      //       currency: 'Season Candles',
-      //       price: 28,
-      //     },
-      //     {
-      //       label: 'Cape',
-      //       img: CAD_ITEM_3,
-      //       currency: 'Season Candles',
-      //       price: 0,
-      //     },
-      //     {
-      //       label: 'Emote',
-      //       img: CARNIVAL_ATHLETIC_DANCER,
-      //       currency: 'Season Candles',
-      //       price: 24,
-      //     },
-      //   ],
-      //   spirit_tree_cost: [
-      //     {
-      //       candles: 94,
-      //       hearts: 0,
-      //       ascended_candles: 2,
-      //     },
-      //   ],
-      //   number_of_visits: [
-      //     // {
-      //     //   visit_date: 'Mar 12, 2020',
-      //     //   visitNo: 4,
-      //     // },
-      //   ],
-      //   spirit_guide_video_url: youtube_embed + '',
-      //   spirit_direction: [
-      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
-      //     'Pagkadating, ay umakyat sa barko at sa gawing kanan makikita kaagad ang spirit na ito.',
-      //   ],
-      // },
-      // //CARNIVAL_JUGGLER
-      // {
-      //   id: 19,
-      //   spirit_id: 'aviary19',
-      //   season_id: 29,
-      //   spirit_type: 'seasonal',
-      //   season: 'Season 29 - Season of Carnival',
-      //   spirit_category: 'emote',
-      //   spirit_relive_type: 'quest-memory',
-      //   difficulty_level: 15,
-      //   difficulty_types: [1, 15],
-      //   spirit_name: 'Carnival Juggler',
-      //   spirit_img_url: CARNIVAL_JUGGLER,
-      //   spirit_image: AVIARY_SPIRIT_5,
-      //   icon_route: SEASON30,
-      //   spirit_collectibles: [
-      //     {
-      //       label: 'Mask',
-      //       img: CJ_ITEM_1,
-      //       currency: 'Season Candles',
-      //       price: 19,
-      //     },
-      //     {
-      //       label: 'Neck Accessory',
-      //       img: CJ_ITEM_2,
-      //       currency: 'Season Candles',
-      //       price: 0,
-      //     },
-      //     {
-      //       label: 'Pants',
-      //       img: CJ_ITEM_3,
-      //       currency: 'Season Candles',
-      //       price: 28,
-      //     },
-      //     {
-      //       label: 'Emote',
-      //       img: CARNIVAL_JUGGLER,
-      //       currency: 'Season Candles',
-      //       price: 24,
-      //     },
-      //   ],
-      //   spirit_tree_cost: [
-      //     {
-      //       candles: 95,
-      //       hearts: 0,
-      //       ascended_candles: 2,
-      //     },
-      //   ],
-      //   number_of_visits: [
-      //     // {
-      //     //   visit_date: 'Mar 12, 2020',
-      //     //   visitNo: 4,
-      //     // },
-      //   ],
-      //   spirit_guide_video_url: youtube_embed + '',
-      //   spirit_direction: [
-      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
-      //     'Pagkadating, ay umakyat sa barko at sa gawing kaliwa makikita kaagad ang spirit na ito.',
-      //   ],
-      // },
-      // //CARNIVAL_PUZZLE_DIRECTOR
-      // {
-      //   id: 20,
-      //   spirit_id: 'aviary20',
-      //   season_id: 29,
-      //   spirit_type: 'seasonal',
-      //   season: 'Season 29 - Season of Carnival',
-      //   spirit_category: 'emote',
-      //   spirit_relive_type: 'quest-memory',
-      //   difficulty_level: 15,
-      //   difficulty_types: [1, 15],
-      //   spirit_name: 'Carnival Puzzle Director',
-      //   spirit_img_url: CARNIVAL_PUZZLE_DIRECTOR,
-      //   spirit_image: AVIARY_SPIRIT_6,
-      //   icon_route: SEASON30,
-      //   spirit_collectibles: [
-      //     {
-      //       label: 'Hair Accessory',
-      //       img: CPD_ITEM_1,
-      //       currency: 'Season Candles',
-      //       price: 28,
-      //     },
-      //     {
-      //       label: 'Hair',
-      //       img: CPD_ITEM_2,
-      //       currency: 'Season Candles',
-      //       price: 0,
-      //     },
-      //     {
-      //       label: 'Pants',
-      //       img: CPD_ITEM_3,
-      //       currency: 'Season Candles',
-      //       price: 0,
-      //     },
-      //     {
-      //       label: 'Emote',
-      //       img: CARNIVAL_PUZZLE_DIRECTOR,
-      //       currency: 'Season Candles',
-      //       price: 24,
-      //     },
-      //   ],
-      //   spirit_tree_cost: [
-      //     {
-      //       candles: 95,
-      //       hearts: 0,
-      //       ascended_candles: 2,
-      //     },
-      //   ],
-      //   number_of_visits: [
-      //     // {
-      //     //   visit_date: 'Mar 12, 2020',
-      //     //   visitNo: 4,
-      //     // },
-      //   ],
-      //   spirit_guide_video_url: youtube_embed + '',
-      //   spirit_direction: [
-      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
-      //     'Pagkadating, ay umakyat sa barko at sa gawing kanan ay may lagusan pababa, pumasok ka,',
-      //     'Tapos sa looban ay kumaliwa ka at diretso lamang hanggang sa makita mo na ang spirit sa gilid ng hagdanan',
-      //   ],
-      // },
-      // //CARNIVAL_PUZZLE_DIRECTOR
-      // {
-      //   id: 20,
-      //   spirit_id: 'aviary20',
-      //   season_id: 29,
-      //   spirit_type: 'seasonal',
-      //   season: 'Season 29 - Season of Carnival',
-      //   spirit_category: 'emote',
-      //   spirit_relive_type: 'quest-memory',
-      //   difficulty_level: 15,
-      //   difficulty_types: [1, 15],
-      //   spirit_name: 'Carnival Stunt Actor',
-      //   spirit_img_url: CARNIVAL_STUNT_ACTOR,
-      //   spirit_image: AVIARY_SPIRIT_7,
-      //   icon_route: SEASON30,
-      //   spirit_collectibles: [
-      //     {
-      //       label: 'Hair Accessory',
-      //       img: CSA_ITEM_1,
-      //       currency: 'Season Candles',
-      //       price: 0,
-      //     },
-      //     {
-      //       label: 'Hair',
-      //       img: CSA_ITEM_2,
-      //       currency: 'Season Candles',
-      //       price: 28,
-      //     },
-      //     {
-      //       label: 'Pants',
-      //       img: CSA_ITEM_3,
-      //       currency: 'Season Candles',
-      //       price: 0,
-      //     },
-      //     {
-      //       label: 'Cape',
-      //       img: CSA_ITEM_4,
-      //       currency: 'Season Candles',
-      //       price: 19,
-      //     },
-      //     {
-      //       label: 'Emote',
-      //       img: CARNIVAL_STUNT_ACTOR,
-      //       currency: 'Season Candles',
-      //       price: 24,
-      //     },
-      //   ],
-      //   spirit_tree_cost: [
-      //     {
-      //       candles: 95,
-      //       hearts: 0,
-      //       ascended_candles: 2,
-      //     },
-      //   ],
-      //   number_of_visits: [
-      //     // {
-      //     //   visit_date: 'Mar 12, 2020',
-      //     //   visitNo: 4,
-      //     // },
-      //   ],
-      //   spirit_guide_video_url: youtube_embed + '',
-      //   spirit_direction: [
-      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
-      //     'Pagkadating, ay umakyat sa barko at sa gawing kanan ay may lagusan pababa, pumasok ka,',
-      //     'Tapos sa looban ay kumaliwa ka at diretso lamang hanggang sa makita mo na ang spirit sa gilid ng hagdanan',
-      //   ],
-      // },
+      //DUTCH_MEMORY
+      {
+        id: 19,
+        spirit_id: 'aviary19',
+        season_id: 30,
+        spirit_type: 'seasonal',
+        season: 'Season 30 - Season of Dear Van Gogh',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_name: 'Dutch Memory',
+        spirit_img_url: DUTCH_MEMORY,
+        spirit_image: AVIARY_SPIRIT_8,
+        icon_route: SEASON30,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: DM_ITEM_1,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Pants',
+            img: DM_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: DM_ITEM_3,
+            currency: 'Season Candles',
+            price: 26,
+          },
+          {
+            label: 'Emote',
+            img: DUTCH_MEMORY,
+            currency: 'Season Candles',
+            price: 22,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 89,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'At Aviary Village, infront of the 6 portals is a cave to Story Space.',
+          'As you enter, find the portal to Season of Dear Van Gogh at the right side of the room.',
+        ],
+      },
+      //RUSTIC_MEMORY
+      {
+        id: 20,
+        spirit_id: 'aviary20',
+        season_id: 30,
+        spirit_type: 'seasonal',
+        season: 'Season 30 - Season of Dear Van Gogh',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_name: 'Rustic Memory',
+        spirit_img_url: RUSTIC_MEMORY,
+        spirit_image: AVIARY_SPIRIT_9,
+        icon_route: SEASON30,
+        spirit_collectibles: [
+          {
+            label: 'Hat',
+            img: RM_ITEM_1,
+            currency: 'Season Candles',
+            price: 26,
+          },
+          {
+            label: 'Cape',
+            img: RM_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Shoes',
+            img: RM_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Props',
+            img: RM_ITEM_4,
+            currency: 'Season Candles',
+            price: 18,
+          },
+          {
+            label: 'Emote',
+            img: RUSTIC_MEMORY,
+            currency: 'Season Candles',
+            price: 22,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 89,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'At Aviary Village, infront of the 6 portals is a cave to Story Space.',
+          'As you enter, find the portal to Season of Dear Van Gogh at the right side of the room.',
+        ],
+      },
+      //ARTISTIC_MEMORY
+      {
+        id: 21,
+        spirit_id: 'aviary21',
+        season_id: 30,
+        spirit_type: 'seasonal',
+        season: 'Season 30 - Season of Dear Van Gogh',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_name: 'Artistic Memory',
+        spirit_img_url: ARTISTIC_MEMORY,
+        spirit_image: AVIARY_SPIRIT_10,
+        icon_route: SEASON30,
+        spirit_collectibles: [
+          {
+            label: 'Hat',
+            img: AM_ITEM_1,
+            currency: 'Season Candles',
+            price: 18,
+          },
+          {
+            label: 'Cape',
+            img: AM_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Props',
+            img: AM_ITEM_3,
+            currency: 'Season Candles',
+            price: 12,
+          },
+          {
+            label: 'Props',
+            img: AM_ITEM_4,
+            currency: 'Season Candles',
+            price: 10,
+          },
+          {
+            label: 'Emote',
+            img: ARTISTIC_MEMORY,
+            currency: 'Season Candles',
+            price: 22,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 91,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'At Aviary Village, infront of the 6 portals is a cave to Story Space.',
+          'As you enter, find the portal to Season of Dear Van Gogh at the right side of the room.',
+        ],
+      },
+      //JOYFUL_MEMORY
+      {
+        id: 22,
+        spirit_id: 'aviary22',
+        season_id: 30,
+        spirit_type: 'seasonal',
+        season: 'Season 30 - Season of Dear Van Gogh',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_name: 'Joyful Memory',
+        spirit_img_url: JOYFUL_MEMORY,
+        spirit_image: AVIARY_SPIRIT_11,
+        icon_route: SEASON30,
+        spirit_collectibles: [
+          {
+            label: 'Hat',
+            img: JM_ITEM_1,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Hair',
+            img: JM_ITEM_2,
+            currency: 'Season Candles',
+            price: 22,
+          },
+          {
+            label: 'Cape',
+            img: JM_ITEM_3,
+            currency: 'Season Candles',
+            price: 26,
+          },
+          {
+            label: 'Emote',
+            img: JOYFUL_MEMORY,
+            currency: 'Season Candles',
+            price: 22,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 111,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'At Aviary Village, infront of the 6 portals is a cave to Story Space.',
+          'As you enter, find the portal to Season of Dear Van Gogh at the right side of the room.',
+        ],
+      },
     ],
     winged_lights: [
       // {
@@ -4828,16 +4854,16 @@ export const seasons2026 = [
       // },
     ],
     map_shrines: [
-      // {
-      //   id: 2,
-      //   shrine_group: 'shrine-season-29',
-      //   shrine_label: 'Map Shrine 1',
-      //   shrine_url: AV_MS2 ?? MAP_SHRINE,
-      //   shrine_location: [
-      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
-      //     'Pagkadating, umakyat sa barko ng Wandering Carnival at sa likod ng Athletic Dancer makikita ang map shrine.',
-      //   ],
-      // },
+      {
+        id: 3,
+        shrine_group: 'shrine-season-30',
+        shrine_label: 'Map Shrine 3',
+        shrine_url: AV_MS3 ?? MAP_SHRINE,
+        shrine_location: [
+          'At Aviary Village, just across the portals, go inside a cave to Story Space for Starry Galley.',
+          'As you enter, find the portal to Season of Dear Van Gogh at the right side of the room.',
+        ],
+      },
     ],
   },
 ]
@@ -9154,10 +9180,9 @@ export const allSeasons = [
   },
   {
     id: 30,
-    name: 'Season of Dear Van Gogh',
+    name: 'Dear Van Gogh',
     season_type: 2,
     time_duration: 'July 17, 2026 - October 3, 2026',
-    year: 2026,
     spirit_num: 0,
     wl_num: 0,
     ms_num: 0,
@@ -9165,254 +9190,258 @@ export const allSeasons = [
     page_route: 'seasons/s30-dear-van-gogh',
     quick_info: `The Wandering Carnival is arriving!`,
     season_spirits: [
-      // //CARNIVAL_ATHLETIC_DANCER
-      // {
-      //   id: 18,
-      //   spirit_id: 'aviary18',
-      //   season_id: 29,
-      //   spirit_type: 'seasonal',
-      //   season: 'Season 29 - Season of Carnival',
-      //   spirit_category: 'emote',
-      //   spirit_relive_type: 'quest-memory',
-      //   difficulty_level: 15,
-      //   difficulty_types: [1, 15],
-      //   spirit_name: 'Carnival Athletic Dancer',
-      //   spirit_img_url: CARNIVAL_ATHLETIC_DANCER,
-      //   spirit_image: AVIARY_SPIRIT_4,
-      //   icon_route: SEASON30,
-      //   spirit_collectibles: [
-      //     {
-      //       label: 'Mask',
-      //       img: CAD_ITEM_2,
-      //       currency: 'Season Candles',
-      //       price: 19,
-      //     },
-      //     {
-      //       label: 'Pants',
-      //       img: CAD_ITEM_1,
-      //       currency: 'Season Candles',
-      //       price: 28,
-      //     },
-      //     {
-      //       label: 'Cape',
-      //       img: CAD_ITEM_3,
-      //       currency: 'Season Candles',
-      //       price: 0,
-      //     },
-      //     {
-      //       label: 'Emote',
-      //       img: CARNIVAL_ATHLETIC_DANCER,
-      //       currency: 'Season Candles',
-      //       price: 24,
-      //     },
-      //   ],
-      //   spirit_tree_cost: [
-      //     {
-      //       candles: 94,
-      //       hearts: 0,
-      //       ascended_candles: 2,
-      //     },
-      //   ],
-      //   number_of_visits: [
-      //     // {
-      //     //   visit_date: 'Mar 12, 2020',
-      //     //   visitNo: 4,
-      //     // },
-      //   ],
-      //   spirit_guide_video_url: youtube_embed + '',
-      //   spirit_direction: [
-      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
-      //     'Pagkadating, ay umakyat sa barko at sa gawing kanan makikita kaagad ang spirit na ito.',
-      //   ],
-      // },
-      // //CARNIVAL_JUGGLER
-      // {
-      //   id: 19,
-      //   spirit_id: 'aviary19',
-      //   season_id: 29,
-      //   spirit_type: 'seasonal',
-      //   season: 'Season 29 - Season of Carnival',
-      //   spirit_category: 'emote',
-      //   spirit_relive_type: 'quest-memory',
-      //   difficulty_level: 15,
-      //   difficulty_types: [1, 15],
-      //   spirit_name: 'Carnival Juggler',
-      //   spirit_img_url: CARNIVAL_JUGGLER,
-      //   spirit_image: AVIARY_SPIRIT_5,
-      //   icon_route: SEASON30,
-      //   spirit_collectibles: [
-      //     {
-      //       label: 'Mask',
-      //       img: CJ_ITEM_1,
-      //       currency: 'Season Candles',
-      //       price: 19,
-      //     },
-      //     {
-      //       label: 'Neck Accessory',
-      //       img: CJ_ITEM_2,
-      //       currency: 'Season Candles',
-      //       price: 0,
-      //     },
-      //     {
-      //       label: 'Pants',
-      //       img: CJ_ITEM_3,
-      //       currency: 'Season Candles',
-      //       price: 28,
-      //     },
-      //     {
-      //       label: 'Emote',
-      //       img: CARNIVAL_JUGGLER,
-      //       currency: 'Season Candles',
-      //       price: 24,
-      //     },
-      //   ],
-      //   spirit_tree_cost: [
-      //     {
-      //       candles: 95,
-      //       hearts: 0,
-      //       ascended_candles: 2,
-      //     },
-      //   ],
-      //   number_of_visits: [
-      //     // {
-      //     //   visit_date: 'Mar 12, 2020',
-      //     //   visitNo: 4,
-      //     // },
-      //   ],
-      //   spirit_guide_video_url: youtube_embed + '',
-      //   spirit_direction: [
-      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
-      //     'Pagkadating, ay umakyat sa barko at sa gawing kaliwa makikita kaagad ang spirit na ito.',
-      //   ],
-      // },
-      // //CARNIVAL_PUZZLE_DIRECTOR
-      // {
-      //   id: 20,
-      //   spirit_id: 'aviary20',
-      //   season_id: 29,
-      //   spirit_type: 'seasonal',
-      //   season: 'Season 29 - Season of Carnival',
-      //   spirit_category: 'emote',
-      //   spirit_relive_type: 'quest-memory',
-      //   difficulty_level: 15,
-      //   difficulty_types: [1, 15],
-      //   spirit_name: 'Carnival Puzzle Director',
-      //   spirit_img_url: CARNIVAL_PUZZLE_DIRECTOR,
-      //   spirit_image: AVIARY_SPIRIT_6,
-      //   icon_route: SEASON30,
-      //   spirit_collectibles: [
-      //     {
-      //       label: 'Hair Accessory',
-      //       img: CPD_ITEM_1,
-      //       currency: 'Season Candles',
-      //       price: 28,
-      //     },
-      //     {
-      //       label: 'Hair',
-      //       img: CPD_ITEM_2,
-      //       currency: 'Season Candles',
-      //       price: 0,
-      //     },
-      //     {
-      //       label: 'Pants',
-      //       img: CPD_ITEM_3,
-      //       currency: 'Season Candles',
-      //       price: 0,
-      //     },
-      //     {
-      //       label: 'Emote',
-      //       img: CARNIVAL_PUZZLE_DIRECTOR,
-      //       currency: 'Season Candles',
-      //       price: 24,
-      //     },
-      //   ],
-      //   spirit_tree_cost: [
-      //     {
-      //       candles: 95,
-      //       hearts: 0,
-      //       ascended_candles: 2,
-      //     },
-      //   ],
-      //   number_of_visits: [
-      //     // {
-      //     //   visit_date: 'Mar 12, 2020',
-      //     //   visitNo: 4,
-      //     // },
-      //   ],
-      //   spirit_guide_video_url: youtube_embed + '',
-      //   spirit_direction: [
-      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
-      //     'Pagkadating, ay umakyat sa barko at sa gawing kanan ay may lagusan pababa, pumasok ka,',
-      //     'Tapos sa looban ay kumaliwa ka at diretso lamang hanggang sa makita mo na ang spirit sa gilid ng hagdanan',
-      //   ],
-      // },
-      // //CARNIVAL_PUZZLE_DIRECTOR
-      // {
-      //   id: 20,
-      //   spirit_id: 'aviary20',
-      //   season_id: 29,
-      //   spirit_type: 'seasonal',
-      //   season: 'Season 29 - Season of Carnival',
-      //   spirit_category: 'emote',
-      //   spirit_relive_type: 'quest-memory',
-      //   difficulty_level: 15,
-      //   difficulty_types: [1, 15],
-      //   spirit_name: 'Carnival Stunt Actor',
-      //   spirit_img_url: CARNIVAL_STUNT_ACTOR,
-      //   spirit_image: AVIARY_SPIRIT_7,
-      //   icon_route: SEASON30,
-      //   spirit_collectibles: [
-      //     {
-      //       label: 'Hair Accessory',
-      //       img: CSA_ITEM_1,
-      //       currency: 'Season Candles',
-      //       price: 0,
-      //     },
-      //     {
-      //       label: 'Hair',
-      //       img: CSA_ITEM_2,
-      //       currency: 'Season Candles',
-      //       price: 28,
-      //     },
-      //     {
-      //       label: 'Pants',
-      //       img: CSA_ITEM_3,
-      //       currency: 'Season Candles',
-      //       price: 0,
-      //     },
-      //     {
-      //       label: 'Cape',
-      //       img: CSA_ITEM_4,
-      //       currency: 'Season Candles',
-      //       price: 19,
-      //     },
-      //     {
-      //       label: 'Emote',
-      //       img: CARNIVAL_STUNT_ACTOR,
-      //       currency: 'Season Candles',
-      //       price: 24,
-      //     },
-      //   ],
-      //   spirit_tree_cost: [
-      //     {
-      //       candles: 95,
-      //       hearts: 0,
-      //       ascended_candles: 2,
-      //     },
-      //   ],
-      //   number_of_visits: [
-      //     // {
-      //     //   visit_date: 'Mar 12, 2020',
-      //     //   visitNo: 4,
-      //     // },
-      //   ],
-      //   spirit_guide_video_url: youtube_embed + '',
-      //   spirit_direction: [
-      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
-      //     'Pagkadating, ay umakyat sa barko at sa gawing kanan ay may lagusan pababa, pumasok ka,',
-      //     'Tapos sa looban ay kumaliwa ka at diretso lamang hanggang sa makita mo na ang spirit sa gilid ng hagdanan',
-      //   ],
-      // },
+      //DUTCH_MEMORY
+      {
+        id: 19,
+        spirit_id: 'aviary19',
+        season_id: 30,
+        spirit_type: 'seasonal',
+        season: 'Season 30 - Season of Dear Van Gogh',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_name: 'Dutch Memory',
+        spirit_img_url: DUTCH_MEMORY,
+        spirit_image: AVIARY_SPIRIT_8,
+        icon_route: SEASON30,
+        spirit_collectibles: [
+          {
+            label: 'Hair',
+            img: DM_ITEM_1,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Pants',
+            img: DM_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Cape',
+            img: DM_ITEM_3,
+            currency: 'Season Candles',
+            price: 26,
+          },
+          {
+            label: 'Emote',
+            img: DUTCH_MEMORY,
+            currency: 'Season Candles',
+            price: 22,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 89,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'At Aviary Village, infront of the 6 portals is a cave to Story Space.',
+          'As you enter, find the portal to Season of Dear Van Gogh at the right side of the room.',
+        ],
+      },
+      //RUSTIC_MEMORY
+      {
+        id: 20,
+        spirit_id: 'aviary20',
+        season_id: 30,
+        spirit_type: 'seasonal',
+        season: 'Season 30 - Season of Dear Van Gogh',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_name: 'Rustic Memory',
+        spirit_img_url: RUSTIC_MEMORY,
+        spirit_image: AVIARY_SPIRIT_9,
+        icon_route: SEASON30,
+        spirit_collectibles: [
+          {
+            label: 'Hat',
+            img: RM_ITEM_1,
+            currency: 'Season Candles',
+            price: 26,
+          },
+          {
+            label: 'Cape',
+            img: RM_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Shoes',
+            img: RM_ITEM_3,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Props',
+            img: RM_ITEM_4,
+            currency: 'Season Candles',
+            price: 18,
+          },
+          {
+            label: 'Emote',
+            img: RUSTIC_MEMORY,
+            currency: 'Season Candles',
+            price: 22,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 89,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'At Aviary Village, infront of the 6 portals is a cave to Story Space.',
+          'As you enter, find the portal to Season of Dear Van Gogh at the right side of the room.',
+        ],
+      },
+      //ARTISTIC_MEMORY
+      {
+        id: 21,
+        spirit_id: 'aviary21',
+        season_id: 30,
+        spirit_type: 'seasonal',
+        season: 'Season 30 - Season of Dear Van Gogh',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_name: 'Artistic Memory',
+        spirit_img_url: ARTISTIC_MEMORY,
+        spirit_image: AVIARY_SPIRIT_10,
+        icon_route: SEASON30,
+        spirit_collectibles: [
+          {
+            label: 'Hat',
+            img: AM_ITEM_1,
+            currency: 'Season Candles',
+            price: 18,
+          },
+          {
+            label: 'Cape',
+            img: AM_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Props',
+            img: AM_ITEM_3,
+            currency: 'Season Candles',
+            price: 12,
+          },
+          {
+            label: 'Props',
+            img: AM_ITEM_4,
+            currency: 'Season Candles',
+            price: 10,
+          },
+          {
+            label: 'Emote',
+            img: ARTISTIC_MEMORY,
+            currency: 'Season Candles',
+            price: 22,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 91,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'At Aviary Village, infront of the 6 portals is a cave to Story Space.',
+          'As you enter, find the portal to Season of Dear Van Gogh at the right side of the room.',
+        ],
+      },
+      //JOYFUL_MEMORY
+      {
+        id: 22,
+        spirit_id: 'aviary22',
+        season_id: 30,
+        spirit_type: 'seasonal',
+        season: 'Season 30 - Season of Dear Van Gogh',
+        spirit_category: 'emote',
+        spirit_relive_type: 'quest-memory',
+        difficulty_level: 0,
+        difficulty_types: [14],
+        spirit_name: 'Joyful Memory',
+        spirit_img_url: JOYFUL_MEMORY,
+        spirit_image: AVIARY_SPIRIT_11,
+        icon_route: SEASON30,
+        spirit_collectibles: [
+          {
+            label: 'Hat',
+            img: JM_ITEM_2,
+            currency: 'Season Candles',
+            price: 0,
+          },
+          {
+            label: 'Hair',
+            img: JM_ITEM_2,
+            currency: 'Season Candles',
+            price: 22,
+          },
+          {
+            label: 'Cape',
+            img: JM_ITEM_3,
+            currency: 'Season Candles',
+            price: 26,
+          },
+          {
+            label: 'Emote',
+            img: 'CARNIVAL_ATHLETIC_DANCER',
+            currency: 'Season Candles',
+            price: 22,
+          },
+        ],
+        spirit_tree_cost: [
+          {
+            candles: 111,
+            hearts: 0,
+            ascended_candles: 2,
+          },
+        ],
+        number_of_visits: [
+          // {
+          //   visit_date: 'Mar 12, 2020',
+          //   visitNo: 4,
+          // },
+        ],
+        spirit_guide_video_url: youtube_embed + '',
+        spirit_direction: [
+          'At Aviary Village, infront of the 6 portals is a cave to Story Space.',
+          'As you enter, find the portal to Season of Dear Van Gogh at the right side of the room.',
+        ],
+      },
     ],
     winged_lights: [
       // {
@@ -9442,16 +9471,16 @@ export const allSeasons = [
       // },
     ],
     map_shrines: [
-      // {
-      //   id: 2,
-      //   shrine_group: 'shrine-season-29',
-      //   shrine_label: 'Map Shrine 1',
-      //   shrine_url: AV_MS2 ?? MAP_SHRINE,
-      //   shrine_location: [
-      //     'Sa Aviary Village, dumako sa mga portals, at sa kanan nito ay may bangka papuntang Wandering Carnival Boat',
-      //     'Pagkadating, umakyat sa barko ng Wandering Carnival at sa likod ng Athletic Dancer makikita ang map shrine.',
-      //   ],
-      // },
+      {
+        id: 3,
+        shrine_group: 'shrine-season-30',
+        shrine_label: 'Map Shrine 3',
+        shrine_url: AV_MS3 ?? MAP_SHRINE,
+        shrine_location: [
+          'At Aviary Village, just across the portals, go inside a cave to Story Space for Starry Galley.',
+          'As you enter, find the portal to Season of Dear Van Gogh at the right side of the room.',
+        ],
+      },
     ],
   },
 ]
